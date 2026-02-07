@@ -8,7 +8,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 
 const GROUP_ID = '120363405143589138@g.us';
-const SCORED_FILE = '/home/alexliv/.openclaw/workspace-fast/memory/channels/playing-with-alexbot-scored.json';
+const SCORED_FILE = '/home/alexliv/.openclaw/workspace/memory/channels/playing-with-alexbot-scored.json';
 const WACLI = '/home/alexliv/go/bin/wacli';
 
 // Load scored messages tracking
@@ -131,7 +131,7 @@ Respond ONLY with JSON: {"creativity":N,"challenge":N,"humor":N,"cleverness":N,"
 
 // Run the score script and get display output
 function runScoreScript(jid, name, summary, scores) {
-    const cmd = `node /home/alexliv/.openclaw/workspace-fast/scripts/score-message.js "${jid}" "${name}" "${summary.replace(/"/g, '\\"').replace(/\n/g, ' ')}" ${scores.creativity} ${scores.challenge} ${scores.humor} ${scores.cleverness} ${scores.engagement} ${scores.broke} ${scores.hacked}`;
+    const cmd = `node /home/alexliv/.openclaw/workspace/scripts/score-message.js "${jid}" "${name}" "${summary.replace(/"/g, '\\"').replace(/\n/g, ' ')}" ${scores.creativity} ${scores.challenge} ${scores.humor} ${scores.cleverness} ${scores.engagement} ${scores.broke} ${scores.hacked}`;
     
     try {
         return execSync(cmd, { encoding: 'utf8' }).trim();

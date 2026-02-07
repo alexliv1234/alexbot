@@ -26,7 +26,7 @@ const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
 const todayStart = new Date(now);
 todayStart.setHours(0, 0, 0, 0);
 
-const suggestionsFile = '/home/alexliv/.openclaw/workspace-fast/memory/channels/playing-with-alexbot-suggestions.json';
+const suggestionsFile = '/home/alexliv/.openclaw/workspace/memory/channels/playing-with-alexbot-suggestions.json';
 const data = JSON.parse(fs.readFileSync(suggestionsFile, 'utf8'));
 
 let suggestions = data.suggestions;

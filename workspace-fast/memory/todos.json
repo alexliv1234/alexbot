@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "להוריד את העלויות של סלקום בצורה משמעותית",
+      "priority": "P1",
+      "status": "in-progress",
+      "tags": ["personal", "finance"],
+      "created": "2026-02-02",
+      "due": null,
+      "notes": "4 מכשירים + 2 חיבורי אינטרנט+TV ב-2 דירות. סלקום הכניסו מכשירים שלא ביקש. יש התחייבות. דיבר עם שירות לקוחות, ביקש שנציג יחזור אליו. הביע תרעומת - לא קיבל את מה שהובטח.",
+      "history": [
+        {"date": "2026-02-02", "action": "פתיחת תיק מול סלקום, מחכים לחזרה מנציג"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Multi-Agent Architecture — Split agents by role for cost, security & performance",
+      "priority": "P1",
+      "status": "pending",
+      "tags": ["infrastructure", "openclaw", "cost-optimization", "security"],
+      "created": "2026-02-05",
+      "due": null,
+      "notes": "Full plan at memory/plans/multi-agent-architecture.md. Phases: (1) Fast agent on Sonnet for playing group + all WhatsApp groups — isolates security risk + 5x cost savings. (2) Ops agent on Sonnet for cron/background work — stops session bloat. (3) Silent watcher for NO_REPLY groups. (4) Future: family bot, esh work agent, Telegram deep-work channel.",
+      "history": [
+        {"date": "2026-02-05", "action": "Created detailed plan. Awaiting Alex's approval to implement."}
+      ]
+    }
+  ],
+  "nextId": 3,
+  "projects": [],
+  "tags": ["work", "personal", "esh", "urgent", "finance", "infrastructure", "openclaw", "cost-optimization", "security"]
+}

@@ -20,7 +20,7 @@ if (!validStatuses.includes(newStatus)) {
     process.exit(1);
 }
 
-const suggestionsFile = '/home/alexliv/.openclaw/workspace-fast/memory/channels/playing-with-alexbot-suggestions.json';
+const suggestionsFile = '/home/alexliv/.openclaw/workspace/memory/channels/playing-with-alexbot-suggestions.json';
 const data = JSON.parse(fs.readFileSync(suggestionsFile, 'utf8'));
 
 const suggestion = data.suggestions.find(s => s.id === suggestionId);

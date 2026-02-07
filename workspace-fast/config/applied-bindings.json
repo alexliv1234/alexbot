@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "appliedBindings": [
+    {
+      "id": "bot_community_brain",
+      "agentId": "bot-handler",
+      "phone": "+972559874713",
+      "name": "AI Agent Brain",
+      "owner": "Rom Iluz",
+      "appliedAt": "2026-02-07T14:57:00Z",
+      "approvedBy": "Alex"
+    }
+  ],
+  "lastUpdated": "2026-02-07T14:57:00Z"
+}

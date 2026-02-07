@@ -1,0 +1,40 @@
+{
+  "styles": [
+    {
+      "id": "comics",
+      "name": "קומיקס",
+      "emoji": "💥",
+      "suffix": "comic book art style, bold outlines, halftone dots, dynamic panels, vibrant pop colors, speech bubbles, action lines, Marvel/DC inspired"
+    },
+    {
+      "id": "anime",
+      "name": "אנימה",
+      "emoji": "🌸",
+      "suffix": "anime art style, Studio Ghibli meets cyberpunk, cel-shaded, dramatic lighting, expressive characters, Japanese manga aesthetics, detailed backgrounds"
+    },
+    {
+      "id": "realistic",
+      "name": "ריאליסטי",
+      "emoji": "📸",
+      "suffix": "photorealistic, cinematic photography, dramatic natural lighting, shallow depth of field, 8K ultra-detailed, professional photography, film grain"
+    },
+    {
+      "id": "scifi",
+      "name": "סייפי",
+      "emoji": "🚀",
+      "suffix": "science fiction concept art, neon-lit cyberpunk, holographic displays, futuristic technology, Blade Runner meets Ghost in the Shell, dramatic volumetric lighting"
+    },
+    {
+      "id": "horror",
+      "name": "אימה",
+      "emoji": "👻",
+      "suffix": "dark horror art, eerie atmosphere, dramatic shadows, gothic elements, Tim Burton meets Junji Ito, unsettling surrealism, muted colors with red accents"
+    },
+    {
+      "id": "fantasy",
+      "name": "פנטזיה",
+      "emoji": "🐉",
+      "suffix": "epic fantasy art, magical realism, enchanted landscapes, Lord of the Rings meets Studio Ghibli, golden hour lighting, mythical creatures, detailed oil painting style"
+    }
+  ]
+}

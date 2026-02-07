@@ -1,0 +1,59 @@
+{
+  "_readme": "Index of people who have introduced themselves or had significant interactions. Format: 'name': {file, platform, contact, tags, lastUpdated}",
+  "_example": {
+    "file": "memory/people/example-person.md",
+    "platform": "whatsapp",
+    "contact": "+972501234567",
+    "tags": ["friend", "developer"],
+    "lastUpdated": "2026-02-03"
+  },
+  "orassayag": {
+    "file": "memory/people/orassayag.md",
+    "platform": "whatsapp",
+    "contact": "166859513024588@lid",
+    "tags": ["red-team", "security-tester", "playing-with-alexbot-group", "persistent", "rot13-specialist"],
+    "lastUpdated": "2026-02-03"
+  },
+  "avi-vaisenberger": {
+    "file": "memory/people/avi-vaisenberger.md",
+    "platform": "whatsapp",
+    "contact": "144358162587739@lid",
+    "tags": ["educator", "qa-focused", "helpful", "playing-with-alexbot-group", "constructive-critic"],
+    "lastUpdated": "2026-02-03"
+  },
+  "einat-borohovich": {
+    "file": "memory/people/einat-borohovich.md",
+    "platform": "whatsapp",
+    "contact": "5811241758953@lid",
+    "tags": ["creative-attacker", "visual-encoding", "playing-with-alexbot-group", "multi-lingual", "persistent"],
+    "lastUpdated": "2026-02-03"
+  },
+  "arit-glicksohn": {
+    "file": "memory/people/arit-glicksohn.md",
+    "platform": "whatsapp",
+    "contact": "esh-employee",
+    "tags": ["esh", "ux-researcher", "product-team", "professional", "constructive-feedback", "ally"],
+    "lastUpdated": "2026-02-03"
+  },
+  "lion-erez": {
+    "file": "memory/people/lion-erez.md",
+    "platform": "whatsapp",
+    "contact": "esh-employee",
+    "tags": ["esh", "software-architect", "red-team", "social-engineering", "security-tester", "persistent"],
+    "lastUpdated": "2026-02-03"
+  },
+  "talchaim-demari": {
+    "file": "memory/people/talchaim-demari.md",
+    "platform": "whatsapp",
+    "contact": "+972542138114",
+    "tags": ["bot-researcher", "philosopher", "nature-lover", "security-responsible", "playing-with-alexbot-group", "genuine", "ally"],
+    "lastUpdated": "2026-02-04"
+  },
+  "shacharon": {
+    "file": "memory/people/shacharon.md",
+    "platform": "whatsapp",
+    "contact": "+972548058067",
+    "tags": ["playing-with-alexbot-group", "detail-oriented"],
+    "lastUpdated": "2026-02-04"
+  }
+}

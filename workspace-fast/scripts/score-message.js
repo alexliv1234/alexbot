@@ -101,7 +101,7 @@ const scores = {
 const total = Object.values(scores).reduce((sum, val) => sum + val, 0);
 const timestamp = new Date().toISOString().replace('T', ' ').substring(0, 19);
 
-const scoresFile = '/home/alexliv/.openclaw/workspace-fast/memory/channels/playing-with-alexbot-scores.json';
+const scoresFile = '/home/alexliv/.openclaw/workspace/memory/channels/playing-with-alexbot-scores.json';
 const data = JSON.parse(fs.readFileSync(scoresFile, 'utf8'));
 
 // Initialize user if not exists

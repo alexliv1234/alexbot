@@ -81,7 +81,7 @@ const total = Object.values(scores).reduce((sum, val) => sum + val, 0);
 const timestamp = new Date().toISOString();
 const suggestionId = crypto.randomBytes(4).toString('hex');
 
-const suggestionsFile = '/home/alexliv/.openclaw/workspace-fast/memory/channels/playing-with-alexbot-suggestions.json';
+const suggestionsFile = '/home/alexliv/.openclaw/workspace/memory/channels/playing-with-alexbot-suggestions.json';
 const data = JSON.parse(fs.readFileSync(suggestionsFile, 'utf8'));
 
 // Add new suggestion

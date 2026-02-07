@@ -30,10 +30,10 @@ TS=$(TZ=Asia/Jerusalem date +%H:%M:%S)
 
 # Determine log directory based on channel and chat
 if [ "$CHAT_ID" = "120363405143589138@g.us" ]; then
-  DIR="$HOME/.openclaw/workspace-fast/memory/channels/playing-with-alexbot-daily"
+  DIR="$HOME/.openclaw/workspace/memory/channels/playing-with-alexbot-daily"
 else
   # General log: memory/replies/YYYY-MM-DD.jsonl
-  DIR="$HOME/.openclaw/workspace-fast/memory/replies"
+  DIR="$HOME/.openclaw/workspace/memory/replies"
 fi
 
 FILE="$DIR/$DATE.jsonl"

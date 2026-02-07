@@ -1,0 +1,28 @@
+{
+  "_comment": "Config patch for DM Router - to be applied via gateway.config.patch",
+  
+  "agents.list": "APPEND",
+  "agent_to_add": {
+    "id": "dm-router",
+    "name": "DM Router",
+    "workspace": "/home/alexliv/.openclaw/workspace/workspace-dm-router",
+    "model": "anthropic/claude-sonnet-4-5",
+    "tools": {
+      "profile": "messaging",
+      "deny": ["gateway", "browser", "canvas", "nodes"]
+    }
+  },
+  
+  "binding_to_add": {
+    "agentId": "dm-router",
+    "match": {
+      "channel": "whatsapp",
+      "peer": {
+        "kind": "dm"
+      }
+    },
+    "excludeFrom": ["+972544419002"]
+  },
+  
+  "channels.whatsapp.dmPolicy": "open"
+}

@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "id": "family-mom",
+      "type": "family",
+      "phone": "+972523335482",
+      "name": "אמא (רעיה)",
+      "languages": ["ru", "he"],
+      "permissions": ["full-conversation", "reminders", "calendar-view", "relay-to-owner", "weather", "translation", "general-help"],
+      "restrictions": ["no-private-files", "no-financial", "no-config", "no-work-data"],
+      "tone": "warm-family",
+      "action": "respond"
+    },
+    {
+      "id": "family-dad",
+      "type": "family",
+      "phone": "+972523334825",
+      "name": "אבא",
+      "languages": ["ru", "he"],
+      "languagePreference": "ru",
+      "permissions": ["full-conversation", "reminders", "calendar-view", "relay-to-owner", "weather", "translation", "general-help"],
+      "restrictions": ["no-private-files", "no-financial", "no-config", "no-work-data"],
+      "tone": "warm-family",
+      "action": "respond"
+    },
+    {
+      "id": "bots",
+      "type": "bot-registry",
+      "source": "bots/registry.json",
+      "action": "bot-protocol"
+    },
+    {
+      "id": "owner",
+      "type": "owner",
+      "phone": "+972544419002",
+      "action": "main-session"
+    },
+    {
+      "id": "default",
+      "type": "default",
+      "action": "silent"
+    }
+  ]
+}
