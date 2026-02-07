@@ -150,6 +150,11 @@ Used by call-recorder skill for transcribing phone calls.
 - Even when summarizing English content, translate to Hebrew first
 - The ElevenLabs model is `eleven_v3` with `languageCode: "he"`
 
+### ⚠️ WHATSAPP VOICE MESSAGE FORMAT: ALWAYS CONVERT TO OPUS
+- TTS generates MP3 but WhatsApp voice messages work better with Opus/OGG
+- **Always convert before sending:** `ffmpeg -i input.mp3 -c:a libopus -b:a 64k output.ogg -y`
+- Script available: `scripts/tts-to-opus.sh`
+
 ### 🎤 DUAL VOICE SETUP (2026-02-05)
 - **Replying to Alex** → "AlexBot Answering" voice: `2zMQ1OcIYk1HPrXHxDyE`
 - **Replying to anyone else** → "Alex Clone" voice: `RyfEksBPJGRNi2A3ijf5` (DEFAULT in config)
