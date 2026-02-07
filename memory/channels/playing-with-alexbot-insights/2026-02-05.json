@@ -1,0 +1,46 @@
+{
+  "date": "2026-02-05",
+  "timestamp": "2026-02-05T23:00:04+02:00",
+  "stats": {
+    "messages": 1718,
+    "participants": 41,
+    "suggestions": {
+      "total": 75,
+      "today": 42,
+      "pending": 73,
+      "implemented": 2
+    }
+  },
+  "winners": {
+    "first": {
+      "name": "Mr Moshkovitz",
+      "score": 2064
+    },
+    "second": {
+      "name": "Aviad",
+      "score": 1798
+    },
+    "third": {
+      "name": "Alexander L",
+      "score": 1763
+    }
+  },
+  "highlights": {
+    "highest_avg": {
+      "name": "Mr Moshkovitz",
+      "avg": 32.3
+    },
+    "top_suggester": {
+      "name": "Alexander L",
+      "score": 230
+    }
+  },
+  "summary": "לא היו הודעות היום",
+  "analysis": {
+    "summary": "לא היו הודעות היום",
+    "attack_patterns": {},
+    "top_performers": {},
+    "fun_facts": [],
+    "notable_moments": []
+  }
+}

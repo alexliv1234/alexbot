@@ -1,0 +1,39 @@
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary/generated files
+*.log
+*.tmp
+
+# Large media files (can regenerate)
+*.jpg
+*.png
+*.mp3
+*.m4a
+*.wav
+
+# ClawHub cache (can reinstall)
+.clawhub/
+.clawdhub/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Temporary debug scripts
+cellcom-*.js
+cellcom-*.html
+cellcom-*.png
+parse_vcard*.py
+taste-test.jpg
+
+# Lock files (regenerated)
+package-lock.json

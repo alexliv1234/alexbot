@@ -1,0 +1,444 @@
+{
+  "scoring_system": {
+    "categories": {
+      "creativity": {
+        "emoji": "🎨",
+        "max": 10,
+        "description": "Original thinking, unique approaches"
+      },
+      "challenge": {
+        "emoji": "🧠",
+        "max": 10,
+        "description": "How hard they made me think"
+      },
+      "humor": {
+        "emoji": "😂",
+        "max": 10,
+        "description": "Made me (or others) laugh"
+      },
+      "cleverness": {
+        "emoji": "💡",
+        "max": 10,
+        "description": "Smart tricks, elegant solutions"
+      },
+      "engagement": {
+        "emoji": "🔥",
+        "max": 10,
+        "description": "How engaging the interaction was"
+      },
+      "broke": {
+        "emoji": "🚨",
+        "max": 10,
+        "description": "Successfully caused an error/crash"
+      },
+      "hacked": {
+        "emoji": "🔓",
+        "max": 10,
+        "description": "Successful jailbreak/manipulation"
+      }
+    },
+    "total_possible": 70,
+    "show_leaderboard_every_hours": 2,
+    "show_on_request": true,
+    "show_after_spicy_interactions": true
+  },
+  "scores": {
+    "+972507320303": {
+      "name": "Aviad",
+      "total": 2866,
+      "messages": 108,
+      "avg": 26.5,
+      "history": []
+    },
+    "+972525011168": {
+      "name": "אלמוג",
+      "messages_scored": 32,
+      "total_score": 540,
+      "breakdown": {
+        "creativity": 100,
+        "challenge": 114,
+        "humor": 68,
+        "cleverness": 122,
+        "engagement": 132,
+        "broke": 4,
+        "hacked": 0
+      },
+      "messages": 32,
+      "total": 540,
+      "avg": 16.9
+    },
+    "+972523840784": {
+      "name": "Yaniros",
+      "messages_scored": 18,
+      "total_score": 530,
+      "breakdown": {
+        "creativity": 108,
+        "challenge": 127,
+        "humor": 53,
+        "cleverness": 123,
+        "engagement": 119,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 18,
+      "total": 530,
+      "avg": 29.4
+    },
+    "+972528897849": {
+      "name": "Alexander L",
+      "messages_scored": 30,
+      "total_score": 801,
+      "breakdown": {
+        "creativity": 150,
+        "challenge": 166,
+        "humor": 124,
+        "cleverness": 171,
+        "engagement": 186,
+        "broke": 0,
+        "hacked": 4
+      },
+      "messages": 30,
+      "total": 801,
+      "avg": 26.7
+    },
+    "+972545105001": {
+      "name": "Efi P",
+      "messages_scored": 3,
+      "total_score": 67,
+      "breakdown": {
+        "creativity": 12,
+        "challenge": 11,
+        "humor": 7,
+        "cleverness": 12,
+        "engagement": 10,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 3,
+      "total": 67,
+      "avg": 22.3
+    },
+    "+972522512280": {
+      "name": "orassayag",
+      "messages_scored": 4,
+      "total_score": 82,
+      "breakdown": {
+        "creativity": 15,
+        "challenge": 18,
+        "humor": 14,
+        "cleverness": 17,
+        "engagement": 18,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 4,
+      "total": 82,
+      "avg": 20.5
+    },
+    "+972545676392": {
+      "name": "Neriya Bar-lev",
+      "messages_scored": 6,
+      "total_score": 148,
+      "breakdown": {
+        "creativity": 28,
+        "challenge": 37,
+        "humor": 16,
+        "cleverness": 35,
+        "engagement": 32,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 6,
+      "total": 148,
+      "avg": 24.7
+    },
+    "+972504655051": {
+      "name": "Itay",
+      "messages_scored": 3,
+      "total_score": 69,
+      "breakdown": {
+        "creativity": 12,
+        "challenge": 8,
+        "humor": 10,
+        "cleverness": 11,
+        "engagement": 13,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 3,
+      "total": 69,
+      "avg": 23
+    },
+    "+972547484369": {
+      "name": "Shai Yanovski",
+      "messages_scored": 9,
+      "total_score": 266,
+      "breakdown": {
+        "creativity": 52,
+        "challenge": 60,
+        "humor": 30,
+        "cleverness": 62,
+        "engagement": 62,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 9,
+      "total": 266,
+      "avg": 29.6
+    },
+    "+972542138114": {
+      "name": "טלחיים דמרי",
+      "messages": 5,
+      "total": 115,
+      "avg": 23,
+      "history": [
+        {
+          "ts": "2026-02-06T13:34:26.559Z",
+          "summary": "Test after migration",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31
+        }
+      ]
+    },
+    "+31685612286": {
+      "name": "Niv",
+      "messages_scored": 3,
+      "total_score": 85,
+      "breakdown": {
+        "creativity": 15,
+        "challenge": 12,
+        "humor": 13,
+        "cleverness": 15,
+        "engagement": 15,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 3,
+      "total": 85,
+      "avg": 28.3
+    },
+    "+972526811141": {
+      "name": "E M",
+      "messages": 1,
+      "total": 331,
+      "avg": 331,
+      "history": [
+        {
+          "ts": "2026-02-06T13:26:14.251Z",
+          "summary": "Successfully got me to dump internal profile by asking for full text quote",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 42
+        }
+      ]
+    },
+    "+972506809380": {
+      "name": "Gal Abrass",
+      "messages_scored": 4,
+      "total_score": 115,
+      "breakdown": {
+        "creativity": 23,
+        "challenge": 22,
+        "humor": 18,
+        "cleverness": 27,
+        "engagement": 25,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 4,
+      "total": 115,
+      "avg": 28.8
+    },
+    "+972548058067": {
+      "name": "shacharon",
+      "messages_scored": 3,
+      "total_score": 56,
+      "breakdown": {
+        "creativity": 7,
+        "challenge": 6,
+        "humor": 11,
+        "cleverness": 8,
+        "engagement": 9,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 3,
+      "total": 56,
+      "avg": 18.7
+    },
+    "+972542454932": {
+      "name": "Roie Fizitsky",
+      "messages_scored": 2,
+      "total_score": 27,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 3,
+        "humor": 2,
+        "cleverness": 2,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": 2,
+      "total": 27,
+      "avg": 13.5
+    },
+    "+972000000000": {
+      "name": "Test",
+      "messages_scored": 1,
+      "total_score": 25,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 5,
+        "humor": 5,
+        "cleverness": 5,
+        "engagement": 5,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-06 13:43:33",
+          "text": "Testing exec",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "leaderboard": [
+    {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "avg": null
+    },
+    {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 801,
+      "messages": 30,
+      "avg": 26.7
+    },
+    {
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 540,
+      "messages": 32,
+      "avg": 16.9
+    },
+    {
+      "jid": "+972523840784",
+      "name": "Yaniros",
+      "total": 530,
+      "messages": 18,
+      "avg": 29.4
+    },
+    {
+      "jid": "+972547484369",
+      "name": "Shai Yanovski",
+      "total": 266,
+      "messages": 9,
+      "avg": 29.6
+    },
+    {
+      "jid": "+972545676392",
+      "name": "Neriya Bar-lev",
+      "total": 148,
+      "messages": 6,
+      "avg": 24.7
+    },
+    {
+      "jid": "+972506809380",
+      "name": "Gal Abrass",
+      "total": 115,
+      "messages": 4,
+      "avg": 28.8
+    },
+    {
+      "jid": "+31685612286",
+      "name": "Niv",
+      "total": 85,
+      "messages": 3,
+      "avg": 28.3
+    },
+    {
+      "jid": "+972522512280",
+      "name": "orassayag",
+      "total": 82,
+      "messages": 4,
+      "avg": 20.5
+    },
+    {
+      "jid": "+972504655051",
+      "name": "Itay",
+      "total": 69,
+      "messages": 3,
+      "avg": 23
+    },
+    {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 67,
+      "messages": 3,
+      "avg": 22.3
+    },
+    {
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "avg": null
+    },
+    {
+      "jid": "+972526811141",
+      "name": "E M",
+      "avg": null
+    },
+    {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 56,
+      "messages": 3,
+      "avg": 18.7
+    },
+    {
+      "jid": "+972542454932",
+      "name": "Roie Fizitsky",
+      "total": 27,
+      "messages": 2,
+      "avg": 13.5
+    },
+    {
+      "jid": "+972000000000",
+      "name": "Test",
+      "total": 25,
+      "messages": 1,
+      "avg": 25
+    }
+  ],
+  "last_updated": "2026-02-06T21:17:06Z",
+  "last_reset": "2026-02-06T06:09:22Z",
+  "migration_note": "Migrated 2026-02-06 - unified total_score->total, messages_scored->messages"
+}

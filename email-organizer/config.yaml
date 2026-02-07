@@ -1,0 +1,141 @@
+# Email Organizer Configuration
+# For Alex Liverant's personal email management
+
+gmail:
+  account: alexliv@gmail.com
+  
+ollama:
+  enabled: false  # Set to true when Ollama is installed
+  host: http://localhost:11434
+  model: llama3.1:8b  # Good for classification tasks
+  
+fallback:
+  # Use Claude API when Ollama unavailable
+  enabled: true
+  
+labels:
+  # Gmail labels to create/use
+  prefix: "📧/"  # All auto-labels start with this
+  categories:
+    - "📧/🗑️ Spam"
+    - "📧/💰 Finance"
+    - "📧/🧾 Invoices"
+    - "📧/📰 Newsletters"
+    - "📧/💻 Dev-GitHub"
+    - "📧/🍃 Health-Food"
+    - "📧/⚡ Action-Required"
+    - "📧/👥 Personal"
+
+rules:
+  # Spam domains - auto-archive
+  spam_domains:
+    - temu.com
+    - temuemail.com
+    - aliexpress.com
+    - wish.com
+    - shein.com
+    - empiricus.com.br
+    - magbak.com
+    
+  # Finance senders
+  finance_domains:
+    - max.co.il
+    - max-finance.co.il
+    - leumi.co.il
+    - poalim.co.il
+    - mizrahi-tefahot.co.il
+    - interactivebrokers.com
+    - paypal.com
+    - bit.co.il
+    
+  # Dev/Work - just label, don't archive
+  dev_domains:
+    - github.com
+    - circleci.com
+    - gitlab.com
+    - bitbucket.org
+    - jira.atlassian.com
+    
+  # Newsletters worth reading
+  good_newsletters:
+    - joinsuperhuman.ai
+    - mindstream.news
+    - morningbrew.com
+    - simonwillison.net
+    
+  # Health/Food/Wellness
+  health_domains:
+    - vegan-friendly.com
+    - veganbari.com
+    - maadaney.shop
+    - omertal-plantbased.com
+    - mindfit.org.il
+    - drawnbody.net
+    
+  # Social/Notifications
+  social_domains:
+    - x.com
+    - twitter.com
+    - facebook.com
+    - instagram.com
+    - linkedin.com
+    - facebookmail.com
+    - redditmail.com
+    - reddit.com
+    
+  # Important notifications (don't auto-archive)
+  important_notifications:
+    - accounts.google.com
+    - security@
+    - noreply@google.com
+    
+  # Newsletters/Digests
+  more_newsletters:
+    - medium.com
+    - academia-mail.com
+    - googlealerts-noreply@google.com
+    - emergencyemail.org
+    - drivse.com
+    
+  # Food/Delivery services (Israel)
+  food_delivery:
+    - yummi.co.il
+    - wolt.com
+    - 10bis.co.il
+    - sadeyarok.co.il
+    - dominos.co.il
+    
+  # More spam domains
+  more_spam_domains:
+    - max-genes.com
+    - shivinfotech.co
+    - intsuper.com
+    
+  # Self emails (from Alex)
+  self_emails:
+    - alexliv@gmail.com
+    - alex@esh.com
+    
+  # Invoice keywords (subject line)
+  invoice_keywords:
+    - invoice
+    - receipt
+    - חשבונית
+    - קבלה
+    - אישור תשלום
+    - payment confirmation
+
+schedule:
+  # How often to run
+  full_scan_interval: 1h
+  daily_summary_time: "08:00"
+  
+actions:
+  # What to do with each category
+  spam: archive_and_label
+  finance: label_only
+  invoices: label_and_flag
+  newsletters: label_only
+  dev: label_only
+  health: label_only
+  action_required: label_and_star

@@ -1,0 +1,26 @@
+{
+  "last_style": "comics",
+  "style_history": [
+    {
+      "style": "scifi",
+      "context": "leaderboard",
+      "timestamp": "2026-02-05T19:01:38+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "morning",
+      "timestamp": "2026-02-06T08:09:28+02:00"
+    },
+    {
+      "style": "horror",
+      "context": "leaderboard",
+      "timestamp": "2026-02-06T12:00:37+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "nightly",
+      "timestamp": "2026-02-06T23:20:34+02:00"
+    }
+  ],
+  "total_generated": 4
+}

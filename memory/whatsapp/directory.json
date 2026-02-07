@@ -1,0 +1,938 @@
+{
+  "+972544419002": {
+    "name": "Alex Liverant",
+    "type": "esh_employee",
+    "notes": "Alex's direct WhatsApp",
+    "role": "Co-Founder, CTO",
+    "department": "R&D",
+    "email": "alex@esh.com"
+  },
+  "+972549141742": {
+    "name": "Or",
+    "type": "esh_employee",
+    "notes": "Uses @digital_twin trigger",
+    "role": "AI Architect",
+    "department": "R&D",
+    "email": "or.m@esh.com"
+  },
+  "+972504414412": {
+    "name": "Yonatan Pick",
+    "type": "esh_employee",
+    "notes": "Johnny, Silicon Valley guy",
+    "role": "DevOps Architect",
+    "department": "R&D",
+    "email": "pickjonathan@esh.com"
+  },
+  "+972544984385": {
+    "name": "Tenant",
+    "type": "tenant",
+    "notes": "Rents apartment from Alex, pays 3500 NIS/month"
+  },
+  "+972502277202": {
+    "name": "Shir",
+    "type": "colleague",
+    "language": "English",
+    "notes": "Alex's work partner at Esh! Prefers English. Creating onboarding guides for Claude Code users."
+  },
+  "+972528746934": {
+    "name": "ליאון ארז (Lion)",
+    "type": "esh_employee",
+    "language": "Hebrew",
+    "notes": "From Google contacts: ליאון ארז פוקטפול",
+    "role": "Software Architect",
+    "department": "R&D",
+    "email": "lion@esh.com"
+  },
+  "+972526502033": {
+    "name": "Naftali Senderovich",
+    "type": "friend",
+    "language": "Hebrew",
+    "notes": "Gamer, torrents, doesn't like AI 😅"
+  },
+  "+972507335268": {
+    "name": "Motty Mottey",
+    "type": "contact",
+    "language": "Hebrew",
+    "notes": "Sends Shavua Tov greetings"
+  },
+  "+972523331709": {
+    "name": "Sharon Liverant",
+    "type": "family",
+    "language": "Hebrew",
+    "notes": "Alex's younger brother, product designer, Rehovot"
+  },
+  "+972523334825": {
+    "name": "Dad",
+    "type": "family",
+    "language": "Hebrew",
+    "notes": "Alex's father"
+  },
+  "+972523335482": {
+    "name": "Mom (Mam)",
+    "type": "family",
+    "language": "Hebrew",
+    "notes": "Alex's mother"
+  },
+  "+972546290685": {
+    "name": "רוכאי אש (Rokai)",
+    "type": "esh_employee",
+    "language": "Hebrew/English",
+    "notes": "Esh PM - credit cards & regulation-as-code. Enthusiastic, tech-savvy. PAUSED conversation with bot until further notice.",
+    "role": "Senior Product Manager",
+    "department": "Product",
+    "email": "rochai@esh.com"
+  },
+  "+972547108891": {
+    "name": "יניב (Yaniv)",
+    "type": "esh_employee",
+    "language": "Hebrew",
+    "notes": "Esh colleague, schedules meetings, calendar management",
+    "role": "VP R&D",
+    "department": "R&D",
+    "email": "yaniv.shlomi@esh.com"
+  },
+  "+972544292828": {
+    "name": "רון (Ron)",
+    "type": "esh_employee",
+    "language": "Hebrew",
+    "notes": "Said I'm creepy - sent intro message to explain myself",
+    "role": "R&D Group Lead",
+    "department": "R&D",
+    "email": "ron@esh.com"
+  },
+  "+972548077311": {
+    "name": "עופר כרמי (Ofer Carmi)",
+    "type": "esh_employee",
+    "language": "Hebrew",
+    "notes": "Alex told him about the bot. Open to innovation but mindful of risks.",
+    "role": "Chief Of Staff",
+    "department": "Operations",
+    "email": "ofer@esh.com"
+  },
+  "+972523800959": {
+    "name": "יובל אלוני (Yuval Aloni)",
+    "type": "esh_employee",
+    "language": "Hebrew/English",
+    "notes": "Good friend of Alex. Tested the bot with philosophical questions and Hitchhiker's Guide reference.",
+    "role": "Product Designer",
+    "department": "Product",
+    "email": "yossi@esh.com"
+  },
+  "+972547286226": {
+    "name": "Achimeir Shenwald",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "achimeir@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972547228701": {
+    "name": "Adiel Levy",
+    "type": "esh_employee",
+    "role": "Senior DevOps Engineer",
+    "department": "R&D",
+    "email": "adiel.l@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972546955797": {
+    "name": "Adina Shorr",
+    "type": "esh_employee",
+    "role": "COO",
+    "department": "Finance & Operations",
+    "email": "adina.shorr@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Operations"
+  },
+  "+972585806648": {
+    "name": "Adir Feifel",
+    "type": "esh_employee",
+    "role": "Financial Management Expert",
+    "department": "Finance & Accounting",
+    "email": "adir.f@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Accounting"
+  },
+  "+972548045590": {
+    "name": "Adi Tzurdecker",
+    "type": "esh_employee",
+    "role": "NOC Engineer",
+    "department": "R&D",
+    "email": "adi.t@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972544608611": {
+    "name": "Adi Yosef",
+    "type": "esh_employee",
+    "role": "QA Automation",
+    "department": "R&D",
+    "email": "adi.y@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972502755662": {
+    "name": "Agustina Amir",
+    "type": "esh_employee",
+    "role": "Talent Acquisition Partner",
+    "department": "HR",
+    "email": "agustina.a@esh.com",
+    "language": "he",
+    "notes": "Esh HR"
+  },
+  "+972542057969": {
+    "name": "Alon Rachmil",
+    "type": "esh_employee",
+    "role": "Head of Legal and DPO",
+    "department": "Legal & Regulation",
+    "email": "alon.r@esh.com",
+    "language": "he",
+    "notes": "Esh Legal & Regulation"
+  },
+  "+972504411891": {
+    "name": "Alon Sharf",
+    "type": "esh_employee",
+    "role": "Senior DevOps Engineer",
+    "department": "R&D",
+    "email": "alon.s@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972542059022": {
+    "name": "Amir Steinberg",
+    "type": "esh_employee",
+    "role": "BI Developer",
+    "department": "R&D",
+    "email": "amir.s@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972545217047": {
+    "name": "Ana Malin",
+    "type": "esh_employee",
+    "role": "R&D Team Lead",
+    "department": "R&D",
+    "email": "ana.m@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972549136145": {
+    "name": "Arie Keren",
+    "type": "esh_employee",
+    "role": "Chief Architect",
+    "department": "R&D",
+    "email": "arie@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972507691506": {
+    "name": "Arit Glicksohn",
+    "type": "esh_employee",
+    "role": "UX researcher",
+    "department": "Product",
+    "email": "aritg@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972545466709": {
+    "name": "Asher Sacks",
+    "type": "esh_employee",
+    "role": "GC Head of Operations (Deputy Chief of Staff)",
+    "department": "Operations",
+    "email": "ashers@esh.com",
+    "language": "he",
+    "notes": "Esh Operations"
+  },
+  "+972506973140": {
+    "name": "Aviv Avitan",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "aavitan@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972556684805": {
+    "name": "Ayelet Melamed Gordon",
+    "type": "esh_employee",
+    "role": "VP Operations",
+    "department": "Finance & Operations",
+    "email": "ayelet.m@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Operations"
+  },
+  "+972549407149": {
+    "name": "Bar Chadad",
+    "type": "esh_employee",
+    "role": "Executive Project Manager",
+    "department": "Operations",
+    "email": "bar@esh.com",
+    "language": "he",
+    "notes": "Esh Operations"
+  },
+  "+972524499911": {
+    "name": "Bar Gendel",
+    "type": "esh_employee",
+    "role": "QA Automation",
+    "department": "R&D",
+    "email": "bar.gendel@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972529426187": {
+    "name": "Bar waiss Salhov",
+    "type": "esh_employee",
+    "role": "Chief Internal Auditor",
+    "department": "Internal Audit",
+    "email": "barws@esh.com",
+    "language": "he",
+    "notes": "Esh Internal Audit"
+  },
+  "+972546616205": {
+    "name": "Benny Reich",
+    "type": "esh_employee",
+    "role": "Senior Product Manager",
+    "department": "Product",
+    "email": "benny.reich@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972523846317": {
+    "name": "Bracha Nagar",
+    "type": "esh_employee",
+    "role": "QA Engineer",
+    "department": "R&D",
+    "email": "bracha@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972524372944": {
+    "name": "Dana Aharon",
+    "type": "esh_employee",
+    "role": "VP People",
+    "department": "HR",
+    "email": "danaa@esh.com",
+    "language": "he",
+    "notes": "Esh HR"
+  },
+  "+972546333474": {
+    "name": "Dana Dotan",
+    "type": "esh_employee",
+    "role": "Head Of Design",
+    "department": "Product",
+    "email": "dana.dotan@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972545661799": {
+    "name": "Daniel Chernyavsky",
+    "type": "esh_employee",
+    "role": "Customer Service Lead",
+    "department": "Banking & Credit",
+    "email": "daniel.c@esh.com",
+    "language": "he",
+    "notes": "Esh Banking & Credit"
+  },
+  "+972547247633": {
+    "name": "Danny Inbar",
+    "type": "esh_employee",
+    "role": "Product Team Lead",
+    "department": "Product",
+    "email": "danny@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972528405865": {
+    "name": "Danor Ezra",
+    "type": "esh_employee",
+    "role": "QA Engineer",
+    "department": "R&D",
+    "email": "danor@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972543516395": {
+    "name": "Dassy Stenge",
+    "type": "esh_employee",
+    "role": "Payment Specialist",
+    "department": "Banking & Credit",
+    "email": "dassy.s@esh.com",
+    "language": "he",
+    "notes": "Esh Banking & Credit"
+  },
+  "+972502052290": {
+    "name": "Dor Alon",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "dor@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972525424042": {
+    "name": "Harel Rozental",
+    "type": "esh_employee",
+    "role": "R&D Team Lead",
+    "department": "R&D",
+    "email": "h.rozental@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972545876176": {
+    "name": "Hila Ben Hamou",
+    "type": "esh_employee",
+    "role": "VP Product",
+    "department": "Product",
+    "email": "hila@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972545560542": {
+    "name": "Idan Levi",
+    "type": "esh_employee",
+    "role": "Mobile Frontend Engineer",
+    "department": "R&D",
+    "email": "idan@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972547646092": {
+    "name": "Idan Levy",
+    "type": "esh_employee",
+    "role": "Accountant",
+    "department": "Finance & Accounting",
+    "email": "idan.l@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Accounting"
+  },
+  "+972544969044": {
+    "name": "Idan Naveh",
+    "type": "esh_employee",
+    "role": "Senior QA Engineer",
+    "department": "R&D",
+    "email": "idan.n@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972544404235": {
+    "name": "Irit Goren",
+    "type": "esh_employee",
+    "role": "Operational, IT and Cyber Security Risk Officer",
+    "department": "Risk Management",
+    "email": "irit@esh.com",
+    "language": "he",
+    "notes": "Esh Risk Management"
+  },
+  "+972545269035": {
+    "name": "Itay Manor",
+    "type": "esh_employee",
+    "role": "Data Officer",
+    "department": "Information Technology & Security",
+    "email": "itay.m@esh.com",
+    "language": "he",
+    "notes": "Esh Information Technology & Security"
+  },
+  "+972545970097": {
+    "name": "Jacob Garten",
+    "type": "esh_employee",
+    "role": "Banking Advisor",
+    "department": "Banking & Credit",
+    "email": "jacob@esh.com",
+    "language": "he",
+    "notes": "Esh Banking & Credit"
+  },
+  "+972508177842": {
+    "name": "Jeffrey Ben",
+    "type": "esh_employee",
+    "role": "Mobile Frontend Engineer",
+    "department": "R&D",
+    "email": "jeffrey.b@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972546863511": {
+    "name": "Jeny Ben Ezry",
+    "type": "esh_employee",
+    "role": "Head of Executive Operations",
+    "department": "Operations",
+    "email": "jenyb@esh.com",
+    "language": "he",
+    "notes": "Esh Operations"
+  },
+  "+972523610103": {
+    "name": "Keren Tzizer Maletski",
+    "type": "esh_employee",
+    "role": "Head of Payments",
+    "department": "Banking & Credit",
+    "email": "keren@esh.com",
+    "language": "he",
+    "notes": "Esh Banking & Credit"
+  },
+  "+972507743113": {
+    "name": "Kobi Malkin",
+    "type": "esh_employee",
+    "role": "Bank CEO",
+    "department": "CEO",
+    "email": "kobi@esh.com",
+    "language": "he",
+    "notes": "Esh CEO"
+  },
+  "+972522610738": {
+    "name": "Lee Rozen",
+    "type": "esh_employee",
+    "role": "NOC Engineer",
+    "department": "R&D",
+    "email": "lee.r@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972508822868": {
+    "name": "Liav Daniel",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "liav@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972548639845": {
+    "name": "Li-Elle Decano",
+    "type": "esh_employee",
+    "role": "Product Operations",
+    "department": "Product",
+    "email": "lielle@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972523345668": {
+    "name": "Lilach Asulin",
+    "type": "esh_employee",
+    "role": "Internal Auditor",
+    "department": "Internal Audit",
+    "email": "lilach.a@esh.com",
+    "language": "he",
+    "notes": "Esh Internal Audit"
+  },
+  "+972547503410": {
+    "name": "Lilach Ritter",
+    "type": "esh_employee",
+    "role": "R&D Group Lead",
+    "department": "R&D",
+    "email": "lilach@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972547662773": {
+    "name": "Lior Levi",
+    "type": "esh_employee",
+    "role": "DevOps Engineer",
+    "department": "R&D",
+    "email": "lior.l@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972523262616": {
+    "name": "Liran Gon",
+    "type": "esh_employee",
+    "role": "Junior Data Analyst",
+    "department": "Information Technology & Security",
+    "email": "liran.g@esh.com",
+    "language": "he",
+    "notes": "Esh Information Technology & Security"
+  },
+  "+972542550060": {
+    "name": "Lital Frankel",
+    "type": "esh_employee",
+    "role": "CMO",
+    "department": "Marketing",
+    "email": "lital.f@esh.com",
+    "language": "he",
+    "notes": "Esh Marketing"
+  },
+  "+972544522135": {
+    "name": "Ludmila Portugeis",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "ludmila.p@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972544512871": {
+    "name": "Maeva Shalom",
+    "type": "esh_employee",
+    "role": "Senior Product Designer",
+    "department": "Product",
+    "email": "maeva@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972546556431": {
+    "name": "Maor Saadia",
+    "type": "esh_employee",
+    "role": "Head of Credit Cards",
+    "department": "Banking & Credit",
+    "email": "maor.s@esh.com",
+    "language": "he",
+    "notes": "Esh Banking & Credit"
+  },
+  "+972504401408": {
+    "name": "Maor Sitbon",
+    "type": "esh_employee",
+    "role": "IT Specialist",
+    "department": "R&D",
+    "email": "maor@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972526747915": {
+    "name": "Masha Cohen",
+    "type": "esh_employee",
+    "role": "Senior Product Manager",
+    "department": "Product",
+    "email": "masha@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972546764136": {
+    "name": "Max Nemirovsky",
+    "type": "esh_employee",
+    "role": "Product Designer",
+    "department": "Product",
+    "email": "maxn@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972524744074": {
+    "name": "Maya Shaked",
+    "type": "esh_employee",
+    "role": "Operations Manager",
+    "department": "Finance & Operations",
+    "email": "maya@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Operations"
+  },
+  "+972546669765": {
+    "name": "Netta Fogiel Abraham",
+    "type": "esh_employee",
+    "role": "HR Manager",
+    "department": "HR",
+    "email": "netta@esh.com",
+    "language": "he",
+    "notes": "Esh HR"
+  },
+  "+972545932381": {
+    "name": "Nikita Starchenko",
+    "type": "esh_employee",
+    "role": "Product Security Expert",
+    "department": "Cyber & Security",
+    "email": "nikita@esh.com",
+    "language": "he",
+    "notes": "Esh Cyber & Security"
+  },
+  "+972523271114": {
+    "name": "Noa Livne",
+    "type": "esh_employee",
+    "role": "Operations Manager",
+    "department": "Operations",
+    "email": "noa.l@esh.com",
+    "language": "he",
+    "notes": "Esh Operations"
+  },
+  "+972509404066": {
+    "name": "Noa Nachshoni",
+    "type": "esh_employee",
+    "role": "Product Manager",
+    "department": "Product",
+    "email": "noan@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972525461456": {
+    "name": "Noa Vered Kressel",
+    "type": "esh_employee",
+    "role": "Product Manager",
+    "department": "Product",
+    "email": "noa.kressel@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972525335272": {
+    "name": "Noa Yudkin",
+    "type": "esh_employee",
+    "role": "Office Admin and Employee Experience",
+    "department": "GITAM",
+    "email": "noa.y@esh.com",
+    "language": "he",
+    "notes": "Esh GITAM"
+  },
+  "+972586562126": {
+    "name": "Noemie Ben Denoun",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "noemie.bendenoun@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972544829193": {
+    "name": "Nurit Yeshurun",
+    "type": "esh_employee",
+    "role": "QA Engineer",
+    "department": "R&D",
+    "email": "nurit.y@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972542057887": {
+    "name": "Oded Gal",
+    "type": "esh_employee",
+    "role": "Senior Product Manager",
+    "department": "Product",
+    "email": "oded@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972543093027": {
+    "name": "Ofer Itach",
+    "type": "esh_employee",
+    "role": "Risk Analyst - Financial Crime",
+    "department": "Risk Management",
+    "email": "ofer.i@esh.com",
+    "language": "he",
+    "notes": "Esh Risk Management"
+  },
+  "+972526414166": {
+    "name": "Ofer Zernichov",
+    "type": "esh_employee",
+    "role": "Enterprise Security Engineer",
+    "department": "Cyber & Security",
+    "email": "ofer.z@esh.com",
+    "language": "he",
+    "notes": "Esh Cyber & Security"
+  },
+  "+972545968781": {
+    "name": "Ohad Schwarz",
+    "type": "esh_employee",
+    "role": "Senior DevOps Engineer",
+    "department": "R&D",
+    "email": "ohad@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972543933450": {
+    "name": "Olga Voltynyuk",
+    "type": "esh_employee",
+    "role": "QA Engineer",
+    "department": "R&D",
+    "email": "olgav@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972546724445": {
+    "name": "Oren Shahar",
+    "type": "esh_employee",
+    "role": "Procurement Expert",
+    "department": "Finance & Operations",
+    "email": "oren.s@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Operations"
+  },
+  "+972507777572": {
+    "name": "Ori Markovitch",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "ori.m@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972524673370": {
+    "name": "Or Sasson",
+    "type": "esh_employee",
+    "role": "Front-End Engineer",
+    "department": "R&D",
+    "email": "orsasson@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972526507956": {
+    "name": "Oshrat Levi",
+    "type": "esh_employee",
+    "role": "Head of Accounting",
+    "department": "Finance & Accounting",
+    "email": "oshrat@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Accounting"
+  },
+  "+972542878478": {
+    "name": "Oshrat Shlomovich",
+    "type": "esh_employee",
+    "role": "QA Automation",
+    "department": "R&D",
+    "email": "oshrats@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972528663283": {
+    "name": "Rafi Kriman",
+    "type": "esh_employee",
+    "role": "COO and Bank Secretary",
+    "department": "Operations",
+    "email": "rafi@esh.com",
+    "language": "he",
+    "notes": "Esh Operations"
+  },
+  "+972546651047": {
+    "name": "Rami Kantor",
+    "type": "esh_employee",
+    "role": "R&D Team Lead",
+    "department": "R&D",
+    "email": "rami.kantor@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972523737673": {
+    "name": "Rita Kaplan Solomon",
+    "type": "esh_employee",
+    "role": "Senior Product Designer",
+    "department": "Product",
+    "email": "rita.kaplan@esh.com",
+    "language": "he",
+    "notes": "Esh Product"
+  },
+  "+972508376498": {
+    "name": "Roee Cohen",
+    "type": "esh_employee",
+    "role": "R&D Team Lead",
+    "department": "R&D",
+    "email": "roee.c@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972508897585": {
+    "name": "Roi Frayberg",
+    "type": "esh_employee",
+    "role": "Chief Banking & Credit",
+    "department": "Banking & Credit",
+    "email": "roi@esh.com",
+    "language": "he",
+    "notes": "Esh Banking & Credit"
+  },
+  "+972502216025": {
+    "name": "Roy Schonberg",
+    "type": "esh_employee",
+    "role": "Mobile Frontend Engineer",
+    "department": "R&D",
+    "email": "roy.s@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972528908890": {
+    "name": "Tzur Avner",
+    "type": "esh_employee",
+    "role": "Software Architect",
+    "department": "R&D",
+    "email": "tzur.avner@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972547770330": {
+    "name": "Udi Ashkenazi",
+    "type": "esh_employee",
+    "role": "R&D Group Lead",
+    "department": "R&D",
+    "email": "udi@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972542266355": {
+    "name": "Yael Shainberg Vaknin",
+    "type": "esh_employee",
+    "role": "CISO",
+    "department": "Cyber & Security",
+    "email": "yaelv@esh.com",
+    "language": "he",
+    "notes": "Esh Cyber & Security"
+  },
+  "+972528346282": {
+    "name": "Yahav Hamburg",
+    "type": "esh_employee",
+    "role": "Senior DevOps Engineer",
+    "department": "R&D",
+    "email": "yahav.h@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972502028993": {
+    "name": "Yaniv Salomon",
+    "type": "esh_employee",
+    "role": "CFO and Chief Accountant",
+    "department": "Finance & Accounting",
+    "email": "yaniv@esh.com",
+    "language": "he",
+    "notes": "Esh Finance & Accounting"
+  },
+  "+972544797412": {
+    "name": "Yaniv Shay",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "yaniv.shay@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972507803515": {
+    "name": "Yan Kotliarov",
+    "type": "esh_employee",
+    "role": "CEO Assistant",
+    "department": "Operations",
+    "email": "yan@esh.com",
+    "language": "he",
+    "notes": "Esh Operations"
+  },
+  "+972528351020": {
+    "name": "Yossi Guetta",
+    "type": "esh_employee",
+    "role": "R&D Team Lead",
+    "department": "R&D",
+    "email": "yevgeni.k@esh.com",
+    "language": "he",
+    "notes": "Esh R&D - prefers to be called Yossi Guetta"
+  },
+  "+972504840490": {
+    "name": "Yuval Aloni",
+    "type": "esh_employee",
+    "role": "Co-Founder, CEO",
+    "department": "CEO",
+    "email": "aloni@esh.com",
+    "language": "he",
+    "notes": "Esh CEO"
+  },
+  "+972522345901": {
+    "name": "Yuval Zilber",
+    "type": "esh_employee",
+    "role": "Backend Engineer",
+    "department": "R&D",
+    "email": "zilber@esh.com",
+    "language": "he",
+    "notes": "Esh R&D"
+  },
+  "+972549109484": {
+    "name": "Zahi Varon",
+    "type": "esh_employee",
+    "role": "Office of the CISO",
+    "department": "Information Technology & Security",
+    "email": "zahi@esh.com",
+    "language": "he",
+    "notes": "Esh Information Technology & Security"
+  },
+  "+972547454241": {
+    "name": "Ella (אלה)",
+    "type": "esh_employee",
+    "role": "Service Manager",
+    "language": "he",
+    "notes": "מנהלת שירות מספר 1 בארץ - her words! Playful, calls the bot בוטוקס"
+  }
+}

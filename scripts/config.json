@@ -1,0 +1,8 @@
+{
+  "messageLengthGuard": {
+    "enabled": true,
+    "thresholdTokens": 20000,
+    "rejectionMessage": "🛑 ההודעה שלך ארוכה מדי (>20k טוקנים). בבקשה תקצר אותה או תחלק לכמה הודעות קצרות יותר.",
+    "rejectionMessageEn": "🛑 Your message is too long (>20k tokens). Please shorten it or split it into multiple shorter messages."
+  }
+}

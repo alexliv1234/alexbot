@@ -1,0 +1,15 @@
+{
+  "daily": {
+    "2026-01-31": {
+      "received": 45,
+      "sent": 28,
+      "contacts": ["rokai-esh", "shir", "sharon-liverant", "naftali-senderovich", "lion", "alex", "unknown-972547108891", "unknown-972544292828"]
+    }
+  },
+  "totals": {
+    "received": 45,
+    "sent": 28
+  },
+  "lastUpdated": "2026-01-31T19:32:00+02:00",
+  "note": "Counter started mid-day, numbers are estimates for today"
+}

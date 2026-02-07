@@ -1,0 +1,25 @@
+{
+  "id": "session-guardian",
+  "description": "Monitors and manages session size, prevents context overflow",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "maxSessionSizeKb": {
+        "type": "number",
+        "description": "Maximum session file size in KB before cleanup",
+        "default": 100
+      },
+      "maxMessageTokens": {
+        "type": "number",
+        "description": "Maximum tokens allowed in a single message",
+        "default": 20000
+      },
+      "checkIntervalMs": {
+        "type": "number",
+        "description": "How often to check session sizes (milliseconds)",
+        "default": 180000
+      }
+    }
+  }
+}

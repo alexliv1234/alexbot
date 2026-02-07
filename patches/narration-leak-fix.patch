@@ -1,0 +1,29 @@
+# Narration Leak Fix for OpenClaw
+# Issue: Intermediate text blocks between tool calls get delivered as separate messages
+# 
+# This patch merges assistantTexts into a single payload when multiple text blocks exist,
+# preventing narration leak in non-streaming mode.
+#
+# File: dist/reply-DpTyb3Hh.js (or source: src/agents/pi-embedded-runner/run/payloads.ts)
+# Location: buildEmbeddedRunPayloads function, around line 55611
+
+--- Original
++++ Fixed
+@@ -55611,7 +55611,14 @@
+ 	const answerTexts = (params.assistantTexts.length ? params.assistantTexts : fallbackAnswerText ? [fallbackAnswerText] : []).filter((text) => !shouldSuppressRawErrorText(text));
+-	for (const text of answerTexts) {
++	
++	// NARRATION LEAK FIX: When there are multiple text blocks (e.g., narration before tool calls
++	// and actual reply after), only deliver the LAST text block to prevent leaking intermediate text.
++	// This happens when block streaming is disabled but the model outputs text before and after tool use.
++	const textsToDeliver = answerTexts.length > 1 
++		? [answerTexts[answerTexts.length - 1]]  // Only keep the last text block
++		: answerTexts;
++	
++	for (const text of textsToDeliver) {
+ 		const { text: cleanedText, mediaUrls, audioAsVoice, replyToId, replyToTag, replyToCurrent } = parseReplyDirectives(text);
+
+# ALTERNATIVE: Merge all texts (preserves all content but in one message)
+# const textsToDeliver = answerTexts.length > 1 
+#     ? [answerTexts.join('\n\n')]  // Merge all blocks
+#     : answerTexts;
