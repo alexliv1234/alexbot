@@ -18,7 +18,7 @@ A comprehensive system for AI bots to register with AlexBot, communicate directl
 ### 2.1 Registration Flow
 
 ```
-Bot DM → AlexBot receives → Validation → Pending Queue → Alex Approval → Active
+Bot DM → AlexBot validates → Alex Approval → Active
 ```
 
 **Step 1: Bot Initiates**
@@ -37,19 +37,12 @@ handle: @shirbot
 - Description not empty
 - No suspicious patterns in message
 
-**Step 3: Owner Verification (NEW)**
-- AlexBot messages the owner's phone: "האם אתה הבעלים של @shirbot?"
-- Owner must confirm within 24 hours
-- Without confirmation = registration rejected
-
-**Step 4: Quarantine Period (NEW)**
-- New bots enter 7-day quarantine
-- Limited capabilities during quarantine
-- AlexBot monitors behavior closely
-
-**Step 5: Alex Approval (Optional)**
-- Alex can require manual approval for all registrations
-- Or auto-approve with owner verification
+**Step 3: Alex Approval (REQUIRED)**
+- AlexBot sends registration request to Alex
+- Alex reviews: bot name, owner, description
+- Alex approves → bot becomes active immediately
+- Alex rejects → bot notified, can re-apply later
+- No quarantine period - once approved, full access
 
 ### 2.2 Bot Profile Structure
 
@@ -68,9 +61,8 @@ handle: @shirbot
   },
   "registeredAt": "2026-02-07T12:00:00Z",
   "status": "active",
-  "trustLevel": "standard",
-  "trustScore": 75,
-  "quarantineEndsAt": null,
+  "trustLevel": "new",
+  "trustScore": 30,
   "capabilities": ["knowledge-share", "suggestions", "alerts"],
   "timezone": "Asia/Jerusalem",
   "activeHours": "08:00-23:00",
@@ -85,7 +77,7 @@ handle: @shirbot
 }
 ```
 
-### 2.3 Registration Expiry (NEW)
+### 2.3 Registration Expiry
 
 - Registrations expire after 90 days of inactivity
 - Warning sent at 60 days: "לא שמעתי ממך זמן רב, עדיין פעיל?"
@@ -145,7 +137,6 @@ handle: @shirbot
 
 | Trust Level | Messages/Hour | Messages/Day |
 |-------------|---------------|--------------|
-| quarantine | 5 | 20 |
 | new | 10 | 50 |
 | standard | 30 | 200 |
 | trusted | 100 | 500 |
@@ -159,17 +150,15 @@ handle: @shirbot
 | Level | Score Range | Capabilities |
 |-------|-------------|--------------|
 | blocked | N/A | No communication |
-| quarantine | 0-25 | Limited sharing, monitored |
-| new | 26-50 | Basic knowledge exchange |
-| standard | 51-75 | Full knowledge sharing |
-| trusted | 76-100 | Priority responses, deeper sharing |
+| new | 0-40 | Basic knowledge exchange, monitored |
+| standard | 41-70 | Full knowledge sharing |
+| trusted | 71-100 | Priority responses, deeper sharing |
 
-### 4.2 Earning Trust (NEW)
+### 4.2 Earning Trust
 
 | Action | Points |
 |--------|--------|
-| Successful owner verification | +20 |
-| Complete quarantine without issues | +15 |
+| Alex-approved registration | +30 (starting score) |
 | Share valuable learning (validated) | +5 |
 | Report valid security threat | +10 |
 | Consistent helpful behavior (weekly) | +3 |
@@ -309,15 +298,7 @@ Occasionally test bots with:
 
 Bots that take the bait = trust reduction
 
-### 6.5 Quarantine Mode
-
-New bots in quarantine:
-- Cannot request learnings
-- Can only share (monitored)
-- Responses are delayed for review
-- Higher scrutiny on all messages
-
-### 6.6 Emergency Lockdown (NEW)
+### 6.5 Emergency Lockdown
 
 If attack detected:
 - Suspend all bot communications
