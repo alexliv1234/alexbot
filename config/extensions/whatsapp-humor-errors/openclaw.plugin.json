@@ -1,0 +1,12 @@
+{
+  "id": "whatsapp-humor-errors",
+  "name": "Humorous Error Messages",
+  "version": "3.0.0",
+  "description": "Intercepts error messages via message_sending hook and replaces with humor. Notifies owner with real error.",
+  "entry": "index.ts",
+  "configSchema": {
+    "enabled": { "type": "boolean", "default": true },
+    "ownerPhone": { "type": "string", "default": "+972544419002", "description": "Phone to send real errors to" },
+    "notifyOwner": { "type": "boolean", "default": true, "description": "Send real error details to owner" }
+  }
+}

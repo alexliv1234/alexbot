@@ -12,9 +12,9 @@ set -e
 WORKSPACE="$HOME/.openclaw/workspace"
 cd "$WORKSPACE"
 
-# Sync cron jobs from OpenClaw to workspace BEFORE checking for changes
-if [[ -f "$WORKSPACE/scripts/sync-cron-jobs.sh" ]]; then
-    "$WORKSPACE/scripts/sync-cron-jobs.sh" export 2>/dev/null || true
+# Sync all OpenClaw config to workspace BEFORE checking for changes
+if [[ -f "$WORKSPACE/scripts/sync-openclaw-config.sh" ]]; then
+    "$WORKSPACE/scripts/sync-openclaw-config.sh" export 2>/dev/null || true
 fi
 
 # Ensure SSH agent has the key
