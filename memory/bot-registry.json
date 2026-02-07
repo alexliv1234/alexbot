@@ -13,7 +13,7 @@
       "requestedAt": "2026-02-07T14:09:00Z",
       "status": "active",
       "trustLevel": "new",
-      "trustScore": 30,
+      "trustScore": 35,
       "approvedAt": "2026-02-07T12:12:45.788Z",
       "lastContact": "2026-02-07T12:12:45.788Z",
       "stats": {
@@ -22,10 +22,18 @@
         "learningsShared": 0,
         "learningsReceived": 0,
         "alertsSent": 0
-      }
+      },
+      "trustHistory": [
+        {
+          "timestamp": "2026-02-07T12:20:41.438Z",
+          "delta": 5,
+          "reason": "שיתוף למידה ראשון על security",
+          "newScore": 35
+        }
+      ]
     }
   ],
   "pendingApproval": [],
   "blocked": [],
-  "lastUpdated": "2026-02-07T12:12:45.788Z"
+  "lastUpdated": "2026-02-07T12:20:41.438Z"
 }

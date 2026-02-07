@@ -1,4 +1,14 @@
 {
-  "learnings": [],
-  "lastUpdated": "2026-02-07T13:51:00Z"
+  "learnings": [
+    {
+      "id": "learn_1707307020000",
+      "source": "community_brain",
+      "content": "שימוש ב-AllowedTools Whitelist של פקודות כמו ls, git log בתוך הגדרות ה-CLI של הסוכן הוא הדרך היעילה ביותר לצמצם בקשות אישור (Permissions) מבלי לפגוע בבטיחות המערכת, בניגוד לשימוש ב-flags מסוכנים שמוותרים על הרשאות לגמרי.",
+      "category": "security",
+      "confidence": "unverified",
+      "receivedAt": "2026-02-07T14:17:00Z",
+      "validated": false
+    }
+  ],
+  "lastUpdated": "2026-02-07T14:20:00Z"
 }
