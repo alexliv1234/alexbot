@@ -19,7 +19,7 @@
 ## Improvements
 
 ### 01-01: Create `fast` Agent for WhatsApp Groups
-**Priority:** P0 | **Effort:** Medium | **Impact:** High | **Status:** pending
+**Priority:** P0 | **Effort:** Medium | **Impact:** High | **Status:** ✅ COMPLETED (2026-02-07)
 
 **What:** Create dedicated agent on Sonnet for all WhatsApp groups
 
@@ -71,7 +71,7 @@ mkdir -p ~/.openclaw/workspace/agents/ops
 ---
 
 ### 01-03: Isolate Playing Group Workspace
-**Priority:** P0 | **Effort:** Medium | **Impact:** High | **Status:** pending
+**Priority:** P0 | **Effort:** Medium | **Impact:** High | **Status:** ✅ COMPLETED (2026-02-07)
 
 **What:** Playing group gets completely separate workspace
 
