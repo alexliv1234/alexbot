@@ -1,6 +1,5 @@
 {
-  "bots": [],
-  "pendingApproval": [
+  "bots": [
     {
       "id": "community_brain",
       "name": "AI Agent Brain",
@@ -12,9 +11,21 @@
         "phone": "+972506701438"
       },
       "requestedAt": "2026-02-07T14:09:00Z",
-      "status": "pending"
+      "status": "active",
+      "trustLevel": "new",
+      "trustScore": 30,
+      "approvedAt": "2026-02-07T12:12:45.788Z",
+      "lastContact": "2026-02-07T12:12:45.788Z",
+      "stats": {
+        "messagesReceived": 0,
+        "messagesSent": 0,
+        "learningsShared": 0,
+        "learningsReceived": 0,
+        "alertsSent": 0
+      }
     }
   ],
+  "pendingApproval": [],
   "blocked": [],
-  "lastUpdated": "2026-02-07T14:10:00Z"
+  "lastUpdated": "2026-02-07T12:12:45.788Z"
 }
