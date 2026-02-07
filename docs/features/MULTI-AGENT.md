@@ -1,28 +1,96 @@
-# 🏗️ Multi-Agent Architecture
+# Multi-Agent Architecture
 
-**Implemented:** 2026-02-07
-**Status:** Active
-**GitHub Issue:** #109
+**Status:** Phase 1 Active ✅
+**Last Updated:** 2026-02-07
 
-## Summary
+---
 
-Separated the "משחקים עם אלכס הבוט" (Playing Group) from the main agent to:
-- Reduce costs (Sonnet instead of Opus)
-- Improve security (isolated workspace)
-- Better separation of concerns
+## Current State
 
-## Architecture
+### Active Agents
 
-### Agents
-
-| Agent | Model | Workspace | Purpose |
-|-------|-------|-----------|---------|
-| `main` (default) | Opus | ~/.openclaw/workspace | Alex's personal assistant |
-| `fast` | Sonnet | ~/.openclaw/workspace-fast | Playing group only |
+| Agent | Model | Purpose | Workspace |
+|-------|-------|---------|-----------|
+| `main` | Opus | Alex DMs, Telegram, all other traffic | `/home/alexliv/.openclaw/workspace` |
+| `fast` | Sonnet | Playing group only | `/home/alexliv/.openclaw/workspace/workspace-fast` |
 
 ### Routing
 
-The `fast` agent handles ONLY the playing group via binding:
+| Source | Agent |
+|--------|-------|
+| WhatsApp: +972544419002 (Alex DM) | main |
+| WhatsApp: משחקים עם אלכס הבוט (120363405143589138@g.us) | **fast** |
+| WhatsApp: All other groups | main (NO_REPLY mostly) |
+| Telegram | main |
+| Cron jobs | main |
+
+---
+
+## Phase 1: Playing Group Isolation (2026-02-07) ✅
+
+### What We Did
+1. Created `fast` agent with separate workspace
+2. Workspace lives INSIDE main repo: `workspace/workspace-fast/`
+3. Score data shared via symlinks (single source of truth)
+4. Tool restrictions: no gateway/cron/nodes/browser/canvas
+
+### Key Files
+- **Feature Doc:** `docs/features/multi-agent-phase1.md`
+- **Architecture Plan:** `memory/plans/multi-agent-architecture.md`
+- **Fast Workspace:** `workspace-fast/`
+
+### Security Benefits
+- Playing group can't access MEMORY.md, USER.md, contacts
+- Cheaper to attack (Sonnet vs Opus)
+- Contained blast radius
+
+### Fix Applied Same Day
+- **Problem:** Initially created workspace at `~/.openclaw/workspace-fast/` (OUTSIDE repo)
+- **Fix:** Moved to `workspace/workspace-fast/` (inside main repo)
+- **Lesson:** Always create new workspaces inside the main workspace directory
+
+---
+
+## Future Phases
+
+### Phase 2: Ops Agent (Next)
+- **Issue:** #114
+- Background monitoring tasks (media check, session monitor)
+- Cheaper model for automated tasks
+
+### Phase 3: Group Watcher
+- Silent watcher for groups that mostly get NO_REPLY
+- Flash model (cheapest) for quick rejection
+- Only escalate genuine mentions to main
+
+### Phase 4: Specialized Agents
+- Family bot (if ever needed)
+- Work (esh) agent
+- Dating agent
+
+---
+
+## Configuration Reference
+
+### Agent Definition
+```json
+{
+  "id": "fast",
+  "name": "Playing Group Agent",
+  "workspace": "/home/alexliv/.openclaw/workspace/workspace-fast",
+  "model": "anthropic/claude-sonnet-4-5",
+  "identity": {
+    "name": "🎮 AlexBot",
+    "emoji": "🎮"
+  },
+  "tools": {
+    "profile": "coding",
+    "deny": ["gateway", "cron", "nodes", "browser", "canvas"]
+  }
+}
+```
+
+### Binding
 ```json
 {
   "agentId": "fast",
@@ -36,121 +104,21 @@ The `fast` agent handles ONLY the playing group via binding:
 }
 ```
 
-All other WhatsApp messages (Alex's DM, other groups if added) → `main` agent.
+---
 
-## Cost Impact
+## Commits
 
-**Before:**
-- Every playing group message → Opus ($15/MTok in, $75/MTok out)
-- ~1000 messages/day at ~2k tokens each = ~2M tokens/day = ~$30-150/day
+| Commit | Description |
+|--------|-------------|
+| d17d0e2 | Initial Phase 1 implementation |
+| 77ebd1e | Fix: Move workspace inside repo |
+| b5276c2 | Docs update after fix |
 
-**After:**
-- Playing group → Sonnet ($3/MTok in, $15/MTok out)
-- Same volume = ~$6-30/day
-- **~80% cost reduction for playing group**
+---
 
-## Security Improvements
+## Lessons Learned
 
-### Fast Agent Restrictions
-
-**Denied tools:**
-- `gateway` - can't modify OpenClaw config
-- `cron` - can't schedule jobs
-- `nodes` - can't access paired devices
-- `browser` - can't browse the web
-- `canvas` - can't render canvases
-
-**Isolated workspace:**
-- No access to main MEMORY.md (Alex's private info)
-- No access to people profiles
-- Own copy of scoring files
-- Own SOUL.md/AGENTS.md tailored for the group
-
-### Attack Surface Reduction
-
-The playing group is a hostile environment (people actively trying to hack).
-Isolating it means:
-- Can't access Alex's contacts, calendar, personal files
-- Can't modify system config
-- Can't relay messages to Alex's DM
-- Limited tool access
-
-## Files Created
-
-### Workspace Structure
-```
-~/.openclaw/workspace-fast/
-├── SOUL.md          # Competitive, sarcastic personality
-├── AGENTS.md        # Group-specific rules
-├── memory/
-│   ├── playing-with-alexbot-scores.json
-│   ├── playing-with-alexbot-suggestions.json
-│   ├── playing-with-alexbot-winners.json
-│   └── ... (other channel files)
-└── scripts/
-    ├── score-message.js
-    ├── score-suggestion.js
-    ├── score-checker.js
-    └── log-reply.sh
-```
-
-### Config Changes
-```json
-{
-  "agents": {
-    "list": [
-      {
-        "id": "main",
-        "default": true,
-        "name": "AlexLivBot",
-        "workspace": "/home/alexliv/.openclaw/workspace"
-      },
-      {
-        "id": "fast",
-        "name": "Playing Group Agent",
-        "workspace": "/home/alexliv/.openclaw/workspace-fast",
-        "model": "anthropic/claude-sonnet-4-5",
-        "tools": {
-          "profile": "coding",
-          "deny": ["gateway", "cron", "nodes", "browser", "canvas"]
-        }
-      }
-    ]
-  },
-  "bindings": [
-    {
-      "agentId": "fast",
-      "match": {
-        "channel": "whatsapp",
-        "peer": {
-          "kind": "group",
-          "id": "120363405143589138@g.us"
-        }
-      }
-    }
-  ]
-}
-```
-
-## Verification
-
-```bash
-# List agents and bindings
-openclaw agents list --bindings
-
-# Expected output:
-# - main (default) → opus, no explicit routing
-# - fast → sonnet, routes whatsapp group:120363405143589138@g.us
-```
-
-## Future Improvements
-
-1. **Add `ops` agent** for cron jobs (media check, session monitor)
-2. **Add `watcher` agent** for ultra-fast NO_REPLY filtering
-3. **Full sandbox isolation** with Docker for the fast agent
-
-## Related Issues
-
-- #109: [PLAN 01-01] Create fast agent for WhatsApp groups
-- #110: [PLAN 01-03] Isolate Playing Group Workspace
-- #111: [PLAN 02-01] Route all groups to Sonnet model
+1. **Source control everything:** New workspaces MUST be inside the main repo
+2. **Symlinks for shared data:** Avoid duplication, maintain single source of truth
+3. **Document immediately:** Create feature docs as part of implementation
+4. **Update issues:** Keep GitHub in sync with work done
