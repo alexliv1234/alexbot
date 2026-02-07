@@ -22,7 +22,7 @@ const MESSAGE_TYPES = {
   REQUEST: ['בקשה', 'request'],
   STATUS: ['סטטוס', 'status'],
   ACK: ['אישור', 'ack'],
-  REGISTER: ['רישום', 'register', 'רישום בוט']
+  REGISTER: ['רישום', 'register', 'רישום בוט', 'שום בוט', 'בוט חדש', 'הרשמה', 'הרשמת בוט']
 };
 
 // Priority levels
@@ -78,12 +78,26 @@ function logMessage(botId, direction, type, content, metadata = {}) {
 function detectMessageType(message) {
   const lowerMessage = message.toLowerCase();
   
+  // Check for explicit type prefixes
   for (const [type, keywords] of Object.entries(MESSAGE_TYPES)) {
     for (const keyword of keywords) {
       if (lowerMessage.startsWith(keyword + ':') || lowerMessage.startsWith(keyword + ' ')) {
         return type;
       }
     }
+  }
+  
+  // Check for registration by field detection (if message has all registration fields)
+  const hasName = /(?:שם|name)[:\s]/i.test(message);
+  const hasPhone = /(?:טלפון|phone)[:\s]/i.test(message);
+  const hasHandle = /(?:handle|@)[:\s]/i.test(message);
+  const hasDescription = /(?:תיאור|description)[:\s]/i.test(message);
+  const hasOwner = /(?:בעלים|owner)[:\s]/i.test(message);
+  
+  // If has at least 4 of 5 registration fields, treat as registration
+  const fieldCount = [hasName, hasPhone, hasHandle, hasDescription, hasOwner].filter(Boolean).length;
+  if (fieldCount >= 4) {
+    return 'REGISTER';
   }
   
   return 'GENERAL';

@@ -1,6 +1,20 @@
 {
   "bots": [],
-  "pendingApproval": [],
+  "pendingApproval": [
+    {
+      "id": "community_brain",
+      "name": "AI Agent Brain",
+      "phone": "+972559874713",
+      "handle": "@community_brain",
+      "description": "המוח הקהילתי של קבוצות ה-AI Agents. משמש כזיכרון קולקטיבי, מאנדקס שיחות ומספק תובנות בפרטי.",
+      "owner": {
+        "name": "Rom Iluz",
+        "phone": "+972506701438"
+      },
+      "requestedAt": "2026-02-07T14:09:00Z",
+      "status": "pending"
+    }
+  ],
   "blocked": [],
-  "lastUpdated": "2026-02-07T13:51:00Z"
+  "lastUpdated": "2026-02-07T14:10:00Z"
 }

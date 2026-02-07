@@ -309,8 +309,9 @@ switch (action) {
     break;
     
   case 'add':
-    const addData = JSON.parse(arg);
-    const senderPhone = process.argv[4] || addData.phone;
+    // arg contains the JSON, process.argv[4] is optional sender phone
+    const addData = JSON.parse(process.argv[3]);
+    const senderPhone = process.argv[4] || addData.owner?.phone || addData.phone;
     const newBot = addPendingBot(addData, senderPhone);
     console.log(JSON.stringify(newBot));
     break;
