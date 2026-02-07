@@ -1,7 +1,11 @@
 #!/bin/bash
 # git-auto-commit.sh - Auto-commit changes every 10 minutes
 # Created: 2026-02-07
-# Purpose: Keep the AlexBot workspace synced to GitHub with detailed commit messages
+# Purpose: Keep AlexBot's workspace synced to GitHub with detailed, self-aware commit messages
+#
+# Commit messages tell the story of my evolution as an AI assistant.
+# Each commit shows what changed and WHY - whether initiated by Alex, 
+# by my own learning, or by automated processes.
 
 set -e
 
@@ -26,97 +30,137 @@ SKILL_CHANGES=$(git diff --name-only -- 'skills/*' 2>/dev/null | wc -l)
 CORE_CHANGES=$(git diff --name-only -- '*.md' 2>/dev/null | grep -v memory | wc -l || echo 0)
 PLAN_CHANGES=$(git diff --name-only -- 'memory/plans/*' 2>/dev/null | wc -l)
 PEOPLE_CHANGES=$(git diff --name-only -- 'memory/people/*' 'memory/.private/*' 'memory/whatsapp/contacts/*' 2>/dev/null | wc -l)
+DAILY_NOTES=$(git diff --name-only -- 'memory/2026-*.md' 2>/dev/null | wc -l)
+CALL_TRANSCRIPTS=$(git diff --name-only -- 'memory/call-transcripts/*' 2>/dev/null | wc -l)
 
 # Also count new untracked files
 NEW_FILES=$(git ls-files --others --exclude-standard | wc -l)
 
-# Build commit message
+# Build commit message with self-aware context
 COMMIT_TYPE="chore"
 COMMIT_SCOPE="sync"
 SUBJECT_PARTS=()
 BODY_LINES=()
 
+# Add self-awareness header
+BODY_LINES+=("🤖 AlexBot Self-Update")
+BODY_LINES+=("========================")
+BODY_LINES+=("")
+BODY_LINES+=("Triggered by: Automated sync (cron job)")
+BODY_LINES+=("Timestamp: $(date '+%Y-%m-%d %H:%M:%S %Z')")
+BODY_LINES+=("")
+
+# Determine the nature of changes
 if [ "$CORE_CHANGES" -gt 0 ]; then
-    COMMIT_TYPE="feat"
-    COMMIT_SCOPE="core"
-    SUBJECT_PARTS+=("core identity updates")
-    BODY_LINES+=("Core files modified:")
+    COMMIT_TYPE="evolve"
+    COMMIT_SCOPE="identity"
+    SUBJECT_PARTS+=("identity/personality updates")
+    BODY_LINES+=("## 🧠 Core Identity Evolution")
+    BODY_LINES+=("My core personality or rules were updated:")
     for f in $(git diff --name-only -- '*.md' 2>/dev/null | grep -v memory | head -5); do
         BODY_LINES+=("  - $f")
     done
+    BODY_LINES+=("")
 fi
 
 if [ "$SCRIPT_CHANGES" -gt 0 ]; then
-    COMMIT_TYPE="feat"
-    COMMIT_SCOPE="scripts"
-    SUBJECT_PARTS+=("script updates")
-    BODY_LINES+=("")
-    BODY_LINES+=("Scripts modified:")
+    COMMIT_TYPE="enhance"
+    COMMIT_SCOPE="capabilities"
+    SUBJECT_PARTS+=("new/improved capabilities")
+    BODY_LINES+=("## ⚡ Capability Enhancement")
+    BODY_LINES+=("My automation scripts were improved:")
     for f in $(git diff --name-only -- 'scripts/*' 2>/dev/null | head -5); do
         BODY_LINES+=("  - $f")
     done
+    BODY_LINES+=("")
 fi
 
 if [ "$SKILL_CHANGES" -gt 0 ]; then
-    COMMIT_TYPE="feat"
+    COMMIT_TYPE="enhance"
     COMMIT_SCOPE="skills"
     SUBJECT_PARTS+=("skill updates")
-    BODY_LINES+=("")
-    BODY_LINES+=("Skills modified:")
+    BODY_LINES+=("## 🎯 Skill Development")
+    BODY_LINES+=("My skills were enhanced or added:")
     for f in $(git diff --name-only -- 'skills/*' 2>/dev/null | head -5); do
         BODY_LINES+=("  - $f")
     done
+    BODY_LINES+=("")
 fi
 
 if [ "$PLAN_CHANGES" -gt 0 ]; then
-    SUBJECT_PARTS+=("improvement plans")
-    BODY_LINES+=("")
-    BODY_LINES+=("Plans modified:")
+    COMMIT_TYPE="plan"
+    if [ "$COMMIT_SCOPE" = "sync" ]; then
+        COMMIT_SCOPE="roadmap"
+    fi
+    SUBJECT_PARTS+=("improvement planning")
+    BODY_LINES+=("## 📋 Self-Improvement Planning")
+    BODY_LINES+=("Updated my improvement roadmap:")
     for f in $(git diff --name-only -- 'memory/plans/*' 2>/dev/null | head -5); do
         BODY_LINES+=("  - $f")
     done
+    BODY_LINES+=("")
 fi
 
 if [ "$MEMORY_CHANGES" -gt 0 ] || [ "$CHANNEL_CHANGES" -gt 0 ]; then
     if [ "$COMMIT_SCOPE" = "sync" ]; then
         COMMIT_SCOPE="memory"
     fi
-    SUBJECT_PARTS+=("memory/channel updates")
+    SUBJECT_PARTS+=("learned from interactions")
+    BODY_LINES+=("## 📚 Learning & Memory")
+    BODY_LINES+=("I learned and stored new information:")
+    BODY_LINES+=("  - Memory files updated: $MEMORY_CHANGES")
+    BODY_LINES+=("  - Channel context updated: $CHANNEL_CHANGES")
     BODY_LINES+=("")
-    BODY_LINES+=("Memory files updated: $MEMORY_CHANGES")
-    BODY_LINES+=("Channel files updated: $CHANNEL_CHANGES")
 fi
 
 if [ "$PEOPLE_CHANGES" -gt 0 ]; then
-    SUBJECT_PARTS+=("contact/people updates")
+    SUBJECT_PARTS+=("relationship learning")
+    BODY_LINES+=("## 👥 Relationship Memory")
+    BODY_LINES+=("Updated my understanding of people I interact with:")
+    BODY_LINES+=("  - Profiles updated: $PEOPLE_CHANGES")
     BODY_LINES+=("")
-    BODY_LINES+=("People/contact profiles updated: $PEOPLE_CHANGES")
+fi
+
+if [ "$DAILY_NOTES" -gt 0 ]; then
+    SUBJECT_PARTS+=("daily journaling")
+    BODY_LINES+=("## 📅 Daily Notes")
+    BODY_LINES+=("Recorded my daily activities and learnings.")
+    BODY_LINES+=("")
+fi
+
+if [ "$CALL_TRANSCRIPTS" -gt 0 ]; then
+    SUBJECT_PARTS+=("call processing")
+    BODY_LINES+=("## 📞 Call Transcripts")
+    BODY_LINES+=("Processed and stored new call transcriptions.")
+    BODY_LINES+=("")
 fi
 
 if [ "$NEW_FILES" -gt 0 ]; then
-    SUBJECT_PARTS+=("$NEW_FILES new files")
-    BODY_LINES+=("")
-    BODY_LINES+=("New files added: $NEW_FILES")
+    SUBJECT_PARTS+=("$NEW_FILES new additions")
+    BODY_LINES+=("## ✨ New Files Added: $NEW_FILES")
     for f in $(git ls-files --others --exclude-standard | head -5); do
         BODY_LINES+=("  + $f")
     done
     if [ "$NEW_FILES" -gt 5 ]; then
         BODY_LINES+=("  ... and $((NEW_FILES - 5)) more")
     fi
+    BODY_LINES+=("")
 fi
+
+# Add footer
+BODY_LINES+=("---")
+BODY_LINES+=("This commit represents my continuous evolution as Alex's AI assistant.")
+BODY_LINES+=("Each change makes me better at helping him.")
 
 # Build final subject
 if [ ${#SUBJECT_PARTS[@]} -eq 0 ]; then
-    SUBJECT="chore(sync): periodic sync $(date '+%Y-%m-%d %H:%M')"
+    SUBJECT="🤖 sync: periodic self-update $(date '+%H:%M')"
 else
-    SUBJECT="$COMMIT_TYPE($COMMIT_SCOPE): $(IFS=', '; echo "${SUBJECT_PARTS[*]}")"
+    SUBJECT="🤖 $COMMIT_TYPE($COMMIT_SCOPE): $(IFS=', '; echo "${SUBJECT_PARTS[*]}")"
 fi
 
 # Build final body
-BODY="Automatic commit by git-auto-commit.sh
-Timestamp: $(date '+%Y-%m-%d %H:%M:%S %Z')
-
-$(printf '%s\n' "${BODY_LINES[@]}")"
+BODY="$(printf '%s\n' "${BODY_LINES[@]}")"
 
 # Stage all changes
 git add -A

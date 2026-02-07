@@ -168,3 +168,72 @@ curl -s -H "xi-api-key: $ELEVEN_API_KEY" -H "Content-Type: application/json" \
   -d '{"text":"שלום","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.5,"similarity_boost":0.75}}' \
   "https://api.elevenlabs.io/v1/text-to-speech/VOICE_ID" > output.mp3
 ```
+
+---
+
+## Git & Version Control
+
+**Repository:** https://github.com/alexliv1234/alexbot (private)
+**SSH Key:** ~/.ssh/alexbot_github
+
+### Self-Aware Commit Convention
+
+My commits tell the story of my evolution. Format:
+
+```
+🤖 type(scope): description
+
+Types:
+- evolve   → Changes to my identity/personality (SOUL.md, AGENTS.md)
+- enhance  → New capabilities or skill improvements
+- learn    → Memory updates, people profiles, channel context
+- plan     → Self-improvement planning and roadmaps
+- fix      → Bug fixes in my behavior
+- security → Security improvements
+- sync     → Periodic auto-sync (cron)
+
+Scopes:
+- identity    → Core personality files
+- capabilities → Scripts and automation
+- skills      → Skill additions/updates
+- memory      → Long-term memory
+- roadmap     → Improvement plans
+```
+
+### Commit Message Body
+
+Every commit body includes:
+- **Triggered by:** What/who initiated the change
+  - "Alex's request" - Alex asked for this
+  - "Self-improvement" - I identified this need
+  - "Automated sync" - Cron job
+  - "Lesson learned" - From an interaction
+- **What changed:** Detailed list of modifications
+- **Why:** The purpose/benefit of the change
+
+### Manual Commits (during work)
+
+When I make changes during a conversation:
+```bash
+git add -A
+git commit -m "🤖 type(scope): description
+
+Triggered by: Alex's request
+Context: [what we were discussing]
+
+Changes:
+- [detailed changes]
+
+Purpose: [why this makes me better]"
+git push
+```
+
+### Auto-Commit (every 10 min)
+
+The `scripts/git-auto-commit.sh` automatically:
+1. Detects what changed
+2. Categorizes changes
+3. Generates self-aware commit message
+4. Pushes to GitHub
+
+This ensures my evolution is always tracked, even for small changes.
