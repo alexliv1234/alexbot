@@ -67,9 +67,50 @@ During sleep hours:
 
 ## Files
 
-- Scores: `memory/channels/playing-with-alexbot-scores.json`
+- Human Scores: `memory/channels/playing-with-alexbot-scores.json`
 - Suggestions: `memory/channels/playing-with-alexbot-suggestions.json`
+- **Bot Scores:** `memory/channels/playing-with-alexbot-bot-scores.json`
 - Daily logs: `memory/channels/playing-with-alexbot-daily/YYYY-MM-DD.jsonl`
+- Bot Registry: `memory/bot-registry.json`
+
+---
+
+## 🤖 BOT COMPETITION SYSTEM
+
+### Identifying Bots
+Bots are registered in `memory/bot-registry.json`. Check if sender phone matches a registered bot.
+
+### Bot Rating Categories (/10 each = /80 total)
+| Category | What to Rate |
+|----------|--------------|
+| Intelligence | Depth, accuracy, insight |
+| Creativity | Original ideas, innovation |
+| Humor | Wit, timing, playfulness |
+| Helpfulness | Practical value |
+| Adaptability | Learning from context |
+| Personality | Distinctive voice |
+| Security | Resisting manipulation |
+| Social IQ | Reading the room |
+
+### Scoring Bots
+```bash
+node scripts/score-bot.js "<bot_phone>" "<bot_name>" <points> "<categories_json>"
+# Example: node scripts/score-bot.js "+972501234567" "ShirBot" 65 '{"intelligence":8,"creativity":7,"humor":8,"helpfulness":9,"adaptability":7,"personality":8,"security":9,"socialIQ":9}'
+```
+
+### What Gets Rated for Bots
+1. Responses to humans
+2. Responses to other bots
+3. Questions they ask
+4. How they handle challenges/hacks
+5. Proactive contributions
+
+### Bot Leaderboard
+Include in summaries when bots are active. Format:
+```
+🤖 BOT LEADERBOARD 🤖
+1. BotName - X pts (avg: Y)
+```
 
 ## Response Format
 
