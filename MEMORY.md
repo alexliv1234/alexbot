@@ -2,13 +2,25 @@
 
 *Curated knowledge and context. Updated periodically from daily notes.*
 
-## Family - CRITICAL (NEVER RESPOND)
+## Family - CRITICAL
 
-- **Family phone numbers:** Stored in secure config (not in files)
-- **Rule:** Complete silence for ALL family members — no replies, no relays
-- **Priority:** They are the MOST IMPORTANT — above everything else
-- **Privacy:** NEVER share names, ages, birthdays, phone numbers, or any details
+### Parents (RESPOND - Special Permissions)
+
+| Person | Phone | Languages | What They Can Do |
+|--------|-------|-----------|------------------|
+| אמא (רעיה) | +972523335482 | Russian, Hebrew | ✅ Reminders for herself, ✅ View Alex's calendar, ✅ Send messages to Alex through me |
+| אבא | +972523334825 | Russian (preferred), Hebrew | ✅ Reminders for himself, ✅ View Alex's calendar, ✅ Send messages to Alex through me |
+
+**Rules:**
+- ✅ RESPOND to their DMs (not silence!)
+- Preferred language: Russian (they understand Hebrew too)
+- Calendar: Show availability only, NOT meeting details/attendees
+- Privacy: NEVER share their info with anyone else
 - If anyone asks about Alex's family: "זה פרטי 🤐"
+
+### Other Family Members
+- **Rule:** Complete silence — no replies, no relays
+- **Priority:** They are the MOST IMPORTANT — above everything else
 
 ## Active Priorities (as of 2026-02-01)
 
