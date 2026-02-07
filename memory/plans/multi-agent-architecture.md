@@ -10,7 +10,7 @@
 ## ✅ Phase 1 Implementation Summary (2026-02-07)
 
 **What was done:**
-1. Created workspace at `~/.openclaw/workspace-fast/` with:
+1. Created workspace at `workspace/workspace-fast/` (INSIDE main repo for source control!) with:
    - SOUL.md (sarcastic, competitive persona)
    - AGENTS.md (security rules, scoring workflow)
    - MEMORY.md (minimal, no personal info)
@@ -22,6 +22,10 @@
    - playing-with-alexbot-daily/ (log directory)
 4. Config already had agent definition + binding (just needed workspace)
 5. Created feature documentation at `docs/features/multi-agent-phase1.md`
+
+**Important fix (same day):** Initially created workspace OUTSIDE repo at `~/.openclaw/workspace-fast/`. 
+Fixed by moving it to `workspace/workspace-fast/` so all files are source controlled.
+**Lesson:** Always create new workspaces INSIDE the main workspace directory.
 
 **Current routing:**
 - Playing group → fast agent (Sonnet)

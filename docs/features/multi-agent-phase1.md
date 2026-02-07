@@ -1,6 +1,7 @@
 # Multi-Agent Architecture - Phase 1: Fast Agent
 
 **Implemented:** 2026-02-07
+**Updated:** 2026-02-07 (workspace moved inside main repo)
 **Status:** Active
 
 ## Overview
@@ -19,7 +20,7 @@ Phase 1 of the multi-agent architecture introduces a separate "fast" agent that 
 {
   "id": "fast",
   "name": "Playing Group Agent",
-  "workspace": "/home/alexliv/.openclaw/workspace-fast",
+  "workspace": "/home/alexliv/.openclaw/workspace/workspace-fast",
   "model": "anthropic/claude-sonnet-4-5",
   "identity": {
     "name": "🎮 AlexBot",
@@ -52,17 +53,19 @@ Phase 1 of the multi-agent architecture introduces a separate "fast" agent that 
 
 ## Workspace Structure
 
+**Important:** The fast workspace is INSIDE the main repo for source control.
+
 ```
-~/.openclaw/workspace-fast/
+workspace/workspace-fast/               # INSIDE main repo!
 ├── SOUL.md          # Sarcastic, competitive persona
 ├── AGENTS.md        # Restricted security rules, scoring workflow
 ├── MEMORY.md        # Minimal memory (no personal info)
 ├── TOOLS.md         # Available scoring scripts
 ├── memory/
-│   └── channels/
-│       ├── playing-with-alexbot-scores.json      → symlink to main
-│       ├── playing-with-alexbot-suggestions.json → symlink to main
-│       └── playing-with-alexbot-daily/           → symlink to main
+│   ├── channels → ../../memory/channels (symlink)
+│   ├── playing-with-alexbot-scores.json → ../../memory/channels/... (symlink)
+│   ├── playing-with-alexbot-suggestions.json → ... (symlink)
+│   └── ... (other score files are also symlinks)
 └── scripts/
     ├── score-message.js        # Score challenges (/70)
     ├── score-suggestion.js     # Score suggestions (/50)
@@ -71,6 +74,8 @@ Phase 1 of the multi-agent architecture introduces a separate "fast" agent that 
     ├── log-reply.sh            # Log bot replies
     └── score-checker.js        # Verify scoring
 ```
+
+**Why inside the main repo?** All workspace files should be source controlled. The fast workspace is tracked in git alongside the main workspace.
 
 ## What the Fast Agent CAN Do
 
