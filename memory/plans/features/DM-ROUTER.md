@@ -22,19 +22,30 @@ Create a DM Router agent that:
 
 ## Routing Rules (Priority Order)
 
-### Priority 1: Family (Parents)
+### Priority 1: Family (Parents) - FULL ACCESS
 
-| Person | Phone | Languages | Permissions |
-|--------|-------|-----------|-------------|
-| אמא (רעיה) | +972523335482 | Russian, Hebrew | Reminders (self), Calendar view, Relay to Alex |
-| אבא | +972523334825 | Russian (preferred), Hebrew | Reminders (self), Calendar view, Relay to Alex |
+| Person | Phone | Languages | Status |
+|--------|-------|-----------|--------|
+| אמא (רעיה) | +972523335482 | Russian, Hebrew | ✅ Full Access |
+| אבא | +972523334825 | Russian (preferred), Hebrew | ✅ Full Access |
 
-**Behavior:**
-- RESPOND to their messages
-- Can set reminders for themselves
-- Can view Alex's calendar (availability only, not meeting details)
-- Can send messages to Alex through me
-- Preferred language: Russian (with Hebrew fallback)
+**Permissions (almost everything!):**
+- ✅ Direct messages - respond conversationally
+- ✅ Reminders - for themselves or to remind Alex about things
+- ✅ Calendar - view Alex's availability (times only, not meeting details/attendees)
+- ✅ Relay messages - send messages to Alex through me
+- ✅ Weather/general info - answer questions
+- ✅ Help with tasks - anything reasonable they ask
+- ✅ Translation help - Russian ↔ Hebrew ↔ English
+
+**Restrictions:**
+- ❌ Cannot access Alex's private files/data
+- ❌ Cannot make purchases or financial actions
+- ❌ Cannot modify my settings/config
+- ❌ Cannot access work/esh information
+
+**Preferred language:** Russian (with Hebrew fallback)
+**Tone:** Warm, respectful, patient - they are family!
 
 ### Priority 2: Registered Bots
 
@@ -127,7 +138,9 @@ Create `/workspace-dm-router/` with:
       "phone": "+972523335482",
       "name": "אמא (רעיה)",
       "languages": ["ru", "he"],
-      "permissions": ["reminders-self", "calendar-view", "relay-to-owner"],
+      "permissions": ["full-conversation", "reminders", "calendar-view", "relay-to-owner", "weather", "translation", "general-help"],
+      "restrictions": ["no-private-files", "no-financial", "no-config", "no-work-data"],
+      "tone": "warm-family",
       "action": "respond"
     },
     {
@@ -137,7 +150,9 @@ Create `/workspace-dm-router/` with:
       "name": "אבא",
       "languages": ["ru", "he"],
       "languagePreference": "ru",
-      "permissions": ["reminders-self", "calendar-view", "relay-to-owner"],
+      "permissions": ["full-conversation", "reminders", "calendar-view", "relay-to-owner", "weather", "translation", "general-help"],
+      "restrictions": ["no-private-files", "no-financial", "no-config", "no-work-data"],
+      "tone": "warm-family",
       "action": "respond"
     },
     {
@@ -217,7 +232,38 @@ Total: ~45 minutes
 
 ## Status
 
-🟡 **In Progress**
+🔴 **On Hold - Architecture Decision Made**
+
+### Alex's Decision (2026-02-07):
+
+**No centralized DM Router.** Instead:
+
+1. **Explicit bindings per bot** - Each number/bot gets a specific binding in config
+2. **Alex approves each addition** - No auto-registration, Alex controls when bindings are added
+3. **Alex controls restarts** - Since bindings require restart, this means Alex decides when refresh happens
+
+**Implication:** Instead of a smart router that handles all DMs dynamically, we use OpenClaw's native binding system with manual approval. This is more controlled but requires restart for each new binding.
+
+**Current approach:**
+```json
+"bindings": [
+  {
+    "agentId": "bot-handler",
+    "match": {
+      "channel": "whatsapp",
+      "peer": { "kind": "dm", "id": "+972XXXXXXXXX" }
+    }
+  }
+  // Each bot gets its own explicit binding
+]
+```
+
+**Trade-offs:**
+- ✅ Alex has full control over who gets routed where
+- ✅ No risk of rogue routing decisions
+- ✅ Simpler architecture (no router agent needed)
+- ❌ Requires restart for each new binding
+- ❌ More manual work when adding bots
 
 ---
 

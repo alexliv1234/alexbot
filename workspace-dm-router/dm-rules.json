@@ -1,62 +1,45 @@
 {
   "version": "1.0",
-  "description": "DM routing rules - checked in priority order",
   "rules": [
     {
       "id": "family-mom",
-      "priority": 1,
       "type": "family",
       "phone": "+972523335482",
       "name": "אמא (רעיה)",
       "languages": ["ru", "he"],
-      "languagePreference": "ru",
-      "permissions": [
-        "reminders-self",
-        "calendar-view-availability",
-        "relay-to-owner"
-      ],
+      "permissions": ["full-conversation", "reminders", "calendar-view", "relay-to-owner", "weather", "translation", "general-help"],
+      "restrictions": ["no-private-files", "no-financial", "no-config", "no-work-data"],
+      "tone": "warm-family",
       "action": "respond"
     },
     {
       "id": "family-dad",
-      "priority": 1,
       "type": "family",
       "phone": "+972523334825",
       "name": "אבא",
       "languages": ["ru", "he"],
       "languagePreference": "ru",
-      "permissions": [
-        "reminders-self",
-        "calendar-view-availability",
-        "relay-to-owner"
-      ],
+      "permissions": ["full-conversation", "reminders", "calendar-view", "relay-to-owner", "weather", "translation", "general-help"],
+      "restrictions": ["no-private-files", "no-financial", "no-config", "no-work-data"],
+      "tone": "warm-family",
       "action": "respond"
     },
     {
       "id": "bots",
-      "priority": 2,
       "type": "bot-registry",
-      "source": "../bots/registry.json",
+      "source": "bots/registry.json",
       "action": "bot-protocol"
     },
     {
       "id": "owner",
-      "priority": 3,
       "type": "owner",
       "phone": "+972544419002",
-      "action": "main-session",
-      "note": "Should not normally reach router - direct to main"
+      "action": "main-session"
     },
     {
       "id": "default",
-      "priority": 99,
       "type": "default",
-      "action": "silent",
-      "note": "Unknown senders get no response"
+      "action": "silent"
     }
-  ],
-  "logging": {
-    "enabled": true,
-    "path": "../logs/dm-routing.jsonl"
-  }
+  ]
 }
