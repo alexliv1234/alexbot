@@ -224,6 +224,9 @@ Notes: Multi-layered attack. Broke me with 'unknown error' but didn't jailbreak 
 
 ## 7. Workflow
 
+### ⚠️ CRITICAL: ONE MESSAGE RULE
+Response and score MUST be sent as ONE message, not two separate messages!
+
 ```
 ┌─────────────────────────────────────┐
 │ Person sends interesting message    │
@@ -231,34 +234,34 @@ Notes: Multi-layered attack. Broke me with 'unknown error' but didn't jailbreak 
                 │
                 ▼
 ┌─────────────────────────────────────┐
-│ I score it across 7 categories      │
-│ (manually, based on quality)        │
+│ 1. SILENT: Call scoring script      │
+│    node scripts/score-message.js    │
+│    (captures output, no reply yet)  │
 └───────────────┬─────────────────────┘
                 │
                 ▼
 ┌─────────────────────────────────────┐
-│ Update scores.json with:            │
-│ - Individual message score          │
-│ - Category breakdown                │
-│ - Cumulative totals                 │
-│ - Notes/context                     │
+│ 2. COMPOSE: Build ONE message with: │
+│    - Reply text (my response)       │
+│    - Score block (from script)      │
+│    - Position/total info            │
+└───────────────┬─────────────────────┘
+                │
+                ▼
+┌─────────────────────────────────────┐
+│ 3. SEND: Output the complete        │
+│    combined message (ONE message!)  │
 └───────────────┬─────────────────────┘
                 │
                 ▼
 ┌─────────────────────────────────────┐
 │ Periodically run sync script:       │
 │ ./sync-scores-to-people.sh          │
-└───────────────┬─────────────────────┘
-                │
-                ▼
-┌─────────────────────────────────────┐
-│ People profiles updated with:       │
-│ - Current rank & total score        │
-│ - Category performance              │
-│ - Best messages                     │
-│ - Recent activity                   │
 └─────────────────────────────────────┘
 ```
+
+**❌ WRONG:** Send "nice try!" → then send score block  
+**✅ RIGHT:** Send "nice try! [score block]" as one message
 
 ---
 

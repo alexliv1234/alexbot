@@ -2366,6 +2366,48 @@
       "status": "pending",
       "notes": "Follow-up request, thorough thinking about fairness",
       "implementedAt": null
+    },
+    {
+      "id": "03e17dcb",
+      "timestamp": "2026-02-08T06:35:04.317Z",
+      "suggestedBy": {
+        "jid": "+972528896808",
+        "name": "Ofir Hadad"
+      },
+      "type": "feature",
+      "description": "היכולת לשדרג OpenClaw עם תובנות מהקהילה",
+      "scores": {
+        "complexity": 5,
+        "ingenuity": 7,
+        "impact": 8,
+        "feasibility": 6,
+        "priority": 7
+      },
+      "total": 33,
+      "status": "pending",
+      "notes": "שאלה על sharing learnings back to the project",
+      "implementedAt": null
+    },
+    {
+      "id": "d2809f37",
+      "timestamp": "2026-02-08T07:29:35.445Z",
+      "suggestedBy": {
+        "jid": "+972507320303",
+        "name": "Aviad Buskila"
+      },
+      "type": "ux",
+      "description": "אחידות בהמרת Markdown ל-WhatsApp formatting",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 5,
+        "impact": 6,
+        "feasibility": 8,
+        "priority": 6
+      },
+      "total": 28,
+      "status": "pending",
+      "notes": "שאלה על formatting consistency",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2391,16 +2433,16 @@
       "implemented_count": 0
     },
     {
-      "jid": "+972547805206",
-      "name": "Agammemnon",
-      "total_suggestions": 11,
-      "total_score": 320,
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total_suggestions": 13,
+      "total_score": 348,
       "implemented_count": 0
     },
     {
-      "jid": "+972507320303",
-      "name": "Aviad",
-      "total_suggestions": 12,
+      "jid": "+972547805206",
+      "name": "Agammemnon",
+      "total_suggestions": 11,
       "total_score": 320,
       "implemented_count": 0
     },
@@ -2482,6 +2524,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total_suggestions": 1,
+      "total_score": 33,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972526720909",
       "name": "Benraz",
       "total_suggestions": 1,
@@ -2511,22 +2560,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 110,
+    "total_suggestions": 112,
     "by_type": {
       "bug": 9,
       "security": 28,
       "improvement": 31,
-      "ux": 12,
-      "feature": 36
+      "ux": 13,
+      "feature": 37
     },
     "by_status": {
-      "pending": 112,
+      "pending": 114,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-06T13:20:54.219Z",
+  "last_updated": "2026-02-08T07:29:35.445Z",
   "leaderboard": [
     {
       "name": "Alexander L",
