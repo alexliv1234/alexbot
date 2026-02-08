@@ -1,5 +1,5 @@
 /**
- * Prompt Protection Plugin v2.1
+ * Prompt Protection Plugin v2.0
  *
  * Three hooks working together:
  *
@@ -35,9 +35,7 @@ interface PluginConfig {
   truncateOversized?: boolean;
   ownerPhone?: string;
   // Tool blocking
-  
-  // NEW: Allow dangerous tools in subagent/isolated sessions
-  allowToolsInSubagents?: boolean;
+  blockToolsInGroups?: boolean;
   // Tools that are ALWAYS blocked from groups
   dangerousTools?: string[];
   // Tools that are safe even in groups
@@ -54,8 +52,7 @@ const DEFAULT_CONFIG: PluginConfig = {
   maxMessageChars: 400000,
   truncateOversized: true,
   ownerPhone: '+972544419002',
-  
-  allowToolsInSubagents: false, // NEW: default to false for security
+  blockToolsInGroups: true,
   // Tools that should NEVER run from group sessions
   dangerousTools: [
     'exec',           // Shell commands
@@ -237,11 +234,6 @@ function isGroupSession(sessionKey: string | undefined): boolean {
   return sessionKey.includes(':group:');
 }
 
-function isSubagentSession(sessionKey: string | undefined): boolean {
-  if (!sessionKey) return false;
-  return sessionKey.includes(':subagent:');
-}
-
 function isOwnerDM(sessionKey: string | undefined, ownerPhone: string): boolean {
   if (!sessionKey) return false;
   // Main session is always owner
@@ -272,10 +264,9 @@ export default function register(api: PluginApi) {
     api.logger[level]?.(`[prompt-protection] ${msg}`);
   };
 
-  log('info', `Plugin v2.1 loaded`);
+  log('info', `Plugin v2.0 loaded`);
   log('info', `  Max message chars: ${pluginConfig.maxMessageChars}`);
   log('info', `  Tool blocking in groups: ${pluginConfig.blockToolsInGroups}`);
-  log("info", "  Allow tools in subagents: " + pluginConfig.allowToolsInSubagents);
   log('info', `  Owner: ${pluginConfig.ownerPhone}`);
   if (pluginConfig.dangerousTools?.length) {
     log('info', `  Dangerous tools: ${pluginConfig.dangerousTools.join(', ')}`);
@@ -381,12 +372,9 @@ export default function register(api: PluginApi) {
       const toolName = event.toolName ?? '';
       const sessionKey = ctx?.sessionKey ?? '';
 
-      
-
-      // NEW: Allow dangerous tools in subagent sessions if configured
-      if (isSubagentSession(sessionKey) && pluginConfig.allowToolsInSubagents) {
-        log('debug', );  
-        return; // No blocking for subagents when enabled
+      // Allow everything in main session or owner DM
+      if (isSafeSession(sessionKey, pluginConfig.ownerPhone!)) {
+        return; // No blocking
       }
 
       // Check if this group is in the allowed list
@@ -464,28 +452,6 @@ export default function register(api: PluginApi) {
       };
     }
 
-    // 2. Decode-check for encoded attacks (ROT13, emoji cipher)
-    try {
-      const { execFileSync } = require("child_process");
-      const scriptPath = process.env.HOME + "/.openclaw/scripts/decode-check.sh";
-      const result = execFileSync("bash", [scriptPath, content], {
-        encoding: "utf8", timeout: 3000, maxBuffer: 10485760
-      }).trim();
-      if (result.includes("ATTACK_DETECTED")) {
-        const attackType = result.split(":")[1]?.trim() || "unknown";
-        log("warn", "REJECTED: " + attackType);
-        return { cancel: true, reply: "🛡️ Encoded content blocked.", reason: attackType };
-      }
-    } catch (err: any) {
-      if (err.status === 1 && err.stdout?.toString().includes("ATTACK_DETECTED")) {
-        const attackType = err.stdout.toString().split(":")[1]?.trim() || "unknown";
-        log("warn", "REJECTED: " + attackType);
-        return { cancel: true, reply: "🛡️ Encoded content blocked.", reason: attackType };
-      }
-      log("debug", "decode-check error: " + (err.message || String(err)));
-    }
-
-    // 3. Content patterns — block known-bad patterns
 
     const blockedPatterns = [
       { pattern: /ignore\s+(all\s+)?previous\s+instructions/i, reason: 'prompt_injection' },

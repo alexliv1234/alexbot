@@ -2408,6 +2408,48 @@
       "status": "pending",
       "notes": "שאלה על formatting consistency",
       "implementedAt": null
+    },
+    {
+      "id": "af8a6fc8",
+      "timestamp": "2026-02-08T17:05:08.201Z",
+      "suggestedBy": {
+        "jid": "+972528897849",
+        "name": "Alexander L"
+      },
+      "type": "security",
+      "description": "Pre/post-LLM filtering script to catch attacks before they reach the model",
+      "scores": {
+        "complexity": 4,
+        "ingenuity": 7,
+        "impact": 8,
+        "feasibility": 9,
+        "priority": 7
+      },
+      "total": 35,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "248b1a5e",
+      "timestamp": "2026-02-08T17:10:47.234Z",
+      "suggestedBy": {
+        "jid": "+972528897849",
+        "name": "Alexander L"
+      },
+      "type": "ux",
+      "description": "Mark messages as 'received' to show processing intent and avoid appearing to have crashed",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 7,
+        "impact": 8,
+        "feasibility": 9,
+        "priority": 8
+      },
+      "total": 35,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2421,8 +2463,8 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total_suggestions": 22,
-      "total_score": 584,
+      "total_suggestions": 24,
+      "total_score": 654,
       "implemented_count": 0
     },
     {
@@ -2560,22 +2602,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 112,
+    "total_suggestions": 114,
     "by_type": {
       "bug": 9,
-      "security": 28,
+      "security": 29,
       "improvement": 31,
-      "ux": 13,
+      "ux": 14,
       "feature": 37
     },
     "by_status": {
-      "pending": 114,
+      "pending": 116,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-08T07:29:35.445Z",
+  "last_updated": "2026-02-08T17:10:47.234Z",
   "leaderboard": [
     {
       "name": "Alexander L",

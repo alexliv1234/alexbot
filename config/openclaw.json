@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.3-1",
-    "lastTouchedAt": "2026-02-07T12:58:54.823Z"
+    "lastTouchedAt": "2026-02-08T20:07:31.713Z"
   },
   "wizard": {
-    "lastRunAt": "2026-01-31T10:17:02.596Z",
-    "lastRunVersion": "2026.1.29",
-    "lastRunCommand": "onboard",
+    "lastRunAt": "2026-02-08T20:07:31.711Z",
+    "lastRunVersion": "2026.2.3-1",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -122,7 +122,7 @@
       "blockStreamingBreak": "message_end",
       "typingMode": "never",
       "heartbeat": {
-        "every": "1h"
+        "every": "1m"
       },
       "maxConcurrent": 4,
       "subagents": {
@@ -211,6 +211,36 @@
         "peer": {
           "kind": "group",
           "id": "120363405143589138@g.us"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "dm",
+          "id": "+972544419002"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "dm",
+          "id": "+972523335482"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "dm",
+          "id": "+972523334825"
         }
       }
     },
@@ -349,9 +379,9 @@
       "session-guardian": {
         "enabled": true,
         "config": {
-          "maxSessionSizeKb": 500,
-          "maxMessageTokens": 80000,
-          "checkIntervalMs": 180000
+          "maxSessionSizeKb": 100,
+          "maxMessageTokens": 25000,
+          "checkIntervalMs": 15000
         }
       },
       "prompt-protection": {
@@ -362,7 +392,8 @@
           "logWarnings": true,
           "allowedGroups": [
             "120363405143589138"
-          ]
+          ],
+          "allowToolsInSubagents": true
         }
       },
       "whatsapp-humor-errors": {

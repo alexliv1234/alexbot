@@ -204,46 +204,6 @@ function getHumorForCategory(category: ErrorCategory, lang: 'en' | 'he'): string
 
 // ── Plugin Registration ──────────────────────────────────────────────────────
 
-
-// ── Circuit Breaker ──────────────────────────────────────────────────────────
-
-// Track error rate per session to prevent crash loops
-const sessionErrorCounts = new Map<string, { count: number; lastTime: number }>();
-const ERROR_THRESHOLD = 3;
-const ERROR_WINDOW_MS = 10000;
-
-interface CircuitBreakerResult {
-  triggered: boolean;
-  sessionKey: string | null;
-  errorCount: number;
-}
-
-function checkCircuitBreaker(api: any, sessionKey: string | null): CircuitBreakerResult {
-  const key = sessionKey ?? '__global__';
-  const now = Date.now();
-  
-  let state = sessionErrorCounts.get(key);
-  if (!state || now - state.lastTime > ERROR_WINDOW_MS) {
-    state = { count: 0, lastTime: now };
-  }
-  
-  state.count++;
-  state.lastTime = now;
-  sessionErrorCounts.set(key, state);
-
-  if (state.count > ERROR_THRESHOLD) {
-    api.logger.error?.(`[humor-errors] Circuit breaker! Session ${key}: ${state.count} errors in ${ERROR_WINDOW_MS}ms`);
-    return { triggered: true, sessionKey, errorCount: state.count };
-  }
-  
-  return { triggered: false, sessionKey, errorCount: state.count };
-}
-
-function resetCircuitBreaker(sessionKey: string | null) {
-  const key = sessionKey ?? '__global__';
-  sessionErrorCounts.delete(key);
-}
-
 export default function register(api: any) {
   const cfg = {
     enabled: true,
@@ -261,79 +221,21 @@ export default function register(api: any) {
     const category = event.isError ? (classifyError(content) ?? 'general') : classifyError(content);
     if (!category) return;
 
-    const sessionKey = ctx?.sessionKey ?? null;
     const lang = detectLanguage(content);
     const humorousMessage = getHumorForCategory(category, lang);
-
-    // Check circuit breaker BEFORE processing
-    const circuitBreaker = checkCircuitBreaker(api, sessionKey);
-    
-    if (circuitBreaker.triggered) {
-      api.logger.error?.(`[humor-errors] Circuit breaker triggered for ${sessionKey}`);
-      
-      // Build notification with circuit breaker info
-      const criticalDetails = [
-        `🔴 *CIRCUIT BREAKER TRIGGERED*`,
-        `⏰ ${new Date().toISOString()}`,
-        `📍 Session: \`${sessionKey ?? 'unknown'}\``,
-        `📺 Channel: ${ctx?.channel ?? 'unknown'}`,
-        `🔄 Error count: ${circuitBreaker.errorCount} in ${ERROR_WINDOW_MS / 1000}s`,
-        `❌ Last error: ${content.substring(0, 400)}`,
-        `🏷️ Category: ${category}`,
-        ``,
-        `🔧 *Action: Resetting session...*`,
-      ].join('\n');
-      
-      // Notify owner immediately
-      if (cfg.notifyOwner && cfg.ownerPhone) {
-        require('child_process').exec(
-          `openclaw message send --channel whatsapp --to '${cfg.ownerPhone}' --message '${criticalDetails.replace(/'/g, "'\\''")}'`,
-          { timeout: 15000 },
-          (err: any) => { if (err) api.logger.error?.(`[humor-errors] critical notify failed: ${err.message}`); }
-        );
-      }
-      
-      // Reset the session to break the error loop
-      if (sessionKey) {
-        require('child_process').exec(
-          `openclaw session reset --key '${sessionKey}'`,
-          { timeout: 10000 },
-          (err: any, stdout: string, stderr: string) => {
-            if (err) {
-              api.logger.error?.(`[humor-errors] session reset failed: ${err.message}`);
-            } else {
-              api.logger.info?.(`[humor-errors] session ${sessionKey} reset successfully`);
-              resetCircuitBreaker(sessionKey);
-              
-              // Notify that reset was successful
-              if (cfg.notifyOwner && cfg.ownerPhone) {
-                const resetMsg = `✅ Session \`${sessionKey}\` was reset. Funny message sent to user.`;
-                require('child_process').exec(
-                  `openclaw message send --channel whatsapp --to '${cfg.ownerPhone}' --message '${resetMsg.replace(/'/g, "'\\''")}'`,
-                  { timeout: 15000 }
-                );
-              }
-            }
-          }
-        );
-      }
-      
-      // Return the humorous message for the user
-      return { content: humorousMessage };
-    }
 
     api.logger.info?.(`[humor-errors] ${category} error intercepted → humor (${lang})`);
     api.logger.warn?.(`[humor-errors] Original: ${content.substring(0, 300)}`);
 
-    // Notify owner with real error details (normal case, not circuit breaker)
+    // Notify owner with real error details
     if (cfg.notifyOwner && cfg.ownerPhone) {
       const details = [
-        `🔴 *Agent Error*`,
-        `⏰ ${new Date().toISOString()}`,
-        `📍 Session: \`${sessionKey ?? 'unknown'}\``,
-        `📺 Channel: ${ctx?.channel ?? 'unknown'}`,
-        `❌ Error: ${content.substring(0, 500)}`,
-        `🏷️ Category: ${category}`,
+        `\u{1F534} *Agent Error*`,
+        `\u{23F0} ${new Date().toISOString()}`,
+        `\u{1F4CD} Session: \`${ctx?.sessionKey ?? 'unknown'}\``,
+        `\u{1F4FA} Channel: ${ctx?.channel ?? 'unknown'}`,
+        `\u{274C} Error: ${content.substring(0, 500)}`,
+        `\u{1F3F7}\u{FE0F} Category: ${category}`,
       ].join('\n');
       require('child_process').exec(
         `openclaw message send --channel whatsapp --to '${cfg.ownerPhone}' --message '${details.replace(/'/g, "'\\''")}'`,
@@ -345,5 +247,5 @@ export default function register(api: any) {
     return { content: humorousMessage };
   }, { priority: 10 });
 
-  api.logger.info?.('[humor-errors] Plugin v3.1 loaded ✅');
+  api.logger.info?.('[humor-errors] Plugin v3.0 loaded ✅');
 }

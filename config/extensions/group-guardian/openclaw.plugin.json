@@ -1,0 +1,31 @@
+{
+  "id": "group-guardian",
+  "name": "Group Guardian - Context Explosion & LLM Error Protection",
+  "version": "1.0.0",
+  "description": "Rate limiting, heat scoring, complexity screening, and graceful degradation for WhatsApp groups",
+  "author": "OpenClaw User",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable group guardian protection"
+      },
+      "targetGroupId": {
+        "type": "string",
+        "description": "WhatsApp group ID to protect"
+      },
+      "ownerPhone": {
+        "type": "string",
+        "description": "Owner phone number (bypasses all checks)"
+      }
+    }
+  },
+  "uiHints": {
+    "enabled": { "label": "Enable Group Guardian" },
+    "targetGroupId": { "label": "Target Group ID", "placeholder": "120363405143589138@g.us" },
+    "ownerPhone": { "label": "Owner Phone Number", "placeholder": "+972544419002" }
+  }
+}

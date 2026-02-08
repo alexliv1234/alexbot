@@ -19,6 +19,7 @@ FIXES_APPLIED=""
 MAX_TRANSCRIPT_SIZE=512000      # 500KB - start warning
 CRITICAL_TRANSCRIPT_SIZE=1048576 # 1MB - auto-reset
 MAX_TOKENS=60000                 # Auto-reset if tokens exceed this
+MAX_CONSECUTIVE_ERRORS=3         # Auto-reset if this many consecutive API errors
 
 mkdir -p "$BACKUP_DIR"
 
@@ -118,6 +119,41 @@ for agent_dir in "$AGENTS_DIR"/*/; do
             NOTIFY_ALEX=true
         done
     fi
+    
+    # Check for repeated API errors in transcripts
+    for transcript in "$sessions_dir"/*.jsonl; do
+        [ -f "$transcript" ] || continue
+        
+        transcript_name=$(basename "$transcript")
+        
+        # Count consecutive errors at the end of the transcript (last 20 lines)
+        error_count_raw=$(tail -20 "$transcript" 2>/dev/null | grep -c '"stopReason":"error"' 2>/dev/null) || error_count_raw=0
+        consecutive_errors="${error_count_raw:-0}"
+        
+        if [ "$consecutive_errors" -ge "$MAX_CONSECUTIVE_ERRORS" ]; then
+            log "[$agent_name] 🚨 REPEATED ERRORS: $transcript_name has $consecutive_errors consecutive API errors - AUTO-RESETTING"
+            
+            # Find the session key for this transcript
+            session_key=$(jq -r --arg sf "$transcript_name" 'to_entries[] | select(.value.sessionId + ".jsonl" == $sf or .value.transcriptPath == $sf) | .key' "$sessions_file" 2>/dev/null | head -1)
+            
+            if [ -n "$session_key" ]; then
+                # Backup
+                cp "$transcript" "$BACKUP_DIR/${agent_name}-${transcript_name}.$(date +%Y%m%d-%H%M%S)"
+                
+                # Clear transcript
+                echo "" > "$transcript"
+                
+                # Reset session metadata
+                jq --arg k "$session_key" '.[$k] += {"totalTokens": 0, "inputTokens": 0, "outputTokens": 0, "systemSent": false, "compactionCount": 0}' "$sessions_file" > "${sessions_file}.tmp" && mv "${sessions_file}.tmp" "$sessions_file"
+                
+                log "[$agent_name] ✅ Auto-reset erroring session: $session_key"
+                FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name/$session_key: auto-reset ($consecutive_errors consecutive API errors)"
+                NOTIFY_ALEX=true
+            else
+                log "[$agent_name] ⚠️ Could not find session key for erroring transcript $transcript_name"
+            fi
+        fi
+    done
     
     # Check for invalid/null sessions
     invalid_sessions=$(jq -r 'to_entries | .[] | select(.value == null or .value == "" or (.value | type) != "object") | .key' "$sessions_file" 2>/dev/null)

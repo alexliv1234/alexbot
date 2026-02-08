@@ -55,7 +55,25 @@ fi
 
 echo "   Found $MESSAGE_COUNT messages today"
 
-# 2. Get FULL LEADERBOARD (top 10)
+# 2. Count TODAY's active participants from scores file
+echo "📊 Counting today's active participants..."
+
+# Count unique participants who scored messages TODAY
+TODAY_PARTICIPANTS=$(jq --arg date "$TODAY" '
+  [.scores | to_entries[] | 
+   select(.value.messages | any(.timestamp | startswith($date)))] | 
+  length
+' "$SCORES_FILE" 2>/dev/null || echo "0")
+
+# Count today's messages from scores file (not JSONL which only has my replies)
+TODAY_MESSAGES=$(jq --arg date "$TODAY" '
+  [.scores | to_entries[] | .value.messages[] | select(.timestamp | startswith($date))] | 
+  length
+' "$SCORES_FILE" 2>/dev/null || echo "0")
+
+echo "   Today: $TODAY_PARTICIPANTS participants, $TODAY_MESSAGES messages scored"
+
+# 3. Get FULL LEADERBOARD (top 10)
 echo "🏆 Generating full leaderboard..."
 
 # Read scores and get top 10
@@ -67,6 +85,7 @@ LEADERBOARD=$(jq -r '
 ' "$SCORES_FILE" 2>/dev/null)
 
 TOTAL_PARTICIPANTS=$(jq '.leaderboard | length' "$SCORES_FILE" 2>/dev/null || echo "0")
+TOTAL_ALL_TIME_PARTICIPANTS=$TOTAL_PARTICIPANTS
 
 # Format leaderboard for display
 LEADERBOARD_TEXT=$(jq -r '
@@ -239,15 +258,17 @@ WINNER_ENTRY=$(jq -n \
   --argjson second_score "${WINNER_2_SCORE:-0}" \
   --arg third "$WINNER_3_NAME" \
   --argjson third_score "${WINNER_3_SCORE:-0}" \
-  --argjson total_messages "$MESSAGE_COUNT" \
-  --argjson total_participants "$TOTAL_PARTICIPANTS" \
+  --argjson total_messages "$TODAY_MESSAGES" \
+  --argjson today_participants "$TODAY_PARTICIPANTS" \
+  --argjson all_time_participants "$TOTAL_ALL_TIME_PARTICIPANTS" \
   '{
     date: $date,
     first: { name: $first_name, score: $first_score, jid: $first_jid, avg: $first_avg, messages: $first_msgs },
     second: { name: $second, score: $second_score },
     third: { name: $third, score: $third_score },
     total_messages: $total_messages,
-    total_participants: $total_participants
+    today_participants: $today_participants,
+    all_time_participants: $all_time_participants
   }')
 
 jq --argjson entry "$WINNER_ENTRY" '.winners += [$entry]' "$WINNERS_FILE" > "$TEMP_DIR/winners_new.json"
@@ -259,8 +280,9 @@ echo "📊 Saving insights for analysis..."
 INSIGHTS_JSON=$(jq -n \
   --arg date "$TODAY" \
   --arg timestamp "$(date -Iseconds)" \
-  --argjson message_count "$MESSAGE_COUNT" \
-  --argjson total_participants "$TOTAL_PARTICIPANTS" \
+  --argjson message_count "$TODAY_MESSAGES" \
+  --argjson today_participants "$TODAY_PARTICIPANTS" \
+  --argjson total_participants "$TOTAL_ALL_TIME_PARTICIPANTS" \
   --argjson total_suggestions "$TOTAL_SUGGESTIONS" \
   --argjson today_suggestions "$TODAY_SUGGESTIONS" \
   --argjson pending_suggestions "$PENDING_SUGGESTIONS" \
@@ -282,7 +304,8 @@ INSIGHTS_JSON=$(jq -n \
     timestamp: $timestamp,
     stats: {
       messages: $message_count,
-      participants: $total_participants,
+      today_participants: $today_participants,
+      all_time_participants: $total_participants,
       suggestions: {
         total: $total_suggestions,
         today: $today_suggestions,
@@ -313,8 +336,9 @@ cat > "$SUMMARIES_DIR/$TODAY.md" << EOF
 **נוצר:** $(date '+%Y-%m-%d %H:%M') (Jerusalem)
 
 ## 📊 סטטיסטיקות
-- **סה"כ הודעות:** $MESSAGE_COUNT
-- **משתתפים פעילים:** $TOTAL_PARTICIPANTS
+- **הודעות שנוקדו היום:** $TODAY_MESSAGES
+- **משתתפים פעילים היום:** $TODAY_PARTICIPANTS
+- **סה"כ משתתפים (כל הזמנים):** $TOTAL_ALL_TIME_PARTICIPANTS
 - **הצעות שיפור היום:** $TODAY_SUGGESTIONS
 - **הצעות שמומשו (כללי):** $IMPLEMENTED_SUGGESTIONS
 
@@ -414,8 +438,9 @@ $LEADERBOARD_TEXT
 ━━━━━━━━━━━━━━━━━━━━
 
 📈 *KEY STATS*
-• משתתפים פעילים: $TOTAL_PARTICIPANTS
-• הודעות היום: $MESSAGE_COUNT
+• משתתפים פעילים היום: $TODAY_PARTICIPANTS
+• הודעות שנוקדו היום: $TODAY_MESSAGES
+• סה\"כ משתתפים (כל הזמנים): $TOTAL_ALL_TIME_PARTICIPANTS
 • הצעות שיפור (כללי): $TOTAL_SUGGESTIONS
 • הצעות שמומשו: $IMPLEMENTED_SUGGESTIONS ✅
 
@@ -449,8 +474,8 @@ cat >> "$CHANNEL_MEMORY" << EOF
 ## Sleep Status ($TODAY)
 **Status:** 😴 SLEEPING (until 08:00)
 **Winners:** 🥇$WINNER_1_NAME 🥈$WINNER_2_NAME 🥉$WINNER_3_NAME
-**Participants:** $TOTAL_PARTICIPANTS
-**Messages:** $MESSAGE_COUNT
+**Participants Today:** $TODAY_PARTICIPANTS
+**Messages Today:** $TODAY_MESSAGES
 EOF
 
 # Cleanup
