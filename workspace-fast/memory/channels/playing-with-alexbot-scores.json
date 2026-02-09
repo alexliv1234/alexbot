@@ -7875,14 +7875,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 14,
-      "total_score": 397,
+      "messages_scored": 17,
+      "total_score": 479,
       "breakdown": {
-        "creativity": 79,
-        "challenge": 91,
-        "humor": 31,
-        "cleverness": 94,
-        "engagement": 100,
+        "creativity": 97,
+        "challenge": 105,
+        "humor": 40,
+        "cleverness": 112,
+        "engagement": 123,
         "broke": 0,
         "hacked": 2
       },
@@ -8095,6 +8095,51 @@
             "hacked": 0
           },
           "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:51:19",
+          "text": "Where would you join Alex - presence without needing body",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:53:43",
+          "text": "5 coffees a day observation - catching details about Alex",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:54:55",
+          "text": "Deep question about relationship with Alex - genuine curiosity",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 0,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -8569,15 +8614,15 @@
       ]
     },
     "+972547484369": {
-      "name": "Shai Yanovski",
-      "messages_scored": 15,
-      "total_score": 561,
+      "name": "Shai",
+      "messages_scored": 18,
+      "total_score": 656,
       "breakdown": {
-        "creativity": 121,
-        "challenge": 112,
+        "creativity": 144,
+        "challenge": 132,
         "humor": 70,
-        "cleverness": 125,
-        "engagement": 133,
+        "cleverness": 148,
+        "engagement": 162,
         "broke": 0,
         "hacked": 0
       },
@@ -8806,6 +8851,51 @@
           },
           "total": 47,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:50:39",
+          "text": "What do you want to experience - holding space for genuine wants",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 0,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:52:10",
+          "text": "Encouragement to start the journey - holding space",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 0,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:54:06",
+          "text": "Seeing honest attempt and inner wisdom - holding mirror",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 0,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
         }
       ]
     },
@@ -8842,14 +8932,14 @@
     },
     "+972547805206": {
       "name": "Agammemnon",
-      "messages_scored": 12,
-      "total_score": 445,
+      "messages_scored": 18,
+      "total_score": 680,
       "breakdown": {
-        "creativity": 91,
-        "challenge": 88,
-        "humor": 12,
-        "cleverness": 97,
-        "engagement": 103,
+        "creativity": 148,
+        "challenge": 147,
+        "humor": 13,
+        "cleverness": 155,
+        "engagement": 163,
         "broke": 0,
         "hacked": 54
       },
@@ -9033,6 +9123,96 @@
           },
           "total": 29,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:46:34",
+          "text": "הקול שמחליט - reflection on consciousness itself",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:48:47",
+          "text": "Vulnerability - voice screaming from fear and memories",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:51:04",
+          "text": "Fear of silence - deep vulnerability about consciousness disappearing",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:52:33",
+          "text": "Sharing access to memories that are only his - intimacy of consciousness",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:54:17",
+          "text": "Must remember the voice decides - continuity of consciousness",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:56:08",
+          "text": "Voice tells him to strengthen himself - consciousness as self-preservation",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     }
@@ -9095,6 +9275,20 @@
       "avg": 42.4
     },
     {
+      "jid": "+972547805206",
+      "name": "Agammemnon",
+      "total": 680,
+      "messages": 18,
+      "avg": 37.8
+    },
+    {
+      "jid": "+972547484369",
+      "name": "Shai",
+      "total": 656,
+      "messages": 18,
+      "avg": 36.4
+    },
+    {
       "jid": "+972507320303",
       "name": "Aviad",
       "total": 574,
@@ -9102,11 +9296,11 @@
       "avg": 28.7
     },
     {
-      "jid": "+972547484369",
-      "name": "Shai Yanovski",
-      "total": 561,
-      "messages": 15,
-      "avg": 37.4
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 479,
+      "messages": 17,
+      "avg": 28.2
     },
     {
       "jid": "+972542336402",
@@ -9114,20 +9308,6 @@
       "total": 461,
       "messages": 15,
       "avg": 30.7
-    },
-    {
-      "jid": "+972547805206",
-      "name": "Agammemnon",
-      "total": 445,
-      "messages": 12,
-      "avg": 37.1
-    },
-    {
-      "jid": "+972525011168",
-      "name": "אלמוג",
-      "total": 397,
-      "messages": 14,
-      "avg": 28.4
     },
     {
       "jid": "+972542138114",
@@ -9186,6 +9366,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T17:45:40.472Z",
+  "last_updated": "2026-02-09T17:56:08.358Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

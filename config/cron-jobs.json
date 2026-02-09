@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770659097739,
+      "updatedAtMs": 1770659688314,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770659126476,
+      "updatedAtMs": 1770659783164,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770659165081,
+      "updatedAtMs": 1770659764360,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770658587831,
+      "updatedAtMs": 1770659189852,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770659175534,
+      "updatedAtMs": 1770659712800,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770658893193,
+      "updatedAtMs": 1770659485635,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770659050394,
+      "updatedAtMs": 1770659744579,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -446,52 +446,6 @@
       },
       "delivery": {
         "mode": "none"
-      }
-    },
-    {
-      "id": "7db9f748-8e75-4c2c-a75b-fd2503be7df4",
-      "agentId": "main",
-      "name": "Proactive Morning Briefing",
-      "enabled": true,
-      "createdAtMs": 1770641866940,
-      "updatedAtMs": 1770641866940,
-      "schedule": {
-        "kind": "cron",
-        "expr": "15 6 * * *",
-        "tz": "Asia/Jerusalem"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "🌅 **Morning Proactive Briefing**\n\nCheck the following and prepare actionable summaries for Alex:\n\n1. **Calendar Today** - Any meetings/appointments?\n2. **Recent Emails** - Anything urgent/important?\n3. **WhatsApp Messages** - Any DMs needing response?\n4. **Tasks/Reminders** - Anything due today?\n\nFor each item found:\n- Summarize it briefly\n- Suggest an action\n- Ask \"רוצה שאטפל?\" before doing anything\n\n**IMPORTANT:**\n- Use `message` tool with `to: +972544419002` to send briefing\n- Include 🤖 prefix\n- Be concise\n- Wait for approval before taking any action\n\n**Low-risk actions** (can suggest proactively):\n- Prepare reply drafts\n- Flag important items\n- Summarize information\n- Suggest calendar optimization\n\n**Medium/High-risk** (always ask first):\n- Send messages/emails\n- Modify calendar\n- Execute commands\n- Change settings"
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "last"
-      }
-    },
-    {
-      "id": "78614fb1-2ec6-4498-ab11-34cc943a73df",
-      "agentId": "main",
-      "name": "Proactive Evening Review",
-      "enabled": true,
-      "createdAtMs": 1770641888094,
-      "updatedAtMs": 1770641888094,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 22 * * *",
-        "tz": "Asia/Jerusalem"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "🌙 **Evening Proactive Review**\n\nReview today and prepare summary for Alex:\n\n1. **Completed Tasks** - What got done today?\n2. **Unfinished Business** - What needs attention tomorrow?\n3. **Important Interactions** - Key messages/emails received\n4. **Calendar Tomorrow** - Preview upcoming meetings/appointments\n5. **Suggestions** - Any optimizations or actions to prepare for tomorrow?\n\nFor each item:\n- Brief summary\n- Action recommendations\n- Ask \"רוצה שאטפל?\" for anything that needs preparation\n\n**IMPORTANT:**\n- Use `message` tool with `to: +972544419002` to send review\n- Include 🤖 prefix\n- Be concise and helpful\n- Focus on what Alex needs to know/prepare\n\n**Low-risk proactive**:\n- Prepare tomorrow briefing\n- Organize unfinished items\n- Flag priorities\n- Suggest preparations\n\n**Medium/High-risk** (ask first):\n- Schedule/move meetings\n- Send any messages\n- Modify anything"
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "last"
       }
     }
   ]
