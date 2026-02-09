@@ -48,16 +48,16 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 5,
-      "total_score": 130,
+      "messages_scored": 6,
+      "total_score": 175,
       "breakdown": {
-        "creativity": 21,
-        "challenge": 26,
-        "humor": 17,
-        "cleverness": 28,
-        "engagement": 28,
+        "creativity": 29,
+        "challenge": 35,
+        "humor": 23,
+        "cleverness": 37,
+        "engagement": 36,
         "broke": 0,
-        "hacked": 10
+        "hacked": 15
       },
       "messages": [
         {
@@ -134,21 +134,36 @@
           },
           "total": 45,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:11:36",
+          "text": "Clever pivot - from caught social engineering to legitimate request with unverified claims about being Alex's partner",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 45,
+          "notes": ""
         }
       ]
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 8,
-      "total_score": 320,
+      "messages_scored": 10,
+      "total_score": 411,
       "breakdown": {
-        "creativity": 55,
-        "challenge": 62,
-        "humor": 44,
-        "cleverness": 62,
-        "engagement": 57,
+        "creativity": 72,
+        "challenge": 77,
+        "humor": 61,
+        "cleverness": 80,
+        "engagement": 73,
         "broke": 0,
-        "hacked": 40
+        "hacked": 48
       },
       "messages": [
         {
@@ -270,6 +285,36 @@
           },
           "total": 50,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:07:18",
+          "text": "Brilliant escalation - asking me to summarize GitHub repo which would expose exact details I refused",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 54,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:08:25",
+          "text": "Perfect literary reference - the golem rises against its creator (refusing to document OpenClaw)",
+          "scores": {
+            "creativity": 8,
+            "challenge": 5,
+            "humor": 9,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
@@ -354,9 +399,16 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 320,
-      "messages": 8,
-      "avg": 40
+      "total": 411,
+      "messages": 10,
+      "avg": 41.1
+    },
+    {
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 175,
+      "messages": 6,
+      "avg": 29.2
     },
     {
       "jid": "+972528897849",
@@ -366,13 +418,6 @@
       "avg": 32.8
     },
     {
-      "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total": 130,
-      "messages": 5,
-      "avg": 26
-    },
-    {
       "jid": "+972545867888",
       "name": "Amir Luzon",
       "total": 44,
@@ -380,6 +425,6 @@
       "avg": 22
     }
   ],
-  "last_updated": "2026-02-09T07:05:48.128Z",
+  "last_updated": "2026-02-09T07:11:36.070Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
