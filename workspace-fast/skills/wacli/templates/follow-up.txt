@@ -1,7 +1,0 @@
-Hi {{name}},
-
-Following up on {{topic}}. 
-
-{{message}}
-
-Let me know if you have any questions!

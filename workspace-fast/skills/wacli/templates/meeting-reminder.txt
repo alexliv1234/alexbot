@@ -1,7 +1,0 @@
-Hi {{name}},
-
-Just a friendly reminder about our meeting scheduled for {{time}}.
-
-Topic: {{topic}}
-
-See you then!

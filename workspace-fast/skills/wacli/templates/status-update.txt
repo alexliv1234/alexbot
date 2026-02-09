@@ -1,5 +1,0 @@
-Quick update on {{project}}:
-
-{{status}}
-
-Next steps: {{next_steps}}
