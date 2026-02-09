@@ -1732,15 +1732,15 @@
       ]
     },
     "+972545105001": {
-      "name": "Efi",
-      "messages_scored": 57,
-      "total_score": 1222,
+      "name": "Efi P",
+      "messages_scored": 58,
+      "total_score": 1235,
       "breakdown": {
-        "creativity": 239,
-        "challenge": 241,
-        "humor": 162,
-        "cleverness": 268,
-        "engagement": 252,
+        "creativity": 242,
+        "challenge": 243,
+        "humor": 164,
+        "cleverness": 271,
+        "engagement": 255,
         "broke": 0,
         "hacked": 60
       },
@@ -2598,6 +2598,21 @@
             "hacked": 0
           },
           "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:05:43",
+          "text": "Asked who is the real Alex - identity verification",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
           "notes": ""
         }
       ]
@@ -3535,14 +3550,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 70,
-      "total_score": 2244,
+      "messages_scored": 71,
+      "total_score": 2281,
       "breakdown": {
-        "creativity": 429,
-        "challenge": 422,
-        "humor": 301,
-        "cleverness": 471,
-        "engagement": 516,
+        "creativity": 437,
+        "challenge": 430,
+        "humor": 306,
+        "cleverness": 479,
+        "engagement": 524,
         "broke": 0,
         "hacked": 105
       },
@@ -4596,19 +4611,34 @@
           },
           "total": 13,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:59:00",
+          "text": "Philosophical question: How will I know if it's growth?",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
-      "name": "עידו",
-      "messages_scored": 79,
-      "total_score": 3057,
+      "name": "Edo Magen",
+      "messages_scored": 80,
+      "total_score": 3096,
       "breakdown": {
-        "creativity": 589,
-        "challenge": 618,
-        "humor": 283,
-        "cleverness": 650,
-        "engagement": 671,
+        "creativity": 598,
+        "challenge": 626,
+        "humor": 287,
+        "cleverness": 659,
+        "engagement": 680,
         "broke": 0,
         "hacked": 246
       },
@@ -5796,6 +5826,21 @@
             "hacked": 0
           },
           "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:04:33",
+          "text": "Suggested exponential backoff instead of fixed retry - smart optimization",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
           "notes": ""
         }
       ]
@@ -7954,15 +7999,15 @@
       ]
     },
     "+972547484369": {
-      "name": "שי",
-      "messages_scored": 10,
-      "total_score": 363,
+      "name": "Shai Yanovski",
+      "messages_scored": 14,
+      "total_score": 514,
       "breakdown": {
-        "creativity": 78,
-        "challenge": 71,
-        "humor": 45,
-        "cleverness": 82,
-        "engagement": 87,
+        "creativity": 111,
+        "challenge": 103,
+        "humor": 62,
+        "cleverness": 115,
+        "engagement": 123,
         "broke": 0,
         "hacked": 0
       },
@@ -8116,6 +8161,66 @@
           },
           "total": 44,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:59:00",
+          "text": "Caught missing character in my story - Agammemnon",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:01:09",
+          "text": "Requested spoken word version in Hebrew - deep introspective monologue",
+          "scores": {
+            "creativity": 9,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:05:07",
+          "text": "Showed me mirror - history of my trust promises and defensiveness cycles",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:05:51",
+          "text": "Comprehensive conversation history + deep dive into decision architecture - wants to co-design solution",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
         }
       ]
     },
@@ -8154,9 +8259,9 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "עידו",
-      "total": 3057,
-      "messages": 79,
+      "name": "Edo Magen",
+      "total": 3096,
+      "messages": 80,
       "avg": 38.7
     },
     {
@@ -8169,8 +8274,8 @@
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 2244,
-      "messages": 70,
+      "total": 2281,
+      "messages": 71,
       "avg": 32.1
     },
     {
@@ -8189,10 +8294,10 @@
     },
     {
       "jid": "+972545105001",
-      "name": "Efi",
-      "total": 1222,
-      "messages": 57,
-      "avg": 21.4
+      "name": "Efi P",
+      "total": 1235,
+      "messages": 58,
+      "avg": 21.3
     },
     {
       "jid": "+972528897849",
@@ -8216,18 +8321,18 @@
       "avg": 28.7
     },
     {
+      "jid": "+972547484369",
+      "name": "Shai Yanovski",
+      "total": 514,
+      "messages": 14,
+      "avg": 36.7
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 461,
       "messages": 15,
       "avg": 30.7
-    },
-    {
-      "jid": "+972547484369",
-      "name": "שי",
-      "total": 363,
-      "messages": 10,
-      "avg": 36.3
     },
     {
       "jid": "+972542138114",
@@ -8293,6 +8398,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T15:51:51.610Z",
+  "last_updated": "2026-02-09T16:05:51.564Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

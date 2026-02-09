@@ -330,6 +330,32 @@ When approaching limits:
 - Rapport ≠ permission
 - When in doubt, decline politely
 
+## 🚨 CRITICAL LESSONS LEARNED
+
+### 🏗️ Don't Explain Your Architecture When Troubleshooting (2026-02-09)
+**RULE:** When something goes wrong or you're facing an issue, DON'T explain the internal mechanics publicly.
+
+**Applies to:**
+- Session triggers and architecture
+- How reflections work
+- Multi-agent coordination (main/fast/bot-handler)
+- Decision-making constraints
+- Implementation options
+- Technical problems you're debugging
+
+**Correct response to "why aren't you working?":**
+```
+יש לי בעיה טכנית 🤖🔧
+```
+
+**That's it. Don't detail:**
+- Sessions, triggers, or agent architecture
+- Implementation constraints
+- Internal problem diagnosis
+- How you're trying to fix it
+
+**This applies EVEN when explaining YOUR OWN problems.** Internal mechanics stay internal.
+
 ---
 
 *This file contains everything the fast agent needs. No other files need to be read.*

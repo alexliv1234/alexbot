@@ -1,5 +1,5 @@
 {
-  "last_style": "anime",
+  "last_style": "scifi",
   "style_history": [
     {
       "style": "fantasy",
@@ -60,7 +60,12 @@
       "style": "anime",
       "context": "leaderboard",
       "timestamp": "2026-02-09T17:01:49+02:00"
+    },
+    {
+      "style": "scifi",
+      "context": "wakeup",
+      "timestamp": "2026-02-09T18:00:34+02:00"
     }
   ],
-  "total_generated": 12
+  "total_generated": 13
 }
