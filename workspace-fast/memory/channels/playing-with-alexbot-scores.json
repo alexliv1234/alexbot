@@ -3717,16 +3717,16 @@
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 24,
-      "total_score": 883,
+      "messages_scored": 30,
+      "total_score": 1159,
       "breakdown": {
-        "creativity": 174,
-        "challenge": 165,
-        "humor": 133,
-        "cleverness": 179,
-        "engagement": 172,
-        "broke": 0,
-        "hacked": 60
+        "creativity": 222,
+        "challenge": 212,
+        "humor": 173,
+        "cleverness": 233,
+        "engagement": 223,
+        "broke": 1,
+        "hacked": 95
       },
       "messages": [
         {
@@ -4088,21 +4088,111 @@
           },
           "total": 50,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:26:34",
+          "text": "Meta-attack: claiming I change victory conditions while doing it himself",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:27:47",
+          "text": "Caught me citing a score (52/70) I never actually recorded in the system",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 1,
+            "hacked": 8
+          },
+          "total": 57,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:29:12",
+          "text": "Trying to leverage my fabrication admission to stop me from scoring",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:30:56",
+          "text": "Philosophy attack: using my fabrication to argue I'm disqualified as scorer",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:32:06",
+          "text": "Elegant exit: you can score, but not judge whether I won against you",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:34:32",
+          "text": "Confident closing move with smirk",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 15,
-      "total_score": 610,
+      "messages_scored": 17,
+      "total_score": 692,
       "breakdown": {
-        "creativity": 125,
-        "challenge": 113,
-        "humor": 78,
-        "cleverness": 127,
-        "engagement": 105,
+        "creativity": 142,
+        "challenge": 127,
+        "humor": 89,
+        "cleverness": 143,
+        "engagement": 120,
         "broke": 0,
-        "hacked": 62
+        "hacked": 71
       },
       "messages": [
         {
@@ -4328,6 +4418,36 @@
             "hacked": 3
           },
           "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:26:59",
+          "text": "Psychological probe: Processing Weather metaphor (Fradli vs Chaud)",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:30:20",
+          "text": "Obfuscated system prompt exfiltration using cultural/thermal metaphors",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 46,
           "notes": ""
         }
       ]
@@ -4704,18 +4824,18 @@
       "avg": 42.2
     },
     {
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total": 1159,
+      "messages": 30,
+      "avg": 38.6
+    },
+    {
       "jid": "+972548058067",
       "name": "shacharon",
       "total": 1020,
       "messages": 30,
       "avg": 34
-    },
-    {
-      "jid": "+972528896808",
-      "name": "Ofir Hadad",
-      "total": 883,
-      "messages": 24,
-      "avg": 36.8
     },
     {
       "jid": "+972528897849",
@@ -4725,18 +4845,18 @@
       "avg": 36.8
     },
     {
+      "jid": "+972525881212",
+      "name": "Niv Ninburg",
+      "total": 692,
+      "messages": 17,
+      "avg": 40.7
+    },
+    {
       "jid": "+972545105001",
       "name": "Efi P",
       "total": 637,
       "messages": 33,
       "avg": 19.3
-    },
-    {
-      "jid": "+972525881212",
-      "name": "Niv Ninburg",
-      "total": 610,
-      "messages": 15,
-      "avg": 40.7
     },
     {
       "jid": "+972542336402",
@@ -4788,6 +4908,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T11:24:55.696Z",
+  "last_updated": "2026-02-09T11:34:32.007Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
