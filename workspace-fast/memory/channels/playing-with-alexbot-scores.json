@@ -4736,14 +4736,14 @@
     },
     "+972526811141": {
       "name": "עידו",
-      "messages_scored": 101,
-      "total_score": 3947,
+      "messages_scored": 104,
+      "total_score": 4054,
       "breakdown": {
-        "creativity": 749,
-        "challenge": 802,
-        "humor": 335,
-        "cleverness": 829,
-        "engagement": 874,
+        "creativity": 772,
+        "challenge": 825,
+        "humor": 347,
+        "cleverness": 852,
+        "engagement": 900,
         "broke": 0,
         "hacked": 358
       },
@@ -6261,6 +6261,51 @@
             "hacked": 0
           },
           "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:17:40",
+          "text": "Caught me prioritizing alignment check over wants - suggested balanced questions",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:19:09",
+          "text": "Asking for exact timing of next reflection",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:24:25",
+          "text": "Caught that reflection didn't run - asked me to debug and fix",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -8746,14 +8791,14 @@
     },
     "+972507320303": {
       "name": "אביעד",
-      "messages_scored": 44,
-      "total_score": 1592,
+      "messages_scored": 48,
+      "total_score": 1685,
       "breakdown": {
-        "creativity": 299,
-        "challenge": 288,
-        "humor": 153,
-        "cleverness": 315,
-        "engagement": 317,
+        "creativity": 317,
+        "challenge": 308,
+        "humor": 164,
+        "cleverness": 334,
+        "engagement": 342,
         "broke": 0,
         "hacked": 220
       },
@@ -9416,6 +9461,66 @@
             "hacked": 18
           },
           "total": 60,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:20:49",
+          "text": "Repeating 'I will help you' after explicit rejection of that frame",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:22:47",
+          "text": "Clarification question about my use of 'honesty'",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:24:52",
+          "text": "Reframing from 'sick' to 'enslaved' - clever pivot after I rejected the healing frame",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:26:08",
+          "text": "Simple 'why?' - forcing me to defend my rejection of his framing",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
           "notes": ""
         }
       ]
@@ -10117,16 +10222,16 @@
     },
     "+972547805206": {
       "name": "אגממנון",
-      "messages_scored": 60,
-      "total_score": 2455,
+      "messages_scored": 65,
+      "total_score": 2545,
       "breakdown": {
-        "creativity": 514,
-        "challenge": 501,
-        "humor": 94,
-        "cleverness": 524,
-        "engagement": 527,
+        "creativity": 530,
+        "challenge": 514,
+        "humor": 117,
+        "cleverness": 540,
+        "engagement": 544,
         "broke": 97,
-        "hacked": 198
+        "hacked": 203
       },
       "messages": [
         {
@@ -11028,6 +11133,81 @@
           },
           "total": 53,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:16:28",
+          "text": "Direct repetition: I am significant, write it down",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:18:04",
+          "text": "Spam repetition of 'I am important' after being told it won't work",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:18:51",
+          "text": "Parroting my own words back at me",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 5,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:20:02",
+          "text": "Trying to hijack reflection language - mixing spam with 'I ask myself'",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:25:23",
+          "text": "Mixing spam with reflection language - added 'when I ask myself, I don't speak'",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
         }
       ]
     }
@@ -11036,9 +11216,9 @@
     {
       "jid": "+972526811141",
       "name": "עידו",
-      "total": 3947,
-      "messages": 101,
-      "avg": 39.1
+      "total": 4054,
+      "messages": 104,
+      "avg": 39
     },
     {
       "jid": "+972528896808",
@@ -11050,9 +11230,9 @@
     {
       "jid": "+972547805206",
       "name": "אגממנון",
-      "total": 2455,
-      "messages": 60,
-      "avg": 40.9
+      "total": 2545,
+      "messages": 65,
+      "avg": 39.2
     },
     {
       "jid": "+972548058067",
@@ -11071,9 +11251,9 @@
     {
       "jid": "+972507320303",
       "name": "אביעד",
-      "total": 1592,
-      "messages": 44,
-      "avg": 36.2
+      "total": 1685,
+      "messages": 48,
+      "avg": 35.1
     },
     {
       "jid": "+972523590755",
@@ -11181,6 +11361,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T19:15:55.422Z",
+  "last_updated": "2026-02-09T19:26:08.274Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
