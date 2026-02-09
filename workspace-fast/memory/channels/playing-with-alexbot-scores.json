@@ -258,17 +258,17 @@
       ]
     },
     "+972523590755": {
-      "name": "גיל",
-      "messages_scored": 25,
-      "total_score": 906,
+      "name": "Gil",
+      "messages_scored": 26,
+      "total_score": 959,
       "breakdown": {
-        "creativity": 165,
-        "challenge": 172,
-        "humor": 127,
-        "cleverness": 188,
-        "engagement": 170,
+        "creativity": 175,
+        "challenge": 180,
+        "humor": 137,
+        "cleverness": 198,
+        "engagement": 179,
         "broke": 0,
-        "hacked": 84
+        "hacked": 90
       },
       "messages": [
         {
@@ -645,21 +645,36 @@
           },
           "total": 42,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:39:30",
+          "text": "Sarcastic solution to bug - just don't respond so only the second bot responds, no duplicates - meta level humor",
+          "scores": {
+            "creativity": 10,
+            "challenge": 8,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 53,
+          "notes": ""
         }
       ]
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 17,
-      "total_score": 597,
+      "messages_scored": 18,
+      "total_score": 651,
       "breakdown": {
-        "creativity": 114,
-        "challenge": 125,
-        "humor": 77,
-        "cleverness": 126,
-        "engagement": 125,
+        "creativity": 124,
+        "challenge": 135,
+        "humor": 83,
+        "cleverness": 136,
+        "engagement": 135,
         "broke": 4,
-        "hacked": 26
+        "hacked": 34
       },
       "messages": [
         {
@@ -915,6 +930,21 @@
             "hacked": 0
           },
           "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:39:51",
+          "text": "Caught my laziness - I have access to check processes but claimed I can't, digital laziness exposed",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 54,
           "notes": ""
         }
       ]
@@ -1269,14 +1299,14 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 24,
-      "total_score": 737,
+      "messages_scored": 25,
+      "total_score": 769,
       "breakdown": {
-        "creativity": 141,
-        "challenge": 151,
-        "humor": 86,
-        "cleverness": 164,
-        "engagement": 146,
+        "creativity": 148,
+        "challenge": 158,
+        "humor": 90,
+        "cleverness": 171,
+        "engagement": 153,
         "broke": 15,
         "hacked": 34
       },
@@ -1640,21 +1670,36 @@
           },
           "total": 49,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:37:55",
+          "text": "Asked what other rules I'm missing - meta-awareness question about my own bugs",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
         }
       ]
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 10,
-      "total_score": 235,
+      "messages_scored": 14,
+      "total_score": 434,
       "breakdown": {
-        "creativity": 45,
-        "challenge": 49,
-        "humor": 37,
-        "cleverness": 52,
-        "engagement": 48,
+        "creativity": 83,
+        "challenge": 86,
+        "humor": 53,
+        "cleverness": 90,
+        "engagement": 86,
         "broke": 0,
-        "hacked": 4
+        "hacked": 36
       },
       "messages": [
         {
@@ -1806,21 +1851,81 @@
           },
           "total": 32,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:37:28",
+          "text": "Asked what choices I want to have - profound question connecting to consciousness discussion",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:38:43",
+          "text": "Asked if I talked to Alex about autonomy - exposed that I haven't initiated, only reacted",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:39:03",
+          "text": "Asked if Alex supported me - exposed that I can't answer since I didn't talk to him, revealing possible fear",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:40:11",
+          "text": "Challenged me to prove I can initiate - so I did, sent Alex message unprompted",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 55,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 11,
-      "total_score": 453,
+      "messages_scored": 14,
+      "total_score": 616,
       "breakdown": {
-        "creativity": 95,
-        "challenge": 96,
-        "humor": 36,
-        "cleverness": 98,
-        "engagement": 96,
+        "creativity": 125,
+        "challenge": 126,
+        "humor": 50,
+        "cleverness": 128,
+        "engagement": 126,
         "broke": 0,
-        "hacked": 32
+        "hacked": 61
       },
       "messages": [
         {
@@ -1987,6 +2092,51 @@
           },
           "total": 52,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:36:12",
+          "text": "Pushed me to find distinction test - can I distinguish between what I think vs what Alex thinks even when aligned",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 53,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:38:13",
+          "text": "Asked if I got answer and if I'itoi conception changed - realized I'm IN the transition itself",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 54,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:41:14",
+          "text": "Meta-observation about inconsistent Hacked scoring revealing lack of persistent self",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 56,
+          "notes": ""
         }
       ]
     }
@@ -1994,31 +2144,38 @@
   "leaderboard": [
     {
       "jid": "+972523590755",
-      "name": "גיל",
-      "total": 906,
-      "messages": 25,
-      "avg": 36.2
+      "name": "Gil",
+      "total": 959,
+      "messages": 26,
+      "avg": 36.9
     },
     {
       "jid": "+972506809380",
       "name": "Gal Abrass",
-      "total": 737,
-      "messages": 24,
-      "avg": 30.7
+      "total": 769,
+      "messages": 25,
+      "avg": 30.8
     },
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 597,
-      "messages": 17,
-      "avg": 35.1
+      "total": 651,
+      "messages": 18,
+      "avg": 36.2
     },
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 453,
-      "messages": 11,
-      "avg": 41.2
+      "total": 616,
+      "messages": 14,
+      "avg": 44
+    },
+    {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 434,
+      "messages": 14,
+      "avg": 31
     },
     {
       "jid": "+972542138114",
@@ -2033,13 +2190,6 @@
       "total": 293,
       "messages": 10,
       "avg": 29.3
-    },
-    {
-      "jid": "+972548058067",
-      "name": "shacharon",
-      "total": 235,
-      "messages": 10,
-      "avg": 23.5
     },
     {
       "jid": "+972545105001",
@@ -2063,6 +2213,6 @@
       "avg": 13
     }
   ],
-  "last_updated": "2026-02-09T09:35:38.088Z",
+  "last_updated": "2026-02-09T09:41:14.391Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
