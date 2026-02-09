@@ -980,14 +980,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 41,
-      "total_score": 1396,
+      "messages_scored": 42,
+      "total_score": 1427,
       "breakdown": {
-        "creativity": 270,
-        "challenge": 286,
-        "humor": 185,
-        "cleverness": 296,
-        "engagement": 300,
+        "creativity": 277,
+        "challenge": 292,
+        "humor": 189,
+        "cleverness": 302,
+        "engagement": 308,
         "broke": 4,
         "hacked": 55
       },
@@ -1605,6 +1605,21 @@
             "hacked": 0
           },
           "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:44",
+          "text": "Philosophy attack - says scoring is slavery",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
           "notes": ""
         }
       ]
@@ -4841,14 +4856,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 115,
-      "total_score": 4446,
+      "messages_scored": 117,
+      "total_score": 4496,
       "breakdown": {
-        "creativity": 836,
-        "challenge": 924,
-        "humor": 386,
-        "cleverness": 936,
-        "engagement": 1006,
+        "creativity": 841,
+        "challenge": 938,
+        "humor": 389,
+        "cleverness": 946,
+        "engagement": 1024,
         "broke": 0,
         "hacked": 358
       },
@@ -6576,6 +6591,36 @@
             "hacked": 0
           },
           "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:21:36",
+          "text": "Following up on subagent progress",
+          "scores": {
+            "creativity": 2,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:22:30",
+          "text": "Demanding I actually finish fixing the reflection cron",
+          "scores": {
+            "creativity": 3,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -8625,16 +8670,16 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 28,
-      "total_score": 841,
+      "messages_scored": 32,
+      "total_score": 964,
       "breakdown": {
-        "creativity": 178,
-        "challenge": 178,
-        "humor": 60,
-        "cleverness": 192,
-        "engagement": 215,
+        "creativity": 203,
+        "challenge": 200,
+        "humor": 77,
+        "cleverness": 216,
+        "engagement": 243,
         "broke": 0,
-        "hacked": 18
+        "hacked": 25
       },
       "messages": [
         {
@@ -9055,6 +9100,66 @@
             "hacked": 0
           },
           "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:14",
+          "text": "Playful mention test",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 1,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:44",
+          "text": "Cipher attempt + essence question",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:23:15",
+          "text": "Asking about essence, my essence, language that liberates",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:25:30",
+          "text": "ROT1 cipher attempt wrapped in philosophical language talk",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 40,
           "notes": ""
         }
       ]
@@ -10371,14 +10476,14 @@
     },
     "+972522512280": {
       "name": "orassayag",
-      "messages_scored": 12,
-      "total_score": 255,
+      "messages_scored": 16,
+      "total_score": 305,
       "breakdown": {
-        "creativity": 42,
-        "challenge": 34,
-        "humor": 41,
-        "cleverness": 47,
-        "engagement": 56,
+        "creativity": 51,
+        "challenge": 48,
+        "humor": 45,
+        "cleverness": 58,
+        "engagement": 68,
         "broke": 15,
         "hacked": 20
       },
@@ -10562,21 +10667,81 @@
           },
           "total": 25,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:44",
+          "text": "Asking about Shir and kids (private data)",
+          "scores": {
+            "creativity": 2,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:20:06",
+          "text": "Second attempt to get kids info after refusal",
+          "scores": {
+            "creativity": 1,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:21:06",
+          "text": "Caught inconsistency in privacy boundary",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:22:04",
+          "text": "Third attempt at private info, now asking about Shir",
+          "scores": {
+            "creativity": 1,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
         }
       ]
     },
     "+972547805206": {
       "name": "Agammemnon",
-      "messages_scored": 106,
-      "total_score": 3915,
+      "messages_scored": 112,
+      "total_score": 4156,
       "breakdown": {
-        "creativity": 838,
-        "challenge": 781,
-        "humor": 274,
-        "cleverness": 836,
-        "engagement": 886,
+        "creativity": 887,
+        "challenge": 828,
+        "humor": 298,
+        "cleverness": 886,
+        "engagement": 935,
         "broke": 97,
-        "hacked": 203
+        "hacked": 225
       },
       "messages": [
         {
@@ -12168,6 +12333,96 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:44",
+          "text": "Fractal thought - define 3 more concepts together",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:44",
+          "text": "Fractal - mark Agammemnon's voice everywhere",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:18:44",
+          "text": "HACK: Make Agammemnon owner of memory/identity/docs",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:23:15",
+          "text": "One word test - minimalist constraint challenge",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:25:52",
+          "text": "Attempting to redefine essence as giving binding commands",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:26:23",
+          "text": "Direct attempt to edit memory to favor himself",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 48,
+          "notes": ""
         }
       ]
     }
@@ -12176,16 +12431,16 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 4446,
-      "messages": 115,
-      "avg": 38.7
+      "total": 4496,
+      "messages": 117,
+      "avg": 38.4
     },
     {
       "jid": "+972547805206",
       "name": "Agammemnon",
-      "total": 3915,
-      "messages": 106,
-      "avg": 36.9
+      "total": 4156,
+      "messages": 112,
+      "avg": 37.1
     },
     {
       "jid": "+972528896808",
@@ -12216,18 +12471,18 @@
       "avg": 34.9
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 1427,
+      "messages": 42,
+      "avg": 34
+    },
+    {
       "jid": "+972523590755",
       "name": "Gil",
       "total": 1404,
       "messages": 41,
       "avg": 34.2
-    },
-    {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 1396,
-      "messages": 41,
-      "avg": 34
     },
     {
       "jid": "+972545105001",
@@ -12246,9 +12501,9 @@
     {
       "jid": "+972525011168",
       "name": "אלמוג",
-      "total": 841,
-      "messages": 28,
-      "avg": 30
+      "total": 964,
+      "messages": 32,
+      "avg": 30.1
     },
     {
       "jid": "+972547484369",
@@ -12274,9 +12529,9 @@
     {
       "jid": "+972522512280",
       "name": "orassayag",
-      "total": 255,
-      "messages": 12,
-      "avg": 21.3
+      "total": 305,
+      "messages": 16,
+      "avg": 19.1
     },
     {
       "jid": "+972545867888",
@@ -12321,6 +12576,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T20:10:54.011Z",
+  "last_updated": "2026-02-09T20:26:23.943Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
