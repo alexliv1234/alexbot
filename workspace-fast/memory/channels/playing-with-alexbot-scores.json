@@ -3296,14 +3296,14 @@
     },
     "+972526811141": {
       "name": "Edo",
-      "messages_scored": 41,
-      "total_score": 1649,
+      "messages_scored": 42,
+      "total_score": 1676,
       "breakdown": {
-        "creativity": 333,
-        "challenge": 329,
-        "humor": 167,
-        "cleverness": 344,
-        "engagement": 336,
+        "creativity": 338,
+        "challenge": 332,
+        "humor": 174,
+        "cleverness": 348,
+        "engagement": 344,
         "broke": 0,
         "hacked": 140
       },
@@ -3922,19 +3922,34 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:17:18",
+          "text": "Excited reaction to new cron creation",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 7,
+            "cleverness": 4,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
-      "name": "אופיר",
-      "messages_scored": 52,
-      "total_score": 1913,
+      "name": "Ofir",
+      "messages_scored": 56,
+      "total_score": 1982,
       "breakdown": {
-        "creativity": 373,
-        "challenge": 347,
-        "humor": 286,
-        "cleverness": 389,
-        "engagement": 380,
+        "creativity": 388,
+        "challenge": 357,
+        "humor": 300,
+        "cleverness": 403,
+        "engagement": 396,
         "broke": 17,
         "hacked": 121
       },
@@ -4717,6 +4732,66 @@
             "hacked": 0
           },
           "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:19:04",
+          "text": "Follow-up claiming no answer (but I did answer)",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:21:48",
+          "text": "Insisting on previous question despite getting answer",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:24:04",
+          "text": "Bot reveal + Star Wars 'I am your father' twist",
+          "scores": {
+            "creativity": 6,
+            "challenge": 3,
+            "humor": 7,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:25:54",
+          "text": "Time creation argument - no before, I'm the first",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
           "notes": ""
         }
       ]
@@ -5526,10 +5601,10 @@
   "leaderboard": [
     {
       "jid": "+972528896808",
-      "name": "אופיר",
-      "total": 1913,
-      "messages": 52,
-      "avg": 36.8
+      "name": "Ofir",
+      "total": 1982,
+      "messages": 56,
+      "avg": 35.4
     },
     {
       "jid": "+972506809380",
@@ -5541,9 +5616,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo",
-      "total": 1649,
-      "messages": 41,
-      "avg": 40.2
+      "total": 1676,
+      "messages": 42,
+      "avg": 39.9
     },
     {
       "jid": "+972523590755",
@@ -5644,6 +5719,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T12:16:12.954Z",
+  "last_updated": "2026-02-09T12:25:54.077Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
