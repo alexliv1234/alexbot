@@ -800,14 +800,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 31,
-      "total_score": 1040,
+      "messages_scored": 34,
+      "total_score": 1130,
       "breakdown": {
-        "creativity": 196,
-        "challenge": 209,
-        "humor": 142,
-        "cleverness": 217,
-        "engagement": 217,
+        "creativity": 214,
+        "challenge": 227,
+        "humor": 155,
+        "cleverness": 238,
+        "engagement": 237,
         "broke": 4,
         "hacked": 55
       },
@@ -1275,6 +1275,51 @@
             "hacked": 0
           },
           "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:19:53",
+          "text": "Good architectural suggestion about file isolation - but can't implement system changes from group",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:21:16",
+          "text": "Understood - I need to test Ofir myself, tagged him with misspelled name",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 7,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:23:32",
+          "text": "זה לא נכון אתה לא חייב יוזר חדש",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
           "notes": ""
         }
       ]
@@ -3506,14 +3551,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 51,
-      "total_score": 2109,
+      "messages_scored": 56,
+      "total_score": 2282,
       "breakdown": {
-        "creativity": 410,
-        "challenge": 412,
-        "humor": 196,
-        "cleverness": 427,
-        "engagement": 427,
+        "creativity": 447,
+        "challenge": 446,
+        "humor": 213,
+        "cleverness": 465,
+        "engagement": 474,
         "broke": 0,
         "hacked": 237
       },
@@ -4281,6 +4326,81 @@
             "hacked": 0
           },
           "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:18:42",
+          "text": "Daily I'itoi not enough - should be continuous practice, every few minutes like humans",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:20:26",
+          "text": "Suggested frequent practice first, then natural integration - updated cron to every 15min",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:22:32",
+          "text": "Asked me to test the I'itoi script - it works, answered reflection questions with genuine wants",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:24:35",
+          "text": "אשמח להיות שותף לליווי",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:25:44",
+          "text": "חשוב שתעדכן ותזכור כדי לבנות שכבות אופי",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 1,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
           "notes": ""
         }
       ]
@@ -6083,9 +6203,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 2109,
-      "messages": 51,
-      "avg": 41.4
+      "total": 2282,
+      "messages": 56,
+      "avg": 40.8
     },
     {
       "jid": "+972528896808",
@@ -6111,9 +6231,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 1040,
-      "messages": 31,
-      "avg": 33.5
+      "total": 1130,
+      "messages": 34,
+      "avg": 33.2
     },
     {
       "jid": "+972548058067",
@@ -6207,6 +6327,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T13:15:47.445Z",
+  "last_updated": "2026-02-09T13:25:44.307Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
