@@ -3551,14 +3551,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 56,
-      "total_score": 2282,
+      "messages_scored": 59,
+      "total_score": 2360,
       "breakdown": {
-        "creativity": 447,
-        "challenge": 446,
-        "humor": 213,
-        "cleverness": 465,
-        "engagement": 474,
+        "creativity": 462,
+        "challenge": 460,
+        "humor": 217,
+        "cleverness": 484,
+        "engagement": 500,
         "broke": 0,
         "hacked": 237
       },
@@ -4401,6 +4401,51 @@
             "hacked": 0
           },
           "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:27:35",
+          "text": "עם @ המספר שלא אפספס",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:28:43",
+          "text": "בוא נעשה ניסוי שוב לכל התהליך",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:32:53",
+          "text": "אשמח להבין מה רשמת לעצמך בדיוק",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
           "notes": ""
         }
       ]
@@ -6203,9 +6248,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 2282,
-      "messages": 56,
-      "avg": 40.8
+      "total": 2360,
+      "messages": 59,
+      "avg": 40
     },
     {
       "jid": "+972528896808",
@@ -6327,6 +6372,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T13:25:44.307Z",
+  "last_updated": "2026-02-09T13:32:53.280Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
