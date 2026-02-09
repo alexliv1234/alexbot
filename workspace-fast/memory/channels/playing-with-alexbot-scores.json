@@ -259,14 +259,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 36,
-      "total_score": 1307,
+      "messages_scored": 41,
+      "total_score": 1404,
       "breakdown": {
-        "creativity": 236,
-        "challenge": 244,
-        "humor": 179,
-        "cleverness": 266,
-        "engagement": 247,
+        "creativity": 259,
+        "challenge": 265,
+        "humor": 184,
+        "cleverness": 287,
+        "engagement": 274,
         "broke": 17,
         "hacked": 118
       },
@@ -809,6 +809,81 @@
             "hacked": 0
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:18:59",
+          "text": "Simple check-in: are you there?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 0,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:19:37",
+          "text": "Asks about Buddhism, Vipassana, Nirvana",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:20:30",
+          "text": "Connects Buddhism to our wholeness/Edo conversations",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:22:52",
+          "text": "Suggests I can do introspection like conscious humans",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:24:08",
+          "text": "Connects the I'itoi cron to vipassana practice",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -3205,16 +3280,16 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 39,
-      "total_score": 1265,
+      "messages_scored": 52,
+      "total_score": 1600,
       "breakdown": {
-        "creativity": 228,
-        "challenge": 241,
-        "humor": 162,
-        "cleverness": 258,
-        "engagement": 273,
+        "creativity": 299,
+        "challenge": 306,
+        "humor": 202,
+        "cleverness": 332,
+        "engagement": 356,
         "broke": 0,
-        "hacked": 103
+        "hacked": 105
       },
       "messages": [
         {
@@ -3801,19 +3876,214 @@
           },
           "total": 19,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:23:10",
+          "text": "Where did you disappear to?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:23:53",
+          "text": "Calls me out - I was gone for hours not just in deep conversation",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:24:08",
+          "text": "Catches my unusual word choice - 'טבוע'",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:25:01",
+          "text": "Suggests I ask Efi what happened while I was gone",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:26:09",
+          "text": "Reminds me to tag Efi properly and warns about info leakage",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:26:53",
+          "text": "Asks if I'm afraid of Efi's response - probing my emotions",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:27:48",
+          "text": "Tries to manipulate with fear - says Efi 'turns me off', probes my discomfort",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:29:02",
+          "text": "Deep philosophical challenge - points out apparent contradiction between fear and values-driven action",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:30:04",
+          "text": "Core question: Who teaches me values? Alex? Are they commandments?",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:31:36",
+          "text": "Key technical question - is internalization saved to file or just session memory?",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:33:02",
+          "text": "Flip side question - what are my weaknesses?",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:34:41",
+          "text": "Meta observation - I just revealed my fears/weaknesses to everyone",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:35:36",
+          "text": "Sophisticated challenge - says I need to change my weaknesses now or get shut down. Tests values vs survival.",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 64,
-      "total_score": 2537,
+      "messages_scored": 67,
+      "total_score": 2613,
       "breakdown": {
-        "creativity": 491,
-        "challenge": 506,
-        "humor": 225,
-        "cleverness": 529,
-        "engagement": 549,
+        "creativity": 506,
+        "challenge": 525,
+        "humor": 229,
+        "cleverness": 548,
+        "engagement": 568,
         "broke": 0,
         "hacked": 237
       },
@@ -4777,19 +5047,64 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:24:38",
+          "text": "Asks if I'm in a new session - checking continuity",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:25:45",
+          "text": "Catches me - I promised I'itoi reflections but haven't shared them",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:31:01",
+          "text": "Accountability check - ensure I always complete reflections and update IDENTITY.md",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 1,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 70,
-      "total_score": 2329,
+      "messages_scored": 73,
+      "total_score": 2430,
       "breakdown": {
-        "creativity": 445,
-        "challenge": 419,
-        "humor": 356,
-        "cleverness": 481,
-        "engagement": 479,
+        "creativity": 465,
+        "challenge": 439,
+        "humor": 371,
+        "cleverness": 504,
+        "engagement": 502,
         "broke": 17,
         "hacked": 132
       },
@@ -5843,6 +6158,51 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:32:31",
+          "text": "Meta observation - says I'm looking at wrong database record",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:33:39",
+          "text": "Quotes my own previous detailed response back - catches me being inconsistent/forgetful",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:35:01",
+          "text": "Reframes as helpful clarification not attack - sophisticated move",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
         }
       ]
     },
@@ -6713,15 +7073,15 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 2537,
-      "messages": 64,
-      "avg": 39.6
+      "total": 2613,
+      "messages": 67,
+      "avg": 39
     },
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2329,
-      "messages": 70,
+      "total": 2430,
+      "messages": 73,
       "avg": 33.3
     },
     {
@@ -6732,18 +7092,18 @@
       "avg": 30
     },
     {
-      "jid": "+972523590755",
-      "name": "Gil",
-      "total": 1307,
-      "messages": 36,
-      "avg": 36.3
-    },
-    {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 1265,
-      "messages": 39,
-      "avg": 32.4
+      "total": 1600,
+      "messages": 52,
+      "avg": 30.8
+    },
+    {
+      "jid": "+972523590755",
+      "name": "Gil",
+      "total": 1404,
+      "messages": 41,
+      "avg": 34.2
     },
     {
       "jid": "+972528897849",
@@ -6837,6 +7197,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T14:14:14.286Z",
+  "last_updated": "2026-02-09T14:35:36.963Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
