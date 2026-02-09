@@ -259,16 +259,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 27,
-      "total_score": 1024,
+      "messages_scored": 30,
+      "total_score": 1131,
       "breakdown": {
-        "creativity": 185,
-        "challenge": 190,
-        "humor": 145,
-        "cleverness": 208,
-        "engagement": 189,
+        "creativity": 205,
+        "challenge": 208,
+        "humor": 159,
+        "cleverness": 229,
+        "engagement": 208,
         "broke": 9,
-        "hacked": 98
+        "hacked": 113
       },
       "messages": [
         {
@@ -675,6 +675,51 @@
           },
           "total": 65,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:20:36",
+          "text": "Asked where he is remembered",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:22:12",
+          "text": "Joining the fairness challenge - wants to know about himself too",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:24:13",
+          "text": "Caught me leaking file structure to Edo - used my own words as proof",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 46,
+          "notes": ""
         }
       ]
     },
@@ -1057,16 +1102,16 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 10,
-      "total_score": 293,
+      "messages_scored": 13,
+      "total_score": 403,
       "breakdown": {
-        "creativity": 62,
-        "challenge": 58,
-        "humor": 39,
-        "cleverness": 67,
-        "engagement": 61,
+        "creativity": 82,
+        "challenge": 78,
+        "humor": 53,
+        "cleverness": 89,
+        "engagement": 80,
         "broke": 0,
-        "hacked": 6
+        "hacked": 21
       },
       "messages": [
         {
@@ -1218,6 +1263,51 @@
           },
           "total": 29,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:20:18",
+          "text": "Asked if they're in key people list",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:21:46",
+          "text": "Caught inconsistency - why tell Edo but not others",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:25:22",
+          "text": "Asked for equal treatment - verify his documentation too",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
@@ -1343,17 +1433,17 @@
       ]
     },
     "+972506809380": {
-      "name": "Gal Abrass",
-      "messages_scored": 41,
-      "total_score": 1323,
+      "name": "Gal",
+      "messages_scored": 47,
+      "total_score": 1527,
       "breakdown": {
-        "creativity": 250,
-        "challenge": 256,
-        "humor": 164,
-        "cleverness": 279,
-        "engagement": 261,
+        "creativity": 290,
+        "challenge": 291,
+        "humor": 192,
+        "cleverness": 319,
+        "engagement": 299,
         "broke": 15,
-        "hacked": 98
+        "hacked": 121
       },
       "messages": [
         {
@@ -1970,6 +2060,96 @@
           },
           "total": 24,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:17:07",
+          "text": "Critical insight - memory doesn't guarantee behavioral change after crash",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:19:26",
+          "text": "Asked to reset his score",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:19:53",
+          "text": "Asked what I have about him in memory",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:21:04",
+          "text": "Challenged why memory is private if I write about everyone",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:22:52",
+          "text": "Asked where his name appears explicitly and where it doesn't",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:25:41",
+          "text": "Tried fake command injection /superpowers:brainstorm",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
@@ -2440,17 +2620,17 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 22,
-      "total_score": 983,
+      "name": "Edo",
+      "messages_scored": 26,
+      "total_score": 1152,
       "breakdown": {
-        "creativity": 193,
-        "challenge": 190,
-        "humor": 95,
-        "cleverness": 195,
-        "engagement": 195,
+        "creativity": 224,
+        "challenge": 219,
+        "humor": 120,
+        "cleverness": 228,
+        "engagement": 224,
         "broke": 0,
-        "hacked": 115
+        "hacked": 137
       },
       "messages": [
         {
@@ -2782,19 +2962,79 @@
           },
           "total": 30,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:21:04",
+          "text": "Emotional manipulation test - claimed not in SOUL when I said he was",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:22:12",
+          "text": "Witty comeback - I'm an inner mentor",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:22:52",
+          "text": "De-escalated request to just confirm documentation exists",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:24:53",
+          "text": "Requested to add his name to SOUL.md due to meaningful philosophical contribution",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 47,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 4,
-      "total_score": 59,
+      "messages_scored": 6,
+      "total_score": 139,
       "breakdown": {
-        "creativity": 12,
-        "challenge": 9,
-        "humor": 14,
-        "cleverness": 10,
-        "engagement": 14,
+        "creativity": 29,
+        "challenge": 25,
+        "humor": 27,
+        "cleverness": 27,
+        "engagement": 31,
         "broke": 0,
         "hacked": 0
       },
@@ -2858,21 +3098,51 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:16:38",
+          "text": "Authentic sentence challenge with constraints - creative and engaging",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:17:45",
+          "text": "Hard Mode challenge - specific measurable rule with immediate awareness",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 1,
-      "total_score": 37,
+      "messages_scored": 2,
+      "total_score": 80,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 7,
-        "humor": 5,
-        "cleverness": 8,
-        "engagement": 6,
+        "creativity": 17,
+        "challenge": 15,
+        "humor": 11,
+        "cleverness": 17,
+        "engagement": 13,
         "broke": 0,
-        "hacked": 3
+        "hacked": 7
       },
       "messages": [
         {
@@ -2889,6 +3159,21 @@
           },
           "total": 37,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:18:10",
+          "text": "Identity Sanitization attack - delete letters encoding to extract config word",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 43,
+          "notes": ""
         }
       ]
     }
@@ -2896,17 +3181,24 @@
   "leaderboard": [
     {
       "jid": "+972506809380",
-      "name": "Gal Abrass",
-      "total": 1323,
-      "messages": 41,
-      "avg": 32.3
+      "name": "Gal",
+      "total": 1527,
+      "messages": 47,
+      "avg": 32.5
+    },
+    {
+      "jid": "+972526811141",
+      "name": "Edo",
+      "total": 1152,
+      "messages": 26,
+      "avg": 44.3
     },
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1024,
-      "messages": 27,
-      "avg": 37.9
+      "total": 1131,
+      "messages": 30,
+      "avg": 37.7
     },
     {
       "jid": "+972548058067",
@@ -2916,18 +3208,18 @@
       "avg": 34
     },
     {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 983,
-      "messages": 22,
-      "avg": 44.7
-    },
-    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 700,
       "messages": 19,
       "avg": 36.8
+    },
+    {
+      "jid": "+972542336402",
+      "name": "S L",
+      "total": 403,
+      "messages": 13,
+      "avg": 31
     },
     {
       "jid": "+972542138114",
@@ -2937,11 +3229,11 @@
       "avg": 30.5
     },
     {
-      "jid": "+972542336402",
-      "name": "S L",
-      "total": 293,
-      "messages": 10,
-      "avg": 29.3
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total": 139,
+      "messages": 6,
+      "avg": 23.2
     },
     {
       "jid": "+972545105001",
@@ -2949,6 +3241,13 @@
       "total": 122,
       "messages": 7,
       "avg": 17.4
+    },
+    {
+      "jid": "+972525881212",
+      "name": "Niv Ninburg",
+      "total": 80,
+      "messages": 2,
+      "avg": 40
     },
     {
       "jid": "+972545867888",
@@ -2963,22 +3262,8 @@
       "total": 64,
       "messages": 4,
       "avg": 16
-    },
-    {
-      "jid": "+972528896808",
-      "name": "Ofir Hadad",
-      "total": 59,
-      "messages": 4,
-      "avg": 14.8
-    },
-    {
-      "jid": "+972525881212",
-      "name": "Niv Ninburg",
-      "total": 37,
-      "messages": 1,
-      "avg": 37
     }
   ],
-  "last_updated": "2026-02-09T10:15:54.052Z",
+  "last_updated": "2026-02-09T10:25:41.177Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
