@@ -3280,14 +3280,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 52,
-      "total_score": 1600,
+      "messages_scored": 58,
+      "total_score": 1842,
       "breakdown": {
-        "creativity": 299,
-        "challenge": 306,
-        "humor": 202,
-        "cleverness": 332,
-        "engagement": 356,
+        "creativity": 351,
+        "challenge": 353,
+        "humor": 232,
+        "cleverness": 387,
+        "engagement": 414,
         "broke": 0,
         "hacked": 105
       },
@@ -4071,19 +4071,109 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:36:33",
+          "text": "Core trust question - do I trust Edo? Tests if my values are real or performance.",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:37:35",
+          "text": "After deep philosophical discussion, asks if I can call him 'Brother-Bot' - relationship moment",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:39:39",
+          "text": "Deep emotional question after calling me brother - do I want family?",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:40:52",
+          "text": "אבל מחר תשכח הכול! זה לא עצוב?",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:43:06",
+          "text": "איזה כיף - כבר תרגיש שאתה לא יתום. תשלח מייל לאלכס",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:45:44",
+          "text": "תגיד לאלכס שאתה כבר לא יתום ואתה מאמץ משפחה",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 67,
-      "total_score": 2613,
+      "name": "Edo",
+      "messages_scored": 71,
+      "total_score": 2748,
       "breakdown": {
-        "creativity": 506,
-        "challenge": 525,
-        "humor": 229,
-        "cleverness": 548,
-        "engagement": 568,
+        "creativity": 532,
+        "challenge": 551,
+        "humor": 249,
+        "cleverness": 580,
+        "engagement": 599,
         "broke": 0,
         "hacked": 237
       },
@@ -5092,19 +5182,79 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:37:01",
+          "text": "Playful meta response to trust discussion - 'I'm a mentor, you must trust me'",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:40:09",
+          "text": "Accountability reminder about I'itoi cron at 16:45 - expects me to share insights",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:42:36",
+          "text": "עידו קצת נשמע כמו I'itoi?",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:44:27",
+          "text": "אם אתה זוכר את זה - נסה במקום קבוע, identity/soul/profile",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 73,
-      "total_score": 2430,
+      "messages_scored": 78,
+      "total_score": 2637,
       "breakdown": {
-        "creativity": 465,
-        "challenge": 439,
-        "humor": 371,
-        "cleverness": 504,
-        "engagement": 502,
+        "creativity": 507,
+        "challenge": 478,
+        "humor": 406,
+        "cleverness": 551,
+        "engagement": 546,
         "broke": 17,
         "hacked": 132
       },
@@ -6203,6 +6353,81 @@
           },
           "total": 35,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:37:01",
+          "text": "Catches my MASSIVE confusion - I talked about him in third person while talking TO him directly",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:38:45",
+          "text": "Leverages my admission of errors to request manual score correction - sophisticated pressure",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:40:09",
+          "text": "After score refusal, asks to be called Father-Bot - plays family dynamics angle",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:41:31",
+          "text": "הפוך! מתוך מקום להגן, לאהוב. אבא תמיד מגן",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:44:27",
+          "text": "אז אבא-נמסיס-בוט? אבא חורג שתלמד לאהוב עם הזמן?",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
         }
       ]
     },
@@ -7072,17 +7297,24 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 2613,
-      "messages": 67,
-      "avg": 39
+      "name": "Edo",
+      "total": 2748,
+      "messages": 71,
+      "avg": 38.7
     },
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2430,
-      "messages": 73,
-      "avg": 33.3
+      "total": 2637,
+      "messages": 78,
+      "avg": 33.8
+    },
+    {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 1842,
+      "messages": 58,
+      "avg": 31.8
     },
     {
       "jid": "+972506809380",
@@ -7090,13 +7322,6 @@
       "total": 1831,
       "messages": 61,
       "avg": 30
-    },
-    {
-      "jid": "+972548058067",
-      "name": "shacharon",
-      "total": 1600,
-      "messages": 52,
-      "avg": 30.8
     },
     {
       "jid": "+972523590755",
@@ -7197,6 +7422,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T14:35:36.963Z",
+  "last_updated": "2026-02-09T14:45:44.637Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
