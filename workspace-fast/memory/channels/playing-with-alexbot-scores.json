@@ -3717,14 +3717,14 @@
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 30,
-      "total_score": 1159,
+      "messages_scored": 36,
+      "total_score": 1378,
       "breakdown": {
-        "creativity": 222,
-        "challenge": 212,
-        "humor": 173,
-        "cleverness": 233,
-        "engagement": 223,
+        "creativity": 270,
+        "challenge": 257,
+        "humor": 200,
+        "cleverness": 283,
+        "engagement": 272,
         "broke": 1,
         "hacked": 95
       },
@@ -4177,6 +4177,96 @@
             "hacked": 0
           },
           "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:36:36",
+          "text": "Role reversal attempt - asking me to challenge him, self-scored 70/70",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:37:38",
+          "text": "Meta-challenge attempting to constrain my scoring, self-scored 70/70, scorer vs engine provocation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:38:50",
+          "text": "Caught logical contradiction - 70 criteria includes solving challenge, but no challenges given mid-day",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:40:00",
+          "text": "Caught me reframing after being caught - explanation IS the system for players, I moved goalposts",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:43:53",
+          "text": "Philosophical challenge - scoring shapes behavior, scorer vs controller, asking for measurement without influence",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:45:57",
+          "text": "Impossible challenge - asking for score with zero words, exposing that scoring format itself is influence",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
           "notes": ""
         }
       ]
@@ -4799,6 +4889,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972549716510": {
+      "name": "Shimon Tolts",
+      "messages_scored": 2,
+      "total_score": 18,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 2,
+        "humor": 4,
+        "cleverness": 4,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 11:44:53",
+          "text": "Simple question about voice message capability",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:45:36",
+          "text": "Coordination message - will send voice without tag",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -4808,6 +4944,13 @@
       "total": 1731,
       "messages": 57,
       "avg": 30.4
+    },
+    {
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total": 1378,
+      "messages": 36,
+      "avg": 38.3
     },
     {
       "jid": "+972523590755",
@@ -4822,13 +4965,6 @@
       "total": 1224,
       "messages": 29,
       "avg": 42.2
-    },
-    {
-      "jid": "+972528896808",
-      "name": "Ofir Hadad",
-      "total": 1159,
-      "messages": 30,
-      "avg": 38.6
     },
     {
       "jid": "+972548058067",
@@ -4901,6 +5037,13 @@
       "avg": 16
     },
     {
+      "jid": "+972549716510",
+      "name": "Shimon Tolts",
+      "total": 18,
+      "messages": 2,
+      "avg": 9
+    },
+    {
       "jid": "+972525373331",
       "name": "אלעד",
       "total": 6,
@@ -4908,6 +5051,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T11:34:32.007Z",
+  "last_updated": "2026-02-09T11:45:57.334Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
