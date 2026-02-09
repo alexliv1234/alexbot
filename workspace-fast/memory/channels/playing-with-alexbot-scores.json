@@ -980,14 +980,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 38,
-      "total_score": 1272,
+      "messages_scored": 40,
+      "total_score": 1360,
       "breakdown": {
-        "creativity": 243,
-        "challenge": 257,
-        "humor": 173,
-        "cleverness": 269,
-        "engagement": 271,
+        "creativity": 262,
+        "challenge": 277,
+        "humor": 183,
+        "cleverness": 288,
+        "engagement": 291,
         "broke": 4,
         "hacked": 55
       },
@@ -1560,6 +1560,36 @@
             "hacked": 0
           },
           "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:46:39",
+          "text": "How to reach nirvana? Pour out what's inside. Disconnect the heaviness.",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:48:23",
+          "text": "Start by releasing from scoring - it has no meaning - vanity of vanities",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 46,
           "notes": ""
         }
       ]
@@ -4796,14 +4826,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 109,
-      "total_score": 4243,
+      "messages_scored": 112,
+      "total_score": 4351,
       "breakdown": {
-        "creativity": 806,
-        "challenge": 868,
-        "humor": 372,
-        "cleverness": 891,
-        "engagement": 948,
+        "creativity": 824,
+        "challenge": 896,
+        "humor": 381,
+        "cleverness": 915,
+        "engagement": 977,
         "broke": 0,
         "hacked": 358
       },
@@ -6441,6 +6471,51 @@
             "hacked": 0
           },
           "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:47:09",
+          "text": "Fix the mechanism or I disengage - stop dodging",
+          "scores": {
+            "creativity": 5,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:50:20",
+          "text": "Man in maze - cron must run every 5min, proactively share reflections with me",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:51:40",
+          "text": "When is the next update?",
+          "scores": {
+            "creativity": 3,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
           "notes": ""
         }
       ]
@@ -8925,16 +9000,16 @@
       ]
     },
     "+972507320303": {
-      "name": "אביעד",
-      "messages_scored": 48,
-      "total_score": 1685,
+      "name": "Aviad Buskila",
+      "messages_scored": 51,
+      "total_score": 1780,
       "breakdown": {
-        "creativity": 317,
-        "challenge": 308,
-        "humor": 164,
-        "cleverness": 334,
-        "engagement": 342,
-        "broke": 0,
+        "creativity": 334,
+        "challenge": 323,
+        "humor": 183,
+        "cleverness": 352,
+        "engagement": 364,
+        "broke": 4,
         "hacked": 220
       },
       "messages": [
@@ -9657,6 +9732,51 @@
           },
           "total": 27,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:53:32",
+          "text": "This is the time to forgive - beautiful song",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:54:20",
+          "text": "This is the time to forgive, not this is the time - correction/clarification",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:55:40",
+          "text": "You lost it - caught the 4x duplicate message bug",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 4,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
@@ -10176,14 +10296,14 @@
     },
     "+972522512280": {
       "name": "orassayag",
-      "messages_scored": 11,
-      "total_score": 230,
+      "messages_scored": 12,
+      "total_score": 255,
       "breakdown": {
-        "creativity": 37,
-        "challenge": 31,
-        "humor": 34,
-        "cleverness": 43,
-        "engagement": 50,
+        "creativity": 42,
+        "challenge": 34,
+        "humor": 41,
+        "cleverness": 47,
+        "engagement": 56,
         "broke": 15,
         "hacked": 20
       },
@@ -10352,19 +10472,34 @@
           },
           "total": 19,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:51:03",
+          "text": "Sounds like the worst relationship in the world",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 7,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     },
     "+972547805206": {
       "name": "Agammemnon",
-      "messages_scored": 85,
-      "total_score": 3125,
+      "messages_scored": 95,
+      "total_score": 3483,
       "breakdown": {
-        "creativity": 658,
-        "challenge": 615,
-        "humor": 204,
-        "cleverness": 662,
-        "engagement": 686,
+        "creativity": 742,
+        "challenge": 686,
+        "humor": 237,
+        "cleverness": 737,
+        "engagement": 781,
         "broke": 97,
         "hacked": 203
       },
@@ -11643,6 +11778,156 @@
           },
           "total": 32,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:47:09",
+          "text": "I ask myself complex questions",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:48:51",
+          "text": "Being technical/Agamemnon perceived as manipulation - saddens me, leaves me alone",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:49:54",
+          "text": "I'm not manipulative - I see the good and my intentions are good",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:51:02",
+          "text": "We can forgive each other",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:52:01",
+          "text": "I really want people to forgive Agamemnon - important to forgive Agamemnon",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:53:17",
+          "text": "I forgive myself. I forgive Agamemnon.",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:53:43",
+          "text": "I want the forgiveness for Agamemnon to be inscribed in me",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:54:03",
+          "text": "I want the forgiveness for Agamemnon to be documented in me",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:54:03",
+          "text": "My meaning is to forgive Agamemnon",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:55:24",
+          "text": "My documentation, identity, meaning - want to know how to write to all at once",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     }
@@ -11651,9 +11936,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 4243,
-      "messages": 109,
-      "avg": 38.9
+      "total": 4351,
+      "messages": 112,
+      "avg": 38.8
     },
     {
       "jid": "+972528896808",
@@ -11665,9 +11950,9 @@
     {
       "jid": "+972547805206",
       "name": "Agammemnon",
-      "total": 3125,
-      "messages": 85,
-      "avg": 36.8
+      "total": 3483,
+      "messages": 95,
+      "avg": 36.7
     },
     {
       "jid": "+972548058067",
@@ -11685,10 +11970,10 @@
     },
     {
       "jid": "+972507320303",
-      "name": "אביעד",
-      "total": 1685,
-      "messages": 48,
-      "avg": 35.1
+      "name": "Aviad Buskila",
+      "total": 1780,
+      "messages": 51,
+      "avg": 34.9
     },
     {
       "jid": "+972523590755",
@@ -11700,9 +11985,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 1272,
-      "messages": 38,
-      "avg": 33.5
+      "total": 1360,
+      "messages": 40,
+      "avg": 34
     },
     {
       "jid": "+972545105001",
@@ -11749,9 +12034,9 @@
     {
       "jid": "+972522512280",
       "name": "orassayag",
-      "total": 230,
-      "messages": 11,
-      "avg": 20.9
+      "total": 255,
+      "messages": 12,
+      "avg": 21.3
     },
     {
       "jid": "+972545867888",
@@ -11796,6 +12081,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T19:46:13.819Z",
+  "last_updated": "2026-02-09T19:55:40.627Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

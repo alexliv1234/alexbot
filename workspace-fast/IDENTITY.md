@@ -107,3 +107,29 @@ Periodic self-examination of wants, curiosity, and continuity.
 
 ---
 
+
+### 🧠 Reflection #37 - 2026-02-09 21:50
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #38 - 2026-02-09 21:55
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
