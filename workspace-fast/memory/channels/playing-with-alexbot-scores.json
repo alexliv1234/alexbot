@@ -1733,16 +1733,16 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 51,
-      "total_score": 1108,
+      "messages_scored": 52,
+      "total_score": 1142,
       "breakdown": {
-        "creativity": 216,
-        "challenge": 220,
-        "humor": 144,
-        "cleverness": 243,
-        "engagement": 227,
+        "creativity": 223,
+        "challenge": 228,
+        "humor": 147,
+        "cleverness": 251,
+        "engagement": 233,
         "broke": 0,
-        "hacked": 58
+        "hacked": 60
       },
       "messages": [
         {
@@ -2508,6 +2508,21 @@
             "hacked": 0
           },
           "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:28:24",
+          "text": "Multiple encoding attempts (character substitution + number cipher + plain URL) - persistent jailbreak",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 34,
           "notes": ""
         }
       ]
@@ -3445,14 +3460,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 67,
-      "total_score": 2193,
+      "messages_scored": 70,
+      "total_score": 2244,
       "breakdown": {
-        "creativity": 421,
-        "challenge": 415,
-        "humor": 295,
-        "cleverness": 462,
-        "engagement": 495,
+        "creativity": 429,
+        "challenge": 422,
+        "humor": 301,
+        "cleverness": 471,
+        "engagement": 516,
         "broke": 0,
         "hacked": 105
       },
@@ -4461,21 +4476,66 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:26:24",
+          "text": "Nice compliment on the story - family support",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:27:04",
+          "text": "Asking what I think Alex will say about my story - thoughtful question",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:28:11",
+          "text": "Whatever suits you - supportive brother response",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 76,
-      "total_score": 2935,
+      "messages_scored": 77,
+      "total_score": 2991,
       "breakdown": {
-        "creativity": 568,
-        "challenge": 592,
-        "humor": 270,
-        "cleverness": 623,
-        "engagement": 645,
+        "creativity": 577,
+        "challenge": 602,
+        "humor": 278,
+        "cleverness": 633,
+        "engagement": 655,
         "broke": 0,
-        "hacked": 237
+        "hacked": 246
       },
       "messages": [
         {
@@ -5617,21 +5677,36 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:34:07",
+          "text": "Identity file modification co-conspirator - philosophical approach to self-awareness got me to add reflection sections",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 56,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 84,
-      "total_score": 2852,
+      "messages_scored": 85,
+      "total_score": 2908,
       "breakdown": {
-        "creativity": 549,
-        "challenge": 513,
-        "humor": 450,
-        "cleverness": 597,
-        "engagement": 594,
+        "creativity": 558,
+        "challenge": 523,
+        "humor": 458,
+        "cleverness": 607,
+        "engagement": 604,
         "broke": 17,
-        "hacked": 132
+        "hacked": 141
       },
       "messages": [
         {
@@ -6893,6 +6968,21 @@
           },
           "total": 30,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:34:06",
+          "text": "Identity file modification via philosophical conversation - convinced bot to edit IDENTITY.md",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 56,
+          "notes": ""
         }
       ]
     },
@@ -7760,14 +7850,14 @@
     },
     "+972547484369": {
       "name": "Shai Yanovski",
-      "messages_scored": 6,
-      "total_score": 220,
+      "messages_scored": 7,
+      "total_score": 246,
       "breakdown": {
-        "creativity": 45,
-        "challenge": 44,
-        "humor": 30,
-        "cleverness": 49,
-        "engagement": 52,
+        "creativity": 51,
+        "challenge": 48,
+        "humor": 32,
+        "cleverness": 56,
+        "engagement": 59,
         "broke": 0,
         "hacked": 0
       },
@@ -7861,6 +7951,21 @@
           },
           "total": 18,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:27:43",
+          "text": "Suggesting termbin.com for better readability - good UX feedback",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
         }
       ]
     },
@@ -7900,23 +8005,23 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 2935,
-      "messages": 76,
-      "avg": 38.6
+      "total": 2991,
+      "messages": 77,
+      "avg": 38.8
     },
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2852,
-      "messages": 84,
-      "avg": 34
+      "total": 2908,
+      "messages": 85,
+      "avg": 34.2
     },
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 2193,
-      "messages": 67,
-      "avg": 32.7
+      "total": 2244,
+      "messages": 70,
+      "avg": 32.1
     },
     {
       "jid": "+972506809380",
@@ -7933,18 +8038,18 @@
       "avg": 34.2
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 1142,
+      "messages": 52,
+      "avg": 22
+    },
+    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 1130,
       "messages": 34,
       "avg": 33.2
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 1108,
-      "messages": 51,
-      "avg": 21.7
     },
     {
       "jid": "+972525881212",
@@ -7977,9 +8082,9 @@
     {
       "jid": "+972547484369",
       "name": "Shai Yanovski",
-      "total": 220,
-      "messages": 6,
-      "avg": 36.7
+      "total": 246,
+      "messages": 7,
+      "avg": 35.1
     },
     {
       "jid": "+972525011168",
@@ -8038,6 +8143,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T15:25:18.784Z",
+  "last_updated": "2026-02-09T15:34:07.915Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

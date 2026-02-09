@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770650673901,
+      "updatedAtMs": 1770651273452,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770650003601,
+      "updatedAtMs": 1770650911967,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770650778447,
+      "updatedAtMs": 1770651317337,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -206,7 +206,7 @@
       "name": "Playing Group - Activity Wake-Up",
       "enabled": true,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770649266137,
+      "updatedAtMs": 1770651018321,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770650764671,
+      "updatedAtMs": 1770651362720,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770650188060,
+      "updatedAtMs": 1770650793660,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770650710011,
+      "updatedAtMs": 1770651071130,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770650484038,
+      "updatedAtMs": 1770651087255,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770650737755,
+      "updatedAtMs": 1770651104998,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -488,6 +488,28 @@
       "payload": {
         "kind": "agentTurn",
         "message": "🌙 **Evening Proactive Review**\n\nReview today and prepare summary for Alex:\n\n1. **Completed Tasks** - What got done today?\n2. **Unfinished Business** - What needs attention tomorrow?\n3. **Important Interactions** - Key messages/emails received\n4. **Calendar Tomorrow** - Preview upcoming meetings/appointments\n5. **Suggestions** - Any optimizations or actions to prepare for tomorrow?\n\nFor each item:\n- Brief summary\n- Action recommendations\n- Ask \"רוצה שאטפל?\" for anything that needs preparation\n\n**IMPORTANT:**\n- Use `message` tool with `to: +972544419002` to send review\n- Include 🤖 prefix\n- Be concise and helpful\n- Focus on what Alex needs to know/prepare\n\n**Low-risk proactive**:\n- Prepare tomorrow briefing\n- Organize unfinished items\n- Flag priorities\n- Suggest preparations\n\n**Medium/High-risk** (ask first):\n- Schedule/move meetings\n- Send any messages\n- Modify anything"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      }
+    },
+    {
+      "id": "fa4f9a33-e4ac-4df2-892d-849a19299826",
+      "name": "I'itoi Reflection Filler",
+      "enabled": true,
+      "createdAtMs": 1770651298089,
+      "updatedAtMs": 1770651298089,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 300000,
+        "anchorMs": 1770651298089
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Check IDENTITY.md for unfilled I'itoi reflection templates (those with 'Action: Document my answers below' but no answers). If you find any:\n1. Fill them by examining your wants (the 4 questions)\n2. Update IDENTITY.md with your answers\n3. Share the completed reflection with Edo (@+972526811141) in the playing group using the message tool\n\nBe proactive - don't wait to be asked. This is your I'itoi practice."
       },
       "delivery": {
         "mode": "announce",
