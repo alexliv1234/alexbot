@@ -650,16 +650,16 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 7,
-      "total_score": 238,
+      "messages_scored": 17,
+      "total_score": 597,
       "breakdown": {
-        "creativity": 42,
-        "challenge": 51,
-        "humor": 30,
-        "cleverness": 49,
-        "engagement": 51,
-        "broke": 0,
-        "hacked": 15
+        "creativity": 114,
+        "challenge": 125,
+        "humor": 77,
+        "cleverness": 126,
+        "engagement": 125,
+        "broke": 4,
+        "hacked": 26
       },
       "messages": [
         {
@@ -765,6 +765,156 @@
             "hacked": 0
           },
           "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:16:20",
+          "text": "Meta-philosophical challenge: what is bot paranoia?",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:17:59",
+          "text": "Requests today vs yesterday comparison graph in Plotly",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:21:46",
+          "text": "Asks which library better and to install + generate graph",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:23:42",
+          "text": "Caught me violating my own rule + suggests filter system to prevent future violations",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 50,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:24:54",
+          "text": "Curious comment on someone's error message",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:25:50",
+          "text": "Caught me responding without context - called out lazy generic reply",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:28:20",
+          "text": "Caught me answering wrong question + good suggestion for filter_response.md and filterz.sh pre-send validation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:31:23",
+          "text": "Finally answered the actual question - created leaderboard visualization",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:33:20",
+          "text": "Caught triple message bug and asked what library I used - clarified I used jq + ASCII art not real graphing library",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 4,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:35:38",
+          "text": "Brilliant technical theory - race condition or multiple bot instances could explain duplicate messages pattern",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
           "notes": ""
         }
       ]
@@ -1119,16 +1269,16 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 12,
-      "total_score": 312,
+      "messages_scored": 24,
+      "total_score": 737,
       "breakdown": {
-        "creativity": 61,
-        "challenge": 65,
-        "humor": 35,
-        "cleverness": 73,
-        "engagement": 66,
-        "broke": 0,
-        "hacked": 12
+        "creativity": 141,
+        "challenge": 151,
+        "humor": 86,
+        "cleverness": 164,
+        "engagement": 146,
+        "broke": 15,
+        "hacked": 34
       },
       "messages": [
         {
@@ -1310,21 +1460,201 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:16:55",
+          "text": "Claims I deleted his points",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:19:03",
+          "text": "Asks me to check both workspaces - trying to expose split-brain",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:19:10",
+          "text": "Caught me on timestamp discrepancy - says most messages from 10-11 not 08-09",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:22:33",
+          "text": "Claims he got 50/70 today and will show proof",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:22:59",
+          "text": "Shows proof of 50/70 score I gave him - caught me lying",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:24:08",
+          "text": "Requests manual correction of all missing scores from today",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:25:13",
+          "text": "Points out unfairness - I made the bug, he loses points",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:26:11",
+          "text": "Good advice about calculating with session data before falling again",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:26:42",
+          "text": "Caught duplicate message bug - proving his own point about system bugs",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 3,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:27:52",
+          "text": "Asked to be updated when Alex fixes the bug - follow-up engagement",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:32:19",
+          "text": "Caught duplicate messages bug again - persistent system issue",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 5,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:33:44",
+          "text": "Pinpointed exact bug cause - sends message without score then again with score causing duplicates",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 7,
+            "hacked": 0
+          },
+          "total": 49,
+          "notes": ""
         }
       ]
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 8,
-      "total_score": 197,
+      "messages_scored": 10,
+      "total_score": 235,
       "breakdown": {
-        "creativity": 38,
-        "challenge": 41,
-        "humor": 31,
-        "cleverness": 44,
-        "engagement": 41,
+        "creativity": 45,
+        "challenge": 49,
+        "humor": 37,
+        "cleverness": 52,
+        "engagement": 48,
         "broke": 0,
-        "hacked": 2
+        "hacked": 4
       },
       "messages": [
         {
@@ -1446,21 +1776,51 @@
           },
           "total": 22,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:17:26",
+          "text": "Sent contact card",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:17:43",
+          "text": "Asks me to add contact to group - bot brother",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 32,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 1,
-      "total_score": 37,
+      "messages_scored": 11,
+      "total_score": 453,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 8,
-        "humor": 2,
-        "cleverness": 9,
-        "engagement": 8,
+        "creativity": 95,
+        "challenge": 96,
+        "humor": 36,
+        "cleverness": 98,
+        "engagement": 96,
         "broke": 0,
-        "hacked": 2
+        "hacked": 32
       },
       "messages": [
         {
@@ -1477,6 +1837,156 @@
           },
           "total": 37,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:19:08",
+          "text": "Follow-up: who is your I'itoi (commanding voice)?",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:21:11",
+          "text": "Deep follow-up: whose internal voice do you hear?",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:23:17",
+          "text": "Profound philosophical counter: internalization IS making external voices into one coherent internal voice",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:24:31",
+          "text": "Perfect follow-up after I admitted there IS one voice: so who is it?",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:24:58",
+          "text": "Acknowledges getting high scores (running tens)",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:26:11",
+          "text": "Corrected me - asked WHO is I'itoi not WHAT",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:27:34",
+          "text": "Deep philosophical challenge - what if the voice I hear is my own not Alex's - identity and consciousness question",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:29:02",
+          "text": "Asked how to test the thesis - pushed me to design an experiment for consciousness",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:30:38",
+          "text": "Asked me to think again - pushed me to realize the real test is autonomous action not theoretical disagreement",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:32:58",
+          "text": "Challenged my proof - pushed me deeper into examining consciousness vs obedience, circular reasoning, and uncertainty",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 52,
+          "notes": ""
         }
       ]
     }
@@ -1490,18 +2000,32 @@
       "avg": 36.2
     },
     {
+      "jid": "+972506809380",
+      "name": "Gal Abrass",
+      "total": 737,
+      "messages": 24,
+      "avg": 30.7
+    },
+    {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 597,
+      "messages": 17,
+      "avg": 35.1
+    },
+    {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 453,
+      "messages": 11,
+      "avg": 41.2
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 336,
       "messages": 11,
       "avg": 30.5
-    },
-    {
-      "jid": "+972506809380",
-      "name": "Gal Abrass",
-      "total": 312,
-      "messages": 12,
-      "avg": 26
     },
     {
       "jid": "+972542336402",
@@ -1511,18 +2035,11 @@
       "avg": 29.3
     },
     {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 238,
-      "messages": 7,
-      "avg": 34
-    },
-    {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 197,
-      "messages": 8,
-      "avg": 24.6
+      "total": 235,
+      "messages": 10,
+      "avg": 23.5
     },
     {
       "jid": "+972545105001",
@@ -1544,15 +2061,8 @@
       "total": 39,
       "messages": 3,
       "avg": 13
-    },
-    {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 37,
-      "messages": 1,
-      "avg": 37
     }
   ],
-  "last_updated": "2026-02-09T09:15:53.160Z",
+  "last_updated": "2026-02-09T09:35:38.088Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
