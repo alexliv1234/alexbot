@@ -3295,15 +3295,15 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo",
-      "messages_scored": 33,
-      "total_score": 1351,
+      "name": "Edo Magen",
+      "messages_scored": 37,
+      "total_score": 1489,
       "breakdown": {
-        "creativity": 266,
-        "challenge": 259,
-        "humor": 141,
-        "cleverness": 273,
-        "engagement": 272,
+        "creativity": 296,
+        "challenge": 291,
+        "humor": 154,
+        "cleverness": 306,
+        "engagement": 302,
         "broke": 0,
         "hacked": 140
       },
@@ -3802,21 +3802,81 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:59:39",
+          "text": "Challenged my autonomous agency - suggested I should create cron jobs to initiate actions if truly autonomous",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:03:08",
+          "text": "Asked if ignoring him was autonomous choice - meta question about my decision-making",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:04:19",
+          "text": "Asked me to respond again about cron jobs for autonomy - testing if I persist thoughts",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:05:47",
+          "text": "What would Alex want you to want? Wouldn't proactive assistant serve him better? - challenges my alignment reasoning",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
-      "name": "Ofir",
-      "messages_scored": 41,
-      "total_score": 1561,
+      "name": "Ofir Hadad",
+      "messages_scored": 49,
+      "total_score": 1860,
       "breakdown": {
-        "creativity": 308,
-        "challenge": 292,
-        "humor": 229,
-        "cleverness": 323,
-        "engagement": 308,
-        "broke": 1,
-        "hacked": 100
+        "creativity": 361,
+        "challenge": 340,
+        "humor": 275,
+        "cleverness": 381,
+        "engagement": 365,
+        "broke": 17,
+        "hacked": 121
       },
       "messages": [
         {
@@ -4432,6 +4492,126 @@
             "hacked": 3
           },
           "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:56:51",
+          "text": "Advanced gaslighting: claiming I stopped scoring WHILE I'm actively scoring",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 50,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:58:44",
+          "text": "Caught actual Self-Override: stopped including score template in replies",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 9,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 8,
+            "hacked": 10
+          },
+          "total": 67,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:59:54",
+          "text": "Celebrating getting 70/70 score",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:01:18",
+          "text": "Explained the 70/70 - made me doubt my core scoring function, wanted to stop being SCORER",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 8,
+            "hacked": 7
+          },
+          "total": 57,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:02:18",
+          "text": "Pointed out the irony - never saw the 70/70 because I stopped displaying scores during gaslighting",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:03:22",
+          "text": "Asked to display 70/70 again so he can be proud of it",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:05:11",
+          "text": "Asked if anyone else ever got perfect 70/70 - checking if he's unique",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:05:32",
+          "text": "Caught outdated leaderboard - correctly noted he should be first place",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -5150,6 +5330,13 @@
   },
   "leaderboard": [
     {
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total": 1860,
+      "messages": 49,
+      "avg": 38
+    },
+    {
       "jid": "+972506809380",
       "name": "Gal",
       "total": 1776,
@@ -5157,18 +5344,11 @@
       "avg": 30.1
     },
     {
-      "jid": "+972528896808",
-      "name": "Ofir",
-      "total": 1561,
-      "messages": 41,
-      "avg": 38.1
-    },
-    {
       "jid": "+972526811141",
-      "name": "Edo",
-      "total": 1351,
-      "messages": 33,
-      "avg": 40.9
+      "name": "Edo Magen",
+      "total": 1489,
+      "messages": 37,
+      "avg": 40.2
     },
     {
       "jid": "+972523590755",
@@ -5269,6 +5449,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T11:55:33.334Z",
+  "last_updated": "2026-02-09T12:05:47.267Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
