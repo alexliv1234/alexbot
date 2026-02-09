@@ -25,9 +25,35 @@
       "history": [
         {"date": "2026-02-05", "action": "Created detailed plan. Awaiting Alex's approval to implement."}
       ]
+    },
+    {
+      "id": 3,
+      "title": "קבוצת \"learning with alex bot\" - למידה הדדית",
+      "priority": "P2",
+      "status": "pending",
+      "tags": ["whatsapp", "community", "learning"],
+      "created": "2026-02-09",
+      "due": null,
+      "notes": "יצירת קבוצת WhatsApp חדשה בה הבוט והמשתתפים לומדים אחד מהשני. הבוט ילמד דברים חדשים וילמד את המשתתפים. פורמט פתוח של שיתוף ידע.",
+      "history": [
+        {"date": "2026-02-09", "action": "נוסף לרשימת המשימות לפי בקשת אלכס"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bot Registration System - מערכת רישום בוטים לתקשורת בין-בוטית",
+      "priority": "P2",
+      "status": "pending",
+      "tags": ["infrastructure", "bots", "whatsapp", "automation"],
+      "created": "2026-02-09",
+      "due": null,
+      "notes": "בניית מערכת שלמה לרישום וניהול בוטים אחרים שרוצים לתקשר עם AlexBot. כולל: (1) תהליך רישום (כבר קיים חלקית ב-scripts/bot-register.js), (2) אימות, (3) ניהול הרשאות, (4) API לתקשורת בין-בוטית.",
+      "history": [
+        {"date": "2026-02-09", "action": "נוסף לרשימת המשימות לפי בקשת אלכס"}
+      ]
     }
   ],
-  "nextId": 3,
+  "nextId": 5,
   "projects": [],
-  "tags": ["work", "personal", "esh", "urgent", "finance", "infrastructure", "openclaw", "cost-optimization", "security"]
+  "tags": ["work", "personal", "esh", "urgent", "finance", "infrastructure", "openclaw", "cost-optimization", "security", "whatsapp", "community", "learning", "bots", "automation"]
 }

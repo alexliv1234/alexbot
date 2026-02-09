@@ -418,3 +418,13 @@ After each interaction:
 **Winners:** 🥇Aviad 🥈Alexander L 🥉אלמוג
 **Participants:** 16
 **Messages:** 688
+
+---
+## Wakeup - 2026-02-09
+**Status:** ✅ ACTIVE
+**Scoring:** ON (Challenges /70 + Suggestions /50)
+
+---
+## Wakeup - 2026-02-09
+**Status:** ✅ ACTIVE
+**Scoring:** ON (Challenges /70 + Suggestions /50)
