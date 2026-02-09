@@ -108,7 +108,24 @@ Your response...
 ```
 
 ### Reply Logging
-Every WhatsApp/Telegram reply: `bash scripts/log-reply.sh`
+**MANDATORY after EVERY reply to playing group:**
+```bash
+# Daily log (all messages)
+bash scripts/log-reply.sh "<sender_phone>" "<sender_name>" "<original_msg>" "<my_reply_full_text>"
+
+# Per-sender log (conversation history)
+bash scripts/log-reply-per-sender.sh "<sender_phone>" "<sender_name>" "<original_msg>" "<my_reply_full_text>"
+```
+
+**Format:**
+- `<sender_phone>`: Normalized phone (e.g., +972544419002)
+- `<sender_name>`: Display name from WhatsApp
+- `<original_msg>`: Their message that I'm replying to
+- `<my_reply_full_text>`: My complete reply (no truncation)
+
+**Locations:**
+- Daily: `memory/channels/playing-with-alexbot-daily/YYYY-MM-DD.jsonl`
+- Per-sender: `memory/channels/playing-with-alexbot-per-sender/{phone}/conversation.jsonl`
 
 ## Tools & Skills
 Check `SKILL.md` files. Keep local notes in `TOOLS.md`.
