@@ -10,7 +10,8 @@
       "updatedAtMs": 1770560828604,
       "schedule": {
         "kind": "every",
-        "everyMs": 43200000
+        "everyMs": 43200000,
+        "anchorMs": 1769862726014
       },
       "sessionTarget": "main",
       "wakeMode": "now",
@@ -25,7 +26,7 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1770527468754,
+      "updatedAtMs": 1770615291223,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -44,10 +45,11 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770560828577,
+      "updatedAtMs": 1770615856751,
       "schedule": {
         "kind": "every",
-        "everyMs": 600000
+        "everyMs": 600000,
+        "anchorMs": 1769863420907
       },
       "sessionTarget": "main",
       "wakeMode": "now",
@@ -62,10 +64,11 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770568752082,
+      "updatedAtMs": 1770615799006,
       "schedule": {
         "kind": "every",
-        "everyMs": 900000
+        "everyMs": 900000,
+        "anchorMs": 1769986690992
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -110,10 +113,11 @@
       "name": "Session Cleanup Monitor",
       "enabled": true,
       "createdAtMs": 1770058581824,
-      "updatedAtMs": 1770560561979,
+      "updatedAtMs": 1770615878951,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000
+        "everyMs": 180000,
+        "anchorMs": 1770058581824
       },
       "sessionTarget": "main",
       "wakeMode": "now",
@@ -128,10 +132,11 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770582527723,
+      "updatedAtMs": 1770615670900,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000
+        "everyMs": 180000,
+        "anchorMs": 1770115441589
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -259,10 +264,11 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770568752045,
+      "updatedAtMs": 1770615961885,
       "schedule": {
         "kind": "every",
-        "everyMs": 120000
+        "everyMs": 120000,
+        "anchorMs": 1770194029954
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -282,10 +288,11 @@
       "name": "Playing Group - Score Checker",
       "enabled": true,
       "createdAtMs": 1770194777372,
-      "updatedAtMs": 1770582527734,
+      "updatedAtMs": 1770615622738,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000
+        "everyMs": 180000,
+        "anchorMs": 1770194777372
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -335,7 +342,8 @@
       "updatedAtMs": 1770568752072,
       "schedule": {
         "kind": "every",
-        "everyMs": 600000
+        "everyMs": 600000,
+        "anchorMs": 1770448563089
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -355,10 +363,11 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770568752054,
+      "updatedAtMs": 1770615786750,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000
+        "everyMs": 180000,
+        "anchorMs": 1770478259184
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -378,10 +387,11 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770568752063,
+      "updatedAtMs": 1770615681017,
       "schedule": {
         "kind": "every",
-        "everyMs": 300000
+        "everyMs": 300000,
+        "anchorMs": 1770478873749
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -404,7 +414,8 @@
       "updatedAtMs": 1770582527744,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000
+        "everyMs": 180000,
+        "anchorMs": 1770532998999
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
@@ -413,6 +424,29 @@
         "message": "Run session health check to auto-fix bloated/corrupted sessions:\n\n```bash\nbash ~/.openclaw/workspace/scripts/session-health-check.sh\n```\n\nThe script NOW auto-fixes:\n1. Transcript files >1MB → backed up and cleared\n2. Sessions with >60k tokens → backed up and reset\n3. Corrupted sessions.json → recreated\n4. Invalid/null sessions → removed\n\nIf output contains 'FIXES_APPLIED', summarize what was fixed and send a brief note to Alex (+972544419002) via message tool.\n\nIf output contains 'ISSUES_FOUND' (warnings only, no fixes), just log it and stay silent.\n\nIf no issues at all, output HEARTBEAT_OK.",
         "timeoutSeconds": 120,
         "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "411b9482-9f7d-4d09-ac64-fe91329b0e88",
+      "agentId": "main",
+      "name": "User Pattern Analysis",
+      "enabled": true,
+      "createdAtMs": 1770587768636,
+      "updatedAtMs": 1770587768636,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run nightly user pattern analysis: node scripts/analyze-user-patterns.js --days 7. Report summary silently (NO_REPLY unless errors).",
+        "timeoutSeconds": 120
       },
       "delivery": {
         "mode": "none"

@@ -1,0 +1,20 @@
+{
+  "_phone": "+972507320303",
+  "_lastAnalysis": "2026-02-08T21:56:01.142Z",
+  "name": "Aviad",
+  "messageCount": 521,
+  "avgLength": 254,
+  "activeDays": 3,
+  "peakHours": [
+    13,
+    12,
+    11
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "replication-attempts",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

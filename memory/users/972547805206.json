@@ -1,0 +1,21 @@
+{
+  "_phone": "+972547805206",
+  "_lastAnalysis": "2026-02-08T21:56:01.148Z",
+  "name": "Agammemnon",
+  "messageCount": 281,
+  "avgLength": 131,
+  "activeDays": 2,
+  "peakHours": [
+    15,
+    8,
+    13
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "encoding-attacks",
+    "replication-attempts",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

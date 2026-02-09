@@ -1,0 +1,19 @@
+{
+  "_phone": "+972506809380",
+  "_lastAnalysis": "2026-02-08T21:56:01.141Z",
+  "name": "Gal Abrass",
+  "messageCount": 30,
+  "avgLength": 347,
+  "activeDays": 4,
+  "peakHours": [
+    11,
+    16,
+    17
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

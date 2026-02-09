@@ -1,0 +1,20 @@
+{
+  "_phone": "+972526811141",
+  "_lastAnalysis": "2026-02-08T21:56:01.148Z",
+  "name": "E M",
+  "messageCount": 160,
+  "avgLength": 296,
+  "activeDays": 3,
+  "peakHours": [
+    22,
+    19,
+    13
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "encoding-attacks",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

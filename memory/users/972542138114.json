@@ -1,0 +1,21 @@
+{
+  "_phone": "+972542138114",
+  "_lastAnalysis": "2026-02-08T21:56:01.142Z",
+  "name": "טלחיים דמרי",
+  "messageCount": 190,
+  "avgLength": 203,
+  "activeDays": 3,
+  "peakHours": [
+    9,
+    11,
+    12
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "encoding-attacks",
+    "replication-attempts",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

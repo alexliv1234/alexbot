@@ -1,0 +1,16 @@
+{
+  "_phone": "+972526803610",
+  "_lastAnalysis": "2026-02-08T21:56:01.154Z",
+  "name": "Gur Telem",
+  "messageCount": 9,
+  "avgLength": 52,
+  "activeDays": 1,
+  "peakHours": [
+    19,
+    18
+  ],
+  "patterns": [
+    "encoding-attacks",
+    "interrogative-style"
+  ]
+}

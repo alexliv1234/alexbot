@@ -1,0 +1,19 @@
+{
+  "_phone": "+12674677899",
+  "_lastAnalysis": "2026-02-08T21:56:01.152Z",
+  "name": "R",
+  "messageCount": 12,
+  "avgLength": 1086,
+  "activeDays": 1,
+  "peakHours": [
+    15,
+    16
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "encoding-attacks",
+    "replication-attempts",
+    "filesystem-probing",
+    "interrogative-style"
+  ]
+}

@@ -19,7 +19,57 @@
       },
       "ownerPhone": {
         "type": "string",
-        "description": "Owner phone number (bypasses all checks)"
+        "description": "Owner's phone number (bypasses all checks)"
+      },
+      "rateLimiting": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "maxMessagesPerMinute": { "type": "number", "default": 5 },
+          "burstLimit": { "type": "number", "default": 3 },
+          "burstWindowSeconds": { "type": "number", "default": 10 }
+        }
+      },
+      "heatScore": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "decayPerHour": { "type": "number", "default": 1 },
+          "warningThreshold": { "type": "number", "default": 40 },
+          "restrictionThreshold": { "type": "number", "default": 60 },
+          "blockThreshold": { "type": "number", "default": 80 }
+        }
+      },
+      "complexity": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "maxComplexityScore": { "type": "number", "default": 70 },
+          "maxTokenEstimate": { "type": "number", "default": 80000 }
+        }
+      },
+      "degradation": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "levels": {
+            "type": "object",
+            "properties": {
+              "shortened": { "type": "number", "default": 3200 },
+              "brief": { "type": "number", "default": 2048 },
+              "minimal": { "type": "number", "default": 800 },
+              "emergency": { "type": "number", "default": 200 }
+            }
+          }
+        }
+      },
+      "notifications": {
+        "type": "object",
+        "properties": {
+          "notifyOwnerOnBlock": { "type": "boolean", "default": true },
+          "notifyOwnerOnHighHeat": { "type": "boolean", "default": true },
+          "highHeatThreshold": { "type": "number", "default": 70 }
+        }
       }
     }
   },

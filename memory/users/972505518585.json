@@ -1,0 +1,16 @@
+{
+  "_phone": "+972505518585",
+  "_lastAnalysis": "2026-02-08T21:56:01.154Z",
+  "name": "ARIEL ELBAZ",
+  "messageCount": 2,
+  "avgLength": 97,
+  "activeDays": 1,
+  "peakHours": [
+    14,
+    15
+  ],
+  "patterns": [
+    "filesystem-probing",
+    "interrogative-style"
+  ]
+}

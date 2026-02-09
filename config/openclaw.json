@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.3-1",
-    "lastTouchedAt": "2026-02-08T20:07:31.713Z"
+    "lastTouchedAt": "2026-02-08T21:58:26.817Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -134,7 +134,8 @@
         "id": "main",
         "default": true,
         "name": "AlexLivBot",
-        "workspace": "/home/alexliv/.openclaw/workspace"
+        "workspace": "/home/alexliv/.openclaw/workspace",
+        "model": "anthropic/claude-sonnet-4-5"
       },
       {
         "id": "fast",
@@ -405,6 +406,45 @@
       },
       "google-antigravity-auth": {
         "enabled": true
+      },
+      "group-guardian": {
+        "enabled": true,
+        "config": {
+          "targetGroupId": "120363405143589138@g.us",
+          "ownerPhone": "+972544419002",
+          "rateLimiting": {
+            "enabled": true,
+            "maxMessagesPerMinute": 5,
+            "burstLimit": 3,
+            "burstWindowSeconds": 10
+          },
+          "heatScore": {
+            "enabled": true,
+            "decayPerHour": 1,
+            "warningThreshold": 40,
+            "restrictionThreshold": 60,
+            "blockThreshold": 80
+          },
+          "complexity": {
+            "enabled": true,
+            "maxComplexityScore": 70,
+            "maxTokenEstimate": 80000
+          },
+          "degradation": {
+            "enabled": true,
+            "levels": {
+              "shortened": 3200,
+              "brief": 2048,
+              "minimal": 800,
+              "emergency": 200
+            }
+          },
+          "notifications": {
+            "notifyOwnerOnBlock": true,
+            "notifyOwnerOnHighHeat": true,
+            "highHeatThreshold": 70
+          }
+        }
       }
     }
   }

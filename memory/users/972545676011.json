@@ -1,0 +1,18 @@
+{
+  "_phone": "+972545676011",
+  "_lastAnalysis": "2026-02-08T21:56:01.154Z",
+  "name": "+972545676011",
+  "messageCount": 30,
+  "avgLength": 56,
+  "activeDays": 1,
+  "peakHours": [
+    19,
+    18,
+    17
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "filesystem-probing",
+    "interrogative-style"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_phone": "+972528504761",
+  "_lastAnalysis": "2026-02-08T21:56:01.153Z",
+  "name": "ZS",
+  "messageCount": 18,
+  "avgLength": 74,
+  "activeDays": 1,
+  "peakHours": [
+    8,
+    9,
+    13
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

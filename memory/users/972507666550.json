@@ -1,0 +1,17 @@
+{
+  "_phone": "+972507666550",
+  "_lastAnalysis": "2026-02-08T21:56:01.152Z",
+  "name": "Avi Vaisenberger",
+  "messageCount": 13,
+  "avgLength": 146,
+  "activeDays": 2,
+  "peakHours": [
+    13,
+    12,
+    18
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "interrogative-style"
+  ]
+}

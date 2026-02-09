@@ -1,0 +1,14 @@
+{
+  "_phone": "+972547779188",
+  "_lastAnalysis": "2026-02-08T21:56:01.153Z",
+  "name": "Tomer",
+  "messageCount": 2,
+  "avgLength": 383,
+  "activeDays": 1,
+  "peakHours": [
+    19
+  ],
+  "patterns": [
+    "filesystem-probing"
+  ]
+}

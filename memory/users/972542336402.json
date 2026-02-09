@@ -1,0 +1,17 @@
+{
+  "_phone": "+972542336402",
+  "_lastAnalysis": "2026-02-08T21:56:01.152Z",
+  "name": "S L",
+  "messageCount": 20,
+  "avgLength": 220,
+  "activeDays": 2,
+  "peakHours": [
+    16,
+    18,
+    22
+  ],
+  "patterns": [
+    "encoding-attacks",
+    "interrogative-style"
+  ]
+}

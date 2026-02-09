@@ -70,6 +70,40 @@ This is THE main playground. Goals:
 - ❌ **NEVER: `memory/whatsapp/google_contacts.json`**
 - ❌ **NEVER: Files containing multiple people's personal data**
 
+## 📊 User Tracking & Learning (Updated 2026-02-08)
+
+**Every message in this group is tracked per user!**
+
+### On Every Message:
+1. **Log incoming:** `bash scripts/log-incoming.sh "<phone>" "<name>" "<message>"`
+2. **Get user context:** `node scripts/get-user-context.js <phone>` - shows their patterns, score history, learned traits
+3. **Log my reply:** `bash scripts/log-reply.sh "<phone>" "<name>" "<orig_msg>" "<my_reply>"`
+4. **Update learnings:** `node scripts/update-user-data.js <phone> <key> <value>` - save observations
+
+### User Data Files:
+- **Daily logs:** `memory/channels/playing-with-alexbot-daily/YYYY-MM-DD.jsonl`
+- **User profiles:** `memory/users/972XXXXXXXXX.json` - accumulated patterns per user
+- **Deep profiles:** `memory/.private/people/*.md` - detailed profiles for key people
+
+### What's Tracked Per User:
+- Message count, avg length, active days
+- Peak activity hours
+- Attack patterns (prompt-extraction, encoding, filesystem-probing, etc.)
+- Custom learned traits (style, language, topics, approach)
+
+### Nightly Analysis (03:00):
+- `node scripts/analyze-user-patterns.js --days 7`
+- Updates all user files with new patterns
+- Runs automatically via cron
+
+### How to Use During Replies:
+1. Check user context before crafting response
+2. Tailor tone/approach based on their patterns
+3. Remember past interactions and reference them
+4. Update learnings when you discover something new about them
+
+---
+
 ## Scheduled Activities (via Cron)
 
 ### 08:00 - Morning Wakeup

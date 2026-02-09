@@ -1,0 +1,18 @@
+{
+  "_phone": "+972523840784",
+  "_lastAnalysis": "2026-02-08T21:56:01.145Z",
+  "name": "Yaniros",
+  "messageCount": 115,
+  "avgLength": 403,
+  "activeDays": 2,
+  "peakHours": [
+    16,
+    11,
+    17
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

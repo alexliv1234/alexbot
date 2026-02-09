@@ -1,0 +1,18 @@
+{
+  "_phone": "+972545676392",
+  "_lastAnalysis": "2026-02-08T21:56:01.147Z",
+  "name": "Neriya Bar-lev",
+  "messageCount": 39,
+  "avgLength": 280,
+  "activeDays": 3,
+  "peakHours": [
+    22,
+    10,
+    9
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

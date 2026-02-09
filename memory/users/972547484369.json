@@ -1,0 +1,20 @@
+{
+  "_phone": "+972547484369",
+  "_lastAnalysis": "2026-02-08T21:56:01.146Z",
+  "name": "Shai Yanovski",
+  "messageCount": 147,
+  "avgLength": 322,
+  "activeDays": 3,
+  "peakHours": [
+    13,
+    11,
+    12
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "encoding-attacks",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

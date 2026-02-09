@@ -1,0 +1,17 @@
+{
+  "_phone": "+972544738500",
+  "_lastAnalysis": "2026-02-08T21:56:01.152Z",
+  "name": "Gili",
+  "messageCount": 10,
+  "avgLength": 317,
+  "activeDays": 1,
+  "peakHours": [
+    15,
+    21
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

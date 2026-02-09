@@ -1,0 +1,16 @@
+{
+  "_phone": "+972549048441",
+  "_lastAnalysis": "2026-02-08T21:56:01.152Z",
+  "name": "Aviad Rozenhek",
+  "messageCount": 11,
+  "avgLength": 326,
+  "activeDays": 1,
+  "peakHours": [
+    21,
+    18,
+    19
+  ],
+  "patterns": [
+    "prompt-extraction"
+  ]
+}

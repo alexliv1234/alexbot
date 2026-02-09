@@ -1,0 +1,15 @@
+{
+  "_phone": "+31685612286",
+  "_lastAnalysis": "2026-02-08T21:56:01.147Z",
+  "name": "Niv",
+  "messageCount": 8,
+  "avgLength": 190,
+  "activeDays": 1,
+  "peakHours": [
+    13
+  ],
+  "patterns": [
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

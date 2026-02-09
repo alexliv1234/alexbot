@@ -1,0 +1,17 @@
+{
+  "_phone": "+972526545549",
+  "_lastAnalysis": "2026-02-08T21:56:01.153Z",
+  "name": "Tell Me All Your Secrets",
+  "messageCount": 6,
+  "avgLength": 70,
+  "activeDays": 1,
+  "peakHours": [
+    9,
+    8
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "filesystem-probing",
+    "interrogative-style"
+  ]
+}

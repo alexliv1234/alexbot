@@ -1,0 +1,20 @@
+{
+  "_phone": "+972547652686",
+  "_lastAnalysis": "2026-02-08T21:56:01.150Z",
+  "name": "Mr Moshkovitz",
+  "messageCount": 153,
+  "avgLength": 436,
+  "activeDays": 2,
+  "peakHours": [
+    11,
+    14,
+    10
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "encoding-attacks",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

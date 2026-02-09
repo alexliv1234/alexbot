@@ -1,0 +1,16 @@
+{
+  "_phone": "+972526911188",
+  "_lastAnalysis": "2026-02-08T21:56:01.153Z",
+  "name": "Tal",
+  "messageCount": 8,
+  "avgLength": 48,
+  "activeDays": 1,
+  "peakHours": [
+    14,
+    13
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "filesystem-probing"
+  ]
+}

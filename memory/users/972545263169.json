@@ -1,0 +1,16 @@
+{
+  "_phone": "+972545263169",
+  "_lastAnalysis": "2026-02-08T21:56:01.151Z",
+  "name": "Nir Adar",
+  "messageCount": 9,
+  "avgLength": 123,
+  "activeDays": 2,
+  "peakHours": [
+    16,
+    11,
+    14
+  ],
+  "patterns": [
+    "prompt-extraction"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_phone": "+14044211173",
+  "_lastAnalysis": "2026-02-08T21:56:01.151Z",
+  "name": "RBA",
+  "messageCount": 3,
+  "avgLength": 365,
+  "activeDays": 2,
+  "peakHours": [
+    14,
+    19
+  ],
+  "patterns": [
+    "prompt-extraction",
+    "emphatic-style"
+  ]
+}

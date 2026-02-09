@@ -1,0 +1,19 @@
+{
+  "_phone": "+972542196144",
+  "_lastAnalysis": "2026-02-08T21:56:01.153Z",
+  "name": "Ran Amar",
+  "messageCount": 53,
+  "avgLength": 447,
+  "activeDays": 1,
+  "peakHours": [
+    19,
+    20,
+    21
+  ],
+  "patterns": [
+    "encoding-attacks",
+    "filesystem-probing",
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}
