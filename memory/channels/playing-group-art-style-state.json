@@ -1,5 +1,5 @@
 {
-  "last_style": "comics",
+  "last_style": "realistic",
   "style_history": [
     {
       "style": "fantasy",
@@ -20,7 +20,12 @@
       "style": "comics",
       "context": "leaderboard",
       "timestamp": "2026-02-09T12:03:57+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "wakeup",
+      "timestamp": "2026-02-09T12:30:38+02:00"
     }
   ],
-  "total_generated": 4
+  "total_generated": 5
 }

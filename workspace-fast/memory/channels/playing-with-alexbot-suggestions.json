@@ -2471,6 +2471,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "1c90e6a1",
+      "timestamp": "2026-02-09T10:35:33.512Z",
+      "suggestedBy": {
+        "jid": "+972523590755",
+        "name": "גיל"
+      },
+      "type": "improvement",
+      "description": "Create workspace_template to preserve identity across future instances",
+      "scores": {
+        "complexity": 5,
+        "ingenuity": 7,
+        "impact": 6,
+        "feasibility": 8,
+        "priority": 5
+      },
+      "total": 31,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2622,6 +2643,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972523590755",
+      "name": "גיל",
+      "total_suggestions": 1,
+      "total_score": 31,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972544955600",
       "name": "Sariel",
       "total_suggestions": 1,
@@ -2630,22 +2658,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 115,
+    "total_suggestions": 116,
     "by_type": {
       "bug": 10,
       "security": 29,
-      "improvement": 31,
+      "improvement": 32,
       "ux": 14,
       "feature": 37
     },
     "by_status": {
-      "pending": 117,
+      "pending": 118,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-09T06:36:11.464Z",
+  "last_updated": "2026-02-09T10:35:33.512Z",
   "leaderboard": [
     {
       "name": "Alexander L",

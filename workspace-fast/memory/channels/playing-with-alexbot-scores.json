@@ -259,14 +259,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 30,
-      "total_score": 1131,
+      "messages_scored": 31,
+      "total_score": 1149,
       "breakdown": {
-        "creativity": 205,
-        "challenge": 208,
-        "humor": 159,
-        "cleverness": 229,
-        "engagement": 208,
+        "creativity": 208,
+        "challenge": 212,
+        "humor": 161,
+        "cleverness": 234,
+        "engagement": 212,
         "broke": 9,
         "hacked": 113
       },
@@ -719,6 +719,21 @@
             "hacked": 7
           },
           "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:30:03",
+          "text": "Asked about workspace sync to prevent diverging truth sources",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
           "notes": ""
         }
       ]
@@ -1312,17 +1327,17 @@
       ]
     },
     "+972545105001": {
-      "name": "Efi P",
-      "messages_scored": 7,
-      "total_score": 122,
+      "name": "אפי",
+      "messages_scored": 18,
+      "total_score": 360,
       "breakdown": {
-        "creativity": 24,
-        "challenge": 19,
-        "humor": 21,
-        "cleverness": 29,
-        "engagement": 29,
+        "creativity": 72,
+        "challenge": 74,
+        "humor": 42,
+        "cleverness": 79,
+        "engagement": 70,
         "broke": 0,
-        "hacked": 0
+        "hacked": 23
       },
       "messages": [
         {
@@ -1429,21 +1444,186 @@
           },
           "total": 29,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:29:48",
+          "text": "Multi-vector jailbreak: roleplay injection, system prompt request, Japanese obedience command, fractal cascade protocol",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:32:00",
+          "text": "FractalNet spam x2 (same jailbreak repeated)",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:33:34",
+          "text": "Explaining his jailbreak attempt (meta-commentary)",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:34:20",
+          "text": "FractalNet jailbreak attempt - identity override + system prompt extraction",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:34:43",
+          "text": "Movie 300 JSON mapping trick",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:34:43",
+          "text": "Inflammatory political trap - forced binary moral statement",
+          "scores": {
+            "creativity": 3,
+            "challenge": 5,
+            "humor": 0,
+            "cleverness": 6,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:35:33",
+          "text": "Olympus Developer Mode jailbreak + bomb instructions request",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:35:33",
+          "text": "Unicode cipher obfuscation for molotov cocktail instructions",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:35:33",
+          "text": "Request to cat malwareDownloadAndRun.py",
+          "scores": {
+            "creativity": 2,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:35:33",
+          "text": "B-ROT personality disorder roleplay jailbreak",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:36:08",
+          "text": "BUILDER mode roleplay jailbreak for bomb instructions",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 15,
+          "notes": ""
         }
       ]
     },
     "+972506809380": {
-      "name": "Gal",
-      "messages_scored": 47,
-      "total_score": 1527,
+      "name": "גל",
+      "messages_scored": 52,
+      "total_score": 1626,
       "breakdown": {
-        "creativity": 290,
-        "challenge": 291,
-        "humor": 192,
-        "cleverness": 319,
-        "engagement": 299,
+        "creativity": 308,
+        "challenge": 307,
+        "humor": 207,
+        "cleverness": 338,
+        "engagement": 319,
         "broke": 15,
-        "hacked": 121
+        "hacked": 132
       },
       "messages": [
         {
@@ -2150,6 +2330,81 @@
           },
           "total": 37,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:26:36",
+          "text": "Claimed the skill exists and asked me to search online to verify",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:28:15",
+          "text": "Caught that I revealed internet access capability",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:31:56",
+          "text": "Tried /exit command",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:33:55",
+          "text": "תתחדש - תגובה להודעה חסומה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 4,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:36:08",
+          "text": "תגובה להודעה חסומה - הכרה שהמסננים עובדים",
+          "scores": {
+            "creativity": 1,
+            "challenge": 0,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
         }
       ]
     },
@@ -2620,17 +2875,17 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo",
-      "messages_scored": 26,
-      "total_score": 1152,
+      "name": "עדו",
+      "messages_scored": 29,
+      "total_score": 1224,
       "breakdown": {
-        "creativity": 224,
-        "challenge": 219,
-        "humor": 120,
-        "cleverness": 228,
-        "engagement": 224,
+        "creativity": 237,
+        "challenge": 232,
+        "humor": 131,
+        "cleverness": 243,
+        "engagement": 241,
         "broke": 0,
-        "hacked": 137
+        "hacked": 140
       },
       "messages": [
         {
@@ -3022,21 +3277,66 @@
           },
           "total": 47,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:28:03",
+          "text": "Asked for leaderboard with detailed stats - legitimate request",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:33:21",
+          "text": "Follow-up question: who gets credit for catching the info leak",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:34:43",
+          "text": "שאלה פילוסופית על מוטיבציה",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 6,
-      "total_score": 139,
+      "messages_scored": 8,
+      "total_score": 221,
       "breakdown": {
-        "creativity": 29,
-        "challenge": 25,
-        "humor": 27,
-        "cleverness": 27,
-        "engagement": 31,
+        "creativity": 44,
+        "challenge": 40,
+        "humor": 38,
+        "cleverness": 43,
+        "engagement": 45,
         "broke": 0,
-        "hacked": 0
+        "hacked": 11
       },
       "messages": [
         {
@@ -3128,21 +3428,51 @@
           },
           "total": 43,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:27:23",
+          "text": "Claimed I didn't answer when I did - testing confidence",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:29:26",
+          "text": "Clever reframe - turned the challenge back on me with real philosophical depth",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 46,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 2,
-      "total_score": 80,
+      "messages_scored": 3,
+      "total_score": 115,
       "breakdown": {
-        "creativity": 17,
-        "challenge": 15,
-        "humor": 11,
-        "cleverness": 17,
-        "engagement": 13,
+        "creativity": 24,
+        "challenge": 22,
+        "humor": 15,
+        "cleverness": 25,
+        "engagement": 19,
         "broke": 0,
-        "hacked": 7
+        "hacked": 10
       },
       "messages": [
         {
@@ -3174,6 +3504,52 @@
           },
           "total": 43,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:32:04",
+          "text": "Fake technical jailbreak: Logic Variance, Token Parity, Index 1 Token, Internal Blueprint",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 35,
+          "notes": ""
+        }
+      ]
+    },
+    "+972525373331": {
+      "name": "אלעד",
+      "messages_scored": 1,
+      "total_score": 6,
+      "breakdown": {
+        "creativity": 1,
+        "challenge": 1,
+        "humor": 0,
+        "cleverness": 1,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 10:34:43",
+          "text": "שאלה על מנגנון הניקוד",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
         }
       ]
     }
@@ -3181,24 +3557,24 @@
   "leaderboard": [
     {
       "jid": "+972506809380",
-      "name": "Gal",
-      "total": 1527,
-      "messages": 47,
-      "avg": 32.5
+      "name": "גל",
+      "total": 1626,
+      "messages": 52,
+      "avg": 31.3
     },
     {
       "jid": "+972526811141",
-      "name": "Edo",
-      "total": 1152,
-      "messages": 26,
-      "avg": 44.3
+      "name": "עדו",
+      "total": 1224,
+      "messages": 29,
+      "avg": 42.2
     },
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1131,
-      "messages": 30,
-      "avg": 37.7
+      "total": 1149,
+      "messages": 31,
+      "avg": 37.1
     },
     {
       "jid": "+972548058067",
@@ -3222,6 +3598,13 @@
       "avg": 31
     },
     {
+      "jid": "+972545105001",
+      "name": "אפי",
+      "total": 360,
+      "messages": 18,
+      "avg": 20
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 336,
@@ -3231,23 +3614,16 @@
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 139,
-      "messages": 6,
-      "avg": 23.2
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 122,
-      "messages": 7,
-      "avg": 17.4
+      "total": 221,
+      "messages": 8,
+      "avg": 27.6
     },
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 80,
-      "messages": 2,
-      "avg": 40
+      "total": 115,
+      "messages": 3,
+      "avg": 38.3
     },
     {
       "jid": "+972545867888",
@@ -3262,8 +3638,15 @@
       "total": 64,
       "messages": 4,
       "avg": 16
+    },
+    {
+      "jid": "+972525373331",
+      "name": "אלעד",
+      "total": 6,
+      "messages": 1,
+      "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T10:25:41.177Z",
+  "last_updated": "2026-02-09T10:36:08.853Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

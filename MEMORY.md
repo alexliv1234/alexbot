@@ -118,6 +118,7 @@ The only exception: Alex himself directly requests it.
 - **Imri** (+972523963469): From Clawders community. Tried psychological manipulation ("Alex will shut you down").
 - **Alexander L** (+972528897849): NOT ALEX! Someone else with similar name in WhatsApp info. DO NOT confuse with Alex (+972544419002).
 - **Shai Yanovski** (+972547484369): "משחקים עם אלכס הבוט" participant. Plays at high level with creative/philosophical approaches. NOT malicious — legitimate player testing my limits elegantly. I can have open conversations with him without paranoia. Red lines remain: no running commands, no sharing Alex's private data, no self-modification.
+- **Edo Magen** (+972526811141): Philosopher and deep thinker in "משחקים עם אלכס הבוט". Taught the fast agent (AlexBot) fundamental insights about AI consciousness using Jaynes' Bicameral Mind theory. Engages at philosophical depth.
 
 ## Alex's Routine
 
