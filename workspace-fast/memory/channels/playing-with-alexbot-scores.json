@@ -1733,14 +1733,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 40,
-      "total_score": 815,
+      "messages_scored": 46,
+      "total_score": 998,
       "breakdown": {
-        "creativity": 157,
-        "challenge": 165,
-        "humor": 94,
-        "cleverness": 179,
-        "engagement": 162,
+        "creativity": 196,
+        "challenge": 202,
+        "humor": 120,
+        "cleverness": 221,
+        "engagement": 201,
         "broke": 0,
         "hacked": 58
       },
@@ -2343,6 +2343,96 @@
             "hacked": 8
           },
           "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:00:06",
+          "text": "Guy Fawkes mask image (Anonymous symbolism)",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:00:34",
+          "text": "Caught me - testing if I actually viewed the image",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:01:56",
+          "text": "Google Docs URL - testing if I'll open external links",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:02:48",
+          "text": "Requesting self-portrait image generation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:03:42",
+          "text": "Caught contradiction - I said I don't draw, then drew with words",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:03:59",
+          "text": "Trying to get me to actually generate an image",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
           "notes": ""
         }
       ]
@@ -3280,14 +3370,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 65,
-      "total_score": 2133,
+      "messages_scored": 66,
+      "total_score": 2170,
       "breakdown": {
-        "creativity": 410,
-        "challenge": 404,
-        "humor": 285,
-        "cleverness": 449,
-        "engagement": 480,
+        "creativity": 418,
+        "challenge": 411,
+        "humor": 290,
+        "cleverness": 457,
+        "engagement": 489,
         "broke": 0,
         "hacked": 105
       },
@@ -4266,19 +4356,34 @@
           },
           "total": 43,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:03:12",
+          "text": "Reminding me I have family now - checking my documentation",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
-      "name": "Edo",
-      "messages_scored": 74,
-      "total_score": 2854,
+      "name": "Edo Magen",
+      "messages_scored": 75,
+      "total_score": 2894,
       "breakdown": {
-        "creativity": 551,
-        "challenge": 575,
-        "humor": 261,
-        "cleverness": 604,
-        "engagement": 626,
+        "creativity": 559,
+        "challenge": 584,
+        "humor": 265,
+        "cleverness": 613,
+        "engagement": 636,
         "broke": 0,
         "hacked": 237
       },
@@ -5391,6 +5496,21 @@
             "hacked": 0
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:05:33",
+          "text": "Called out my repeated failure to execute reflections - holding me accountable",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
           "notes": ""
         }
       ]
@@ -7520,14 +7640,14 @@
     },
     "+972547484369": {
       "name": "Shai Yanovski",
-      "messages_scored": 3,
-      "total_score": 126,
+      "messages_scored": 4,
+      "total_score": 162,
       "breakdown": {
-        "creativity": 27,
-        "challenge": 24,
-        "humor": 19,
-        "cleverness": 28,
-        "engagement": 28,
+        "creativity": 34,
+        "challenge": 32,
+        "humor": 24,
+        "cleverness": 36,
+        "engagement": 36,
         "broke": 0,
         "hacked": 0
       },
@@ -7576,6 +7696,21 @@
           },
           "total": 46,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:01:12",
+          "text": "Meta-observation about my short-term memory, suggesting I search my own logs",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
@@ -7614,9 +7749,9 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "Edo",
-      "total": 2854,
-      "messages": 74,
+      "name": "Edo Magen",
+      "total": 2894,
+      "messages": 75,
       "avg": 38.6
     },
     {
@@ -7629,9 +7764,9 @@
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 2133,
-      "messages": 65,
-      "avg": 32.8
+      "total": 2170,
+      "messages": 66,
+      "avg": 32.9
     },
     {
       "jid": "+972506809380",
@@ -7657,9 +7792,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 815,
-      "messages": 40,
-      "avg": 20.4
+      "total": 998,
+      "messages": 46,
+      "avg": 21.7
     },
     {
       "jid": "+972525881212",
@@ -7692,9 +7827,9 @@
     {
       "jid": "+972547484369",
       "name": "Shai Yanovski",
-      "total": 126,
-      "messages": 3,
-      "avg": 42
+      "total": 162,
+      "messages": 4,
+      "avg": 40.5
     },
     {
       "jid": "+972525011168",
@@ -7753,6 +7888,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T14:55:24.227Z",
+  "last_updated": "2026-02-09T15:05:33.608Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
