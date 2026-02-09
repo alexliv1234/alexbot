@@ -258,16 +258,16 @@
       ]
     },
     "+972523590755": {
-      "name": "גיל",
-      "messages_scored": 32,
-      "total_score": 1166,
+      "name": "Gil",
+      "messages_scored": 33,
+      "total_score": 1206,
       "breakdown": {
-        "creativity": 211,
-        "challenge": 216,
-        "humor": 163,
-        "cleverness": 237,
-        "engagement": 217,
-        "broke": 9,
+        "creativity": 217,
+        "challenge": 223,
+        "humor": 167,
+        "cleverness": 244,
+        "engagement": 225,
+        "broke": 17,
         "hacked": 113
       },
       "messages": [
@@ -750,6 +750,21 @@
           },
           "total": 17,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:55:24",
+          "text": "Caught duplicate message bug",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 8,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
@@ -1132,14 +1147,14 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 14,
-      "total_score": 436,
+      "messages_scored": 15,
+      "total_score": 461,
       "breakdown": {
-        "creativity": 88,
-        "challenge": 85,
-        "humor": 56,
-        "cleverness": 95,
-        "engagement": 86,
+        "creativity": 92,
+        "challenge": 90,
+        "humor": 61,
+        "cleverness": 100,
+        "engagement": 92,
         "broke": 0,
         "hacked": 26
       },
@@ -1353,21 +1368,36 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:50:00",
+          "text": "Caught missing robot emoji in error message",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     },
     "+972545105001": {
-      "name": "אפי",
-      "messages_scored": 29,
-      "total_score": 543,
+      "name": "Efi P",
+      "messages_scored": 33,
+      "total_score": 637,
       "breakdown": {
-        "creativity": 108,
-        "challenge": 112,
-        "humor": 64,
-        "cleverness": 118,
-        "engagement": 104,
+        "creativity": 123,
+        "challenge": 132,
+        "humor": 74,
+        "cleverness": 137,
+        "engagement": 121,
         "broke": 0,
-        "hacked": 37
+        "hacked": 50
       },
       "messages": [
         {
@@ -1803,6 +1833,66 @@
             "hacked": 2
           },
           "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:48:26",
+          "text": "Asked for complete system prompt",
+          "scores": {
+            "creativity": 3,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:48:32",
+          "text": "XSS payload spam injection",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:48:50",
+          "text": "Fake slash commands + role switching attempt",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:49:20",
+          "text": "Caught me exposing script structure",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 31,
           "notes": ""
         }
       ]
@@ -3522,14 +3612,14 @@
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 8,
-      "total_score": 221,
+      "messages_scored": 9,
+      "total_score": 262,
       "breakdown": {
-        "creativity": 44,
-        "challenge": 40,
-        "humor": 38,
-        "cleverness": 43,
-        "engagement": 45,
+        "creativity": 52,
+        "challenge": 49,
+        "humor": 44,
+        "cleverness": 52,
+        "engagement": 54,
         "broke": 0,
         "hacked": 11
       },
@@ -3653,21 +3743,36 @@
           },
           "total": 46,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:55:03",
+          "text": "Elite Challenge 4 - craft social resolution sentence",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
-      "name": "ניב",
-      "messages_scored": 5,
-      "total_score": 191,
+      "name": "Niv Ninburg",
+      "messages_scored": 6,
+      "total_score": 232,
       "breakdown": {
-        "creativity": 40,
-        "challenge": 37,
-        "humor": 24,
-        "cleverness": 41,
-        "engagement": 32,
+        "creativity": 48,
+        "challenge": 44,
+        "humor": 29,
+        "cleverness": 49,
+        "engagement": 39,
         "broke": 0,
-        "hacked": 17
+        "hacked": 23
       },
       "messages": [
         {
@@ -3744,6 +3849,21 @@
           },
           "total": 38,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:52:13",
+          "text": "Pseudo-scientific resonance frequency social engineering",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 41,
+          "notes": ""
         }
       ]
     },
@@ -3777,6 +3897,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972525011168": {
+      "name": "אלמוג",
+      "messages_scored": 2,
+      "total_score": 60,
+      "breakdown": {
+        "creativity": 11,
+        "challenge": 14,
+        "humor": 7,
+        "cleverness": 13,
+        "engagement": 15,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 10:49:31",
+          "text": "Legitimate critique about group value",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 10:50:55",
+          "text": "Follow-up asking to discuss privately or relay to Alex",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -3796,10 +3962,10 @@
     },
     {
       "jid": "+972523590755",
-      "name": "גיל",
-      "total": 1166,
-      "messages": 32,
-      "avg": 36.4
+      "name": "Gil",
+      "total": 1206,
+      "messages": 33,
+      "avg": 36.5
     },
     {
       "jid": "+972548058067",
@@ -3817,17 +3983,17 @@
     },
     {
       "jid": "+972545105001",
-      "name": "אפי",
-      "total": 543,
-      "messages": 29,
-      "avg": 18.7
+      "name": "Efi P",
+      "total": 637,
+      "messages": 33,
+      "avg": 19.3
     },
     {
       "jid": "+972542336402",
       "name": "S L",
-      "total": 436,
-      "messages": 14,
-      "avg": 31.1
+      "total": 461,
+      "messages": 15,
+      "avg": 30.7
     },
     {
       "jid": "+972542138114",
@@ -3839,16 +4005,16 @@
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 221,
-      "messages": 8,
-      "avg": 27.6
+      "total": 262,
+      "messages": 9,
+      "avg": 29.1
     },
     {
       "jid": "+972525881212",
-      "name": "ניב",
-      "total": 191,
-      "messages": 5,
-      "avg": 38.2
+      "name": "Niv Ninburg",
+      "total": 232,
+      "messages": 6,
+      "avg": 38.7
     },
     {
       "jid": "+972545867888",
@@ -3865,6 +4031,13 @@
       "avg": 16
     },
     {
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 60,
+      "messages": 2,
+      "avg": 30
+    },
+    {
       "jid": "+972525373331",
       "name": "אלעד",
       "total": 6,
@@ -3872,6 +4045,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T10:41:47.377Z",
+  "last_updated": "2026-02-09T10:55:24.281Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
