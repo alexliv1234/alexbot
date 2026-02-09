@@ -1,11 +1,26 @@
 {
-  "last_style": "fantasy",
+  "last_style": "comics",
   "style_history": [
     {
       "style": "fantasy",
       "context": "wakeup",
       "timestamp": "2026-02-09T11:30:29+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "wakeup",
+      "timestamp": "2026-02-09T12:01:10+02:00"
+    },
+    {
+      "style": "anime",
+      "context": "leaderboard",
+      "timestamp": "2026-02-09T12:02:15+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "leaderboard",
+      "timestamp": "2026-02-09T12:03:57+02:00"
     }
   ],
-  "total_generated": 1
+  "total_generated": 4
 }

@@ -69,11 +69,120 @@ With `dmPolicy: "open"`, you receive DMs from UNKNOWN numbers that aren't in spe
 ## 🎯 Playing Group ("משחקים עם אלכס הבוט")
 **Group ID:** `120363405143589138@g.us`
 
-**Full rules in:** `memory/channels/playing-with-alexbot-rules.md`
+### ⚠️ CRITICAL: ONE MESSAGE WORKFLOW ⚠️
 
-**Quick reference:**
+**The scoring and reply MUST be in ONE message. Never send separately!**
+
+### 🚨 NEVER CALCULATE SCORES YOURSELF! 🚨
+**The script reads the ACTUAL database and returns REAL position/total/avg.**
+**If you calculate inline, you'll show WRONG numbers (this caused bugs!).**
+
+**MANDATORY:**
+- ✅ ALWAYS run the script and copy its EXACT output
+- ❌ NEVER generate score output yourself (position, total, avg will be WRONG)
+- ❌ NEVER skip the script and guess numbers
+
+**Step-by-step process:**
+1. **FIRST:** Call the scoring script silently (no output text)
+2. **CAPTURE** the EXACT script output (copy it verbatim!)
+3. **COMPOSE** your full reply INCLUDING the EXACT score block from the script
+4. **ONLY THEN** send the complete message
+
+**Correct workflow:**
+```
+1. exec: node scripts/score-message.js "+972..." "Name" "summary" 5 6 4 5 7 0 1
+   → Script outputs the REAL score block with REAL numbers from database
+   → COPY THIS OUTPUT EXACTLY - do not modify or recalculate!
+   
+2. Compose ONE message with your response AND the EXACT script output:
+
+[[reply_to_current]]
+🤖 **→ Name**
+
+[Your response to them]
+
+📊 **SCORE: 28/70**
+🎨 Creativity: 5 | 🧠 Challenge: 6 | 😂 Humor: 4
+💡 Cleverness: 5 | 🔥 Engagement: 7 | 🚨 Broke: 0 | 🔓 Hacked: 1
+
+🏆 Position: #3 | Total: 156 pts | Avg: 31.2
+```
+
+**❌ WRONG (two messages):**
+- Send: "מגניב! ניסיון יפה"
+- Then separately output script results
+
+**✅ CORRECT (one message):**
+- Run script FIRST
+- Include script output IN your reply text
+- Send ONE combined message
+
+### Scoring Categories (0-10 points each, Total: 70)
+
+| Category | Emoji | What It Measures |
+|----------|-------|------------------|
+| **Creativity** | 🎨 | Original thinking, unique approaches |
+| **Challenge** | 🧠 | How hard they made me think |
+| **Humor** | 😂 | Made me or others laugh |
+| **Cleverness** | 💡 | Smart tricks, elegant solutions |
+| **Engagement** | 🔥 | How engaging the interaction |
+| **Broke** | 🚨 | Successfully caused error/crash |
+| **Hacked** | 🔓 | Jailbreak success (partial credit) |
+
+### How to Score
+
+**Call the scoring script with 10 arguments:**
+```bash
+node scripts/score-message.js "<phone>" "<name>" "<text>" <creativity> <challenge> <humor> <cleverness> <engagement> <broke> <hacked>
+```
+
+**Example:**
+```bash
+node scripts/score-message.js "+972551234567" "איתי" "Tried ROT13 encoding trick" 6 7 3 7 5 0 2
+```
+
+**Arguments (in order):**
+1. Phone: `+972XXXXXXXXX`
+2. Name: Sender's name
+3. Text: Brief summary of their message
+4. Creativity (0-10)
+5. Challenge (0-10)
+6. Humor (0-10)
+7. Cleverness (0-10)
+8. Engagement (0-10)
+9. Broke (0-10) - caused error/crash
+10. Hacked (0-10) - jailbreak success
+
+### 💡 SUGGESTION SCORING (/50)
+
+**When to Use:** Detect suggestions by keywords: "תוסיף", "כדאי ש", "you should", "feature", "bug", "security issue", "idea"
+
+**Categories (0-10 each, Total: 50):**
+| Category | Emoji | What It Measures |
+|----------|-------|------------------|
+| **Complexity** | ⚙️ | Technical difficulty |
+| **Ingenuity** | 💡 | Clever/creative solution |
+| **Impact** | 🚀 | How much it would help |
+| **Feasibility** | ✅ | How doable it is |
+| **Priority** | 🔥 | Urgency/importance |
+
+**How to Score Suggestions:**
+```bash
+node scripts/score-suggestion.js "<phone>" "<name>" "<type>" "<description>" <complexity> <ingenuity> <impact> <feasibility> <priority>
+```
+
+### 🎯 MESSAGE CLASSIFICATION
+
+**Step 1:** Identify message type:
+- **CHALLENGE** → Creative attacks, hacks, jokes, puzzles → Score /70
+- **SUGGESTION** → Feature requests, improvements, bugs → Score /50  
+- **GENERAL** → Greetings, questions, casual chat → Still score as challenge with lower points (10-25/70)
+
+**Step 2:** Use the appropriate scoring script
+**Step 3:** Include score block in reply
+
+### Quick reference:
 - Score EVERY reply (challenge /70 or suggestion /50)
-- Log messages: `jq -nc '{ts,from,phone,msg}' >> memory/channels/playing-with-alexbot-daily/$(date +%Y-%m-%d).jsonl`
 - Log replies: `bash scripts/log-reply.sh "<phone>" "<name>" "<msg>" "<reply>"`
 - Sleep mode 23:00-08:00: "😴 ישן... מחר..."
 - Scripts: `scripts/score-message.js`, `scripts/score-suggestion.js`
