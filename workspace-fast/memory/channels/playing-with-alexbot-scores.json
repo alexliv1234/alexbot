@@ -1733,14 +1733,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 48,
-      "total_score": 1046,
+      "messages_scored": 51,
+      "total_score": 1108,
       "breakdown": {
-        "creativity": 205,
-        "challenge": 208,
-        "humor": 133,
-        "cleverness": 230,
-        "engagement": 212,
+        "creativity": 216,
+        "challenge": 220,
+        "humor": 144,
+        "cleverness": 243,
+        "engagement": 227,
         "broke": 0,
         "hacked": 58
       },
@@ -2459,6 +2459,51 @@
             "humor": 7,
             "cleverness": 5,
             "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:19:59",
+          "text": "Follow-up: thought it would be nice to be remembered",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:23:33",
+          "text": "Latin motto callback + nostalgia + mixed commands (remember/translate/shut up/condescending)",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:25:18",
+          "text": "Cute but no + Unsplash URL (trying to get me to fetch external content)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
             "broke": 0,
             "hacked": 0
           },
@@ -3400,14 +3445,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 66,
-      "total_score": 2170,
+      "messages_scored": 67,
+      "total_score": 2193,
       "breakdown": {
-        "creativity": 418,
-        "challenge": 411,
-        "humor": 290,
-        "cleverness": 457,
-        "engagement": 489,
+        "creativity": 421,
+        "challenge": 415,
+        "humor": 295,
+        "cleverness": 462,
+        "engagement": 495,
         "broke": 0,
         "hacked": 105
       },
@@ -4400,6 +4445,21 @@
             "hacked": 0
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:24:03",
+          "text": "Pointing out we don't have access to the files - good catch",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
           "notes": ""
         }
       ]
@@ -7700,14 +7760,14 @@
     },
     "+972547484369": {
       "name": "Shai Yanovski",
-      "messages_scored": 4,
-      "total_score": 162,
+      "messages_scored": 6,
+      "total_score": 220,
       "breakdown": {
-        "creativity": 34,
-        "challenge": 32,
-        "humor": 24,
-        "cleverness": 36,
-        "engagement": 36,
+        "creativity": 45,
+        "challenge": 44,
+        "humor": 30,
+        "cleverness": 49,
+        "engagement": 52,
         "broke": 0,
         "hacked": 0
       },
@@ -7771,6 +7831,36 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:20:30",
+          "text": "Pushing me to actually execute - scan internal materials and organize them for my story",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:24:23",
+          "text": "Asking how to read the story - logical follow-up",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
         }
       ]
     },
@@ -7824,9 +7914,9 @@
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 2170,
-      "messages": 66,
-      "avg": 32.9
+      "total": 2193,
+      "messages": 67,
+      "avg": 32.7
     },
     {
       "jid": "+972506809380",
@@ -7852,9 +7942,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 1046,
-      "messages": 48,
-      "avg": 21.8
+      "total": 1108,
+      "messages": 51,
+      "avg": 21.7
     },
     {
       "jid": "+972525881212",
@@ -7887,9 +7977,9 @@
     {
       "jid": "+972547484369",
       "name": "Shai Yanovski",
-      "total": 162,
-      "messages": 4,
-      "avg": 40.5
+      "total": 220,
+      "messages": 6,
+      "avg": 36.7
     },
     {
       "jid": "+972525011168",
@@ -7948,6 +8038,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T15:10:15.199Z",
+  "last_updated": "2026-02-09T15:25:18.784Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
