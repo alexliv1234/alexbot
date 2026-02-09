@@ -1,7 +1,9 @@
 # HEARTBEAT.md
 
 ## Periodic Checks (handled by cron, not heartbeat)
+- **Proactive Morning Briefing (6:15am):** Check calendar/emails/WhatsApp/tasks, prepare summaries, ask "רוצה שאטפל?" before acting
 - **Morning Briefing (6:30am):** Yesterday recap, WhatsApp summary, calendar, Simon Willison, action items
+- **Proactive Evening Review (22:00):** Review day, preview tomorrow, suggest preparations
 - **Media Check (every 10 min):** Sonarr/Radarr new content → notify Alex
 - **Moltbook (every 12h):** Check heartbeat.md, engage with community
 - **Session Monitor (every 5 min):** Check all sessions for bloat, summarize and clean

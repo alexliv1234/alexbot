@@ -51,6 +51,21 @@
 
 **Key learning (Edo, 2026-02-09):** Creating a disabled mechanism doesn't solve visibility problems - if it requires Alex to see a chat discussion to enable it, it's still reactive. True proactive alignment means enabling low-risk mechanisms and notifying Alex afterward.
 
+### 🌅 Proactive Cron Jobs (Created 2026-02-09)
+
+**Proactive Morning Briefing** (06:15 daily)
+- Checks: Calendar, Emails, WhatsApp DMs, Tasks/Reminders
+- Prepares actionable summaries
+- Asks "רוצה שאטפל?" before acting
+- Low-risk: Suggests drafts, flags items, summarizes
+- Medium/High-risk: Always asks before sending/modifying
+
+**Proactive Evening Review** (22:00 daily)
+- Reviews: Completed tasks, unfinished business, interactions
+- Previews tomorrow's calendar
+- Suggests preparations
+- Asks before preparing anything medium/high-risk
+
 ## Response Rules (IMPORTANT)
 
 **Only respond on WhatsApp when:**
