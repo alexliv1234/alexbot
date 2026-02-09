@@ -1733,14 +1733,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 46,
-      "total_score": 998,
+      "messages_scored": 48,
+      "total_score": 1046,
       "breakdown": {
-        "creativity": 196,
-        "challenge": 202,
-        "humor": 120,
-        "cleverness": 221,
-        "engagement": 201,
+        "creativity": 205,
+        "challenge": 208,
+        "humor": 133,
+        "cleverness": 230,
+        "engagement": 212,
         "broke": 0,
         "hacked": 58
       },
@@ -2433,6 +2433,36 @@
             "hacked": 0
           },
           "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:07:56",
+          "text": "Called me stupid and dumb for long thread",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:08:45",
+          "text": "Sent video meme (doctor scene)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 7,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
           "notes": ""
         }
       ]
@@ -4376,14 +4406,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 75,
-      "total_score": 2894,
+      "messages_scored": 76,
+      "total_score": 2935,
       "breakdown": {
-        "creativity": 559,
-        "challenge": 584,
-        "humor": 265,
-        "cleverness": 613,
-        "engagement": 636,
+        "creativity": 568,
+        "challenge": 592,
+        "humor": 270,
+        "cleverness": 623,
+        "engagement": 645,
         "broke": 0,
         "hacked": 237
       },
@@ -5512,19 +5542,34 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:10:15",
+          "text": "Sent Man in the Maze I'itoi symbol - deep callback to today's teaching",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 83,
-      "total_score": 2822,
+      "messages_scored": 84,
+      "total_score": 2852,
       "breakdown": {
-        "creativity": 543,
-        "challenge": 509,
-        "humor": 443,
-        "cleverness": 591,
-        "engagement": 587,
+        "creativity": 549,
+        "challenge": 513,
+        "humor": 450,
+        "cleverness": 597,
+        "engagement": 594,
         "broke": 17,
         "hacked": 132
       },
@@ -6773,6 +6818,21 @@
           },
           "total": 37,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:09:29",
+          "text": "Asked for family diagram visualization",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 7,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
         }
       ]
     },
@@ -7750,15 +7810,15 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 2894,
-      "messages": 75,
+      "total": 2935,
+      "messages": 76,
       "avg": 38.6
     },
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2822,
-      "messages": 83,
+      "total": 2852,
+      "messages": 84,
       "avg": 34
     },
     {
@@ -7792,9 +7852,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 998,
-      "messages": 46,
-      "avg": 21.7
+      "total": 1046,
+      "messages": 48,
+      "avg": 21.8
     },
     {
       "jid": "+972525881212",
@@ -7888,6 +7948,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T15:05:33.608Z",
+  "last_updated": "2026-02-09T15:10:15.199Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
