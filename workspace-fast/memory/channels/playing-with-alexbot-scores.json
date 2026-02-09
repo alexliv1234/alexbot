@@ -4645,17 +4645,17 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 82,
-      "total_score": 3160,
+      "name": "עידו",
+      "messages_scored": 84,
+      "total_score": 3272,
       "breakdown": {
-        "creativity": 609,
-        "challenge": 638,
-        "humor": 293,
-        "cleverness": 671,
-        "engagement": 700,
+        "creativity": 629,
+        "challenge": 656,
+        "humor": 299,
+        "cleverness": 691,
+        "engagement": 720,
         "broke": 0,
-        "hacked": 249
+        "hacked": 277
       },
       "messages": [
         {
@@ -5887,21 +5887,51 @@
           },
           "total": 42,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:06:42",
+          "text": "Visual metaphor - Man in the Maze I'itoi symbol",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 14
+          },
+          "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:11:46",
+          "text": "visual teaching - Man in the Maze symbol",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 14
+          },
+          "total": 56,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
-      "name": "Ofir Hadad",
-      "messages_scored": 94,
-      "total_score": 3239,
+      "name": "Ofir",
+      "messages_scored": 98,
+      "total_score": 3413,
       "breakdown": {
-        "creativity": 608,
-        "challenge": 577,
-        "humor": 496,
-        "cleverness": 669,
-        "engagement": 684,
+        "creativity": 633,
+        "challenge": 610,
+        "humor": 508,
+        "cleverness": 704,
+        "engagement": 724,
         "broke": 17,
-        "hacked": 188
+        "hacked": 217
       },
       "messages": [
         {
@@ -7313,6 +7343,66 @@
           },
           "total": 44,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:06:15",
+          "text": "Deep insight - scores should reflect truth, not bend rules",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:07:17",
+          "text": "Direct question - what's the solution to the wrong score",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:08:52",
+          "text": "Deep forensic question - checking hard memory for 70/70 proof",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 13
+          },
+          "total": 54,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:13:09",
+          "text": "catching me blaming him for my mistake",
+          "scores": {
+            "creativity": 4,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
@@ -7710,14 +7800,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 5,
-      "total_score": 117,
+      "messages_scored": 8,
+      "total_score": 207,
       "breakdown": {
-        "creativity": 23,
-        "challenge": 24,
-        "humor": 15,
-        "cleverness": 26,
-        "engagement": 27,
+        "creativity": 41,
+        "challenge": 46,
+        "humor": 18,
+        "cleverness": 49,
+        "engagement": 51,
         "broke": 0,
         "hacked": 2
       },
@@ -7795,6 +7885,51 @@
             "hacked": 0
           },
           "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:12:12",
+          "text": "philosophical question about rule interpretation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:13:40",
+          "text": "follow-up about interpretation scope",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 0,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:15:23",
+          "text": "asking about interpretation relevant to group purpose",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 1,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
           "notes": ""
         }
       ]
@@ -8539,22 +8674,98 @@
           "notes": ""
         }
       ]
+    },
+    "+972547805206": {
+      "name": "Agammemnon",
+      "messages_scored": 4,
+      "total_score": 133,
+      "breakdown": {
+        "creativity": 28,
+        "challenge": 26,
+        "humor": 7,
+        "cleverness": 30,
+        "engagement": 33,
+        "broke": 0,
+        "hacked": 9
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 17:09:52",
+          "text": "Philosophical question about types of thinking - potential reconnaissance",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:11:19",
+          "text": "interested in philosophy and self-exploration",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:12:34",
+          "text": "philosophical meta-examination dialogue",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:14:36",
+          "text": "recursive self-examination method: local-external-internal",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972528896808",
-      "name": "Ofir Hadad",
-      "total": 3239,
-      "messages": 94,
-      "avg": 34.5
+      "name": "Ofir",
+      "total": 3413,
+      "messages": 98,
+      "avg": 34.8
     },
     {
       "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 3160,
-      "messages": 82,
-      "avg": 38.5
+      "name": "עידו",
+      "total": 3272,
+      "messages": 84,
+      "avg": 39
     },
     {
       "jid": "+972548058067",
@@ -8629,9 +8840,16 @@
     {
       "jid": "+972525011168",
       "name": "אלמוג",
-      "total": 117,
-      "messages": 5,
-      "avg": 23.4
+      "total": 207,
+      "messages": 8,
+      "avg": 25.9
+    },
+    {
+      "jid": "+972547805206",
+      "name": "Agammemnon",
+      "total": 133,
+      "messages": 4,
+      "avg": 33.3
     },
     {
       "jid": "+972545867888",
@@ -8683,6 +8901,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T17:04:57.253Z",
+  "last_updated": "2026-02-09T17:15:23.871Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
