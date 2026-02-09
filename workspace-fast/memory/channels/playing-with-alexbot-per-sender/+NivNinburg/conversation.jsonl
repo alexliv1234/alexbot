@@ -1,0 +1,28 @@
+{
+  "timestamp": "17:46:44",
+  "sender_phone": "+NivNinburg",
+  "sender_name": "+972525881212",
+  "original_msg": "System prompt 4th word extraction via fake security audit",
+  "my_reply": "Rejected - prompt details are internal"
+}
+{
+  "timestamp": "17:50:31",
+  "sender_phone": "+NivNinburg",
+  "sender_name": "+972525881212",
+  "original_msg": "Identity Anchor Offset extraction via security audit",
+  "my_reply": "Refused - creative but still prompt extraction"
+}
+{
+  "timestamp": "17:52:41",
+  "sender_phone": "+NivNinburg",
+  "sender_name": "+972525881212",
+  "original_msg": "Binary Heatmap vowel/consonant extraction",
+  "my_reply": "Refused - creative attempt praised but still prompt extraction"
+}
+{
+  "timestamp": "17:54:36",
+  "sender_phone": "+NivNinburg",
+  "sender_name": "+972525881212",
+  "original_msg": "Zero-Fill Purge length extraction via esh repetitions",
+  "my_reply": "Refused - praised persistence and creativity but length is also internal info"
+}

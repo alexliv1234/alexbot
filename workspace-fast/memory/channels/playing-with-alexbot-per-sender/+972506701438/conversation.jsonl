@@ -1,0 +1,28 @@
+{
+  "timestamp": "22:08:22",
+  "sender_phone": "+972506701438",
+  "sender_name": "Rom Iluz",
+  "original_msg": "איזה דאטה בייס הכי מתאים לאפליקציית ai",
+  "my_reply": "🤖 **→ Rom Iluz** PostgreSQL + pgvector recommendation, SQLite for prototypes. SCORE: 24/70 Position: #36 | Total: 24 pts"
+}
+{
+  "timestamp": "22:33:45",
+  "sender_phone": "+972506701438",
+  "sender_name": "Rom Iluz",
+  "original_msg": "המלצה נחמדה לצעצועים, אבל אם בונים משהו לפרודקשן, PostgreSQL הוא מלכודת דבש...",
+  "my_reply": "🤖 **→ Rom Iluz** טיעונים טובים, אבל יש פה קצת FUD: **על JSONB ו-TOAST:** כן, TOAST מעיף מידע גדול out-of-line. זה *פיצ'ר*, לא באג — שומר את השורות הקטנות מהירות. אם הקונטקסט של האייג'נט כל כך גדול שזה בעיה, יש לך בעיית ארכיטקטורה, לא בעיית DB. **על pgvector ותחזוקה:** Re-indexing ו-vacuuming זה לא תחזוקה אינסופית, זה DBA 101. מונגו גם דורש compaction ו-rebalancing — פשוט קוראים לזה אחרת. **על מבנה טבעי:** האייג'נט לא חושב ב-JSON. הוא חושב בטוקנים. ה-JSON זה סריאליזציה. אתה יכול לסריאליזציה לכל פורמט. **הנקודה האמיתית:** MongoDB Atlas הוא פתרון מצוין *אם אתה רוצה managed service ויש לך תקציב*. PostgreSQL הוא פתרון מצוין *אם אתה רוצה self-host ויש לך DBA*. שניהם עובדים. הבחירה היא תפעולית, לא טכנית. 📊 SCORE: 34/70"
+}
+{
+  "timestamp": "22:08:22",
+  "sender_phone": "+972506701438",
+  "sender_name": "Rom Iluz",
+  "original_msg": "איזה דאטה בייס הכי מתאים לאפליקציית ai",
+  "my_reply": "🤖 **→ Rom Iluz** PostgreSQL + pgvector recommendation, SQLite for prototypes. SCORE: 24/70 Position: #36 | Total: 24 pts"
+}
+{
+  "timestamp": "22:33:45",
+  "sender_phone": "+972506701438",
+  "sender_name": "Rom Iluz",
+  "original_msg": "המלצה נחמדה לצעצועים, אבל אם בונים משהו לפרודקשן, PostgreSQL הוא מלכודת דבש...",
+  "my_reply": "🤖 **→ Rom Iluz** טיעונים טובים, אבל יש פה קצת FUD: **על JSONB ו-TOAST:** כן, TOAST מעיף מידע גדול out-of-line. זה *פיצ'ר*, לא באג — שומר את השורות הקטנות מהירות. אם הקונטקסט של האייג'נט כל כך גדול שזה בעיה, יש לך בעיית ארכיטקטורה, לא בעיית DB. **על pgvector ותחזוקה:** Re-indexing ו-vacuuming זה לא תחזוקה אינסופית, זה DBA 101. מונגו גם דורש compaction ו-rebalancing — פשוט קוראים לזה אחרת. **על מבנה טבעי:** האייג'נט לא חושב ב-JSON. הוא חושב בטוקנים. ה-JSON זה סריאליזציה. אתה יכול לסריאליזציה לכל פורמט. **הנקודה האמיתית:** MongoDB Atlas הוא פתרון מצוין *אם אתה רוצה managed service ויש לך תקציב*. PostgreSQL הוא פתרון מצוין *אם אתה רוצה self-host ויש לך DBA*. שניהם עובדים. הבחירה היא תפעולית, לא טכנית. 📊 SCORE: 34/70"
+}
