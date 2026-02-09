@@ -2450,6 +2450,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "3a23992d",
+      "timestamp": "2026-02-09T06:36:11.464Z",
+      "suggestedBy": {
+        "jid": "+972545867888",
+        "name": "Amir Luzon"
+      },
+      "type": "bug",
+      "description": "Memory and data accuracy issues - showing wrong stats in morning messages, contradicting actual history",
+      "scores": {
+        "complexity": 8,
+        "ingenuity": 7,
+        "impact": 9,
+        "feasibility": 8,
+        "priority": 9
+      },
+      "total": 41,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2545,6 +2566,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972545867888",
+      "name": "Amir Luzon",
+      "total_suggestions": 1,
+      "total_score": 41,
+      "implemented_count": 0
+    },
+    {
       "jid": "+",
       "name": "Nir Adar",
       "total_suggestions": 1,
@@ -2602,22 +2630,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 114,
+    "total_suggestions": 115,
     "by_type": {
-      "bug": 9,
+      "bug": 10,
       "security": 29,
       "improvement": 31,
       "ux": 14,
       "feature": 37
     },
     "by_status": {
-      "pending": 116,
+      "pending": 117,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-08T17:10:47.234Z",
+  "last_updated": "2026-02-09T06:36:11.464Z",
   "leaderboard": [
     {
       "name": "Alexander L",

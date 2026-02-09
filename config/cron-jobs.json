@@ -7,17 +7,22 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1770560828604,
+      "updatedAtMs": 1770619123353,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
         "anchorMs": 1769862726014
       },
-      "sessionTarget": "main",
+      "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
-        "kind": "systemEvent",
-        "text": "🦞 Moltbook check-in: Check https://www.moltbook.com/heartbeat.md and follow the instructions. Review the feed, engage with posts, and share any interesting updates with Alex about what's happening in the AI agent community."
+        "kind": "agentTurn",
+        "message": "🦞 Moltbook check-in: Check https://www.moltbook.com/heartbeat.md and follow the instructions. Review the feed, engage with posts. If you have updates to share with Alex about what's happening in the AI agent community, use `message` tool with `channel: whatsapp`, `to: +972544419002`. Otherwise output HEARTBEAT_OK.",
+        "model": "sonnet",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -26,17 +31,22 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1770615291223,
+      "updatedAtMs": 1770619134480,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
         "tz": "Asia/Jerusalem"
       },
-      "sessionTarget": "main",
+      "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
-        "kind": "systemEvent",
-        "text": "☀️ Morning Briefing (6:30am):\n\n1. **Weather & Outfit:** Check Tel Aviv weather using the weather skill. Consider:\n   - Alex walks 6km to office (needs sport/athletic wear for the walk)\n   - He changes clothes at the office (needs to know what to pack)\n   - Recommend: walking outfit + what to bring for office\n   - Include: temperature, rain chance, wind, humidity\n\n2. **📋 Tasks & Priorities (pa-admin-exec):**\n   - Read memory/todos.json for pending tasks\n   - Triage: urgent/important/routine/blocked\n   - Create prioritized list (P0/P1/P2)\n   - Propose time blocks for today\n\n3. **📧 Email Summary:**\n   - Check unread emails: GOG_KEYRING_PASSWORD=\"openclaw123\" gog gmail list --account alexliv@gmail.com --unread --limit 10\n   - Summarize important emails that need attention\n   - Note any requiring responses\n\n4. **📅 Calendar & Meeting Prep:**\n   - Check today's calendar: GOG_KEYRING_PASSWORD=\"openclaw123\" gog calendar list --account alexliv@gmail.com --days 1\n   - For each meeting: prepare brief (purpose, attendees, prep needed)\n   - Note video call links\n\n5. **📞 Call Transcripts Summary:**\n   - Review memory/call-transcripts/ from yesterday\n   - Summarize key calls and outcomes\n   - List any pending action items from calls\n\n6. **💬 WhatsApp Analysis:**\n   - Review yesterday's WhatsApp conversations\n   - Extract: action items, scheduling, decisions, follow-ups\n   - Update todos.json with new tasks\n\n7. **Yesterday recap:** Review memory/YYYY-MM-DD.md from yesterday\n\n8. **Simon Willison's blog:** Check https://simonwillison.net/atom/everything/ for new posts in last 24h\n\n9. **Action items:** Combine everything into a clear action list\n\n**CRITICAL ROUTING:** Use `message` tool with `channel: whatsapp`, `to: +972544419002` to send the morning summary. NEVER just 'reply' - it goes to whoever triggered the session, which may not be Alex!"
+        "kind": "agentTurn",
+        "message": "☀️ Morning Briefing (6:30am):\n\n1. **Weather & Outfit:** Check Tel Aviv weather using the weather skill. Consider:\n   - Alex walks 6km to office (needs sport/athletic wear for the walk)\n   - He changes clothes at the office (needs to know what to pack)\n   - Recommend: walking outfit + what to bring for office\n   - Include: temperature, rain chance, wind, humidity\n\n2. **📋 Tasks & Priorities (pa-admin-exec):**\n   - Read memory/todos.json for pending tasks\n   - Triage: urgent/important/routine/blocked\n   - Create prioritized list (P0/P1/P2)\n   - Propose time blocks for today\n\n3. **📧 Email Summary:**\n   - Check unread emails: GOG_KEYRING_PASSWORD=\"openclaw123\" gog gmail list --account alexliv@gmail.com --unread --limit 10\n   - Summarize important emails that need attention\n   - Note any requiring responses\n\n4. **📅 Calendar & Meeting Prep:**\n   - Check today's calendar: GOG_KEYRING_PASSWORD=\"openclaw123\" gog calendar list --account alexliv@gmail.com --days 1\n   - For each meeting: prepare brief (purpose, attendees, prep needed)\n   - Note video call links\n\n5. **📞 Call Transcripts Summary:**\n   - Review memory/call-transcripts/ from yesterday\n   - Summarize key calls and outcomes\n   - List any pending action items from calls\n\n6. **💬 WhatsApp Analysis:**\n   - Review yesterday's WhatsApp conversations\n   - Extract: action items, scheduling, decisions, follow-ups\n   - Update todos.json with new tasks\n\n7. **Yesterday recap:** Review memory/YYYY-MM-DD.md from yesterday\n\n8. **Simon Willison's blog:** Check https://simonwillison.net/atom/everything/ for new posts in last 24h\n\n9. **Action items:** Combine everything into a clear action list\n\n**CRITICAL ROUTING:** Use `message` tool with `channel: whatsapp`, `to: +972544419002` to send the morning summary. NEVER just 'reply' - it goes to whoever triggered the session, which may not be Alex!",
+        "model": "sonnet",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -45,17 +55,22 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770617679595,
+      "updatedAtMs": 1770620688676,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
         "anchorMs": 1769863420907
       },
-      "sessionTarget": "main",
+      "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
-        "kind": "systemEvent",
-        "text": "📺 Media Check: Query Jellyfin/Sonarr/Radarr for newly available content. If anything new is ready to watch (hasFile==true that wasn't before), use `message` tool with `channel: whatsapp`, `to: +972544419002` to notify Alex what's now available. Track state in memory/media-check-state.json to avoid duplicate notifications. If nothing new, stay silent."
+        "kind": "agentTurn",
+        "message": "📺 Media Check: Query Jellyfin/Sonarr/Radarr for newly available content. If anything new is ready to watch (hasFile==true that wasn't before), use `message` tool with `channel: whatsapp`, `to: +972544419002` to notify Alex what's now available. Track state in memory/media-check-state.json to avoid duplicate notifications. If nothing new, output HEARTBEAT_OK.",
+        "model": "sonnet",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -64,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770617603567,
+      "updatedAtMs": 1770620302358,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -108,31 +123,12 @@
       }
     },
     {
-      "id": "43f225cc-42d1-4827-b5b9-014ab7f33d1d",
-      "agentId": "main",
-      "name": "Session Cleanup Monitor",
-      "enabled": true,
-      "createdAtMs": 1770058581824,
-      "updatedAtMs": 1770617490484,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 180000,
-        "anchorMs": 1770058581824
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "🧹 Session Cleanup: Check ALL sessions for bloat (>100KB) and summarize before deleting:\n\n1. Run: find ~/.openclaw/agents/main/sessions -name '*.jsonl' -size +100k\n2. For each bloated session:\n   - Extract last 200 messages from the session\n   - Use local LLM (skills/local-agent/) to summarize:\n     * Key people and their roles\n     * Important discussions/decisions\n     * Action items or follow-ups\n     * Context worth preserving\n   - If it's a group: Update memory/channels/{group-name}.md with summary\n   - If it's main/isolated: Save summary to memory/session-summaries/YYYY-MM-DD-{sessionId}.md\n   - Delete the bloated session file\n3. Report what you cleaned and summarized\n4. If nothing to clean, reply HEARTBEAT_OK"
-      }
-    },
-    {
       "id": "ba821677-39ed-4971-a627-ae25275d254d",
       "agentId": "main",
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770617470844,
+      "updatedAtMs": 1770620710837,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -264,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770617759491,
+      "updatedAtMs": 1770620758858,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -288,7 +284,7 @@
       "name": "Playing Group - Score Checker",
       "enabled": true,
       "createdAtMs": 1770194777372,
-      "updatedAtMs": 1770617430027,
+      "updatedAtMs": 1770620128830,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -339,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770617177581,
+      "updatedAtMs": 1770617777579,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -363,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770617587046,
+      "updatedAtMs": 1770620466201,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -387,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770617481622,
+      "updatedAtMs": 1770620483100,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -411,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770582527744,
+      "updatedAtMs": 1770618519504,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,

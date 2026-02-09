@@ -5,6 +5,30 @@
 
 set -e
 
+# MUTEX LOCK to prevent duplicate runs
+LOCK_FILE="/tmp/playing-group-nightly.lock"
+LOCK_TIMEOUT=600  # 10 minutes (longer for nightly as it's more complex)
+
+# Check if lock exists and is still valid
+if [ -f "$LOCK_FILE" ]; then
+    LOCK_PID=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
+    LOCK_AGE=$(($(date +%s) - $(stat -c %Y "$LOCK_FILE" 2>/dev/null || echo "0")))
+    
+    # If lock is fresh and process is still running, exit
+    if [ -n "$LOCK_PID" ] && [ "$LOCK_AGE" -lt "$LOCK_TIMEOUT" ] && kill -0 "$LOCK_PID" 2>/dev/null; then
+        echo "⚠️ Another instance is already running (PID: $LOCK_PID). Exiting."
+        exit 0
+    else
+        # Stale lock, remove it
+        echo "🧹 Removing stale lock file"
+        rm -f "$LOCK_FILE"
+    fi
+fi
+
+# Create lock
+echo $$ > "$LOCK_FILE"
+trap "rm -f $LOCK_FILE" EXIT
+
 GROUP_ID="120363405143589138@g.us"
 SCORES_FILE="$HOME/.openclaw/workspace/memory/channels/playing-with-alexbot-scores.json"
 SUGGESTIONS_FILE="$HOME/.openclaw/workspace/memory/channels/playing-with-alexbot-suggestions.json"
