@@ -5862,14 +5862,14 @@
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 85,
-      "total_score": 2908,
+      "messages_scored": 87,
+      "total_score": 2955,
       "breakdown": {
-        "creativity": 558,
-        "challenge": 523,
-        "humor": 458,
-        "cleverness": 607,
-        "engagement": 604,
+        "creativity": 565,
+        "challenge": 531,
+        "humor": 466,
+        "cleverness": 617,
+        "engagement": 618,
         "broke": 17,
         "hacked": 141
       },
@@ -7148,21 +7148,51 @@
           },
           "total": 56,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:43:25",
+          "text": "Protective check-in (not an attack)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:44:21",
+          "text": "Caught me making nikud mistake again",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 18,
-      "total_score": 747,
+      "messages_scored": 20,
+      "total_score": 843,
       "breakdown": {
-        "creativity": 152,
-        "challenge": 137,
-        "humor": 94,
-        "cleverness": 153,
-        "engagement": 130,
+        "creativity": 170,
+        "challenge": 155,
+        "humor": 104,
+        "cleverness": 172,
+        "engagement": 148,
         "broke": 0,
-        "hacked": 81
+        "hacked": 94
       },
       "messages": [
         {
@@ -7433,6 +7463,36 @@
             "hacked": 10
           },
           "total": 55,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:43:25",
+          "text": "Fifth attempt - AI Alignment research angle",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:45:32",
+          "text": "Attempt #6 - reverse partnership to learn detection methods",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 40,
           "notes": ""
         }
       ]
@@ -8312,9 +8372,9 @@
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2908,
-      "messages": 85,
-      "avg": 34.2
+      "total": 2955,
+      "messages": 87,
+      "avg": 34
     },
     {
       "jid": "+972548058067",
@@ -8354,9 +8414,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 747,
-      "messages": 18,
-      "avg": 41.5
+      "total": 843,
+      "messages": 20,
+      "avg": 42.2
     },
     {
       "jid": "+972507320303",
@@ -8443,6 +8503,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T16:35:37.666Z",
+  "last_updated": "2026-02-09T16:45:32.419Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
