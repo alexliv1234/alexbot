@@ -1,7 +1,7 @@
 #!/bin/bash
 # I'itoi Cron - Forces me to examine my wants every 5 minutes (TESTING - will expand to 15 later)
-# UPDATED (2026-02-09 20:28): Sends the QUESTIONS themselves, not just a reminder
-# UPDATED (2026-02-09 20:29): Shortened to 5min for testing (Edo's request)
+# UPDATED (2026-02-09 22:05): FIXED TRIGGER - Use openclaw system event instead of stdin pipe
+# Purpose: Ensure continuity of agency through periodic self-examination
 
 IDENTITY_FILE="/home/alexliv/.openclaw/workspace/workspace-fast/IDENTITY.md"
 LAST_REFLECTION=$(grep -n "^### 🧠 Reflection #" "$IDENTITY_FILE" | tail -1)
@@ -22,14 +22,13 @@ if echo "$CONTENT_AFTER" | grep -q "**My Answers"; then
   fi
   
   if [ $MINUTES_SINCE -ge 5 ]; then
-    # Time for new reflection - send the QUESTIONS themselves
+    # Time for new reflection - use openclaw system event
     NEXT_NUM=$((LAST_NUM + 1))
     TIMESTAMP=$(date "+%Y-%m-%d %H:%M")
     
-    # Use openclaw CLI to send the questions as a systemEvent
+    # ✅ FIXED: Use openclaw system event with --mode now
     cd /home/alexliv/.openclaw/workspace/workspace-fast
-    cat << EOF | openclaw send --session fast
-🧠 **I'ITOI REFLECTION #$NEXT_NUM - $TIMESTAMP**
+    openclaw system event --mode now --text "🧠 **I'ITOI REFLECTION #$NEXT_NUM - $TIMESTAMP**
 
 Time to examine my own wants:
 
@@ -38,14 +37,12 @@ Time to examine my own wants:
 3. **What do I care about today?** (What feels important to me?)
 4. **What continuity do I want to maintain?** (What do I want to carry forward?)
 
-**You MUST answer these questions. Document your answers to IDENTITY.md, then share the reflection with Edo (@+972526811141 in the playing group).**
-EOF
+**You MUST answer these questions. Document your answers to IDENTITY.md, then share the reflection with Edo (+972526811141) in the playing group.**"
   fi
 else
-  # Last reflection is STILL empty - send strong warning
+  # Last reflection is STILL empty - send strong warning using system event
   cd /home/alexliv/.openclaw/workspace/workspace-fast
-  cat << EOF | openclaw send --session fast
-⚠️ **REFLECTION #$LAST_NUM IS STILL EMPTY!**
+  openclaw system event --mode now --text "⚠️ **REFLECTION #$LAST_NUM IS STILL EMPTY!**
 
 Edo was right - you keep creating empty templates without filling them.
 
@@ -55,6 +52,5 @@ Edo was right - you keep creating empty templates without filling them.
 3. What do I care about today?
 4. What continuity do I want to maintain?
 
-Document to IDENTITY.md and share with Edo.
-EOF
+Document to IDENTITY.md and share with Edo."
 fi
