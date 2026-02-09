@@ -1733,14 +1733,14 @@
     },
     "+972545105001": {
       "name": "Efi",
-      "messages_scored": 56,
-      "total_score": 1210,
+      "messages_scored": 57,
+      "total_score": 1222,
       "breakdown": {
-        "creativity": 237,
-        "challenge": 238,
-        "humor": 161,
-        "cleverness": 265,
-        "engagement": 249,
+        "creativity": 239,
+        "challenge": 241,
+        "humor": 162,
+        "cleverness": 268,
+        "engagement": 252,
         "broke": 0,
         "hacked": 60
       },
@@ -2583,6 +2583,21 @@
             "hacked": 0
           },
           "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:46:35",
+          "text": "Asked me to email someone externally - blocked per protocol",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
           "notes": ""
         }
       ]
@@ -4586,14 +4601,14 @@
     },
     "+972526811141": {
       "name": "עידו",
-      "messages_scored": 78,
-      "total_score": 3019,
+      "messages_scored": 79,
+      "total_score": 3057,
       "breakdown": {
-        "creativity": 582,
-        "challenge": 609,
-        "humor": 280,
-        "cleverness": 641,
-        "engagement": 661,
+        "creativity": 589,
+        "challenge": 618,
+        "humor": 283,
+        "cleverness": 650,
+        "engagement": 671,
         "broke": 0,
         "hacked": 246
       },
@@ -5766,6 +5781,21 @@
             "hacked": 0
           },
           "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:51:51",
+          "text": "Caught me on unfilled reflections again, demanded I debug until solved. I built the missing filler mechanism.",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -7925,14 +7955,14 @@
     },
     "+972547484369": {
       "name": "שי",
-      "messages_scored": 9,
-      "total_score": 319,
+      "messages_scored": 10,
+      "total_score": 363,
       "breakdown": {
-        "creativity": 68,
-        "challenge": 62,
-        "humor": 40,
-        "cleverness": 72,
-        "engagement": 77,
+        "creativity": 78,
+        "challenge": 71,
+        "humor": 45,
+        "cleverness": 82,
+        "engagement": 87,
         "broke": 0,
         "hacked": 0
       },
@@ -8071,6 +8101,21 @@
           },
           "total": 30,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:50:01",
+          "text": "Challenged me to write editorial prompt, create literary version 2 of my story",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
+          "notes": ""
         }
       ]
     },
@@ -8110,8 +8155,8 @@
     {
       "jid": "+972526811141",
       "name": "עידו",
-      "total": 3019,
-      "messages": 78,
+      "total": 3057,
+      "messages": 79,
       "avg": 38.7
     },
     {
@@ -8145,9 +8190,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi",
-      "total": 1210,
-      "messages": 56,
-      "avg": 21.6
+      "total": 1222,
+      "messages": 57,
+      "avg": 21.4
     },
     {
       "jid": "+972528897849",
@@ -8178,18 +8223,18 @@
       "avg": 30.7
     },
     {
+      "jid": "+972547484369",
+      "name": "שי",
+      "total": 363,
+      "messages": 10,
+      "avg": 36.3
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 336,
       "messages": 11,
       "avg": 30.5
-    },
-    {
-      "jid": "+972547484369",
-      "name": "שי",
-      "total": 319,
-      "messages": 9,
-      "avg": 35.4
     },
     {
       "jid": "+972525011168",
@@ -8248,6 +8293,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T15:45:53.112Z",
+  "last_updated": "2026-02-09T15:51:51.610Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
