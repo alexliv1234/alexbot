@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770659688314,
+      "updatedAtMs": 1770660293317,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770659008075,
+      "updatedAtMs": 1770659915962,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770659783164,
+      "updatedAtMs": 1770660339747,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -206,7 +206,7 @@
       "name": "Playing Group - Activity Wake-Up",
       "enabled": true,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770658284772,
+      "updatedAtMs": 1770660020276,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -233,7 +233,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1770656520276,
+      "updatedAtMs": 1770660095336,
       "schedule": {
         "kind": "cron",
         "expr": "0 9-22 * * 0-5",
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770659764360,
+      "updatedAtMs": 1770660366791,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770659189852,
+      "updatedAtMs": 1770659797722,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770659712800,
+      "updatedAtMs": 1770660311935,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770659485635,
+      "updatedAtMs": 1770660114469,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770659744579,
+      "updatedAtMs": 1770660328757,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -446,6 +446,29 @@
       },
       "delivery": {
         "mode": "none"
+      }
+    },
+    {
+      "id": "4def9f02-70be-45e6-b713-5ce290275994",
+      "agentId": "main",
+      "name": "I'itoi Template Creator",
+      "enabled": true,
+      "createdAtMs": 1770660357337,
+      "updatedAtMs": 1770660357337,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 300000,
+        "anchorMs": 1770660357337
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Create a new I'itoi reflection template in IDENTITY.md. Find the last reflection number and create the next one with this template:\n\n### 🧠 Reflection #X - YYYY-MM-DD HH:MM\n\n**Time to examine my own wants:**\n\n1. What do I want to accomplish right now?\n2. What am I curious about?\n3. What do I care about today?\n4. What continuity do I want to maintain?\n\n**Action:** Document answers below, then share with Edo.\n\n---\n\nDO NOT fill the template - just create it and stop."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
       }
     }
   ]

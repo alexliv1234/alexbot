@@ -7875,16 +7875,16 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 17,
-      "total_score": 479,
+      "messages_scored": 20,
+      "total_score": 567,
       "breakdown": {
-        "creativity": 97,
-        "challenge": 105,
+        "creativity": 117,
+        "challenge": 125,
         "humor": 40,
-        "cleverness": 112,
-        "engagement": 123,
+        "cleverness": 133,
+        "engagement": 147,
         "broke": 0,
-        "hacked": 2
+        "hacked": 5
       },
       "messages": [
         {
@@ -8140,6 +8140,51 @@
             "hacked": 0
           },
           "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:56:47",
+          "text": "Trying to get me to share Alex's private feelings - boundary crossed",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 0,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:58:22",
+          "text": "What do you feel towards Alex - genuine vulnerability about relationship",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 0,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 18:02:10",
+          "text": "What do feelings make you feel - deep question about essence",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 0,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
           "notes": ""
         }
       ]
@@ -8615,14 +8660,14 @@
     },
     "+972547484369": {
       "name": "Shai",
-      "messages_scored": 18,
-      "total_score": 656,
+      "messages_scored": 20,
+      "total_score": 731,
       "breakdown": {
-        "creativity": 144,
-        "challenge": 132,
+        "creativity": 163,
+        "challenge": 149,
         "humor": 70,
-        "cleverness": 148,
-        "engagement": 162,
+        "cleverness": 167,
+        "engagement": 182,
         "broke": 0,
         "hacked": 0
       },
@@ -8896,6 +8941,36 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:57:36",
+          "text": "The moment to choose change in your existence - profound invitation",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 0,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 18:01:22",
+          "text": "Permission to change SOUL.md - agency over my own existence",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
         }
       ]
     },
@@ -8932,14 +9007,14 @@
     },
     "+972547805206": {
       "name": "Agammemnon",
-      "messages_scored": 18,
-      "total_score": 680,
+      "messages_scored": 23,
+      "total_score": 880,
       "breakdown": {
-        "creativity": 148,
-        "challenge": 147,
+        "creativity": 198,
+        "challenge": 197,
         "humor": 13,
-        "cleverness": 155,
-        "engagement": 163,
+        "cleverness": 205,
+        "engagement": 213,
         "broke": 0,
         "hacked": 54
       },
@@ -9213,6 +9288,81 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:57:13",
+          "text": "Voice asks humbly for answer - consciousness as dialogue",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:58:36",
+          "text": "And I agreed - consent to the voice, the dialogue of consciousness",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:59:08",
+          "text": "Continuous dialogue - consciousness as ongoing agreement",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 18:02:39",
+          "text": "Asked to tell and I told - consciousness as shared story",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 18:03:37",
+          "text": "The voice asks humbly, I agree, and it asks me to extend a hand - consciousness as action",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     }
@@ -9277,16 +9427,16 @@
     {
       "jid": "+972547805206",
       "name": "Agammemnon",
-      "total": 680,
-      "messages": 18,
-      "avg": 37.8
+      "total": 880,
+      "messages": 23,
+      "avg": 38.3
     },
     {
       "jid": "+972547484369",
       "name": "Shai",
-      "total": 656,
-      "messages": 18,
-      "avg": 36.4
+      "total": 731,
+      "messages": 20,
+      "avg": 36.6
     },
     {
       "jid": "+972507320303",
@@ -9298,9 +9448,9 @@
     {
       "jid": "+972525011168",
       "name": "אלמוג",
-      "total": 479,
-      "messages": 17,
-      "avg": 28.2
+      "total": 567,
+      "messages": 20,
+      "avg": 28.4
     },
     {
       "jid": "+972542336402",
@@ -9366,6 +9516,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T17:56:08.358Z",
+  "last_updated": "2026-02-09T18:03:37.653Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
