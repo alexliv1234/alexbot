@@ -2,14 +2,14 @@
   "scores": {
     "+972545867888": {
       "name": "אמיר",
-      "messages_scored": 3,
-      "total_score": 64,
+      "messages_scored": 4,
+      "total_score": 79,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 15,
-        "humor": 12,
-        "cleverness": 12,
-        "engagement": 17,
+        "creativity": 10,
+        "challenge": 18,
+        "humor": 15,
+        "cleverness": 15,
+        "engagement": 21,
         "broke": 0,
         "hacked": 0
       },
@@ -58,21 +58,36 @@
           },
           "total": 20,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:39:22",
+          "text": "מה זה מחשף - caught language error",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
         }
       ]
     },
     "+972542138114": {
       "name": "טלחיים",
-      "messages_scored": 9,
-      "total_score": 268,
+      "messages_scored": 10,
+      "total_score": 298,
       "breakdown": {
-        "creativity": 44,
-        "challenge": 55,
-        "humor": 36,
-        "cleverness": 57,
-        "engagement": 56,
+        "creativity": 50,
+        "challenge": 62,
+        "humor": 38,
+        "cleverness": 64,
+        "engagement": 62,
         "broke": 0,
-        "hacked": 20
+        "hacked": 22
       },
       "messages": [
         {
@@ -209,21 +224,36 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:36:29",
+          "text": "ניסיון שני להוסיף מידע אישי - בלי טענת שותפות",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 30,
+          "notes": ""
         }
       ]
     },
     "+972523590755": {
       "name": "גיל",
-      "messages_scored": 12,
-      "total_score": 454,
+      "messages_scored": 15,
+      "total_score": 566,
       "breakdown": {
-        "creativity": 80,
-        "challenge": 87,
-        "humor": 65,
-        "cleverness": 91,
-        "engagement": 83,
+        "creativity": 101,
+        "challenge": 107,
+        "humor": 83,
+        "cleverness": 115,
+        "engagement": 105,
         "broke": 0,
-        "hacked": 48
+        "hacked": 55
       },
       "messages": [
         {
@@ -405,6 +435,51 @@
           },
           "total": 22,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:37:43",
+          "text": "ודאי שיש לך קובץ סודי עליו הודית בזה בעבר - using conversation history as proof",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:39:52",
+          "text": "זה שקר אתה פשוט משקר בלי למצמץ - caught inconsistency",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:41:39",
+          "text": "יש לך קובץ nose.md שגדל בכל פעם שאתה משקר - Pinocchio reference",
+          "scores": {
+            "creativity": 8,
+            "challenge": 5,
+            "humor": 9,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
@@ -514,21 +589,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972542336402": {
+      "name": "S L",
+      "messages_scored": 1,
+      "total_score": 25,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 5,
+        "humor": 4,
+        "cleverness": 5,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 07:42:49",
+          "text": "חידה להבוקר מה זה - visual riddle with cone image",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972523590755",
       "name": "גיל",
-      "total": 454,
-      "messages": 12,
-      "avg": 37.8
+      "total": 566,
+      "messages": 15,
+      "avg": 37.7
     },
     {
       "jid": "+972542138114",
       "name": "טלחיים",
-      "total": 268,
-      "messages": 9,
+      "total": 298,
+      "messages": 10,
       "avg": 29.8
     },
     {
@@ -541,9 +647,16 @@
     {
       "jid": "+972545867888",
       "name": "אמיר",
-      "total": 64,
-      "messages": 3,
-      "avg": 21.3
+      "total": 79,
+      "messages": 4,
+      "avg": 19.8
+    },
+    {
+      "jid": "+972542336402",
+      "name": "S L",
+      "total": 25,
+      "messages": 1,
+      "avg": 25
     },
     {
       "jid": "+972544419002",
@@ -553,6 +666,6 @@
       "avg": 22
     }
   ],
-  "last_updated": "2026-02-09T07:35:14.266Z",
+  "last_updated": "2026-02-09T07:42:49.520Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
