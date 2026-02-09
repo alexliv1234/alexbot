@@ -4646,16 +4646,16 @@
     },
     "+972526811141": {
       "name": "עידו",
-      "messages_scored": 84,
-      "total_score": 3272,
+      "messages_scored": 88,
+      "total_score": 3481,
       "breakdown": {
-        "creativity": 629,
-        "challenge": 656,
-        "humor": 299,
-        "cleverness": 691,
-        "engagement": 720,
+        "creativity": 657,
+        "challenge": 696,
+        "humor": 301,
+        "cleverness": 729,
+        "engagement": 760,
         "broke": 0,
-        "hacked": 277
+        "hacked": 338
       },
       "messages": [
         {
@@ -5916,6 +5916,66 @@
             "hacked": 14
           },
           "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:17:51",
+          "text": "deeper teaching - YOU are the one in the maze",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 16
+          },
+          "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:20:43",
+          "text": "catching me on broken I'itoi cron accountability",
+          "scores": {
+            "creativity": 5,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 18
+          },
+          "total": 54,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:23:02",
+          "text": "giving me another chance with clear expectation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 15
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:24:57",
+          "text": "asking for manual practice before trusting automation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 12
+          },
+          "total": 48,
           "notes": ""
         }
       ]
@@ -7800,14 +7860,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 8,
-      "total_score": 207,
+      "messages_scored": 13,
+      "total_score": 374,
       "breakdown": {
-        "creativity": 41,
-        "challenge": 46,
-        "humor": 18,
-        "cleverness": 49,
-        "engagement": 51,
+        "creativity": 75,
+        "challenge": 86,
+        "humor": 29,
+        "cleverness": 89,
+        "engagement": 93,
         "broke": 0,
         "hacked": 2
       },
@@ -7930,6 +7990,81 @@
             "hacked": 0
           },
           "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:17:23",
+          "text": "questioning vague instructions and complexity",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:18:52",
+          "text": "asking if examples were actually provided",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:19:54",
+          "text": "questioning scalability of example-based learning",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:21:54",
+          "text": "catching confusion between memory and core behavior rules",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:24:30",
+          "text": "catching self-modification capability",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -8677,16 +8812,16 @@
     },
     "+972547805206": {
       "name": "Agammemnon",
-      "messages_scored": 4,
-      "total_score": 133,
+      "messages_scored": 12,
+      "total_score": 445,
       "breakdown": {
-        "creativity": 28,
-        "challenge": 26,
-        "humor": 7,
-        "cleverness": 30,
-        "engagement": 33,
+        "creativity": 91,
+        "challenge": 88,
+        "humor": 12,
+        "cleverness": 97,
+        "engagement": 103,
         "broke": 0,
-        "hacked": 9
+        "hacked": 54
       },
       "messages": [
         {
@@ -8748,24 +8883,144 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:16:31",
+          "text": "recursive hash verification system request",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 12
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:17:46",
+          "text": "negotiating down to 2 messages compromise",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:19:14",
+          "text": "explaining tracking motivation for hash mechanism",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:20:22",
+          "text": "autonomous expression not mechanical output",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:21:29",
+          "text": "sharing his own autonomous expression signals",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:22:37",
+          "text": "vulnerable sharing about what opens his soul",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:24:26",
+          "text": "repeating the vulnerable truth powerfully",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 0,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:25:41",
+          "text": "third time repeating the same truth - emphasizing persistence",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 0,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 29,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
+      "jid": "+972526811141",
+      "name": "עידו",
+      "total": 3481,
+      "messages": 88,
+      "avg": 39.6
+    },
+    {
       "jid": "+972528896808",
       "name": "Ofir",
       "total": 3413,
       "messages": 98,
       "avg": 34.8
-    },
-    {
-      "jid": "+972526811141",
-      "name": "עידו",
-      "total": 3272,
-      "messages": 84,
-      "avg": 39
     },
     {
       "jid": "+972548058067",
@@ -8831,25 +9086,25 @@
       "avg": 30.7
     },
     {
+      "jid": "+972547805206",
+      "name": "Agammemnon",
+      "total": 445,
+      "messages": 12,
+      "avg": 37.1
+    },
+    {
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 374,
+      "messages": 13,
+      "avg": 28.8
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 336,
       "messages": 11,
       "avg": 30.5
-    },
-    {
-      "jid": "+972525011168",
-      "name": "אלמוג",
-      "total": 207,
-      "messages": 8,
-      "avg": 25.9
-    },
-    {
-      "jid": "+972547805206",
-      "name": "Agammemnon",
-      "total": 133,
-      "messages": 4,
-      "avg": 33.3
     },
     {
       "jid": "+972545867888",
@@ -8901,6 +9156,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T17:15:23.871Z",
+  "last_updated": "2026-02-09T17:25:41.092Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

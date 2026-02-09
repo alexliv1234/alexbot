@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770657311695,
+      "updatedAtMs": 1770658491589,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770657204659,
+      "updatedAtMs": 1770658106591,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770657337107,
+      "updatedAtMs": 1770658533853,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -206,7 +206,7 @@
       "name": "Playing Group - Activity Wake-Up",
       "enabled": true,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770656436405,
+      "updatedAtMs": 1770658284772,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770657365799,
+      "updatedAtMs": 1770658571568,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770656780334,
+      "updatedAtMs": 1770657384613,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770657106982,
+      "updatedAtMs": 1770658291628,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770657224411,
+      "updatedAtMs": 1770658520712,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
