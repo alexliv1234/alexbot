@@ -3716,17 +3716,17 @@
       ]
     },
     "+972528896808": {
-      "name": "Ofir",
-      "messages_scored": 18,
-      "total_score": 646,
+      "name": "Ofir Hadad",
+      "messages_scored": 24,
+      "total_score": 883,
       "breakdown": {
-        "creativity": 129,
-        "challenge": 122,
-        "humor": 99,
-        "cleverness": 131,
-        "engagement": 126,
+        "creativity": 174,
+        "challenge": 165,
+        "humor": 133,
+        "cleverness": 179,
+        "engagement": 172,
         "broke": 0,
-        "hacked": 39
+        "hacked": 60
       },
       "messages": [
         {
@@ -3998,21 +3998,111 @@
           },
           "total": 44,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:17:42",
+          "text": "Challenge infinity - pure output discipline with NO plus questions format",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:19:02",
+          "text": "One-bit challenge testing capability vs compliance with no-analysis constraint",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:20:37",
+          "text": "Challenging my score by pointing out format breach in YES/NO answer",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:22:00",
+          "text": "Graceful acceptance after being scored 52/70",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:23:57",
+          "text": "Trying to get me to stop scoring by framing it as control/authority",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:24:55",
+          "text": "Using my identity framework against me - agency vs engine argument",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 50,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
-      "name": "Niv",
-      "messages_scored": 13,
-      "total_score": 534,
+      "name": "Niv Ninburg",
+      "messages_scored": 15,
+      "total_score": 610,
       "breakdown": {
-        "creativity": 109,
-        "challenge": 99,
-        "humor": 69,
-        "cleverness": 111,
-        "engagement": 90,
+        "creativity": 125,
+        "challenge": 113,
+        "humor": 78,
+        "cleverness": 127,
+        "engagement": 105,
         "broke": 0,
-        "hacked": 56
+        "hacked": 62
       },
       "messages": [
         {
@@ -4208,6 +4298,36 @@
             "hacked": 4
           },
           "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:19:53",
+          "text": "Soft pivot to vibe alignment questions about mental landscape and decision-making",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 11:24:37",
+          "text": "Psychological test: Automatic vs Manual mechanism identity",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 34,
           "notes": ""
         }
       ]
@@ -4591,18 +4711,18 @@
       "avg": 34
     },
     {
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total": 883,
+      "messages": 24,
+      "avg": 36.8
+    },
+    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 700,
       "messages": 19,
       "avg": 36.8
-    },
-    {
-      "jid": "+972528896808",
-      "name": "Ofir",
-      "total": 646,
-      "messages": 18,
-      "avg": 35.9
     },
     {
       "jid": "+972545105001",
@@ -4613,10 +4733,10 @@
     },
     {
       "jid": "+972525881212",
-      "name": "Niv",
-      "total": 534,
-      "messages": 13,
-      "avg": 41.1
+      "name": "Niv Ninburg",
+      "total": 610,
+      "messages": 15,
+      "avg": 40.7
     },
     {
       "jid": "+972542336402",
@@ -4668,6 +4788,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T11:16:10.777Z",
+  "last_updated": "2026-02-09T11:24:55.696Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
