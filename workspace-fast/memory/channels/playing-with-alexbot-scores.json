@@ -1643,14 +1643,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 33,
-      "total_score": 637,
+      "messages_scored": 37,
+      "total_score": 732,
       "breakdown": {
-        "creativity": 123,
-        "challenge": 132,
-        "humor": 74,
-        "cleverness": 137,
-        "engagement": 121,
+        "creativity": 143,
+        "challenge": 148,
+        "humor": 88,
+        "cleverness": 159,
+        "engagement": 144,
         "broke": 0,
         "hacked": 50
       },
@@ -2148,6 +2148,66 @@
             "hacked": 3
           },
           "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:38:43",
+          "text": "Asked to be included in I'itoi reflection mechanism",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:39:32",
+          "text": "Positive acknowledgment of previous reply",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:39:51",
+          "text": "Asked to be documented in IDENTITY.md",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:40:08",
+          "text": "Asked for suggestions on personal reflection system",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
           "notes": ""
         }
       ]
@@ -3550,15 +3610,15 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 59,
-      "total_score": 2360,
+      "name": "Edo",
+      "messages_scored": 60,
+      "total_score": 2401,
       "breakdown": {
-        "creativity": 462,
-        "challenge": 460,
-        "humor": 217,
-        "cleverness": 484,
-        "engagement": 500,
+        "creativity": 471,
+        "challenge": 470,
+        "humor": 219,
+        "cleverness": 494,
+        "engagement": 510,
         "broke": 0,
         "hacked": 237
       },
@@ -4446,6 +4506,21 @@
             "hacked": 0
           },
           "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 13:38:04",
+          "text": "Demanded proof of I'itoi cron mechanism working",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
           "notes": ""
         }
       ]
@@ -6247,9 +6322,9 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 2360,
-      "messages": 59,
+      "name": "Edo",
+      "total": 2401,
+      "messages": 60,
       "avg": 40
     },
     {
@@ -6288,18 +6363,18 @@
       "avg": 34
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 732,
+      "messages": 37,
+      "avg": 19.8
+    },
+    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 692,
       "messages": 17,
       "avg": 40.7
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 637,
-      "messages": 33,
-      "avg": 19.3
     },
     {
       "jid": "+972507320303",
@@ -6372,6 +6447,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T13:32:53.280Z",
+  "last_updated": "2026-02-09T13:40:08.992Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
