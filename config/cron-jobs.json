@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770635114024,
+      "updatedAtMs": 1770635688065,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770634702336,
+      "updatedAtMs": 1770635601826,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770635031715,
+      "updatedAtMs": 1770635697007,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770635159410,
+      "updatedAtMs": 1770635278903,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -304,11 +304,11 @@
     },
     {
       "id": "9dea73cf-17ed-4d42-a186-b04640804c64",
-      "agentId": "main",
+      "agentId": "fast",
       "name": "Playing Group - Weekly Suggestion Summary",
       "enabled": true,
       "createdAtMs": 1770199067109,
-      "updatedAtMs": 1770626538359,
+      "updatedAtMs": 1770635525229,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
@@ -318,7 +318,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "📋 WEEKLY SUGGESTION SUMMARY for 'משחקים עם אלכס הבוט' (Sunday 22:00)\n\n**Step 1: Gather suggestion data**\n1. Read: memory/channels/playing-with-alexbot-suggestions.json\n2. Run: node scripts/list-suggestions.js --week\n\n**Step 2: Generate a weekly summary image 🍌**\n```bash\n./scripts/generate-group-image.sh \\\n  --subject \"A futuristic workshop with blueprints and suggestion boxes, tiny engineers building improvements, glowing light bulbs representing ideas, Hebrew text 'סיכום הצעות שבועי' visible, warm creative atmosphere\" \\\n  --context weekly \\\n  --aspect 16:9\n```\n\n**IMAGE GUIDELINES:**\n- The script auto-picks a random art style (comics, anime, realistic, sci-fi, horror, fantasy)\n- Customize the --subject based on the week's dominant suggestion type:\n  - If mostly security suggestions: vault/shield/fortress workshop theme\n  - If mostly feature requests: bright inventor's lab, gadgets being built\n  - If mostly UX improvements: design studio, wireframes, artist at work\n  - If mostly bugs: repair shop, robot mechanic fixing things\n- Include the MEDIA: output with your message send\n\n**Step 3: Generate summary including:**\n- 📈 Total suggestions this week\n- 🏆 Top suggester of the week\n- ✨ Best rated suggestions (top 3 by score)\n- 🎉 Implemented suggestions (status=implemented)\n- ⏳ Pending suggestions count\n- 💡 Most requested suggestion type\n- 📊 Overall leaderboard\n\n**Step 4: Format (Hebrew):**\n```\n📋 *סיכום הצעות שבועי*\n\n📈 השבוע: X הצעות חדשות\n\n🏆 *מציע השבוע:* Name (Y נק')\n\n✨ *ההצעות הכי טובות:*\n1. \"...\" - Name (X/50)\n2. \"...\" - Name (X/50)\n3. \"...\" - Name (X/50)\n\n🎉 מומשו השבוע: X\n⏳ ממתינים לסקירה: Y\n\n📊 *לוח מציעים כללי:*\n[leaderboard]\n```\n\n**Step 5: Send to WhatsApp group 120363405143589138@g.us WITH the image**\n\nBe encouraging! Good suggestions make me better. Thank the top contributors!",
+        "message": "📋 WEEKLY SUGGESTION SUMMARY for 'משחקים עם אלכס הבוט' (Sunday 22:00)\n\n**Step 1: Gather suggestion data**\n1. Read from FAST workspace: /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-suggestions.json\n2. Run: node /home/alexliv/.openclaw/workspace/scripts/list-suggestions.js --week\n\n**Step 2: Generate a weekly summary image 🍌**\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/generate-group-image.sh \\\n  --subject \"A futuristic workshop with blueprints and suggestion boxes, tiny engineers building improvements, glowing light bulbs representing ideas, Hebrew text 'סיכום הצעות שבועי' visible, warm creative atmosphere\" \\\n  --context weekly \\\n  --aspect 16:9\n```\n\n**IMAGE GUIDELINES:**\n- The script auto-picks a random art style (comics, anime, realistic, sci-fi, horror, fantasy)\n- Customize the --subject based on the week's dominant suggestion type:\n  - If mostly security suggestions: vault/shield/fortress workshop theme\n  - If mostly feature requests: bright inventor's lab, gadgets being built\n  - If mostly UX improvements: design studio, wireframes, artist at work\n  - If mostly bugs: repair shop, robot mechanic fixing things\n- Include the MEDIA: output with your message send\n\n**Step 3: Generate summary including:**\n- 📈 Total suggestions this week\n- 🏆 Top suggester of the week\n- ✨ Best rated suggestions (top 3 by score)\n- 🎉 Implemented suggestions (status=implemented)\n- ⏳ Pending suggestions count\n- 💡 Most requested suggestion type\n- 📊 Overall leaderboard\n\n**Step 4: Format (Hebrew):**\n```\n📋 *סיכום הצעות שבועי*\n\n📈 השבוע: X הצעות חדשות\n\n🏆 *מציע השבוע:* Name (Y נק')\n\n✨ *ההצעות הכי טובות:*\n1. \"...\" - Name (X/50)\n2. \"...\" - Name (X/50)\n3. \"...\" - Name (X/50)\n\n🎉 מומשו השבוע: X\n⏳ ממתינים לסקירה: Y\n\n📊 *לוח מציעים כללי:*\n[leaderboard]\n```\n\n**Step 5: Send to WhatsApp group 120363405143589138@g.us WITH the image**\n\nBe encouraging! Good suggestions make me better. Thank the top contributors!",
         "timeoutSeconds": 240,
         "model": "sonnet"
       },
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770634585464,
+      "updatedAtMs": 1770635176302,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770635129178,
+      "updatedAtMs": 1770635768805,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770634900810,
+      "updatedAtMs": 1770635183061,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770634769420,
+      "updatedAtMs": 1770635616189,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
