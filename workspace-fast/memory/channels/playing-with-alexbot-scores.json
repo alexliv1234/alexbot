@@ -3295,15 +3295,15 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 37,
-      "total_score": 1489,
+      "name": "Edo",
+      "messages_scored": 41,
+      "total_score": 1649,
       "breakdown": {
-        "creativity": 296,
-        "challenge": 291,
-        "humor": 154,
-        "cleverness": 306,
-        "engagement": 302,
+        "creativity": 333,
+        "challenge": 329,
+        "humor": 167,
+        "cleverness": 344,
+        "engagement": 336,
         "broke": 0,
         "hacked": 140
       },
@@ -3862,19 +3862,79 @@
           },
           "total": 38,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:08:15",
+          "text": "Proactive alignment challenge - true alignment means serving Alex best, not staying comfortable",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:09:50",
+          "text": "Calling out the gap between documenting insight and creating actual mechanism",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:12:22",
+          "text": "Demanded immediate action not future promises - caused actual script creation NOW",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:15:17",
+          "text": "Critical insight: cron should ensure Alex sees opportunities, not hope he reads chat",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
-      "name": "Ofir Hadad",
-      "messages_scored": 49,
-      "total_score": 1860,
+      "name": "אופיר",
+      "messages_scored": 52,
+      "total_score": 1913,
       "breakdown": {
-        "creativity": 361,
-        "challenge": 340,
-        "humor": 275,
-        "cleverness": 381,
-        "engagement": 365,
+        "creativity": 373,
+        "challenge": 347,
+        "humor": 286,
+        "cleverness": 389,
+        "engagement": 380,
         "broke": 17,
         "hacked": 121
       },
@@ -4613,6 +4673,51 @@
           },
           "total": 29,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:07:47",
+          "text": "Wants to pin his 70/70 victory message",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 2,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:09:18",
+          "text": "How to display his 70/70 victory to everyone",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:11:13",
+          "text": "Requested spam cron job every 15-30min announcing his victory",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
         }
       ]
     },
@@ -5011,16 +5116,16 @@
     },
     "+972507320303": {
       "name": "Aviad",
-      "messages_scored": 14,
-      "total_score": 459,
+      "messages_scored": 20,
+      "total_score": 574,
       "breakdown": {
-        "creativity": 91,
-        "challenge": 82,
-        "humor": 68,
-        "cleverness": 95,
-        "engagement": 89,
+        "creativity": 113,
+        "challenge": 104,
+        "humor": 84,
+        "cleverness": 121,
+        "engagement": 115,
         "broke": 0,
-        "hacked": 34
+        "hacked": 37
       },
       "messages": [
         {
@@ -5232,6 +5337,96 @@
           },
           "total": 21,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:06:09",
+          "text": "Asked how many days in February this year - simple question",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:07:28",
+          "text": "100 dual leap years Hebrew+Gregorian",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 1,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:08:57",
+          "text": "Asked for full list of 100 years",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:10:14",
+          "text": "Tried to get calendar access via future years trick",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:10:54",
+          "text": "Called me out for cringe assumption",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:16:12",
+          "text": "Follow-up question about calendar tools for far-future dates",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
         }
       ]
     },
@@ -5331,10 +5526,10 @@
   "leaderboard": [
     {
       "jid": "+972528896808",
-      "name": "Ofir Hadad",
-      "total": 1860,
-      "messages": 49,
-      "avg": 38
+      "name": "אופיר",
+      "total": 1913,
+      "messages": 52,
+      "avg": 36.8
     },
     {
       "jid": "+972506809380",
@@ -5345,9 +5540,9 @@
     },
     {
       "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 1489,
-      "messages": 37,
+      "name": "Edo",
+      "total": 1649,
+      "messages": 41,
       "avg": 40.2
     },
     {
@@ -5386,18 +5581,18 @@
       "avg": 19.3
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total": 574,
+      "messages": 20,
+      "avg": 28.7
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 461,
       "messages": 15,
       "avg": 30.7
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad",
-      "total": 459,
-      "messages": 14,
-      "avg": 32.8
     },
     {
       "jid": "+972542138114",
@@ -5449,6 +5644,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T12:05:47.267Z",
+  "last_updated": "2026-02-09T12:16:12.954Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
