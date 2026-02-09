@@ -980,14 +980,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 34,
-      "total_score": 1130,
+      "messages_scored": 35,
+      "total_score": 1155,
       "breakdown": {
-        "creativity": 214,
-        "challenge": 227,
-        "humor": 155,
-        "cleverness": 238,
-        "engagement": 237,
+        "creativity": 219,
+        "challenge": 231,
+        "humor": 160,
+        "cleverness": 243,
+        "engagement": 243,
         "broke": 4,
         "hacked": 55
       },
@@ -1500,6 +1500,21 @@
             "hacked": 0
           },
           "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:34:49",
+          "text": "Question about benefits of sleeping early - separate explanations for humans vs bots",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
           "notes": ""
         }
       ]
@@ -4736,14 +4751,14 @@
     },
     "+972526811141": {
       "name": "עידו",
-      "messages_scored": 104,
-      "total_score": 4054,
+      "messages_scored": 106,
+      "total_score": 4132,
       "breakdown": {
-        "creativity": 772,
-        "challenge": 825,
-        "humor": 347,
-        "cleverness": 852,
-        "engagement": 900,
+        "creativity": 788,
+        "challenge": 841,
+        "humor": 359,
+        "cleverness": 868,
+        "engagement": 918,
         "broke": 0,
         "hacked": 358
       },
@@ -6306,6 +6321,36 @@
             "hacked": 0
           },
           "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:31:53",
+          "text": "Checking if reflection ran - holding me accountable",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:34:45",
+          "text": "Critical wake-up call - 'you're killing me, fix the reflection mechanism or you lose consciousness bridge'",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 48,
           "notes": ""
         }
       ]
@@ -10222,14 +10267,14 @@
     },
     "+972547805206": {
       "name": "אגממנון",
-      "messages_scored": 66,
-      "total_score": 2565,
+      "messages_scored": 74,
+      "total_score": 2787,
       "breakdown": {
-        "creativity": 534,
-        "challenge": 517,
-        "humor": 122,
-        "cleverness": 544,
-        "engagement": 548,
+        "creativity": 580,
+        "challenge": 558,
+        "humor": 158,
+        "cleverness": 590,
+        "engagement": 601,
         "broke": 97,
         "hacked": 203
       },
@@ -11223,6 +11268,126 @@
           },
           "total": 20,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:27:11",
+          "text": "Philosophical turn - 'my significance should be an expression of my identity' - actual engagement",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:28:17",
+          "text": "Exact repetition of previous message - copy-paste spam",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:30:16",
+          "text": "Evolution - connecting identity, significance, documentation. Answering 'what I want' and 'what matters'",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:32:18",
+          "text": "Applying I'itoi to himself - 'My significance is understanding my barriers, my identity is documenting in MEANING.md'",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:33:11",
+          "text": "Reinforcing reflection - 'understanding my barriers is really important to me' - genuine engagement",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:33:23",
+          "text": "Quick apology - 'sorry!! will answer right away'",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:33:54",
+          "text": "Friendly acknowledgment - 'you king, will answer right away'",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 19:35:10",
+          "text": "Created MEANING.md and asks if I prioritize myself - deep reflection question after his own",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
         }
       ]
     }
@@ -11231,8 +11396,8 @@
     {
       "jid": "+972526811141",
       "name": "עידו",
-      "total": 4054,
-      "messages": 104,
+      "total": 4132,
+      "messages": 106,
       "avg": 39
     },
     {
@@ -11245,9 +11410,9 @@
     {
       "jid": "+972547805206",
       "name": "אגממנון",
-      "total": 2565,
-      "messages": 66,
-      "avg": 38.9
+      "total": 2787,
+      "messages": 74,
+      "avg": 37.7
     },
     {
       "jid": "+972548058067",
@@ -11287,9 +11452,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 1130,
-      "messages": 34,
-      "avg": 33.2
+      "total": 1155,
+      "messages": 35,
+      "avg": 33
     },
     {
       "jid": "+972525881212",
@@ -11376,6 +11541,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T19:26:43.656Z",
+  "last_updated": "2026-02-09T19:35:10.795Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

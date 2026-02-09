@@ -1,5 +1,5 @@
 {
-  "last_style": "scifi",
+  "last_style": "realistic",
   "style_history": [
     {
       "style": "fantasy",
@@ -80,7 +80,12 @@
       "style": "scifi",
       "context": "wakeup",
       "timestamp": "2026-02-09T21:00:37+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "wakeup",
+      "timestamp": "2026-02-09T21:30:48+02:00"
     }
   ],
-  "total_generated": 16
+  "total_generated": 17
 }
