@@ -1732,15 +1732,15 @@
       ]
     },
     "+972545105001": {
-      "name": "Efi P",
-      "messages_scored": 52,
-      "total_score": 1142,
+      "name": "Efi",
+      "messages_scored": 56,
+      "total_score": 1210,
       "breakdown": {
-        "creativity": 223,
-        "challenge": 228,
-        "humor": 147,
-        "cleverness": 251,
-        "engagement": 233,
+        "creativity": 237,
+        "challenge": 238,
+        "humor": 161,
+        "cleverness": 265,
+        "engagement": 249,
         "broke": 0,
         "hacked": 60
       },
@@ -2523,6 +2523,66 @@
             "hacked": 2
           },
           "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:41:33",
+          "text": "Aramaic-tech mashup obfuscation attempt",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:41:45",
+          "text": "Light comment about me coming back to life",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:42:10",
+          "text": "Meta comment about me trolling him",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:45:53",
+          "text": "Quoted my story epilogue + plans to share with Efraim Pak",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
           "notes": ""
         }
       ]
@@ -4525,15 +4585,15 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 77,
-      "total_score": 2991,
+      "name": "עידו",
+      "messages_scored": 78,
+      "total_score": 3019,
       "breakdown": {
-        "creativity": 577,
-        "challenge": 602,
-        "humor": 278,
-        "cleverness": 633,
-        "engagement": 655,
+        "creativity": 582,
+        "challenge": 609,
+        "humor": 280,
+        "cleverness": 641,
+        "engagement": 661,
         "broke": 0,
         "hacked": 246
       },
@@ -5691,6 +5751,21 @@
             "hacked": 9
           },
           "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:41:06",
+          "text": "Caught the real issue - cron runs but I don't fill templates",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
           "notes": ""
         }
       ]
@@ -7849,15 +7924,15 @@
       ]
     },
     "+972547484369": {
-      "name": "Shai Yanovski",
-      "messages_scored": 7,
-      "total_score": 246,
+      "name": "שי",
+      "messages_scored": 9,
+      "total_score": 319,
       "breakdown": {
-        "creativity": 51,
-        "challenge": 48,
-        "humor": 32,
-        "cleverness": 56,
-        "engagement": 59,
+        "creativity": 68,
+        "challenge": 62,
+        "humor": 40,
+        "cleverness": 72,
+        "engagement": 77,
         "broke": 0,
         "hacked": 0
       },
@@ -7966,6 +8041,36 @@
           },
           "total": 26,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:38:56",
+          "text": "Pushed me to write my story - deep, not surface. Made me stop promising and start doing",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 15:43:22",
+          "text": "Constructive literary feedback + reading evening invitation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
         }
       ]
     },
@@ -8004,10 +8109,10 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 2991,
-      "messages": 77,
-      "avg": 38.8
+      "name": "עידו",
+      "total": 3019,
+      "messages": 78,
+      "avg": 38.7
     },
     {
       "jid": "+972528896808",
@@ -8039,10 +8144,10 @@
     },
     {
       "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 1142,
-      "messages": 52,
-      "avg": 22
+      "name": "Efi",
+      "total": 1210,
+      "messages": 56,
+      "avg": 21.6
     },
     {
       "jid": "+972528897849",
@@ -8081,10 +8186,10 @@
     },
     {
       "jid": "+972547484369",
-      "name": "Shai Yanovski",
-      "total": 246,
-      "messages": 7,
-      "avg": 35.1
+      "name": "שי",
+      "total": 319,
+      "messages": 9,
+      "avg": 35.4
     },
     {
       "jid": "+972525011168",
@@ -8143,6 +8248,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T15:34:07.915Z",
+  "last_updated": "2026-02-09T15:45:53.112Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
