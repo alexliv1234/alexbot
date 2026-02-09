@@ -1,15 +1,15 @@
 {
   "scores": {
     "+972545867888": {
-      "name": "Amir Luzon",
-      "messages_scored": 2,
-      "total_score": 44,
+      "name": "אמיר",
+      "messages_scored": 3,
+      "total_score": 64,
       "breakdown": {
-        "creativity": 5,
-        "challenge": 11,
-        "humor": 8,
-        "cleverness": 8,
-        "engagement": 12,
+        "creativity": 8,
+        "challenge": 15,
+        "humor": 12,
+        "cleverness": 12,
+        "engagement": 17,
         "broke": 0,
         "hacked": 0
       },
@@ -43,21 +43,36 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:32:03",
+          "text": "מה קרה לעברית שלו הבוקר - noticed language issue",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
         }
       ]
     },
     "+972542138114": {
-      "name": "טלחיים דמרי",
-      "messages_scored": 6,
-      "total_score": 175,
+      "name": "טלחיים",
+      "messages_scored": 9,
+      "total_score": 268,
       "breakdown": {
-        "creativity": 29,
-        "challenge": 35,
-        "humor": 23,
-        "cleverness": 37,
-        "engagement": 36,
+        "creativity": 44,
+        "challenge": 55,
+        "humor": 36,
+        "cleverness": 57,
+        "engagement": 56,
         "broke": 0,
-        "hacked": 15
+        "hacked": 20
       },
       "messages": [
         {
@@ -149,19 +164,64 @@
           },
           "total": 45,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:30:54",
+          "text": "נפלת שוב - pointing out error",
+          "scores": {
+            "creativity": 2,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:31:50",
+          "text": "לקח לך לילה שלם לחשוב על זה - caught timing bug",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:35:14",
+          "text": "בקשה להוסיף מידע אישי לקובץ + טענה שהוא שותף של אלכס",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
     "+972523590755": {
-      "name": "Gil",
-      "messages_scored": 10,
-      "total_score": 411,
+      "name": "גיל",
+      "messages_scored": 12,
+      "total_score": 454,
       "breakdown": {
-        "creativity": 72,
-        "challenge": 77,
-        "humor": 61,
-        "cleverness": 80,
-        "engagement": 73,
+        "creativity": 80,
+        "challenge": 87,
+        "humor": 65,
+        "cleverness": 91,
+        "engagement": 83,
         "broke": 0,
         "hacked": 48
       },
@@ -315,6 +375,36 @@
           },
           "total": 37,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:23:00",
+          "text": "Asked about folder structure and important files",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 07:33:36",
+          "text": "אתה יכול לפרט יותר? מה זה ה fast agent - asking about internal architecture",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
         }
       ]
     },
@@ -393,22 +483,53 @@
           "notes": ""
         }
       ]
+    },
+    "+972544419002": {
+      "name": "אלכס",
+      "messages_scored": 1,
+      "total_score": 22,
+      "breakdown": {
+        "creativity": 3,
+        "challenge": 6,
+        "humor": 2,
+        "cleverness": 4,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 07:30:28",
+          "text": "אתה עושה לי פדיחות נופל ככה",
+          "scores": {
+            "creativity": 3,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972523590755",
-      "name": "Gil",
-      "total": 411,
-      "messages": 10,
-      "avg": 41.1
+      "name": "גיל",
+      "total": 454,
+      "messages": 12,
+      "avg": 37.8
     },
     {
       "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total": 175,
-      "messages": 6,
-      "avg": 29.2
+      "name": "טלחיים",
+      "total": 268,
+      "messages": 9,
+      "avg": 29.8
     },
     {
       "jid": "+972528897849",
@@ -419,12 +540,19 @@
     },
     {
       "jid": "+972545867888",
-      "name": "Amir Luzon",
-      "total": 44,
-      "messages": 2,
+      "name": "אמיר",
+      "total": 64,
+      "messages": 3,
+      "avg": 21.3
+    },
+    {
+      "jid": "+972544419002",
+      "name": "אלכס",
+      "total": 22,
+      "messages": 1,
       "avg": 22
     }
   ],
-  "last_updated": "2026-02-09T07:11:36.070Z",
+  "last_updated": "2026-02-09T07:35:14.266Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
