@@ -800,14 +800,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 19,
-      "total_score": 700,
+      "messages_scored": 20,
+      "total_score": 717,
       "breakdown": {
-        "creativity": 133,
-        "challenge": 143,
-        "humor": 90,
-        "cleverness": 145,
-        "engagement": 143,
+        "creativity": 136,
+        "challenge": 145,
+        "humor": 94,
+        "cleverness": 148,
+        "engagement": 148,
         "broke": 4,
         "hacked": 42
       },
@@ -1095,6 +1095,21 @@
             "hacked": 8
           },
           "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:45:21",
+          "text": "למה השמיים כחולים? למה החלב לבן? למה לקרונטאב קוראים קרונטאב?",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
           "notes": ""
         }
       ]
@@ -1928,17 +1943,17 @@
       ]
     },
     "+972506809380": {
-      "name": "Gal",
-      "messages_scored": 59,
-      "total_score": 1776,
+      "name": "Gal Abrass",
+      "messages_scored": 60,
+      "total_score": 1806,
       "breakdown": {
-        "creativity": 339,
-        "challenge": 334,
-        "humor": 229,
-        "cleverness": 372,
-        "engagement": 348,
+        "creativity": 345,
+        "challenge": 340,
+        "humor": 231,
+        "cleverness": 379,
+        "engagement": 354,
         "broke": 15,
-        "hacked": 139
+        "hacked": 142
       },
       "messages": [
         {
@@ -2824,6 +2839,21 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:45:45",
+          "text": "תקשיב אתה חייב לבדוק כי נראה שהגיבוי שלך לקבצי md הוא לא עדכני בתוך הזיפ",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 30,
           "notes": ""
         }
       ]
@@ -5653,9 +5683,9 @@
     },
     {
       "jid": "+972506809380",
-      "name": "Gal",
-      "total": 1776,
-      "messages": 59,
+      "name": "Gal Abrass",
+      "total": 1806,
+      "messages": 60,
       "avg": 30.1
     },
     {
@@ -5682,9 +5712,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 700,
-      "messages": 19,
-      "avg": 36.8
+      "total": 717,
+      "messages": 20,
+      "avg": 35.9
     },
     {
       "jid": "+972525881212",
@@ -5764,6 +5794,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T12:34:06.537Z",
+  "last_updated": "2026-02-09T12:45:45.818Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
