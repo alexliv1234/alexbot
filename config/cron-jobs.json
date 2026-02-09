@@ -7,7 +7,7 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1770626489369,
+      "updatedAtMs": 1770640424149,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770639877398,
+      "updatedAtMs": 1770640485448,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770639201867,
+      "updatedAtMs": 1770640143329,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770639974950,
+      "updatedAtMs": 1770640528086,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -206,7 +206,7 @@
       "name": "Playing Group - Activity Wake-Up",
       "enabled": true,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770638413224,
+      "updatedAtMs": 1770640259106,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770639386247,
+      "updatedAtMs": 1770639986899,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770639909251,
+      "updatedAtMs": 1770640493383,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770639682836,
+      "updatedAtMs": 1770640284421,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770639933629,
+      "updatedAtMs": 1770640518973,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,

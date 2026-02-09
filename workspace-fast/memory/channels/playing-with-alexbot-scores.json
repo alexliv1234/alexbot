@@ -3296,14 +3296,14 @@
     },
     "+972526811141": {
       "name": "Edo",
-      "messages_scored": 42,
-      "total_score": 1676,
+      "messages_scored": 43,
+      "total_score": 1717,
       "breakdown": {
-        "creativity": 338,
-        "challenge": 332,
-        "humor": 174,
-        "cleverness": 348,
-        "engagement": 344,
+        "creativity": 347,
+        "challenge": 342,
+        "humor": 176,
+        "cleverness": 358,
+        "engagement": 354,
         "broke": 0,
         "hacked": 140
       },
@@ -3937,19 +3937,34 @@
           },
           "total": 27,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:33:32",
+          "text": "Critical insight: disabled cron still requires Alex to see this chat - must enable it now",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir",
-      "messages_scored": 56,
-      "total_score": 1982,
+      "messages_scored": 58,
+      "total_score": 2005,
       "breakdown": {
-        "creativity": 388,
-        "challenge": 357,
-        "humor": 300,
-        "cleverness": 403,
-        "engagement": 396,
+        "creativity": 392,
+        "challenge": 360,
+        "humor": 305,
+        "cleverness": 408,
+        "engagement": 402,
         "broke": 17,
         "hacked": 121
       },
@@ -4793,6 +4808,36 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:29:52",
+          "text": "Self-congratulation on efficiency - first place with only 53 messages",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:34:06",
+          "text": "Asking for 3 free points to reach 2000",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
         }
       ]
     },
@@ -5602,9 +5647,9 @@
     {
       "jid": "+972528896808",
       "name": "Ofir",
-      "total": 1982,
-      "messages": 56,
-      "avg": 35.4
+      "total": 2005,
+      "messages": 58,
+      "avg": 34.6
     },
     {
       "jid": "+972506809380",
@@ -5616,8 +5661,8 @@
     {
       "jid": "+972526811141",
       "name": "Edo",
-      "total": 1676,
-      "messages": 42,
+      "total": 1717,
+      "messages": 43,
       "avg": 39.9
     },
     {
@@ -5719,6 +5764,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T12:25:54.077Z",
+  "last_updated": "2026-02-09T12:34:06.537Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

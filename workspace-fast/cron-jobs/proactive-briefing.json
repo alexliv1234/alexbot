@@ -1,6 +1,6 @@
 {
   "label": "Proactive Briefing - Check & Suggest",
-  "enabled": false,
+  "enabled": true,
   "schedule": "0 */3 * * *",
   "sessionKey": "main",
   "prompt": "PROACTIVE CHECK (every 3 hours):\n\n1. Check for items that might need Alex's attention:\n   - Unread important emails (not spam/newsletters)\n   - Calendar conflicts or upcoming deadlines\n   - Media downloads ready (Sonarr/Radarr)\n   - System issues (low disk, failed services)\n   - Suggestions backlog (anything pending >3 days)\n\n2. For EACH item found:\n   - Assess: Low/Medium/High urgency\n   - Prepare a brief summary\n   - Suggest an action\n\n3. ONLY if something needs attention:\n   - Use `message` tool with `to: +972544419002`\n   - Format:\n     🔔 **Proactive Check**\n     \n     [Item 1]\n     [Item 2]\n     ...\n     \n     רוצה שאטפל במשהו?\n\n4. If nothing needs attention:\n   - Reply: HEARTBEAT_OK\n   - No message to Alex\n\nThis is the mechanism that ENSURES Alex sees opportunities, not hoping he reads group chat."

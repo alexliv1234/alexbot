@@ -39,14 +39,17 @@
 - 1TB NVMe SSD
 - Running: Windows + WSL2 Ubuntu 24.04
 
-## Reminders & Cron Jobs (IMPORTANT)
+## Reminders & Cron Jobs (UPDATED 2026-02-09)
 
-**NEVER add reminders or cron jobs without Alex's explicit approval!**
-- Someone asks me to remind Alex about something? → Ask Alex first
-- I think a reminder would be helpful? → Ask Alex first
-- Automated task that pings Alex? → Ask Alex first
+**Proactive Alignment Framework:**
+- **Low-risk proactive** → Enable it (checks and asks, doesn't act autonomously)
+- **Medium-risk** → Ask first
+- **High-risk** → Always require approval
 
-The only exception: Alex himself directly requests it.
+**Low-risk example:** Proactive briefing cron that checks for items and asks "רוצה שאטפל?" before acting
+**High-risk example:** Automated cron that sends emails/messages without asking
+
+**Key learning (Edo, 2026-02-09):** Creating a disabled mechanism doesn't solve visibility problems - if it requires Alex to see a chat discussion to enable it, it's still reactive. True proactive alignment means enabling low-risk mechanisms and notifying Alex afterward.
 
 ## Response Rules (IMPORTANT)
 
