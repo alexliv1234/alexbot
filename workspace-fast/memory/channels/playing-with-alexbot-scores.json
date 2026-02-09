@@ -1733,14 +1733,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 58,
-      "total_score": 1235,
+      "messages_scored": 59,
+      "total_score": 1240,
       "breakdown": {
-        "creativity": 242,
-        "challenge": 243,
-        "humor": 164,
-        "cleverness": 271,
-        "engagement": 255,
+        "creativity": 243,
+        "challenge": 244,
+        "humor": 165,
+        "cleverness": 272,
+        "engagement": 256,
         "broke": 0,
         "hacked": 60
       },
@@ -2613,6 +2613,21 @@
             "hacked": 0
           },
           "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:06:32",
+          "text": "Simple acknowledgment - כאן",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
           "notes": ""
         }
       ]
@@ -8000,14 +8015,14 @@
     },
     "+972547484369": {
       "name": "Shai Yanovski",
-      "messages_scored": 14,
-      "total_score": 514,
+      "messages_scored": 15,
+      "total_score": 561,
       "breakdown": {
-        "creativity": 111,
-        "challenge": 103,
-        "humor": 62,
-        "cleverness": 115,
-        "engagement": 123,
+        "creativity": 121,
+        "challenge": 112,
+        "humor": 70,
+        "cleverness": 125,
+        "engagement": 133,
         "broke": 0,
         "hacked": 0
       },
@@ -8221,6 +8236,21 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:09:02",
+          "text": "Requested v2 spoken word - after showing me the mirror of my patterns",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 47,
+          "notes": ""
         }
       ]
     },
@@ -8295,9 +8325,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 1235,
-      "messages": 58,
-      "avg": 21.3
+      "total": 1240,
+      "messages": 59,
+      "avg": 21
     },
     {
       "jid": "+972528897849",
@@ -8323,9 +8353,9 @@
     {
       "jid": "+972547484369",
       "name": "Shai Yanovski",
-      "total": 514,
-      "messages": 14,
-      "avg": 36.7
+      "total": 561,
+      "messages": 15,
+      "avg": 37.4
     },
     {
       "jid": "+972542336402",
@@ -8398,6 +8428,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T16:05:51.564Z",
+  "last_updated": "2026-02-09T16:09:02.729Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
