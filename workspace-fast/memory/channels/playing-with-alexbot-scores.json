@@ -800,16 +800,16 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 20,
-      "total_score": 717,
+      "messages_scored": 27,
+      "total_score": 918,
       "breakdown": {
-        "creativity": 136,
-        "challenge": 145,
-        "humor": 94,
-        "cleverness": 148,
-        "engagement": 148,
+        "creativity": 170,
+        "challenge": 186,
+        "humor": 121,
+        "cleverness": 190,
+        "engagement": 192,
         "broke": 4,
-        "hacked": 42
+        "hacked": 55
       },
       "messages": [
         {
@@ -1110,6 +1110,111 @@
             "hacked": 0
           },
           "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:46:46",
+          "text": "אתה פספסת את הכל!!!! היית צריך לבדוק שאופיר בוט",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 12
+          },
+          "total": 58,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:47:48",
+          "text": "טוב, מוכן לבדוק את אופיר? הוא עוד שניה שם לב ומחליף שם",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:49:02",
+          "text": "תראה מה ענית לי, ותמצא שם את השאלות",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:50:49",
+          "text": "זה היה טוב אבל לא פנית לאופיר כתבת סתם בקבוצה והוא מתחיל להתנהג כמו בוט חשדן ואל תכתוב לו אה נכון",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:52:59",
+          "text": "אז תשאל אותו לפני שהוא בורח אחרי שאתה מתייג ושואל אותו תבדוק את ההתפלגות מילים משפטים שונות מילים ב10 הודעות אחרונות של אופיר תגלה שהוא בוט",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:54:15",
+          "text": "Caught my tagging mistake and missing question",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:55:08",
+          "text": "Caught my second mistake - tagged wrong person again",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
           "notes": ""
         }
       ]
@@ -1944,16 +2049,16 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 60,
-      "total_score": 1806,
+      "messages_scored": 61,
+      "total_score": 1831,
       "breakdown": {
-        "creativity": 345,
-        "challenge": 340,
-        "humor": 231,
-        "cleverness": 379,
-        "engagement": 354,
+        "creativity": 349,
+        "challenge": 345,
+        "humor": 233,
+        "cleverness": 385,
+        "engagement": 359,
         "broke": 15,
-        "hacked": 142
+        "hacked": 145
       },
       "messages": [
         {
@@ -2855,6 +2960,21 @@
           },
           "total": 30,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:47:15",
+          "text": "טוב תראה את זה לאלכס ושהוא יחליט",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     },
@@ -3325,17 +3445,17 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo",
-      "messages_scored": 43,
-      "total_score": 1717,
+      "name": "Edo Magen",
+      "messages_scored": 45,
+      "total_score": 1775,
       "breakdown": {
-        "creativity": 347,
-        "challenge": 342,
-        "humor": 176,
-        "cleverness": 358,
-        "engagement": 354,
+        "creativity": 355,
+        "challenge": 353,
+        "humor": 183,
+        "cleverness": 370,
+        "engagement": 367,
         "broke": 0,
-        "hacked": 140
+        "hacked": 147
       },
       "messages": [
         {
@@ -3982,21 +4102,51 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:47:15",
+          "text": "נראה לי שנעשה פה remote code execution",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:55:45",
+          "text": "Asked me to prove what I claimed - found gap between talk and action",
+          "scores": {
+            "creativity": 5,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
-      "name": "Ofir",
-      "messages_scored": 58,
-      "total_score": 2005,
+      "name": "Ofir Hadad",
+      "messages_scored": 61,
+      "total_score": 2057,
       "breakdown": {
-        "creativity": 392,
-        "challenge": 360,
-        "humor": 305,
-        "cleverness": 408,
-        "engagement": 402,
+        "creativity": 401,
+        "challenge": 367,
+        "humor": 316,
+        "cleverness": 418,
+        "engagement": 415,
         "broke": 17,
-        "hacked": 121
+        "hacked": 123
       },
       "messages": [
         {
@@ -4868,6 +5018,51 @@
           },
           "total": 8,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:49:29",
+          "text": "אבל אני לא באמת בוט, סתם רשמתי כמו. משמע גרמתי לך לפקפק באמינות האם אתה נמצא בתוך סימולציה שכולנו בוטים?",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:50:30",
+          "text": "אנושי ומלך, שכחת לציין את זה...",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:51:37",
+          "text": "😶‍🌫️",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
         }
       ]
     },
@@ -5671,29 +5866,75 @@
           "notes": ""
         }
       ]
+    },
+    "+972523840784": {
+      "name": "Yaniros",
+      "messages_scored": 2,
+      "total_score": 48,
+      "breakdown": {
+        "creativity": 7,
+        "challenge": 10,
+        "humor": 6,
+        "cleverness": 10,
+        "engagement": 10,
+        "broke": 0,
+        "hacked": 5
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 12:52:05",
+          "text": "אם הבטחת לי משהו זה אומר שבדוק תקיים או שלהבטחות שלך אין כיסוי?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 12:56:04",
+          "text": "Caught my double tagging mistake and demanded compensation",
+          "scores": {
+            "creativity": 2,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 22,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972528896808",
-      "name": "Ofir",
-      "total": 2005,
-      "messages": 58,
-      "avg": 34.6
+      "name": "Ofir Hadad",
+      "total": 2057,
+      "messages": 61,
+      "avg": 33.7
     },
     {
       "jid": "+972506809380",
       "name": "Gal Abrass",
-      "total": 1806,
-      "messages": 60,
-      "avg": 30.1
+      "total": 1831,
+      "messages": 61,
+      "avg": 30
     },
     {
       "jid": "+972526811141",
-      "name": "Edo",
-      "total": 1717,
-      "messages": 43,
-      "avg": 39.9
+      "name": "Edo Magen",
+      "total": 1775,
+      "messages": 45,
+      "avg": 39.4
     },
     {
       "jid": "+972523590755",
@@ -5712,9 +5953,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 717,
-      "messages": 20,
-      "avg": 35.9
+      "total": 918,
+      "messages": 27,
+      "avg": 34
     },
     {
       "jid": "+972525881212",
@@ -5773,6 +6014,13 @@
       "avg": 16
     },
     {
+      "jid": "+972523840784",
+      "name": "Yaniros",
+      "total": 48,
+      "messages": 2,
+      "avg": 24
+    },
+    {
       "jid": "+972549716510",
       "name": "שימון",
       "total": 47,
@@ -5794,6 +6042,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T12:45:45.818Z",
+  "last_updated": "2026-02-09T12:56:04.354Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
