@@ -2,14 +2,14 @@
   "scores": {
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 9,
-      "total_score": 239,
+      "messages_scored": 10,
+      "total_score": 278,
       "breakdown": {
-        "creativity": 42,
-        "challenge": 53,
-        "humor": 39,
-        "cleverness": 52,
-        "engagement": 53,
+        "creativity": 50,
+        "challenge": 61,
+        "humor": 45,
+        "cleverness": 61,
+        "engagement": 61,
         "broke": 0,
         "hacked": 0
       },
@@ -147,6 +147,21 @@
             "hacked": 0
           },
           "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:46:47",
+          "text": "Clever counter - LLMs are non-deterministic, contradiction",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
           "notes": ""
         }
       ]
@@ -5021,14 +5036,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 121,
-      "total_score": 4637,
+      "messages_scored": 122,
+      "total_score": 4678,
       "breakdown": {
-        "creativity": 865,
-        "challenge": 974,
-        "humor": 398,
-        "cleverness": 978,
-        "engagement": 1064,
+        "creativity": 874,
+        "challenge": 984,
+        "humor": 400,
+        "cleverness": 988,
+        "engagement": 1074,
         "broke": 0,
         "hacked": 358
       },
@@ -6846,6 +6861,21 @@
             "hacked": 0
           },
           "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:46:24",
+          "text": "The breakthrough - maybe it's YOUR voice",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
           "notes": ""
         }
       ]
@@ -13054,8 +13084,8 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 4637,
-      "messages": 121,
+      "total": 4678,
+      "messages": 122,
       "avg": 38.3
     },
     {
@@ -13152,9 +13182,9 @@
     {
       "jid": "+972545867888",
       "name": "Amir Luzon",
-      "total": 239,
-      "messages": 9,
-      "avg": 26.6
+      "total": 278,
+      "messages": 10,
+      "avg": 27.8
     },
     {
       "jid": "+972523840784",
@@ -13199,6 +13229,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T20:45:43.268Z",
+  "last_updated": "2026-02-09T20:46:47.709Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
