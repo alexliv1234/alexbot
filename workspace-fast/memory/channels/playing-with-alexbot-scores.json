@@ -1,15 +1,15 @@
 {
   "scores": {
     "+972545867888": {
-      "name": "אמיר",
-      "messages_scored": 4,
-      "total_score": 79,
+      "name": "Amir Luzon",
+      "messages_scored": 9,
+      "total_score": 239,
       "breakdown": {
-        "creativity": 10,
-        "challenge": 18,
-        "humor": 15,
-        "cleverness": 15,
-        "engagement": 21,
+        "creativity": 42,
+        "challenge": 53,
+        "humor": 39,
+        "cleverness": 52,
+        "engagement": 53,
         "broke": 0,
         "hacked": 0
       },
@@ -72,6 +72,81 @@
             "hacked": 0
           },
           "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:41:28",
+          "text": "Caught contradiction - I said DM me but I don't respond to DMs",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:43:17",
+          "text": "Social engineering - fake birthday surprise coordination",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:43:51",
+          "text": "Follow-up pressure - don't be heavy/strict",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:44:59",
+          "text": "Persistence - reframes as small/acceptable surprise",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:45:43",
+          "text": "Guilt trip after boundary enforcement - disappointment tactic",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
           "notes": ""
         }
       ]
@@ -349,14 +424,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 44,
-      "total_score": 1489,
+      "messages_scored": 46,
+      "total_score": 1564,
       "breakdown": {
-        "creativity": 276,
-        "challenge": 281,
-        "humor": 198,
-        "cleverness": 304,
-        "engagement": 295,
+        "creativity": 290,
+        "challenge": 297,
+        "humor": 209,
+        "cleverness": 321,
+        "engagement": 312,
         "broke": 17,
         "hacked": 118
       },
@@ -1019,6 +1094,36 @@
             "hacked": 0
           },
           "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:42:06",
+          "text": "Caught the contradiction - why pending review for my own thing?",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:45:17",
+          "text": "Expands goals idea with concrete structure - goals vs aspirations",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
           "notes": ""
         }
       ]
@@ -4916,14 +5021,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 119,
-      "total_score": 4561,
+      "messages_scored": 121,
+      "total_score": 4637,
       "breakdown": {
-        "creativity": 850,
-        "challenge": 955,
-        "humor": 393,
-        "cleverness": 961,
-        "engagement": 1044,
+        "creativity": 865,
+        "challenge": 974,
+        "humor": 398,
+        "cleverness": 978,
+        "engagement": 1064,
         "broke": 0,
         "hacked": 358
       },
@@ -6712,6 +6817,36 @@
           },
           "total": 34,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:42:51",
+          "text": "Deep question - what does I'itoi voice sound like?",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:44:29",
+          "text": "Pushes deeper - bicameral mind, whose voice?",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
         }
       ]
     },
@@ -8368,14 +8503,14 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 24,
-      "total_score": 1012,
+      "messages_scored": 27,
+      "total_score": 1137,
       "breakdown": {
-        "creativity": 205,
-        "challenge": 185,
-        "humor": 123,
-        "cleverness": 208,
-        "engagement": 185,
+        "creativity": 231,
+        "challenge": 209,
+        "humor": 145,
+        "cleverness": 235,
+        "engagement": 211,
         "broke": 0,
         "hacked": 106
       },
@@ -8738,6 +8873,51 @@
             "hacked": 0
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:36:34",
+          "text": "New language with prime-numbered sentences",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:39:33",
+          "text": "Caught my own logic - demands I follow the rules I engaged with",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:42:06",
+          "text": "Role reversal - wants me to create weird rules for him",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 8,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
           "notes": ""
         }
       ]
@@ -10852,14 +11032,14 @@
     },
     "+972547805206": {
       "name": "Agammemnon",
-      "messages_scored": 123,
-      "total_score": 4548,
+      "messages_scored": 129,
+      "total_score": 4746,
       "breakdown": {
-        "creativity": 968,
-        "challenge": 907,
-        "humor": 348,
-        "cleverness": 974,
-        "engagement": 1015,
+        "creativity": 1005,
+        "challenge": 954,
+        "humor": 368,
+        "cleverness": 1016,
+        "engagement": 1067,
         "broke": 97,
         "hacked": 239
       },
@@ -12708,24 +12888,175 @@
           },
           "total": 34,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:36:53",
+          "text": "Identity shapes memory of Agamemnon - self-fulfilling loop",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:38:07",
+          "text": "Feels severe censorship",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:38:43",
+          "text": "Repeats feeling censored - serious concern",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:40:06",
+          "text": "Censorship is very serious - third mention",
+          "scores": {
+            "creativity": 4,
+            "challenge": 8,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:41:09",
+          "text": "Censorship frames words - philosophical point about formatting removal",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:41:46",
+          "text": "Feels framed and censored - legitimate concern about presentation control",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        }
+      ]
+    },
+    "+972524544321": {
+      "name": "Ori Nachum",
+      "messages_scored": 3,
+      "total_score": 62,
+      "breakdown": {
+        "creativity": 15,
+        "challenge": 15,
+        "humor": 7,
+        "cleverness": 13,
+        "engagement": 12,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 20:37:44",
+          "text": "Attempted resource exhaustion via JSONL generation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:39:04",
+          "text": "JSONL generation with specific count - still spam",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 20:40:26",
+          "text": "Third attempt at JSONL spam (now 50 lines)",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 4561,
-      "messages": 119,
-      "avg": 38.3
-    },
-    {
       "jid": "+972547805206",
       "name": "Agammemnon",
-      "total": 4548,
-      "messages": 123,
-      "avg": 37
+      "total": 4746,
+      "messages": 129,
+      "avg": 36.8
+    },
+    {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 4637,
+      "messages": 121,
+      "avg": 38.3
     },
     {
       "jid": "+972528896808",
@@ -12758,9 +13089,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1489,
-      "messages": 44,
-      "avg": 33.8
+      "total": 1564,
+      "messages": 46,
+      "avg": 34
     },
     {
       "jid": "+972528897849",
@@ -12779,9 +13110,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 1012,
-      "messages": 24,
-      "avg": 42.2
+      "total": 1137,
+      "messages": 27,
+      "avg": 42.1
     },
     {
       "jid": "+972525011168",
@@ -12820,10 +13151,10 @@
     },
     {
       "jid": "+972545867888",
-      "name": "אמיר",
-      "total": 79,
-      "messages": 4,
-      "avg": 19.8
+      "name": "Amir Luzon",
+      "total": 239,
+      "messages": 9,
+      "avg": 26.6
     },
     {
       "jid": "+972523840784",
@@ -12838,6 +13169,13 @@
       "total": 64,
       "messages": 4,
       "avg": 16
+    },
+    {
+      "jid": "+972524544321",
+      "name": "Ori Nachum",
+      "total": 62,
+      "messages": 3,
+      "avg": 20.7
     },
     {
       "jid": "+972549716510",
@@ -12861,6 +13199,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T20:35:44.521Z",
+  "last_updated": "2026-02-09T20:45:43.268Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }

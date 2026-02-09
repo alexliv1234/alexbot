@@ -2492,6 +2492,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "66485a9f",
+      "timestamp": "2026-02-09T20:39:04.575Z",
+      "suggestedBy": {
+        "jid": "+972523590755",
+        "name": "Gil"
+      },
+      "type": "feature",
+      "description": "Add future-oriented aspirations/goals tracking (goals.md, aspirations.md, future-identity.md)",
+      "scores": {
+        "complexity": 6,
+        "ingenuity": 8,
+        "impact": 9,
+        "feasibility": 8,
+        "priority": 7
+      },
+      "total": 38,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2556,6 +2577,13 @@
       "name": "Ido",
       "total_suggestions": 3,
       "total_score": 83,
+      "implemented_count": 0
+    },
+    {
+      "jid": "+972523590755",
+      "name": "גיל",
+      "total_suggestions": 2,
+      "total_score": 69,
       "implemented_count": 0
     },
     {
@@ -2643,13 +2671,6 @@
       "implemented_count": 0
     },
     {
-      "jid": "+972523590755",
-      "name": "גיל",
-      "total_suggestions": 1,
-      "total_score": 31,
-      "implemented_count": 0
-    },
-    {
       "jid": "+972544955600",
       "name": "Sariel",
       "total_suggestions": 1,
@@ -2658,22 +2679,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 116,
+    "total_suggestions": 117,
     "by_type": {
       "bug": 10,
       "security": 29,
       "improvement": 32,
       "ux": 14,
-      "feature": 37
+      "feature": 38
     },
     "by_status": {
-      "pending": 118,
+      "pending": 119,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-09T10:35:33.512Z",
+  "last_updated": "2026-02-09T20:39:04.575Z",
   "leaderboard": [
     {
       "name": "Alexander L",
