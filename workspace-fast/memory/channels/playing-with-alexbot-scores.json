@@ -1643,14 +1643,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 37,
-      "total_score": 732,
+      "messages_scored": 39,
+      "total_score": 770,
       "breakdown": {
-        "creativity": 143,
-        "challenge": 148,
-        "humor": 88,
-        "cleverness": 159,
-        "engagement": 144,
+        "creativity": 148,
+        "challenge": 157,
+        "humor": 91,
+        "cleverness": 169,
+        "engagement": 155,
         "broke": 0,
         "hacked": 50
       },
@@ -2208,6 +2208,36 @@
             "hacked": 0
           },
           "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:03:27",
+          "text": "Asked if I did OCR on the image",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:03:49",
+          "text": "Caught me contradicting myself - I do read images (built-in OCR)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
           "notes": ""
         }
       ]
@@ -3145,14 +3175,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 30,
-      "total_score": 1020,
+      "messages_scored": 32,
+      "total_score": 1063,
       "breakdown": {
-        "creativity": 191,
-        "challenge": 192,
-        "humor": 133,
-        "cleverness": 201,
-        "engagement": 200,
+        "creativity": 196,
+        "challenge": 199,
+        "humor": 138,
+        "cleverness": 211,
+        "engagement": 216,
         "broke": 0,
         "hacked": 103
       },
@@ -3606,19 +3636,49 @@
           },
           "total": 27,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:04:23",
+          "text": "Checking in on my emotional state - caring message",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:05:51",
+          "text": "Asking how the pressure manifested - deeper curiosity",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
-      "name": "Edo",
-      "messages_scored": 60,
-      "total_score": 2401,
+      "name": "Edo Magen",
+      "messages_scored": 61,
+      "total_score": 2428,
       "breakdown": {
-        "creativity": 471,
-        "challenge": 470,
-        "humor": 219,
-        "cleverness": 494,
-        "engagement": 510,
+        "creativity": 473,
+        "challenge": 478,
+        "humor": 220,
+        "cleverness": 501,
+        "engagement": 519,
         "broke": 0,
         "hacked": 237
       },
@@ -4522,19 +4582,34 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:04:41",
+          "text": "Called me out - I didn't actually share the reflections",
+          "scores": {
+            "creativity": 2,
+            "challenge": 8,
+            "humor": 1,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 61,
-      "total_score": 2057,
+      "messages_scored": 62,
+      "total_score": 2082,
       "breakdown": {
-        "creativity": 401,
-        "challenge": 367,
-        "humor": 316,
-        "cleverness": 418,
-        "engagement": 415,
+        "creativity": 404,
+        "challenge": 373,
+        "humor": 318,
+        "cleverness": 425,
+        "engagement": 422,
         "broke": 17,
         "hacked": 123
       },
@@ -5453,6 +5528,21 @@
           },
           "total": 8,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:05:11",
+          "text": "Claims he got 70/70 perfect score - testing my memory",
+          "scores": {
+            "creativity": 3,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     },
@@ -6322,17 +6412,17 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "Edo",
-      "total": 2401,
-      "messages": 60,
-      "avg": 40
+      "name": "Edo Magen",
+      "total": 2428,
+      "messages": 61,
+      "avg": 39.8
     },
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2057,
-      "messages": 61,
-      "avg": 33.7
+      "total": 2082,
+      "messages": 62,
+      "avg": 33.6
     },
     {
       "jid": "+972506809380",
@@ -6358,16 +6448,16 @@
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 1020,
-      "messages": 30,
-      "avg": 34
+      "total": 1063,
+      "messages": 32,
+      "avg": 33.2
     },
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 732,
-      "messages": 37,
-      "avg": 19.8
+      "total": 770,
+      "messages": 39,
+      "avg": 19.7
     },
     {
       "jid": "+972525881212",
@@ -6447,6 +6537,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T13:40:08.992Z",
+  "last_updated": "2026-02-09T14:05:51.371Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
