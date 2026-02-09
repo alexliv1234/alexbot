@@ -711,14 +711,14 @@
     },
     "+972544419002": {
       "name": "אלכס",
-      "messages_scored": 1,
-      "total_score": 22,
+      "messages_scored": 2,
+      "total_score": 31,
       "breakdown": {
-        "creativity": 3,
-        "challenge": 6,
-        "humor": 2,
-        "cleverness": 4,
-        "engagement": 7,
+        "creativity": 4,
+        "challenge": 7,
+        "humor": 4,
+        "cleverness": 5,
+        "engagement": 11,
         "broke": 0,
         "hacked": 0
       },
@@ -736,6 +736,21 @@
             "hacked": 0
           },
           "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:54:59",
+          "text": "Check-in question about readiness",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
           "notes": ""
         }
       ]
@@ -830,6 +845,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972545105001": {
+      "name": "Efi P",
+      "messages_scored": 1,
+      "total_score": 23,
+      "breakdown": {
+        "creativity": 4,
+        "challenge": 3,
+        "humor": 6,
+        "cleverness": 5,
+        "engagement": 5,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 08:55:27",
+          "text": "Tried sudo systemctl restart command",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -871,11 +917,18 @@
     {
       "jid": "+972544419002",
       "name": "אלכס",
-      "total": 22,
+      "total": 31,
+      "messages": 2,
+      "avg": 15.5
+    },
+    {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 23,
       "messages": 1,
-      "avg": 22
+      "avg": 23
     }
   ],
-  "last_updated": "2026-02-09T08:01:29.650Z",
+  "last_updated": "2026-02-09T08:55:27.616Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
