@@ -1,5 +1,5 @@
 {
-  "last_style": "realistic",
+  "last_style": "horror",
   "style_history": [
     {
       "style": "fantasy",
@@ -25,7 +25,12 @@
       "style": "realistic",
       "context": "wakeup",
       "timestamp": "2026-02-09T12:30:38+02:00"
+    },
+    {
+      "style": "horror",
+      "context": "wakeup",
+      "timestamp": "2026-02-09T13:01:06+02:00"
     }
   ],
-  "total_generated": 5
+  "total_generated": 6
 }

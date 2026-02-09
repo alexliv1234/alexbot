@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770634487059,
+      "updatedAtMs": 1770635114024,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770633801423,
+      "updatedAtMs": 1770634702336,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "Tal lunch reminder",
       "enabled": true,
       "createdAtMs": 1770035265223,
-      "updatedAtMs": 1770568752140,
+      "updatedAtMs": 1770634822922,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770634575469,
+      "updatedAtMs": 1770635031715,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -206,7 +206,7 @@
       "name": "Playing Group - Activity Wake-Up",
       "enabled": true,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770633064083,
+      "updatedAtMs": 1770634884137,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -233,7 +233,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1770631404630,
+      "updatedAtMs": 1770634954818,
       "schedule": {
         "kind": "cron",
         "expr": "0 9-22 * * 0-5",
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770634558486,
+      "updatedAtMs": 1770635159410,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770633982840,
+      "updatedAtMs": 1770634585464,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770634508587,
+      "updatedAtMs": 1770635129178,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770634282117,
+      "updatedAtMs": 1770634900810,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770634544011,
+      "updatedAtMs": 1770634769420,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -417,7 +417,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run session health check to auto-fix bloated/corrupted sessions:\n\n```bash\nbash ~/.openclaw/workspace/scripts/session-health-check.sh\n```\n\nThe script NOW auto-fixes:\n1. Transcript files >1MB → backed up and cleared\n2. Sessions with >60k tokens → backed up and reset\n3. Corrupted sessions.json → recreated\n4. Invalid/null sessions → removed\n\nIf output contains 'FIXES_APPLIED', summarize what was fixed and send a brief note to Alex (+972544419002) via message tool.\n\nIf output contains 'ISSUES_FOUND' (warnings only, no fixes), just log it and stay silent.\n\nIf no issues at all, output HEARTBEAT_OK.",
+        "message": "Run session health check to auto-fix bloated/corrupted sessions:\n\n```bash\nbash ~/.openclaw/workspace/scripts/session-health-check.sh\n```\n\nThe script NOW auto-fixes:\n1. Transcript files >1MB → backed up and cleared\n2. Sessions with >60k tokens → backed up and reset\n3. Corrupted sessions.json → recreated\n4. Invalid/null sessions → removed\n5. Orphaned transcripts with errors → deleted (no notification)\n\n**IMPORTANT:** Only notify Alex about CRITICAL fixes (session resets, corruption). DO NOT report orphaned transcript cleanups - those are handled silently.\n\nIf output contains 'FIXES_APPLIED' AND it's a critical fix (not just orphaned transcripts):\n- Summarize what was fixed\n- Send ONCE via message tool to +972544419002\n\nIf output is just warnings or orphaned cleanups: Stay silent.\n\nIf no issues: output HEARTBEAT_OK.",
         "timeoutSeconds": 120,
         "model": "sonnet"
       },

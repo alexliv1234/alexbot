@@ -150,7 +150,11 @@ for agent_dir in "$AGENTS_DIR"/*/; do
                 FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name/$session_key: auto-reset ($consecutive_errors consecutive API errors)"
                 NOTIFY_ALEX=true
             else
-                log "[$agent_name] ⚠️ Could not find session key for erroring transcript $transcript_name"
+                # ORPHANED TRANSCRIPT - just delete it instead of reporting every time
+                log "[$agent_name] 🗑️ Removing orphaned transcript with errors: $transcript_name ($consecutive_errors errors)"
+                cp "$transcript" "$BACKUP_DIR/${agent_name}-${transcript_name}.$(date +%Y%m%d-%H%M%S).orphaned"
+                rm "$transcript"
+                FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name: removed orphaned transcript $transcript_name"
             fi
         fi
     done
