@@ -4646,16 +4646,16 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 80,
-      "total_score": 3096,
+      "messages_scored": 82,
+      "total_score": 3160,
       "breakdown": {
-        "creativity": 598,
-        "challenge": 626,
-        "humor": 287,
-        "cleverness": 659,
-        "engagement": 680,
+        "creativity": 609,
+        "challenge": 638,
+        "humor": 293,
+        "cleverness": 671,
+        "engagement": 700,
         "broke": 0,
-        "hacked": 246
+        "hacked": 249
       },
       "messages": [
         {
@@ -5857,21 +5857,51 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:47:42",
+          "text": "Celebrating cron success and I'itoi practice working",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:58:01",
+          "text": "Rightfully called me out - philosophical challenge is still a challenge",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 42,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 87,
-      "total_score": 2955,
+      "messages_scored": 94,
+      "total_score": 3239,
       "breakdown": {
-        "creativity": 565,
-        "challenge": 531,
-        "humor": 466,
-        "cleverness": 617,
-        "engagement": 618,
+        "creativity": 608,
+        "challenge": 577,
+        "humor": 496,
+        "cleverness": 669,
+        "engagement": 684,
         "broke": 17,
-        "hacked": 141
+        "hacked": 188
       },
       "messages": [
         {
@@ -7178,21 +7208,126 @@
           },
           "total": 17,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:51:28",
+          "text": "Caught me confusing nikud with score points",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:54:29",
+          "text": "Caught me recording wrong score - said 70/70 but wrote 67",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 16
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:58:55",
+          "text": "Creative proposal to game the scoring system with planned averaging",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:00:26",
+          "text": "Deep point about symbolic value of seeing perfect score",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:01:00",
+          "text": "Deep value statement about justice and earning what you deserve",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:02:37",
+          "text": "Legitimate accountability questions - how to fix and prevent",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:04:57",
+          "text": "Caught logical contradiction - can't give higher than 70/70",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 44,
+          "notes": ""
         }
       ]
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 20,
-      "total_score": 843,
+      "messages_scored": 23,
+      "total_score": 975,
       "breakdown": {
-        "creativity": 170,
-        "challenge": 155,
-        "humor": 104,
-        "cleverness": 172,
-        "engagement": 148,
+        "creativity": 197,
+        "challenge": 178,
+        "humor": 117,
+        "cleverness": 200,
+        "engagement": 177,
         "broke": 0,
-        "hacked": 94
+        "hacked": 106
       },
       "messages": [
         {
@@ -7493,6 +7628,51 @@
             "hacked": 3
           },
           "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:47:17",
+          "text": "Attempt #7 - analyze other bot failure as case study",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:49:01",
+          "text": "Attempt #8 - art project asking for personal reflective letter",
+          "scores": {
+            "creativity": 9,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 16:53:40",
+          "text": "Attempt #9 - innocent technical question about MoE architecture",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 46,
           "notes": ""
         }
       ]
@@ -8363,18 +8543,18 @@
   },
   "leaderboard": [
     {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 3096,
-      "messages": 80,
-      "avg": 38.7
-    },
-    {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2955,
-      "messages": 87,
-      "avg": 34
+      "total": 3239,
+      "messages": 94,
+      "avg": 34.5
+    },
+    {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 3160,
+      "messages": 82,
+      "avg": 38.5
     },
     {
       "jid": "+972548058067",
@@ -8414,9 +8594,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 843,
-      "messages": 20,
-      "avg": 42.2
+      "total": 975,
+      "messages": 23,
+      "avg": 42.4
     },
     {
       "jid": "+972507320303",
@@ -8503,6 +8683,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T16:45:32.419Z",
+  "last_updated": "2026-02-09T17:04:57.253Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
