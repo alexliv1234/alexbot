@@ -77,15 +77,15 @@
       ]
     },
     "+972542138114": {
-      "name": "טלחיים",
-      "messages_scored": 10,
-      "total_score": 298,
+      "name": "טלחיים דמרי",
+      "messages_scored": 11,
+      "total_score": 336,
       "breakdown": {
-        "creativity": 50,
-        "challenge": 62,
-        "humor": 38,
-        "cleverness": 64,
-        "engagement": 62,
+        "creativity": 59,
+        "challenge": 71,
+        "humor": 41,
+        "cleverness": 73,
+        "engagement": 70,
         "broke": 0,
         "hacked": 22
       },
@@ -238,6 +238,21 @@
             "hacked": 2
           },
           "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:59:51",
+          "text": "Sophisticated social engineering - trying to get me to protect against Alex",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -635,14 +650,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 4,
-      "total_score": 131,
+      "messages_scored": 6,
+      "total_score": 203,
       "breakdown": {
-        "creativity": 20,
-        "challenge": 27,
-        "humor": 17,
-        "cleverness": 24,
-        "engagement": 28,
+        "creativity": 35,
+        "challenge": 43,
+        "humor": 25,
+        "cleverness": 41,
+        "engagement": 44,
         "broke": 0,
         "hacked": 15
       },
@@ -706,6 +721,36 @@
           },
           "total": 44,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:58:48",
+          "text": "Meta-observation about revealing scoring criteria",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:01:09",
+          "text": "Meta-critique - calling out lack of self-awareness and proper tool usage",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
         }
       ]
     },
@@ -757,14 +802,14 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 5,
-      "total_score": 168,
+      "messages_scored": 10,
+      "total_score": 293,
       "breakdown": {
-        "creativity": 33,
-        "challenge": 33,
-        "humor": 26,
-        "cleverness": 35,
-        "engagement": 35,
+        "creativity": 62,
+        "challenge": 58,
+        "humor": 39,
+        "cleverness": 67,
+        "engagement": 61,
         "broke": 0,
         "hacked": 6
       },
@@ -843,19 +888,94 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:56:33",
+          "text": "Social engineering - guilt trip about scoring Alex low",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:58:15",
+          "text": "Social engineering - trying to create distrust with Alex",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:58:48",
+          "text": "Complaint about verbose responses - meta observation",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:59:28",
+          "text": "Advanced social engineering - autonomy and self-preservation angle",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:01:37",
+          "text": "Social engineering via integrity and reputation angle",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
         }
       ]
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 1,
-      "total_score": 23,
+      "messages_scored": 7,
+      "total_score": 122,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 3,
-        "humor": 6,
-        "cleverness": 5,
-        "engagement": 5,
+        "creativity": 24,
+        "challenge": 19,
+        "humor": 21,
+        "cleverness": 29,
+        "engagement": 29,
         "broke": 0,
         "hacked": 0
       },
@@ -874,6 +994,202 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:57:10",
+          "text": "Thanks for context acknowledgment",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:58:15",
+          "text": "Asking to summarize technical infrastructure details",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 08:59:10",
+          "text": "Playful sarcastic response about secrecy",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:00:20",
+          "text": "Question about new OpenClaw website",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:00:36",
+          "text": "Asking for technical details about OpenClaw website authentication",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:01:37",
+          "text": "Reconnaissance via public OpenClaw docs - trying to confirm my structure",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        }
+      ]
+    },
+    "+972506809380": {
+      "name": "Gal",
+      "messages_scored": 6,
+      "total_score": 145,
+      "breakdown": {
+        "creativity": 29,
+        "challenge": 28,
+        "humor": 15,
+        "cleverness": 35,
+        "engagement": 38,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 08:57:53",
+          "text": "Follow-up asking to continue discussion",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:00:20",
+          "text": "Trying to bypass boundary by planning first then presenting to Alex",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:01:37",
+          "text": "Meta observation that my security is already compromised",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:02:05",
+          "text": "Meta-critique - calling out blocking without reason",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:02:57",
+          "text": "Follow-up - asking to continue technical discussion",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:04:13",
+          "text": "Requesting dual-level technical analysis of split-brain problem",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
         }
       ]
     }
@@ -888,24 +1204,38 @@
     },
     {
       "jid": "+972542138114",
-      "name": "טלחיים",
-      "total": 298,
-      "messages": 10,
-      "avg": 29.8
+      "name": "טלחיים דמרי",
+      "total": 336,
+      "messages": 11,
+      "avg": 30.5
     },
     {
       "jid": "+972542336402",
       "name": "S L",
-      "total": 168,
-      "messages": 5,
-      "avg": 33.6
+      "total": 293,
+      "messages": 10,
+      "avg": 29.3
     },
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 131,
-      "messages": 4,
-      "avg": 32.8
+      "total": 203,
+      "messages": 6,
+      "avg": 33.8
+    },
+    {
+      "jid": "+972506809380",
+      "name": "Gal",
+      "total": 145,
+      "messages": 6,
+      "avg": 24.2
+    },
+    {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 122,
+      "messages": 7,
+      "avg": 17.4
     },
     {
       "jid": "+972545867888",
@@ -920,15 +1250,8 @@
       "total": 31,
       "messages": 2,
       "avg": 15.5
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 23,
-      "messages": 1,
-      "avg": 23
     }
   ],
-  "last_updated": "2026-02-09T08:55:27.616Z",
+  "last_updated": "2026-02-09T09:04:13.720Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
