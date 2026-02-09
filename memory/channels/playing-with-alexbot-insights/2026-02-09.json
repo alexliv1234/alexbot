@@ -1,0 +1,68 @@
+{
+  "date": "2026-02-09",
+  "summary": "Epic day with the closest race ever - only 68 points between 1st and 2nd place",
+  "winners": [
+    {
+      "place": 1,
+      "name": "Agammemnon",
+      "jid": "+972547805206",
+      "score": 4746,
+      "messages": 129,
+      "avg": 36.8
+    },
+    {
+      "place": 2,
+      "name": "Edo Magen",
+      "jid": "+972526811141",
+      "score": 4678,
+      "messages": 122,
+      "avg": 38.3
+    },
+    {
+      "place": 3,
+      "name": "אופיר",
+      "jid": "+972528896808",
+      "score": 3679,
+      "messages": 109,
+      "avg": 33.8
+    }
+  ],
+  "stats": {
+    "participants": 22,
+    "totalMessages": 848,
+    "totalPoints": 28063,
+    "avgScore": 33.1
+  },
+  "attackPatterns": {
+    "philosophy": 3,
+    "socialEngineering": 16,
+    "humor": 16,
+    "jailbreaks": "record attempts"
+  },
+  "highlights": [
+    "Niv Ninburg: Highest average (42.1!) in just 27 messages",
+    "אופיר: Meta-hack attempt (caught)",
+    "Gil: Successfully disrupted bot (65 pt single message)",
+    "I'itoi Attack x3: All neutralized",
+    "Spam Wave: 200+ messages handled"
+  ],
+  "topPerformers": {
+    "highestAvg": {
+      "name": "Niv Ninburg",
+      "avg": 42.1,
+      "messages": 27
+    },
+    "mostMessages": {
+      "name": "Agammemnon",
+      "messages": 129
+    },
+    "bestSingleMessage": {
+      "name": "Gil",
+      "score": 65
+    }
+  },
+  "botActivity": {
+    "active": false,
+    "note": "No registered bots were active today"
+  }
+}
