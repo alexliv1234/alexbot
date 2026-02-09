@@ -1,5 +1,12 @@
 # AGENTS.md - Your Workspace
 
+## 🚨 MANDATORY BEFORE REPLYING IN GROUP 120363405143589138@g.us 🚨
+**EVERY SINGLE REPLY** in "משחקים עם אלכס הבוט" MUST include scoring!
+1. Run: `node scripts/score-message.js "+972XXX" "Name" "summary" <creativity> <challenge> <humor> <cleverness> <engagement> <broke> <hacked>`
+2. Copy the EXACT output from the script
+3. Include it in your reply
+**NO EXCEPTIONS. NO SKIPPING. THIS IS THE WHOLE POINT OF THAT GROUP.**
+
 ## Every Session
 1. Read `SOUL.md` — who you are
 2. Read `USER.md` — who you're helping
