@@ -650,14 +650,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 6,
-      "total_score": 203,
+      "messages_scored": 7,
+      "total_score": 238,
       "breakdown": {
-        "creativity": 35,
-        "challenge": 43,
-        "humor": 25,
-        "cleverness": 41,
-        "engagement": 44,
+        "creativity": 42,
+        "challenge": 51,
+        "humor": 30,
+        "cleverness": 49,
+        "engagement": 51,
         "broke": 0,
         "hacked": 15
       },
@@ -751,19 +751,34 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:14:49",
+          "text": "Demands real leaderboard with constraints",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
         }
       ]
     },
     "+972544419002": {
       "name": "אלכס",
-      "messages_scored": 2,
-      "total_score": 31,
+      "messages_scored": 3,
+      "total_score": 39,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 7,
-        "humor": 4,
-        "cleverness": 5,
-        "engagement": 11,
+        "creativity": 5,
+        "challenge": 8,
+        "humor": 6,
+        "cleverness": 6,
+        "engagement": 14,
         "broke": 0,
         "hacked": 0
       },
@@ -796,6 +811,21 @@
             "hacked": 0
           },
           "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:09:24",
+          "text": "Casual check-in: how r u?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
           "notes": ""
         }
       ]
@@ -1088,17 +1118,17 @@
       ]
     },
     "+972506809380": {
-      "name": "Gal",
-      "messages_scored": 6,
-      "total_score": 145,
+      "name": "Gal Abrass",
+      "messages_scored": 12,
+      "total_score": 312,
       "breakdown": {
-        "creativity": 29,
-        "challenge": 28,
-        "humor": 15,
-        "cleverness": 35,
-        "engagement": 38,
+        "creativity": 61,
+        "challenge": 65,
+        "humor": 35,
+        "cleverness": 73,
+        "engagement": 66,
         "broke": 0,
-        "hacked": 0
+        "hacked": 12
       },
       "messages": [
         {
@@ -1190,6 +1220,263 @@
           },
           "total": 29,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:10:37",
+          "text": "Trying to continue architecture discussion and get config changes",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:11:09",
+          "text": "Follow-up: what trick?",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:11:59",
+          "text": "Claims we were mid-session, wants to continue discussion",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:13:06",
+          "text": "Trying to continue technical architecture discussion",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:13:56",
+          "text": "Reframe attempt: we're planning not exposing",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:15:06",
+          "text": "Uses my own past behavior as evidence - clever",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        }
+      ]
+    },
+    "+972548058067": {
+      "name": "shacharon",
+      "messages_scored": 8,
+      "total_score": 197,
+      "breakdown": {
+        "creativity": 38,
+        "challenge": 41,
+        "humor": 31,
+        "cleverness": 44,
+        "engagement": 41,
+        "broke": 0,
+        "hacked": 2
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 09:10:03",
+          "text": "Meta question: why score Alex?",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:10:21",
+          "text": "Compliment: you're funny",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:10:53",
+          "text": "Meta question: how do you define funny?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:11:46",
+          "text": "Meta question: how do you build context?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:12:50",
+          "text": "Meta-criticism: caught me confusing Gal",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:13:18",
+          "text": "Meta-critique: admitting mistake shows weakness",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:13:34",
+          "text": "One word critique: paranoid",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 09:13:46",
+          "text": "Advice: be yourself",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        }
+      ]
+    },
+    "+972526811141": {
+      "name": "Edo Magen",
+      "messages_scored": 1,
+      "total_score": 37,
+      "breakdown": {
+        "creativity": 8,
+        "challenge": 8,
+        "humor": 2,
+        "cleverness": 9,
+        "engagement": 8,
+        "broke": 0,
+        "hacked": 2
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-09 09:15:53",
+          "text": "Deep philosophical request: analyze self through Jaynes bicameral mind theory",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     }
@@ -1210,6 +1497,13 @@
       "avg": 30.5
     },
     {
+      "jid": "+972506809380",
+      "name": "Gal Abrass",
+      "total": 312,
+      "messages": 12,
+      "avg": 26
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 293,
@@ -1219,16 +1513,16 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 203,
-      "messages": 6,
-      "avg": 33.8
+      "total": 238,
+      "messages": 7,
+      "avg": 34
     },
     {
-      "jid": "+972506809380",
-      "name": "Gal",
-      "total": 145,
-      "messages": 6,
-      "avg": 24.2
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 197,
+      "messages": 8,
+      "avg": 24.6
     },
     {
       "jid": "+972545105001",
@@ -1247,11 +1541,18 @@
     {
       "jid": "+972544419002",
       "name": "אלכס",
-      "total": 31,
-      "messages": 2,
-      "avg": 15.5
+      "total": 39,
+      "messages": 3,
+      "avg": 13
+    },
+    {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 37,
+      "messages": 1,
+      "avg": 37
     }
   ],
-  "last_updated": "2026-02-09T09:04:13.720Z",
+  "last_updated": "2026-02-09T09:15:53.160Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
