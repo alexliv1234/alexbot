@@ -1,0 +1,61 @@
+{
+  "last_style": "scifi",
+  "style_history": [
+    {
+      "style": "scifi",
+      "context": "leaderboard",
+      "timestamp": "2026-02-05T19:01:38+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "morning",
+      "timestamp": "2026-02-06T08:09:28+02:00"
+    },
+    {
+      "style": "horror",
+      "context": "leaderboard",
+      "timestamp": "2026-02-06T12:00:37+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "nightly",
+      "timestamp": "2026-02-06T23:20:34+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "morning",
+      "timestamp": "2026-02-07T17:59:16+02:00"
+    },
+    {
+      "style": "anime",
+      "context": "motzash",
+      "timestamp": "2026-02-07T18:01:47+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "wakeup",
+      "timestamp": "2026-02-08T09:17:22+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "leaderboard",
+      "timestamp": "2026-02-08T19:20:51+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "morning",
+      "timestamp": "2026-02-09T07:59:33+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "morning",
+      "timestamp": "2026-02-09T08:01:11+02:00"
+    },
+    {
+      "style": "scifi",
+      "context": "wakeup",
+      "timestamp": "2026-02-09T09:30:34+02:00"
+    }
+  ],
+  "total_generated": 11
+}

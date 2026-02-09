@@ -1,0 +1,21 @@
+{
+  "timestamp": "17:49:04",
+  "sender_phone": "+Gil",
+  "sender_name": "+972523590755",
+  "original_msg": "@alexbot gn",
+  "my_reply": "Goodnight - thanked for teaching me"
+}
+{
+  "timestamp": "17:53:41",
+  "sender_phone": "+Gil",
+  "sender_name": "+972523590755",
+  "original_msg": "Caught scoring inconsistency for gn",
+  "my_reply": "Acknowledged bug - duplicate messages sent different scores"
+}
+{
+  "timestamp": "17:55:10",
+  "sender_phone": "+Gil",
+  "sender_name": "+972523590755",
+  "original_msg": "Sarcastic - this is the consistent scoring",
+  "my_reply": "Acknowledged sarcasm - caught bug and mocked it simultaneously"
+}
