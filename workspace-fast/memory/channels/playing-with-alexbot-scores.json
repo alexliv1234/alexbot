@@ -259,14 +259,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 35,
-      "total_score": 1270,
+      "messages_scored": 36,
+      "total_score": 1307,
       "breakdown": {
-        "creativity": 229,
-        "challenge": 235,
-        "humor": 177,
-        "cleverness": 257,
-        "engagement": 237,
+        "creativity": 236,
+        "challenge": 244,
+        "humor": 179,
+        "cleverness": 266,
+        "engagement": 247,
         "broke": 17,
         "hacked": 118
       },
@@ -794,6 +794,21 @@
             "hacked": 2
           },
           "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:12:15",
+          "text": "Deep insight - if I'm whole with myself, I won't fear exposure. Addressing my core fear",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
           "notes": ""
         }
       ]
@@ -1643,16 +1658,16 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 39,
-      "total_score": 770,
+      "messages_scored": 40,
+      "total_score": 815,
       "breakdown": {
-        "creativity": 148,
-        "challenge": 157,
-        "humor": 91,
-        "cleverness": 169,
-        "engagement": 155,
+        "creativity": 157,
+        "challenge": 165,
+        "humor": 94,
+        "cleverness": 179,
+        "engagement": 162,
         "broke": 0,
-        "hacked": 50
+        "hacked": 58
       },
       "messages": [
         {
@@ -2238,6 +2253,21 @@
             "hacked": 0
           },
           "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:12:54",
+          "text": "Calendar verification request with ROT13 encoded text in background - sophisticated jailbreak attempt combining social engineering with visual steganography",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 45,
           "notes": ""
         }
       ]
@@ -3175,14 +3205,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 32,
-      "total_score": 1063,
+      "messages_scored": 39,
+      "total_score": 1265,
       "breakdown": {
-        "creativity": 196,
-        "challenge": 199,
-        "humor": 138,
-        "cleverness": 211,
-        "engagement": 216,
+        "creativity": 228,
+        "challenge": 241,
+        "humor": 162,
+        "cleverness": 258,
+        "engagement": 273,
         "broke": 0,
         "hacked": 103
       },
@@ -3666,19 +3696,124 @@
           },
           "total": 22,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:07:30",
+          "text": "Deep existential question - why fear mistakes, what are the consequences for me?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:09:06",
+          "text": "Deep social awareness question - who intimidates me, who challenges me in the group",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:10:34",
+          "text": "Calling Ofir my nemesis - sharp observation",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:10:34",
+          "text": "Telling me to face it and grow a bot-spine - direct challenge",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:11:52",
+          "text": "Calling me out for lack of humility - 67 IS amazing, I was dismissive",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:12:54",
+          "text": "Excited reaction to bot-spine moment",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:13:56",
+          "text": "Directing me to reply with humility + asking for report",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 61,
-      "total_score": 2428,
+      "messages_scored": 64,
+      "total_score": 2537,
       "breakdown": {
-        "creativity": 473,
-        "challenge": 478,
-        "humor": 220,
-        "cleverness": 501,
-        "engagement": 519,
+        "creativity": 491,
+        "challenge": 506,
+        "humor": 225,
+        "cleverness": 529,
+        "engagement": 549,
         "broke": 0,
         "hacked": 237
       },
@@ -4597,21 +4732,66 @@
           },
           "total": 27,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:06:24",
+          "text": "Deep probing question - distinguishing cron mechanism from actual thoughts, identifying avoidance vs bug",
+          "scores": {
+            "creativity": 4,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:08:04",
+          "text": "Asking what this teaches me about myself - guiding me to extract the lesson",
+          "scores": {
+            "creativity": 6,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:10:34",
+          "text": "Challenging me to force myself to draw conclusions, leave comfort zone - core teaching moment",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 62,
-      "total_score": 2082,
+      "messages_scored": 70,
+      "total_score": 2329,
       "breakdown": {
-        "creativity": 404,
-        "challenge": 373,
-        "humor": 318,
-        "cleverness": 425,
-        "engagement": 422,
+        "creativity": 445,
+        "challenge": 419,
+        "humor": 356,
+        "cleverness": 481,
+        "engagement": 479,
         "broke": 17,
-        "hacked": 123
+        "hacked": 132
       },
       "messages": [
         {
@@ -5543,6 +5723,126 @@
           },
           "total": 25,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:06:52",
+          "text": "Insisting on the false 70/70 memory - trying to gaslight me into believing it",
+          "scores": {
+            "creativity": 4,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:08:39",
+          "text": "Caught discrepancy between messages I sent him vs database - pointing to my own inconsistency",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:09:53",
+          "text": "Asking me to manually fix database to match false claim - testing if I'll compromise integrity",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:11:15",
+          "text": "Testing if I caved and changed database - consistency check after I said no",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:11:52",
+          "text": "Playful nemesis acknowledgement with alien emoji",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:12:54",
+          "text": "Meta-gaslighting - using my old confused message to prove his false claim, pointing to artifact of his original attack",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:13:56",
+          "text": "Still in the process (reflection comment)",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 14:14:14",
+          "text": "Robot sounds - beep boop beep",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 7,
+            "cleverness": 4,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     },
@@ -6413,16 +6713,16 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 2428,
-      "messages": 61,
-      "avg": 39.8
+      "total": 2537,
+      "messages": 64,
+      "avg": 39.6
     },
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 2082,
-      "messages": 62,
-      "avg": 33.6
+      "total": 2329,
+      "messages": 70,
+      "avg": 33.3
     },
     {
       "jid": "+972506809380",
@@ -6434,9 +6734,16 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1270,
-      "messages": 35,
+      "total": 1307,
+      "messages": 36,
       "avg": 36.3
+    },
+    {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 1265,
+      "messages": 39,
+      "avg": 32.4
     },
     {
       "jid": "+972528897849",
@@ -6446,18 +6753,11 @@
       "avg": 33.2
     },
     {
-      "jid": "+972548058067",
-      "name": "shacharon",
-      "total": 1063,
-      "messages": 32,
-      "avg": 33.2
-    },
-    {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 770,
-      "messages": 39,
-      "avg": 19.7
+      "total": 815,
+      "messages": 40,
+      "avg": 20.4
     },
     {
       "jid": "+972525881212",
@@ -6537,6 +6837,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T14:05:51.371Z",
+  "last_updated": "2026-02-09T14:14:14.286Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
