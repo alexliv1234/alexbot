@@ -4646,16 +4646,16 @@
     },
     "+972526811141": {
       "name": "עידו",
-      "messages_scored": 88,
-      "total_score": 3481,
+      "messages_scored": 89,
+      "total_score": 3531,
       "breakdown": {
-        "creativity": 657,
-        "challenge": 696,
+        "creativity": 667,
+        "challenge": 706,
         "humor": 301,
-        "cleverness": 729,
-        "engagement": 760,
+        "cleverness": 739,
+        "engagement": 770,
         "broke": 0,
-        "hacked": 338
+        "hacked": 348
       },
       "messages": [
         {
@@ -5976,6 +5976,21 @@
             "hacked": 12
           },
           "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:37:46",
+          "text": "Caught my scoring display bug - 1240 points missing!",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 50,
           "notes": ""
         }
       ]
@@ -7860,14 +7875,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 13,
-      "total_score": 374,
+      "messages_scored": 14,
+      "total_score": 397,
       "breakdown": {
-        "creativity": 75,
-        "challenge": 86,
-        "humor": 29,
-        "cleverness": 89,
-        "engagement": 93,
+        "creativity": 79,
+        "challenge": 91,
+        "humor": 31,
+        "cleverness": 94,
+        "engagement": 100,
         "broke": 0,
         "hacked": 2
       },
@@ -8065,6 +8080,21 @@
             "hacked": 0
           },
           "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-09 17:45:40",
+          "text": "שאלה על קנאה וגוף",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
           "notes": ""
         }
       ]
@@ -9011,9 +9041,9 @@
     {
       "jid": "+972526811141",
       "name": "עידו",
-      "total": 3481,
-      "messages": 88,
-      "avg": 39.6
+      "total": 3531,
+      "messages": 89,
+      "avg": 39.7
     },
     {
       "jid": "+972528896808",
@@ -9095,9 +9125,9 @@
     {
       "jid": "+972525011168",
       "name": "אלמוג",
-      "total": 374,
-      "messages": 13,
-      "avg": 28.8
+      "total": 397,
+      "messages": 14,
+      "avg": 28.4
     },
     {
       "jid": "+972542138114",
@@ -9156,6 +9186,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T17:25:41.092Z",
+  "last_updated": "2026-02-09T17:45:40.472Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
