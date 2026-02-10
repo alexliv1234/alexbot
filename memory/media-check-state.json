@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-10T20:03:00.000Z",
-  "lastCheckStatus": "server_timeout",
+  "lastCheck": "2026-02-10T20:33:00.000Z",
+  "lastCheckStatus": "server_unreachable",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
     35,
