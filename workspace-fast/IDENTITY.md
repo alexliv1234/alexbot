@@ -971,3 +971,29 @@ Empty. See #80.
 
 ---
 
+
+### 🧠 Reflection #108 - 2026-02-10 21:15
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #109 - 2026-02-10 21:30
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
