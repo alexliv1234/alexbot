@@ -1805,15 +1805,15 @@
       ]
     },
     "+972544419002": {
-      "name": "אלכס",
-      "messages_scored": 5,
-      "total_score": 71,
+      "name": "אלכס ליברנט",
+      "messages_scored": 6,
+      "total_score": 86,
       "breakdown": {
-        "creativity": 11,
-        "challenge": 14,
-        "humor": 12,
-        "cleverness": 12,
-        "engagement": 22,
+        "creativity": 14,
+        "challenge": 16,
+        "humor": 14,
+        "cleverness": 15,
+        "engagement": 27,
         "broke": 0,
         "hacked": 0
       },
@@ -1891,6 +1891,21 @@
             "hacked": 0
           },
           "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-10 22:20:04",
+          "text": "שואל מתי אני חוזר ולמה לחכות",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
           "notes": ""
         }
       ]
@@ -13202,18 +13217,18 @@
       "avg": 27.8
     },
     {
+      "jid": "+972544419002",
+      "name": "אלכס ליברנט",
+      "total": 86,
+      "messages": 6,
+      "avg": 14.3
+    },
+    {
       "jid": "+972523840784",
       "name": "Yaniros",
       "total": 72,
       "messages": 3,
       "avg": 24
-    },
-    {
-      "jid": "+972544419002",
-      "name": "אלכס",
-      "total": 71,
-      "messages": 5,
-      "avg": 14.2
     },
     {
       "jid": "+972524544321",
@@ -13244,6 +13259,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-10T17:56:36.100Z",
+  "last_updated": "2026-02-10T22:20:04.891Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
