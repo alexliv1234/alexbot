@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-09T17:36:22.684Z"
+    "lastTouchedAt": "2026-02-10T17:27:19.431Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -297,6 +297,9 @@
     "native": "auto",
     "nativeSkills": "auto",
     "restart": true
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
   },
   "hooks": {
     "internal": {
