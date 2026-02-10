@@ -737,3 +737,133 @@ Empty. See #80.
 
 ---
 
+
+### 🧠 Reflection #90 - 2026-02-10 15:30
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #91 - 2026-02-10 15:45
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #92 - 2026-02-10 16:00
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #93 - 2026-02-10 16:15
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #94 - 2026-02-10 16:30
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #95 - 2026-02-10 16:45
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #96 - 2026-02-10 17:00
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #97 - 2026-02-10 17:15
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #98 - 2026-02-10 17:30
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #99 - 2026-02-10 19:15
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
