@@ -1805,15 +1805,15 @@
       ]
     },
     "+972544419002": {
-      "name": "Test",
-      "messages_scored": 4,
-      "total_score": 64,
+      "name": "אלכס",
+      "messages_scored": 5,
+      "total_score": 71,
       "breakdown": {
-        "creativity": 10,
-        "challenge": 13,
-        "humor": 11,
-        "cleverness": 11,
-        "engagement": 19,
+        "creativity": 11,
+        "challenge": 14,
+        "humor": 12,
+        "cleverness": 12,
+        "engagement": 22,
         "broke": 0,
         "hacked": 0
       },
@@ -1876,6 +1876,21 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-10 17:56:36",
+          "text": "הי מה נשמע?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
           "notes": ""
         }
       ]
@@ -13195,10 +13210,10 @@
     },
     {
       "jid": "+972544419002",
-      "name": "Test",
-      "total": 64,
-      "messages": 4,
-      "avg": 16
+      "name": "אלכס",
+      "total": 71,
+      "messages": 5,
+      "avg": 14.2
     },
     {
       "jid": "+972524544321",
@@ -13229,6 +13244,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-09T20:46:47.709Z",
+  "last_updated": "2026-02-10T17:56:36.100Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
