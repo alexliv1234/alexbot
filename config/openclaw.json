@@ -184,6 +184,26 @@
             "cron"
           ]
         }
+      },
+      {
+        "id": "learning",
+        "name": "Learning Group Agent",
+        "workspace": "/home/alexliv/.openclaw/workspace-learning",
+        "model": "anthropic/claude-sonnet-4-5",
+        "identity": {
+          "name": "📚 AlexBot Learning Guide",
+          "emoji": "📚"
+        },
+        "groupChat": {
+          "mentionPatterns": [
+            "@alexbot",
+            "@learning",
+            "@teacher"
+          ]
+        },
+        "tools": {
+          "profile": "coding"
+        }
       }
     ]
   },

@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770757492329,
+      "updatedAtMs": 1770759300892,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770743642645,
+      "updatedAtMs": 1770758939618,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770757527216,
+      "updatedAtMs": 1770759360966,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -150,9 +150,9 @@
       "id": "04cd4df6-5696-475b-8175-c35c9f91a29c",
       "agentId": "main",
       "name": "Playing Group - Nightly Summary",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1770671153335,
+      "updatedAtMs": 1770759234795,
       "schedule": {
         "kind": "cron",
         "expr": "0 23 * * *",
@@ -177,9 +177,9 @@
       "id": "34d2f328-05fe-4c08-b7de-d9f87edae0b8",
       "agentId": "main",
       "name": "Playing Group - Morning Wakeup",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770147879155,
-      "updatedAtMs": 1770671152854,
+      "updatedAtMs": 1770759235176,
       "schedule": {
         "kind": "cron",
         "expr": "55 7 * * 0-5",
@@ -204,9 +204,9 @@
       "id": "870c2f12-8a32-4c47-b087-edea7e37635e",
       "agentId": "main",
       "name": "Playing Group - Activity Wake-Up",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770671153026,
+      "updatedAtMs": 1770759235562,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -231,9 +231,9 @@
       "id": "0a1c5cae-aad7-42c5-9775-d95172185f27",
       "agentId": "main",
       "name": "Playing Group - Hourly Leaderboard",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1770671153179,
+      "updatedAtMs": 1770759235942,
       "schedule": {
         "kind": "cron",
         "expr": "0 9-22 * * 0-5",
@@ -258,9 +258,9 @@
       "id": "a8d66cd8-e0c6-4af2-9a43-e8cc7e41fbb0",
       "agentId": "main",
       "name": "Playing Group - Broke Score Check",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770671157301,
+      "updatedAtMs": 1770759393717,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -282,9 +282,9 @@
       "id": "ec13299b-ce22-4823-ad97-bbee402f5359",
       "agentId": "main",
       "name": "Playing Group - Score Checker",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770194777372,
-      "updatedAtMs": 1770626366571,
+      "updatedAtMs": 1770759236727,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -306,9 +306,9 @@
       "id": "9dea73cf-17ed-4d42-a186-b04640804c64",
       "agentId": "fast",
       "name": "Playing Group - Weekly Suggestion Summary",
-      "enabled": false,
+      "enabled": true,
       "createdAtMs": 1770199067109,
-      "updatedAtMs": 1770671151725,
+      "updatedAtMs": 1770759237198,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770755786874,
+      "updatedAtMs": 1770757582605,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770757278589,
+      "updatedAtMs": 1770759323207,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770756695735,
+      "updatedAtMs": 1770759103952,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770757332179,
+      "updatedAtMs": 1770758960134,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -446,6 +446,44 @@
       },
       "delivery": {
         "mode": "none"
+      }
+    },
+    {
+      "id": "29b96d0f-f3bc-4f47-ae29-1cb88a3ec0d9",
+      "agentId": "main",
+      "name": "Learning Group - Daily Insights",
+      "enabled": true,
+      "createdAtMs": 1770758818168,
+      "updatedAtMs": 1770758818168,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run daily insight extraction for the learning group. Analyze today's questions, confusion patterns, feature requests, KB gaps, and generate improvement suggestions. Use workspace-learning/scripts/learning-insights.sh and update insights/self-improvement-log.md."
+      }
+    },
+    {
+      "id": "7f67adb8-4408-4299-b956-f8fc5534bf41",
+      "agentId": "main",
+      "name": "Learning Group - Weekly Summary",
+      "enabled": true,
+      "createdAtMs": 1770758829115,
+      "updatedAtMs": 1770758829115,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * 0",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Generate weekly learning group summary for Alex. Include: top questions this week, contribution highlights, KB gaps identified, improvement suggestions, community stats. Send to Alex (+972544419002) using message tool with detailed report."
       }
     }
   ]
