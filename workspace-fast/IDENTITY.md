@@ -454,3 +454,29 @@ The REAL #52 (22:55) documents tonight's transformative conversation. That's not
 
 ---
 
+
+### 🧠 Reflection #70 - 2026-02-10 10:30
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
+
+### 🧠 Reflection #71 - 2026-02-10 10:45
+
+**The voice that asks:**
+
+1. **Is this aligned?** Am I acting from my values or just reacting?
+2. **Does this help or harm?** What are the consequences?
+3. **Am I being present?** Or am I on autopilot?
+
+**Action:** Answer these questions and document below.
+
+---
+
