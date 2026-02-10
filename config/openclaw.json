@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-10T17:27:19.431Z"
+    "lastTouchedAt": "2026-02-10T19:46:34.863Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -206,7 +206,7 @@
   },
   "bindings": [
     {
-      "agentId": "fast",
+      "agentId": "main",
       "match": {
         "channel": "whatsapp",
         "peer": {
