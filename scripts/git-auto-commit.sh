@@ -21,6 +21,18 @@ fi
 eval "$(ssh-agent -s)" > /dev/null 2>&1
 ssh-add ~/.ssh/alexbot_github 2>/dev/null || true
 
+# Pull latest changes from master first
+echo "$(date '+%Y-%m-%d %H:%M:%S') - Pulling latest changes from master..."
+GIT_SSH_COMMAND="ssh -i ~/.ssh/alexbot_github -o StrictHostKeyChecking=no" git pull --rebase origin master || {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Pull failed or had conflicts, attempting to resolve..."
+    # If there are conflicts, abort the rebase and try a regular merge instead
+    git rebase --abort 2>/dev/null || true
+    GIT_SSH_COMMAND="ssh -i ~/.ssh/alexbot_github -o StrictHostKeyChecking=no" git pull --no-rebase origin master || {
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - ERROR: Could not pull changes. Manual intervention required."
+        exit 1
+    }
+}
+
 # Check if there are any changes
 if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
     echo "$(date '+%Y-%m-%d %H:%M:%S') - No changes to commit"
