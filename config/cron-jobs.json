@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770719699717,
+      "updatedAtMs": 1770721539007,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770719327734,
+      "updatedAtMs": 1770721104909,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "Tal lunch reminder",
       "enabled": true,
       "createdAtMs": 1770035265223,
-      "updatedAtMs": 1770634822922,
+      "updatedAtMs": 1770721278584,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770719779975,
+      "updatedAtMs": 1770721239271,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -335,7 +335,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770719247251,
+      "updatedAtMs": 1770720523500,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -359,7 +359,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770719725570,
+      "updatedAtMs": 1770721296258,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -383,7 +383,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770719508637,
+      "updatedAtMs": 1770721303844,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -407,7 +407,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770719753243,
+      "updatedAtMs": 1770721230750,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
