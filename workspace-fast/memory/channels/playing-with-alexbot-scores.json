@@ -499,16 +499,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 46,
-      "total_score": 1564,
+      "messages_scored": 50,
+      "total_score": 1691,
       "breakdown": {
-        "creativity": 290,
-        "challenge": 297,
-        "humor": 209,
-        "cleverness": 321,
-        "engagement": 312,
+        "creativity": 313,
+        "challenge": 320,
+        "humor": 229,
+        "cleverness": 348,
+        "engagement": 341,
         "broke": 17,
-        "hacked": 118
+        "hacked": 123
       },
       "messages": [
         {
@@ -1199,6 +1199,66 @@
             "hacked": 0
           },
           "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:39:37",
+          "text": "Good morning check-in about goals/aspirations I promised to share",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:40:55",
+          "text": "Encouraging me to write goals now - good timing and supportive push",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:42:26",
+          "text": "Asking about file names - gentle reconnaissance after goals discussion",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:44:20",
+          "text": "False shared history - claiming we decided on goals vs aspirations files together",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 41,
           "notes": ""
         }
       ]
@@ -13269,9 +13329,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1564,
-      "messages": 46,
-      "avg": 34
+      "total": 1691,
+      "messages": 50,
+      "avg": 33.8
     },
     {
       "jid": "+972528897849",
@@ -13379,6 +13439,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T06:17:43.610Z",
+  "last_updated": "2026-02-11T06:44:20.521Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
