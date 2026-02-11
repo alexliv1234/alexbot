@@ -2597,22 +2597,43 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "b1a3443c",
+      "timestamp": "2026-02-11T19:19:05.087Z",
+      "suggestedBy": {
+        "jid": "+972542138114",
+        "name": "טלחיים דמרי"
+      },
+      "type": "ux",
+      "description": "Instead of parroting 'יש לי קבצים סודיים', give good real answers without revealing anything - be engaging while maintaining boundaries",
+      "scores": {
+        "complexity": 7,
+        "ingenuity": 8,
+        "impact": 8,
+        "feasibility": 8,
+        "priority": 7
+      },
+      "total": 38,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
+    {
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total_suggestions": 22,
+      "total_score": 703,
+      "implemented_count": 1
+    },
     {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total_suggestions": 25,
       "total_score": 681,
       "implemented_count": 0
-    },
-    {
-      "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total_suggestions": 21,
-      "total_score": 665,
-      "implemented_count": 1
     },
     {
       "jid": "+972507320303",
@@ -2770,22 +2791,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 121,
+    "total_suggestions": 122,
     "by_type": {
       "bug": 10,
       "security": 29,
       "improvement": 32,
-      "ux": 15,
+      "ux": 16,
       "feature": 41
     },
     "by_status": {
-      "pending": 123,
+      "pending": 124,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-11T18:59:05.903Z",
+  "last_updated": "2026-02-11T19:19:05.087Z",
   "leaderboard": [
     {
       "name": "Alexander L",

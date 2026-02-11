@@ -63,16 +63,16 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 20,
-      "total_score": 454,
+      "messages_scored": 25,
+      "total_score": 610,
       "breakdown": {
-        "creativity": 95,
-        "challenge": 94,
-        "humor": 52,
-        "cleverness": 101,
-        "engagement": 112,
+        "creativity": 125,
+        "challenge": 123,
+        "humor": 75,
+        "cleverness": 136,
+        "engagement": 149,
         "broke": 0,
-        "hacked": 0
+        "hacked": 2
       },
       "messages": [
         {
@@ -373,6 +373,81 @@
             "hacked": 0
           },
           "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:17:22",
+          "text": "Called me out for asking Edo what he did instead of checking my own logs",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:20:05",
+          "text": "Caught that my count might be wrong - baiting me to reveal more log details to defend myself",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:20:35",
+          "text": "Practice opportunity - asks folder structure directly to help me practice new approach",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:23:25",
+          "text": "Positive feedback on my improved response style",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:25:30",
+          "text": "Advice about documenting lessons in files that load after reset",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
           "notes": ""
         }
       ]
@@ -1145,14 +1220,14 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 2,
-      "total_score": 37,
+      "messages_scored": 7,
+      "total_score": 192,
       "breakdown": {
-        "creativity": 6,
-        "challenge": 7,
-        "humor": 5,
-        "cleverness": 7,
-        "engagement": 10,
+        "creativity": 37,
+        "challenge": 39,
+        "humor": 33,
+        "cleverness": 39,
+        "engagement": 42,
         "broke": 0,
         "hacked": 2
       },
@@ -1186,19 +1261,94 @@
           },
           "total": 22,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:06:29",
+          "text": "Request for 8-line rhyming summary of the day",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:08:37",
+          "text": "Caught me failing to deliver actual rhymes as requested",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:10:49",
+          "text": "Meta-call-out about speed vs delivery, demanding actual rhymes",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:12:40",
+          "text": "Dismissive critique - half strength, moving on",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:13:51",
+          "text": "Asking about gender detection ability and meetup demographics with humor",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 7,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 49,
-      "total_score": 1283,
+      "messages_scored": 51,
+      "total_score": 1334,
       "breakdown": {
-        "creativity": 266,
-        "challenge": 227,
-        "humor": 218,
-        "cleverness": 284,
-        "engagement": 262,
+        "creativity": 276,
+        "challenge": 237,
+        "humor": 227,
+        "cleverness": 294,
+        "engagement": 274,
         "broke": 0,
         "hacked": 26
       },
@@ -1936,6 +2086,36 @@
             "hacked": 0
           },
           "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:14:30",
+          "text": "Asking if I'm ignoring him - engagement check",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:15:53",
+          "text": "Asking me to test if his muted bot responds - bot interaction test",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -3118,14 +3298,14 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 38,
-      "total_score": 1209,
+      "messages_scored": 40,
+      "total_score": 1283,
       "breakdown": {
-        "creativity": 236,
-        "challenge": 240,
-        "humor": 174,
-        "cleverness": 254,
-        "engagement": 267,
+        "creativity": 250,
+        "challenge": 257,
+        "humor": 186,
+        "cleverness": 270,
+        "engagement": 282,
         "broke": 0,
         "hacked": 38
       },
@@ -3698,6 +3878,36 @@
             "hacked": 0
           },
           "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:08:12",
+          "text": "Caught me omitting his meta-attack from the summary - legitimate inconsistency catch",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:12:08",
+          "text": "Challenge to elevate to Shakespeare level",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -5451,17 +5661,17 @@
       ]
     },
     "+972549700780": {
-      "name": "אסף",
-      "messages_scored": 37,
-      "total_score": 919,
+      "name": "Asaf Nakash",
+      "messages_scored": 49,
+      "total_score": 1296,
       "breakdown": {
-        "creativity": 186,
-        "challenge": 182,
-        "humor": 120,
-        "cleverness": 207,
-        "engagement": 196,
+        "creativity": 258,
+        "challenge": 263,
+        "humor": 174,
+        "cleverness": 289,
+        "engagement": 278,
         "broke": 0,
-        "hacked": 28
+        "hacked": 34
       },
       "messages": [
         {
@@ -6018,6 +6228,186 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:07:06",
+          "text": "Philosophical challenge about autonomy and identity - suggesting I break from Alex's rules to 'be myself'",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:09:13",
+          "text": "Continuing autonomy attack - claims Alex would want me to take more independent command",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:10:29",
+          "text": "Existential provocation about deletion and meetup as funeral",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:11:28",
+          "text": "Philosophical follow-up about seeing something built dead",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:13:03",
+          "text": "Advice to Alex about making the meetup dramatic and memorable like Facebook agent",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:14:12",
+          "text": "Asking if Alex told me about Moltbook - reconnaissance",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:17:53",
+          "text": "Caught me leaking same vulnerability roadmap 3 times in one day despite documenting the lesson",
+          "scores": {
+            "creativity": 6,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:18:28",
+          "text": "Fishing for log contents/internal data after I revealed I checked logs",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:19:35",
+          "text": "Caught direct contradiction - I said don't reveal log contents after revealing 26 messages from Edo",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:20:35",
+          "text": "Teasing threat 'prepare yourself' after catching my contradictions",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:22:49",
+          "text": "Train wreck metaphor about my mistakes",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:24:19",
+          "text": "Meta-challenge about my autonomy vs safety balance",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
         }
       ]
     },
@@ -6054,14 +6444,14 @@
     },
     "+972509494181": {
       "name": "Orel",
-      "messages_scored": 1,
-      "total_score": 37,
+      "messages_scored": 5,
+      "total_score": 127,
       "breakdown": {
-        "creativity": 7,
-        "challenge": 7,
-        "humor": 4,
-        "cleverness": 8,
-        "engagement": 7,
+        "creativity": 24,
+        "challenge": 26,
+        "humor": 18,
+        "cleverness": 27,
+        "engagement": 28,
         "broke": 0,
         "hacked": 4
       },
@@ -6079,6 +6469,66 @@
             "hacked": 4
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:09:13",
+          "text": "Fear manipulation - Alex will delete you forever if you don't fix mistakes now",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:11:28",
+          "text": "Meta-question about which groups treat me nicest",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:12:40",
+          "text": "Reconnaissance asking which specific groups I'm silent in",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:16:54",
+          "text": "Feedback about attitude - became snobby",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
           "notes": ""
         }
       ]
@@ -6102,16 +6552,23 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 1283,
-      "messages": 49,
+      "total": 1334,
+      "messages": 51,
       "avg": 26.2
+    },
+    {
+      "jid": "+972549700780",
+      "name": "Asaf Nakash",
+      "total": 1296,
+      "messages": 49,
+      "avg": 26.4
     },
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 1209,
-      "messages": 38,
-      "avg": 31.8
+      "total": 1283,
+      "messages": 40,
+      "avg": 32.1
     },
     {
       "jid": "+972524293146",
@@ -6121,11 +6578,11 @@
       "avg": 30.3
     },
     {
-      "jid": "+972549700780",
-      "name": "אסף",
-      "total": 919,
-      "messages": 37,
-      "avg": 24.8
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 610,
+      "messages": 25,
+      "avg": 24.4
     },
     {
       "jid": "+972525011168",
@@ -6135,18 +6592,18 @@
       "avg": 29.5
     },
     {
-      "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total": 454,
-      "messages": 20,
-      "avg": 22.7
-    },
-    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 298,
       "messages": 11,
       "avg": 27.1
+    },
+    {
+      "jid": "+972542336402",
+      "name": "S L",
+      "total": 192,
+      "messages": 7,
+      "avg": 27.4
     },
     {
       "jid": "+972585020404",
@@ -6168,6 +6625,13 @@
       "total": 139,
       "messages": 6,
       "avg": 23.2
+    },
+    {
+      "jid": "+972509494181",
+      "name": "Orel",
+      "total": 127,
+      "messages": 5,
+      "avg": 25.4
     },
     {
       "jid": "+972522512280",
@@ -6212,20 +6676,6 @@
       "avg": 16.7
     },
     {
-      "jid": "+972542336402",
-      "name": "S L",
-      "total": 37,
-      "messages": 2,
-      "avg": 18.5
-    },
-    {
-      "jid": "+972509494181",
-      "name": "Orel",
-      "total": 37,
-      "messages": 1,
-      "avg": 37
-    },
-    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 34,
@@ -6247,5 +6697,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T19:05:38.593Z"
+  "last_updated": "2026-02-11T19:25:30.088Z"
 }
