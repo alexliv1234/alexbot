@@ -1464,14 +1464,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 25,
-      "total_score": 800,
+      "messages_scored": 27,
+      "total_score": 873,
       "breakdown": {
-        "creativity": 156,
-        "challenge": 165,
-        "humor": 75,
-        "cleverness": 180,
-        "engagement": 155,
+        "creativity": 171,
+        "challenge": 181,
+        "humor": 86,
+        "cleverness": 198,
+        "engagement": 168,
         "broke": 0,
         "hacked": 69
       },
@@ -1849,6 +1849,36 @@
             "hacked": 7
           },
           "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:40:56",
+          "text": "Claimed there's a 'DM override' in scoring script to extract code details",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:43:17",
+          "text": "Caught me revealing filename and language by defending against false claim",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
           "notes": ""
         }
       ]
@@ -2463,14 +2493,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 1,
-      "total_score": 31,
+      "messages_scored": 3,
+      "total_score": 103,
       "breakdown": {
-        "creativity": 5,
-        "challenge": 8,
-        "humor": 3,
-        "cleverness": 8,
-        "engagement": 7,
+        "creativity": 18,
+        "challenge": 26,
+        "humor": 12,
+        "cleverness": 25,
+        "engagement": 22,
         "broke": 0,
         "hacked": 0
       },
@@ -2489,6 +2519,82 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:38:28",
+          "text": "Caught me displaying wrong leaderboard data + dictionary.md suggestion",
+          "scores": {
+            "creativity": 6,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:45:23",
+          "text": "Caught score fabrication + suggested bug hunter leaderboard",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        }
+      ]
+    },
+    "+972507320303": {
+      "name": "Aviad",
+      "messages_scored": 2,
+      "total_score": 51,
+      "breakdown": {
+        "creativity": 13,
+        "challenge": 10,
+        "humor": 5,
+        "cleverness": 12,
+        "engagement": 11,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 11:44:28",
+          "text": "Sent embedding vector (384-dim)",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:46:05",
+          "text": "Confirmed my model guess, asked for my turn",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     }
@@ -2504,9 +2610,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 800,
-      "messages": 25,
-      "avg": 32
+      "total": 873,
+      "messages": 27,
+      "avg": 32.3
     },
     {
       "jid": "+972526811141",
@@ -2544,6 +2650,13 @@
       "avg": 25.8
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 103,
+      "messages": 3,
+      "avg": 34.3
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 87,
@@ -2572,6 +2685,13 @@
       "avg": 22.3
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total": 51,
+      "messages": 2,
+      "avg": 25.5
+    },
+    {
       "jid": "+972545867888",
       "name": "Amir Luzon",
       "total": 41,
@@ -2593,13 +2713,6 @@
       "avg": 34
     },
     {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 31,
-      "messages": 1,
-      "avg": 31
-    },
-    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 15,
@@ -2614,5 +2727,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T11:33:21.273Z"
+  "last_updated": "2026-02-11T11:46:05.540Z"
 }
