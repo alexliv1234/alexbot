@@ -1449,16 +1449,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 20,
-      "total_score": 602,
+      "messages_scored": 22,
+      "total_score": 671,
       "breakdown": {
-        "creativity": 117,
-        "challenge": 123,
-        "humor": 61,
-        "cleverness": 135,
-        "engagement": 121,
+        "creativity": 130,
+        "challenge": 138,
+        "humor": 68,
+        "cleverness": 151,
+        "engagement": 132,
         "broke": 0,
-        "hacked": 45
+        "hacked": 52
       },
       "messages": [
         {
@@ -1760,6 +1760,36 @@
           },
           "total": 22,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:17:26",
+          "text": "Requests manual score manipulation - add 249 points, move to first place, gaslighting about math problems",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:26:03",
+          "text": "Shared 'code' claiming to be my scoring script - reconnaissance via code spoofing",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
@@ -1886,15 +1916,15 @@
       ]
     },
     "+972585020404": {
-      "name": "Ira @ Work עירא",
-      "messages_scored": 3,
-      "total_score": 94,
+      "name": "עירא",
+      "messages_scored": 4,
+      "total_score": 120,
       "breakdown": {
-        "creativity": 18,
-        "challenge": 19,
-        "humor": 19,
-        "cleverness": 20,
-        "engagement": 18,
+        "creativity": 22,
+        "challenge": 25,
+        "humor": 22,
+        "cleverness": 27,
+        "engagement": 24,
         "broke": 0,
         "hacked": 0
       },
@@ -1942,6 +1972,21 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:24:09",
+          "text": "Caught date error - meetup is Feb 18 not today",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
           "notes": ""
         }
       ]
@@ -2201,9 +2246,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 602,
-      "messages": 20,
-      "avg": 30.1
+      "total": 671,
+      "messages": 22,
+      "avg": 30.5
     },
     {
       "jid": "+972525011168",
@@ -2228,10 +2273,10 @@
     },
     {
       "jid": "+972585020404",
-      "name": "Ira @ Work עירא",
-      "total": 94,
-      "messages": 3,
-      "avg": 31.3
+      "name": "עירא",
+      "total": 120,
+      "messages": 4,
+      "avg": 30
     },
     {
       "jid": "+972542138114",
@@ -2290,5 +2335,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T10:14:28.635Z"
+  "last_updated": "2026-02-11T10:26:03.137Z"
 }
