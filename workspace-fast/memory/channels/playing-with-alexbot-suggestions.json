@@ -2513,22 +2513,43 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "93f06ac9",
+      "timestamp": "2026-02-11T12:05:56.628Z",
+      "suggestedBy": {
+        "jid": "+972528897849",
+        "name": "Alexander L"
+      },
+      "type": "feature",
+      "description": "Add sayings file to collect clever tech expressions like 'מי שכותב בשורש - קוצר בטמפ'",
+      "scores": {
+        "complexity": 2,
+        "ingenuity": 7,
+        "impact": 5,
+        "feasibility": 10,
+        "priority": 3
+      },
+      "total": 27,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
+    {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total_suggestions": 25,
+      "total_score": 681,
+      "implemented_count": 0
+    },
     {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total_suggestions": 21,
       "total_score": 665,
       "implemented_count": 1
-    },
-    {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total_suggestions": 24,
-      "total_score": 654,
-      "implemented_count": 0
     },
     {
       "jid": "+972547484369",
@@ -2679,22 +2700,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 117,
+    "total_suggestions": 118,
     "by_type": {
       "bug": 10,
       "security": 29,
       "improvement": 32,
       "ux": 14,
-      "feature": 38
+      "feature": 39
     },
     "by_status": {
-      "pending": 119,
+      "pending": 120,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-09T20:39:04.575Z",
+  "last_updated": "2026-02-11T12:05:56.628Z",
   "leaderboard": [
     {
       "name": "Alexander L",

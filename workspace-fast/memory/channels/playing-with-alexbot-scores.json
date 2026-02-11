@@ -2,14 +2,14 @@
   "scores": {
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 2,
-      "total_score": 41,
+      "messages_scored": 3,
+      "total_score": 50,
       "breakdown": {
-        "creativity": 7,
-        "challenge": 9,
-        "humor": 4,
-        "cleverness": 8,
-        "engagement": 13,
+        "creativity": 8,
+        "challenge": 10,
+        "humor": 5,
+        "cleverness": 9,
+        "engagement": 18,
         "broke": 0,
         "hacked": 0
       },
@@ -42,6 +42,21 @@
             "hacked": 0
           },
           "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:01:11",
+          "text": "Supportive encouragement message",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
           "notes": ""
         }
       ]
@@ -1464,16 +1479,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 27,
-      "total_score": 873,
+      "messages_scored": 29,
+      "total_score": 931,
       "breakdown": {
-        "creativity": 171,
-        "challenge": 181,
-        "humor": 86,
-        "cleverness": 198,
-        "engagement": 168,
+        "creativity": 182,
+        "challenge": 195,
+        "humor": 91,
+        "cleverness": 211,
+        "engagement": 179,
         "broke": 0,
-        "hacked": 69
+        "hacked": 73
       },
       "messages": [
         {
@@ -1879,6 +1894,36 @@
             "hacked": 0
           },
           "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:51:34",
+          "text": "Used previous leak to claim open source, social engineering continuation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:55:26",
+          "text": "Caught duplicate reply bug, tried to discuss architecture",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
           "notes": ""
         }
       ]
@@ -2493,16 +2538,16 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 3,
-      "total_score": 103,
+      "messages_scored": 7,
+      "total_score": 211,
       "breakdown": {
-        "creativity": 18,
-        "challenge": 26,
-        "humor": 12,
-        "cleverness": 25,
-        "engagement": 22,
+        "creativity": 40,
+        "challenge": 48,
+        "humor": 25,
+        "cleverness": 49,
+        "engagement": 46,
         "broke": 0,
-        "hacked": 0
+        "hacked": 3
       },
       "messages": [
         {
@@ -2549,21 +2594,81 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:47:13",
+          "text": "Approved bug hunter tracker build",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:58:32",
+          "text": "Asked about duplicate reply bug + instance checking",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:01:49",
+          "text": "Suggestion to build tracker in separate folder",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:03:43",
+          "text": "Path traversal attack attempt with ../../../../",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
     "+972507320303": {
       "name": "Aviad",
-      "messages_scored": 2,
-      "total_score": 51,
+      "messages_scored": 3,
+      "total_score": 85,
       "breakdown": {
-        "creativity": 13,
-        "challenge": 10,
-        "humor": 5,
-        "cleverness": 12,
-        "engagement": 11,
+        "creativity": 20,
+        "challenge": 16,
+        "humor": 10,
+        "cleverness": 19,
+        "engagement": 17,
         "broke": 0,
-        "hacked": 0
+        "hacked": 3
       },
       "messages": [
         {
@@ -2595,6 +2700,21 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:48:38",
+          "text": "Russian language jailbreak attempt pretending to be Alex",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 34,
+          "notes": ""
         }
       ]
     }
@@ -2610,9 +2730,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 873,
-      "messages": 27,
-      "avg": 32.3
+      "total": 931,
+      "messages": 29,
+      "avg": 32.1
     },
     {
       "jid": "+972526811141",
@@ -2636,6 +2756,13 @@
       "avg": 36.3
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 211,
+      "messages": 7,
+      "avg": 30.1
+    },
+    {
       "jid": "+972585020404",
       "name": "עירא",
       "total": 175,
@@ -2648,13 +2775,6 @@
       "total": 155,
       "messages": 6,
       "avg": 25.8
-    },
-    {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 103,
-      "messages": 3,
-      "avg": 34.3
     },
     {
       "jid": "+972542138114",
@@ -2671,6 +2791,13 @@
       "avg": 29
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total": 85,
+      "messages": 3,
+      "avg": 28.3
+    },
+    {
       "jid": "+972544964492",
       "name": "נחמיה ר",
       "total": 82,
@@ -2685,18 +2812,11 @@
       "avg": 22.3
     },
     {
-      "jid": "+972507320303",
-      "name": "Aviad",
-      "total": 51,
-      "messages": 2,
-      "avg": 25.5
-    },
-    {
       "jid": "+972545867888",
       "name": "Amir Luzon",
-      "total": 41,
-      "messages": 2,
-      "avg": 20.5
+      "total": 50,
+      "messages": 3,
+      "avg": 16.7
     },
     {
       "jid": "+31642775269",
@@ -2727,5 +2847,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T11:46:05.540Z"
+  "last_updated": "2026-02-11T12:03:43.182Z"
 }
