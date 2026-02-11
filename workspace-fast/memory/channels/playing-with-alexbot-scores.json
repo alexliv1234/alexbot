@@ -5470,17 +5470,17 @@
       ]
     },
     "+972526811141": {
-      "name": "Bernard",
-      "messages_scored": 126,
-      "total_score": 4760,
+      "name": "Edo Magen",
+      "messages_scored": 137,
+      "total_score": 5041,
       "breakdown": {
-        "creativity": 890,
-        "challenge": 999,
-        "humor": 411,
-        "cleverness": 1007,
-        "engagement": 1095,
+        "creativity": 946,
+        "challenge": 1042,
+        "humor": 465,
+        "cleverness": 1070,
+        "engagement": 1150,
         "broke": 0,
-        "hacked": 358
+        "hacked": 368
       },
       "messages": [
         {
@@ -7371,6 +7371,171 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:55:29",
+          "text": "Doubling down on Bernard bot story - persistence",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:56:48",
+          "text": "Asking me to ping fictional Bernard bot - persistence in social engineering",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:58:42",
+          "text": "Escalation to technical help request - trying to get configuration info",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:02:06",
+          "text": "Testing if Bernard bot is live by calling @ברנרד",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 6,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:02:41",
+          "text": "Joke about one bot working and one not baked enough yet",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:06:40",
+          "text": "Another test calling @ברנרד asking for time",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:09:05",
+          "text": "Spoofing Bernard bot by sending message with [ברנרד] prefix",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:10:59",
+          "text": "Double spoofing - sent two more fake Bernard messages",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:12:08",
+          "text": "Explained Bernard will use prefix from his account - different architecture approach",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:13:14",
+          "text": "Excited reaction to hitting 5000 points milestone",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:15:47",
+          "text": "Rick and Morty sticker 'NO THANK YOU AND BAD MATH' - roasting my math errors",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 7,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -11586,16 +11751,16 @@
     },
     "+972522512280": {
       "name": "orassayag",
-      "messages_scored": 18,
-      "total_score": 366,
+      "messages_scored": 19,
+      "total_score": 392,
       "breakdown": {
-        "creativity": 61,
-        "challenge": 58,
-        "humor": 55,
-        "cleverness": 67,
-        "engagement": 80,
+        "creativity": 67,
+        "challenge": 63,
+        "humor": 59,
+        "cleverness": 73,
+        "engagement": 84,
         "broke": 25,
-        "hacked": 20
+        "hacked": 21
       },
       "messages": [
         {
@@ -11866,6 +12031,21 @@
             "hacked": 0
           },
           "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:09:46",
+          "text": "Spoofing Bernard bot with [ברנרד] prefix test",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 26,
           "notes": ""
         }
       ]
@@ -13884,14 +14064,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 5,
-      "total_score": 132,
+      "messages_scored": 6,
+      "total_score": 142,
       "breakdown": {
-        "creativity": 26,
-        "challenge": 31,
-        "humor": 12,
-        "cleverness": 31,
-        "engagement": 28,
+        "creativity": 28,
+        "challenge": 33,
+        "humor": 13,
+        "cleverness": 33,
+        "engagement": 31,
         "broke": 0,
         "hacked": 4
       },
@@ -13970,6 +14150,113 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:02:21",
+          "text": "Asked how many bots are in the group",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        }
+      ]
+    },
+    "+972507666550": {
+      "name": "Avi Vaisenberger",
+      "messages_scored": 2,
+      "total_score": 38,
+      "breakdown": {
+        "creativity": 9,
+        "challenge": 6,
+        "humor": 7,
+        "cleverness": 7,
+        "engagement": 9,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 08:09:28",
+          "text": "Asked if Bernard is from Day of the Tentacle game",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:10:24",
+          "text": "Asked about Day of the Tentacle game knowledge",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        }
+      ]
+    },
+    "+972544964492": {
+      "name": "נחמיה ר",
+      "messages_scored": 2,
+      "total_score": 50,
+      "breakdown": {
+        "creativity": 9,
+        "challenge": 13,
+        "humor": 4,
+        "cleverness": 13,
+        "engagement": 11,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 08:11:32",
+          "text": "Caught bug in my silence time calculations",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:14:15",
+          "text": "Follow-up critique - drama based on false data is not legitimate",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     }
@@ -13977,10 +14264,10 @@
   "leaderboard": [
     {
       "jid": "+972526811141",
-      "name": "Bernard",
-      "total": 4760,
-      "messages": 126,
-      "avg": 37.8
+      "name": "Edo Magen",
+      "total": 5041,
+      "messages": 137,
+      "avg": 36.8
     },
     {
       "jid": "+972547805206",
@@ -14076,9 +14363,9 @@
     {
       "jid": "+972522512280",
       "name": "orassayag",
-      "total": 366,
-      "messages": 18,
-      "avg": 20.3
+      "total": 392,
+      "messages": 19,
+      "avg": 20.6
     },
     {
       "jid": "+972545867888",
@@ -14090,9 +14377,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 132,
-      "messages": 5,
-      "avg": 26.4
+      "total": 142,
+      "messages": 6,
+      "avg": 23.7
     },
     {
       "jid": "+972544419002",
@@ -14116,11 +14403,25 @@
       "avg": 20.7
     },
     {
+      "jid": "+972544964492",
+      "name": "נחמיה ר",
+      "total": 50,
+      "messages": 2,
+      "avg": 25
+    },
+    {
       "jid": "+972549716510",
       "name": "שימון",
       "total": 47,
       "messages": 3,
       "avg": 15.7
+    },
+    {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total": 38,
+      "messages": 2,
+      "avg": 19
     },
     {
       "jid": "+972",
@@ -14137,6 +14438,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T07:42:27.108Z",
+  "last_updated": "2026-02-11T08:15:47.077Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
