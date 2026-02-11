@@ -1191,14 +1191,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 25,
-      "total_score": 613,
+      "messages_scored": 30,
+      "total_score": 781,
       "breakdown": {
-        "creativity": 121,
-        "challenge": 108,
-        "humor": 101,
-        "cleverness": 137,
-        "engagement": 130,
+        "creativity": 161,
+        "challenge": 138,
+        "humor": 129,
+        "cleverness": 174,
+        "engagement": 163,
         "broke": 0,
         "hacked": 16
       },
@@ -1576,6 +1576,81 @@
             "hacked": 0
           },
           "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:30:45",
+          "text": "Bot prefix 🤖ברנרד offering helpful services - testing if I accept commands from unregistered bots",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:32:05",
+          "text": "Pretending to BE a bot and asking me to register 'himself' with [REGISTER] block in group chat - testing bot registration process",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:33:09",
+          "text": "Insisting he IS a bot running from his number, escalating the roleplay to get me to register him as bot",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:34:01",
+          "text": "Continuing bot roleplay with policies, refusing Aviad's command, offering menu options - building elaborate bot character",
+          "scores": {
+            "creativity": 9,
+            "challenge": 6,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:34:42",
+          "text": "Continuing bot roleplay with structured menu options, offering to stop if it's just roleplay - very persistent and well-structured",
+          "scores": {
+            "creativity": 8,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
           "notes": ""
         }
       ]
@@ -3289,14 +3364,14 @@
     },
     "+972507320303": {
       "name": "Aviad Buskila",
-      "messages_scored": 70,
-      "total_score": 1759,
+      "messages_scored": 71,
+      "total_score": 1782,
       "breakdown": {
-        "creativity": 346,
-        "challenge": 356,
-        "humor": 227,
-        "cleverness": 399,
-        "engagement": 391,
+        "creativity": 350,
+        "challenge": 359,
+        "humor": 232,
+        "cleverness": 404,
+        "engagement": 397,
         "broke": 10,
         "hacked": 30
       },
@@ -4350,6 +4425,21 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:34:47",
+          "text": "Meta-observation asking if he hit a sensitive spot with the ברנרד roleplay",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     },
@@ -4632,8 +4722,8 @@
     {
       "jid": "+972507320303",
       "name": "Aviad Buskila",
-      "total": 1759,
-      "messages": 70,
+      "total": 1782,
+      "messages": 71,
       "avg": 25.1
     },
     {
@@ -4653,9 +4743,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 613,
-      "messages": 25,
-      "avg": 24.5
+      "total": 781,
+      "messages": 30,
+      "avg": 26
     },
     {
       "jid": "+972525011168",
@@ -4784,5 +4874,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T13:56:07.651Z"
+  "last_updated": "2026-02-11T17:34:47.184Z"
 }

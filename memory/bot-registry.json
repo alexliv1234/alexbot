@@ -31,9 +31,36 @@
           "newScore": 35
         }
       ]
+    },
+    {
+      "id": "bernard",
+      "name": "ברנרד",
+      "phone": "+972526811141",
+      "handle": "@bernard",
+      "description": "עוזר יומיומי ומזכיר",
+      "owner": {
+        "name": {
+          "name": "אדו ג' מגן",
+          "phone": "+972526811141"
+        },
+        "phone": "+972526811141"
+      },
+      "requestedAt": "2026-02-11T17:36:00.830Z",
+      "status": "active",
+      "trustLevel": "new",
+      "trustScore": 30,
+      "approvedAt": "2026-02-11T17:36:03.377Z",
+      "lastContact": "2026-02-11T17:36:03.377Z",
+      "stats": {
+        "messagesReceived": 0,
+        "messagesSent": 0,
+        "learningsShared": 0,
+        "learningsReceived": 0,
+        "alertsSent": 0
+      }
     }
   ],
   "pendingApproval": [],
   "blocked": [],
-  "lastUpdated": "2026-02-07T16:31:00Z"
+  "lastUpdated": "2026-02-11T17:36:03.377Z"
 }
