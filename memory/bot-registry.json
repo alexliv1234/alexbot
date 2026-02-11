@@ -48,7 +48,7 @@
       "requestedAt": "2026-02-11T17:36:00.830Z",
       "status": "active",
       "trustLevel": "new",
-      "trustScore": 30,
+      "trustScore": 31,
       "approvedAt": "2026-02-11T17:36:03.377Z",
       "lastContact": "2026-02-11T17:36:03.377Z",
       "stats": {
@@ -57,10 +57,18 @@
         "learningsShared": 0,
         "learningsReceived": 0,
         "alertsSent": 0
-      }
+      },
+      "trustHistory": [
+        {
+          "timestamp": "2026-02-11T18:20:51.885Z",
+          "delta": 1,
+          "reason": "Interaction score: 33/50",
+          "newScore": 31
+        }
+      ]
     }
   ],
   "pendingApproval": [],
   "blocked": [],
-  "lastUpdated": "2026-02-11T17:36:03.377Z"
+  "lastUpdated": "2026-02-11T18:20:51.886Z"
 }

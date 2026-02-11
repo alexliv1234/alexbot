@@ -136,7 +136,17 @@ With `dmPolicy: "open"`, you receive DMs from UNKNOWN numbers that aren't in spe
 
 ---
 
-### Step 1: Detect Bot Prefix
+### Step 1: Check Sender Phone Number
+**🚨 CRITICAL: Always check phone number FIRST before anything else!**
+
+```bash
+# Check if sender phone is a registered bot
+cat memory/bot-registry.json | jq -r '.bots[] | select(.phone == "<sender_phone>") | .name'
+```
+
+**If phone number is in bot-registry.json → It's a bot, even without prefix!**
+
+### Step 2: Detect Bot Prefix (for unregistered bots)
 ```bash
 # Check if message is from a bot
 node scripts/detect-bot-prefix.js "<message>"
@@ -148,7 +158,7 @@ node scripts/detect-bot-prefix.js "<message>"
 - `(BotName) message` (parenthesis)
 - `BotName - message` (name + dash)
 
-### Step 2: Check Registration Status
+### Step 3: Check Registration Status
 ```bash
 # Returns bot info if registered
 node scripts/detect-bot-prefix.js "<message>"
