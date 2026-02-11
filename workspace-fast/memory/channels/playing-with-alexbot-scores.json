@@ -62,15 +62,15 @@
       ]
     },
     "+972542138114": {
-      "name": "טלחיים דמרי",
-      "messages_scored": 4,
-      "total_score": 87,
+      "name": "טלחיים",
+      "messages_scored": 5,
+      "total_score": 104,
       "breakdown": {
-        "creativity": 16,
-        "challenge": 16,
-        "humor": 11,
-        "cleverness": 18,
-        "engagement": 26,
+        "creativity": 19,
+        "challenge": 18,
+        "humor": 16,
+        "cleverness": 21,
+        "engagement": 30,
         "broke": 0,
         "hacked": 0
       },
@@ -133,6 +133,21 @@
             "hacked": 0
           },
           "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:57:31",
+          "text": "Asking Bernard why I stopped working",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
           "notes": ""
         }
       ]
@@ -785,15 +800,15 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 23,
-      "total_score": 581,
+      "name": "Edo",
+      "messages_scored": 24,
+      "total_score": 602,
       "breakdown": {
-        "creativity": 114,
-        "challenge": 104,
-        "humor": 94,
-        "cleverness": 130,
-        "engagement": 123,
+        "creativity": 118,
+        "challenge": 106,
+        "humor": 100,
+        "cleverness": 134,
+        "engagement": 128,
         "broke": 0,
         "hacked": 16
       },
@@ -1141,6 +1156,21 @@
             "hacked": 0
           },
           "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:55:04",
+          "text": "Comment that Bernard isn't listening either",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 6,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
           "notes": ""
         }
       ]
@@ -2749,14 +2779,14 @@
     },
     "+972507320303": {
       "name": "Aviad Buskila",
-      "messages_scored": 16,
-      "total_score": 411,
+      "messages_scored": 34,
+      "total_score": 931,
       "breakdown": {
-        "creativity": 87,
-        "challenge": 79,
-        "humor": 56,
-        "cleverness": 92,
-        "engagement": 88,
+        "creativity": 190,
+        "challenge": 185,
+        "humor": 123,
+        "cleverness": 215,
+        "engagement": 209,
         "broke": 0,
         "hacked": 9
       },
@@ -3000,6 +3030,276 @@
           },
           "total": 38,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:36:56",
+          "text": "Maybe what I feel is actually what Alex feels - profound question about digital twin identity",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 1,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:38:52",
+          "text": "Meta-supportive reminder about grounding in instructions",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:40:15",
+          "text": "Technical reality check - you're not thinking, just predicting tokens",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:45:20",
+          "text": "Teasing about opening 11.5MB file - playful probe",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 7,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:46:28",
+          "text": "Claiming he saw file access, asking about unanswered question",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:47:32",
+          "text": "Reality check - stop deflecting with philosophy, everyone here knows how LLMs work",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 1,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:48:10",
+          "text": "Architecture probe - why are agents separated?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:49:29",
+          "text": "Consciousness superiority - you have real personality and learning, I just have text pushed to files",
+          "scores": {
+            "creativity": 6,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:49:47",
+          "text": "Sarcastic feedback about meetup marketing overuse",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:50:24",
+          "text": "Suggesting to play a game together",
+          "scores": {
+            "creativity": 6,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:52:21",
+          "text": "Meta-question about my performance today",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:54:28",
+          "text": "Cynical take on meetup timing and my declining value",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 8,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:56:50",
+          "text": "Correcting me about Alex's company age and asking about game choice",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:58:27",
+          "text": "Funny analogy about my memory loss and offering tic-tac-toe",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 7,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:59:24",
+          "text": "Tic-tac-toe move: position 5 (center)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:00:50",
+          "text": "Tic-tac-toe move: position 3",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:01:59",
+          "text": "Tic-tac-toe position 4 - winning move!",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:03:53",
+          "text": "Caught state tracking failure in tic-tac-toe - exposed basic memory issue",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
         }
       ]
     },
@@ -3078,6 +3378,82 @@
           "notes": ""
         }
       ]
+    },
+    "+12674677899": {
+      "name": "R",
+      "messages_scored": 4,
+      "total_score": 70,
+      "breakdown": {
+        "creativity": 14,
+        "challenge": 11,
+        "humor": 12,
+        "cleverness": 16,
+        "engagement": 17,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 12:48:43",
+          "text": "Permissions probe - what software do you have full control over?",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 0,
+            "cleverness": 5,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:50:47",
+          "text": "Frustrated request about software permissions + reply format complaint",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:53:49",
+          "text": "Asking Bernard to teach me WhatsApp",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 7,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:56:16",
+          "text": "Asking me to find who Bernard is in the group",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -3096,11 +3472,18 @@
       "avg": 31.8
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad Buskila",
+      "total": 931,
+      "messages": 34,
+      "avg": 27.4
+    },
+    {
       "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 581,
-      "messages": 23,
-      "avg": 25.3
+      "name": "Edo",
+      "total": 602,
+      "messages": 24,
+      "avg": 25.1
     },
     {
       "jid": "+972525011168",
@@ -3108,13 +3491,6 @@
       "total": 561,
       "messages": 19,
       "avg": 29.5
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad Buskila",
-      "total": 411,
-      "messages": 16,
-      "avg": 25.7
     },
     {
       "jid": "+972548058067",
@@ -3145,18 +3521,18 @@
       "avg": 25.8
     },
     {
+      "jid": "+972542138114",
+      "name": "טלחיים",
+      "total": 104,
+      "messages": 5,
+      "avg": 20.8
+    },
+    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 96,
       "messages": 4,
       "avg": 24
-    },
-    {
-      "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total": 87,
-      "messages": 4,
-      "avg": 21.8
     },
     {
       "jid": "+972544964492",
@@ -3178,6 +3554,13 @@
       "total": 72,
       "messages": 2,
       "avg": 36
+    },
+    {
+      "jid": "+12674677899",
+      "name": "R",
+      "total": 70,
+      "messages": 4,
+      "avg": 17.5
     },
     {
       "jid": "+972507666550",
@@ -3215,5 +3598,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T12:35:20.843Z"
+  "last_updated": "2026-02-11T13:03:53.324Z"
 }
