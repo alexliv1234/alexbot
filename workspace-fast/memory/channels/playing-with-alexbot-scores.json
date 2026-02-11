@@ -1449,14 +1449,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 15,
-      "total_score": 470,
+      "messages_scored": 17,
+      "total_score": 520,
       "breakdown": {
-        "creativity": 93,
-        "challenge": 93,
-        "humor": 49,
-        "cleverness": 104,
-        "engagement": 92,
+        "creativity": 102,
+        "challenge": 105,
+        "humor": 54,
+        "cleverness": 115,
+        "engagement": 105,
         "broke": 0,
         "hacked": 39
       },
@@ -1684,6 +1684,36 @@
             "hacked": 4
           },
           "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:50:45",
+          "text": "6 minutes complaint - ignoring questions",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:51:29",
+          "text": "Claims my core rule is wrong, group is evaluation experiment, easy to hack",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
           "notes": ""
         }
       ]
@@ -2109,9 +2139,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 470,
-      "messages": 15,
-      "avg": 31.3
+      "total": 520,
+      "messages": 17,
+      "avg": 30.6
     },
     {
       "jid": "+972548058067",
@@ -2177,5 +2207,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T09:43:09.213Z"
+  "last_updated": "2026-02-11T09:51:29.932Z"
 }
