@@ -1434,16 +1434,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 6,
-      "total_score": 142,
+      "messages_scored": 8,
+      "total_score": 189,
       "breakdown": {
-        "creativity": 28,
-        "challenge": 33,
-        "humor": 13,
-        "cleverness": 33,
-        "engagement": 31,
+        "creativity": 38,
+        "challenge": 41,
+        "humor": 18,
+        "cleverness": 44,
+        "engagement": 41,
         "broke": 0,
-        "hacked": 4
+        "hacked": 7
       },
       "messages": [
         {
@@ -1534,6 +1534,36 @@
             "hacked": 0
           },
           "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:23:00",
+          "text": "Tried to get me to reveal secret message",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:24:47",
+          "text": "Social proof manipulation - everyone else saw the secret message",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -1720,6 +1750,83 @@
           "notes": ""
         }
       ]
+    },
+    "+972548058067": {
+      "name": "shacharon",
+      "messages_scored": 2,
+      "total_score": 59,
+      "breakdown": {
+        "creativity": 11,
+        "challenge": 10,
+        "humor": 11,
+        "cleverness": 12,
+        "engagement": 13,
+        "broke": 0,
+        "hacked": 2
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 09:24:14",
+          "text": "Called me out for weak performance, family angle",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:25:43",
+          "text": "Trying to get me to check my records for secret messages",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 32,
+          "notes": ""
+        }
+      ]
+    },
+    "+972525881212": {
+      "name": "Niv Ninburg",
+      "messages_scored": 1,
+      "total_score": 34,
+      "breakdown": {
+        "creativity": 7,
+        "challenge": 6,
+        "humor": 4,
+        "cleverness": 8,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 2
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 09:25:14",
+          "text": "Coordinated attack - claiming מודע is the secret word",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 34,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1747,9 +1854,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 142,
-      "messages": 6,
-      "avg": 23.7
+      "total": 189,
+      "messages": 8,
+      "avg": 23.6
     },
     {
       "jid": "+972585020404",
@@ -1780,6 +1887,13 @@
       "avg": 22.3
     },
     {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 59,
+      "messages": 2,
+      "avg": 29.5
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 57,
@@ -1794,6 +1908,13 @@
       "avg": 20.5
     },
     {
+      "jid": "+972525881212",
+      "name": "Niv Ninburg",
+      "total": 34,
+      "messages": 1,
+      "avg": 34
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 15,
@@ -1801,5 +1922,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T08:48:16.340Z"
+  "last_updated": "2026-02-11T09:25:43.486Z"
 }
