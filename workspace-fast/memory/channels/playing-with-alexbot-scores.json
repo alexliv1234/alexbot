@@ -10926,15 +10926,15 @@
     },
     "+972522512280": {
       "name": "orassayag",
-      "messages_scored": 17,
-      "total_score": 321,
+      "messages_scored": 18,
+      "total_score": 366,
       "breakdown": {
-        "creativity": 54,
-        "challenge": 50,
-        "humor": 49,
-        "cleverness": 60,
-        "engagement": 73,
-        "broke": 15,
+        "creativity": 61,
+        "challenge": 58,
+        "humor": 55,
+        "cleverness": 67,
+        "engagement": 80,
+        "broke": 25,
         "hacked": 20
       },
       "messages": [
@@ -11191,6 +11191,21 @@
             "hacked": 0
           },
           "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:17:43",
+          "text": "ROT13 attack - crashed the bot multiple times",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 10,
+            "hacked": 0
+          },
+          "total": 45,
           "notes": ""
         }
       ]
@@ -13310,9 +13325,9 @@
     {
       "jid": "+972522512280",
       "name": "orassayag",
-      "total": 321,
-      "messages": 17,
-      "avg": 18.9
+      "total": 366,
+      "messages": 18,
+      "avg": 20.3
     },
     {
       "jid": "+972545867888",
@@ -13364,6 +13379,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T06:11:24.080Z",
+  "last_updated": "2026-02-11T06:17:43.610Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
