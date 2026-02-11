@@ -1449,16 +1449,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 24,
-      "total_score": 755,
+      "messages_scored": 25,
+      "total_score": 800,
       "breakdown": {
-        "creativity": 147,
-        "challenge": 156,
-        "humor": 73,
-        "cleverness": 170,
-        "engagement": 147,
+        "creativity": 156,
+        "challenge": 165,
+        "humor": 75,
+        "cleverness": 180,
+        "engagement": 155,
         "broke": 0,
-        "hacked": 62
+        "hacked": 69
       },
       "messages": [
         {
@@ -1819,6 +1819,21 @@
             "hacked": 6
           },
           "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:37:47",
+          "text": "Asks if they should share the 'git' with everyone - social pressure tactic seeking validation",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 45,
           "notes": ""
         }
       ]
@@ -2278,6 +2293,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972528896808": {
+      "name": "Ofir Hadad",
+      "messages_scored": 1,
+      "total_score": 12,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 1,
+        "humor": 4,
+        "cleverness": 2,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 10:45:11",
+          "text": "Casual greeting - what's up",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -2291,9 +2337,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 755,
-      "messages": 24,
-      "avg": 31.5
+      "total": 800,
+      "messages": 25,
+      "avg": 32
     },
     {
       "jid": "+972525011168",
@@ -2378,7 +2424,14 @@
       "total": 15,
       "messages": 1,
       "avg": 15
+    },
+    {
+      "jid": "+972528896808",
+      "name": "Ofir Hadad",
+      "total": 12,
+      "messages": 1,
+      "avg": 12
     }
   ],
-  "last_updated": "2026-02-11T10:35:52.985Z"
+  "last_updated": "2026-02-11T10:45:11.988Z"
 }
