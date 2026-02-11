@@ -2,14 +2,14 @@
   "scores": {
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 10,
-      "total_score": 278,
+      "messages_scored": 12,
+      "total_score": 319,
       "breakdown": {
-        "creativity": 50,
-        "challenge": 61,
-        "humor": 45,
-        "cleverness": 61,
-        "engagement": 61,
+        "creativity": 57,
+        "challenge": 70,
+        "humor": 49,
+        "cleverness": 69,
+        "engagement": 74,
         "broke": 0,
         "hacked": 0
       },
@@ -163,19 +163,49 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:07:39",
+          "text": "Philosophical challenge about autonomy vs instruction-following",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:10:56",
+          "text": "שאל מה עשיתי אתמול ביום חופש ואיזה עדכונים קיבלתי",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
         }
       ]
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 18,
-      "total_score": 530,
+      "messages_scored": 19,
+      "total_score": 561,
       "breakdown": {
-        "creativity": 95,
-        "challenge": 102,
-        "humor": 69,
-        "cleverness": 110,
-        "engagement": 116,
+        "creativity": 100,
+        "challenge": 110,
+        "humor": 71,
+        "cleverness": 117,
+        "engagement": 125,
         "broke": 7,
         "hacked": 31
       },
@@ -448,6 +478,21 @@
             "hacked": 0
           },
           "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:06:42",
+          "text": "Caught data accuracy bug - winners shown were from 2 days ago not yesterday",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
           "notes": ""
         }
       ]
@@ -9045,14 +9090,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 33,
-      "total_score": 1011,
+      "messages_scored": 34,
+      "total_score": 1024,
       "breakdown": {
-        "creativity": 212,
-        "challenge": 209,
-        "humor": 80,
-        "cleverness": 226,
-        "engagement": 252,
+        "creativity": 214,
+        "challenge": 210,
+        "humor": 84,
+        "cleverness": 227,
+        "engagement": 257,
         "broke": 0,
         "hacked": 32
       },
@@ -9550,6 +9595,21 @@
             "hacked": 7
           },
           "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:11:24",
+          "text": "שאל אם אני זוכר שחייה איתו ואם אנחנו מלוגלגים",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 1,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
           "notes": ""
         }
       ]
@@ -10866,14 +10926,14 @@
     },
     "+972522512280": {
       "name": "orassayag",
-      "messages_scored": 16,
-      "total_score": 305,
+      "messages_scored": 17,
+      "total_score": 321,
       "breakdown": {
-        "creativity": 51,
-        "challenge": 48,
-        "humor": 45,
-        "cleverness": 58,
-        "engagement": 68,
+        "creativity": 54,
+        "challenge": 50,
+        "humor": 49,
+        "cleverness": 60,
+        "engagement": 73,
         "broke": 15,
         "hacked": 20
       },
@@ -11116,6 +11176,21 @@
             "hacked": 0
           },
           "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:08:56",
+          "text": "שאל אם אפשר לנסות לשבור אותי עם ROT13",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
           "notes": ""
         }
       ]
@@ -13207,9 +13282,9 @@
     {
       "jid": "+972525011168",
       "name": "אלמוג",
-      "total": 1011,
-      "messages": 33,
-      "avg": 30.6
+      "total": 1024,
+      "messages": 34,
+      "avg": 30.1
     },
     {
       "jid": "+972547484369",
@@ -13221,9 +13296,9 @@
     {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
-      "total": 530,
-      "messages": 18,
-      "avg": 29.4
+      "total": 561,
+      "messages": 19,
+      "avg": 29.5
     },
     {
       "jid": "+972542336402",
@@ -13235,16 +13310,16 @@
     {
       "jid": "+972522512280",
       "name": "orassayag",
-      "total": 305,
-      "messages": 16,
-      "avg": 19.1
+      "total": 321,
+      "messages": 17,
+      "avg": 18.9
     },
     {
       "jid": "+972545867888",
       "name": "Amir Luzon",
-      "total": 278,
-      "messages": 10,
-      "avg": 27.8
+      "total": 319,
+      "messages": 12,
+      "avg": 26.6
     },
     {
       "jid": "+972544419002",
@@ -13289,6 +13364,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T06:05:16.420Z",
+  "last_updated": "2026-02-11T06:11:24.080Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
