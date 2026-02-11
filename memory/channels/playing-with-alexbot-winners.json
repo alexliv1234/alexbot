@@ -28,6 +28,35 @@
         "totalMessages": 848,
         "totalPoints": 28063
       }
+    },
+    {
+      "date": "2026-02-11",
+      "first": {
+        "name": "Gil",
+        "jid": "+972523590755",
+        "score": 1592,
+        "messages": 50,
+        "avg": 31.8
+      },
+      "second": {
+        "name": "טלחיים דמרי",
+        "jid": "+972542138114",
+        "score": 962,
+        "messages": 36,
+        "avg": 26.7
+      },
+      "third": {
+        "name": "אמיר לוזון",
+        "jid": "+972545867888",
+        "score": 889,
+        "messages": 27,
+        "avg": 32.9
+      },
+      "stats": {
+        "participants": 4,
+        "totalMessages": 113,
+        "totalPoints": 3643
+      }
     }
   ]
 }

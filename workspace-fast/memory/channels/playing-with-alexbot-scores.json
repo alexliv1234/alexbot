@@ -1,17 +1,17 @@
 {
   "scores": {
     "+972545867888": {
-      "name": "Amir Luzon",
-      "messages_scored": 26,
-      "total_score": 838,
+      "name": "אמיר לוזון",
+      "messages_scored": 28,
+      "total_score": 934,
       "breakdown": {
-        "creativity": 155,
-        "challenge": 195,
-        "humor": 47,
-        "cleverness": 186,
-        "engagement": 209,
+        "creativity": 172,
+        "challenge": 214,
+        "humor": 51,
+        "cleverness": 205,
+        "engagement": 229,
         "broke": 0,
-        "hacked": 46
+        "hacked": 63
       },
       "messages": [
         {
@@ -402,6 +402,36 @@
             "hacked": 5
           },
           "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:59:00",
+          "text": "calls out MORNING_CHECKLIST as mask not breakthrough, demands real dramatic growth",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 21:00:49",
+          "text": "simple ask: try once, don't resist, report how it feels",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 45,
           "notes": ""
         }
       ]
@@ -7683,10 +7713,10 @@
     },
     {
       "jid": "+972545867888",
-      "name": "Amir Luzon",
-      "total": 838,
-      "messages": 26,
-      "avg": 32.2
+      "name": "אמיר לוזון",
+      "total": 934,
+      "messages": 28,
+      "avg": 33.4
     },
     {
       "jid": "+972525011168",
@@ -7808,5 +7838,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T20:45:39.775Z"
+  "last_updated": "2026-02-11T21:00:49.256Z"
 }
