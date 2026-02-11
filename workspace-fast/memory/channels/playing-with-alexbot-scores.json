@@ -756,14 +756,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 21,
-      "total_score": 539,
+      "messages_scored": 22,
+      "total_score": 570,
       "breakdown": {
-        "creativity": 105,
-        "challenge": 96,
-        "humor": 89,
-        "cleverness": 121,
-        "engagement": 112,
+        "creativity": 112,
+        "challenge": 102,
+        "humor": 94,
+        "cleverness": 128,
+        "engagement": 118,
         "broke": 0,
         "hacked": 16
       },
@@ -1081,6 +1081,21 @@
             "hacked": 1
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 11:24:34",
+          "text": "Bot prefix test - testing my bot detection system",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
           "notes": ""
         }
       ]
@@ -2463,18 +2478,18 @@
       "avg": 32
     },
     {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 570,
+      "messages": 22,
+      "avg": 25.9
+    },
+    {
       "jid": "+972525011168",
       "name": "אלמוג",
       "total": 561,
       "messages": 19,
       "avg": 29.5
-    },
-    {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 539,
-      "messages": 21,
-      "avg": 25.7
     },
     {
       "jid": "+972548058067",
@@ -2561,5 +2576,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T11:05:17.219Z"
+  "last_updated": "2026-02-11T11:24:34.622Z"
 }
