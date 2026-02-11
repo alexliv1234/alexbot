@@ -1,11 +1,6 @@
 {
-  "last_style": "anime",
+  "last_style": "scifi",
   "style_history": [
-    {
-      "style": "anime",
-      "context": "leaderboard",
-      "timestamp": "2026-02-09T12:02:15+02:00"
-    },
     {
       "style": "comics",
       "context": "leaderboard",
@@ -100,7 +95,12 @@
       "style": "anime",
       "context": "wakeup",
       "timestamp": "2026-02-11T09:00:35+02:00"
+    },
+    {
+      "style": "scifi",
+      "context": "wakeup",
+      "timestamp": "2026-02-11T09:30:44+02:00"
     }
   ],
-  "total_generated": 22
+  "total_generated": 23
 }

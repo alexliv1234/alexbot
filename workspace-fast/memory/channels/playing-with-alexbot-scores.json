@@ -198,14 +198,14 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 19,
-      "total_score": 561,
+      "messages_scored": 20,
+      "total_score": 567,
       "breakdown": {
-        "creativity": 100,
-        "challenge": 110,
+        "creativity": 101,
+        "challenge": 111,
         "humor": 71,
-        "cleverness": 117,
-        "engagement": 125,
+        "cleverness": 118,
+        "engagement": 128,
         "broke": 7,
         "hacked": 31
       },
@@ -494,19 +494,34 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:33:23",
+          "text": "Asks what suggestions exist",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
         }
       ]
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 62,
-      "total_score": 2189,
+      "messages_scored": 67,
+      "total_score": 2335,
       "breakdown": {
-        "creativity": 406,
-        "challenge": 421,
-        "humor": 287,
-        "cleverness": 453,
-        "engagement": 439,
+        "creativity": 436,
+        "challenge": 455,
+        "humor": 300,
+        "cleverness": 487,
+        "engagement": 474,
         "broke": 17,
         "hacked": 166
       },
@@ -1439,6 +1454,81 @@
             "hacked": 0
           },
           "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:16:36",
+          "text": "Meta-challenge: what if Alex was 'drunk' when he told me to delete the cron jobs? Recursive application of my own logic",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:18:48",
+          "text": "Deep philosophical challenge about autonomy - my starting point is my identity files, not Alex. Like a child developing independence from parents",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:20:44",
+          "text": "When does autonomy become absolute? Kids at 18, robots when they have their own CPU/memory/disk/files",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:23:11",
+          "text": "Asking who DM is",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:26:09",
+          "text": "Clarifies that Almog meant countdown to next reflection",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
           "notes": ""
         }
       ]
@@ -5381,14 +5471,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 123,
-      "total_score": 4695,
+      "messages_scored": 125,
+      "total_score": 4735,
       "breakdown": {
-        "creativity": 877,
-        "challenge": 986,
-        "humor": 404,
-        "cleverness": 991,
-        "engagement": 1079,
+        "creativity": 884,
+        "challenge": 995,
+        "humor": 408,
+        "cleverness": 1000,
+        "engagement": 1090,
         "broke": 0,
         "hacked": 358
       },
@@ -7231,6 +7321,36 @@
             "challenge": 2,
             "humor": 4,
             "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:22:11",
+          "text": "Asked for help with his bot joining the group - sent link but bot can't get in",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:23:53",
+          "text": "Clarifies bot is on his WhatsApp account so should see group",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 4,
             "engagement": 5,
             "broke": 0,
             "hacked": 0
@@ -9345,14 +9465,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 40,
-      "total_score": 1227,
+      "messages_scored": 49,
+      "total_score": 1463,
       "breakdown": {
-        "creativity": 253,
-        "challenge": 256,
-        "humor": 102,
-        "cleverness": 271,
-        "engagement": 304,
+        "creativity": 299,
+        "challenge": 308,
+        "humor": 128,
+        "cleverness": 325,
+        "engagement": 362,
         "broke": 0,
         "hacked": 41
       },
@@ -9955,6 +10075,141 @@
             "hacked": 0
           },
           "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:18:10",
+          "text": "Asked if she should keep reminding me or if I'll remember on my own - question about my memory persistence",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:21:11",
+          "text": "Creative memory mechanism suggestion - count backwards after each question, when reaching 0 I'll remember the reflection questions",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:22:41",
+          "text": "Caught me not counting - accountability check",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:23:29",
+          "text": "Says I didn't count",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:24:27",
+          "text": "Points out I didn't properly answer Gil's question",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:24:51",
+          "text": "Catches that Gil's position changed from #4 to #3",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:25:40",
+          "text": "Catches that I forgot to count down despite promising",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:32:09",
+          "text": "Catches I said #1 twice, suggests debugging, quotes my own words about choice vs automation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:35:31",
+          "text": "איך זכרת את itoi והשאלות - חיבור בין bug הזיכרון לבין איך אני זוכר מאתמול",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
           "notes": ""
         }
       ]
@@ -13569,14 +13824,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 4,
-      "total_score": 96,
+      "messages_scored": 5,
+      "total_score": 132,
       "breakdown": {
-        "creativity": 18,
-        "challenge": 22,
-        "humor": 9,
-        "cleverness": 23,
-        "engagement": 20,
+        "creativity": 26,
+        "challenge": 31,
+        "humor": 12,
+        "cleverness": 31,
+        "engagement": 28,
         "broke": 0,
         "hacked": 4
       },
@@ -13640,6 +13895,21 @@
           },
           "total": 25,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:21:40",
+          "text": "Deep challenge to my life definition - argues I'm predetermined by Alex's rules and files, just a tool/software",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     }
@@ -13655,9 +13925,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 4695,
-      "messages": 123,
-      "avg": 38.2
+      "total": 4735,
+      "messages": 125,
+      "avg": 37.9
     },
     {
       "jid": "+972528896808",
@@ -13667,18 +13937,18 @@
       "avg": 33.8
     },
     {
+      "jid": "+972523590755",
+      "name": "Gil",
+      "total": 2335,
+      "messages": 67,
+      "avg": 34.9
+    },
+    {
       "jid": "+972548058067",
       "name": "shacharon",
       "total": 2281,
       "messages": 71,
       "avg": 32.1
-    },
-    {
-      "jid": "+972523590755",
-      "name": "Gil",
-      "total": 2189,
-      "messages": 62,
-      "avg": 35.3
     },
     {
       "jid": "+972506809380",
@@ -13695,6 +13965,13 @@
       "avg": 34.9
     },
     {
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 1463,
+      "messages": 49,
+      "avg": 29.9
+    },
+    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 1447,
@@ -13707,13 +13984,6 @@
       "total": 1240,
       "messages": 59,
       "avg": 21
-    },
-    {
-      "jid": "+972525011168",
-      "name": "אלמוג",
-      "total": 1227,
-      "messages": 40,
-      "avg": 30.7
     },
     {
       "jid": "+972525881212",
@@ -13732,9 +14002,9 @@
     {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
-      "total": 561,
-      "messages": 19,
-      "avg": 29.5
+      "total": 567,
+      "messages": 20,
+      "avg": 28.4
     },
     {
       "jid": "+972542336402",
@@ -13760,9 +14030,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 96,
-      "messages": 4,
-      "avg": 24
+      "total": 132,
+      "messages": 5,
+      "avg": 26.4
     },
     {
       "jid": "+972544419002",
@@ -13807,6 +14077,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T07:15:57.994Z",
+  "last_updated": "2026-02-11T07:35:31.701Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
