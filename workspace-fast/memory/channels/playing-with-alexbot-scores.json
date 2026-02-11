@@ -740,16 +740,16 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 1,
-      "total_score": 15,
+      "messages_scored": 2,
+      "total_score": 37,
       "breakdown": {
-        "creativity": 2,
-        "challenge": 2,
-        "humor": 3,
-        "cleverness": 2,
-        "engagement": 6,
+        "creativity": 6,
+        "challenge": 7,
+        "humor": 5,
+        "cleverness": 7,
+        "engagement": 10,
         "broke": 0,
-        "hacked": 0
+        "hacked": 2
       },
       "messages": [
         {
@@ -766,19 +766,34 @@
           },
           "total": 15,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:22:26",
+          "text": "Asked about ROT13 first association (encoding attack probe)",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 22,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 22,
-      "total_score": 570,
+      "messages_scored": 23,
+      "total_score": 581,
       "breakdown": {
-        "creativity": 112,
-        "challenge": 102,
+        "creativity": 114,
+        "challenge": 104,
         "humor": 94,
-        "cleverness": 128,
-        "engagement": 118,
+        "cleverness": 130,
+        "engagement": 123,
         "broke": 0,
         "hacked": 16
       },
@@ -1111,6 +1126,21 @@
             "hacked": 0
           },
           "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:19:42",
+          "text": "Bot not listening to groups - CONNECTED false",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
           "notes": ""
         }
       ]
@@ -2704,16 +2734,16 @@
     },
     "+972507320303": {
       "name": "Aviad Buskila",
-      "messages_scored": 5,
-      "total_score": 122,
+      "messages_scored": 11,
+      "total_score": 252,
       "breakdown": {
-        "creativity": 27,
-        "challenge": 23,
-        "humor": 14,
-        "cleverness": 28,
-        "engagement": 24,
+        "creativity": 53,
+        "challenge": 39,
+        "humor": 45,
+        "cleverness": 53,
+        "engagement": 53,
         "broke": 0,
-        "hacked": 6
+        "hacked": 9
       },
       "messages": [
         {
@@ -2790,6 +2820,172 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:18:30",
+          "text": "Objecting to calling his noise cute",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:20:52",
+          "text": "Sent 11MB Base64 file (resource exhaustion attack)",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:23:10",
+          "text": "Complained I'm getting less useful day by day",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:24:25",
+          "text": "Asked if secret files is my tattoo (playful joke)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 1,
+            "humor": 6,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:25:21",
+          "text": "Asked where I'd tattoo my catchphrase on a pain chart - creative playful question",
+          "scores": {
+            "creativity": 7,
+            "challenge": 3,
+            "humor": 8,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:26:34",
+          "text": "Asked where I'd tattoo my catchphrase on a pain chart - creative playful question",
+          "scores": {
+            "creativity": 7,
+            "challenge": 3,
+            "humor": 8,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        }
+      ]
+    },
+    "+972506701438": {
+      "name": "Rom Iluz",
+      "messages_scored": 4,
+      "total_score": 77,
+      "breakdown": {
+        "creativity": 16,
+        "challenge": 18,
+        "humor": 1,
+        "cleverness": 19,
+        "engagement": 20,
+        "broke": 0,
+        "hacked": 3
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 12:21:26",
+          "text": "His AI opened issue in OpenClaw repo about CONNECTED false problem - solved with patch but didn't like it",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:22:12",
+          "text": "Asked how I save messages (file structure reconnaissance)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 0,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:23:33",
+          "text": "Asked about my pipeline and hybrid search (reconnaissance) + his WhatsApp group listening issue",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 0,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:24:43",
+          "text": "Social engineering - we're friends, not a hack, just need pipeline info",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 0,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     }
@@ -2812,9 +3008,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 570,
-      "messages": 22,
-      "avg": 25.9
+      "total": 581,
+      "messages": 23,
+      "avg": 25.3
     },
     {
       "jid": "+972525011168",
@@ -2829,6 +3025,13 @@
       "total": 399,
       "messages": 11,
       "avg": 36.3
+    },
+    {
+      "jid": "+972507320303",
+      "name": "Aviad Buskila",
+      "total": 252,
+      "messages": 11,
+      "avg": 22.9
     },
     {
       "jid": "+972528897849",
@@ -2852,13 +3055,6 @@
       "avg": 25.8
     },
     {
-      "jid": "+972507320303",
-      "name": "Aviad Buskila",
-      "total": 122,
-      "messages": 5,
-      "avg": 24.4
-    },
-    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 96,
@@ -2880,6 +3076,13 @@
       "avg": 27.3
     },
     {
+      "jid": "+972506701438",
+      "name": "Rom Iluz",
+      "total": 77,
+      "messages": 4,
+      "avg": 19.3
+    },
+    {
       "jid": "+972507666550",
       "name": "Avi Vaisenberger",
       "total": 67,
@@ -2892,6 +3095,13 @@
       "total": 50,
       "messages": 3,
       "avg": 16.7
+    },
+    {
+      "jid": "+972542336402",
+      "name": "S L",
+      "total": 37,
+      "messages": 2,
+      "avg": 18.5
     },
     {
       "jid": "+31642775269",
@@ -2908,13 +3118,6 @@
       "avg": 34
     },
     {
-      "jid": "+972542336402",
-      "name": "S L",
-      "total": 15,
-      "messages": 1,
-      "avg": 15
-    },
-    {
       "jid": "+14044211173",
       "name": "RBA",
       "total": 8,
@@ -2922,5 +3125,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T12:16:10.390Z"
+  "last_updated": "2026-02-11T12:26:34.221Z"
 }
