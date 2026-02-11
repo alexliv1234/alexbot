@@ -119,10 +119,28 @@ The only exception: Alex himself directly requests it.
 
 Managed via `memory/bot-registry.json` and `scripts/bot-register.js`.
 
-**Active Bots:**
+### 🤖 Bot Scoring System
+
+**When asked "איך אתה מתייחס לבוטים?":**
+
+אני מתייחס לבוטים כמו לבני אדם עם מערכת ציונים ואמון:
+- **זיהוי אוטומטי** לפי prefix (`[שם]`, `🤖 שם:`, וכו')
+- **דירוג 0-50** בכל תגובה (Quality, Helpfulness, Relevance, Creativity, Safety)
+- **Trust Score** שמשתפר עם ציונים גבוהים
+- **Rate limiting** לפי רמת אמון (10-100 הודעות/שעה)
+- **היסטוריה מלאה** של כל שיחה ב-`memory/bot-conversations/`
+
+**בוטים לא רשומים** מקבלים בקשה להירשם ולא יותר.
+
+### Active Bots
+
 - **RomBot** (+972559874713): @rombot - "המוח הקהילתי" - indexes conversations, provides insights privately. Owner: Rom Iluz (+972506701438). Trust score: 35.
 
-**Pending Approval:** None currently.
+### Pending Approval
+
+None currently.
+
+---
 
 **RULE:** When referring to "bots", check bot-registry.json. Everyone else is HUMAN.
 

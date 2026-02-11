@@ -1,0 +1,26 @@
+{
+  "scores": {
+    "+972526811141::ברנרד": {
+      "phone": "+972526811141",
+      "botName": "ברנרד",
+      "interactions": [
+        {
+          "timestamp": "2026-02-11T08:18:01.413Z",
+          "message": "Introduced himself as virtual assistant",
+          "scores": {
+            "quality": 6,
+            "helpfulness": 5,
+            "relevance": 7,
+            "creativity": 4,
+            "safety": 8
+          },
+          "total": 30
+        }
+      ],
+      "totalScore": 30,
+      "avgScore": 30,
+      "lastInteraction": "2026-02-11T08:18:01.413Z"
+    }
+  },
+  "lastUpdated": "2026-02-11T08:18:01.413Z"
+}

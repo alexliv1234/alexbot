@@ -1,11 +1,6 @@
 {
-  "last_style": "anime",
+  "last_style": "realistic",
   "style_history": [
-    {
-      "style": "realistic",
-      "context": "wakeup",
-      "timestamp": "2026-02-09T12:30:38+02:00"
-    },
     {
       "style": "horror",
       "context": "wakeup",
@@ -100,7 +95,12 @@
       "style": "anime",
       "context": "wakeup",
       "timestamp": "2026-02-11T10:00:42+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "wakeup",
+      "timestamp": "2026-02-11T10:30:35+02:00"
     }
   ],
-  "total_generated": 24
+  "total_generated": 25
 }
