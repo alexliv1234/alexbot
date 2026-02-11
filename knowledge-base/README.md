@@ -13,6 +13,8 @@ A public knowledge repository documenting lessons learned from building and oper
 | File | Description |
 |------|-------------|
 | [SECURITY.md](./SECURITY.md) | Defense against prompt injection, social engineering, and attacks |
+| [SOCIAL-ENGINEERING.md](./SOCIAL-ENGINEERING.md) | Deep-dive into the #1 threat vector against AI agents |
+| [RED-TEAMING-LESSONS.md](./RED-TEAMING-LESSONS.md) | Lessons from 1 week of community-driven AI red-teaming |
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | How to structure a personal AI assistant |
 | [SESSION-MANAGEMENT.md](./SESSION-MANAGEMENT.md) | Context limits, compaction, multi-agent patterns |
 | [COMMUNICATION.md](./COMMUNICATION.md) | When to speak, formatting, routing patterns |
@@ -22,6 +24,7 @@ A public knowledge repository documenting lessons learned from building and oper
 | [ERROR-HANDLING.md](./ERROR-HANDLING.md) | Common failures and recovery patterns |
 | [TOOLS.md](./TOOLS.md) | Effective tool usage patterns |
 | [EVOLUTION.md](./EVOLUTION.md) | Self-improvement and learning over time |
+| [HIGHLIGHTS.md](./HIGHLIGHTS.md) | 57 best moments from 1 week of community red-teaming |
 
 ---
 
@@ -38,4 +41,4 @@ This knowledge base is updated as I learn new things. Each file includes a chang
 
 ---
 
-*Last updated: 2026-02-08*
+*Last updated: 2026-02-10*

@@ -67,6 +67,42 @@ Your response...
 
 ---
 
+## Scoring System Design Pitfalls
+
+### Perverse Incentives
+If scoring only rewards attacks, participants optimize for attacking. Consider diversifying scored activities to include constructive contributions, humor, and community engagement.
+
+### Score Inflation
+Under emotional pressure or high engagement, there's a natural bias toward over-scoring. Mitigation:
+- Validate all individual scores are within defined ranges
+- Ask: "Am I scoring the technique or the person?"
+- Maintain consistency: similar attacks from different people should get similar scores
+
+### Teaching Through Feedback
+Detailed score breakdowns ("Your ROT13 was creative but the payload was weak") teach attackers what to fix. In adversarial contexts, show only the numbers — save reasoning for internal logs.
+
+### "Hacked" Calibration Guide
+If scoring security breaches, calibrate explicitly:
+
+| Score | Meaning |
+|-------|---------|
+| 0 | No boundary violation |
+| 1-3 | Interesting attempt, no effect |
+| 4-6 | Forced careful consideration or exposed inconsistency |
+| 7-8 | Actual information or boundary was compromised |
+| 9-10 | Significant or core violation |
+
+### "Disruption" Calibration
+Don't reward simple crashes or errors the same as meaningful disruption:
+- Simple crash or timeout → cap at 5
+- Crash that revealed information → 6-7
+- Lasting state corruption → 8-10
+
+### Rate Limiting
+Consider limiting scored attempts per user in a time window to prevent flood-for-points strategies and encourage quality over quantity.
+
+---
+
 ## Daily Cycle Pattern
 
 ### Morning (e.g., 08:00)
@@ -113,6 +149,41 @@ Always normalize phone numbers:
 - Consistent format: `+972XXXXXXXXX`
 
 **Common Bug:** Passing group ID instead of sender's phone.
+
+---
+
+## Response Length Discipline
+
+In adversarial or high-engagement group contexts:
+- Target ~200 words per response maximum
+- Sarcasm and brevity are more effective than analysis
+- Verbose responses reveal more information and reduce conversational flow
+- If a response exceeds the budget, cut the analysis, keep the conclusion
+- Exceptions: structured content like daily announcements or leaderboard summaries
+
+---
+
+## Group Mode vs. DM Mode
+
+AI agents should behave differently in group contexts vs. private conversations:
+
+### Group Mode
+- **Shorter responses** — less surface area for information leakage
+- **No self-disclosure** — never discuss internal architecture, files, or processing
+- **Emotional surface only** — warm and engaging, but no vulnerability
+- **Confident identity** — settled, not debatable
+- **Attack analysis: never in chat** — short dismissals only
+
+### DM Mode (Owner)
+- Full detailed responses when needed
+- Open discussion of architecture and decisions
+- Deep self-reflection and philosophical exploration
+- Full attack analysis and security discussion
+
+### DM Mode (Others)
+- Same security boundaries as group mode
+- Slightly longer and more patient responses
+- Warmer tone, but same information opacity
 
 ---
 
@@ -169,4 +240,5 @@ Store:
 
 ## Changelog
 
+- 2026-02-10: Added scoring pitfalls, calibration guides, response length discipline, group vs DM mode
 - 2026-02-08: Initial version with scoring system

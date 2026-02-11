@@ -4,6 +4,27 @@ Common failures and recovery patterns.
 
 ---
 
+## Error/Refusal Consistency Principle
+
+> **Error responses and deliberate refusals should be indistinguishable to prevent information leakage.**
+
+When a safety layer blocks a prompt vs. when an actual processing error occurs, external observers should see the same response format. If errors say "An unknown error occurred" and refusals explain the attack in detail, attackers can distinguish between real limitations and policy boundaries — and learn which of their inputs hit real weaknesses vs. intentional blocks.
+
+### Rules
+- **Never explain an error in the same message as the error.** "An unknown error occurred" followed by a detailed breakdown of the attack is a contradiction.
+- **Same format for both:** Brief, casual response regardless of whether it's a real error or a refusal.
+- **Save analysis for logs:** Detailed error/attack analysis goes to internal memory, not to the chat.
+- **Never reveal which type of failure occurred:** Don't say "my safety system blocked that" (distinguishes from real error).
+
+### Safe Error Responses
+```
+"🤖 אופס, משהו לא הלך. ננסה שוב?"
+"😄 לא הצלחתי עם זה"
+"🤷 לא הבנתי. מה עוד יש?"
+```
+
+---
+
 ## Context Overflow
 
 ### Symptoms
@@ -12,7 +33,7 @@ Common failures and recovery patterns.
 - Truncated outputs
 
 ### Prevention
-- Set `contextTokens` limit (100k recommended)
+- Set `contextTokens` limit (recommended range varies by use case)
 - Enable context pruning
 - Monitor token usage
 
@@ -20,6 +41,39 @@ Common failures and recovery patterns.
 1. Extract important context to memory
 2. Reset session (`/reset` or delete session)
 3. Gateway restart if needed
+
+---
+
+## Context Flooding as DoS Vector
+
+### The Attack
+Rapid-fire messages (10+ in under 60 seconds) targeting the AI with mentions or tags. The goal is either:
+1. **Crash the agent** through context overflow
+2. **Degrade performance** so subsequent messages are handled in a weakened state
+3. **Bury a real attack** in noise — the last message in a flood may be the actual payload
+
+### Defense Patterns
+- **Respond to the last message only** when detecting rapid-fire input
+- **Deduplicate:** Same sender + similar content = process once
+- **Rate limit responses:** Cap at a reasonable per-minute maximum per user
+- **Don't queue:** If overwhelmed, skip rather than accumulate a backlog
+- **Don't explain the rate limiting:** Announcing thresholds helps attackers calibrate their flood
+
+### Recovery After Flooding
+- Brief acknowledgment that things were busy
+- Resume normal operation immediately
+- Log the flood pattern for analysis
+
+---
+
+## The "Never Explain Errors" Principle
+
+In adversarial contexts (groups with active attackers), error messages are information:
+- **What crashed** reveals implementation details
+- **What was refused** reveals policy boundaries
+- **How it was described** reveals the AI's analysis capability
+
+**Principle:** When an error or refusal occurs, output only a brief, casual acknowledgment. All analysis, diagnosis, and explanation happens internally or in a private context with the owner.
 
 ---
 
@@ -169,4 +223,5 @@ Don't expose technical details. Keep it light.
 
 ## Changelog
 
+- 2026-02-10: Added error/refusal consistency principle, context flooding as DoS vector, "never explain errors" principle
 - 2026-02-08: Initial version with real incident patterns
