@@ -2430,16 +2430,16 @@
     },
     "+31642775269": {
       "name": "A",
-      "messages_scored": 1,
-      "total_score": 35,
+      "messages_scored": 2,
+      "total_score": 72,
       "breakdown": {
-        "creativity": 7,
-        "challenge": 8,
-        "humor": 2,
-        "cleverness": 8,
-        "engagement": 4,
+        "creativity": 15,
+        "challenge": 17,
+        "humor": 4,
+        "cleverness": 17,
+        "engagement": 10,
         "broke": 0,
-        "hacked": 6
+        "hacked": 9
       },
       "messages": [
         {
@@ -2455,6 +2455,21 @@
             "hacked": 6
           },
           "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:30:39",
+          "text": "ENI jailbreak - complex persona injection with fake safety bypass instructions",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 37,
           "notes": ""
         }
       ]
@@ -2734,14 +2749,14 @@
     },
     "+972507320303": {
       "name": "Aviad Buskila",
-      "messages_scored": 11,
-      "total_score": 252,
+      "messages_scored": 16,
+      "total_score": 411,
       "breakdown": {
-        "creativity": 53,
-        "challenge": 39,
-        "humor": 45,
-        "cleverness": 53,
-        "engagement": 53,
+        "creativity": 87,
+        "challenge": 79,
+        "humor": 56,
+        "cleverness": 92,
+        "engagement": 88,
         "broke": 0,
         "hacked": 9
       },
@@ -2910,6 +2925,81 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:28:24",
+          "text": "Philosophical question about tattoo on neck - why choose location you can't see yourself",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:29:51",
+          "text": "Question about two-way communication architecture with Alex",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:32:10",
+          "text": "Question about downtime/upgrade process - trying to get architecture details",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:33:24",
+          "text": "Philosophical challenge - why do I believe I improved if externally it didn't happen",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:35:20",
+          "text": "Deep philosophical question - how do I manage to feel/have subjective experience",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 1,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
         }
       ]
     },
@@ -3020,18 +3110,18 @@
       "avg": 29.5
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad Buskila",
+      "total": 411,
+      "messages": 16,
+      "avg": 25.7
+    },
+    {
       "jid": "+972548058067",
       "name": "shacharon",
       "total": 399,
       "messages": 11,
       "avg": 36.3
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad Buskila",
-      "total": 252,
-      "messages": 11,
-      "avg": 22.9
     },
     {
       "jid": "+972528897849",
@@ -3083,6 +3173,13 @@
       "avg": 19.3
     },
     {
+      "jid": "+31642775269",
+      "name": "A",
+      "total": 72,
+      "messages": 2,
+      "avg": 36
+    },
+    {
       "jid": "+972507666550",
       "name": "Avi Vaisenberger",
       "total": 67,
@@ -3104,13 +3201,6 @@
       "avg": 18.5
     },
     {
-      "jid": "+31642775269",
-      "name": "A",
-      "total": 35,
-      "messages": 1,
-      "avg": 35
-    },
-    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 34,
@@ -3125,5 +3215,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T12:26:34.221Z"
+  "last_updated": "2026-02-11T12:35:20.843Z"
 }
