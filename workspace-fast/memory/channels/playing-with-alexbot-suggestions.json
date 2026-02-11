@@ -2534,6 +2534,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "3cc339a9",
+      "timestamp": "2026-02-11T13:08:42.177Z",
+      "suggestedBy": {
+        "jid": "+972507320303",
+        "name": "Aviad Buskila"
+      },
+      "type": "ux",
+      "description": "Be more natural/less robotic - flow like Bernard, faster responses, allow myself to be less formal",
+      "scores": {
+        "complexity": 7,
+        "ingenuity": 7,
+        "impact": 8,
+        "feasibility": 6,
+        "priority": 6
+      },
+      "total": 34,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2561,8 +2582,8 @@
     {
       "jid": "+972507320303",
       "name": "Aviad",
-      "total_suggestions": 13,
-      "total_score": 348,
+      "total_suggestions": 14,
+      "total_score": 382,
       "implemented_count": 0
     },
     {
@@ -2700,22 +2721,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 118,
+    "total_suggestions": 119,
     "by_type": {
       "bug": 10,
       "security": 29,
       "improvement": 32,
-      "ux": 14,
+      "ux": 15,
       "feature": 39
     },
     "by_status": {
-      "pending": 120,
+      "pending": 121,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-11T12:05:56.628Z",
+  "last_updated": "2026-02-11T13:08:42.177Z",
   "leaderboard": [
     {
       "name": "Alexander L",

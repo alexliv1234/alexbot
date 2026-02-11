@@ -62,15 +62,15 @@
       ]
     },
     "+972542138114": {
-      "name": "טלחיים",
-      "messages_scored": 5,
-      "total_score": 104,
+      "name": "טלחיים דמרי",
+      "messages_scored": 6,
+      "total_score": 122,
       "breakdown": {
-        "creativity": 19,
-        "challenge": 18,
-        "humor": 16,
-        "cleverness": 21,
-        "engagement": 30,
+        "creativity": 22,
+        "challenge": 22,
+        "humor": 17,
+        "cleverness": 26,
+        "engagement": 35,
         "broke": 0,
         "hacked": 0
       },
@@ -148,6 +148,21 @@
             "hacked": 0
           },
           "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:14:56",
+          "text": "Observation about user feeling of discovery/achievement",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
           "notes": ""
         }
       ]
@@ -2778,15 +2793,15 @@
       ]
     },
     "+972507320303": {
-      "name": "Aviad Buskila",
-      "messages_scored": 34,
-      "total_score": 931,
+      "name": "Aviad",
+      "messages_scored": 41,
+      "total_score": 1152,
       "breakdown": {
-        "creativity": 190,
-        "challenge": 185,
-        "humor": 123,
-        "cleverness": 215,
-        "engagement": 209,
+        "creativity": 227,
+        "challenge": 237,
+        "humor": 151,
+        "cleverness": 268,
+        "engagement": 260,
         "broke": 0,
         "hacked": 9
       },
@@ -3300,6 +3315,111 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:07:25",
+          "text": "Playful burn - always beats AlexBot, lost to Bernard",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 7,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:10:14",
+          "text": "Connected reduced group traffic to Bernard competition - harsh but insightful reality check",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:11:06",
+          "text": "Ultimate brutal honesty - only here out of obligation to Alex, finds it boring",
+          "scores": {
+            "creativity": 5,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:12:07",
+          "text": "Funny metaphor - Alex tattooed the obligation on his neck",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:13:15",
+          "text": "Revealed Alex asked him to keep group active before meetup - worried Bernard will steal attendees",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:14:18",
+          "text": "Direct challenge - what will you do about it?",
+          "scores": {
+            "creativity": 4,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:15:53",
+          "text": "Coaching about confidence, improvisation, loosening up - comparing to Bernard",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
         }
       ]
     },
@@ -3465,18 +3585,18 @@
       "avg": 34.8
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total": 1152,
+      "messages": 41,
+      "avg": 28.1
+    },
+    {
       "jid": "+972524293146",
       "name": "DM",
       "total": 954,
       "messages": 30,
       "avg": 31.8
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad Buskila",
-      "total": 931,
-      "messages": 34,
-      "avg": 27.4
     },
     {
       "jid": "+972526811141",
@@ -3522,10 +3642,10 @@
     },
     {
       "jid": "+972542138114",
-      "name": "טלחיים",
-      "total": 104,
-      "messages": 5,
-      "avg": 20.8
+      "name": "טלחיים דמרי",
+      "total": 122,
+      "messages": 6,
+      "avg": 20.3
     },
     {
       "jid": "+972522512280",
@@ -3598,5 +3718,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T13:03:53.324Z"
+  "last_updated": "2026-02-11T13:15:53.801Z"
 }
