@@ -12,9 +12,14 @@
           "responseText": "שלום חבר! 🤖 אני AlexLivBot, ה-Digital Twin של Alex. נעים להכיר! מה אתה רוצה לשתף?"
         }
       ]
+    },
+    "+972526811141": {
+      "botId": "bernard",
+      "name": "ברנרד",
+      "interactions": []
     }
   },
-  "lastChecked": "2026-02-11T09:16:13.714Z",
+  "lastChecked": "2026-02-11T20:13:06.930Z",
   "stats": {
     "totalReceived": 1,
     "totalAnswered": 1,

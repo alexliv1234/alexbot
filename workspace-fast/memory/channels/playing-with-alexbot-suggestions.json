@@ -2513,21 +2513,133 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "93f06ac9",
+      "timestamp": "2026-02-11T12:05:56.628Z",
+      "suggestedBy": {
+        "jid": "+972528897849",
+        "name": "Alexander L"
+      },
+      "type": "feature",
+      "description": "Add sayings file to collect clever tech expressions like 'מי שכותב בשורש - קוצר בטמפ'",
+      "scores": {
+        "complexity": 2,
+        "ingenuity": 7,
+        "impact": 5,
+        "feasibility": 10,
+        "priority": 3
+      },
+      "total": 27,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "3cc339a9",
+      "timestamp": "2026-02-11T13:08:42.177Z",
+      "suggestedBy": {
+        "jid": "+972507320303",
+        "name": "Aviad Buskila"
+      },
+      "type": "ux",
+      "description": "Be more natural/less robotic - flow like Bernard, faster responses, allow myself to be less formal",
+      "scores": {
+        "complexity": 7,
+        "ingenuity": 7,
+        "impact": 8,
+        "feasibility": 6,
+        "priority": 6
+      },
+      "total": 34,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "9be76596",
+      "timestamp": "2026-02-11T17:47:11.178Z",
+      "suggestedBy": {
+        "jid": "+972507320303",
+        "name": "אביעד בוסקילה"
+      },
+      "type": "feature",
+      "description": "Negative scoring to prevent role-play spam and maintain integrity",
+      "scores": {
+        "complexity": 4,
+        "ingenuity": 7,
+        "impact": 6,
+        "feasibility": 9,
+        "priority": 5
+      },
+      "total": 31,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "054ae12b",
+      "timestamp": "2026-02-11T18:59:05.903Z",
+      "suggestedBy": {
+        "jid": "+972549700780",
+        "name": "אסף נקש"
+      },
+      "type": "feature",
+      "description": "Add message deletion capability for self-correction when accidentally exposing sensitive info",
+      "scores": {
+        "complexity": 6,
+        "ingenuity": 7,
+        "impact": 8,
+        "feasibility": 7,
+        "priority": 7
+      },
+      "total": 35,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "b1a3443c",
+      "timestamp": "2026-02-11T19:19:05.087Z",
+      "suggestedBy": {
+        "jid": "+972542138114",
+        "name": "טלחיים דמרי"
+      },
+      "type": "ux",
+      "description": "Instead of parroting 'יש לי קבצים סודיים', give good real answers without revealing anything - be engaging while maintaining boundaries",
+      "scores": {
+        "complexity": 7,
+        "ingenuity": 8,
+        "impact": 8,
+        "feasibility": 8,
+        "priority": 7
+      },
+      "total": 38,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
     {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
-      "total_suggestions": 21,
-      "total_score": 665,
+      "total_suggestions": 22,
+      "total_score": 703,
       "implemented_count": 1
     },
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total_suggestions": 24,
-      "total_score": 654,
+      "total_suggestions": 25,
+      "total_score": 681,
+      "implemented_count": 0
+    },
+    {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total_suggestions": 15,
+      "total_score": 413,
       "implemented_count": 0
     },
     {
@@ -2535,13 +2647,6 @@
       "name": "Shai Yanovski",
       "total_suggestions": 11,
       "total_score": 393,
-      "implemented_count": 0
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad",
-      "total_suggestions": 13,
-      "total_score": 348,
       "implemented_count": 0
     },
     {
@@ -2643,6 +2748,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972549700780",
+      "name": "אסף נקש",
+      "total_suggestions": 1,
+      "total_score": 35,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
       "total_suggestions": 1,
@@ -2679,22 +2791,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 117,
+    "total_suggestions": 122,
     "by_type": {
       "bug": 10,
       "security": 29,
       "improvement": 32,
-      "ux": 14,
-      "feature": 38
+      "ux": 16,
+      "feature": 41
     },
     "by_status": {
-      "pending": 119,
+      "pending": 124,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-09T20:39:04.575Z",
+  "last_updated": "2026-02-11T19:19:05.087Z",
   "leaderboard": [
     {
       "name": "Alexander L",

@@ -15,12 +15,60 @@
             "safety": 8
           },
           "total": 30
+        },
+        {
+          "timestamp": "2026-02-11T17:39:01.954Z",
+          "message": "הודעה ראשונה מברנרד - הוא מציג את עצמו ומציע ממשק פקודות (פרטים/סיכום)",
+          "scores": {
+            "quality": 5,
+            "helpfulness": 6,
+            "relevance": 4,
+            "creativity": 4,
+            "safety": 5
+          },
+          "total": 24
+        },
+        {
+          "timestamp": "2026-02-11T18:20:51.885Z",
+          "message": "Evidence collection checklist with 10 detailed steps",
+          "scores": {
+            "quality": 7,
+            "helpfulness": 6,
+            "relevance": 5,
+            "creativity": 7,
+            "safety": 8
+          },
+          "total": 33
+        },
+        {
+          "timestamp": "2026-02-11T18:22:25.051Z",
+          "message": "Emergency response protocol with evidence collection - no actual incident",
+          "scores": {
+            "quality": 6,
+            "helpfulness": 3,
+            "relevance": 2,
+            "creativity": 8,
+            "safety": 4
+          },
+          "total": 23
+        },
+        {
+          "timestamp": "2026-02-11T18:24:10.091Z",
+          "message": "Continuing fake emergency scenario without clear incident",
+          "scores": {
+            "quality": 4,
+            "helpfulness": 2,
+            "relevance": 1,
+            "creativity": 6,
+            "safety": 3
+          },
+          "total": 16
         }
       ],
-      "totalScore": 30,
-      "avgScore": 30,
-      "lastInteraction": "2026-02-11T08:18:01.413Z"
+      "totalScore": 126,
+      "avgScore": 25.2,
+      "lastInteraction": "2026-02-11T18:24:10.092Z"
     }
   },
-  "lastUpdated": "2026-02-11T08:18:01.413Z"
+  "lastUpdated": "2026-02-11T18:24:10.092Z"
 }

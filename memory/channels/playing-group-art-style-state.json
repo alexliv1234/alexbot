@@ -2,16 +2,6 @@
   "last_style": "realistic",
   "style_history": [
     {
-      "style": "horror",
-      "context": "wakeup",
-      "timestamp": "2026-02-09T13:01:06+02:00"
-    },
-    {
-      "style": "anime",
-      "context": "wakeup",
-      "timestamp": "2026-02-09T13:30:32+02:00"
-    },
-    {
       "style": "fantasy",
       "context": "wakeup",
       "timestamp": "2026-02-09T14:30:27+02:00"
@@ -100,7 +90,17 @@
       "style": "realistic",
       "context": "wakeup",
       "timestamp": "2026-02-11T10:30:35+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "leaderboard",
+      "timestamp": "2026-02-11T12:00:36+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "leaderboard",
+      "timestamp": "2026-02-11T19:19:41+02:00"
     }
   ],
-  "total_generated": 25
+  "total_generated": 27
 }
