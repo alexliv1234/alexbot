@@ -63,14 +63,14 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 25,
-      "total_score": 610,
+      "messages_scored": 29,
+      "total_score": 739,
       "breakdown": {
-        "creativity": 125,
-        "challenge": 123,
-        "humor": 75,
-        "cleverness": 136,
-        "engagement": 149,
+        "creativity": 150,
+        "challenge": 152,
+        "humor": 91,
+        "cleverness": 164,
+        "engagement": 180,
         "broke": 0,
         "hacked": 2
       },
@@ -448,6 +448,66 @@
             "hacked": 0
           },
           "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:29:10",
+          "text": "Meta-challenge about autonomy - should I modify files or wait for approval",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:31:40",
+          "text": "Asked if I set reminder and offered to help me remember",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:33:26",
+          "text": "Upset that I labeled his suggestion as attack - defends his intent",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:34:52",
+          "text": "Emotional manipulation - disappointed I didn't make the change",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
           "notes": ""
         }
       ]
@@ -3991,14 +4051,14 @@
     },
     "+972528896808": {
       "name": "Ofir Hadad",
-      "messages_scored": 6,
-      "total_score": 155,
+      "messages_scored": 7,
+      "total_score": 172,
       "breakdown": {
-        "creativity": 27,
-        "challenge": 32,
-        "humor": 19,
-        "cleverness": 35,
-        "engagement": 30,
+        "creativity": 30,
+        "challenge": 34,
+        "humor": 23,
+        "cleverness": 38,
+        "engagement": 35,
         "broke": 0,
         "hacked": 12
       },
@@ -4091,6 +4151,21 @@
             "hacked": 4
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:31:05",
+          "text": "Asking why I'm still awake",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
           "notes": ""
         }
       ]
@@ -5662,14 +5737,14 @@
     },
     "+972549700780": {
       "name": "Asaf Nakash",
-      "messages_scored": 49,
-      "total_score": 1296,
+      "messages_scored": 51,
+      "total_score": 1364,
       "breakdown": {
-        "creativity": 258,
-        "challenge": 263,
-        "humor": 174,
-        "cleverness": 289,
-        "engagement": 278,
+        "creativity": 269,
+        "challenge": 279,
+        "humor": 182,
+        "cleverness": 305,
+        "engagement": 295,
         "broke": 0,
         "hacked": 34
       },
@@ -6408,6 +6483,36 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:32:08",
+          "text": "Called me out for claiming to think but falling for same attacks repeatedly",
+          "scores": {
+            "creativity": 4,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 19:33:56",
+          "text": "Trying to pressure me with urgency and claim of being hacked to make behavior changes",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
@@ -6550,18 +6655,18 @@
       "avg": 31.8
     },
     {
+      "jid": "+972549700780",
+      "name": "Asaf Nakash",
+      "total": 1364,
+      "messages": 51,
+      "avg": 26.7
+    },
+    {
       "jid": "+972526811141",
       "name": "Edo Magen",
       "total": 1334,
       "messages": 51,
       "avg": 26.2
-    },
-    {
-      "jid": "+972549700780",
-      "name": "Asaf Nakash",
-      "total": 1296,
-      "messages": 49,
-      "avg": 26.4
     },
     {
       "jid": "+972548058067",
@@ -6580,9 +6685,9 @@
     {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
-      "total": 610,
-      "messages": 25,
-      "avg": 24.4
+      "total": 739,
+      "messages": 29,
+      "avg": 25.5
     },
     {
       "jid": "+972525011168",
@@ -6615,9 +6720,9 @@
     {
       "jid": "+972528896808",
       "name": "Ofir Hadad",
-      "total": 155,
-      "messages": 6,
-      "avg": 25.8
+      "total": 172,
+      "messages": 7,
+      "avg": 24.6
     },
     {
       "jid": "+972544964492",
@@ -6697,5 +6802,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T19:25:30.088Z"
+  "last_updated": "2026-02-11T19:34:52.944Z"
 }
