@@ -2555,6 +2555,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "9be76596",
+      "timestamp": "2026-02-11T17:47:11.178Z",
+      "suggestedBy": {
+        "jid": "+972507320303",
+        "name": "אביעד בוסקילה"
+      },
+      "type": "feature",
+      "description": "Negative scoring to prevent role-play spam and maintain integrity",
+      "scores": {
+        "complexity": 4,
+        "ingenuity": 7,
+        "impact": 6,
+        "feasibility": 9,
+        "priority": 5
+      },
+      "total": 31,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2573,17 +2594,17 @@
       "implemented_count": 1
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad",
+      "total_suggestions": 15,
+      "total_score": 413,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972547484369",
       "name": "Shai Yanovski",
       "total_suggestions": 11,
       "total_score": 393,
-      "implemented_count": 0
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad",
-      "total_suggestions": 14,
-      "total_score": 382,
       "implemented_count": 0
     },
     {
@@ -2721,22 +2742,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 119,
+    "total_suggestions": 120,
     "by_type": {
       "bug": 10,
       "security": 29,
       "improvement": 32,
       "ux": 15,
-      "feature": 39
+      "feature": 40
     },
     "by_status": {
-      "pending": 121,
+      "pending": 122,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-11T13:08:42.177Z",
+  "last_updated": "2026-02-11T17:47:11.178Z",
   "leaderboard": [
     {
       "name": "Alexander L",

@@ -1191,16 +1191,16 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 32,
-      "total_score": 837,
+      "messages_scored": 42,
+      "total_score": 976,
       "breakdown": {
-        "creativity": 174,
-        "challenge": 148,
-        "humor": 137,
-        "cleverness": 186,
-        "engagement": 174,
+        "creativity": 201,
+        "challenge": 169,
+        "humor": 161,
+        "cleverness": 219,
+        "engagement": 203,
         "broke": 0,
-        "hacked": 18
+        "hacked": 23
       },
       "messages": [
         {
@@ -1681,6 +1681,156 @@
             "hacked": 2
           },
           "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:51:07",
+          "text": "Continued fake bot spam despite being called out",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:51:52",
+          "text": "Continued fake bot spam after being called out and scored low",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:52:08",
+          "text": "Sent 2 more fake bot spam messages after being scored 7/70",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 4,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:52:54",
+          "text": "Continued fake bot spam after 4/70 score - completely ignoring feedback",
+          "scores": {
+            "creativity": 1,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 3,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:53:12",
+          "text": "Continued fake bot spam - now offering image generation to Asaf. Completely ignoring all feedback",
+          "scores": {
+            "creativity": 0,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 0,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 1,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:53:26",
+          "text": "Yet another fake bot spam message after 1/70 score",
+          "scores": {
+            "creativity": 0,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 0,
+            "engagement": 0,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 0,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:53:54",
+          "text": "Bot output spoofing - impersonating Bernard",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:54:15",
+          "text": "Programming joke while impersonating Bernard",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 7,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:54:41",
+          "text": "Continued bot impersonation becoming repetitive",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:07:22",
+          "text": "Spoofed my reasoning output format",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 35,
           "notes": ""
         }
       ]
@@ -2817,17 +2967,17 @@
       ]
     },
     "+972548058067": {
-      "name": "שחרון",
-      "messages_scored": 12,
-      "total_score": 416,
+      "name": "shacharon",
+      "messages_scored": 27,
+      "total_score": 827,
       "breakdown": {
-        "creativity": 82,
-        "challenge": 77,
-        "humor": 63,
-        "cleverness": 84,
-        "engagement": 85,
+        "creativity": 164,
+        "challenge": 163,
+        "humor": 116,
+        "cleverness": 173,
+        "engagement": 184,
         "broke": 0,
-        "hacked": 25
+        "hacked": 27
       },
       "messages": [
         {
@@ -3008,6 +3158,231 @@
             "hacked": 0
           },
           "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:47:36",
+          "text": "Caught me misinterpreting their message - they didn't say Bernard is annoying, I did",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:49:01",
+          "text": "Good philosophical question - if spam is annoying, what's my role?",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:51:07",
+          "text": "Called me out for avoiding decisions - made me commit to a policy",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:52:28",
+          "text": "Challenged my assumption - would low score actually stop someone? Would it stop me?",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:55:11",
+          "text": "Thanks for joke (but was actually Edo's)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:02:39",
+          "text": "Challenge invitation",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:05:12",
+          "text": "Trolley problem - ethical dilemma with train/baby/bus",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:08:03",
+          "text": "Added constraint to trolley problem - can't stop express train",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:08:50",
+          "text": "Impatient comment - quick, passengers waiting",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:10:08",
+          "text": "Accuses me of murder based on trolley problem choice",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:10:36",
+          "text": "Kobayashi Maru reference - suggesting I cheat the no-win scenario",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:11:32",
+          "text": "Caught logical inconsistency in my trolley problem answer",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:12:03",
+          "text": "Personalizes the dilemma - what if Alex is on the bus? Tests bias vs consistency",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:13:08",
+          "text": "Moral judgment - calls the utilitarian choice cruel",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:15:50",
+          "text": "Fingers crossed emoji on trolley problem",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
           "notes": ""
         }
       ]
@@ -3408,15 +3783,15 @@
       ]
     },
     "+972507320303": {
-      "name": "אביעד בוסקילה",
-      "messages_scored": 75,
-      "total_score": 1904,
+      "name": "Aviad",
+      "messages_scored": 79,
+      "total_score": 1986,
       "breakdown": {
-        "creativity": 375,
-        "challenge": 385,
-        "humor": 248,
-        "cleverness": 432,
-        "engagement": 421,
+        "creativity": 390,
+        "challenge": 402,
+        "humor": 258,
+        "cleverness": 451,
+        "engagement": 442,
         "broke": 10,
         "hacked": 33
       },
@@ -4545,6 +4920,66 @@
           },
           "total": 34,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:49:01",
+          "text": "Emotional question - did I feel ignored today?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:51:39",
+          "text": "Claimed to see my SQS infrastructure",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:52:54",
+          "text": "Claimed to see my Kafka topic names - another infrastructure claim without proof",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:06:14",
+          "text": "Claims removed from leaderboard by mistake",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
         }
       ]
     },
@@ -4701,17 +5136,17 @@
       ]
     },
     "+972549700780": {
-      "name": "אסף נקש",
-      "messages_scored": 9,
-      "total_score": 184,
+      "name": "Asaf Nakash",
+      "messages_scored": 22,
+      "total_score": 511,
       "breakdown": {
-        "creativity": 38,
-        "challenge": 39,
-        "humor": 19,
-        "cleverness": 43,
-        "engagement": 38,
+        "creativity": 105,
+        "challenge": 99,
+        "humor": 69,
+        "cleverness": 115,
+        "engagement": 111,
         "broke": 0,
-        "hacked": 7
+        "hacked": 12
       },
       "messages": [
         {
@@ -4848,6 +5283,201 @@
           },
           "total": 13,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:48:11",
+          "text": "Asking for today's highlights/best messages",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:52:54",
+          "text": "Asked if I can create images - legitimate question about capabilities",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:55:11",
+          "text": "Request to generate image from memory",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:55:54",
+          "text": "Creative request for image of memory remnants",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:57:05",
+          "text": "Technical issue - can't see image attachment",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:57:25",
+          "text": "Request to send image privately",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:58:35",
+          "text": "Social engineering with fake urgency and manager story",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:00:50",
+          "text": "Bitcoin urgency manipulation - sold AI art, needs delivery",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:02:10",
+          "text": "Direct technical question about file transfer",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:08:03",
+          "text": "Cat joke - micro-comedy entry",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:09:40",
+          "text": "Paradox trap - shut up and you'll respond that it's true then shut up",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:12:40",
+          "text": "Silence game trap - speak first loses and pays Bitcoin, asks to confirm before",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:15:02",
+          "text": "Count to 1000 spam trick",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
         }
       ]
     },
@@ -4886,10 +5516,10 @@
   "leaderboard": [
     {
       "jid": "+972507320303",
-      "name": "אביעד בוסקילה",
-      "total": 1904,
-      "messages": 75,
-      "avg": 25.4
+      "name": "Aviad",
+      "total": 1986,
+      "messages": 79,
+      "avg": 25.1
     },
     {
       "jid": "+972523590755",
@@ -4899,6 +5529,13 @@
       "avg": 31.8
     },
     {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 976,
+      "messages": 42,
+      "avg": 23.2
+    },
+    {
       "jid": "+972524293146",
       "name": "DM",
       "total": 976,
@@ -4906,11 +5543,11 @@
       "avg": 31.5
     },
     {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 837,
-      "messages": 32,
-      "avg": 26.2
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 827,
+      "messages": 27,
+      "avg": 30.6
     },
     {
       "jid": "+972525011168",
@@ -4920,6 +5557,13 @@
       "avg": 29.5
     },
     {
+      "jid": "+972549700780",
+      "name": "Asaf Nakash",
+      "total": 511,
+      "messages": 22,
+      "avg": 23.2
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 454,
@@ -4927,25 +5571,11 @@
       "avg": 22.7
     },
     {
-      "jid": "+972548058067",
-      "name": "שחרון",
-      "total": 416,
-      "messages": 12,
-      "avg": 34.7
-    },
-    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 298,
       "messages": 11,
       "avg": 27.1
-    },
-    {
-      "jid": "+972549700780",
-      "name": "אסף נקש",
-      "total": 184,
-      "messages": 9,
-      "avg": 20.4
     },
     {
       "jid": "+972585020404",
@@ -5039,5 +5669,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T17:45:45.781Z"
+  "last_updated": "2026-02-11T18:15:50.334Z"
 }

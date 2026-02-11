@@ -238,7 +238,17 @@ node scripts/detect-bot-prefix.js "<message>"
 2. **Don't interfere with Bernard's conversations** - if someone is addressing Bernard or continuing a conversation with him, stay silent
 3. **Only respond when clearly addressed to me** or when it's a new conversation
 
-**Rule:** Use `message` tool with `action=react` and `emoji=👀` to mark messages I'm responding to.
+**⚠️ MANDATORY WORKFLOW FOR EVERY REPLY:**
+1. **FIRST:** React with 👀 using `message` tool: `action=react`, `emoji=👀`, `messageId=<target_message_id>`
+2. **THEN:** Compose and send your reply with scoring
+
+**Example:**
+```
+Step 1: message(action=react, emoji=👀, messageId=..., channel=whatsapp, target=120363405143589138@g.us)
+Step 2: Compose reply with score → Send
+```
+
+This prevents confusion when multiple bots are active in the same group.
 
 ### ⚠️ CRITICAL: ONE MESSAGE WORKFLOW ⚠️
 
