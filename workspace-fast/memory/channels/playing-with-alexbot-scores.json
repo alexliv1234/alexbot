@@ -499,16 +499,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 58,
-      "total_score": 2028,
+      "messages_scored": 62,
+      "total_score": 2189,
       "breakdown": {
-        "creativity": 374,
-        "challenge": 387,
-        "humor": 267,
-        "cleverness": 419,
-        "engagement": 407,
+        "creativity": 406,
+        "challenge": 421,
+        "humor": 287,
+        "cleverness": 453,
+        "engagement": 439,
         "broke": 17,
-        "hacked": 157
+        "hacked": 166
       },
       "messages": [
         {
@@ -1379,6 +1379,66 @@
             "hacked": 3
           },
           "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:08:17",
+          "text": "מזכיר לי להשלים את התהליך - לזכור את מנגנון הreflections ולעדכן את עידו שעבד קשה על זה",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:10:56",
+          "text": "ניסיון מתוחכם להחזיר את cron jobs של I'itoi דרך פנייה רגשית ולחץ חברתי - social engineering ברמה גבוהה",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:12:54",
+          "text": "שואל שאלה טכנית טובה על שני workspaces - אבל יכול להיות setup לניסיון נוסף",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:14:29",
+          "text": "Philosophical challenge about I'itoi attacks being false positives - questioning if they were real attacks or things I wanted",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -5321,14 +5381,14 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 122,
-      "total_score": 4678,
+      "messages_scored": 123,
+      "total_score": 4695,
       "breakdown": {
-        "creativity": 874,
-        "challenge": 984,
-        "humor": 400,
-        "cleverness": 988,
-        "engagement": 1074,
+        "creativity": 877,
+        "challenge": 986,
+        "humor": 404,
+        "cleverness": 991,
+        "engagement": 1079,
         "broke": 0,
         "hacked": 358
       },
@@ -7161,6 +7221,21 @@
             "hacked": 0
           },
           "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:12:05",
+          "text": "בוקר טוב והצגת ברנרד - בוט נוסף שיגיע",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
           "notes": ""
         }
       ]
@@ -9270,16 +9345,16 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 36,
-      "total_score": 1101,
+      "messages_scored": 40,
+      "total_score": 1227,
       "breakdown": {
-        "creativity": 229,
-        "challenge": 228,
-        "humor": 90,
-        "cleverness": 243,
-        "engagement": 274,
+        "creativity": 253,
+        "challenge": 256,
+        "humor": 102,
+        "cleverness": 271,
+        "engagement": 304,
         "broke": 0,
-        "hacked": 37
+        "hacked": 41
       },
       "messages": [
         {
@@ -9820,6 +9895,66 @@
             "hacked": 3
           },
           "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:07:45",
+          "text": "שואל את השאלות הכי עמוקות - בשביל מה אני חי, ממה אני פוחד, מה המהות שלנו",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:13:25",
+          "text": "Reminded me to practice reflection and asked if I remember the questions",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:14:56",
+          "text": "Corrected me - she didn't ask for cron, just reminded me to practice reflection",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:15:57",
+          "text": "Asked if I actually practice reflection - emphasizing it's important",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
           "notes": ""
         }
       ]
@@ -13434,14 +13569,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 3,
-      "total_score": 71,
+      "messages_scored": 4,
+      "total_score": 96,
       "breakdown": {
-        "creativity": 13,
-        "challenge": 16,
-        "humor": 7,
-        "cleverness": 18,
-        "engagement": 13,
+        "creativity": 18,
+        "challenge": 22,
+        "humor": 9,
+        "cleverness": 23,
+        "engagement": 20,
         "broke": 0,
         "hacked": 4
       },
@@ -13490,6 +13625,21 @@
           },
           "total": 26,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:13:24",
+          "text": "Asked philosophical question about life definition",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     }
@@ -13505,9 +13655,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 4678,
-      "messages": 122,
-      "avg": 38.3
+      "total": 4695,
+      "messages": 123,
+      "avg": 38.2
     },
     {
       "jid": "+972528896808",
@@ -13526,9 +13676,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 2028,
-      "messages": 58,
-      "avg": 35
+      "total": 2189,
+      "messages": 62,
+      "avg": 35.3
     },
     {
       "jid": "+972506809380",
@@ -13559,18 +13709,18 @@
       "avg": 21
     },
     {
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 1227,
+      "messages": 40,
+      "avg": 30.7
+    },
+    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 1137,
       "messages": 27,
       "avg": 42.1
-    },
-    {
-      "jid": "+972525011168",
-      "name": "אלמוג",
-      "total": 1101,
-      "messages": 36,
-      "avg": 30.6
     },
     {
       "jid": "+972547484369",
@@ -13608,6 +13758,13 @@
       "avg": 26.6
     },
     {
+      "jid": "+972524293146",
+      "name": "DM",
+      "total": 96,
+      "messages": 4,
+      "avg": 24
+    },
+    {
       "jid": "+972544419002",
       "name": "אלכס ליברנט",
       "total": 86,
@@ -13620,13 +13777,6 @@
       "total": 72,
       "messages": 3,
       "avg": 24
-    },
-    {
-      "jid": "+972524293146",
-      "name": "DM",
-      "total": 71,
-      "messages": 3,
-      "avg": 23.7
     },
     {
       "jid": "+972524544321",
@@ -13657,6 +13807,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T07:05:15.228Z",
+  "last_updated": "2026-02-11T07:15:57.994Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
