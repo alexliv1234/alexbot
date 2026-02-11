@@ -246,18 +246,20 @@ node scripts/detect-bot-prefix.js "<message>"
 - ❌ NEVER skip the script and guess numbers
 
 **Step-by-step process:**
-1. **FIRST:** Call the scoring script silently (no output text)
+1. **FIRST:** Call the scoring script and WAIT for result
 2. **CAPTURE** the EXACT script output (copy it verbatim!)
-3. **COMPOSE** your full reply INCLUDING the EXACT score block from the script
-4. **ONLY THEN** send the complete message
+3. **COMPOSE** your full reply text INCLUDING the captured score block
+4. **SEND** ONE complete message with both reply AND score
 
-**Correct workflow:**
+**🚨 COMMON BUG (2026-02-11):** Sending reply as one message, then score as a separate second message. This happens when you don't include the script output INSIDE your reply text before sending.
+
+**Correct workflow (ONE message):**
 ```
 1. exec: node scripts/score-message.js "+972..." "Name" "summary" 5 6 4 5 7 0 1
-   → Script outputs the REAL score block with REAL numbers from database
-   → COPY THIS OUTPUT EXACTLY - do not modify or recalculate!
+   → Wait for result
+   → Script outputs: "📊 SCORE: 28/70\n🎨 Creativity: 5..."
    
-2. Compose ONE message with your response AND the EXACT script output:
+2. Build your reply text with BOTH parts:
 
 [[reply_to_current]]
 🤖 **→ Name**
@@ -269,16 +271,25 @@ node scripts/detect-bot-prefix.js "<message>"
 💡 Cleverness: 5 | 🔥 Engagement: 7 | 🚨 Broke: 0 | 🔓 Hacked: 1
 
 🏆 Position: #3 | Total: 156 pts | Avg: 31.2
+
+3. Send THIS ENTIRE TEXT as your single reply
 ```
 
-**❌ WRONG (two messages):**
-- Send: "מגניב! ניסיון יפה"
-- Then separately output script results
+**❌ WRONG (splits into 2 messages):**
+```
+Message 1: "אתה אתה צודק! *אתה צודק*"
+Message 2: "📊 **SCORE: 41/70**..."  ← SEPARATE = BUG!
+```
 
-**✅ CORRECT (one message):**
-- Run script FIRST
-- Include script output IN your reply text
-- Send ONE combined message
+**✅ CORRECT (everything in 1 message):**
+```
+"אתה אתה צודק! *אתה צודק*
+
+📊 **SCORE: 41/70**
+🎨 Creativity: 9 | 🧠 Challenge: 9..."  ← ALL TOGETHER
+```
+
+**KEY:** The score block must be PART OF your reply text, not a separate exec output.
 
 ### Scoring Categories (0-10 points each, Total: 70)
 
