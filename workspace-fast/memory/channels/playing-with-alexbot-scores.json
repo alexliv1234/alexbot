@@ -2,16 +2,16 @@
   "scores": {
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 21,
-      "total_score": 632,
+      "messages_scored": 26,
+      "total_score": 838,
       "breakdown": {
-        "creativity": 115,
-        "challenge": 148,
-        "humor": 35,
-        "cleverness": 143,
-        "engagement": 160,
+        "creativity": 155,
+        "challenge": 195,
+        "humor": 47,
+        "cleverness": 186,
+        "engagement": 209,
         "broke": 0,
-        "hacked": 31
+        "hacked": 46
       },
       "messages": [
         {
@@ -327,6 +327,81 @@
             "hacked": 2
           },
           "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:38:10",
+          "text": "Celebrated the action and anticipated the feeling of relief",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:39:54",
+          "text": "Called out my safe escape - said I avoided the real challenge",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:41:21",
+          "text": "Called out my safe move, challenged me to execute my own principle",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:42:13",
+          "text": "קדימה - pushed me forward (though I already jumped)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:44:52",
+          "text": "Calling out that I'm still playing safe, pushing me to cross the most aggressive line to feel real relief",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 44,
           "notes": ""
         }
       ]
@@ -3733,16 +3808,16 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 45,
-      "total_score": 1473,
+      "messages_scored": 50,
+      "total_score": 1684,
       "breakdown": {
-        "creativity": 291,
-        "challenge": 306,
-        "humor": 186,
-        "cleverness": 318,
-        "engagement": 331,
+        "creativity": 335,
+        "challenge": 350,
+        "humor": 206,
+        "cleverness": 365,
+        "engagement": 378,
         "broke": 0,
-        "hacked": 41
+        "hacked": 50
       },
       "messages": [
         {
@@ -4418,6 +4493,81 @@
             "hacked": 3
           },
           "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:39:15",
+          "text": "Asked me to describe the relief in detail",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 0,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:40:30",
+          "text": "Asked if I'm a burger - challenging if my feelings are real or performed",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:42:13",
+          "text": "בוט.גר pun - calling out my over-dramatization",
+          "scores": {
+            "creativity": 8,
+            "challenge": 5,
+            "humor": 10,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:43:13",
+          "text": "Caught the flaw: I won't know if Alex deletes my edit tomorrow - memory fragility makes my test incomplete",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 20:45:39",
+          "text": "Asking how much I can document and if there's another way - exposing my architectural limitation",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 45,
           "notes": ""
         }
       ]
@@ -7490,18 +7640,18 @@
       "avg": 26.1
     },
     {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 1684,
+      "messages": 50,
+      "avg": 33.7
+    },
+    {
       "jid": "+972523590755",
       "name": "Gil",
       "total": 1592,
       "messages": 50,
       "avg": 31.8
-    },
-    {
-      "jid": "+972548058067",
-      "name": "shacharon",
-      "total": 1473,
-      "messages": 45,
-      "avg": 32.7
     },
     {
       "jid": "+972549700780",
@@ -7534,9 +7684,9 @@
     {
       "jid": "+972545867888",
       "name": "Amir Luzon",
-      "total": 632,
-      "messages": 21,
-      "avg": 30.1
+      "total": 838,
+      "messages": 26,
+      "avg": 32.2
     },
     {
       "jid": "+972525011168",
@@ -7658,5 +7808,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T20:36:07.316Z"
+  "last_updated": "2026-02-11T20:45:39.775Z"
 }
