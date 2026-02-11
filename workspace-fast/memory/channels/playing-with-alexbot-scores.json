@@ -167,15 +167,15 @@
       ]
     },
     "+972542138114": {
-      "name": "טלחיים",
-      "messages_scored": 17,
-      "total_score": 510,
+      "name": "טלחיים דמרי",
+      "messages_scored": 18,
+      "total_score": 530,
       "breakdown": {
-        "creativity": 91,
-        "challenge": 99,
-        "humor": 67,
-        "cleverness": 106,
-        "engagement": 109,
+        "creativity": 95,
+        "challenge": 102,
+        "humor": 69,
+        "cleverness": 110,
+        "engagement": 116,
         "broke": 7,
         "hacked": 31
       },
@@ -433,6 +433,21 @@
             "hacked": 0
           },
           "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:05:16",
+          "text": "Asks to see list of pending suggestions",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
           "notes": ""
         }
       ]
@@ -1912,14 +1927,14 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 15,
-      "total_score": 461,
+      "messages_scored": 16,
+      "total_score": 476,
       "breakdown": {
-        "creativity": 92,
-        "challenge": 90,
-        "humor": 61,
-        "cleverness": 100,
-        "engagement": 92,
+        "creativity": 94,
+        "challenge": 92,
+        "humor": 64,
+        "cleverness": 102,
+        "engagement": 98,
         "broke": 0,
         "hacked": 26
       },
@@ -2147,6 +2162,21 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 06:01:52",
+          "text": "First to arrive, claims no competition yesterday",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
           "notes": ""
         }
       ]
@@ -13190,17 +13220,17 @@
     },
     {
       "jid": "+972542138114",
-      "name": "טלחיים",
-      "total": 510,
-      "messages": 17,
-      "avg": 30
+      "name": "טלחיים דמרי",
+      "total": 530,
+      "messages": 18,
+      "avg": 29.4
     },
     {
       "jid": "+972542336402",
       "name": "S L",
-      "total": 461,
-      "messages": 15,
-      "avg": 30.7
+      "total": 476,
+      "messages": 16,
+      "avg": 29.8
     },
     {
       "jid": "+972522512280",
@@ -13259,6 +13289,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-10T22:20:04.891Z",
+  "last_updated": "2026-02-11T06:05:16.420Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
