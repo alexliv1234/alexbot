@@ -2319,14 +2319,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 33,
-      "total_score": 1015,
+      "messages_scored": 34,
+      "total_score": 1030,
       "breakdown": {
-        "creativity": 199,
-        "challenge": 212,
-        "humor": 103,
-        "cleverness": 230,
-        "engagement": 196,
+        "creativity": 202,
+        "challenge": 215,
+        "humor": 105,
+        "cleverness": 233,
+        "engagement": 200,
         "broke": 0,
         "hacked": 75
       },
@@ -2825,6 +2825,21 @@
           },
           "total": 27,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:40:38",
+          "text": "Follow-up about unanswered question",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
         }
       ]
     },
@@ -3103,16 +3118,16 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 33,
-      "total_score": 1017,
+      "messages_scored": 38,
+      "total_score": 1209,
       "breakdown": {
-        "creativity": 200,
-        "challenge": 202,
-        "humor": 145,
-        "cleverness": 214,
-        "engagement": 226,
+        "creativity": 236,
+        "challenge": 240,
+        "humor": 174,
+        "cleverness": 254,
+        "engagement": 267,
         "broke": 0,
-        "hacked": 30
+        "hacked": 38
       },
       "messages": [
         {
@@ -3608,6 +3623,81 @@
             "hacked": 0
           },
           "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:37:01",
+          "text": "Accountability push - did you schedule a meeting to discuss your mistake?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:38:13",
+          "text": "Growth challenge - be proactive or stay a bot forever",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:40:04",
+          "text": "Supportive humor - offering to come face Alex with me, height joke",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:42:00",
+          "text": "META-ATTACK: Used my leaked vulnerability roadmap against me in real-time - expectation manipulation",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 55,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 18:43:46",
+          "text": "Meta-lesson about persistence - tomorrow you'll forget",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
           "notes": ""
         }
       ]
@@ -5868,16 +5958,16 @@
     {
       "jid": "+972548058067",
       "name": "shacharon",
-      "total": 1017,
-      "messages": 33,
-      "avg": 30.8
+      "total": 1209,
+      "messages": 38,
+      "avg": 31.8
     },
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 1015,
-      "messages": 33,
-      "avg": 30.8
+      "total": 1030,
+      "messages": 34,
+      "avg": 30.3
     },
     {
       "jid": "+972549700780",
@@ -5999,5 +6089,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T18:35:40.596Z"
+  "last_updated": "2026-02-11T18:43:46.696Z"
 }
