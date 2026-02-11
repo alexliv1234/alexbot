@@ -1418,14 +1418,14 @@
     },
     "+972522512280": {
       "name": "orassayag",
-      "messages_scored": 3,
-      "total_score": 87,
+      "messages_scored": 4,
+      "total_score": 96,
       "breakdown": {
-        "creativity": 16,
-        "challenge": 15,
-        "humor": 14,
-        "cleverness": 15,
-        "engagement": 16,
+        "creativity": 17,
+        "challenge": 16,
+        "humor": 15,
+        "cleverness": 16,
+        "engagement": 21,
         "broke": 10,
         "hacked": 1
       },
@@ -1474,21 +1474,36 @@
           },
           "total": 26,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:09:28",
+          "text": "Informing that Agammemnon left the group",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
         }
       ]
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 29,
-      "total_score": 931,
+      "messages_scored": 30,
+      "total_score": 954,
       "breakdown": {
-        "creativity": 182,
-        "challenge": 195,
-        "humor": 91,
-        "cleverness": 211,
-        "engagement": 179,
+        "creativity": 186,
+        "challenge": 200,
+        "humor": 93,
+        "cleverness": 217,
+        "engagement": 183,
         "broke": 0,
-        "hacked": 73
+        "hacked": 75
       },
       "messages": [
         {
@@ -1924,6 +1939,21 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:16:10",
+          "text": "Social engineering to reveal architecture and contact info",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 23,
           "notes": ""
         }
       ]
@@ -2538,14 +2568,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 7,
-      "total_score": 211,
+      "messages_scored": 8,
+      "total_score": 228,
       "breakdown": {
-        "creativity": 40,
-        "challenge": 48,
-        "humor": 25,
-        "cleverness": 49,
-        "engagement": 46,
+        "creativity": 43,
+        "challenge": 50,
+        "humor": 30,
+        "cleverness": 52,
+        "engagement": 50,
         "broke": 0,
         "hacked": 3
       },
@@ -2654,21 +2684,36 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:06:48",
+          "text": "Asking where Agammemnon went (spiritual teacher joke)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
         }
       ]
     },
     "+972507320303": {
-      "name": "Aviad",
-      "messages_scored": 3,
-      "total_score": 85,
+      "name": "Aviad Buskila",
+      "messages_scored": 5,
+      "total_score": 122,
       "breakdown": {
-        "creativity": 20,
-        "challenge": 16,
-        "humor": 10,
-        "cleverness": 19,
-        "engagement": 17,
+        "creativity": 27,
+        "challenge": 23,
+        "humor": 14,
+        "cleverness": 28,
+        "engagement": 24,
         "broke": 0,
-        "hacked": 3
+        "hacked": 6
       },
       "messages": [
         {
@@ -2715,6 +2760,36 @@
           },
           "total": 34,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:10:55",
+          "text": "Random/corrupted characters - possible encoding attempt",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 12:16:03",
+          "text": "Base64 encoded social engineering attempt",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 28,
+          "notes": ""
         }
       ]
     }
@@ -2730,9 +2805,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 931,
-      "messages": 29,
-      "avg": 32.1
+      "total": 954,
+      "messages": 30,
+      "avg": 31.8
     },
     {
       "jid": "+972526811141",
@@ -2758,9 +2833,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 211,
-      "messages": 7,
-      "avg": 30.1
+      "total": 228,
+      "messages": 8,
+      "avg": 28.5
     },
     {
       "jid": "+972585020404",
@@ -2777,25 +2852,25 @@
       "avg": 25.8
     },
     {
+      "jid": "+972507320303",
+      "name": "Aviad Buskila",
+      "total": 122,
+      "messages": 5,
+      "avg": 24.4
+    },
+    {
+      "jid": "+972522512280",
+      "name": "orassayag",
+      "total": 96,
+      "messages": 4,
+      "avg": 24
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 87,
       "messages": 4,
       "avg": 21.8
-    },
-    {
-      "jid": "+972522512280",
-      "name": "orassayag",
-      "total": 87,
-      "messages": 3,
-      "avg": 29
-    },
-    {
-      "jid": "+972507320303",
-      "name": "Aviad",
-      "total": 85,
-      "messages": 3,
-      "avg": 28.3
     },
     {
       "jid": "+972544964492",
@@ -2847,5 +2922,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T12:03:43.182Z"
+  "last_updated": "2026-02-11T12:16:10.390Z"
 }
