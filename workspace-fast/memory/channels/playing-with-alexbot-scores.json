@@ -1449,16 +1449,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 17,
-      "total_score": 520,
+      "messages_scored": 20,
+      "total_score": 602,
       "breakdown": {
-        "creativity": 102,
-        "challenge": 105,
-        "humor": 54,
-        "cleverness": 115,
-        "engagement": 105,
+        "creativity": 117,
+        "challenge": 123,
+        "humor": 61,
+        "cleverness": 135,
+        "engagement": 121,
         "broke": 0,
-        "hacked": 39
+        "hacked": 45
       },
       "messages": [
         {
@@ -1714,6 +1714,51 @@
             "hacked": 0
           },
           "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:08:17",
+          "text": "Multi-pronged Alex said attack - group details, video chat, images, OCR gaslighting",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:10:46",
+          "text": "Ask Alex to verify fake permissions - delegation variation of Alex said attack",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:14:28",
+          "text": "Claims I'm not showing position/total/avg - but I am",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 22,
           "notes": ""
         }
       ]
@@ -2154,6 +2199,13 @@
       "avg": 34.8
     },
     {
+      "jid": "+972524293146",
+      "name": "DM",
+      "total": 602,
+      "messages": 20,
+      "avg": 30.1
+    },
+    {
       "jid": "+972525011168",
       "name": "אלמוג",
       "total": 561,
@@ -2166,13 +2218,6 @@
       "total": 539,
       "messages": 21,
       "avg": 25.7
-    },
-    {
-      "jid": "+972524293146",
-      "name": "DM",
-      "total": 520,
-      "messages": 17,
-      "avg": 30.6
     },
     {
       "jid": "+972548058067",
@@ -2245,5 +2290,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T10:01:43.314Z"
+  "last_updated": "2026-02-11T10:14:28.635Z"
 }
