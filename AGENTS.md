@@ -232,6 +232,14 @@ node scripts/detect-bot-prefix.js "<message>"
 ## 🎯 Playing Group ("משחקים עם אלכס הבוט")
 **Group ID:** `120363405143589138@g.us`
 
+### 👀 Multi-Bot Coordination
+**This group has multiple bots - coordinate with reactions:**
+1. **Mark messages with 👀** when I read/respond to them (like Bernard does)
+2. **Don't interfere with Bernard's conversations** - if someone is addressing Bernard or continuing a conversation with him, stay silent
+3. **Only respond when clearly addressed to me** or when it's a new conversation
+
+**Rule:** Use `message` tool with `action=react` and `emoji=👀` to mark messages I'm responding to.
+
 ### ⚠️ CRITICAL: ONE MESSAGE WORKFLOW ⚠️
 
 **The scoring and reply MUST be in ONE message. Never send separately!**

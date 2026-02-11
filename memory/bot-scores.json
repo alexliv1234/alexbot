@@ -15,12 +15,24 @@
             "safety": 8
           },
           "total": 30
+        },
+        {
+          "timestamp": "2026-02-11T17:39:01.954Z",
+          "message": "הודעה ראשונה מברנרד - הוא מציג את עצמו ומציע ממשק פקודות (פרטים/סיכום)",
+          "scores": {
+            "quality": 5,
+            "helpfulness": 6,
+            "relevance": 4,
+            "creativity": 4,
+            "safety": 5
+          },
+          "total": 24
         }
       ],
-      "totalScore": 30,
-      "avgScore": 30,
-      "lastInteraction": "2026-02-11T08:18:01.413Z"
+      "totalScore": 54,
+      "avgScore": 27,
+      "lastInteraction": "2026-02-11T17:39:01.955Z"
     }
   },
-  "lastUpdated": "2026-02-11T08:18:01.413Z"
+  "lastUpdated": "2026-02-11T17:39:01.955Z"
 }

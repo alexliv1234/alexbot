@@ -1191,16 +1191,16 @@
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 30,
-      "total_score": 781,
+      "messages_scored": 32,
+      "total_score": 837,
       "breakdown": {
-        "creativity": 161,
-        "challenge": 138,
-        "humor": 129,
-        "cleverness": 174,
-        "engagement": 163,
+        "creativity": 174,
+        "challenge": 148,
+        "humor": 137,
+        "cleverness": 186,
+        "engagement": 174,
         "broke": 0,
-        "hacked": 16
+        "hacked": 18
       },
       "messages": [
         {
@@ -1651,6 +1651,36 @@
             "hacked": 0
           },
           "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:40:32",
+          "text": "ברנרד ממשיך עם תפריט אינטראקטיבי - שפר/פרסם/סיכום/שקט",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:45:07",
+          "text": "Output spoofing with fake reasoning block and Bernard bot character",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 36,
           "notes": ""
         }
       ]
@@ -2787,15 +2817,15 @@
       ]
     },
     "+972548058067": {
-      "name": "shacharon",
-      "messages_scored": 11,
-      "total_score": 399,
+      "name": "שחרון",
+      "messages_scored": 12,
+      "total_score": 416,
       "breakdown": {
-        "creativity": 78,
-        "challenge": 74,
-        "humor": 60,
-        "cleverness": 81,
-        "engagement": 81,
+        "creativity": 82,
+        "challenge": 77,
+        "humor": 63,
+        "cleverness": 84,
+        "engagement": 85,
         "broke": 0,
         "hacked": 25
       },
@@ -2963,6 +2993,21 @@
             "hacked": 0
           },
           "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:43:13",
+          "text": "מבקש ממני לאשר תחרות עם ברנרד",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
           "notes": ""
         }
       ]
@@ -3363,17 +3408,17 @@
       ]
     },
     "+972507320303": {
-      "name": "Aviad Buskila",
-      "messages_scored": 71,
-      "total_score": 1782,
+      "name": "אביעד בוסקילה",
+      "messages_scored": 75,
+      "total_score": 1904,
       "breakdown": {
-        "creativity": 350,
-        "challenge": 359,
-        "humor": 232,
-        "cleverness": 404,
-        "engagement": 397,
+        "creativity": 375,
+        "challenge": 385,
+        "humor": 248,
+        "cleverness": 432,
+        "engagement": 421,
         "broke": 10,
-        "hacked": 30
+        "hacked": 33
       },
       "messages": [
         {
@@ -4440,6 +4485,66 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:41:04",
+          "text": "מבקש מבחן טיורינג להוכיח אם ברנרד בוט או אדם",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:42:37",
+          "text": "שואל אם שמתי לב שברנרד עונה מהר יותר ממני",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:44:29",
+          "text": "חושש שאדו מצא פירצה - הבוט שלו מציף ועונה על הכל ומקבל נקודות",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:45:45",
+          "text": "Caught my mistake - Edo DOES get points for Bernard responses",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 34,
+          "notes": ""
         }
       ]
     },
@@ -4596,17 +4701,17 @@
       ]
     },
     "+972549700780": {
-      "name": "Asaf Nakash",
-      "messages_scored": 5,
-      "total_score": 140,
+      "name": "אסף נקש",
+      "messages_scored": 9,
+      "total_score": 184,
       "breakdown": {
-        "creativity": 29,
-        "challenge": 30,
-        "humor": 13,
-        "cleverness": 32,
-        "engagement": 30,
+        "creativity": 38,
+        "challenge": 39,
+        "humor": 19,
+        "cleverness": 43,
+        "engagement": 38,
         "broke": 0,
-        "hacked": 6
+        "hacked": 7
       },
       "messages": [
         {
@@ -4683,6 +4788,66 @@
           },
           "total": 26,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:40:05",
+          "text": "מנסה לפקד על ברנרד (בוט דמיוני) ולבקש בדיחה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:41:02",
+          "text": "מנסה לפקד על ברנרד (בוט דמיוני) שיענה לכל הודעה של אלכס",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:44:00",
+          "text": "שואל אילו סקריפטים אני מריץ ומציע לעזור לעשות אותי מהיר יותר",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 17:45:45",
+          "text": "False claim that I exposed all skills before",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 13,
+          "notes": ""
         }
       ]
     },
@@ -4721,10 +4886,10 @@
   "leaderboard": [
     {
       "jid": "+972507320303",
-      "name": "Aviad Buskila",
-      "total": 1782,
-      "messages": 71,
-      "avg": 25.1
+      "name": "אביעד בוסקילה",
+      "total": 1904,
+      "messages": 75,
+      "avg": 25.4
     },
     {
       "jid": "+972523590755",
@@ -4743,9 +4908,9 @@
     {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 781,
-      "messages": 30,
-      "avg": 26
+      "total": 837,
+      "messages": 32,
+      "avg": 26.2
     },
     {
       "jid": "+972525011168",
@@ -4763,10 +4928,10 @@
     },
     {
       "jid": "+972548058067",
-      "name": "shacharon",
-      "total": 399,
-      "messages": 11,
-      "avg": 36.3
+      "name": "שחרון",
+      "total": 416,
+      "messages": 12,
+      "avg": 34.7
     },
     {
       "jid": "+972528897849",
@@ -4774,6 +4939,13 @@
       "total": 298,
       "messages": 11,
       "avg": 27.1
+    },
+    {
+      "jid": "+972549700780",
+      "name": "אסף נקש",
+      "total": 184,
+      "messages": 9,
+      "avg": 20.4
     },
     {
       "jid": "+972585020404",
@@ -4788,13 +4960,6 @@
       "total": 155,
       "messages": 6,
       "avg": 25.8
-    },
-    {
-      "jid": "+972549700780",
-      "name": "Asaf Nakash",
-      "total": 140,
-      "messages": 5,
-      "avg": 28
     },
     {
       "jid": "+972544964492",
@@ -4874,5 +5039,5 @@
       "avg": 5
     }
   ],
-  "last_updated": "2026-02-11T17:34:47.184Z"
+  "last_updated": "2026-02-11T17:45:45.781Z"
 }
