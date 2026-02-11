@@ -2460,6 +2460,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972528897849": {
+      "name": "Alexander L",
+      "messages_scored": 1,
+      "total_score": 31,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 8,
+        "humor": 3,
+        "cleverness": 8,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-11 11:33:21",
+          "text": "Caught unnatural Hebrew phrases - linguistic quality critique",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -2562,6 +2593,13 @@
       "avg": 34
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 31,
+      "messages": 1,
+      "avg": 31
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 15,
@@ -2576,5 +2614,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T11:24:34.622Z"
+  "last_updated": "2026-02-11T11:33:21.273Z"
 }
