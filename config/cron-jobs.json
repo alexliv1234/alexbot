@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770799505403,
+      "updatedAtMs": 1770800084658,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -204,9 +204,9 @@
       "id": "870c2f12-8a32-4c47-b087-edea7e37635e",
       "agentId": "main",
       "name": "Playing Group - Activity Wake-Up",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770148628869,
-      "updatedAtMs": 1770798668930,
+      "updatedAtMs": 1770799693519,
       "schedule": {
         "kind": "cron",
         "expr": "*/30 8-22 * * 0-5",
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770799021464,
+      "updatedAtMs": 1770799590393,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +335,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770799577808,
+      "updatedAtMs": 1770800111442,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -359,7 +359,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770799301975,
+      "updatedAtMs": 1770799889372,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -383,7 +383,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770799451946,
+      "updatedAtMs": 1770800173051,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,

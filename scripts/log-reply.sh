@@ -39,7 +39,17 @@ fi
 FILE="$DIR/$DATE.jsonl"
 mkdir -p "$DIR"
 
-# Log FULL reply verbatim - no truncation, no summarization
+# First, log the ORIGINAL USER MESSAGE (so we track all activity, not just my replies)
+jq -nc \
+  --arg ts "$TS" \
+  --arg from "$SENDER_NAME" \
+  --arg phone "$SENDER_PHONE" \
+  --arg msg "$ORIG_MSG" \
+  --arg channel "$CHANNEL" \
+  --arg chatId "$CHAT_ID" \
+  '{ts:$ts,from:$from,phone:$phone,msg:$msg,channel:$channel,chatId:$chatId}' >> "$FILE"
+
+# Then, log my REPLY
 jq -nc \
   --arg ts "$TS" \
   --arg from "AlexLivBot" \
@@ -52,4 +62,4 @@ jq -nc \
   --arg chatId "$CHAT_ID" \
   '{ts:$ts,from:$from,phone:$phone,msg:$msg,replyTo:$replyTo,replyToPhone:$replyToPhone,origMsg:$origMsg,channel:$channel,chatId:$chatId}' >> "$FILE"
 
-echo "✅ Reply logged to $FILE"
+echo "✅ User message + reply logged to $FILE"

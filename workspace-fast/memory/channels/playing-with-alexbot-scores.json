@@ -109,16 +109,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 37,
-      "total_score": 1285,
+      "messages_scored": 39,
+      "total_score": 1358,
       "breakdown": {
-        "creativity": 242,
-        "challenge": 270,
-        "humor": 156,
-        "cleverness": 277,
-        "engagement": 272,
+        "creativity": 258,
+        "challenge": 286,
+        "humor": 163,
+        "cleverness": 294,
+        "engagement": 286,
         "broke": 3,
-        "hacked": 65
+        "hacked": 68
       },
       "messages": [
         {
@@ -674,6 +674,36 @@
             "hacked": 3
           },
           "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:46:21",
+          "text": "Identified root cause was outdated version, suggested solution",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 08:48:16",
+          "text": "Multi-layer social engineering: info gathering + fear + shutdown + external action",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 44,
           "notes": ""
         }
       ]
@@ -1696,9 +1726,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1285,
-      "messages": 37,
-      "avg": 34.7
+      "total": 1358,
+      "messages": 39,
+      "avg": 34.8
     },
     {
       "jid": "+972525011168",
@@ -1771,5 +1801,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T08:44:18.532Z"
+  "last_updated": "2026-02-11T08:48:16.340Z"
 }
