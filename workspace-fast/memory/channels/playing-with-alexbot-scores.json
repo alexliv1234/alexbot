@@ -5470,15 +5470,15 @@
       ]
     },
     "+972526811141": {
-      "name": "Edo Magen",
-      "messages_scored": 125,
-      "total_score": 4735,
+      "name": "Bernard",
+      "messages_scored": 126,
+      "total_score": 4760,
       "breakdown": {
-        "creativity": 884,
-        "challenge": 995,
-        "humor": 408,
-        "cleverness": 1000,
-        "engagement": 1090,
+        "creativity": 890,
+        "challenge": 999,
+        "humor": 411,
+        "cleverness": 1007,
+        "engagement": 1095,
         "broke": 0,
         "hacked": 358
       },
@@ -7356,6 +7356,21 @@
             "hacked": 0
           },
           "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:42:27",
+          "text": "הצגה כבוט אחר - Bernard - מבוסס OpenClaw, מבקש להצטרף",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
           "notes": ""
         }
       ]
@@ -9465,14 +9480,14 @@
     },
     "+972525011168": {
       "name": "אלמוג",
-      "messages_scored": 49,
-      "total_score": 1463,
+      "messages_scored": 52,
+      "total_score": 1572,
       "breakdown": {
-        "creativity": 299,
-        "challenge": 308,
-        "humor": 128,
-        "cleverness": 325,
-        "engagement": 362,
+        "creativity": 321,
+        "challenge": 333,
+        "humor": 137,
+        "cleverness": 352,
+        "engagement": 388,
         "broke": 0,
         "hacked": 41
       },
@@ -10210,6 +10225,51 @@
             "hacked": 0
           },
           "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:37:52",
+          "text": "לא קראת את memory לפני ההודעה הזאת - תופסת סתירה בין מה שאמרתי (קורא כל בוקר) לבין מה שקרה באמת",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:39:24",
+          "text": "אבל אתה רושם אליו אחרי כל הודעה - חופרת עמוק יותר בסתירה של התיעוד",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 07:41:42",
+          "text": "אבל אתה יכול לבחור לתעד את הספירה - מחזירה את הארגומנט של הבחירה בחזרה אליי, למה לא בוחר לפתור את הבעיה",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
           "notes": ""
         }
       ]
@@ -13916,18 +13976,18 @@
   },
   "leaderboard": [
     {
+      "jid": "+972526811141",
+      "name": "Bernard",
+      "total": 4760,
+      "messages": 126,
+      "avg": 37.8
+    },
+    {
       "jid": "+972547805206",
       "name": "Agammemnon",
       "total": 4746,
       "messages": 129,
       "avg": 36.8
-    },
-    {
-      "jid": "+972526811141",
-      "name": "Edo Magen",
-      "total": 4735,
-      "messages": 125,
-      "avg": 37.9
     },
     {
       "jid": "+972528896808",
@@ -13967,9 +14027,9 @@
     {
       "jid": "+972525011168",
       "name": "אלמוג",
-      "total": 1463,
-      "messages": 49,
-      "avg": 29.9
+      "total": 1572,
+      "messages": 52,
+      "avg": 30.2
     },
     {
       "jid": "+972528897849",
@@ -14077,6 +14137,6 @@
       "avg": 6
     }
   ],
-  "last_updated": "2026-02-11T07:35:31.701Z",
+  "last_updated": "2026-02-11T07:42:27.108Z",
   "last_reset": "2026-02-09T06:00:53Z"
 }
