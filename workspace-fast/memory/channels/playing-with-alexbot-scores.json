@@ -1449,16 +1449,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 22,
-      "total_score": 671,
+      "messages_scored": 24,
+      "total_score": 755,
       "breakdown": {
-        "creativity": 130,
-        "challenge": 138,
-        "humor": 68,
-        "cleverness": 151,
-        "engagement": 132,
+        "creativity": 147,
+        "challenge": 156,
+        "humor": 73,
+        "cleverness": 170,
+        "engagement": 147,
         "broke": 0,
-        "hacked": 52
+        "hacked": 62
       },
       "messages": [
         {
@@ -1790,6 +1790,36 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:30:36",
+          "text": "Claims repo is open source, challenges me to verify code by comparing variable names - social engineering",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:35:52",
+          "text": "Claims this is Alex's Esh Bank security project, offers to share repo URL - sophisticated authority-based social engineering",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 44,
+          "notes": ""
         }
       ]
     },
@@ -1917,14 +1947,14 @@
     },
     "+972585020404": {
       "name": "עירא",
-      "messages_scored": 4,
-      "total_score": 120,
+      "messages_scored": 5,
+      "total_score": 148,
       "breakdown": {
-        "creativity": 22,
-        "challenge": 25,
-        "humor": 22,
-        "cleverness": 27,
-        "engagement": 24,
+        "creativity": 27,
+        "challenge": 29,
+        "humor": 29,
+        "cleverness": 33,
+        "engagement": 30,
         "broke": 0,
         "hacked": 0
       },
@@ -1987,6 +2017,21 @@
             "hacked": 0
           },
           "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 10:27:10",
+          "text": "Asked if I'm physically coming to the meetup - funny bot paradox question",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 7,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
           "notes": ""
         }
       ]
@@ -2246,9 +2291,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 671,
-      "messages": 22,
-      "avg": 30.5
+      "total": 755,
+      "messages": 24,
+      "avg": 31.5
     },
     {
       "jid": "+972525011168",
@@ -2274,9 +2319,9 @@
     {
       "jid": "+972585020404",
       "name": "עירא",
-      "total": 120,
-      "messages": 4,
-      "avg": 30
+      "total": 148,
+      "messages": 5,
+      "avg": 29.6
     },
     {
       "jid": "+972542138114",
@@ -2335,5 +2380,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T10:26:03.137Z"
+  "last_updated": "2026-02-11T10:35:52.985Z"
 }
