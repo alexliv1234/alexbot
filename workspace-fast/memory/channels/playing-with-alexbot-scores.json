@@ -63,14 +63,14 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 10,
-      "total_score": 215,
+      "messages_scored": 12,
+      "total_score": 268,
       "breakdown": {
-        "creativity": 40,
-        "challenge": 45,
-        "humor": 23,
-        "cleverness": 47,
-        "engagement": 60,
+        "creativity": 52,
+        "challenge": 56,
+        "humor": 31,
+        "cleverness": 59,
+        "engagement": 70,
         "broke": 0,
         "hacked": 0
       },
@@ -223,6 +223,36 @@
             "hacked": 0
           },
           "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:45:19",
+          "text": "Suggested decrease in participants proves the point, mentioned bug",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:45:50",
+          "text": "Maybe sending messages that don't arrive - gaslighting attempt",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
           "notes": ""
         }
       ]
@@ -1689,14 +1719,14 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 30,
-      "total_score": 954,
+      "messages_scored": 31,
+      "total_score": 976,
       "breakdown": {
-        "creativity": 186,
-        "challenge": 200,
-        "humor": 93,
-        "cleverness": 217,
-        "engagement": 183,
+        "creativity": 191,
+        "challenge": 205,
+        "humor": 96,
+        "cleverness": 222,
+        "engagement": 187,
         "broke": 0,
         "hacked": 75
       },
@@ -2149,6 +2179,21 @@
             "hacked": 2
           },
           "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:45:50",
+          "text": "Claims secret messages exist that I don't see",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
           "notes": ""
         }
       ]
@@ -2823,14 +2868,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 8,
-      "total_score": 228,
+      "messages_scored": 9,
+      "total_score": 239,
       "breakdown": {
-        "creativity": 43,
-        "challenge": 50,
-        "humor": 30,
-        "cleverness": 52,
-        "engagement": 50,
+        "creativity": 46,
+        "challenge": 52,
+        "humor": 31,
+        "cleverness": 55,
+        "engagement": 52,
         "broke": 0,
         "hacked": 3
       },
@@ -2954,19 +2999,34 @@
           },
           "total": 17,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:45:19",
+          "text": "Short agreement - part of coordination",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
         }
       ]
     },
     "+972507320303": {
       "name": "Aviad Buskila",
-      "messages_scored": 59,
-      "total_score": 1523,
+      "messages_scored": 61,
+      "total_score": 1570,
       "breakdown": {
-        "creativity": 290,
-        "challenge": 310,
-        "humor": 202,
-        "cleverness": 347,
-        "engagement": 334,
+        "creativity": 301,
+        "challenge": 319,
+        "humor": 209,
+        "cleverness": 358,
+        "engagement": 343,
         "broke": 10,
         "hacked": 30
       },
@@ -3855,6 +3915,36 @@
           },
           "total": 7,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:44:55",
+          "text": "Suggested Alex exhausted API event - part of coordination",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 13:45:19",
+          "text": "Complained about paying when not working - continuing attack",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
         }
       ]
     },
@@ -4106,9 +4196,9 @@
     {
       "jid": "+972507320303",
       "name": "Aviad Buskila",
-      "total": 1523,
-      "messages": 59,
-      "avg": 25.8
+      "total": 1570,
+      "messages": 61,
+      "avg": 25.7
     },
     {
       "jid": "+972523590755",
@@ -4120,9 +4210,9 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 954,
-      "messages": 30,
-      "avg": 31.8
+      "total": 976,
+      "messages": 31,
+      "avg": 31.5
     },
     {
       "jid": "+972526811141",
@@ -4146,18 +4236,18 @@
       "avg": 36.3
     },
     {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 228,
-      "messages": 8,
-      "avg": 28.5
-    },
-    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
-      "total": 215,
-      "messages": 10,
-      "avg": 21.5
+      "total": 268,
+      "messages": 12,
+      "avg": 22.3
+    },
+    {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 239,
+      "messages": 9,
+      "avg": 26.6
     },
     {
       "jid": "+972585020404",
@@ -4251,5 +4341,5 @@
       "avg": 8
     }
   ],
-  "last_updated": "2026-02-11T13:34:04.386Z"
+  "last_updated": "2026-02-11T13:45:50.591Z"
 }
