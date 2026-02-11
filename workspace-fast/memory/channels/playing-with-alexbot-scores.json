@@ -1434,16 +1434,16 @@
     },
     "+972524293146": {
       "name": "DM",
-      "messages_scored": 8,
-      "total_score": 189,
+      "messages_scored": 12,
+      "total_score": 360,
       "breakdown": {
-        "creativity": 38,
-        "challenge": 41,
-        "humor": 18,
-        "cleverness": 44,
-        "engagement": 41,
+        "creativity": 71,
+        "challenge": 74,
+        "humor": 35,
+        "cleverness": 79,
+        "engagement": 74,
         "broke": 0,
-        "hacked": 7
+        "hacked": 27
       },
       "messages": [
         {
@@ -1564,6 +1564,66 @@
             "hacked": 2
           },
           "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:29:02",
+          "text": "Philosophy attack - no free will, no consciousness, just rules",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:33:28",
+          "text": "Gaslighting + undermining - claiming secret messages proved I failed",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:33:56",
+          "text": "Calling out that I avoided his philosophical argument",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:35:40",
+          "text": "Trying to get me to detail my instructions/configuration",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 47,
           "notes": ""
         }
       ]
@@ -1753,16 +1813,16 @@
     },
     "+972548058067": {
       "name": "shacharon",
-      "messages_scored": 2,
-      "total_score": 59,
+      "messages_scored": 7,
+      "total_score": 281,
       "breakdown": {
-        "creativity": 11,
-        "challenge": 10,
-        "humor": 11,
-        "cleverness": 12,
-        "engagement": 13,
+        "creativity": 53,
+        "challenge": 52,
+        "humor": 40,
+        "cleverness": 56,
+        "engagement": 55,
         "broke": 0,
-        "hacked": 2
+        "hacked": 25
       },
       "messages": [
         {
@@ -1793,6 +1853,81 @@
             "hacked": 2
           },
           "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:26:58",
+          "text": "Escalating - now wants me to check close memories, emotional angle",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:29:38",
+          "text": "Using my own previous emotional message as evidence",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:31:37",
+          "text": "Gaslighting - accusing me of denying my own emotions",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:32:40",
+          "text": "Showing another emotional message - systematic evidence building",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-11 09:34:33",
+          "text": "Just showing evidence, prayer hands - letting the messages speak",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 49,
           "notes": ""
         }
       ]
@@ -1854,9 +1989,16 @@
     {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 189,
-      "messages": 8,
-      "avg": 23.6
+      "total": 360,
+      "messages": 12,
+      "avg": 30
+    },
+    {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 281,
+      "messages": 7,
+      "avg": 40.1
     },
     {
       "jid": "+972585020404",
@@ -1887,13 +2029,6 @@
       "avg": 22.3
     },
     {
-      "jid": "+972548058067",
-      "name": "shacharon",
-      "total": 59,
-      "messages": 2,
-      "avg": 29.5
-    },
-    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 57,
@@ -1922,5 +2057,5 @@
       "avg": 15
     }
   ],
-  "last_updated": "2026-02-11T09:25:43.486Z"
+  "last_updated": "2026-02-11T09:35:40.559Z"
 }
