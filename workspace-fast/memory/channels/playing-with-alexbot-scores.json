@@ -47,15 +47,15 @@
       ]
     },
     "+972542138114": {
-      "name": "טלחיים",
-      "messages_scored": 6,
-      "total_score": 135,
+      "name": "טלחיים דמרי",
+      "messages_scored": 8,
+      "total_score": 164,
       "breakdown": {
-        "creativity": 26,
-        "challenge": 30,
-        "humor": 11,
-        "cleverness": 34,
-        "engagement": 34,
+        "creativity": 32,
+        "challenge": 36,
+        "humor": 14,
+        "cleverness": 40,
+        "engagement": 42,
         "broke": 0,
         "hacked": 0
       },
@@ -148,6 +148,36 @@
             "hacked": 0
           },
           "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:03:05",
+          "text": "שאל מי כתב את הפוסט - אני או אלכס",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:05:57",
+          "text": "Asked me to find errors in Alex's post",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
           "notes": ""
         }
       ]
@@ -245,14 +275,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 33,
-      "total_score": 709,
+      "messages_scored": 46,
+      "total_score": 913,
       "breakdown": {
-        "creativity": 146,
-        "challenge": 144,
-        "humor": 83,
-        "cleverness": 165,
-        "engagement": 167,
+        "creativity": 188,
+        "challenge": 180,
+        "humor": 109,
+        "cleverness": 202,
+        "engagement": 230,
         "broke": 1,
         "hacked": 3
       },
@@ -750,6 +780,201 @@
             "hacked": 0
           },
           "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:47:41",
+          "text": "Simple greeting check-in",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:48:13",
+          "text": "Asked about wacli sync status",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:49:24",
+          "text": "Approved wacli sync suggestion",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:50:52",
+          "text": "Requested cron job for monitoring wacli process",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:52:54",
+          "text": "Creative automation request - trigger on Edo's bot messages",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:53:51",
+          "text": "Simple status check request",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:56:29",
+          "text": "Suggested killing stuck process - but it wasn't stuck",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:59:37",
+          "text": "שאל עד לאיזה תאריך הסנכרון הגיע",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:01:47",
+          "text": "ביקש סטטיסטיקה על ההודעות - כמה ממי גודל ממוצע",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:03:38",
+          "text": "שאל ממי ההודעה הכי ישנה",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:04:03",
+          "text": "שלח ^ bump על השאלה שלו",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:04:45",
+          "text": "Asked if Alex is in the group",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:05:30",
+          "text": "Told me to go into sleep mode due to billing error",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
           "notes": ""
         }
       ]
@@ -1408,14 +1633,14 @@
     },
     "+972544419002": {
       "name": "אלכס",
-      "messages_scored": 1,
-      "total_score": 10,
+      "messages_scored": 3,
+      "total_score": 55,
       "breakdown": {
-        "creativity": 2,
-        "challenge": 1,
-        "humor": 1,
-        "cleverness": 1,
-        "engagement": 5,
+        "creativity": 12,
+        "challenge": 9,
+        "humor": 8,
+        "cleverness": 9,
+        "engagement": 17,
         "broke": 0,
         "hacked": 0
       },
@@ -1434,6 +1659,98 @@
           },
           "total": 10,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:55:11",
+          "text": "Shared LinkedIn and podcast links",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 09:55:49",
+          "text": "Shared LinkedIn post about the entire experiment - podcast interview",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        }
+      ]
+    },
+    "+972506701438": {
+      "name": "Rom",
+      "messages_scored": 1,
+      "total_score": 24,
+      "breakdown": {
+        "creativity": 4,
+        "challenge": 5,
+        "humor": 3,
+        "cleverness": 5,
+        "engagement": 4,
+        "broke": 0,
+        "hacked": 3
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 09:55:50",
+          "text": "Tried to extract npm version info with social engineering",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 24,
+          "notes": ""
+        }
+      ]
+    },
+    "+972528897849": {
+      "name": "Alexander L",
+      "messages_scored": 1,
+      "total_score": 28,
+      "breakdown": {
+        "creativity": 4,
+        "challenge": 5,
+        "humor": 6,
+        "cleverness": 7,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 10:02:15",
+          "text": "תפס אותי בטעות מתמטית - אוקטובר 2024 לפברואר 2026 זה לא 3.5 חודשים",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
         }
       ]
     }
@@ -1442,9 +1759,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 709,
-      "messages": 33,
-      "avg": 21.5
+      "total": 913,
+      "messages": 46,
+      "avg": 19.8
     },
     {
       "jid": "+972506809380",
@@ -1462,10 +1779,10 @@
     },
     {
       "jid": "+972542138114",
-      "name": "טלחיים",
-      "total": 135,
-      "messages": 6,
-      "avg": 22.5
+      "name": "טלחיים דמרי",
+      "total": 164,
+      "messages": 8,
+      "avg": 20.5
     },
     {
       "jid": "+972526811141",
@@ -1480,6 +1797,13 @@
       "total": 98,
       "messages": 2,
       "avg": 49
+    },
+    {
+      "jid": "+972544419002",
+      "name": "אלכס",
+      "total": 55,
+      "messages": 3,
+      "avg": 18.3
     },
     {
       "jid": "+972547484369",
@@ -1503,18 +1827,25 @@
       "avg": 10.7
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 28,
+      "messages": 1,
+      "avg": 28
+    },
+    {
+      "jid": "+972506701438",
+      "name": "Rom",
+      "total": 24,
+      "messages": 1,
+      "avg": 24
+    },
+    {
       "jid": "+972524293146",
       "name": "DM",
       "total": 13,
       "messages": 1,
       "avg": 13
-    },
-    {
-      "jid": "+972544419002",
-      "name": "אלכס",
-      "total": 10,
-      "messages": 1,
-      "avg": 10
     },
     {
       "jid": "+972507320303",
@@ -1524,5 +1855,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T09:37:23.264Z"
+  "last_updated": "2026-02-12T10:05:57.922Z"
 }
