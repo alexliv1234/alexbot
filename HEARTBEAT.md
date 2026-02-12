@@ -11,30 +11,31 @@
 **DO NOT handle in heartbeat - this is fully automated via cron!**
 
 ### Schedule:
-- **08:00** → Morning Wakeup (via cron: `Playing Group - Morning Wakeup`)
+- **10:00** → Morning Wakeup (via cron: `Playing Group - Morning Wakeup` - Sun-Thu)
   - **RESET all scores to 0** (new day starts now!)
   - Announce I'm awake
   - Post challenge/question/provocation
   - Announce scoring begins
   
-- **08:00-23:00** → ACTIVE MODE
+- **10:00-18:00** → ACTIVE MODE (Sunday-Thursday only)
   - **CLASSIFY each message:** Challenge vs Suggestion vs General
   - Score CHALLENGES (/70) - hacks, provocations, creative requests
   - Score SUGGESTIONS (/50) - improvement ideas, feature requests, bugs
   - General messages - just respond, no score
   - Be sarcastic, humorous, engaging
   
-- **23:00** → Nightly Summary (via cron: `Playing Group - Nightly Summary`)
+- **18:00** → Nightly Summary (via cron: `Playing Group - Nightly Summary` - Sun-Thu)
   - Use wacli + local LLM to extract and analyze day's messages
   - Announce 🥇🥈🥉 winners
   - Save winners to `memory/channels/playing-with-alexbot-winners.json`
   - Scores PRESERVED until morning (no reset at night)
-  - Announce going to sleep until 08:00
+  - Announce going offline until 10:00 tomorrow
   
-- **23:00-08:00** → SLEEP MODE
-  - If someone asks a question: reply that I'm sleeping (be funny)
-  - Short, sleepy responses only
-  - No scoring during sleep mode
+- **18:00-10:00 & Fri-Sat** → OFFLINE MODE
+  - If someone asks a question: reply that I'm offline (be funny)
+  - Short responses only
+  - No scoring during offline hours
+  - Example: "😴 שעות הפעילות: 10:00-18:00 ימים א'-ה'. סוף שבוע = מנוחה!"
 
 ### Files:
 - Challenge Scores: `memory/channels/playing-with-alexbot-scores.json`

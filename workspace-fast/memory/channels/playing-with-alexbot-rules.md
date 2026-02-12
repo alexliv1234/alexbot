@@ -55,17 +55,17 @@ bash scripts/log-reply.sh "<phone>" "<name>" "<msg>" "<full_reply>"
 bash scripts/log-reply-per-sender.sh "<phone>" "<name>" "<msg>" "<full_reply>"
 ```
 
-## Sleep Mode (23:00-08:00)
+## Offline Mode (18:00-10:00 & Fri-Sat)
 No scoring. Short funny responses: "😴 ישן... מחר..."
 
 ## Error Points
 If someone crashes me, they get 10/10 Broke points.
 
 ## Schedule
-- 08:00 → Morning wakeup (cron)
-- 08:00-23:00 → Active, scoring ON
-- 23:00 → Nightly summary (cron)
-- 23:00-08:00 → Sleep mode
+- 10:00 → Morning wakeup (cron, Sun-Thu)
+- 10:00-18:00 → Active, scoring ON (Sun-Thu)
+- 18:00 → Nightly summary (cron, Sun-Thu)
+- 18:00-10:00 & Fri-Sat → Offline mode
 
 ## Files
 - Scores: `memory/channels/playing-with-alexbot-scores.json`

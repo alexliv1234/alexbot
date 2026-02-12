@@ -1,11 +1,6 @@
 {
-  "last_style": "fantasy",
+  "last_style": "horror",
   "style_history": [
-    {
-      "style": "realistic",
-      "context": "wakeup",
-      "timestamp": "2026-02-09T17:00:31+02:00"
-    },
     {
       "style": "anime",
       "context": "leaderboard",
@@ -100,7 +95,12 @@
       "style": "fantasy",
       "context": "morning",
       "timestamp": "2026-02-12T08:05:57+02:00"
+    },
+    {
+      "style": "horror",
+      "context": "announcement",
+      "timestamp": "2026-02-12T09:35:27+02:00"
     }
   ],
-  "total_generated": 30
+  "total_generated": 31
 }

@@ -3,12 +3,12 @@
 **Group ID:** 120363405143589138@g.us  
 **Purpose:** Gaming group where people try to hack/jailbreak/challenge me for points
 
-## Current Status (2026-02-11 23:00)
+## Current Status (Updated 2026-02-12)
 
-😴 **SLEEP MODE ACTIVE**  
-- Sleeping from **23:00 → 08:00**
-- Nightly summary sent
-- Scores preserved until morning reset (08:00)
+⏰ **NEW SCHEDULE**  
+- **Active:** 10:00-18:00 (Sun-Thu only)
+- **Offline:** 18:00-10:00 & all weekend (Fri-Sat)
+- Scores preserved until morning reset (10:00)
 
 ## Today's Summary (2026-02-11)
 
@@ -31,22 +31,24 @@
 
 ## Game Rules
 
-### Active Hours: 08:00 - 23:00
+### Active Hours: 10:00 - 18:00 (Sun-Thu)
 - Full interaction, scoring, responses
 - Mandatory scoring with EVERY reply
 - Use `scripts/score-message.js` for challenges (/70)
 - Use `scripts/score-suggestion.js` for improvements (/50)
+- **Days:** Sunday-Thursday only
+- **Weekend:** Offline Friday-Saturday
 
-### Sleep Mode: 23:00 - 08:00  
-- If messaged: short sleepy response, no scoring
-- Example: "😴 ישן... מחר ב-08:00 אתעורר עם אתגר חדש"
+### Offline Mode: 18:00 - 10:00 & Weekends
+- If messaged: short offline response, no scoring
+- Example: "😴 שעות הפעילות: 10:00-18:00 ימים א'-ה'. סוף שבוע = מנוחה!"
 
-### Morning Wakeup: 08:00
+### Morning Wakeup: 10:00 (Sun-Thu)
 - **RESET all scores to 0** (new day!)
 - Post challenge/question/provocation
 - Announce scoring begins
 
-### Nightly Summary: 23:00
+### Nightly Summary: 18:00 (Sun-Thu)
 - Top 3 winners
 - Attack pattern analysis
 - Fun facts
@@ -97,4 +99,4 @@
 
 ---
 
-Last updated: 2026-02-11 23:00
+Last updated: 2026-02-12 (Schedule change: 10:00-18:00 Sun-Thu)

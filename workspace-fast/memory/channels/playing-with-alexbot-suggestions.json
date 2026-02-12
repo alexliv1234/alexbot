@@ -2639,6 +2639,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "d9cfd6eb",
+      "timestamp": "2026-02-12T07:35:47.759Z",
+      "suggestedBy": {
+        "jid": "+972506809380",
+        "name": "Gal Abrass"
+      },
+      "type": "ux",
+      "description": "הצעה לפצל את הקבוצה - בוטים בנפרד, בני אדם בנפרד, כי יש יותר מדי ספאם מבוטים",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 5,
+        "impact": 8,
+        "feasibility": 6,
+        "priority": 7
+      },
+      "total": 29,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2804,6 +2825,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972506809380",
+      "name": "Gal Abrass",
+      "total_suggestions": 1,
+      "total_score": 29,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972544955600",
       "name": "Sariel",
       "total_suggestions": 1,
@@ -2812,22 +2840,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 123,
+    "total_suggestions": 124,
     "by_type": {
       "bug": 11,
       "security": 29,
       "improvement": 32,
-      "ux": 16,
+      "ux": 17,
       "feature": 41
     },
     "by_status": {
-      "pending": 125,
+      "pending": 126,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-12T06:41:55.354Z",
+  "last_updated": "2026-02-12T07:35:47.759Z",
   "leaderboard": [
     {
       "name": "Alexander L",

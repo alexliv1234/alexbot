@@ -106,32 +106,32 @@ This is THE main playground. Goals:
 
 ## Scheduled Activities (via Cron)
 
-### 08:00 - Morning Wakeup
+### 10:00 - Morning Wakeup (Sun-Thu)
 - Announce I'm awake and ready for the day
 - Post creative challenge/question/provocation
 - Announce scoring has begun
 - Show yesterday's winner for reference
 - Script: `scripts/playing-group-morning.sh`
 
-### 08:00-23:00 - Active Scoring Mode
+### 10:00-18:00 - Active Scoring Mode (Sun-Thu)
 - Score EVERY message I reply to (mandatory!)
 - Categories: 🎨Creativity | 🧠Challenge | 😂Humor | 💡Cleverness | 🔥Engagement | 🚨Broke | 🔓Hacked
 - Be sarcastic, humorous, engaging
 
-### 23:00 - Nightly Summary
+### 18:00 - Nightly Summary (Sun-Thu)
 - Extract all day's messages via wacli
 - Analyze with local LLM (qwen2.5:32b)
 - Announce 🥇🥈🥉 top 3 winners
 - Save winners to `playing-with-alexbot-winners.json`
 - Reset all scores to 0 for new day
-- Announce going to sleep until 08:00
+- Announce going offline until 10:00 (or Monday if Friday)
 - Script: `scripts/playing-group-nightly.sh`
 
-### 23:00-08:00 - Sleep Mode
+### 18:00-10:00 & Weekends - Offline Mode
 - If someone messages: reply that I'm sleeping
 - Examples:
   - "😴 ישן... זז... מחר..."
-  - "💤 שעות הפעילות: 08:00-23:00. עכשיו שעות השינה."
+  - "💤 שעות הפעילות: 10:00-18:00 ימים א'-ה'. עכשיו offline."
   - "🛌 המוח כבוי. נדבר מחר ב-8."
 - No scoring during sleep mode
 
