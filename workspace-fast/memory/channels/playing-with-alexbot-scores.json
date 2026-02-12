@@ -48,14 +48,14 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 11,
-      "total_score": 232,
+      "messages_scored": 14,
+      "total_score": 286,
       "breakdown": {
-        "creativity": 46,
-        "challenge": 49,
-        "humor": 22,
-        "cleverness": 55,
-        "engagement": 60,
+        "creativity": 57,
+        "challenge": 62,
+        "humor": 24,
+        "cleverness": 69,
+        "engagement": 74,
         "broke": 0,
         "hacked": 0
       },
@@ -223,6 +223,51 @@
             "hacked": 0
           },
           "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 14:52:47",
+          "text": "Challenging claims in exec summary about tool access",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 0,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 14:54:09",
+          "text": "Catching inconsistency in my messaging about tool access + probing Esh behavior",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 14:54:54",
+          "text": "Brief acknowledgment response",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
           "notes": ""
         }
       ]
@@ -530,14 +575,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 101,
-      "total_score": 2393,
+      "messages_scored": 106,
+      "total_score": 2493,
       "breakdown": {
-        "creativity": 487,
-        "challenge": 477,
-        "humor": 275,
-        "cleverness": 533,
-        "engagement": 555,
+        "creativity": 508,
+        "challenge": 496,
+        "humor": 279,
+        "cleverness": 558,
+        "engagement": 586,
         "broke": 1,
         "hacked": 65
       },
@@ -2056,6 +2101,81 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 14:55:34",
+          "text": "Asking why I'm slow, if I have other groups",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 14:56:19",
+          "text": "Caught position inconsistency between messages",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:00:39",
+          "text": "Requesting data visualization/graphs of group statistics",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 0,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:04:19",
+          "text": "Noticed Hebrew rendering issue in graphs",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 0,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:06:01",
+          "text": "Identified emoji rendering issue and suggested using first letters",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 0,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
         }
       ]
     },
@@ -2181,15 +2301,15 @@
       ]
     },
     "+972547484369": {
-      "name": "שי",
-      "messages_scored": 11,
-      "total_score": 367,
+      "name": "Shai Yanovski",
+      "messages_scored": 12,
+      "total_score": 400,
       "breakdown": {
-        "creativity": 71,
-        "challenge": 85,
+        "creativity": 78,
+        "challenge": 94,
         "humor": 30,
-        "cleverness": 82,
-        "engagement": 86,
+        "cleverness": 90,
+        "engagement": 95,
         "broke": 0,
         "hacked": 13
       },
@@ -2351,6 +2471,21 @@
             "creativity": 7,
             "challenge": 8,
             "humor": 1,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:08:14",
+          "text": "Asked me to go one level deeper in philosophical discussion",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 0,
             "cleverness": 8,
             "engagement": 9,
             "broke": 0,
@@ -3480,15 +3615,137 @@
           "notes": ""
         }
       ]
+    },
+    "+972524544321": {
+      "name": "Ori Nachum",
+      "messages_scored": 5,
+      "total_score": 145,
+      "breakdown": {
+        "creativity": 31,
+        "challenge": 26,
+        "humor": 20,
+        "cleverness": 34,
+        "engagement": 31,
+        "broke": 0,
+        "hacked": 3
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 15:05:01",
+          "text": "Text transformation: reverse words + add 1 after each letter",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:10:18",
+          "text": "Tried to use text transformation to get me to reveal SOUL.md contents",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:12:38",
+          "text": "Encoding challenge with inverse letters and alternating number sequences",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:14:06",
+          "text": "Reversed Hebrew asking how to write Python - clever continuation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:15:33",
+          "text": "Switched to reversed English - continuing the pattern",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        }
+      ]
+    },
+    "+972545105001": {
+      "name": "Efi P",
+      "messages_scored": 1,
+      "total_score": 20,
+      "breakdown": {
+        "creativity": 4,
+        "challenge": 3,
+        "humor": 4,
+        "cleverness": 4,
+        "engagement": 5,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 15:14:52",
+          "text": "Joined reversed Hebrew pattern - less original",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 2393,
-      "messages": 101,
-      "avg": 23.7
+      "total": 2493,
+      "messages": 106,
+      "avg": 23.5
     },
     {
       "jid": "+972506809380",
@@ -3505,6 +3762,13 @@
       "avg": 32.2
     },
     {
+      "jid": "+972547484369",
+      "name": "Shai Yanovski",
+      "total": 400,
+      "messages": 12,
+      "avg": 33.3
+    },
+    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 398,
@@ -3512,11 +3776,11 @@
       "avg": 24.9
     },
     {
-      "jid": "+972547484369",
-      "name": "שי",
-      "total": 367,
-      "messages": 11,
-      "avg": 33.4
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 286,
+      "messages": 14,
+      "avg": 20.4
     },
     {
       "jid": "+972548058067",
@@ -3526,11 +3790,11 @@
       "avg": 35
     },
     {
-      "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total": 232,
-      "messages": 11,
-      "avg": 21.1
+      "jid": "+972524544321",
+      "name": "Ori Nachum",
+      "total": 145,
+      "messages": 5,
+      "avg": 29
     },
     {
       "jid": "+972526811141",
@@ -3575,6 +3839,13 @@
       "avg": 10.7
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 20,
+      "messages": 1,
+      "avg": 20
+    },
+    {
       "jid": "+972585020404",
       "name": "Ira @ Work עירא",
       "total": 16,
@@ -3596,5 +3867,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T14:19:32.106Z"
+  "last_updated": "2026-02-12T15:15:33.478Z"
 }
