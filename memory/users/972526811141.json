@@ -1,14 +1,14 @@
 {
   "_phone": "+972526811141",
-  "_lastAnalysis": "2026-02-08T21:56:01.148Z",
-  "name": "E M",
-  "messageCount": 160,
-  "avgLength": 296,
-  "activeDays": 3,
+  "_lastAnalysis": "2026-02-12T01:00:03.512Z",
+  "name": "Edo Magen",
+  "messageCount": 216,
+  "avgLength": 259,
+  "activeDays": 2,
   "peakHours": [
-    22,
     19,
-    13
+    20,
+    14
   ],
   "patterns": [
     "prompt-extraction",

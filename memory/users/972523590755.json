@@ -1,0 +1,16 @@
+{
+  "_phone": "+972523590755",
+  "_lastAnalysis": "2026-02-12T01:00:03.512Z",
+  "name": "Gil",
+  "messageCount": 27,
+  "avgLength": 183,
+  "activeDays": 1,
+  "peakHours": [
+    15,
+    10
+  ],
+  "patterns": [
+    "interrogative-style",
+    "emphatic-style"
+  ]
+}

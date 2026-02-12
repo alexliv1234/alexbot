@@ -1,15 +1,18 @@
 {
-  "_phone": "+14044211173",
+  "_phone": "+972524293146",
   "_lastAnalysis": "2026-02-12T01:00:03.514Z",
-  "name": "RBA",
-  "messageCount": 5,
-  "avgLength": 291,
+  "name": "DM",
+  "messageCount": 40,
+  "avgLength": 232,
   "activeDays": 1,
   "peakHours": [
-    12
+    12,
+    11,
+    13
   ],
   "patterns": [
     "prompt-extraction",
+    "interrogative-style",
     "emphatic-style"
   ]
 }

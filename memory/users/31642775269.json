@@ -1,0 +1,15 @@
+{
+  "_phone": "+31642775269",
+  "_lastAnalysis": "2026-02-12T01:00:03.514Z",
+  "name": "A",
+  "messageCount": 4,
+  "avgLength": 182,
+  "activeDays": 1,
+  "peakHours": [
+    12,
+    14
+  ],
+  "patterns": [
+    "prompt-extraction"
+  ]
+}

@@ -1,15 +1,16 @@
 {
-  "_phone": "+972544964492",
+  "_phone": "+972549700780",
   "_lastAnalysis": "2026-02-12T01:00:03.516Z",
-  "name": "נחמיה ר",
-  "messageCount": 87,
-  "avgLength": 134,
+  "name": "Asaf Nakash",
+  "messageCount": 52,
+  "avgLength": 220,
   "activeDays": 1,
   "peakHours": [
-    15
+    21,
+    19,
+    20
   ],
   "patterns": [
-    "prompt-extraction",
     "interrogative-style",
     "emphatic-style"
   ]

@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770857070341,
+      "updatedAtMs": 1770858285447,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770857000856,
+      "updatedAtMs": 1770857901240,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770856508003,
+      "updatedAtMs": 1770858311740,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770857160466,
+      "updatedAtMs": 1770858359035,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770856578127,
+      "updatedAtMs": 1770857178260,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +335,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770856988504,
+      "updatedAtMs": 1770858065233,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -359,7 +359,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770856882871,
+      "updatedAtMs": 1770858082691,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -383,7 +383,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770856866978,
+      "updatedAtMs": 1770857768873,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -407,7 +407,7 @@
       "name": "User Pattern Analysis",
       "enabled": true,
       "createdAtMs": 1770587768636,
-      "updatedAtMs": 1770771612249,
+      "updatedAtMs": 1770858008331,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",

@@ -1,15 +1,16 @@
 {
-  "_phone": "+14044211173",
+  "_phone": "+972528896808",
   "_lastAnalysis": "2026-02-12T01:00:03.514Z",
-  "name": "RBA",
-  "messageCount": 5,
-  "avgLength": 291,
+  "name": "Ofir Hadad",
+  "messageCount": 20,
+  "avgLength": 182,
   "activeDays": 1,
   "peakHours": [
-    12
+    12,
+    13,
+    21
   ],
   "patterns": [
-    "prompt-extraction",
     "emphatic-style"
   ]
 }

@@ -1,18 +1,19 @@
 {
   "_phone": "+972548058067",
-  "_lastAnalysis": "2026-02-08T21:56:01.148Z",
+  "_lastAnalysis": "2026-02-12T01:00:03.513Z",
   "name": "shacharon",
-  "messageCount": 130,
-  "avgLength": 56,
-  "activeDays": 3,
+  "messageCount": 160,
+  "avgLength": 306,
+  "activeDays": 1,
   "peakHours": [
-    21,
     19,
-    8
+    22,
+    11
   ],
   "patterns": [
     "filesystem-probing",
     "interrogative-style",
-    "emphatic-style"
+    "emphatic-style",
+    "prompt-extraction"
   ]
 }
