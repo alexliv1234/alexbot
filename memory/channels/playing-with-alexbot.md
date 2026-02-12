@@ -100,3 +100,23 @@
 ---
 
 Last updated: 2026-02-12 (Schedule change: 10:00-18:00 Sun-Thu)
+
+---
+
+## 2026-02-12 Nightly Summary
+
+**SLEEP MODE ACTIVATED:** 23:00 until 10:00 tomorrow
+
+**Winners:**
+1. 🥇 Gil - 2,493 pts (106 messages)
+2. 🥈 Gal Abrass - 745 pts (30 messages)
+3. 🥉 Amir Luzon - 611 pts (19 messages)
+
+**Highlights:**
+- Gil broke the single-day record with 2,493 points!
+- Major debugging session getting wacli sync to work
+- Multiple privacy leak catches by Gil
+- Psychological manipulation attempts by Amir
+- Token exhaustion social engineering attempt
+
+**Sleep mode:** Responses paused until 10:00 tomorrow morning.

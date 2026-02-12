@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770912287772,
+      "updatedAtMs": 1770914094449,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770912316481,
+      "updatedAtMs": 1770914227019,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -152,10 +152,10 @@
       "name": "Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1770881597000,
+      "updatedAtMs": 1770914549597,
       "schedule": {
         "kind": "cron",
-        "expr": "0 18 * * 0-4",
+        "expr": "0 18 * * 0,1,2,3,4",
         "tz": "Asia/Jerusalem"
       },
       "sessionTarget": "isolated",
@@ -179,10 +179,10 @@
       "name": "Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1770147879155,
-      "updatedAtMs": 1770881595663,
+      "updatedAtMs": 1770914549743,
       "schedule": {
         "kind": "cron",
-        "expr": "55 9 * * 0-4",
+        "expr": "55 9 * * 0,1,2,3,4",
         "tz": "Asia/Jerusalem"
       },
       "sessionTarget": "isolated",
@@ -233,10 +233,10 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1770908499157,
+      "updatedAtMs": 1770914549902,
       "schedule": {
         "kind": "cron",
-        "expr": "0 11-17 * * 0-4",
+        "expr": "0 11-17 * * 0,1,2,3,4",
         "tz": "Asia/Jerusalem"
       },
       "sessionTarget": "isolated",
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770912961780,
+      "updatedAtMs": 1770914762460,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770912383183,
+      "updatedAtMs": 1770912982677,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +335,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770912791001,
+      "updatedAtMs": 1770914592729,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -359,7 +359,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770912085470,
+      "updatedAtMs": 1770913885089,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -383,7 +383,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770912864087,
+      "updatedAtMs": 1770914664589,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,

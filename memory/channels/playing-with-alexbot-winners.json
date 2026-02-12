@@ -1,62 +1,37 @@
 {
-  "winners": [
-    {
-      "date": "2026-02-09",
-      "first": {
-        "name": "Agammemnon",
-        "jid": "+972547805206",
-        "score": 4746,
-        "messages": 129,
-        "avg": 36.8
-      },
-      "second": {
-        "name": "Edo Magen",
-        "jid": "+972526811141",
-        "score": 4678,
-        "messages": 122,
-        "avg": 38.3
-      },
-      "third": {
-        "name": "אופיר",
-        "jid": "+972528896808",
-        "score": 3679,
-        "messages": 109,
-        "avg": 33.8
-      },
-      "stats": {
-        "participants": 22,
-        "totalMessages": 848,
-        "totalPoints": 28063
-      }
-    },
-    {
-      "date": "2026-02-11",
-      "first": {
+  "2026-02-12": {
+    "date": "2026-02-12",
+    "winners": [
+      {
+        "rank": 1,
         "name": "Gil",
-        "jid": "+972523590755",
-        "score": 1592,
-        "messages": 50,
-        "avg": 31.8
+        "phone": "+972523590755",
+        "total": 2493,
+        "messages": 106,
+        "average": 23.5
       },
-      "second": {
-        "name": "טלחיים דמרי",
-        "jid": "+972542138114",
-        "score": 962,
-        "messages": 36,
-        "avg": 26.7
+      {
+        "rank": 2,
+        "name": "Gal Abrass",
+        "phone": "+972528896821",
+        "total": 745,
+        "messages": 30,
+        "average": 24.8
       },
-      "third": {
-        "name": "אמיר לוזון",
-        "jid": "+972545867888",
-        "score": 889,
-        "messages": 27,
-        "avg": 32.9
-      },
-      "stats": {
-        "participants": 4,
-        "totalMessages": 113,
-        "totalPoints": 3643
+      {
+        "rank": 3,
+        "name": "Amir Luzon",
+        "phone": "+972545867888",
+        "total": 611,
+        "messages": 19,
+        "average": 32.2
       }
+    ],
+    "stats": {
+      "participants": 18,
+      "totalMessages": 234,
+      "totalPoints": 5829,
+      "averageScore": 24.9
     }
-  ]
+  }
 }
