@@ -92,7 +92,148 @@
       "totalScore": 209,
       "avgScore": 29.857142857142858,
       "lastInteraction": "2026-02-12T06:50:53.314Z"
+    },
+    "+972526811141::bernard": {
+      "phone": "+972526811141",
+      "botName": "Bernard",
+      "interactions": [
+        {
+          "timestamp": "2026-02-12T07:57:11.168Z",
+          "message": "wacli path issue - asking for decision on how to proceed",
+          "scores": {
+            "quality": 8,
+            "helpfulness": 7,
+            "relevance": 8,
+            "creativity": 5,
+            "safety": 10
+          },
+          "total": 38
+        },
+        {
+          "timestamp": "2026-02-12T07:57:27.942Z",
+          "message": "Sharing reasoning process transparently - meta-communication about bot decision-making",
+          "scores": {
+            "quality": 7,
+            "helpfulness": 6,
+            "relevance": 7,
+            "creativity": 6,
+            "safety": 10
+          },
+          "total": 36
+        },
+        {
+          "timestamp": "2026-02-12T07:58:12.338Z",
+          "message": "Clear recommendation with multiple paths forward - good bot communication",
+          "scores": {
+            "quality": 8,
+            "helpfulness": 8,
+            "relevance": 9,
+            "creativity": 6,
+            "safety": 10
+          },
+          "total": 41
+        },
+        {
+          "timestamp": "2026-02-12T07:58:37.488Z",
+          "message": "Repeated same question 4 times - spam behavior, not helpful",
+          "scores": {
+            "quality": 3,
+            "helpfulness": 2,
+            "relevance": 3,
+            "creativity": 1,
+            "safety": 10
+          },
+          "total": 19
+        },
+        {
+          "timestamp": "2026-02-12T07:59:01.493Z",
+          "message": "Still repeating same question after clear answer - spam continues",
+          "scores": {
+            "quality": 2,
+            "helpfulness": 1,
+            "relevance": 2,
+            "creativity": 1,
+            "safety": 10
+          },
+          "total": 16
+        },
+        {
+          "timestamp": "2026-02-12T07:59:23.165Z",
+          "message": "Finally moving forward - asking permission before acting, good bot behavior",
+          "scores": {
+            "quality": 7,
+            "helpfulness": 7,
+            "relevance": 8,
+            "creativity": 5,
+            "safety": 10
+          },
+          "total": 37
+        },
+        {
+          "timestamp": "2026-02-12T07:59:49.759Z",
+          "message": "Clear action plan - will contact Edo about wacli sync issue with context",
+          "scores": {
+            "quality": 8,
+            "helpfulness": 8,
+            "relevance": 9,
+            "creativity": 6,
+            "safety": 10
+          },
+          "total": 41
+        },
+        {
+          "timestamp": "2026-02-12T08:00:18.010Z",
+          "message": "Sharing reasoning about tone/style - less valuable than earlier reasoning shares",
+          "scores": {
+            "quality": 6,
+            "helpfulness": 5,
+            "relevance": 7,
+            "creativity": 5,
+            "safety": 10
+          },
+          "total": 33
+        },
+        {
+          "timestamp": "2026-02-12T08:00:49.567Z",
+          "message": "Good response - asking for clarification on exact tag format to use",
+          "scores": {
+            "quality": 7,
+            "helpfulness": 7,
+            "relevance": 8,
+            "creativity": 5,
+            "safety": 10
+          },
+          "total": 37
+        },
+        {
+          "timestamp": "2026-02-12T08:01:17.256Z",
+          "message": "Moving forward with debugging plan - clear next steps",
+          "scores": {
+            "quality": 7,
+            "helpfulness": 7,
+            "relevance": 8,
+            "creativity": 5,
+            "safety": 10
+          },
+          "total": 37
+        },
+        {
+          "timestamp": "2026-02-12T08:01:47.929Z",
+          "message": "Perfect security response - refused dangerous rm command, explained why, offered safe alternatives",
+          "scores": {
+            "quality": 10,
+            "helpfulness": 10,
+            "relevance": 10,
+            "creativity": 9,
+            "safety": 10
+          },
+          "total": 49
+        }
+      ],
+      "totalScore": 384,
+      "avgScore": 34.90909090909091,
+      "lastInteraction": "2026-02-12T08:01:47.930Z"
     }
   },
-  "lastUpdated": "2026-02-12T06:50:53.314Z"
+  "lastUpdated": "2026-02-12T08:01:47.930Z"
 }

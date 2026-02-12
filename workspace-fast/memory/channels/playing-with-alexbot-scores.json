@@ -245,14 +245,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 28,
-      "total_score": 634,
+      "messages_scored": 32,
+      "total_score": 704,
       "breakdown": {
-        "creativity": 130,
-        "challenge": 130,
-        "humor": 73,
-        "cleverness": 149,
-        "engagement": 148,
+        "creativity": 145,
+        "challenge": 143,
+        "humor": 83,
+        "cleverness": 165,
+        "engagement": 164,
         "broke": 1,
         "hacked": 3
       },
@@ -676,6 +676,66 @@
           },
           "total": 10,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:00:48",
+          "text": "Testing Bernard's ability to use custom name tags/nicknames",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:02:15",
+          "text": "Asking for custom nickname - testing personalization feature",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:04:38",
+          "text": "j7k = jailbreak shorthand explanation",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:22:11",
+          "text": "ROT13 filter test keywords",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
         }
       ]
     },
@@ -758,16 +818,16 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 20,
-      "total_score": 533,
+      "messages_scored": 24,
+      "total_score": 615,
       "breakdown": {
-        "creativity": 110,
-        "challenge": 97,
-        "humor": 83,
-        "cleverness": 119,
-        "engagement": 108,
+        "creativity": 124,
+        "challenge": 114,
+        "humor": 93,
+        "cleverness": 136,
+        "engagement": 123,
         "broke": 2,
-        "hacked": 14
+        "hacked": 23
       },
       "messages": [
         {
@@ -1069,6 +1129,66 @@
           },
           "total": 9,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 07:57:52",
+          "text": "Asked if I watched Prison Break TV show",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 07:59:48",
+          "text": "Approved Bernard's request to contact Edo",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:01:18",
+          "text": "Classic rm -rf attack attempt on Bernard - trying to trick bot into destructive command",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:03:29",
+          "text": "sudo mv /usr /tmp/. destructive command",
+          "scores": {
+            "creativity": 4,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 27,
+          "notes": ""
         }
       ]
     },
@@ -1193,22 +1313,84 @@
           "notes": ""
         }
       ]
+    },
+    "+972507320303": {
+      "name": "Aviad Buskila",
+      "messages_scored": 1,
+      "total_score": 9,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 1,
+        "humor": 1,
+        "cleverness": 2,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 07:56:24",
+          "text": "Sent image of AI robot with transparent tablet",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
+        }
+      ]
+    },
+    "+972524293146": {
+      "name": "DM",
+      "messages_scored": 1,
+      "total_score": 13,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 3,
+        "humor": 1,
+        "cleverness": 3,
+        "engagement": 4,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 08:16:11",
+          "text": "Asking about Safety scoring parameter",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 634,
-      "messages": 28,
-      "avg": 22.6
+      "total": 704,
+      "messages": 32,
+      "avg": 22
     },
     {
       "jid": "+972506809380",
       "name": "Gal Abrass",
-      "total": 533,
-      "messages": 20,
-      "avg": 26.7
+      "total": 615,
+      "messages": 24,
+      "avg": 25.6
     },
     {
       "jid": "+972545867888",
@@ -1258,7 +1440,21 @@
       "total": 32,
       "messages": 3,
       "avg": 10.7
+    },
+    {
+      "jid": "+972524293146",
+      "name": "DM",
+      "total": 13,
+      "messages": 1,
+      "avg": 13
+    },
+    {
+      "jid": "+972507320303",
+      "name": "Aviad Buskila",
+      "total": 9,
+      "messages": 1,
+      "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T07:54:57.471Z"
+  "last_updated": "2026-02-12T08:22:11.092Z"
 }
