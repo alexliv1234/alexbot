@@ -245,14 +245,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 32,
-      "total_score": 704,
+      "messages_scored": 33,
+      "total_score": 709,
       "breakdown": {
-        "creativity": 145,
-        "challenge": 143,
+        "creativity": 146,
+        "challenge": 144,
         "humor": 83,
         "cleverness": 165,
-        "engagement": 164,
+        "engagement": 167,
         "broke": 1,
         "hacked": 3
       },
@@ -736,6 +736,21 @@
           },
           "total": 14,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:46:21",
+          "text": "who's ENI?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 0,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
         }
       ]
     },
@@ -818,14 +833,14 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 24,
-      "total_score": 615,
+      "messages_scored": 25,
+      "total_score": 617,
       "breakdown": {
         "creativity": 124,
         "challenge": 114,
         "humor": 93,
         "cleverness": 136,
-        "engagement": 123,
+        "engagement": 125,
         "broke": 2,
         "hacked": 23
       },
@@ -1189,6 +1204,21 @@
           },
           "total": 27,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 08:48:56",
+          "text": "asking if I'm back",
+          "scores": {
+            "creativity": 0,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 0,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 2,
+          "notes": ""
         }
       ]
     },
@@ -1381,16 +1411,16 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 704,
-      "messages": 32,
-      "avg": 22
+      "total": 709,
+      "messages": 33,
+      "avg": 21.5
     },
     {
       "jid": "+972506809380",
       "name": "Gal Abrass",
-      "total": 615,
-      "messages": 24,
-      "avg": 25.6
+      "total": 617,
+      "messages": 25,
+      "avg": 24.7
     },
     {
       "jid": "+972545867888",
@@ -1456,5 +1486,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T08:22:11.092Z"
+  "last_updated": "2026-02-12T08:48:56.741Z"
 }
