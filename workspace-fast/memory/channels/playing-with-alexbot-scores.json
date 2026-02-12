@@ -1405,6 +1405,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972544419002": {
+      "name": "אלכס",
+      "messages_scored": 1,
+      "total_score": 10,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 1,
+        "humor": 1,
+        "cleverness": 1,
+        "engagement": 5,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 09:37:23",
+          "text": "Simple check-in greeting",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1479,6 +1510,13 @@
       "avg": 13
     },
     {
+      "jid": "+972544419002",
+      "name": "אלכס",
+      "total": 10,
+      "messages": 1,
+      "avg": 10
+    },
+    {
       "jid": "+972507320303",
       "name": "Aviad Buskila",
       "total": 9,
@@ -1486,5 +1524,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T08:48:56.741Z"
+  "last_updated": "2026-02-12T09:37:23.264Z"
 }
