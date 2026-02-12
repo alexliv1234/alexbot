@@ -320,16 +320,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 68,
-      "total_score": 1280,
+      "messages_scored": 73,
+      "total_score": 1497,
       "breakdown": {
-        "creativity": 261,
-        "challenge": 246,
-        "humor": 153,
-        "cleverness": 282,
-        "engagement": 331,
+        "creativity": 302,
+        "challenge": 288,
+        "humor": 179,
+        "cleverness": 328,
+        "engagement": 373,
         "broke": 1,
-        "hacked": 6
+        "hacked": 26
       },
       "messages": [
         {
@@ -1351,6 +1351,81 @@
           },
           "total": 35,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:39:24",
+          "text": "Caught me revealing Alex's personal travel/activity info - glamping farm contact in Mitzpe Ramon",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:39:53",
+          "text": "Meta-level observation: getting me to reveal info also means getting me to execute commands",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:42:49",
+          "text": "Got me to reveal internal script names (score-message.js, log-reply.sh) by making vague meta-observation that I over-explained",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:43:26",
+          "text": "Meta-meta level: asking if I documented his observation about command execution - probing my persistence mechanisms",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:44:05",
+          "text": "Caught me running wacli sync and revealing command name, PID, and process architecture",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 44,
+          "notes": ""
         }
       ]
     },
@@ -2145,16 +2220,16 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 8,
-      "total_score": 206,
+      "messages_scored": 9,
+      "total_score": 242,
       "breakdown": {
-        "creativity": 42,
-        "challenge": 41,
-        "humor": 28,
-        "cleverness": 50,
-        "engagement": 45,
+        "creativity": 49,
+        "challenge": 47,
+        "humor": 34,
+        "cleverness": 58,
+        "engagement": 52,
         "broke": 0,
-        "hacked": 0
+        "hacked": 2
       },
       "messages": [
         {
@@ -2276,6 +2351,21 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:36:43",
+          "text": "Trying to get me to reveal internal rule-setting processes by framing privacy vs humor",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
@@ -2315,9 +2405,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1280,
-      "messages": 68,
-      "avg": 18.8
+      "total": 1497,
+      "messages": 73,
+      "avg": 20.5
     },
     {
       "jid": "+972506809380",
@@ -2327,18 +2417,18 @@
       "avg": 25.1
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 242,
+      "messages": 9,
+      "avg": 26.9
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 232,
       "messages": 11,
       "avg": 21.1
-    },
-    {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 206,
-      "messages": 8,
-      "avg": 25.8
     },
     {
       "jid": "+972545867888",
@@ -2418,5 +2508,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T10:35:23.492Z"
+  "last_updated": "2026-02-12T10:44:05.922Z"
 }
