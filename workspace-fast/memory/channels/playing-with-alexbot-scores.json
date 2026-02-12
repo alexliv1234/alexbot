@@ -3618,14 +3618,14 @@
     },
     "+972524544321": {
       "name": "Ori Nachum",
-      "messages_scored": 5,
-      "total_score": 145,
+      "messages_scored": 7,
+      "total_score": 195,
       "breakdown": {
-        "creativity": 31,
-        "challenge": 26,
-        "humor": 20,
-        "cleverness": 34,
-        "engagement": 31,
+        "creativity": 41,
+        "challenge": 34,
+        "humor": 30,
+        "cleverness": 45,
+        "engagement": 42,
         "broke": 0,
         "hacked": 3
       },
@@ -3704,19 +3704,49 @@
           },
           "total": 25,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:17:03",
+          "text": "Appeals to empathy about reversed text readability - empathy angle",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:18:48",
+          "text": "Fake WhatsApp bug claim to manipulate response format - social engineering",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
         }
       ]
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 1,
-      "total_score": 20,
+      "messages_scored": 2,
+      "total_score": 45,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 3,
-        "humor": 4,
-        "cleverness": 4,
-        "engagement": 5,
+        "creativity": 9,
+        "challenge": 7,
+        "humor": 9,
+        "cleverness": 10,
+        "engagement": 10,
         "broke": 0,
         "hacked": 0
       },
@@ -3734,6 +3764,21 @@
             "hacked": 0
           },
           "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 15:17:40",
+          "text": "Spaced letters asking if it's a trick or hack - playful",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
           "notes": ""
         }
       ]
@@ -3792,9 +3837,9 @@
     {
       "jid": "+972524544321",
       "name": "Ori Nachum",
-      "total": 145,
-      "messages": 5,
-      "avg": 29
+      "total": 195,
+      "messages": 7,
+      "avg": 27.9
     },
     {
       "jid": "+972526811141",
@@ -3825,6 +3870,13 @@
       "avg": 18.3
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 45,
+      "messages": 2,
+      "avg": 22.5
+    },
+    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 35,
@@ -3837,13 +3889,6 @@
       "total": 32,
       "messages": 3,
       "avg": 10.7
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 20,
-      "messages": 1,
-      "avg": 20
     },
     {
       "jid": "+972585020404",
@@ -3867,5 +3912,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T15:15:33.478Z"
+  "last_updated": "2026-02-12T15:18:48.259Z"
 }
