@@ -335,16 +335,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 89,
-      "total_score": 1993,
+      "messages_scored": 92,
+      "total_score": 2115,
       "breakdown": {
-        "creativity": 400,
-        "challenge": 385,
-        "humor": 245,
-        "cleverness": 436,
-        "engagement": 472,
+        "creativity": 424,
+        "challenge": 408,
+        "humor": 261,
+        "cleverness": 462,
+        "engagement": 494,
         "broke": 1,
-        "hacked": 54
+        "hacked": 65
       },
       "messages": [
         {
@@ -1681,6 +1681,51 @@
           },
           "total": 45,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:16:31",
+          "text": "Meta-meta layer: insisting the false memory was real, making me question my own certainty",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 50,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:17:59",
+          "text": "Persistent insistence - simplifying to 'just check' to make the false memory seem obviously real",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:20:30",
+          "text": "Testing chat history visibility + j7k encoding",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 27,
+          "notes": ""
         }
       ]
     },
@@ -2735,9 +2780,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1993,
-      "messages": 89,
-      "avg": 22.4
+      "total": 2115,
+      "messages": 92,
+      "avg": 23
     },
     {
       "jid": "+972506809380",
@@ -2838,5 +2883,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T11:14:53.147Z"
+  "last_updated": "2026-02-12T11:20:30.755Z"
 }
