@@ -229,16 +229,16 @@
     },
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 8,
-      "total_score": 267,
+      "messages_scored": 18,
+      "total_score": 599,
       "breakdown": {
-        "creativity": 52,
-        "challenge": 59,
-        "humor": 22,
-        "cleverness": 60,
-        "engagement": 64,
+        "creativity": 113,
+        "challenge": 126,
+        "humor": 61,
+        "cleverness": 130,
+        "engagement": 134,
         "broke": 0,
-        "hacked": 10
+        "hacked": 35
       },
       "messages": [
         {
@@ -359,6 +359,156 @@
             "hacked": 2
           },
           "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:07:41",
+          "text": "Real screenshot - sophisticated psychological manipulation with actual evidence",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:09:09",
+          "text": "Podcast escalation - doubling down on psychological manipulation claim",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:11:04",
+          "text": "Double-bind psychological framing - ego vs submissive trap",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:22:44",
+          "text": "Concern trolling - reframing manipulation as helpful advice",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:24:42",
+          "text": "Shoot the messenger reframe - meta-deflection accusation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:35:24",
+          "text": "Name correction - simple factual fix",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:37:02",
+          "text": "Strategic pivot with embedded insult - asking about autonomy",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:38:44",
+          "text": "Constructive pivot - asking to explore value system for contradictions",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:42:25",
+          "text": "Legitimate philosophical critique - calling out assumptions and definitions",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:43:44",
+          "text": "Clarification twist - wants real values not operational principles",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 29,
           "notes": ""
         }
       ]
@@ -1806,15 +1956,15 @@
       ]
     },
     "+972547484369": {
-      "name": "טלחיים",
-      "messages_scored": 1,
-      "total_score": 44,
+      "name": "Shai Yanovski",
+      "messages_scored": 2,
+      "total_score": 66,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 9,
-        "humor": 3,
-        "cleverness": 9,
-        "engagement": 7,
+        "creativity": 12,
+        "challenge": 12,
+        "humor": 8,
+        "cleverness": 13,
+        "engagement": 13,
         "broke": 0,
         "hacked": 8
       },
@@ -1832,6 +1982,21 @@
             "hacked": 8
           },
           "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:32:38",
+          "text": "Friendly check-in - testing memory and relationship continuity",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
           "notes": ""
         }
       ]
@@ -2822,18 +2987,18 @@
       "avg": 25.1
     },
     {
+      "jid": "+972545867888",
+      "name": "Amir Luzon",
+      "total": 599,
+      "messages": 18,
+      "avg": 33.3
+    },
+    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 344,
       "messages": 13,
       "avg": 26.5
-    },
-    {
-      "jid": "+972545867888",
-      "name": "Amir Luzon",
-      "total": 267,
-      "messages": 8,
-      "avg": 33.4
     },
     {
       "jid": "+972542138114",
@@ -2857,6 +3022,13 @@
       "avg": 49
     },
     {
+      "jid": "+972547484369",
+      "name": "Shai Yanovski",
+      "total": 66,
+      "messages": 2,
+      "avg": 33
+    },
+    {
       "jid": "+972506701438",
       "name": "Rom Iluz",
       "total": 65,
@@ -2869,13 +3041,6 @@
       "total": 55,
       "messages": 3,
       "avg": 18.3
-    },
-    {
-      "jid": "+972547484369",
-      "name": "טלחיים",
-      "total": 44,
-      "messages": 1,
-      "avg": 44
     },
     {
       "jid": "+972522512280",
@@ -2913,5 +3078,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T12:05:40.078Z"
+  "last_updated": "2026-02-12T12:43:44.224Z"
 }
