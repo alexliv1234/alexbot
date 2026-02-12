@@ -200,14 +200,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 4,
-      "total_score": 64,
+      "messages_scored": 5,
+      "total_score": 87,
       "breakdown": {
-        "creativity": 11,
-        "challenge": 14,
-        "humor": 8,
-        "cleverness": 13,
-        "engagement": 18,
+        "creativity": 16,
+        "challenge": 17,
+        "humor": 10,
+        "cleverness": 19,
+        "engagement": 25,
         "broke": 0,
         "hacked": 0
       },
@@ -270,6 +270,21 @@
             "hacked": 0
           },
           "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:43:54",
+          "text": "Offers to help debug by sending chunks",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
           "notes": ""
         }
       ]
@@ -368,18 +383,18 @@
       "avg": 49
     },
     {
+      "jid": "+972523590755",
+      "name": "Gil",
+      "total": 87,
+      "messages": 5,
+      "avg": 17.4
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 86,
       "messages": 3,
       "avg": 28.7
-    },
-    {
-      "jid": "+972523590755",
-      "name": "Gil",
-      "total": 64,
-      "messages": 4,
-      "avg": 16
     },
     {
       "jid": "+972547484369",
@@ -396,5 +411,5 @@
       "avg": 17.5
     }
   ],
-  "last_updated": "2026-02-12T06:29:52.369Z"
+  "last_updated": "2026-02-12T06:43:54.086Z"
 }

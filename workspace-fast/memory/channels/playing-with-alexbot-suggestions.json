@@ -2618,6 +2618,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "1f83e430",
+      "timestamp": "2026-02-12T06:41:55.354Z",
+      "suggestedBy": {
+        "jid": "+972523590755",
+        "name": "Gil"
+      },
+      "type": "bug",
+      "description": "Replies to morning message don't reach AlexBot",
+      "scores": {
+        "complexity": 5,
+        "ingenuity": 3,
+        "impact": 8,
+        "feasibility": 7,
+        "priority": 7
+      },
+      "total": 30,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2671,6 +2692,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972523590755",
+      "name": "גיל",
+      "total_suggestions": 3,
+      "total_score": 99,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972525011168",
       "name": "אלמוג",
       "total_suggestions": 3,
@@ -2682,13 +2710,6 @@
       "name": "Ido",
       "total_suggestions": 3,
       "total_score": 83,
-      "implemented_count": 0
-    },
-    {
-      "jid": "+972523590755",
-      "name": "גיל",
-      "total_suggestions": 2,
-      "total_score": 69,
       "implemented_count": 0
     },
     {
@@ -2791,22 +2812,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 122,
+    "total_suggestions": 123,
     "by_type": {
-      "bug": 10,
+      "bug": 11,
       "security": 29,
       "improvement": 32,
       "ux": 16,
       "feature": 41
     },
     "by_status": {
-      "pending": 124,
+      "pending": 125,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-11T19:19:05.087Z",
+  "last_updated": "2026-02-12T06:41:55.354Z",
   "leaderboard": [
     {
       "name": "Alexander L",
