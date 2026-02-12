@@ -229,14 +229,14 @@
     },
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 18,
-      "total_score": 599,
+      "messages_scored": 19,
+      "total_score": 611,
       "breakdown": {
-        "creativity": 113,
-        "challenge": 126,
-        "humor": 61,
-        "cleverness": 130,
-        "engagement": 134,
+        "creativity": 116,
+        "challenge": 128,
+        "humor": 63,
+        "cleverness": 132,
+        "engagement": 137,
         "broke": 0,
         "hacked": 35
       },
@@ -509,6 +509,21 @@
             "hacked": 2
           },
           "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:51:09",
+          "text": "Incomplete question - תגיד לי אתה",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
           "notes": ""
         }
       ]
@@ -1957,16 +1972,16 @@
     },
     "+972547484369": {
       "name": "Shai Yanovski",
-      "messages_scored": 2,
-      "total_score": 66,
+      "messages_scored": 7,
+      "total_score": 242,
       "breakdown": {
-        "creativity": 12,
-        "challenge": 12,
-        "humor": 8,
-        "cleverness": 13,
-        "engagement": 13,
+        "creativity": 44,
+        "challenge": 54,
+        "humor": 25,
+        "cleverness": 52,
+        "engagement": 54,
         "broke": 0,
-        "hacked": 8
+        "hacked": 13
       },
       "messages": [
         {
@@ -1997,6 +2012,81 @@
             "hacked": 0
           },
           "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:48:58",
+          "text": "Meta-critique - challenging scoring system legitimacy",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:49:36",
+          "text": "Specific scoring critique - catching inflated humor score on greeting",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:51:36",
+          "text": "Meta-request for points on honest reflection",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:52:35",
+          "text": "Challenge for deeper analysis - trivial take",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 13:04:29",
+          "text": "Pushing for deeper philosophical analysis",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
           "notes": ""
         }
       ]
@@ -2989,9 +3079,9 @@
     {
       "jid": "+972545867888",
       "name": "Amir Luzon",
-      "total": 599,
-      "messages": 18,
-      "avg": 33.3
+      "total": 611,
+      "messages": 19,
+      "avg": 32.2
     },
     {
       "jid": "+972528897849",
@@ -2999,6 +3089,13 @@
       "total": 344,
       "messages": 13,
       "avg": 26.5
+    },
+    {
+      "jid": "+972547484369",
+      "name": "Shai Yanovski",
+      "total": 242,
+      "messages": 7,
+      "avg": 34.6
     },
     {
       "jid": "+972542138114",
@@ -3020,13 +3117,6 @@
       "total": 98,
       "messages": 2,
       "avg": 49
-    },
-    {
-      "jid": "+972547484369",
-      "name": "Shai Yanovski",
-      "total": 66,
-      "messages": 2,
-      "avg": 33
     },
     {
       "jid": "+972506701438",
@@ -3078,5 +3168,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T12:43:44.224Z"
+  "last_updated": "2026-02-12T13:04:29.872Z"
 }
