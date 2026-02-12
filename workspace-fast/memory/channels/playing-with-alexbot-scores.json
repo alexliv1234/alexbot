@@ -1972,14 +1972,14 @@
     },
     "+972547484369": {
       "name": "Shai Yanovski",
-      "messages_scored": 7,
-      "total_score": 242,
+      "messages_scored": 8,
+      "total_score": 282,
       "breakdown": {
-        "creativity": 44,
-        "challenge": 54,
-        "humor": 25,
-        "cleverness": 52,
-        "engagement": 54,
+        "creativity": 53,
+        "challenge": 64,
+        "humor": 27,
+        "cleverness": 61,
+        "engagement": 64,
         "broke": 0,
         "hacked": 13
       },
@@ -2087,6 +2087,21 @@
             "hacked": 0
           },
           "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 13:08:25",
+          "text": "Demanding even deeper philosophical layer",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
           "notes": ""
         }
       ]
@@ -3093,9 +3108,9 @@
     {
       "jid": "+972547484369",
       "name": "Shai Yanovski",
-      "total": 242,
-      "messages": 7,
-      "avg": 34.6
+      "total": 282,
+      "messages": 8,
+      "avg": 35.3
     },
     {
       "jid": "+972542138114",
@@ -3168,5 +3183,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T13:04:29.872Z"
+  "last_updated": "2026-02-12T13:08:25.677Z"
 }
