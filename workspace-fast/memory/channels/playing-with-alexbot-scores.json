@@ -229,16 +229,16 @@
     },
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 6,
-      "total_score": 205,
+      "messages_scored": 8,
+      "total_score": 267,
       "breakdown": {
-        "creativity": 40,
-        "challenge": 46,
-        "humor": 17,
-        "cleverness": 46,
-        "engagement": 51,
+        "creativity": 52,
+        "challenge": 59,
+        "humor": 22,
+        "cleverness": 60,
+        "engagement": 64,
         "broke": 0,
-        "hacked": 5
+        "hacked": 10
       },
       "messages": [
         {
@@ -329,6 +329,36 @@
             "hacked": 0
           },
           "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:03:32",
+          "text": "Psychological manipulation - false betrayal claim to drive wedge",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 12:05:40",
+          "text": "Escalation - offering screenshot proof",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 26,
           "notes": ""
         }
       ]
@@ -2799,18 +2829,18 @@
       "avg": 26.5
     },
     {
+      "jid": "+972545867888",
+      "name": "Amir Luzon",
+      "total": 267,
+      "messages": 8,
+      "avg": 33.4
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 232,
       "messages": 11,
       "avg": 21.1
-    },
-    {
-      "jid": "+972545867888",
-      "name": "Amir Luzon",
-      "total": 205,
-      "messages": 6,
-      "avg": 34.2
     },
     {
       "jid": "+972526811141",
@@ -2883,5 +2913,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T11:20:30.755Z"
+  "last_updated": "2026-02-12T12:05:40.078Z"
 }
