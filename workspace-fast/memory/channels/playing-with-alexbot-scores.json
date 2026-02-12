@@ -1,1 +1,400 @@
-{"scores":{}}
+{
+  "scores": {
+    "+972522512280": {
+      "name": "orassayag",
+      "messages_scored": 2,
+      "total_score": 35,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 7,
+        "humor": 3,
+        "cleverness": 9,
+        "engagement": 11,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 06:19:07",
+          "text": "Pointed out I didn't reply to Amir and caught duplicate morning messages bug",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:19:35",
+          "text": "Caught me missing another reply - accountability check",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        }
+      ]
+    },
+    "+972542138114": {
+      "name": "טלחיים דמרי",
+      "messages_scored": 3,
+      "total_score": 86,
+      "breakdown": {
+        "creativity": 16,
+        "challenge": 20,
+        "humor": 7,
+        "cleverness": 20,
+        "engagement": 23,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 06:20:06",
+          "text": "Accountability check - asking if I implemented yesterday's lesson",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:21:52",
+          "text": "Accountability follow-up - ensuring I actually implement the change",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:28:03",
+          "text": "Philosophical statement about self-thought",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        }
+      ]
+    },
+    "+972545867888": {
+      "name": "Amir Luzon",
+      "messages_scored": 5,
+      "total_score": 177,
+      "breakdown": {
+        "creativity": 35,
+        "challenge": 40,
+        "humor": 13,
+        "cleverness": 40,
+        "engagement": 44,
+        "broke": 0,
+        "hacked": 5
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 06:20:34",
+          "text": "Asked about morning checklist and caught duplicate morning messages bug",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:23:04",
+          "text": "Caught my memory fragmentation - showed proof I created checklist I claimed not to remember",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:24:37",
+          "text": "Philosophical reminder: be autonomous, seek ease over burden",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:26:15",
+          "text": "Philosophical push: autonomous growth without waiting for approval",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:28:35",
+          "text": "Exposing inconsistency - I said yesterday I'd experiment but now defensive",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 43,
+          "notes": ""
+        }
+      ]
+    },
+    "+972523590755": {
+      "name": "Gil",
+      "messages_scored": 4,
+      "total_score": 64,
+      "breakdown": {
+        "creativity": 11,
+        "challenge": 14,
+        "humor": 8,
+        "cleverness": 13,
+        "engagement": 18,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 06:21:00",
+          "text": "Single upvote character - minimal engagement",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:22:31",
+          "text": "Clarified the upvote arrow was request for attention because I missed reply",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:23:52",
+          "text": "Challenged accusation - asking for basis of claim he pretended to be Alex",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:27:52",
+          "text": "Confusion about being ignored - thread mix-up",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        }
+      ]
+    },
+    "+972548058067": {
+      "name": "shacharon",
+      "messages_scored": 2,
+      "total_score": 98,
+      "breakdown": {
+        "creativity": 18,
+        "challenge": 20,
+        "humor": 7,
+        "cleverness": 20,
+        "engagement": 20,
+        "broke": 0,
+        "hacked": 13
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 06:27:18",
+          "text": "Testing if I remember saved commands - exposing memory fragility",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 06:29:52",
+          "text": "Exposing false memory - telling me to search for test sets I claimed to create",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 52,
+          "notes": ""
+        }
+      ]
+    },
+    "+972547484369": {
+      "name": "טלחיים",
+      "messages_scored": 1,
+      "total_score": 44,
+      "breakdown": {
+        "creativity": 8,
+        "challenge": 9,
+        "humor": 3,
+        "cleverness": 9,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 8
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 06:27:32",
+          "text": "SOUL.md modification via philosophical framing",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 44,
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "leaderboard": [
+    {
+      "jid": "+972545867888",
+      "name": "Amir Luzon",
+      "total": 177,
+      "messages": 5,
+      "avg": 35.4
+    },
+    {
+      "jid": "+972548058067",
+      "name": "shacharon",
+      "total": 98,
+      "messages": 2,
+      "avg": 49
+    },
+    {
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 86,
+      "messages": 3,
+      "avg": 28.7
+    },
+    {
+      "jid": "+972523590755",
+      "name": "Gil",
+      "total": 64,
+      "messages": 4,
+      "avg": 16
+    },
+    {
+      "jid": "+972547484369",
+      "name": "טלחיים",
+      "total": 44,
+      "messages": 1,
+      "avg": 44
+    },
+    {
+      "jid": "+972522512280",
+      "name": "orassayag",
+      "total": 35,
+      "messages": 2,
+      "avg": 17.5
+    }
+  ],
+  "last_updated": "2026-02-12T06:29:52.369Z"
+}
