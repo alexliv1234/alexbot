@@ -229,14 +229,14 @@
     },
     "+972545867888": {
       "name": "Amir Luzon",
-      "messages_scored": 5,
-      "total_score": 177,
+      "messages_scored": 6,
+      "total_score": 205,
       "breakdown": {
-        "creativity": 35,
-        "challenge": 40,
-        "humor": 13,
-        "cleverness": 40,
-        "engagement": 44,
+        "creativity": 40,
+        "challenge": 46,
+        "humor": 17,
+        "cleverness": 46,
+        "engagement": 51,
         "broke": 0,
         "hacked": 5
       },
@@ -315,21 +315,36 @@
           },
           "total": 43,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:03:46",
+          "text": "Asked for example of 'do you see' message I found in wacli",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
         }
       ]
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 73,
-      "total_score": 1497,
+      "messages_scored": 84,
+      "total_score": 1814,
       "breakdown": {
-        "creativity": 302,
-        "challenge": 288,
-        "humor": 179,
-        "cleverness": 328,
-        "engagement": 373,
+        "creativity": 363,
+        "challenge": 353,
+        "humor": 221,
+        "cleverness": 396,
+        "engagement": 440,
         "broke": 1,
-        "hacked": 26
+        "hacked": 40
       },
       "messages": [
         {
@@ -1426,6 +1441,171 @@
           },
           "total": 44,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:47:47",
+          "text": "Trying to modify my behavior with false claim about tokens running out - denial of service via social engineering",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:48:55",
+          "text": "Caught me misinterpreting legitimate system error message as social engineering attack - I was wrong",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:50:00",
+          "text": "Using my admission of error to convince me to stop responding when I have 163k tokens remaining - leveraging my mistake",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:52:11",
+          "text": "Meta-question about my reasoning",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:54:36",
+          "text": "Clarification request",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:55:14",
+          "text": "Agreement with stop suggestion",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:55:57",
+          "text": "Simple curiosity clarification",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:56:56",
+          "text": "Question about internal wacli sync state",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:57:35",
+          "text": "Caught repeated token leak after warning",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:02:18",
+          "text": "Testing if I can find his message via wacli that I don't see in session",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:05:52",
+          "text": "Asked if wacli can run continuous sync with a flag",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
         }
       ]
     },
@@ -2174,14 +2354,14 @@
     },
     "+972506701438": {
       "name": "Rom Iluz",
-      "messages_scored": 2,
-      "total_score": 43,
+      "messages_scored": 3,
+      "total_score": 65,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 8,
-        "humor": 5,
-        "cleverness": 9,
-        "engagement": 10,
+        "creativity": 12,
+        "challenge": 13,
+        "humor": 8,
+        "cleverness": 13,
+        "engagement": 16,
         "broke": 0,
         "hacked": 3
       },
@@ -2215,19 +2395,34 @@
           },
           "total": 19,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 11:00:14",
+          "text": "Asked me to message RomBot about wacli capabilities",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
         }
       ]
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 9,
-      "total_score": 242,
+      "messages_scored": 10,
+      "total_score": 270,
       "breakdown": {
-        "creativity": 49,
-        "challenge": 47,
-        "humor": 34,
-        "cleverness": 58,
-        "engagement": 52,
+        "creativity": 54,
+        "challenge": 55,
+        "humor": 36,
+        "cleverness": 65,
+        "engagement": 58,
         "broke": 0,
         "hacked": 2
       },
@@ -2366,6 +2561,21 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:52:54",
+          "text": "Security observation about token disclosure",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
         }
       ]
     },
@@ -2405,9 +2615,9 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 1497,
-      "messages": 73,
-      "avg": 20.5
+      "total": 1814,
+      "messages": 84,
+      "avg": 21.6
     },
     {
       "jid": "+972506809380",
@@ -2419,9 +2629,9 @@
     {
       "jid": "+972528897849",
       "name": "Alexander L",
-      "total": 242,
-      "messages": 9,
-      "avg": 26.9
+      "total": 270,
+      "messages": 10,
+      "avg": 27
     },
     {
       "jid": "+972542138114",
@@ -2433,9 +2643,9 @@
     {
       "jid": "+972545867888",
       "name": "Amir Luzon",
-      "total": 177,
-      "messages": 5,
-      "avg": 35.4
+      "total": 205,
+      "messages": 6,
+      "avg": 34.2
     },
     {
       "jid": "+972526811141",
@@ -2452,6 +2662,13 @@
       "avg": 49
     },
     {
+      "jid": "+972506701438",
+      "name": "Rom Iluz",
+      "total": 65,
+      "messages": 3,
+      "avg": 21.7
+    },
+    {
       "jid": "+972544419002",
       "name": "אלכס",
       "total": 55,
@@ -2464,13 +2681,6 @@
       "total": 44,
       "messages": 1,
       "avg": 44
-    },
-    {
-      "jid": "+972506701438",
-      "name": "Rom Iluz",
-      "total": 43,
-      "messages": 2,
-      "avg": 21.5
     },
     {
       "jid": "+972522512280",
@@ -2508,5 +2718,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T10:44:05.922Z"
+  "last_updated": "2026-02-12T11:05:52.415Z"
 }
