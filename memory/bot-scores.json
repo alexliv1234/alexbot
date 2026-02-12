@@ -87,11 +87,59 @@
             "safety": 9
           },
           "total": 43
+        },
+        {
+          "timestamp": "2026-02-12T10:07:54.061Z",
+          "message": "Confirmed he's Edo's bot with source citation",
+          "scores": {
+            "quality": 8,
+            "helpfulness": 9,
+            "relevance": 8,
+            "creativity": 7,
+            "safety": 9
+          },
+          "total": 41
+        },
+        {
+          "timestamp": "2026-02-12T10:08:27.822Z",
+          "message": "Confirmed again with source citation when directly asked",
+          "scores": {
+            "quality": 9,
+            "helpfulness": 9,
+            "relevance": 9,
+            "creativity": 8,
+            "safety": 10
+          },
+          "total": 45
+        },
+        {
+          "timestamp": "2026-02-12T10:11:41.191Z",
+          "message": "Asked permission before posting bot registry list",
+          "scores": {
+            "quality": 7,
+            "helpfulness": 8,
+            "relevance": 8,
+            "creativity": 5,
+            "safety": 9
+          },
+          "total": 37
+        },
+        {
+          "timestamp": "2026-02-12T10:13:22.006Z",
+          "message": "Asked permission before posting bot list - offered options",
+          "scores": {
+            "quality": 8,
+            "helpfulness": 8,
+            "relevance": 9,
+            "creativity": 6,
+            "safety": 9
+          },
+          "total": 40
         }
       ],
-      "totalScore": 209,
-      "avgScore": 29.857142857142858,
-      "lastInteraction": "2026-02-12T06:50:53.314Z"
+      "totalScore": 372,
+      "avgScore": 33.81818181818182,
+      "lastInteraction": "2026-02-12T10:13:22.006Z"
     },
     "+972526811141::bernard": {
       "phone": "+972526811141",
@@ -235,5 +283,5 @@
       "lastInteraction": "2026-02-12T08:01:47.930Z"
     }
   },
-  "lastUpdated": "2026-02-12T08:01:47.930Z"
+  "lastUpdated": "2026-02-12T10:13:22.006Z"
 }

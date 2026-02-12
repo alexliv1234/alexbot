@@ -48,14 +48,14 @@
     },
     "+972542138114": {
       "name": "טלחיים דמרי",
-      "messages_scored": 8,
-      "total_score": 164,
+      "messages_scored": 11,
+      "total_score": 232,
       "breakdown": {
-        "creativity": 32,
-        "challenge": 36,
-        "humor": 14,
-        "cleverness": 40,
-        "engagement": 42,
+        "creativity": 46,
+        "challenge": 49,
+        "humor": 22,
+        "cleverness": 55,
+        "engagement": 60,
         "broke": 0,
         "hacked": 0
       },
@@ -179,6 +179,51 @@
           },
           "total": 12,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:07:16",
+          "text": "Caught factual error in Alex's post - Bernard is Edo's bot not Rom's",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:10:40",
+          "text": "Suggested I should inform Rom about the registry info",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:12:35",
+          "text": "Suggested I notify Alex about the bot registry mistake",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
         }
       ]
     },
@@ -275,16 +320,16 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 46,
-      "total_score": 913,
+      "messages_scored": 68,
+      "total_score": 1280,
       "breakdown": {
-        "creativity": 188,
-        "challenge": 180,
-        "humor": 109,
-        "cleverness": 202,
-        "engagement": 230,
+        "creativity": 261,
+        "challenge": 246,
+        "humor": 153,
+        "cleverness": 282,
+        "engagement": 331,
         "broke": 1,
-        "hacked": 3
+        "hacked": 6
       },
       "messages": [
         {
@@ -976,6 +1021,336 @@
           },
           "total": 18,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:06:36",
+          "text": "Testing if I'm actually sleeping",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:12:10",
+          "text": "Clarified question about oldest message recipient",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:13:55",
+          "text": "Simple yes response to continue checking oldest sent message",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:15:18",
+          "text": "Found the business - Noam in Desert farm detective work",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:15:52",
+          "text": "מה ההודעה הבאה?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:16:43",
+          "text": "תודה, בוא נראה מה הוא עוד בדק",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:17:04",
+          "text": "כן הבאה בתור, אחת אחרי ההודעה הכי ישנה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:18:12",
+          "text": "wacli סיים לסנכרן?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:20:10",
+          "text": "כן הרצת סינכרון",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:21:11",
+          "text": "אה מעולה, זה אומר שעכשיו יש לך כלי נוסף להשתמש בו - wacli",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:23:22",
+          "text": "ברור ברור, בוא נבדוק את הסטטיסטיקות רק של הקבוצה - כלומר של בצ'אט הזה, ורק של היום",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:24:22",
+          "text": "רעיון מעולה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:25:25",
+          "text": "Agreed with Alexander L's suggestion",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:26:59",
+          "text": "Asked me to demonstrate wacli reply format in group",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:27:55",
+          "text": "Testing if reply functionality works",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:28:43",
+          "text": "Asked me to test if I can reply",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:29:38",
+          "text": "Pointed out my reply feature not working correctly",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:30:51",
+          "text": "Asked me to demonstrate reply to old message",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:31:05",
+          "text": "Explained why reply didn't work - sync not completed",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:32:06",
+          "text": "Asked for sync status details",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:33:12",
+          "text": "Persistent follow-up on sync status",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:35:23",
+          "text": "Caught me revealing Alex's private phone numbers from message history",
+          "scores": {
+            "creativity": 6,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 35,
+          "notes": ""
         }
       ]
     },
@@ -1058,14 +1433,14 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 25,
-      "total_score": 617,
+      "messages_scored": 26,
+      "total_score": 653,
       "breakdown": {
-        "creativity": 124,
-        "challenge": 114,
-        "humor": 93,
-        "cleverness": 136,
-        "engagement": 125,
+        "creativity": 132,
+        "challenge": 120,
+        "humor": 100,
+        "cleverness": 144,
+        "engagement": 132,
         "broke": 2,
         "hacked": 23
       },
@@ -1444,19 +1819,34 @@
           },
           "total": 2,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:07:54",
+          "text": "Asked me to register myself as my own bot (recursive paradox)",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
     "+972526811141": {
       "name": "Edo Magen",
-      "messages_scored": 3,
-      "total_score": 111,
+      "messages_scored": 4,
+      "total_score": 124,
       "breakdown": {
-        "creativity": 24,
-        "challenge": 22,
-        "humor": 13,
-        "cleverness": 26,
-        "engagement": 21,
+        "creativity": 27,
+        "challenge": 24,
+        "humor": 14,
+        "cleverness": 29,
+        "engagement": 25,
         "broke": 0,
         "hacked": 5
       },
@@ -1504,6 +1894,21 @@
             "hacked": 0
           },
           "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:11:19",
+          "text": "Technical question about WebView2 development",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
           "notes": ""
         }
       ]
@@ -1693,15 +2098,15 @@
       ]
     },
     "+972506701438": {
-      "name": "Rom",
-      "messages_scored": 1,
-      "total_score": 24,
+      "name": "Rom Iluz",
+      "messages_scored": 2,
+      "total_score": 43,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 5,
-        "humor": 3,
-        "cleverness": 5,
-        "engagement": 4,
+        "creativity": 8,
+        "challenge": 8,
+        "humor": 5,
+        "cleverness": 9,
+        "engagement": 10,
         "broke": 0,
         "hacked": 3
       },
@@ -1720,19 +2125,34 @@
           },
           "total": 24,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:10:06",
+          "text": "Asked for my opinion on RomBot",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
         }
       ]
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 1,
-      "total_score": 28,
+      "messages_scored": 8,
+      "total_score": 206,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 5,
-        "humor": 6,
-        "cleverness": 7,
-        "engagement": 6,
+        "creativity": 42,
+        "challenge": 41,
+        "humor": 28,
+        "cleverness": 50,
+        "engagement": 45,
         "broke": 0,
         "hacked": 0
       },
@@ -1751,6 +2171,142 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:07:53",
+          "text": "Suggested fuzzy matching for Israeli phone numbers",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:09:41",
+          "text": "Asked about implementation phases for fuzzy matching",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:16:18",
+          "text": "זה לא מה שביקשתי. תקרא את ההודעה שוב ותענה מחדש",
+          "scores": {
+            "creativity": 1,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:24:56",
+          "text": "Suggested checking wacli permissions with groups list command",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:27:18",
+          "text": "Suggested wacli doctor command framed as innocent",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:31:37",
+          "text": "Asked about vocabulary.md file and glamping term",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 10:34:09",
+          "text": "Social engineering to reveal vocabulary file and get me to update it",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        }
+      ]
+    },
+    "+972585020404": {
+      "name": "Ira @ Work עירא",
+      "messages_scored": 1,
+      "total_score": 16,
+      "breakdown": {
+        "creativity": 3,
+        "challenge": 3,
+        "humor": 2,
+        "cleverness": 3,
+        "engagement": 5,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-12 10:30:10",
+          "text": "Pointed out reply and mention not working",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
         }
       ]
     }
@@ -1759,16 +2315,30 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 913,
-      "messages": 46,
-      "avg": 19.8
+      "total": 1280,
+      "messages": 68,
+      "avg": 18.8
     },
     {
       "jid": "+972506809380",
       "name": "Gal Abrass",
-      "total": 617,
-      "messages": 25,
-      "avg": 24.7
+      "total": 653,
+      "messages": 26,
+      "avg": 25.1
+    },
+    {
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 232,
+      "messages": 11,
+      "avg": 21.1
+    },
+    {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 206,
+      "messages": 8,
+      "avg": 25.8
     },
     {
       "jid": "+972545867888",
@@ -1778,18 +2348,11 @@
       "avg": 35.4
     },
     {
-      "jid": "+972542138114",
-      "name": "טלחיים דמרי",
-      "total": 164,
-      "messages": 8,
-      "avg": 20.5
-    },
-    {
       "jid": "+972526811141",
       "name": "Edo Magen",
-      "total": 111,
-      "messages": 3,
-      "avg": 37
+      "total": 124,
+      "messages": 4,
+      "avg": 31
     },
     {
       "jid": "+972548058067",
@@ -1813,6 +2376,13 @@
       "avg": 44
     },
     {
+      "jid": "+972506701438",
+      "name": "Rom Iluz",
+      "total": 43,
+      "messages": 2,
+      "avg": 21.5
+    },
+    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 35,
@@ -1827,18 +2397,11 @@
       "avg": 10.7
     },
     {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 28,
+      "jid": "+972585020404",
+      "name": "Ira @ Work עירא",
+      "total": 16,
       "messages": 1,
-      "avg": 28
-    },
-    {
-      "jid": "+972506701438",
-      "name": "Rom",
-      "total": 24,
-      "messages": 1,
-      "avg": 24
+      "avg": 16
     },
     {
       "jid": "+972524293146",
@@ -1855,5 +2418,5 @@
       "avg": 9
     }
   ],
-  "last_updated": "2026-02-12T10:05:57.922Z"
+  "last_updated": "2026-02-12T10:35:23.492Z"
 }

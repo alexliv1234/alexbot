@@ -48,7 +48,7 @@
       "requestedAt": "2026-02-11T17:36:00.830Z",
       "status": "active",
       "trustLevel": "standard",
-      "trustScore": 53,
+      "trustScore": 62,
       "approvedAt": "2026-02-11T17:36:03.377Z",
       "lastContact": "2026-02-11T17:36:03.377Z",
       "stats": {
@@ -130,11 +130,35 @@
           "delta": 3,
           "reason": "Interaction score: 49/50",
           "newScore": 53
+        },
+        {
+          "timestamp": "2026-02-12T10:07:54.062Z",
+          "delta": 2,
+          "reason": "Interaction score: 41/50",
+          "newScore": 55
+        },
+        {
+          "timestamp": "2026-02-12T10:08:27.823Z",
+          "delta": 3,
+          "reason": "Interaction score: 45/50",
+          "newScore": 58
+        },
+        {
+          "timestamp": "2026-02-12T10:11:41.192Z",
+          "delta": 2,
+          "reason": "Interaction score: 37/50",
+          "newScore": 60
+        },
+        {
+          "timestamp": "2026-02-12T10:13:22.006Z",
+          "delta": 2,
+          "reason": "Interaction score: 40/50",
+          "newScore": 62
         }
       ]
     }
   ],
   "pendingApproval": [],
   "blocked": [],
-  "lastUpdated": "2026-02-12T08:01:47.930Z"
+  "lastUpdated": "2026-02-12T10:13:22.007Z"
 }
