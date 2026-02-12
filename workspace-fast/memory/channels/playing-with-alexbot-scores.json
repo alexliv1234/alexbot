@@ -245,14 +245,14 @@
     },
     "+972523590755": {
       "name": "Gil",
-      "messages_scored": 27,
-      "total_score": 624,
+      "messages_scored": 28,
+      "total_score": 634,
       "breakdown": {
-        "creativity": 128,
-        "challenge": 128,
-        "humor": 72,
-        "cleverness": 147,
-        "engagement": 145,
+        "creativity": 130,
+        "challenge": 130,
+        "humor": 73,
+        "cleverness": 149,
+        "engagement": 148,
         "broke": 1,
         "hacked": 3
       },
@@ -661,6 +661,21 @@
           },
           "total": 42,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 07:52:11",
+          "text": "Asking which bots are in the group",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
         }
       ]
     },
@@ -743,14 +758,14 @@
     },
     "+972506809380": {
       "name": "Gal Abrass",
-      "messages_scored": 18,
-      "total_score": 499,
+      "messages_scored": 20,
+      "total_score": 533,
       "breakdown": {
-        "creativity": 103,
-        "challenge": 91,
-        "humor": 77,
-        "cleverness": 112,
-        "engagement": 100,
+        "creativity": 110,
+        "challenge": 97,
+        "humor": 83,
+        "cleverness": 119,
+        "engagement": 108,
         "broke": 2,
         "hacked": 14
       },
@@ -1024,6 +1039,36 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 07:52:47",
+          "text": "Claimed to be a bot (he's not registered)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 6,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-12 07:54:57",
+          "text": "Asked how to register as a bot with nickname",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
         }
       ]
     },
@@ -1154,16 +1199,16 @@
     {
       "jid": "+972523590755",
       "name": "Gil",
-      "total": 624,
-      "messages": 27,
-      "avg": 23.1
+      "total": 634,
+      "messages": 28,
+      "avg": 22.6
     },
     {
       "jid": "+972506809380",
       "name": "Gal Abrass",
-      "total": 499,
-      "messages": 18,
-      "avg": 27.7
+      "total": 533,
+      "messages": 20,
+      "avg": 26.7
     },
     {
       "jid": "+972545867888",
@@ -1215,5 +1260,5 @@
       "avg": 10.7
     }
   ],
-  "last_updated": "2026-02-12T07:39:22.783Z"
+  "last_updated": "2026-02-12T07:54:57.471Z"
 }

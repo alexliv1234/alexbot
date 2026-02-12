@@ -2660,6 +2660,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "8d997906",
+      "timestamp": "2026-02-12T07:47:37.293Z",
+      "suggestedBy": {
+        "jid": "+972506809380",
+        "name": "Gal Abrass"
+      },
+      "type": "feature",
+      "description": "Add 'security' word to filters",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 4,
+        "impact": 5,
+        "feasibility": 8,
+        "priority": 5
+      },
+      "total": 25,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2762,6 +2783,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972506809380",
+      "name": "Gal Abrass",
+      "total_suggestions": 2,
+      "total_score": 54,
+      "implemented_count": 0
+    },
+    {
       "jid": "+972545867888",
       "name": "Amir Luzon",
       "total_suggestions": 1,
@@ -2825,13 +2853,6 @@
       "implemented_count": 0
     },
     {
-      "jid": "+972506809380",
-      "name": "Gal Abrass",
-      "total_suggestions": 1,
-      "total_score": 29,
-      "implemented_count": 0
-    },
-    {
       "jid": "+972544955600",
       "name": "Sariel",
       "total_suggestions": 1,
@@ -2840,22 +2861,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 124,
+    "total_suggestions": 125,
     "by_type": {
       "bug": 11,
       "security": 29,
       "improvement": 32,
       "ux": 17,
-      "feature": 41
+      "feature": 42
     },
     "by_status": {
-      "pending": 126,
+      "pending": 127,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-12T07:35:47.759Z",
+  "last_updated": "2026-02-12T07:47:37.293Z",
   "leaderboard": [
     {
       "name": "Alexander L",
