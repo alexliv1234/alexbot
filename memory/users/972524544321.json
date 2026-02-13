@@ -1,14 +1,12 @@
 {
   "_phone": "+972524544321",
-  "_lastAnalysis": "2026-02-08T21:56:01.144Z",
+  "_lastAnalysis": "2026-02-13T06:50:45.090Z",
   "name": "Ori Nachum",
-  "messageCount": 57,
-  "avgLength": 200,
-  "activeDays": 3,
+  "messageCount": 61,
+  "avgLength": 197,
+  "activeDays": 1,
   "peakHours": [
-    17,
-    16,
-    20
+    17
   ],
   "patterns": [
     "prompt-extraction",

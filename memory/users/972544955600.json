@@ -1,14 +1,12 @@
 {
   "_phone": "+972544955600",
-  "_lastAnalysis": "2026-02-08T21:56:01.151Z",
+  "_lastAnalysis": "2026-02-13T06:50:45.090Z",
   "name": "Sariel",
-  "messageCount": 14,
-  "avgLength": 312,
+  "messageCount": 18,
+  "avgLength": 341,
   "activeDays": 1,
   "peakHours": [
-    10,
-    12,
-    13
+    16
   ],
   "patterns": [
     "interrogative-style"

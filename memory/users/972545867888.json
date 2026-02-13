@@ -1,14 +1,14 @@
 {
   "_phone": "+972545867888",
-  "_lastAnalysis": "2026-02-12T01:00:03.511Z",
+  "_lastAnalysis": "2026-02-13T06:50:45.089Z",
   "name": "Amir Luzon",
-  "messageCount": 86,
-  "avgLength": 398,
-  "activeDays": 1,
+  "messageCount": 105,
+  "avgLength": 372,
+  "activeDays": 2,
   "peakHours": [
     22,
     14,
-    8
+    13
   ],
   "patterns": [
     "interrogative-style",

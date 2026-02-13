@@ -7,7 +7,7 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1770770008420,
+      "updatedAtMs": 1770964918068,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -31,7 +31,7 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1770870727451,
+      "updatedAtMs": 1770964918068,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1770921858773,
+      "updatedAtMs": 1770966291918,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1770921811722,
+      "updatedAtMs": 1770964918068,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1770921320226,
+      "updatedAtMs": 1770966319730,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1770921722136,
+      "updatedAtMs": 1770966367522,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1770917782630,
+      "updatedAtMs": 1770964918068,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +335,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1770921789707,
+      "updatedAtMs": 1770966068919,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -359,7 +359,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1770921389112,
+      "updatedAtMs": 1770966089991,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -383,7 +383,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1770921687606,
+      "updatedAtMs": 1770966152306,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -407,7 +407,7 @@
       "name": "User Pattern Analysis",
       "enabled": true,
       "createdAtMs": 1770587768636,
-      "updatedAtMs": 1770858008331,
+      "updatedAtMs": 1770964918068,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -430,7 +430,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1770840100106,
+      "updatedAtMs": 1770964918068,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
