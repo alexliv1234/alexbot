@@ -1,16 +1,6 @@
 {
-  "last_style": "horror",
+  "last_style": "comics",
   "style_history": [
-    {
-      "style": "anime",
-      "context": "leaderboard",
-      "timestamp": "2026-02-09T19:01:12+02:00"
-    },
-    {
-      "style": "horror",
-      "context": "wakeup",
-      "timestamp": "2026-02-09T19:30:34+02:00"
-    },
     {
       "style": "scifi",
       "context": "wakeup",
@@ -100,7 +90,17 @@
       "style": "horror",
       "context": "nightly",
       "timestamp": "2026-02-12T18:27:24+02:00"
+    },
+    {
+      "style": "fantasy",
+      "context": "morning",
+      "timestamp": "2026-02-13T09:27:19+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "morning",
+      "timestamp": "2026-02-13T09:28:31+02:00"
     }
   ],
-  "total_generated": 33
+  "total_generated": 35
 }
