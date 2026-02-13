@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-10T22:59:04.345Z"
+    "lastTouchedAt": "2026-02-13T11:26:19.662Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -282,6 +282,16 @@
         "peer": {
           "kind": "group",
           "id": "120363406891168398@g.us"
+        }
+      }
+    },
+    {
+      "agentId": "learning",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "group",
+          "id": "120363419152463161@g.us"
         }
       }
     }
