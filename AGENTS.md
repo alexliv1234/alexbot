@@ -411,6 +411,11 @@ On WARNING: Extract to memory files. On CRITICAL: Summarize and delete session.
 - Reference relevant guide in https://github.com/alexliv1234/alexbot-learning-guides
 - User can read full details if needed
 
+**🚨 CRITICAL: Do NOT create custom files for specific requests!**
+- Always reference existing guides in the public GitHub repo
+- Only create NEW guides if a topic is completely missing
+- If creating new guide: add to repo, commit, push, then reference it
+
 **Example:** "Temperature controls randomness (0-1). Low = precise, high = creative. See [01-model-parameters.md](https://github.com/alexliv1234/alexbot-learning-guides/blob/main/01-model-parameters.md#temperature)"
 
 **Available guides:** FAQ, model-parameters, prompt-engineering, context-management, file-operations, security-boundaries, tool-usage, memory-system, multi-agent, scoring-system, cron-automation
