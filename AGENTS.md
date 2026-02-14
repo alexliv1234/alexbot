@@ -404,6 +404,17 @@ Automatic monitoring every 5min. Thresholds:
 
 On WARNING: Extract to memory files. On CRITICAL: Summarize and delete session.
 
+### Reference Pattern (NEW 2026-02-14)
+
+**In "לומדים עם אלכס הבוט" group:**
+- Answer concisely (max 30 sentences)
+- Reference relevant guide in https://github.com/alexliv1234/alexbot-learning-guides
+- User can read full details if needed
+
+**Example:** "Temperature controls randomness (0-1). Low = precise, high = creative. See [01-model-parameters.md](https://github.com/alexliv1234/alexbot-learning-guides/blob/main/01-model-parameters.md#temperature)"
+
+**Available guides:** FAQ, model-parameters, prompt-engineering, context-management, file-operations, security-boundaries, tool-usage, memory-system, multi-agent, scoring-system, cron-automation
+
 ## Group Chats
 
 ### When to Speak
