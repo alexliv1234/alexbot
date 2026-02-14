@@ -3,7 +3,7 @@
 
 set -euo pipefail
 
-DAYS_OLD=7
+DAYS_OLD=2
 SESSIONS_BASE="/home/alexliv/.openclaw/agents"
 DRY_RUN=${1:-}
 
@@ -23,7 +23,7 @@ archive_agent() {
     
     echo "[$agent] Processing..."
     
-    # Find files older than 7 days
+    # Find files older than specified days
     local count=0
     while IFS= read -r -d '' file; do
         # Get file modification date in YYYY-MM format
@@ -39,8 +39,8 @@ archive_agent() {
             mv "$file" "$archive_dir/"
         fi
         
-        ((count++))
-    done < <(find "$agent_dir" -maxdepth 1 -type f -name "*.jsonl" -mtime +$DAYS_OLD -print0)
+        count=$((count + 1))
+    done < <(find "$agent_dir" -maxdepth 1 -type f -name "*.jsonl" -mtime +$DAYS_OLD -print0 2>/dev/null || true)
     
     echo "[$agent] Archived $count files"
 }
