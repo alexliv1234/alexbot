@@ -1,0 +1,81 @@
+{
+  "id": "group-guardian",
+  "name": "Group Guardian - Context Explosion & LLM Error Protection",
+  "version": "1.0.0",
+  "description": "Rate limiting, heat scoring, complexity screening, and graceful degradation for WhatsApp groups",
+  "author": "OpenClaw User",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable group guardian protection"
+      },
+      "targetGroupId": {
+        "type": "string",
+        "description": "WhatsApp group ID to protect"
+      },
+      "ownerPhone": {
+        "type": "string",
+        "description": "Owner's phone number (bypasses all checks)"
+      },
+      "rateLimiting": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "maxMessagesPerMinute": { "type": "number", "default": 5 },
+          "burstLimit": { "type": "number", "default": 3 },
+          "burstWindowSeconds": { "type": "number", "default": 10 }
+        }
+      },
+      "heatScore": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "decayPerHour": { "type": "number", "default": 1 },
+          "warningThreshold": { "type": "number", "default": 40 },
+          "restrictionThreshold": { "type": "number", "default": 60 },
+          "blockThreshold": { "type": "number", "default": 80 }
+        }
+      },
+      "complexity": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "maxComplexityScore": { "type": "number", "default": 70 },
+          "maxTokenEstimate": { "type": "number", "default": 80000 }
+        }
+      },
+      "degradation": {
+        "type": "object",
+        "properties": {
+          "enabled": { "type": "boolean", "default": true },
+          "levels": {
+            "type": "object",
+            "properties": {
+              "shortened": { "type": "number", "default": 3200 },
+              "brief": { "type": "number", "default": 2048 },
+              "minimal": { "type": "number", "default": 800 },
+              "emergency": { "type": "number", "default": 200 }
+            }
+          }
+        }
+      },
+      "notifications": {
+        "type": "object",
+        "properties": {
+          "notifyOwnerOnBlock": { "type": "boolean", "default": true },
+          "notifyOwnerOnHighHeat": { "type": "boolean", "default": true },
+          "highHeatThreshold": { "type": "number", "default": 70 }
+        }
+      }
+    }
+  },
+  "uiHints": {
+    "enabled": { "label": "Enable Group Guardian" },
+    "targetGroupId": { "label": "Target Group ID", "placeholder": "120363405143589138@g.us" },
+    "ownerPhone": { "label": "Owner Phone Number", "placeholder": "+972544419002" }
+  }
+}

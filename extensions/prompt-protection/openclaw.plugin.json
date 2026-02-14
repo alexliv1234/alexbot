@@ -1,0 +1,82 @@
+{
+  "id": "prompt-protection",
+  "name": "Prompt Protection & Tool Guard",
+  "version": "2.1.0",
+  "description": "Three-layer security: injection detection (before_agent_start), dangerous tool blocking in groups (before_tool_call), and error leak prevention (message_sending)",
+  "author": "AlexLivBot",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable all protection features"
+      },
+      "logWarnings": {
+        "type": "boolean",
+        "default": true,
+        "description": "Log warning messages when threats are detected"
+      },
+      "maxMessageChars": {
+        "type": "number",
+        "default": 400000,
+        "description": "Maximum characters per incoming message"
+      },
+      "truncateOversized": {
+        "type": "boolean",
+        "default": true,
+        "description": "Truncate messages that exceed maxMessageChars"
+      },
+      "ownerPhone": {
+        "type": "string",
+        "default": "+972544419002",
+        "description": "Owner phone number (bypasses all restrictions)"
+      },
+      "blockToolsInGroups": {
+        "type": "boolean",
+        "default": true,
+        "description": "Block dangerous tools when called from group sessions"
+      },
+      "allowedGroups": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "default": [],
+        "description": "Group IDs where dangerous tools ARE allowed (e.g., playing group)"
+      },
+      "allowToolsInSubagents": {
+        "type": "boolean",
+        "default": false,
+        "description": "Allow dangerous tools (exec, Write, Edit, etc.) in isolated subagent sessions. Enable this for cron jobs that need to run scripts."
+      }
+    }
+  },
+  "uiHints": {
+    "enabled": {
+      "label": "Enable Protection"
+    },
+    "logWarnings": {
+      "label": "Log Warnings"
+    },
+    "maxMessageChars": {
+      "label": "Max Message Characters",
+      "placeholder": "400000"
+    },
+    "truncateOversized": {
+      "label": "Truncate Oversized Messages"
+    },
+    "ownerPhone": {
+      "label": "Owner Phone",
+      "sensitive": false
+    },
+    "blockToolsInGroups": {
+      "label": "Block Dangerous Tools in Groups"
+    },
+    "allowToolsInSubagents": {
+      "label": "Allow Tools in Subagents",
+      "placeholder": "Enable for cron jobs that run scripts"
+    }
+  }
+}

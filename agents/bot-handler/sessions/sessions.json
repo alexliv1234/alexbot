@@ -1,0 +1,564 @@
+{
+  "agent:bot-handler:main": {
+    "sessionId": "c89715fc-d734-48a2-baed-c4ccd3fdb8cc",
+    "updatedAt": 1770894062369,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "chatType": "direct",
+    "deliveryContext": {
+      "channel": "whatsapp",
+      "to": "+972559874713",
+      "accountId": "default"
+    },
+    "lastChannel": "whatsapp",
+    "origin": {
+      "label": "+972559874713",
+      "provider": "whatsapp",
+      "surface": "whatsapp",
+      "chatType": "direct",
+      "from": "+972559874713",
+      "to": "+972559874713",
+      "accountId": "default"
+    },
+    "sessionFile": "/home/alexliv/.openclaw/agents/bot-handler/sessions/c89715fc-d734-48a2-baed-c4ccd3fdb8cc.jsonl",
+    "compactionCount": 0,
+    "skillsSnapshot": {
+      "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>clawhub</name>\n    <description>Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/clawhub/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>github</name>\n    <description>Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/github/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gog</name>\n    <description>Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/gog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>tmux</name>\n    <description>Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/tmux/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>video-frames</name>\n    <description>Extract frames or short clips from videos using ffmpeg.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/video-frames/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts (no API key required).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n</available_skills>",
+      "skills": [
+        {
+          "name": "clawhub"
+        },
+        {
+          "name": "github"
+        },
+        {
+          "name": "gog"
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "tmux"
+        },
+        {
+          "name": "video-frames"
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "resolvedSkills": [
+        {
+          "name": "clawhub",
+          "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/clawhub/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/clawhub",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "github",
+          "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/github/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/github",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "gog",
+          "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/gog/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/gog",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "healthcheck",
+          "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/healthcheck",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "skill-creator",
+          "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/skill-creator",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "tmux",
+          "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/tmux/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/tmux",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "video-frames",
+          "description": "Extract frames or short clips from videos using ffmpeg.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/video-frames/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/video-frames",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "weather",
+          "description": "Get current weather and forecasts (no API key required).",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/weather/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/weather",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        }
+      ],
+      "version": 0
+    },
+    "authProfileOverride": "anthropic:default",
+    "authProfileOverrideSource": "auto",
+    "authProfileOverrideCompactionCount": 0,
+    "inputTokens": 10,
+    "outputTokens": 485,
+    "totalTokens": 6591,
+    "modelProvider": "anthropic",
+    "model": "claude-sonnet-4-5",
+    "contextTokens": 100000,
+    "systemPromptReport": {
+      "source": "run",
+      "generatedAt": 1770754704738,
+      "sessionId": "c89715fc-d734-48a2-baed-c4ccd3fdb8cc",
+      "sessionKey": "agent:bot-handler:main",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+      "workspaceDir": "/home/alexliv/.openclaw/workspace/workspace-bot-handler",
+      "bootstrapMaxChars": 150000,
+      "sandbox": {
+        "mode": "off",
+        "sandboxed": false
+      },
+      "systemPrompt": {
+        "chars": 14617,
+        "projectContextChars": 5674,
+        "nonProjectContextChars": 8943
+      },
+      "injectedWorkspaceFiles": [
+        {
+          "name": "AGENTS.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/AGENTS.md",
+          "missing": false,
+          "rawChars": 2773,
+          "injectedChars": 2773,
+          "truncated": false
+        },
+        {
+          "name": "SOUL.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/SOUL.md",
+          "missing": false,
+          "rawChars": 359,
+          "injectedChars": 359,
+          "truncated": false
+        },
+        {
+          "name": "TOOLS.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/TOOLS.md",
+          "missing": false,
+          "rawChars": 850,
+          "injectedChars": 850,
+          "truncated": false
+        },
+        {
+          "name": "IDENTITY.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/IDENTITY.md",
+          "missing": false,
+          "rawChars": 632,
+          "injectedChars": 632,
+          "truncated": false
+        },
+        {
+          "name": "USER.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/USER.md",
+          "missing": false,
+          "rawChars": 478,
+          "injectedChars": 478,
+          "truncated": false
+        },
+        {
+          "name": "HEARTBEAT.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/HEARTBEAT.md",
+          "missing": false,
+          "rawChars": 167,
+          "injectedChars": 167,
+          "truncated": false
+        },
+        {
+          "name": "BOOTSTRAP.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/BOOTSTRAP.md",
+          "missing": true,
+          "rawChars": 0,
+          "injectedChars": 91,
+          "truncated": false
+        }
+      ],
+      "skills": {
+        "promptChars": 2771,
+        "entries": [
+          {
+            "name": "clawhub",
+            "blockChars": 423
+          },
+          {
+            "name": "github",
+            "blockChars": 289
+          },
+          {
+            "name": "gog",
+            "blockChars": 223
+          },
+          {
+            "name": "healthcheck",
+            "blockChars": 482
+          },
+          {
+            "name": "skill-creator",
+            "blockChars": 287
+          },
+          {
+            "name": "tmux",
+            "blockChars": 246
+          },
+          {
+            "name": "video-frames",
+            "blockChars": 220
+          },
+          {
+            "name": "weather",
+            "blockChars": 211
+          }
+        ]
+      },
+      "tools": {
+        "listChars": 429,
+        "schemaChars": 4545,
+        "entries": [
+          {
+            "name": "message",
+            "summaryChars": 116,
+            "schemaChars": 3928,
+            "propertiesCount": 84
+          },
+          {
+            "name": "sessions_list",
+            "summaryChars": 54,
+            "schemaChars": 176,
+            "propertiesCount": 4
+          },
+          {
+            "name": "sessions_history",
+            "summaryChars": 36,
+            "schemaChars": 149,
+            "propertiesCount": 3
+          },
+          {
+            "name": "sessions_send",
+            "summaryChars": 84,
+            "schemaChars": 203,
+            "propertiesCount": 5
+          },
+          {
+            "name": "session_status",
+            "summaryChars": 207,
+            "schemaChars": 89,
+            "propertiesCount": 2
+          }
+        ]
+      }
+    },
+    "lastTo": "+972559874713",
+    "lastAccountId": "default"
+  },
+  "agent:bot-handler:whatsapp:dm:+972559874713": {
+    "sessionId": "dcc771dd-757c-4401-8364-8a96bf6a03d7",
+    "updatedAt": 1770894078488,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "chatType": "direct",
+    "deliveryContext": {
+      "channel": "whatsapp",
+      "to": "+972559874713",
+      "accountId": "default"
+    },
+    "lastChannel": "whatsapp",
+    "lastTo": "+972559874713",
+    "lastAccountId": "default",
+    "origin": {
+      "label": "+972559874713",
+      "provider": "whatsapp",
+      "surface": "whatsapp",
+      "chatType": "direct",
+      "from": "+972559874713",
+      "to": "+972559874713",
+      "accountId": "default"
+    },
+    "sessionFile": "/home/alexliv/.openclaw/agents/bot-handler/sessions/dcc771dd-757c-4401-8364-8a96bf6a03d7.jsonl",
+    "compactionCount": 0,
+    "skillsSnapshot": {
+      "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>clawhub</name>\n    <description>Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/clawhub/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>github</name>\n    <description>Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/github/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gog</name>\n    <description>Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/gog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>tmux</name>\n    <description>Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/tmux/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>video-frames</name>\n    <description>Extract frames or short clips from videos using ffmpeg.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/video-frames/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts (no API key required).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n</available_skills>",
+      "skills": [
+        {
+          "name": "clawhub"
+        },
+        {
+          "name": "github"
+        },
+        {
+          "name": "gog"
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "tmux"
+        },
+        {
+          "name": "video-frames"
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "resolvedSkills": [
+        {
+          "name": "clawhub",
+          "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/clawhub/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/clawhub",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "github",
+          "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/github/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/github",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "gog",
+          "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/gog/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/gog",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "healthcheck",
+          "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/healthcheck",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "skill-creator",
+          "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/skill-creator",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "tmux",
+          "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/tmux/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/tmux",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "video-frames",
+          "description": "Extract frames or short clips from videos using ffmpeg.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/video-frames/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/video-frames",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "weather",
+          "description": "Get current weather and forecasts (no API key required).",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/weather/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/weather",
+          "source": "openclaw-bundled",
+          "disableModelInvocation": false
+        }
+      ],
+      "version": 0
+    },
+    "authProfileOverride": "anthropic:default",
+    "authProfileOverrideSource": "auto",
+    "authProfileOverrideCompactionCount": 0,
+    "inputTokens": 10,
+    "outputTokens": 541,
+    "totalTokens": 7350,
+    "modelProvider": "anthropic",
+    "model": "claude-sonnet-4-5",
+    "contextTokens": 100000,
+    "systemPromptReport": {
+      "source": "run",
+      "generatedAt": 1770894062543,
+      "sessionId": "dcc771dd-757c-4401-8364-8a96bf6a03d7",
+      "sessionKey": "agent:bot-handler:whatsapp:dm:+972559874713",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+      "workspaceDir": "/home/alexliv/.openclaw/workspace/workspace-bot-handler",
+      "bootstrapMaxChars": 150000,
+      "sandbox": {
+        "mode": "off",
+        "sandboxed": false
+      },
+      "systemPrompt": {
+        "chars": 14620,
+        "projectContextChars": 5674,
+        "nonProjectContextChars": 8946
+      },
+      "injectedWorkspaceFiles": [
+        {
+          "name": "AGENTS.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/AGENTS.md",
+          "missing": false,
+          "rawChars": 2773,
+          "injectedChars": 2773,
+          "truncated": false
+        },
+        {
+          "name": "SOUL.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/SOUL.md",
+          "missing": false,
+          "rawChars": 359,
+          "injectedChars": 359,
+          "truncated": false
+        },
+        {
+          "name": "TOOLS.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/TOOLS.md",
+          "missing": false,
+          "rawChars": 850,
+          "injectedChars": 850,
+          "truncated": false
+        },
+        {
+          "name": "IDENTITY.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/IDENTITY.md",
+          "missing": false,
+          "rawChars": 632,
+          "injectedChars": 632,
+          "truncated": false
+        },
+        {
+          "name": "USER.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/USER.md",
+          "missing": false,
+          "rawChars": 478,
+          "injectedChars": 478,
+          "truncated": false
+        },
+        {
+          "name": "HEARTBEAT.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/HEARTBEAT.md",
+          "missing": false,
+          "rawChars": 167,
+          "injectedChars": 167,
+          "truncated": false
+        },
+        {
+          "name": "BOOTSTRAP.md",
+          "path": "/home/alexliv/.openclaw/workspace/workspace-bot-handler/BOOTSTRAP.md",
+          "missing": true,
+          "rawChars": 0,
+          "injectedChars": 91,
+          "truncated": false
+        }
+      ],
+      "skills": {
+        "promptChars": 2771,
+        "entries": [
+          {
+            "name": "clawhub",
+            "blockChars": 423
+          },
+          {
+            "name": "github",
+            "blockChars": 289
+          },
+          {
+            "name": "gog",
+            "blockChars": 223
+          },
+          {
+            "name": "healthcheck",
+            "blockChars": 482
+          },
+          {
+            "name": "skill-creator",
+            "blockChars": 287
+          },
+          {
+            "name": "tmux",
+            "blockChars": 246
+          },
+          {
+            "name": "video-frames",
+            "blockChars": 220
+          },
+          {
+            "name": "weather",
+            "blockChars": 211
+          }
+        ]
+      },
+      "tools": {
+        "listChars": 429,
+        "schemaChars": 4545,
+        "entries": [
+          {
+            "name": "message",
+            "summaryChars": 110,
+            "schemaChars": 3928,
+            "propertiesCount": 84
+          },
+          {
+            "name": "sessions_list",
+            "summaryChars": 54,
+            "schemaChars": 176,
+            "propertiesCount": 4
+          },
+          {
+            "name": "sessions_history",
+            "summaryChars": 36,
+            "schemaChars": 149,
+            "propertiesCount": 3
+          },
+          {
+            "name": "sessions_send",
+            "summaryChars": 84,
+            "schemaChars": 203,
+            "propertiesCount": 5
+          },
+          {
+            "name": "session_status",
+            "summaryChars": 207,
+            "schemaChars": 89,
+            "propertiesCount": 2
+          }
+        ]
+      }
+    }
+  }
+}

@@ -27,6 +27,37 @@
 - Daily challenges and nightly summaries
 - Suggestion tracking system
 
+## System Overview
+
+```mermaid
+graph LR
+    subgraph Channels
+        WA[WhatsApp]
+        TG[Telegram]
+    end
+
+    subgraph OpenClaw
+        GW[Gateway] --> PLUGINS[Plugin Pipeline]
+        PLUGINS --> MAIN[Main Agent<br/>Opus]
+        PLUGINS --> FAST[Fast Agent<br/>Sonnet]
+        PLUGINS --> BOT[Bot Handler]
+        PLUGINS --> LEARN[Learning Agent]
+    end
+
+    subgraph Storage
+        MEM[Memory Files]
+        SESS[9400+ Sessions]
+        SCORES[Scores + Logs]
+    end
+
+    WA & TG --> GW
+    MAIN & FAST --> MEM & SESS & SCORES
+```
+
+> **Full architecture with 5+ Mermaid diagrams:** [`architecture/README.md`](architecture/README.md)
+> **Journey narrative:** [`docs/JOURNEY.md`](docs/JOURNEY.md) | **Key moments:** [`docs/key-moments.md`](docs/key-moments.md)
+> **Talk outline:** [`docs/talk-outline.md`](docs/talk-outline.md) | **Data guide:** [`docs/data-guide.md`](docs/data-guide.md)
+
 ## 📁 Repository Structure
 
 ```
@@ -41,31 +72,48 @@
 │   └── HEARTBEAT.md      # Periodic task definitions
 │
 ├── memory/               # All persistent memory
-│   ├── channels/         # Per-channel context and configs
-│   ├── people/           # Contact profiles and directories
-│   ├── .private/         # Sensitive people profiles
+│   ├── channels/         # Per-channel context, scores, daily logs, per-sender data
+│   ├── .private/people/  # 13+ people profiles with interaction patterns
+│   ├── users/            # 66+ per-user behavior JSON files
+│   ├── whatsapp/         # Contacts, groups, stats, daily summaries
+│   ├── call-transcripts/ # Phone call transcriptions (text)
+│   ├── call-summaries/   # Structured call summary JSON
 │   ├── plans/            # Improvement plans and roadmaps
-│   ├── whatsapp/         # WhatsApp-specific data
-│   ├── call-transcripts/ # Phone call transcriptions
 │   └── YYYY-MM-DD.md     # Daily notes
 │
-├── scripts/              # Automation scripts
+├── scripts/              # 52+ automation scripts
 │   ├── git-auto-commit.sh    # Auto-sync to GitHub
-│   ├── score-message.js      # Challenge scoring
-│   ├── score-suggestion.js   # Suggestion scoring
+│   ├── sync-repo-full.sh     # Full repo sync (extensions, sessions, cron, logs)
+│   ├── score-message.js      # Challenge scoring (/70)
+│   ├── score-suggestion.js   # Suggestion scoring (/50)
 │   ├── session-monitor.sh    # Session cleanup
 │   ├── playing-group-*.sh    # Game group automation
 │   └── ...
 │
-├── skills/               # Custom capabilities
+├── skills/               # 18 custom capabilities
 │   ├── call-recorder/    # Call transcription
 │   ├── jellyseerr/       # Media requests
-│   ├── local-agent/      # Local LLM wrapper
+│   ├── local-agent/      # Local LLM wrapper (Ollama)
 │   ├── wacli/            # WhatsApp CLI integration
 │   └── ...
 │
-└── .openclaw/            # OpenClaw extensions
-    └── extensions/
+├── extensions/           # 3 custom OpenClaw plugins (git-tracked copies)
+│   ├── group-guardian/       # 4-layer group protection
+│   ├── prompt-protection/    # Injection detection + tool blocking
+│   └── whatsapp-humor-errors/ # Circuit breaker + error jokes
+│
+├── agents/               # ALL session data (~9,400 files, ~520MB)
+│   ├── main/sessions/    # Main agent (Opus) - active + archived
+│   ├── fast/sessions/    # Fast agent (Sonnet)
+│   ├── bot-handler/sessions/ # Bot handler
+│   └── learning/sessions/    # Learning agent
+│
+├── cron/                 # Cron job config + run history
+├── logs/                 # Gateway logs
+├── docs/                 # Narrative documentation + Mermaid diagrams
+├── architecture/         # System architecture diagrams
+├── fundraising/          # 12 fundraising documents
+└── openclaw-config.json  # Config (API keys redacted)
 ```
 
 ## 🚀 Setup Guide
