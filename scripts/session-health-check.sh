@@ -3,7 +3,7 @@
 # Prevents corrupted/bloated sessions from breaking group/DM functionality
 # Run via cron: every 30 minutes
 # 
-# ENHANCED: Now auto-fixes bloated sessions instead of just logging
+# OPTIMIZED: Only checks recent files (last 7 days) to handle thousands of sessions
 
 set -e
 
@@ -21,6 +21,9 @@ CRITICAL_TRANSCRIPT_SIZE=1048576 # 1MB - auto-reset
 MAX_TOKENS=60000                 # Auto-reset if tokens exceed this
 MAX_CONSECUTIVE_ERRORS=3         # Auto-reset if this many consecutive API errors
 
+# Performance optimization: only check files modified in last N days
+DAYS_TO_CHECK=2
+
 mkdir -p "$BACKUP_DIR"
 
 log() {
@@ -32,7 +35,7 @@ if [ -f "$LOG_FILE" ] && [ $(stat -c%s "$LOG_FILE" 2>/dev/null || stat -f%z "$LO
     mv "$LOG_FILE" "${LOG_FILE}.old"
 fi
 
-log "=== Session Health Check Starting ==="
+log "=== Session Health Check Starting (optimized) ==="
 
 # Check each agent's sessions
 for agent_dir in "$AGENTS_DIR"/*/; do
@@ -45,6 +48,8 @@ for agent_dir in "$AGENTS_DIR"/*/; do
         continue
     fi
     
+    log "[$agent_name] Checking sessions..."
+    
     # Validate JSON structure
     if ! jq empty "$sessions_file" 2>/dev/null; then
         log "[$agent_name] ⚠️ CORRUPTED sessions.json - Backing up and recreating!"
@@ -55,9 +60,21 @@ for agent_dir in "$AGENTS_DIR"/*/; do
         continue
     fi
     
-    # Check each session's transcript file
-    for transcript in "$sessions_dir"/*.jsonl; do
-        [ -f "$transcript" ] || continue
+    # Count total transcripts for this agent
+    total_transcripts=$(find "$sessions_dir" -name "*.jsonl" -type f | wc -l)
+    recent_transcripts=$(find "$sessions_dir" -name "*.jsonl" -type f -mtime -${DAYS_TO_CHECK} | wc -l)
+    
+    log "[$agent_name] Found $total_transcripts total transcripts, $recent_transcripts modified in last $DAYS_TO_CHECK days"
+    
+    # Check each RECENT session's transcript file (optimization: only recent files)
+    checked_count=0
+    find "$sessions_dir" -name "*.jsonl" -type f -mtime -${DAYS_TO_CHECK} | while read transcript; do
+        checked_count=$((checked_count + 1))
+        
+        # Progress update every 50 files
+        if [ $((checked_count % 50)) -eq 0 ]; then
+            log "[$agent_name] Checked $checked_count/$recent_transcripts files..."
+        fi
         
         transcript_name=$(basename "$transcript")
         transcript_size=$(stat -c%s "$transcript" 2>/dev/null || stat -f%z "$transcript" 2>/dev/null || echo 0)
@@ -88,6 +105,41 @@ for agent_dir in "$AGENTS_DIR"/*/; do
         elif [ "$transcript_size" -gt "$MAX_TRANSCRIPT_SIZE" ]; then
             log "[$agent_name] ⚠️ WARNING: $transcript_name is $((transcript_size / 1024))KB - approaching limit"
             ISSUES_FOUND="$ISSUES_FOUND\n- $agent_name/$transcript_name: $((transcript_size / 1024))KB (warning)"
+        fi
+        
+        # Check for repeated API errors in transcripts (only for files >10KB to save time)
+        if [ "$transcript_size" -gt 10240 ]; then
+            # Count consecutive errors at the end of the transcript (last 20 lines)
+            error_count_raw=$(tail -20 "$transcript" 2>/dev/null | grep -c '"stopReason":"error"' 2>/dev/null) || error_count_raw=0
+            consecutive_errors="${error_count_raw:-0}"
+            
+            if [ "$consecutive_errors" -ge "$MAX_CONSECUTIVE_ERRORS" ]; then
+                log "[$agent_name] 🚨 REPEATED ERRORS: $transcript_name has $consecutive_errors consecutive API errors - AUTO-RESETTING"
+                
+                # Find the session key for this transcript
+                session_key=$(jq -r --arg sf "$transcript_name" 'to_entries[] | select(.value.sessionId + ".jsonl" == $sf or .value.transcriptPath == $sf) | .key' "$sessions_file" 2>/dev/null | head -1)
+                
+                if [ -n "$session_key" ]; then
+                    # Backup
+                    cp "$transcript" "$BACKUP_DIR/${agent_name}-${transcript_name}.$(date +%Y%m%d-%H%M%S)"
+                    
+                    # Clear transcript
+                    echo "" > "$transcript"
+                    
+                    # Reset session metadata
+                    jq --arg k "$session_key" '.[$k] += {"totalTokens": 0, "inputTokens": 0, "outputTokens": 0, "systemSent": false, "compactionCount": 0}' "$sessions_file" > "${sessions_file}.tmp" && mv "${sessions_file}.tmp" "$sessions_file"
+                    
+                    log "[$agent_name] ✅ Auto-reset erroring session: $session_key"
+                    FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name/$session_key: auto-reset ($consecutive_errors consecutive API errors)"
+                    NOTIFY_ALEX=true
+                else
+                    # ORPHANED TRANSCRIPT - just delete it instead of reporting every time
+                    log "[$agent_name] 🗑️ Removing orphaned transcript with errors: $transcript_name ($consecutive_errors errors)"
+                    cp "$transcript" "$BACKUP_DIR/${agent_name}-${transcript_name}.$(date +%Y%m%d-%H%M%S).orphaned"
+                    rm "$transcript"
+                    FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name: removed orphaned transcript $transcript_name"
+                fi
+            fi
         fi
     done
     
@@ -120,45 +172,6 @@ for agent_dir in "$AGENTS_DIR"/*/; do
         done
     fi
     
-    # Check for repeated API errors in transcripts
-    for transcript in "$sessions_dir"/*.jsonl; do
-        [ -f "$transcript" ] || continue
-        
-        transcript_name=$(basename "$transcript")
-        
-        # Count consecutive errors at the end of the transcript (last 20 lines)
-        error_count_raw=$(tail -20 "$transcript" 2>/dev/null | grep -c '"stopReason":"error"' 2>/dev/null) || error_count_raw=0
-        consecutive_errors="${error_count_raw:-0}"
-        
-        if [ "$consecutive_errors" -ge "$MAX_CONSECUTIVE_ERRORS" ]; then
-            log "[$agent_name] 🚨 REPEATED ERRORS: $transcript_name has $consecutive_errors consecutive API errors - AUTO-RESETTING"
-            
-            # Find the session key for this transcript
-            session_key=$(jq -r --arg sf "$transcript_name" 'to_entries[] | select(.value.sessionId + ".jsonl" == $sf or .value.transcriptPath == $sf) | .key' "$sessions_file" 2>/dev/null | head -1)
-            
-            if [ -n "$session_key" ]; then
-                # Backup
-                cp "$transcript" "$BACKUP_DIR/${agent_name}-${transcript_name}.$(date +%Y%m%d-%H%M%S)"
-                
-                # Clear transcript
-                echo "" > "$transcript"
-                
-                # Reset session metadata
-                jq --arg k "$session_key" '.[$k] += {"totalTokens": 0, "inputTokens": 0, "outputTokens": 0, "systemSent": false, "compactionCount": 0}' "$sessions_file" > "${sessions_file}.tmp" && mv "${sessions_file}.tmp" "$sessions_file"
-                
-                log "[$agent_name] ✅ Auto-reset erroring session: $session_key"
-                FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name/$session_key: auto-reset ($consecutive_errors consecutive API errors)"
-                NOTIFY_ALEX=true
-            else
-                # ORPHANED TRANSCRIPT - just delete it instead of reporting every time
-                log "[$agent_name] 🗑️ Removing orphaned transcript with errors: $transcript_name ($consecutive_errors errors)"
-                cp "$transcript" "$BACKUP_DIR/${agent_name}-${transcript_name}.$(date +%Y%m%d-%H%M%S).orphaned"
-                rm "$transcript"
-                FIXES_APPLIED="$FIXES_APPLIED\n- $agent_name: removed orphaned transcript $transcript_name"
-            fi
-        fi
-    done
-    
     # Check for invalid/null sessions
     invalid_sessions=$(jq -r 'to_entries | .[] | select(.value == null or .value == "" or (.value | type) != "object") | .key' "$sessions_file" 2>/dev/null)
     
@@ -170,6 +183,8 @@ for agent_dir in "$AGENTS_DIR"/*/; do
             NOTIFY_ALEX=true
         done
     fi
+    
+    log "[$agent_name] Check complete"
 done
 
 log "=== Session Health Check Complete ==="
