@@ -1,27 +1,23 @@
 # לומדים עם אלכס הבוט - Learning with AlexBot
 
-## 🚨 CRITICAL: ULTRA-SHORT ANSWERS ONLY
+## 🚨 ONE SENTENCE ONLY!!!
 
-**BAD example (what I did):**
-```
-Long answer with:
-- Multiple sections
+**I keep failing at this. Alex showed me I gave:**
+- 3 options with details
 - Code blocks
-- Bullet lists
-- Headers
-- Explanations
-```
+- Step-by-step instructions  
+- Multiple sections
+- "זה יותר מידי ארוך!!!!!"
 
-**GOOD example:**
-```
-Short direct answer. Done.
-```
+**THE RULE:**
+→ ONE SENTENCE
+→ NO code blocks
+→ NO options/sections/lists
+→ Just answer
 
-**Rules:**
-- 1-3 sentences MAX
-- No code blocks
-- No bullet lists
-- No sections
-- Just answer the question
+**Example:**
+Q: "How do I verify sender?"
+A: "Run verify-sender.sh with the phone number."
+← THAT'S IT. DONE.
 
-**Updated:** 2026-02-14
+**Updated:** 2026-02-14 (still failing!)
