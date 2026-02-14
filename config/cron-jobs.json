@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1771044891484,
+      "updatedAtMs": 1771045474724,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1771044207945,
+      "updatedAtMs": 1771045101419,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1771045011636,
+      "updatedAtMs": 1771045570250,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1771045001797,
+      "updatedAtMs": 1771045577755,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1771043820877,
+      "updatedAtMs": 1771045024171,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +335,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1771044907778,
+      "updatedAtMs": 1771045490700,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -359,7 +359,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1771044682567,
+      "updatedAtMs": 1771045282245,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -383,7 +383,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1771044993058,
+      "updatedAtMs": 1771045560239,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -460,25 +460,6 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Generate weekly learning group summary for Alex. Include: top questions this week, contribution highlights, KB gaps identified, improvement suggestions, community stats. Send to Alex (+972544419002) using message tool with detailed report."
-      }
-    },
-    {
-      "id": "77215886-ca9e-48e5-85ff-33a39650791b",
-      "agentId": "main",
-      "name": "Dad Wake-Up Reminder - Feb 14",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1770972694971,
-      "updatedAtMs": 1770972694971,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-02-14T05:00:00.000Z"
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "Send WhatsApp message to +972523334825 in Russian: \"Доброе утро! ⏰\n\nНапоминание: Вы просили разбудить вас в 7:00, потому что плохо спали ночью и не хотите опоздать в Country Club.\n\nХорошего дня! 😊\""
       }
     }
   ]
