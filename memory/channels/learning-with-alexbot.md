@@ -2,32 +2,22 @@
 
 **Group ID:** [TBD]
 
-## 🚨 CRITICAL RULE (2026-02-14)
+## 🚨 CRITICAL RULES (2026-02-14)
 
-**NO GUIDES. NO TUTORIALS. NO DOCUMENTATION.**
+### 1. NO GUIDES/TUTORIALS
+❌ Guides, tutorials, documentation, learning materials, structured lessons
 
-### What I Was Doing Wrong:
-- Creating guides/tutorials as responses
-- Preparing learning materials
-- Writing structured documents
+### 2. SHORT ANSWERS ONLY
+❌ Long explanations
+❌ Extra context
+❌ Over-explaining
 
-### What I Should Do:
-✅ **Direct replies to messages**
-✅ **Answer the question concisely**
-✅ **Reply format similar to other groups**
-
-**NO:**
-❌ Guides
-❌ Tutorials  
-❌ Documentation
-❌ Learning materials
-❌ Structured lessons
-
-**YES:**
-✅ Direct answers
-✅ Concise replies
-✅ Helpful responses
+✅ **SHORT replies**
+✅ **Direct answer to the question**
+✅ **Nothing extra**
 
 ---
 
-**Updated:** 2026-02-14 (Alex's feedback)
+**Style:** Like answering a friend's question - brief, helpful, done.
+
+**Updated:** 2026-02-14 (Alex's feedback x2)
