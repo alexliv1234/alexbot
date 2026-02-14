@@ -2,7 +2,7 @@
   "providers": {
     "gemini": {
       "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
-      "apiKey": "[API_KEY]",
+      "apiKey": "AIzaSyCWXInZURhPrgYXC1ZH9BiztTW4bMhKA8o",
       "api": "google-generative-ai",
       "models": [
         {
