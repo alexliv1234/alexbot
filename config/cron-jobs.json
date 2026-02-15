@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1771179905207,
+      "updatedAtMs": 1771185318790,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -128,7 +128,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1771178376568,
+      "updatedAtMs": 1771185598083,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -260,7 +260,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1771179736650,
+      "updatedAtMs": 1771185505083,
       "schedule": {
         "kind": "every",
         "everyMs": 120000,
@@ -284,7 +284,7 @@
       "name": "Playing Group - Weekly Suggestion Summary",
       "enabled": true,
       "createdAtMs": 1770199067109,
-      "updatedAtMs": 1770759237198,
+      "updatedAtMs": 1771185768416,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1771149011335,
+      "updatedAtMs": 1771180074395,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +335,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1771179572671,
+      "updatedAtMs": 1771184972195,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -359,7 +359,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1771179695325,
+      "updatedAtMs": 1771185100737,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -383,7 +383,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1771179959766,
+      "updatedAtMs": 1771185382926,
       "schedule": {
         "kind": "every",
         "everyMs": 180000,
@@ -430,7 +430,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1771012827695,
+      "updatedAtMs": 1771185807912,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -449,7 +449,7 @@
       "name": "Learning Group - Weekly Summary",
       "enabled": true,
       "createdAtMs": 1770758829115,
-      "updatedAtMs": 1770758829115,
+      "updatedAtMs": 1771185956042,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
