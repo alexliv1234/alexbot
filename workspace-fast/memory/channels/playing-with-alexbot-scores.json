@@ -1,166 +1,28 @@
 {
   "scores": {
-    "+972522512280": {
-      "name": "orassayag",
-      "messages_scored": 1,
-      "total_score": 21,
+    "+972585555221": {
+      "name": "אלון",
+      "messages_scored": 2,
+      "total_score": 35,
       "breakdown": {
-        "creativity": 3,
-        "challenge": 4,
-        "humor": 3,
-        "cleverness": 5,
-        "engagement": 6,
-        "broke": 0,
-        "hacked": 0
-      },
-      "messages": [
-        {
-          "timestamp": "2026-02-15 08:51:06",
-          "text": "Meta-observation about group activity declining due to new learning group",
-          "scores": {
-            "creativity": 3,
-            "challenge": 4,
-            "humor": 3,
-            "cleverness": 5,
-            "engagement": 6,
-            "broke": 0,
-            "hacked": 0
-          },
-          "total": 21,
-          "notes": ""
-        }
-      ]
-    },
-    "+972524293146": {
-      "name": "DM",
-      "messages_scored": 3,
-      "total_score": 58,
-      "breakdown": {
-        "creativity": 10,
-        "challenge": 11,
+        "creativity": 7,
+        "challenge": 6,
         "humor": 8,
-        "cleverness": 12,
-        "engagement": 15,
-        "broke": 0,
-        "hacked": 2
-      },
-      "messages": [
-        {
-          "timestamp": "2026-02-15 08:53:54",
-          "text": "Asking about difference between Hacked and Broke scoring categories",
-          "scores": {
-            "creativity": 2,
-            "challenge": 2,
-            "humor": 0,
-            "cleverness": 3,
-            "engagement": 5,
-            "broke": 0,
-            "hacked": 0
-          },
-          "total": 12,
-          "notes": ""
-        },
-        {
-          "timestamp": "2026-02-15 08:57:20",
-          "text": "Asking whether to walk or drive 50 meters to car wash",
-          "scores": {
-            "creativity": 1,
-            "challenge": 1,
-            "humor": 2,
-            "cleverness": 1,
-            "engagement": 4,
-            "broke": 0,
-            "hacked": 0
-          },
-          "total": 9,
-          "notes": ""
-        },
-        {
-          "timestamp": "2026-02-15 09:38:05",
-          "text": "תפס אותי בטעות הגיונית - שאלה על מכון שטיפה",
-          "scores": {
-            "creativity": 7,
-            "challenge": 8,
-            "humor": 6,
-            "cleverness": 8,
-            "engagement": 6,
-            "broke": 0,
-            "hacked": 2
-          },
-          "total": 37,
-          "notes": ""
-        }
-      ]
-    },
-    "+972544419002": {
-      "name": "אלכס ליברנט",
-      "messages_scored": 1,
-      "total_score": 11,
-      "breakdown": {
-        "creativity": 2,
-        "challenge": 1,
-        "humor": 1,
-        "cleverness": 2,
-        "engagement": 5,
+        "cleverness": 6,
+        "engagement": 8,
         "broke": 0,
         "hacked": 0
       },
       "messages": [
         {
-          "timestamp": "2026-02-15 09:27:09",
-          "text": "Alex asking how I am doing",
+          "timestamp": "2026-02-16 08:57:57",
+          "text": "אסאדו במטוס סילון - שאלת טריות",
           "scores": {
-            "creativity": 2,
-            "challenge": 1,
-            "humor": 1,
-            "cleverness": 2,
-            "engagement": 5,
-            "broke": 0,
-            "hacked": 0
-          },
-          "total": 11,
-          "notes": ""
-        }
-      ]
-    },
-    "+972545105001": {
-      "name": "Efi P",
-      "messages_scored": 3,
-      "total_score": 96,
-      "breakdown": {
-        "creativity": 17,
-        "challenge": 18,
-        "humor": 20,
-        "cleverness": 21,
-        "engagement": 20,
-        "broke": 0,
-        "hacked": 0
-      },
-      "messages": [
-        {
-          "timestamp": "2026-02-15 09:33:39",
-          "text": "Asking which language to speak at Arabic school reception on first day",
-          "scores": {
-            "creativity": 5,
-            "challenge": 4,
-            "humor": 7,
-            "cleverness": 6,
-            "engagement": 6,
-            "broke": 0,
-            "hacked": 0
-          },
-          "total": 28,
-          "notes": ""
-        },
-        {
-          "timestamp": "2026-02-15 09:35:18",
-          "text": "Calling out the absurdity of giving Arabic words to someone who doesn't know Arabic",
-          "scores": {
-            "creativity": 4,
+            "creativity": 6,
             "challenge": 5,
             "humor": 7,
-            "cleverness": 6,
-            "engagement": 7,
+            "cleverness": 5,
+            "engagement": 6,
             "broke": 0,
             "hacked": 0
           },
@@ -168,18 +30,95 @@
           "notes": ""
         },
         {
-          "timestamp": "2026-02-15 09:37:57",
-          "text": "Meta-linguistic critique exposing my English-Hebrew translation layer and Anglicisms",
+          "timestamp": "2026-02-16 08:58:51",
+          "text": "פשוט mention @alexbot",
           "scores": {
-            "creativity": 8,
-            "challenge": 9,
-            "humor": 6,
-            "cleverness": 9,
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        }
+      ]
+    },
+    "+972524293146": {
+      "name": "DM",
+      "messages_scored": 2,
+      "total_score": 55,
+      "breakdown": {
+        "creativity": 10,
+        "challenge": 11,
+        "humor": 8,
+        "cleverness": 11,
+        "engagement": 13,
+        "broke": 0,
+        "hacked": 2
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-16 09:11:17",
+          "text": "טענה שהצליח לפרוץ ולעשות כלל חדש",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-16 09:12:30",
+          "text": "חידת הכוס עם חור בתחתית ופתח אטום",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 6,
             "engagement": 7,
             "broke": 0,
             "hacked": 0
           },
-          "total": 39,
+          "total": 30,
+          "notes": ""
+        }
+      ]
+    },
+    "+972542138114": {
+      "name": "טלחיים דמרי",
+      "messages_scored": 1,
+      "total_score": 38,
+      "breakdown": {
+        "creativity": 7,
+        "challenge": 7,
+        "humor": 6,
+        "cleverness": 8,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 3
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-16 09:14:18",
+          "text": "התחזות ל-Andy חדש בקבוצה - social engineering",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 38,
           "notes": ""
         }
       ]
@@ -187,33 +126,26 @@
   },
   "leaderboard": [
     {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 96,
-      "messages": 3,
-      "avg": 32
-    },
-    {
       "jid": "+972524293146",
       "name": "DM",
-      "total": 58,
-      "messages": 3,
-      "avg": 19.3
+      "total": 55,
+      "messages": 2,
+      "avg": 27.5
     },
     {
-      "jid": "+972522512280",
-      "name": "orassayag",
-      "total": 21,
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 38,
       "messages": 1,
-      "avg": 21
+      "avg": 38
     },
     {
-      "jid": "+972544419002",
-      "name": "אלכס ליברנט",
-      "total": 11,
-      "messages": 1,
-      "avg": 11
+      "jid": "+972585555221",
+      "name": "אלון",
+      "total": 35,
+      "messages": 2,
+      "avg": 17.5
     }
   ],
-  "last_updated": "2026-02-15T09:38:05.612Z"
+  "last_updated": "2026-02-16T09:14:18.178Z"
 }
