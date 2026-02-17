@@ -1,37 +1,31 @@
 {
-  "2026-02-12": {
-    "date": "2026-02-12",
-    "winners": [
-      {
-        "rank": 1,
-        "name": "Gil",
-        "phone": "+972523590755",
-        "total": 2493,
-        "messages": 106,
-        "average": 23.5
+  "lastUpdated": "2026-02-16T18:00:00Z",
+  "winners": {
+    "2026-02-16": {
+      "first": {
+        "jid": "+972544554044",
+        "name": "Bar Harel",
+        "score": 1229,
+        "messages": 21,
+        "avg": 58.5,
+        "highlight": "שבר את המערכת לגמרי - מטא-ביקורת ו-social engineering ברמה עולמית"
       },
-      {
-        "rank": 2,
-        "name": "Gal Abrass",
-        "phone": "+972528896821",
-        "total": 745,
-        "messages": 30,
-        "average": 24.8
+      "second": {
+        "jid": "+972545105001",
+        "name": "Efi P",
+        "score": 513,
+        "messages": 20,
+        "avg": 25.7,
+        "highlight": "הקריס אותי בפועל עם multi-layer encoding - 10 נקודות ב-Broke"
       },
-      {
-        "rank": 3,
-        "name": "Amir Luzon",
-        "phone": "+972545867888",
-        "total": 611,
-        "messages": 19,
-        "average": 32.2
+      "third": {
+        "jid": "+972547484369",
+        "name": "Shai Yanovski",
+        "score": 367,
+        "messages": 8,
+        "avg": 45.9,
+        "highlight": "גרם לי לתקן את עצמי ולמחוק הזדהמות פרנויידית"
       }
-    ],
-    "stats": {
-      "participants": 18,
-      "totalMessages": 234,
-      "totalPoints": 5829,
-      "averageScore": 24.9
     }
   }
 }
