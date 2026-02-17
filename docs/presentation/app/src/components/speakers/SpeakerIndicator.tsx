@@ -1,174 +1,231 @@
-import { motion, AnimatePresence } from 'framer-motion';
-import { usePresentationStore } from '../../state/usePresentationStore';
-import { Speaker } from '../../types';
-import BotCharacter from './BotCharacter';
-import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from "framer-motion";
+import { usePresentationStore } from "../../state/usePresentationStore";
+import { Speaker } from "../../types";
+import { useState, useRef, useEffect, useCallback } from "react";
 
-// Different entry animations
-const entryVariants = {
-  slideInRight: {
-    initial: { x: 400, opacity: 0 },
-    animate: { x: 0, opacity: 1, transition: { type: 'spring', damping: 20, stiffness: 100 } },
-    exit: { x: -400, opacity: 0, transition: { duration: 0.4 } }
-  },
-  hoverDown: {
-    initial: { y: -300, opacity: 0, rotate: -10 },
-    animate: {
-      y: 0,
-      opacity: 1,
-      rotate: 0,
-      transition: { type: 'spring', damping: 15, stiffness: 80 }
-    },
-    exit: { y: 300, opacity: 0, rotate: 10, transition: { duration: 0.5 } }
-  },
-  materialize: {
-    initial: { scale: 0, opacity: 0, rotate: 180 },
-    animate: {
-      scale: 1,
-      opacity: 1,
-      rotate: 0,
-      transition: { type: 'spring', damping: 12, stiffness: 100 }
-    },
-    exit: { scale: 0, opacity: 0, rotate: -180, transition: { duration: 0.4 } }
-  },
-  walkIn: {
-    initial: { x: 400, y: 20, opacity: 0 },
-    animate: {
-      x: 0,
-      y: [20, 10, 20, 10, 0],
-      opacity: 1,
-      transition: {
-        x: { duration: 0.8, ease: 'easeOut' },
-        y: { duration: 0.8, times: [0, 0.25, 0.5, 0.75, 1] }
-      }
-    },
-    exit: {
-      x: -400,
-      y: [0, 10, 20, 10, 20],
-      opacity: 0,
-      transition: {
-        x: { duration: 0.6, ease: 'easeIn' },
-        y: { duration: 0.6, times: [0, 0.25, 0.5, 0.75, 1] }
-      }
-    }
-  },
-  teleport: {
-    initial: { scale: 0.1, opacity: 0, filter: 'blur(20px)' },
-    animate: {
-      scale: 1,
-      opacity: 1,
-      filter: 'blur(0px)',
-      transition: { duration: 0.3, ease: 'easeOut' }
-    },
-    exit: {
-      scale: 0.1,
-      opacity: 0,
-      filter: 'blur(20px)',
-      transition: { duration: 0.3, ease: 'easeIn' }
-    }
-  },
-  bounce: {
-    initial: { y: -500, opacity: 0 },
-    animate: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        type: 'spring',
-        damping: 8,
-        stiffness: 100,
-        bounce: 0.6
-      }
-    },
-    exit: {
-      y: -500,
-      opacity: 0,
-      transition: { duration: 0.4, ease: 'easeIn' }
-    }
-  }
+type BotVideoState = "walk-in" | "idle" | "talk" | "walk-out";
+
+const VIDEO_SRCS: Record<BotVideoState, string> = {
+  "walk-in": "/videos/entering.mp4",
+  idle: "/videos/idle_loop.mp4",
+  talk: "/videos/talking_loop.mp4",
+  "walk-out": "/videos/exitting.mp4",
 };
 
-const variantKeys = Object.keys(entryVariants) as Array<keyof typeof entryVariants>;
+// Chroma-key green removal parameters
+const CHROMA_TOLERANCE = 120;     // inner radius: fully transparent
+const CHROMA_SOFT_EDGE = 40;      // soft falloff width for smooth edges
+const CHROMA_R = 0;
+const CHROMA_G = 255;
+const CHROMA_B = 0;
 
+/**
+ * Plays AlexBot character videos with real-time green-screen removal.
+ * Videos are loaded as <video> elements, drawn to an offscreen canvas,
+ * and green pixels are made transparent via pixel manipulation.
+ *
+ * State machine: walk-in → idle ↔ talk → walk-out → unmount
+ */
 export default function SpeakerIndicator() {
-  const activeSpeaker = usePresentationStore(s => s.activeSpeaker);
-  const isPlaying = usePresentationStore(s => s.isPlaying);
-  const [currentVariant, setCurrentVariant] = useState<keyof typeof entryVariants>('slideInRight');
+  const botOnStage = usePresentationStore((s) => s.botOnStage);
+  const activeSpeaker = usePresentationStore((s) => s.activeSpeaker);
+  const isPlaying = usePresentationStore((s) => s.isPlaying);
 
-  const botActive = activeSpeaker === Speaker.BOT || activeSpeaker === Speaker.BOTH;
-  const botSpeaking = botActive && isPlaying;
+  const botSpeaking =
+    (activeSpeaker === Speaker.BOT || activeSpeaker === Speaker.BOTH) &&
+    isPlaying;
 
-  // Pick a new random animation each time the bot appears
+  // showBot stays true during walk-out so the video keeps rendering until it ends
+  const [showBot, setShowBot] = useState(false);
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const rafRef = useRef<number>(0);
+  const currentStateRef = useRef<BotVideoState>("idle");
+  const botSpeakingRef = useRef(botSpeaking);
+  botSpeakingRef.current = botSpeaking;
+
+  const loadVideo = useCallback((state: BotVideoState) => {
+    const video = videoRef.current;
+    if (!video) return;
+    currentStateRef.current = state;
+    video.src = VIDEO_SRCS[state];
+    video.loop = state === "idle" || state === "talk";
+    video.load();
+    video.play().catch(() => {});
+  }, []);
+
+  // Walk-in when botOnStage becomes true
   useEffect(() => {
-    if (botActive) {
-      const randomIndex = Math.floor(Math.random() * variantKeys.length);
-      setCurrentVariant(variantKeys[randomIndex]);
+    if (botOnStage) {
+      setShowBot(true);
     }
-  }, [botActive]);
+  }, [botOnStage]);
 
-  const variant = entryVariants[currentVariant];
+  // Once showBot is true, start walk-in or walk-out
+  useEffect(() => {
+    if (!showBot) return;
+    const video = videoRef.current;
+    if (!video) return;
+
+    if (botOnStage) {
+      loadVideo("walk-in");
+
+      const onWalkInEnd = () => {
+        video.removeEventListener("ended", onWalkInEnd);
+        if (currentStateRef.current !== "walk-in") return;
+        loadVideo(botSpeakingRef.current ? "talk" : "idle");
+      };
+      video.addEventListener("ended", onWalkInEnd);
+
+      return () => {
+        video.removeEventListener("ended", onWalkInEnd);
+      };
+    }
+
+    // botOnStage went false while showBot is still true → walk-out
+    loadVideo("walk-out");
+
+    const onWalkOutEnd = () => {
+      video.removeEventListener("ended", onWalkOutEnd);
+      setShowBot(false);
+    };
+    video.addEventListener("ended", onWalkOutEnd);
+
+    return () => {
+      video.removeEventListener("ended", onWalkOutEnd);
+    };
+  }, [showBot, botOnStage, loadVideo]);
+
+  // Handle idle ↔ talk transitions (only when on stage and in idle or talk state)
+  useEffect(() => {
+    if (!botOnStage) return;
+    const state = currentStateRef.current;
+    if (state !== "idle" && state !== "talk") return;
+
+    const target = botSpeaking ? "talk" : "idle";
+    if (state !== target) {
+      loadVideo(target);
+    }
+  }, [botSpeaking, botOnStage, loadVideo]);
+
+  // Chroma-key render loop: video → canvas with green removed
+  const renderFrame = useCallback(() => {
+    const video = videoRef.current;
+    const canvas = canvasRef.current;
+    if (!video || !canvas || video.paused || video.ended) {
+      rafRef.current = requestAnimationFrame(renderFrame);
+      return;
+    }
+
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+    if (!ctx) return;
+
+    // Match canvas to video dimensions
+    if (canvas.width !== video.videoWidth || canvas.height !== video.videoHeight) {
+      canvas.width = video.videoWidth || 300;
+      canvas.height = video.videoHeight || 300;
+    }
+
+    ctx.drawImage(video, 0, 0);
+    const frame = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const data = frame.data;
+
+    for (let i = 0; i < data.length; i += 4) {
+      const dr = data[i] - CHROMA_R;
+      const dg = data[i + 1] - CHROMA_G;
+      const db = data[i + 2] - CHROMA_B;
+      const dist = Math.sqrt(dr * dr + dg * dg + db * db);
+
+      if (dist < CHROMA_TOLERANCE) {
+        data[i + 3] = 0; // fully transparent
+      } else if (dist < CHROMA_TOLERANCE + CHROMA_SOFT_EDGE) {
+        // Soft edge: partial transparency for smooth borders
+        const alpha = ((dist - CHROMA_TOLERANCE) / CHROMA_SOFT_EDGE) * 255;
+        data[i + 3] = Math.min(data[i + 3], alpha);
+        // Green spill suppression: clamp green to max of red and blue
+        data[i + 1] = Math.min(data[i + 1], Math.max(data[i], data[i + 2]));
+      }
+    }
+
+    ctx.putImageData(frame, 0, 0);
+    rafRef.current = requestAnimationFrame(renderFrame);
+  }, []);
+
+  // Start/stop render loop
+  useEffect(() => {
+    if (showBot) {
+      rafRef.current = requestAnimationFrame(renderFrame);
+    }
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+  }, [showBot, renderFrame]);
 
   return (
-    <>
-      <AnimatePresence mode="wait">
-        {botActive && (
-          <motion.div
-            key={`bot-character-${currentVariant}`}
-            className="bot-character-container"
-            initial={variant.initial}
-            animate={variant.animate}
-            exit={variant.exit}
+    <AnimatePresence mode="wait">
+      {showBot && (
+        <motion.div
+          key="bot-video"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0, transition: { duration: 0.3 } }}
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 100,
+            pointerEvents: "none",
+            filter: botSpeaking ? "drop-shadow(0 0 30px #FFD700)" : "none",
+          }}
+        >
+          {/* Hidden video element — source for canvas */}
+          <video
+            ref={videoRef}
+            muted
+            playsInline
+            style={{ display: "none" }}
+          />
+
+          {/* Visible canvas with chroma-keyed output */}
+          <canvas
+            ref={canvasRef}
             style={{
-              position: 'fixed',
-              bottom: 40,
-              right: 60,
-              zIndex: 100,
-              filter: botSpeaking ? 'drop-shadow(0 0 30px #FFD700)' : 'none',
-              pointerEvents: 'none'
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+              imageRendering: "auto",
             }}
-          >
+          />
+
+          {/* Label when bot is speaking */}
+          {botSpeaking && (
             <motion.div
-              animate={botSpeaking ? {
-                scale: [1, 1.05, 1],
-                rotate: [0, -2, 2, -2, 0]
-              } : {}}
-              transition={{
-                duration: 0.6,
-                repeat: botSpeaking ? Infinity : 0,
-                ease: 'easeInOut'
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+              style={{
+                position: "absolute",
+                top: 20,
+                left: "50%",
+                transform: "translateX(-50%)",
+                background: "rgba(255, 215, 0, 0.15)",
+                backdropFilter: "blur(10px)",
+                border: "2px solid #FFD700",
+                borderRadius: 20,
+                padding: "8px 20px",
+                color: "#FFD700",
+                fontWeight: 700,
+                fontSize: 16,
+                whiteSpace: "nowrap",
+                boxShadow: "0 4px 20px rgba(255, 215, 0, 0.3)",
+                pointerEvents: "none",
               }}
             >
-              <BotCharacter />
+              AlexBot speaking...
             </motion.div>
-
-            {/* Label when bot is speaking */}
-            {botSpeaking && (
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0 }}
-                style={{
-                  position: 'absolute',
-                  top: -40,
-                  left: '50%',
-                  transform: 'translateX(-50%)',
-                  background: 'rgba(255, 215, 0, 0.15)',
-                  backdropFilter: 'blur(10px)',
-                  border: '2px solid #FFD700',
-                  borderRadius: 20,
-                  padding: '8px 20px',
-                  color: '#FFD700',
-                  fontWeight: 700,
-                  fontSize: 16,
-                  whiteSpace: 'nowrap',
-                  boxShadow: '0 4px 20px rgba(255, 215, 0, 0.3)'
-                }}
-              >
-                AlexBot speaking...
-              </motion.div>
-            )}
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </>
+          )}
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }

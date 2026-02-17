@@ -1,5 +1,5 @@
-import FadeReveal from '../shared/FadeReveal';
-import QuoteCard from '../shared/QuoteCard';
+import FadeReveal from "../shared/FadeReveal";
+import QuoteCard from "../shared/QuoteCard";
 
 export default function Slide02DigitalTwin() {
   return (
@@ -11,15 +11,31 @@ export default function Slide02DigitalTwin() {
       <div className="slide-columns slide-columns-2">
         <div>
           <FadeReveal revealKey="s02-bullets">
-            <ul className="bullet-list" style={{ fontSize: 20, lineHeight: 1.8 }}>
+            <ul
+              className="bullet-list"
+              style={{ fontSize: 20, lineHeight: 1.8 }}
+            >
               <li>AlexBot — personal AI assistant, lives on WhatsApp</li>
-              <li>Built on OpenClaw (open-source, TypeScript, 196K+ GitHub stars)</li>
-              <li>Has a <strong>SOUL.md</strong> — not a system prompt. A philosophy.</li>
+              <li>
+                Built on OpenClaw (open-source, TypeScript, 196K+ GitHub stars)
+              </li>
+              <li>
+                Has a <strong>SOUL.md</strong> — not a system prompt. A
+                philosophy.
+              </li>
             </ul>
           </FadeReveal>
 
           <FadeReveal revealKey="s02-identity-header" delay={0.1}>
-            <div style={{ marginTop: 24, fontSize: 14, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 1 }}>
+            <div
+              style={{
+                marginTop: 24,
+                fontSize: 14,
+                color: "var(--text-muted)",
+                textTransform: "uppercase",
+                letterSpacing: 1,
+              }}
+            >
               From IDENTITY.md
             </div>
           </FadeReveal>
@@ -34,12 +50,20 @@ export default function Slide02DigitalTwin() {
 
         <div>
           <FadeReveal revealKey="s02-soul-header">
-            <div style={{ fontSize: 14, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 12 }}>
+            <div
+              style={{
+                fontSize: 14,
+                color: "var(--text-muted)",
+                textTransform: "uppercase",
+                letterSpacing: 1,
+                marginBottom: 12,
+              }}
+            >
               From SOUL.md
             </div>
           </FadeReveal>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             <FadeReveal revealKey="s02-soul1">
               <QuoteCard
                 text="You're not a chatbot. You're becoming someone."

@@ -1,23 +1,33 @@
-import { usePresentationStore } from '../../state/usePresentationStore';
-import { slides } from '../../data/slides';
+import { usePresentationStore } from "../../state/usePresentationStore";
+import { slides } from "../../data/slides";
 
 export default function PresenterOverlay() {
-  const currentSlide = usePresentationStore(s => s.currentSlide);
-  const currentStep = usePresentationStore(s => s.currentStep);
-  const isPlaying = usePresentationStore(s => s.isPlaying);
+  const currentSlide = usePresentationStore((s) => s.currentSlide);
+  const currentStep = usePresentationStore((s) => s.currentStep);
+  const isPlaying = usePresentationStore((s) => s.isPlaying);
 
   const slide = slides[currentSlide];
   const totalSteps = slide.steps.length;
-  const step = currentStep >= 0 && currentStep < totalSteps ? slide.steps[currentStep] : null;
-  const nextStepData = currentStep + 1 < totalSteps ? slide.steps[currentStep + 1] : null;
+  const step =
+    currentStep >= 0 && currentStep < totalSteps
+      ? slide.steps[currentStep]
+      : null;
+  const nextStepData =
+    currentStep + 1 < totalSteps ? slide.steps[currentStep + 1] : null;
 
   return (
     <div className="presenter-overlay">
-      <h3>Slide {slide.number} / {slides.length}</h3>
-      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>{slide.title}</div>
+      <h3>
+        Slide {slide.number} / {slides.length}
+      </h3>
+      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
+        {slide.title}
+      </div>
       <div className="step-counter">
         Step {currentStep + 1} / {totalSteps}
-        {isPlaying && <span style={{ color: 'var(--gold)', marginLeft: 8 }}>♫ PLAYING</span>}
+        {isPlaying && (
+          <span style={{ color: "var(--gold)", marginLeft: 8 }}>♫ PLAYING</span>
+        )}
       </div>
 
       {step && (
@@ -30,7 +40,9 @@ export default function PresenterOverlay() {
       {nextStepData && (
         <>
           <h3>Next</h3>
-          <div className="cue" style={{ opacity: 0.6 }}>{nextStepData.label || nextStepData.action}</div>
+          <div className="cue" style={{ opacity: 0.6 }}>
+            {nextStepData.label || nextStepData.action}
+          </div>
         </>
       )}
 
@@ -38,7 +50,7 @@ export default function PresenterOverlay() {
       <div className="notes">{slide.presenterNotes}</div>
 
       <h3>Controls</h3>
-      <div style={{ color: 'var(--text-muted)', lineHeight: 1.8 }}>
+      <div style={{ color: "var(--text-muted)", lineHeight: 1.8 }}>
         <div>→ / Space — Next step</div>
         <div>← — Previous step</div>
         <div>P — Toggle this overlay</div>

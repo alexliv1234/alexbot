@@ -1,5 +1,5 @@
-import { useEffect, useRef, useCallback } from 'react';
-import type { ReactNode } from 'react';
+import { useEffect, useRef, useCallback } from "react";
+import type { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
@@ -19,8 +19,8 @@ export default function PresentationShell({ children }: Props) {
 
   useEffect(() => {
     rescale();
-    window.addEventListener('resize', rescale);
-    return () => window.removeEventListener('resize', rescale);
+    window.addEventListener("resize", rescale);
+    return () => window.removeEventListener("resize", rescale);
   }, [rescale]);
 
   return (

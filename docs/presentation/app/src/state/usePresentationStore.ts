@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { Speaker, StepAction } from '../types';
-import { slides } from '../data/slides';
+import { create } from "zustand";
+import { Speaker, StepAction } from "../types";
+import { slides } from "../data/slides";
 
 interface PresentationState {
   currentSlide: number;
@@ -11,6 +11,7 @@ interface PresentationState {
   presenterMode: boolean;
   showSubtitles: boolean;
   revealedKeys: Set<string>;
+  botOnStage: boolean;
 
   nextStep: () => void;
   prevStep: () => void;
@@ -31,7 +32,8 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
   currentClipId: null,
   presenterMode: false,
   showSubtitles: false,
-  revealedKeys: new Set<string>(['s01-title']),
+  revealedKeys: new Set<string>(["s01-title"]),
+  botOnStage: false,
 
   nextStep: () => {
     const state = get();
@@ -51,7 +53,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
 
       // Always process revealIds regardless of action type
       if (step.revealIds) {
-        step.revealIds.forEach(k => newRevealed.add(k));
+        step.revealIds.forEach((k) => newRevealed.add(k));
       }
 
       // Handle speaker changes
@@ -59,13 +61,32 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
         newSpeaker = step.speaker;
       }
 
-      // Handle audio playback
+      // Handle BOT_ENTER / BOT_EXIT
+      if (step.action === StepAction.BOT_ENTER) {
+        set({
+          currentStep: nextStepIdx,
+          botOnStage: true,
+          revealedKeys: newRevealed,
+        });
+        return;
+      }
+      if (step.action === StepAction.BOT_EXIT) {
+        set({
+          currentStep: nextStepIdx,
+          botOnStage: false,
+          revealedKeys: newRevealed,
+        });
+        return;
+      }
+
+      // Handle audio playback — always immediate (bot is already on stage)
       if (step.action === StepAction.PLAY_AUDIO && step.audioClipId) {
         newSpeaker = Speaker.BOT;
         newPlaying = true;
         newClipId = step.audioClipId;
-        // Audio engine hook will handle actual playback
-        window.dispatchEvent(new CustomEvent('play-clip', { detail: step.audioClipId }));
+        window.dispatchEvent(
+          new CustomEvent("play-clip", { detail: step.audioClipId }),
+        );
       }
 
       set({
@@ -85,7 +106,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
         const firstStep = nextSlide.steps[0];
         const newRevealed = new Set<string>();
         if (firstStep?.revealIds) {
-          firstStep.revealIds.forEach(k => newRevealed.add(k));
+          firstStep.revealIds.forEach((k) => newRevealed.add(k));
         }
 
         let speaker = nextSlide.primarySpeaker;
@@ -113,10 +134,12 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
       const targetStep = state.currentStep - 1;
       const newRevealed = new Set<string>();
 
-      // Replay all reveals up to targetStep
+      // Replay all reveals and check if BOT_ENTER was reached
+      let botOnStage = state.currentSlide > 0; // past slide 1 = bot already entered
       for (let i = 0; i <= targetStep; i++) {
         const s = slide.steps[i];
-        if (s.revealIds) s.revealIds.forEach(k => newRevealed.add(k));
+        if (s.revealIds) s.revealIds.forEach((k) => newRevealed.add(k));
+        if (s.action === StepAction.BOT_ENTER) botOnStage = true;
       }
 
       // Find the last speaker assignment up to targetStep
@@ -133,6 +156,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
         activeSpeaker: speaker,
         isPlaying: false,
         currentClipId: null,
+        botOnStage,
       });
     } else if (state.currentSlide > 0) {
       // Go to previous slide, at its last step
@@ -144,7 +168,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
       // Replay all reveals
       for (let i = 0; i <= lastStep; i++) {
         const s = prevSlide.steps[i];
-        if (s.revealIds) s.revealIds.forEach(k => newRevealed.add(k));
+        if (s.revealIds) s.revealIds.forEach((k) => newRevealed.add(k));
       }
 
       let speaker = prevSlide.primarySpeaker;
@@ -172,13 +196,16 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
       const firstStep = targetSlide.steps[0];
       const newRevealed = new Set<string>();
       if (firstStep?.revealIds) {
-        firstStep.revealIds.forEach(k => newRevealed.add(k));
+        firstStep.revealIds.forEach((k) => newRevealed.add(k));
       }
 
       let speaker = targetSlide.primarySpeaker;
       if (firstStep?.speaker) {
         speaker = firstStep.speaker;
       }
+
+      // Bot is on stage for any slide after the BOT_ENTER step (slide 1 step 1+)
+      const botOnStage = n > 0;
 
       set({
         currentSlide: n,
@@ -187,6 +214,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
         revealedKeys: newRevealed,
         isPlaying: false,
         currentClipId: null,
+        botOnStage,
       });
     }
   },
@@ -198,9 +226,9 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
 
   onClipEnd: () => set({ isPlaying: false, currentClipId: null }),
 
-  togglePresenterMode: () => set(s => ({ presenterMode: !s.presenterMode })),
+  togglePresenterMode: () => set((s) => ({ presenterMode: !s.presenterMode })),
 
-  toggleSubtitles: () => set(s => ({ showSubtitles: !s.showSubtitles })),
+  toggleSubtitles: () => set((s) => ({ showSubtitles: !s.showSubtitles })),
 
   isRevealed: (key: string) => get().revealedKeys.has(key),
 }));

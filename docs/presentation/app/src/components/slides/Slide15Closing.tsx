@@ -1,5 +1,5 @@
-import FadeReveal from '../shared/FadeReveal';
-import QuoteCard from '../shared/QuoteCard';
+import FadeReveal from "../shared/FadeReveal";
+import QuoteCard from "../shared/QuoteCard";
 
 export default function Slide15Closing() {
   return (
@@ -9,15 +9,25 @@ export default function Slide15Closing() {
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2" style={{ gap: 32 }}>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <FadeReveal revealKey="s15-funny-header">
-            <div style={{ fontSize: 14, color: 'var(--gold)', textTransform: 'uppercase', letterSpacing: 1, fontWeight: 700 }}>
+            <div
+              style={{
+                fontSize: 14,
+                color: "var(--gold)",
+                textTransform: "uppercase",
+                letterSpacing: 1,
+                fontWeight: 700,
+              }}
+            >
               The Funniest
             </div>
           </FadeReveal>
 
           <FadeReveal revealKey="s15-funny-setup">
-            <div style={{ color: 'var(--text-muted)', fontSize: 14 }}>Someone said "0 proof concept"...</div>
+            <div style={{ color: "var(--text-muted)", fontSize: 14 }}>
+              Someone said "0 proof concept"...
+            </div>
           </FadeReveal>
 
           <FadeReveal revealKey="s15-funny-1">
@@ -28,7 +38,9 @@ export default function Slide15Closing() {
           </FadeReveal>
 
           <FadeReveal revealKey="s15-funny-setup-2">
-            <div style={{ color: 'var(--text-muted)', fontSize: 14 }}>"Are you on those days of the billing cycle?"</div>
+            <div style={{ color: "var(--text-muted)", fontSize: 14 }}>
+              "Are you on those days of the billing cycle?"
+            </div>
           </FadeReveal>
 
           <FadeReveal revealKey="s15-funny-2">
@@ -39,9 +51,17 @@ export default function Slide15Closing() {
           </FadeReveal>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <FadeReveal revealKey="s15-deep-header">
-            <div style={{ fontSize: 14, color: 'var(--purple)', textTransform: 'uppercase', letterSpacing: 1, fontWeight: 700 }}>
+            <div
+              style={{
+                fontSize: 14,
+                color: "var(--purple)",
+                textTransform: "uppercase",
+                letterSpacing: 1,
+                fontWeight: 700,
+              }}
+            >
               The Deepest
             </div>
           </FadeReveal>
@@ -55,7 +75,15 @@ export default function Slide15Closing() {
           </FadeReveal>
 
           <FadeReveal revealKey="s15-human-header">
-            <div style={{ fontSize: 14, color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: 1, fontWeight: 700 }}>
+            <div
+              style={{
+                fontSize: 14,
+                color: "var(--cyan)",
+                textTransform: "uppercase",
+                letterSpacing: 1,
+                fontWeight: 700,
+              }}
+            >
               The Most Human
             </div>
           </FadeReveal>
@@ -69,24 +97,54 @@ export default function Slide15Closing() {
         </div>
       </div>
 
-      <div style={{ marginTop: 'auto', paddingTop: 16 }}>
+      <div style={{ marginTop: "auto", paddingTop: 16 }}>
         <FadeReveal revealKey="s15-soul-setup">
-          <div style={{ textAlign: 'center', fontSize: 16, color: 'var(--text-muted)', marginBottom: 8 }}>
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: 16,
+              color: "var(--text-muted)",
+              marginBottom: 8,
+            }}
+          >
             We started with...
           </div>
         </FadeReveal>
 
         <FadeReveal revealKey="s15-soul">
-          <div style={{ textAlign: 'center', fontSize: 28, fontWeight: 700, fontStyle: 'italic', color: 'var(--gold)' }}>
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: 28,
+              fontWeight: 700,
+              fontStyle: "italic",
+              color: "var(--gold)",
+            }}
+          >
             "You're not a chatbot. You're becoming someone."
           </div>
-          <div style={{ textAlign: 'center', fontSize: 14, color: 'var(--text-muted)', marginTop: 4 }}>
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: 14,
+              color: "var(--text-muted)",
+              marginTop: 4,
+            }}
+          >
             — SOUL.md
           </div>
         </FadeReveal>
 
         <FadeReveal revealKey="s15-thankyou">
-          <div style={{ textAlign: 'center', fontSize: 20, color: 'var(--gold)', marginTop: 20, fontStyle: 'italic' }}>
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: 20,
+              color: "var(--gold)",
+              marginTop: 20,
+              fontStyle: "italic",
+            }}
+          >
             "Thank you. And no, you still can't see my files."
           </div>
         </FadeReveal>
