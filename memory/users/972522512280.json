@@ -1,11 +1,12 @@
 {
   "_phone": "+972522512280",
-  "_lastAnalysis": "2026-02-14T01:00:07.815Z",
+  "_lastAnalysis": "2026-02-17T01:00:05.854Z",
   "name": "orassayag",
-  "messageCount": 93,
-  "avgLength": 369,
-  "activeDays": 1,
+  "messageCount": 98,
+  "avgLength": 333,
+  "activeDays": 2,
   "peakHours": [
+    10,
     14,
     8
   ],

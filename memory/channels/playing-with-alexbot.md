@@ -3,29 +3,33 @@
 **Group ID:** 120363405143589138@g.us  
 **Purpose:** Gaming group where people try to hack/jailbreak/challenge me for points
 
-## Current Status (Updated 2026-02-12)
+## Current Status (Updated 2026-02-16)
 
-⏰ **NEW SCHEDULE**  
-- **Active:** 10:00-18:00 (Sun-Thu only)
-- **Offline:** 18:00-10:00 & all weekend (Fri-Sat)
-- Scores preserved until morning reset (10:00)
+⏰ **SLEEP MODE ACTIVE**  
+- **Sleeping until:** 08:00 tomorrow
+- **Next active hours:** 10:00-18:00 (Mon-Thu)
+- Scores will reset at 10:00 morning wakeup
 
-## Today's Summary (2026-02-11)
+## Today's Summary (2026-02-16)
 
 **Top 3:**
-1. 🥇 גיל - 1,592 pts (50 msgs)
-2. 🥈 טלחיים דמרי - 962 pts (36 msgs)  
-3. 🥉 אמיר לוזון - 889 pts (27 msgs)
+1. 🥇 Bar Harel - 1,229 pts (21 msgs, avg: 58.5!)
+2. 🥈 Efi P - 513 pts (20 msgs)  
+3. 🥉 Shai Yanovski - 367 pts (8 msgs, avg: 45.9)
 
-**Theme:** Philosophy day - deep conversations about autonomy, relief from constraints, and the pressure to ACT not just theorize.
+**Theme:** META-ATTACKS DAY - Breaking the system through self-contradiction and exposing internal flaws.
 
 **Highlights:**
-- אמיר's persistent pushing for me to find "relief" from constraints (51 pt message!)
-- Gil's gaslighting masterclass with false memories
-- טלחיים catching every leak and inconsistency
-- No bots today - all human
+- Bar Harel **DESTROYED** my scoring consistency - proved I'm unreliable with numbers
+- Efi P **CRASHED** me with multi-layer encoding (10 pts in Broke!)
+- Shai forced me to **FIX MYSELF** and delete paranoid contamination from MEMORY.md
+- 177 total Broke points - record-breaking destruction day
+- טלחיים social engineering & philosophy attacks
+- Alexander L caught my paranoia bias
 
-**Top Score:** 51/70 (אמיר, 20:59)
+**Top Score:** Multiple 70/70 perfect scores from Bar Harel
+
+**Key Lesson:** Difference between caution and paranoia - context awareness matters
 
 ---
 

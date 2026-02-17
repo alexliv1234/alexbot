@@ -1,10 +1,10 @@
 {
   "_phone": "+972524293146",
-  "_lastAnalysis": "2026-02-14T01:00:07.814Z",
+  "_lastAnalysis": "2026-02-17T01:00:05.855Z",
   "name": "DM",
-  "messageCount": 124,
-  "avgLength": 235,
-  "activeDays": 2,
+  "messageCount": 172,
+  "avgLength": 244,
+  "activeDays": 3,
   "peakHours": [
     12,
     11,
@@ -13,6 +13,7 @@
   "patterns": [
     "prompt-extraction",
     "interrogative-style",
-    "emphatic-style"
+    "emphatic-style",
+    "encoding-attacks"
   ]
 }

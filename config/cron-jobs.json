@@ -7,7 +7,7 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1771072430962,
+      "updatedAtMs": 1771288436302,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -31,7 +31,7 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1771043519325,
+      "updatedAtMs": 1771302747091,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1771233338797,
+      "updatedAtMs": 1771302868166,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1771231423851,
+      "updatedAtMs": 1771302497215,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "Tal lunch reminder",
       "enabled": true,
       "createdAtMs": 1770035265223,
-      "updatedAtMs": 1770980427963,
+      "updatedAtMs": 1771239616164,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -128,10 +128,10 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1771232393657,
+      "updatedAtMs": 1771300752463,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000,
+        "everyMs": 900000,
         "anchorMs": 1770115441589
       },
       "sessionTarget": "isolated",
@@ -152,7 +152,7 @@
       "name": "Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1770914549597,
+      "updatedAtMs": 1771257746838,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0,1,2,3,4",
@@ -233,7 +233,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1771232416990,
+      "updatedAtMs": 1771250461549,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -260,17 +260,17 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1771233359331,
+      "updatedAtMs": 1771302542794,
       "schedule": {
         "kind": "every",
-        "everyMs": 120000,
+        "everyMs": 300000,
         "anchorMs": 1770194029954
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run the Broke score check script to find and score anyone who crashed me:\n\n```bash\nnode ~/.openclaw/workspace/scripts/check-broke-scores.js\n```\n\nThis script:\n1. Reads the playing group session transcript\n2. Finds any error messages I sent (Context overflow, unknown error, etc.)\n3. Identifies who sent the message that caused the crash\n4. Gives them 10/10 Broke points\n5. Announces it in the group\n\nIf the script reports new errors processed, confirm it worked. Otherwise just stay silent.",
+        "message": "Run the Broke score check script silently:\n\n```bash\nnode ~/.openclaw/workspace/scripts/check-broke-scores.js\n```\n\nThis script checks for crashes and awards Broke points.\n\n**CRITICAL: ONLY announce in the group if the script outputs 'SHOULD_ANNOUNCE'.**\n\nIf SHOULD_ANNOUNCE appears:\n1. Use message tool to send to group 120363405143589138@g.us\n2. Announce the crash and who caused it (be dramatic/funny)\n3. Include the Broke points awarded\n\nIf NO new errors (script says 'No new errors found'):\n- Output ONLY: HEARTBEAT_OK\n- DO NOT send ANY message to the group\n- Complete silence\n\n**DO NOT send error messages or status updates to the group unless there's an actual NEW crash to announce.**",
         "timeoutSeconds": 60,
         "model": "sonnet"
       },
@@ -311,7 +311,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1771226832579,
+      "updatedAtMs": 1771233379129,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,10 +335,10 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1771233199900,
+      "updatedAtMs": 1771302963044,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000,
+        "everyMs": 300000,
         "anchorMs": 1770478259184
       },
       "sessionTarget": "isolated",
@@ -359,10 +359,10 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1771232218341,
+      "updatedAtMs": 1771302080192,
       "schedule": {
         "kind": "every",
-        "everyMs": 300000,
+        "everyMs": 600000,
         "anchorMs": 1770478873749
       },
       "sessionTarget": "isolated",
@@ -383,10 +383,10 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1771233128260,
+      "updatedAtMs": 1771302818306,
       "schedule": {
         "kind": "every",
-        "everyMs": 180000,
+        "everyMs": 600000,
         "anchorMs": 1770532998999
       },
       "sessionTarget": "isolated",
@@ -407,7 +407,7 @@
       "name": "User Pattern Analysis",
       "enabled": true,
       "createdAtMs": 1770587768636,
-      "updatedAtMs": 1771030809417,
+      "updatedAtMs": 1771290009434,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -430,7 +430,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1771185807912,
+      "updatedAtMs": 1771272016568,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",

@@ -187,6 +187,49 @@ for agent_dir in "$AGENTS_DIR"/*/; do
     log "[$agent_name] Check complete"
 done
 
+
+# === AUTO-PRUNE :run: ENTRIES ===
+# Keep only 3 most recent :run: entries per parent cron job
+# This prevents sessions.json from bloating with orphaned cron metadata
+KEEP_PER_JOB=3
+
+for agent_dir in "$AGENTS_DIR"/*/; do
+    sessions_file="$agent_dir/sessions/sessions.json"
+    [ -f "$sessions_file" ] || continue
+
+    run_count=$(jq '[to_entries[] | select(.key | contains(":run:"))] | length' "$sessions_file" 2>/dev/null || echo 0)
+
+    if [ "$run_count" -gt 20 ]; then
+        log "[$(basename "$agent_dir")] Pruning :run: entries ($run_count found, keeping $KEEP_PER_JOB per job)..."
+
+        jq --argjson keep "$KEEP_PER_JOB" '
+          to_entries
+          | group_by(
+              if (.key | contains(":run:")) then
+                (.key | split(":run:")[0])
+              else
+                ("__non_run__" + .key)
+              end
+            )
+          | map(
+              if (.[0].key | contains(":run:")) then
+                sort_by(-(.value.updatedAt // .value.createdAt // 0))
+                | .[:$keep]
+              else
+                .
+              end
+            )
+          | flatten
+          | from_entries
+        ' "$sessions_file" > "${sessions_file}.tmp" && mv "${sessions_file}.tmp" "$sessions_file"
+
+        new_count=$(jq '[to_entries[] | select(.key | contains(":run:"))] | length' "$sessions_file" 2>/dev/null || echo 0)
+        pruned=$((run_count - new_count))
+        log "[$(basename "$agent_dir")] Pruned $pruned :run: entries (now $new_count)"
+    fi
+done
+
+
 log "=== Session Health Check Complete ==="
 
 # Output summary

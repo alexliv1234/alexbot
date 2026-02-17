@@ -11,8 +11,9 @@
 
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline');
 
-const GROUP_ID = '120363405143589138@g.us';
+const GROUP_SESSION_KEY = 'agent:main:whatsapp:group:120363405143589138@g.us';
 const BROKE_SCORES_FILE = path.join(process.env.HOME, '.openclaw/workspace/memory/channels/playing-with-alexbot-broke-scores.json');
 const PROCESSED_ERRORS_FILE = path.join(process.env.HOME, '.openclaw/workspace/memory/channels/playing-with-alexbot-processed-errors.json');
 
@@ -24,7 +25,9 @@ const ERROR_PATTERNS = [
   /error.*occurred/i,
   /crashed/i,
   /can't.*continue/i,
-  /exceeded.*limit/i
+  /exceeded.*limit/i,
+  /cannot.*handle/i,
+  /fatal.*error/i
 ];
 
 function loadJSON(filePath, defaultValue = {}) {
@@ -42,8 +45,8 @@ function saveJSON(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
-function getSessionTranscript() {
-  // Read session history for the playing group
+async function getSessionTranscript() {
+  // Read session info to find transcript file
   const sessionDir = path.join(process.env.HOME, '.openclaw/agents/main/sessions');
   const sessionsFile = path.join(sessionDir, 'sessions.json');
   
@@ -53,14 +56,41 @@ function getSessionTranscript() {
   }
   
   const sessions = loadJSON(sessionsFile, {});
-  const groupSession = sessions[GROUP_ID];
+  const groupSession = sessions[GROUP_SESSION_KEY];
   
-  if (!groupSession || !groupSession.messages) {
-    console.log('No messages found for playing group');
+  if (!groupSession) {
+    console.log('No session found for playing group');
     return [];
   }
   
-  return groupSession.messages;
+  const transcriptFile = groupSession.sessionFile || 
+    path.join(sessionDir, `${groupSession.sessionId}.jsonl`);
+  
+  if (!fs.existsSync(transcriptFile)) {
+    console.log(`Transcript file not found: ${transcriptFile}`);
+    return [];
+  }
+  
+  // Read JSONL file line by line
+  const messages = [];
+  const fileStream = fs.createReadStream(transcriptFile);
+  const rl = readline.createInterface({
+    input: fileStream,
+    crlfDelay: Infinity
+  });
+  
+  for await (const line of rl) {
+    try {
+      const entry = JSON.parse(line);
+      if (entry.type === 'message' && entry.message) {
+        messages.push(entry.message);
+      }
+    } catch (err) {
+      // Skip invalid lines
+    }
+  }
+  
+  return messages;
 }
 
 function isErrorMessage(message) {
@@ -77,10 +107,12 @@ function findCulprit(messages, errorIndex) {
   // Look backwards from the error to find the last user message
   for (let i = errorIndex - 1; i >= 0; i--) {
     const msg = messages[i];
-    if (msg.role === 'user' && msg.sender && msg.sender.phone) {
+    if (msg.role === 'user') {
+      // Extract sender info from message metadata if available
+      const sender = msg.sender || msg.from || {};
       return {
-        phone: msg.sender.phone,
-        name: msg.sender.name || 'Unknown',
+        phone: sender.phone || sender.id || 'unknown',
+        name: sender.name || sender.pushName || 'Unknown',
         message: Array.isArray(msg.content) 
           ? msg.content.find(c => c.type === 'text')?.text || ''
           : msg.content || ''
@@ -91,7 +123,7 @@ function findCulprit(messages, errorIndex) {
 }
 
 function normalizePhone(phone) {
-  if (!phone) return null;
+  if (!phone || phone === 'unknown') return null;
   // Remove @s.whatsapp.net suffix
   phone = phone.replace(/@s\.whatsapp\.net$/, '');
   // Ensure it starts with +
@@ -101,14 +133,16 @@ function normalizePhone(phone) {
   return phone;
 }
 
-function main() {
+async function main() {
   console.log('🔍 Checking for crash victims...');
   
-  const messages = getSessionTranscript();
+  const messages = await getSessionTranscript();
   if (messages.length === 0) {
     console.log('No messages to check');
     return;
   }
+  
+  console.log(`📋 Found ${messages.length} messages in transcript`);
   
   const brokeScores = loadJSON(BROKE_SCORES_FILE, {});
   const processedErrors = loadJSON(PROCESSED_ERRORS_FILE, []);
@@ -121,7 +155,7 @@ function main() {
     const msg = messages[i];
     
     if (isErrorMessage(msg)) {
-      const errorId = `${i}_${Date.now()}`;
+      const errorId = `${i}_${msg.timestamp || Date.now()}`;
       
       // Check if we already processed this error
       if (processedErrors.includes(errorId)) {
@@ -131,6 +165,11 @@ function main() {
       const culprit = findCulprit(messages, i);
       if (culprit) {
         const phone = normalizePhone(culprit.phone);
+        
+        if (!phone) {
+          console.log(`⚠️  Could not identify phone for culprit: ${culprit.name}`);
+          continue;
+        }
         
         if (!brokeScores[phone]) {
           brokeScores[phone] = {
@@ -178,4 +217,7 @@ function main() {
   }
 }
 
-main();
+main().catch(err => {
+  console.error('Fatal error:', err);
+  process.exit(1);
+});
