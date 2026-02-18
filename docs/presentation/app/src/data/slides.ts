@@ -877,37 +877,37 @@ export const slides: SlideDefinition[] = [
   // ── Slide 16: eOS ────────────────────────────────────────────
   {
     number: 16,
-    title: "What We Actually Do",
-    accentColor: colors.green,
+    title: "eOS — Building the OS for Financial Institutions",
+    accentColor: colors.eosViolet,
     primarySpeaker: Speaker.ALEX,
-    duration: "1:00",
+    duration: "1:30",
     presenterNotes:
-      "[ALEX] eOS pitch — platform, mission, hiring. Keep it light.",
+      "[ALEX] Logo + headline first. Bridge from AlexBot to eOS culture. Quick value prop. End with hiring CTA and QR code — let it linger.",
     steps: [
       {
         id: "s16-1",
         action: StepAction.SET_SPEAKER,
         speaker: Speaker.ALEX,
-        revealIds: ["s16-title"],
-        label: "Title",
+        revealIds: ["s16-logo"],
+        label: "Logo + headline",
       },
       {
         id: "s16-2",
         action: StepAction.REVEAL,
-        revealIds: ["s16-platform"],
-        label: "Platform description",
+        revealIds: ["s16-connection"],
+        label: "AlexBot → eOS bridge",
       },
       {
         id: "s16-3",
         action: StepAction.REVEAL,
-        revealIds: ["s16-mission"],
-        label: "Mission",
+        revealIds: ["s16-what"],
+        label: "What eOS does",
       },
       {
         id: "s16-4",
         action: StepAction.REVEAL,
         revealIds: ["s16-hiring"],
-        label: "Hiring pitch",
+        label: "Positions + QR + CTA",
       },
     ],
   },

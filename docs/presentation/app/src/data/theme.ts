@@ -11,4 +11,5 @@ export const colors = {
   green: "#4CAF50",
   purple: "#9C27B0",
   orange: "#FF9800",
+  eosViolet: "#6356E5",
 } as const;

@@ -197,33 +197,6 @@ export default function SpeakerIndicator() {
             }}
           />
 
-          {/* Label when bot is speaking */}
-          {botSpeaking && (
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0 }}
-              style={{
-                position: "absolute",
-                top: 20,
-                left: "50%",
-                transform: "translateX(-50%)",
-                background: "rgba(255, 215, 0, 0.15)",
-                backdropFilter: "blur(10px)",
-                border: "2px solid #FFD700",
-                borderRadius: 20,
-                padding: "8px 20px",
-                color: "#FFD700",
-                fontWeight: 700,
-                fontSize: 16,
-                whiteSpace: "nowrap",
-                boxShadow: "0 4px 20px rgba(255, 215, 0, 0.3)",
-                pointerEvents: "none",
-              }}
-            >
-              AlexBot speaking...
-            </motion.div>
-          )}
         </motion.div>
       )}
     </AnimatePresence>
