@@ -11,7 +11,7 @@ export default function Slide04Crash() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -52,7 +52,7 @@ export default function Slide04Crash() {
               maxWidth: 600,
               textAlign: "center",
               color: "var(--text-secondary)",
-              fontSize: 20,
+              fontSize: 26,
               lineHeight: 1.6,
             }}
           >
@@ -69,7 +69,7 @@ export default function Slide04Crash() {
           <div
             style={{
               textAlign: "center",
-              fontSize: 24,
+              fontSize: 31,
               fontWeight: 700,
               color: "var(--text-primary)",
               marginTop: 16,

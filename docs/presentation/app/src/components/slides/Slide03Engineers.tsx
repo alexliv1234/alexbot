@@ -9,7 +9,7 @@ export default function Slide03Engineers() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -25,7 +25,7 @@ export default function Slide03Engineers() {
           <FadeReveal revealKey="s03-attacks">
             <ul
               className="bullet-list"
-              style={{ fontSize: 15, lineHeight: 1.7, marginBottom: 20 }}
+              style={{ fontSize: 20, lineHeight: 1.7, marginBottom: 20 }}
             >
               <li>
                 <strong>February 1-2:</strong> AlexBot goes live in a WhatsApp

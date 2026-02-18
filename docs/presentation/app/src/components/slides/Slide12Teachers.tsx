@@ -11,7 +11,7 @@ export default function Slide12Teachers() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -30,7 +30,7 @@ export default function Slide12Teachers() {
               <div className="card">
                 <div
                   style={{
-                    fontSize: 14,
+                    fontSize: 18,
                     color: "var(--green)",
                     fontWeight: 700,
                     marginBottom: 8,
@@ -41,7 +41,7 @@ export default function Slide12Teachers() {
                 <div
                   style={{
                     color: "var(--text-secondary)",
-                    fontSize: 15,
+                    fontSize: 20,
                     lineHeight: 1.5,
                   }}
                 >
@@ -54,7 +54,7 @@ export default function Slide12Teachers() {
               <div className="card">
                 <div
                   style={{
-                    fontSize: 14,
+                    fontSize: 18,
                     color: "var(--green)",
                     fontWeight: 700,
                     marginBottom: 8,
@@ -65,7 +65,7 @@ export default function Slide12Teachers() {
                 <div
                   style={{
                     color: "var(--text-secondary)",
-                    fontSize: 15,
+                    fontSize: 20,
                     lineHeight: 1.5,
                   }}
                 >
@@ -81,7 +81,7 @@ export default function Slide12Teachers() {
 
           <FadeReveal revealKey="s12-evolution">
             <div style={{ marginTop: 24, textAlign: "center" }}>
-              <div style={{ fontSize: 24, fontWeight: 700 }}>
+              <div style={{ fontSize: 31, fontWeight: 700 }}>
                 <span style={{ color: "var(--red)" }}>Hacking</span>
                 <span style={{ color: "var(--text-muted)" }}> → </span>
                 <span style={{ color: "var(--gold)" }}>Playing</span>
@@ -96,7 +96,7 @@ export default function Slide12Teachers() {
           <FadeReveal revealKey="s12-dog-setup">
             <div
               style={{
-                fontSize: 16,
+                fontSize: 21,
                 color: "var(--text-secondary)",
                 marginBottom: 12,
               }}

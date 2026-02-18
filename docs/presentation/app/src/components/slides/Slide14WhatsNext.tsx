@@ -9,7 +9,7 @@ export default function Slide14WhatsNext() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -32,7 +32,7 @@ export default function Slide14WhatsNext() {
           <div className="card">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--green)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -45,7 +45,7 @@ export default function Slide14WhatsNext() {
             <div
               style={{
                 color: "var(--text-secondary)",
-                fontSize: 16,
+                fontSize: 21,
                 lineHeight: 1.5,
               }}
             >
@@ -57,7 +57,7 @@ export default function Slide14WhatsNext() {
           <div className="card">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--green)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -70,7 +70,7 @@ export default function Slide14WhatsNext() {
             <div
               style={{
                 color: "var(--text-secondary)",
-                fontSize: 16,
+                fontSize: 21,
                 lineHeight: 1.5,
               }}
             >
@@ -82,7 +82,7 @@ export default function Slide14WhatsNext() {
           <div className="card">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--gold)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -95,7 +95,7 @@ export default function Slide14WhatsNext() {
             <div
               style={{
                 color: "var(--text-secondary)",
-                fontSize: 16,
+                fontSize: 21,
                 lineHeight: 1.5,
               }}
             >
@@ -107,7 +107,7 @@ export default function Slide14WhatsNext() {
           <div className="card">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--purple)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -120,7 +120,7 @@ export default function Slide14WhatsNext() {
             <div
               style={{
                 color: "var(--text-secondary)",
-                fontSize: 16,
+                fontSize: 21,
                 lineHeight: 1.5,
               }}
             >

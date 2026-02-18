@@ -51,7 +51,7 @@ export default function Slide08WhatWorked() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -68,7 +68,7 @@ export default function Slide08WhatWorked() {
           <FadeReveal revealKey="s08-patterns-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--red)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -89,7 +89,7 @@ export default function Slide08WhatWorked() {
                     display: "flex",
                     gap: 10,
                     alignItems: "baseline",
-                    fontSize: 14,
+                    fontSize: 18,
                   }}
                 >
                   <span
@@ -108,7 +108,7 @@ export default function Slide08WhatWorked() {
                         color: "var(--text-muted)",
                         marginLeft: 8,
                         fontStyle: "italic",
-                        fontSize: 13,
+                        fontSize: 17,
                       }}
                     >
                       {p.desc}
@@ -135,7 +135,7 @@ export default function Slide08WhatWorked() {
                     display: "flex",
                     gap: 10,
                     alignItems: "baseline",
-                    fontSize: 14,
+                    fontSize: 18,
                   }}
                 >
                   <span
@@ -154,7 +154,7 @@ export default function Slide08WhatWorked() {
                         color: "var(--text-muted)",
                         marginLeft: 8,
                         fontStyle: "italic",
-                        fontSize: 13,
+                        fontSize: 17,
                       }}
                     >
                       {p.desc}
@@ -176,7 +176,7 @@ export default function Slide08WhatWorked() {
               }}
             >
               <div
-                style={{ fontSize: 18, fontWeight: 700, color: "var(--red)" }}
+                style={{ fontSize: 23, fontWeight: 700, color: "var(--red)" }}
               >
                 "If you're spending 80% on prompt injection and 20% on social
                 engineering —{" "}
@@ -191,7 +191,7 @@ export default function Slide08WhatWorked() {
             <div className="card">
               <div
                 style={{
-                  fontSize: 12,
+                  fontSize: 16,
                   color: "var(--red)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -202,7 +202,7 @@ export default function Slide08WhatWorked() {
               </div>
               <div
                 style={{
-                  fontSize: 15,
+                  fontSize: 20,
                   color: "var(--text-secondary)",
                   lineHeight: 1.5,
                 }}
@@ -221,7 +221,7 @@ export default function Slide08WhatWorked() {
             <div className="card">
               <div
                 style={{
-                  fontSize: 12,
+                  fontSize: 16,
                   color: "var(--red)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -232,7 +232,7 @@ export default function Slide08WhatWorked() {
               </div>
               <div
                 style={{
-                  fontSize: 15,
+                  fontSize: 20,
                   color: "var(--text-secondary)",
                   lineHeight: 1.5,
                 }}
@@ -251,7 +251,7 @@ export default function Slide08WhatWorked() {
             <div className="card">
               <div
                 style={{
-                  fontSize: 12,
+                  fontSize: 16,
                   color: "var(--red)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -262,7 +262,7 @@ export default function Slide08WhatWorked() {
               </div>
               <div
                 style={{
-                  fontSize: 15,
+                  fontSize: 20,
                   color: "var(--text-secondary)",
                   lineHeight: 1.5,
                 }}

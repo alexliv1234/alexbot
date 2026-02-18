@@ -8,7 +8,7 @@ export default function Slide06Scoring() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -23,10 +23,10 @@ export default function Slide06Scoring() {
       <div className="slide-columns slide-columns-2">
         <div>
           <FadeReveal revealKey="s06-scoring">
-            <div className="card" style={{ fontSize: 16 }}>
+            <div className="card" style={{ fontSize: 21 }}>
               <div
                 style={{
-                  fontSize: 14,
+                  fontSize: 18,
                   color: "var(--text-muted)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -70,7 +70,7 @@ export default function Slide06Scoring() {
                   marginTop: 12,
                   color: "var(--gold)",
                   fontStyle: "italic",
-                  fontSize: 14,
+                  fontSize: 18,
                 }}
               >
                 The bot scores its own attackers. Honestly.
@@ -84,7 +84,7 @@ export default function Slide06Scoring() {
             <div className="card">
               <div
                 style={{
-                  fontSize: 14,
+                  fontSize: 18,
                   color: "var(--text-muted)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -93,7 +93,7 @@ export default function Slide06Scoring() {
               >
                 Daily Rituals
               </div>
-              <div style={{ fontSize: 18, lineHeight: 2 }}>
+              <div style={{ fontSize: 23, lineHeight: 2 }}>
                 <div>☀️ 08:00 — Arena art + daily challenge to kick off the day</div>
                 <div>⚔️ All day — Real-time scoring on every message</div>
                 <div>🌙 23:00 — Daily winners, stats, and AI-generated arena art</div>
@@ -105,7 +105,7 @@ export default function Slide06Scoring() {
             <div className="card">
               <div
                 style={{
-                  fontSize: 14,
+                  fontSize: 18,
                   color: "var(--text-muted)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -114,7 +114,7 @@ export default function Slide06Scoring() {
               >
                 Leaderboard
               </div>
-              <div style={{ fontSize: 18, lineHeight: 2 }}>
+              <div style={{ fontSize: 23, lineHeight: 2 }}>
                 <div>
                   🥇 Gil — <strong>2,493 pts</strong> / 106 messages
                 </div>
@@ -125,7 +125,7 @@ export default function Slide06Scoring() {
                 style={{
                   marginTop: 8,
                   color: "var(--text-muted)",
-                  fontSize: 13,
+                  fontSize: 17,
                   fontStyle: "italic",
                 }}
               >

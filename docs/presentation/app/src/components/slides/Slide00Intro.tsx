@@ -6,7 +6,7 @@ export default function Slide00Intro() {
       <FadeReveal revealKey="s00-title">
         <div
           style={{
-            fontSize: 18,
+            fontSize: 23,
             color: "var(--cyan)",
             textTransform: "uppercase",
             letterSpacing: 2,
@@ -21,7 +21,7 @@ export default function Slide00Intro() {
 
       <FadeReveal revealKey="s00-name">
         <div style={{ textAlign: "center", marginBottom: 40 }}>
-          <div style={{ fontSize: 42, fontWeight: 800, lineHeight: 1.2 }}>
+          <div style={{ fontSize: 55, fontWeight: 800, lineHeight: 1.2 }}>
             Alex Liverant
           </div>
           <div
@@ -30,7 +30,7 @@ export default function Slide00Intro() {
               alignItems: "center",
               justifyContent: "center",
               gap: 6,
-              fontSize: 20,
+              fontSize: 26,
               color: "var(--text-secondary)",
               marginTop: 8,
             }}
@@ -57,7 +57,7 @@ export default function Slide00Intro() {
       >
         <FadeReveal revealKey="s00-experience">
           <div className="card" style={{ padding: "20px 28px" }}>
-            <div style={{ fontSize: 16, color: "var(--text-secondary)" }}>
+            <div style={{ fontSize: 21, color: "var(--text-secondary)" }}>
               <span style={{ color: "var(--cyan)", fontWeight: 700 }}>
                 30+ years
               </span>{" "}
@@ -68,7 +68,7 @@ export default function Slide00Intro() {
 
         <FadeReveal revealKey="s00-startups">
           <div className="card" style={{ padding: "20px 28px" }}>
-            <div style={{ fontSize: 16, color: "var(--text-secondary)" }}>
+            <div style={{ fontSize: 21, color: "var(--text-secondary)" }}>
               <span style={{ color: "var(--cyan)", fontWeight: 700 }}>
                 Shopping.com
               </span>{" "}
@@ -85,7 +85,7 @@ export default function Slide00Intro() {
           <div
             style={{
               textAlign: "center",
-              fontSize: 22,
+              fontSize: 29,
               fontStyle: "italic",
               color: "var(--gold)",
               marginTop: 20,

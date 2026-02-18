@@ -9,7 +9,7 @@ export default function Slide02DigitalTwin() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -25,7 +25,7 @@ export default function Slide02DigitalTwin() {
           <FadeReveal revealKey="s02-bullets">
             <ul
               className="bullet-list"
-              style={{ fontSize: 16, lineHeight: 1.7 }}
+              style={{ fontSize: 21, lineHeight: 1.7 }}
             >
               <li>
                 <strong>It all started 3 weeks ago</strong> — everything you're
@@ -51,7 +51,7 @@ export default function Slide02DigitalTwin() {
             <div
               style={{
                 marginTop: 24,
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--text-muted)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -73,7 +73,7 @@ export default function Slide02DigitalTwin() {
           <FadeReveal revealKey="s02-soul-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--text-muted)",
                 textTransform: "uppercase",
                 letterSpacing: 1,

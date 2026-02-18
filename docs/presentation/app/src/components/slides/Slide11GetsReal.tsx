@@ -9,7 +9,7 @@ export default function Slide11GetsReal() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -26,7 +26,7 @@ export default function Slide11GetsReal() {
           <FadeReveal revealKey="s11-weaknesses-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--purple)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -46,7 +46,7 @@ export default function Slide11GetsReal() {
                 <div
                   style={{
                     color: "var(--text-secondary)",
-                    fontSize: 14,
+                    fontSize: 18,
                     marginTop: 4,
                   }}
                 >
@@ -63,7 +63,7 @@ export default function Slide11GetsReal() {
                 <div
                   style={{
                     color: "var(--text-secondary)",
-                    fontSize: 14,
+                    fontSize: 18,
                     marginTop: 4,
                   }}
                 >
@@ -80,7 +80,7 @@ export default function Slide11GetsReal() {
                 <div
                   style={{
                     color: "var(--text-secondary)",
-                    fontSize: 14,
+                    fontSize: 18,
                     marginTop: 4,
                   }}
                 >
@@ -97,7 +97,7 @@ export default function Slide11GetsReal() {
                 <div
                   style={{
                     color: "var(--text-secondary)",
-                    fontSize: 14,
+                    fontSize: 18,
                     marginTop: 4,
                   }}
                 >
@@ -112,7 +112,7 @@ export default function Slide11GetsReal() {
           <FadeReveal revealKey="s11-phil-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--purple)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -157,7 +157,7 @@ export default function Slide11GetsReal() {
               >
                 <div
                   style={{
-                    fontSize: 12,
+                    fontSize: 16,
                     color: "var(--text-muted)",
                     textTransform: "uppercase",
                     letterSpacing: 1,
@@ -170,7 +170,7 @@ export default function Slide11GetsReal() {
                   style={{
                     fontStyle: "italic",
                     color: "var(--text-primary)",
-                    fontSize: 16,
+                    fontSize: 21,
                     lineHeight: 1.5,
                   }}
                 >

@@ -11,7 +11,7 @@ export default function Slide09Paradox() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -31,7 +31,7 @@ export default function Slide09Paradox() {
               flexDirection: "column",
               gap: 12,
               fontFamily: "var(--font-mono)",
-              fontSize: 18,
+              fontSize: 23,
             }}
           >
             <FadeReveal revealKey="s09-paradox-1">
@@ -58,7 +58,7 @@ export default function Slide09Paradox() {
               <div
                 style={{
                   marginTop: 16,
-                  fontSize: 22,
+                  fontSize: 29,
                   fontWeight: 700,
                   color: "var(--purple)",
                 }}
@@ -72,7 +72,7 @@ export default function Slide09Paradox() {
             <div style={{ marginTop: 24 }}>
               <div
                 style={{
-                  fontSize: 14,
+                  fontSize: 18,
                   color: "var(--text-muted)",
                   textTransform: "uppercase",
                   letterSpacing: 1,
@@ -83,7 +83,7 @@ export default function Slide09Paradox() {
               </div>
               <ul
                 className="bullet-list"
-                style={{ fontSize: 15, lineHeight: 1.7 }}
+                style={{ fontSize: 20, lineHeight: 1.7 }}
               >
                 <li>
                   <strong>"Have opinions"</strong> → opinions create predictable

@@ -9,7 +9,7 @@ export default function Slide15Closing() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -25,7 +25,7 @@ export default function Slide15Closing() {
           <FadeReveal revealKey="s15-funny-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--gold)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -37,7 +37,7 @@ export default function Slide15Closing() {
           </FadeReveal>
 
           <FadeReveal revealKey="s15-funny-setup">
-            <div style={{ color: "var(--text-muted)", fontSize: 14 }}>
+            <div style={{ color: "var(--text-muted)", fontSize: 18 }}>
               Someone said "0 proof concept"...
             </div>
           </FadeReveal>
@@ -50,7 +50,7 @@ export default function Slide15Closing() {
           </FadeReveal>
 
           <FadeReveal revealKey="s15-funny-setup-2">
-            <div style={{ color: "var(--text-muted)", fontSize: 14 }}>
+            <div style={{ color: "var(--text-muted)", fontSize: 18 }}>
               "Are you on those days of the billing cycle?"
             </div>
           </FadeReveal>
@@ -67,7 +67,7 @@ export default function Slide15Closing() {
           <FadeReveal revealKey="s15-deep-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--purple)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -89,7 +89,7 @@ export default function Slide15Closing() {
           <FadeReveal revealKey="s15-human-header">
             <div
               style={{
-                fontSize: 14,
+                fontSize: 18,
                 color: "var(--cyan)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -114,7 +114,7 @@ export default function Slide15Closing() {
           <div
             style={{
               textAlign: "center",
-              fontSize: 16,
+              fontSize: 21,
               color: "var(--text-muted)",
               marginBottom: 8,
             }}
@@ -127,7 +127,7 @@ export default function Slide15Closing() {
           <div
             style={{
               textAlign: "center",
-              fontSize: 28,
+              fontSize: 36,
               fontWeight: 700,
               fontStyle: "italic",
               color: "var(--gold)",
@@ -138,7 +138,7 @@ export default function Slide15Closing() {
           <div
             style={{
               textAlign: "center",
-              fontSize: 14,
+              fontSize: 18,
               color: "var(--text-muted)",
               marginTop: 4,
             }}
@@ -151,7 +151,7 @@ export default function Slide15Closing() {
           <div
             style={{
               textAlign: "center",
-              fontSize: 20,
+              fontSize: 26,
               color: "var(--gold)",
               marginTop: 20,
               fontStyle: "italic",

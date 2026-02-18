@@ -25,7 +25,7 @@ export default function Slide16EOS() {
           />
           <div
             className="slide-title"
-            style={{ fontSize: 32, lineHeight: 1.3 }}
+            style={{ fontSize: 42, lineHeight: 1.3 }}
           >
             Building the Operating System
             <br />
@@ -38,7 +38,7 @@ export default function Slide16EOS() {
       <FadeReveal revealKey="s16-connection">
         <div
           style={{
-            fontSize: 18,
+            fontSize: 23,
             color: "var(--text-secondary)",
             lineHeight: 1.6,
             textAlign: "center",
@@ -57,7 +57,7 @@ export default function Slide16EOS() {
         <div style={{ textAlign: "center" }}>
           <div
             style={{
-              fontSize: 13,
+              fontSize: 17,
               color: violet,
               textTransform: "uppercase",
               letterSpacing: 1.5,
@@ -69,7 +69,7 @@ export default function Slide16EOS() {
           </div>
           <div
             style={{
-              fontSize: 17,
+              fontSize: 22,
               color: "var(--text-secondary)",
               lineHeight: 1.7,
               maxWidth: 600,
@@ -79,7 +79,7 @@ export default function Slide16EOS() {
             <br />
             Core banking, lending, deposits, compliance, payments — one system.
             <br />
-            <span style={{ color: "var(--text-muted)", fontSize: 15 }}>
+            <span style={{ color: "var(--text-muted)", fontSize: 20 }}>
               Launched in Israel · Expanding to the US
             </span>
           </div>
@@ -100,7 +100,7 @@ export default function Slide16EOS() {
           />
           <div
             style={{
-              fontSize: 13,
+              fontSize: 17,
               color: violet,
               textTransform: "uppercase",
               letterSpacing: 1.5,
@@ -112,7 +112,7 @@ export default function Slide16EOS() {
           </div>
           <div
             style={{
-              fontSize: 16,
+              fontSize: 21,
               color: "var(--text-secondary)",
               lineHeight: 2,
             }}
@@ -142,7 +142,7 @@ export default function Slide16EOS() {
             <div style={{ textAlign: "left" }}>
               <div
                 style={{
-                  fontSize: 16,
+                  fontSize: 21,
                   color: "var(--text-primary)",
                   fontWeight: 600,
                   marginBottom: 4,
@@ -150,7 +150,7 @@ export default function Slide16EOS() {
               >
                 Scan to see open positions
               </div>
-              <div style={{ fontSize: 13, color: "var(--text-muted)" }}>
+              <div style={{ fontSize: 17, color: "var(--text-muted)" }}>
                 comeet.com/jobs/esh/87.003
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Slide16EOS() {
 
           <div
             style={{
-              fontSize: 16,
+              fontSize: 21,
               color: "var(--text-muted)",
               fontStyle: "italic",
               marginTop: 28,

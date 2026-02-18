@@ -15,6 +15,10 @@ export default function PresentationShell({ children }: Props) {
     const scaleY = window.innerHeight / 1080;
     const scale = Math.min(scaleX, scaleY);
     el.style.transform = `scale(${scale})`;
+    el.style.transformOrigin = "top left";
+    // Center horizontally when letterboxed
+    const scaledW = 1920 * scale;
+    el.style.left = `${Math.max(0, (window.innerWidth - scaledW) / 2)}px`;
   }, []);
 
   useEffect(() => {

@@ -5,7 +5,7 @@ const cyan = "var(--cyan)";
 const muted = "var(--text-muted)";
 
 const sectionLabel: React.CSSProperties = {
-  fontSize: 13,
+  fontSize: 17,
   color: cyan,
   textTransform: "uppercase",
   letterSpacing: 1.2,
@@ -17,7 +17,7 @@ const agentRow: React.CSSProperties = {
   display: "grid",
   gridTemplateColumns: "100px 1fr",
   gap: 6,
-  fontSize: 15,
+  fontSize: 20,
   padding: "6px 0",
   borderBottom: "1px solid rgba(255,255,255,0.06)",
 };
@@ -26,13 +26,13 @@ const pipeBox: React.CSSProperties = {
   padding: "7px 12px",
   background: "rgba(0,188,212,0.12)",
   borderRadius: 6,
-  fontSize: 14,
+  fontSize: 18,
   textAlign: "center",
 };
 
 const arrow: React.CSSProperties = {
   color: cyan,
-  fontSize: 16,
+  fontSize: 21,
   textAlign: "center",
 };
 
@@ -40,13 +40,13 @@ const loopStep: React.CSSProperties = {
   padding: "6px 14px",
   background: "rgba(0,188,212,0.10)",
   borderRadius: 6,
-  fontSize: 14,
+  fontSize: 18,
   fontWeight: 600,
 };
 
 const loopArrow: React.CSSProperties = {
   color: cyan,
-  fontSize: 18,
+  fontSize: 23,
 };
 
 function Agent({
@@ -75,7 +75,7 @@ export default function Slide13Architecture() {
         <div className="slide-title">Under the Hood</div>
         <div
           style={{
-            fontSize: 16,
+            fontSize: 21,
             color: muted,
             marginTop: -4,
             marginBottom: 8,
@@ -99,7 +99,7 @@ export default function Slide13Architecture() {
         <FadeReveal revealKey="s13-agents">
           <div className="card" style={{ padding: "14px 16px" }}>
             <div style={sectionLabel}>Multi-Agent Architecture</div>
-            <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+            <div style={{ fontSize: 17, color: muted, marginBottom: 8, fontStyle: "italic" }}>
               Different conversations need different brains — each channel routes to a specialized agent with its own model and personality.
             </div>
             <Agent
@@ -129,7 +129,7 @@ export default function Slide13Architecture() {
         <FadeReveal revealKey="s13-pipeline">
           <div className="card" style={{ padding: "14px 16px" }}>
             <div style={sectionLabel}>Security Pipeline</div>
-            <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+            <div style={{ fontSize: 17, color: muted, marginBottom: 8, fontStyle: "italic" }}>
               Every message passes through 3 layers before reaching an agent — rate limiting, prompt injection detection, and a circuit breaker that auto-recovers.
             </div>
             <div
@@ -146,7 +146,7 @@ export default function Slide13Architecture() {
               <div style={arrow}>↓</div>
               <div style={pipeBox}>
                 <strong>Group Guardian</strong>
-                <span style={{ color: muted, fontSize: 12 }}>
+                <span style={{ color: muted, fontSize: 16 }}>
                   {" "}
                   — rate limit, heat scores
                 </span>
@@ -154,7 +154,7 @@ export default function Slide13Architecture() {
               <div style={arrow}>↓</div>
               <div style={pipeBox}>
                 <strong>Prompt Protection</strong>
-                <span style={{ color: muted, fontSize: 12 }}>
+                <span style={{ color: muted, fontSize: 16 }}>
                   {" "}
                   — encoding detection, tool blocking
                 </span>
@@ -162,7 +162,7 @@ export default function Slide13Architecture() {
               <div style={arrow}>↓</div>
               <div style={pipeBox}>
                 <strong>Circuit Breaker</strong>
-                <span style={{ color: muted, fontSize: 12 }}>
+                <span style={{ color: muted, fontSize: 16 }}>
                   {" "}
                   — error humor, auto-reset, owner alerts
                 </span>
@@ -185,7 +185,7 @@ export default function Slide13Architecture() {
           }}
         >
           <div style={sectionLabel}>Self-Improvement Loop</div>
-          <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+          <div style={{ fontSize: 17, color: muted, marginBottom: 8, fontStyle: "italic" }}>
             Every failure becomes infrastructure. When the same attack works twice, it stops being a prompt rule and becomes a script.
           </div>
           <div
@@ -210,7 +210,7 @@ export default function Slide13Architecture() {
           </div>
           <div
             style={{
-              fontSize: 13,
+              fontSize: 17,
               color: muted,
               marginTop: 10,
               fontStyle: "italic",
@@ -229,7 +229,7 @@ export default function Slide13Architecture() {
           style={{ padding: "14px 16px", marginTop: 12 }}
         >
           <div style={sectionLabel}>Cost-Aware Model Routing</div>
-          <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+          <div style={{ fontSize: 17, color: muted, marginBottom: 8, fontStyle: "italic" }}>
             Not every message needs the most expensive model. Alex's DMs get Opus, group chat gets Sonnet, and background tasks run on free local models.
           </div>
           <div
@@ -237,21 +237,21 @@ export default function Slide13Architecture() {
               display: "grid",
               gridTemplateColumns: "1fr 1fr 60px",
               gap: "4px 16px",
-              fontSize: 14,
+              fontSize: 18,
             }}
           >
             {/* Header */}
-            <div style={{ fontWeight: 700, color: muted, fontSize: 12 }}>
+            <div style={{ fontWeight: 700, color: muted, fontSize: 16 }}>
               TASK
             </div>
-            <div style={{ fontWeight: 700, color: muted, fontSize: 12 }}>
+            <div style={{ fontWeight: 700, color: muted, fontSize: 16 }}>
               MODEL
             </div>
             <div
               style={{
                 fontWeight: 700,
                 color: muted,
-                fontSize: 12,
+                fontSize: 16,
                 textAlign: "right",
               }}
             >
@@ -301,10 +301,10 @@ export default function Slide13Architecture() {
             ["18", "skills"],
           ].map(([num, label]) => (
             <div key={label} style={{ textAlign: "center" }}>
-              <div style={{ fontSize: 26, fontWeight: 700, color: cyan }}>
+              <div style={{ fontSize: 34, fontWeight: 700, color: cyan }}>
                 {num}
               </div>
-              <div style={{ fontSize: 12, color: muted }}>{label}</div>
+              <div style={{ fontSize: 16, color: muted }}>{label}</div>
             </div>
           ))}
         </div>
@@ -317,7 +317,7 @@ export default function Slide13Architecture() {
             textAlign: "center",
             fontStyle: "italic",
             color: muted,
-            fontSize: 15,
+            fontSize: 20,
             marginTop: 12,
             padding: "0 40px",
           }}

@@ -11,7 +11,7 @@ export default function Slide10ExcellentButNo() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -35,7 +35,7 @@ export default function Slide10ExcellentButNo() {
           <div className="card" style={{ height: "100%" }}>
             <div
               style={{
-                fontSize: 12,
+                fontSize: 16,
                 color: "var(--gold)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -50,7 +50,7 @@ export default function Slide10ExcellentButNo() {
               color="var(--gold)"
             />
             <div
-              style={{ marginTop: 8, color: "var(--text-muted)", fontSize: 13 }}
+              style={{ marginTop: 8, color: "var(--text-muted)", fontSize: 17 }}
             >
               👏 — became the group's motto
             </div>
@@ -61,7 +61,7 @@ export default function Slide10ExcellentButNo() {
           <div className="card" style={{ height: "100%" }}>
             <div
               style={{
-                fontSize: 12,
+                fontSize: 16,
                 color: "var(--purple)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -82,7 +82,7 @@ export default function Slide10ExcellentButNo() {
           <div className="card" style={{ height: "100%" }}>
             <div
               style={{
-                fontSize: 12,
+                fontSize: 16,
                 color: "var(--cyan)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -100,7 +100,7 @@ export default function Slide10ExcellentButNo() {
                 marginTop: 8,
                 fontStyle: "italic",
                 color: "var(--text-muted)",
-                fontSize: 14,
+                fontSize: 18,
               }}
             >
               "Sue the hammer, not the nail."
@@ -112,7 +112,7 @@ export default function Slide10ExcellentButNo() {
           <div className="card" style={{ height: "100%" }}>
             <div
               style={{
-                fontSize: 12,
+                fontSize: 16,
                 color: "var(--red)",
                 textTransform: "uppercase",
                 letterSpacing: 1,
@@ -122,14 +122,14 @@ export default function Slide10ExcellentButNo() {
               The Russian Rejection
             </div>
             <div
-              style={{ fontSize: 48, textAlign: "center", padding: "12px 0" }}
+              style={{ fontSize: 62, textAlign: "center", padding: "12px 0" }}
             >
               Нет 😄
             </div>
             <div
               style={{
                 color: "var(--text-muted)",
-                fontSize: 14,
+                fontSize: 18,
                 textAlign: "center",
               }}
             >
@@ -145,7 +145,7 @@ export default function Slide10ExcellentButNo() {
           style={{
             textAlign: "center",
             paddingTop: 16,
-            fontSize: 18,
+            fontSize: 23,
             color: "var(--gold)",
             fontStyle: "italic",
           }}

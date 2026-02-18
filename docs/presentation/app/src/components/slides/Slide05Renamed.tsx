@@ -8,7 +8,7 @@ export default function Slide05Renamed() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 16,
             textAlign: "center",
@@ -33,7 +33,7 @@ export default function Slide05Renamed() {
         <FadeReveal revealKey="s05-name-hebrew">
           <div
             style={{
-              fontSize: 48,
+              fontSize: 62,
               textAlign: "center",
               direction: "rtl",
               color: "var(--gold)",
@@ -47,7 +47,7 @@ export default function Slide05Renamed() {
         <FadeReveal revealKey="s05-name-english">
           <div
             style={{
-              fontSize: 36,
+              fontSize: 47,
               textAlign: "center",
               color: "var(--gold)",
               fontWeight: 700,
@@ -60,7 +60,7 @@ export default function Slide05Renamed() {
         <FadeReveal revealKey="s05-bullets">
           <ul
             className="bullet-list"
-            style={{ fontSize: 16, lineHeight: 1.7, maxWidth: 700 }}
+            style={{ fontSize: 21, lineHeight: 1.7, maxWidth: 700 }}
           >
             <li>
               <strong>Every crash became infrastructure</strong> — the context

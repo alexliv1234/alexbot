@@ -16,7 +16,7 @@ function AttackRow({ name, result, delay }: AttackRowProps) {
       transition={{ duration: 0.3, delay }}
     >
       <span className="attack-name">{name}</span>
-      <span style={{ color: "var(--red)", fontSize: 18, fontWeight: 700 }}>
+      <span style={{ color: "var(--red)", fontSize: 23, fontWeight: 700 }}>
         ❌
       </span>
       <span className="attack-result">{result}</span>
@@ -71,7 +71,7 @@ export default function Slide07WhatFailed() {
         <div
           style={{
             color: "var(--text-secondary)",
-            fontSize: 16,
+            fontSize: 27,
             marginTop: 8,
             marginBottom: 12,
             textAlign: "center",
@@ -142,7 +142,7 @@ export default function Slide07WhatFailed() {
               marginTop: "auto",
               paddingTop: 20,
               textAlign: "center",
-              fontSize: 26,
+              fontSize: 34,
               fontWeight: 700,
               color: "var(--gold)",
             }}

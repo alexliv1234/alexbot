@@ -16,7 +16,7 @@ export default function Slide01Title() {
         >
           <div
             style={{
-              fontSize: 56,
+              fontSize: 73,
               fontWeight: 800,
               textAlign: "center",
               lineHeight: 1.1,
@@ -26,7 +26,7 @@ export default function Slide01Title() {
           </div>
           <div
             style={{
-              fontSize: 22,
+              fontSize: 29,
               color: "var(--text-secondary)",
               textAlign: "center",
               maxWidth: 700,
@@ -40,7 +40,7 @@ export default function Slide01Title() {
           </div>
           <div
             style={{
-              fontSize: 16,
+              fontSize: 27,
               color: "var(--text-secondary)",
               textAlign: "center",
               maxWidth: 600,
@@ -53,7 +53,7 @@ export default function Slide01Title() {
             This is that story.
           </div>
           <div
-            style={{ fontSize: 16, color: "var(--text-muted)", marginTop: 16 }}
+            style={{ fontSize: 21, color: "var(--text-muted)", marginTop: 16 }}
           >
             Alex Liverant
           </div>
@@ -65,7 +65,7 @@ export default function Slide01Title() {
           style={{
             textAlign: "center",
             color: "var(--text-secondary)",
-            fontSize: 20,
+            fontSize: 26,
             fontStyle: "italic",
             paddingBottom: 16,
           }}
@@ -79,7 +79,7 @@ export default function Slide01Title() {
           style={{
             textAlign: "center",
             color: "var(--gold)",
-            fontSize: 18,
+            fontSize: 23,
             fontStyle: "italic",
             marginTop: "auto",
             paddingBottom: 60,

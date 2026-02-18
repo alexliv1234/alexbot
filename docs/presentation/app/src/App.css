@@ -94,7 +94,7 @@ body,
   background: rgba(0, 0, 0, 0.75);
   border-radius: 8px;
   border: 1px solid var(--gold);
-  font-size: 20px;
+  font-size: 26px;
   color: var(--text-primary);
   text-align: center;
   z-index: 50;
@@ -119,7 +119,7 @@ body,
   flex-direction: column;
 }
 .slide-title {
-  font-size: 38px;
+  font-size: 54px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 30px;
@@ -150,7 +150,7 @@ body,
 .quote-hebrew {
   direction: rtl;
   text-align: right;
-  font-size: 16px;
+  font-size: 21px;
   color: var(--text-muted);
   margin-bottom: 8px;
 }
@@ -193,7 +193,7 @@ body,
   border: 2px solid transparent;
   background: var(--bg-darker);
   transition: all 0.3s ease;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
 }
 .speaker-badge.active {
@@ -218,11 +218,11 @@ body,
   padding: 20px;
   z-index: 200;
   overflow-y: auto;
-  font-size: 14px;
+  font-size: 18px;
 }
 .presenter-overlay h3 {
   color: var(--cyan);
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 8px;
@@ -246,7 +246,7 @@ body,
 }
 .presenter-overlay .step-counter {
   color: var(--text-muted);
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* Navigation controls */
@@ -270,7 +270,7 @@ body,
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 21px;
   transition: all 0.2s;
 }
 .nav-btn:hover {
@@ -279,7 +279,7 @@ body,
 }
 .slide-counter {
   color: var(--text-muted);
-  font-size: 13px;
+  font-size: 17px;
   font-variant-numeric: tabular-nums;
 }
 
@@ -316,13 +316,13 @@ body,
   padding: 20px;
 }
 .stat-number {
-  font-size: 42px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 4px;
 }
 .stat-label {
-  font-size: 14px;
+  font-size: 18px;
   color: var(--text-muted);
 }
 
