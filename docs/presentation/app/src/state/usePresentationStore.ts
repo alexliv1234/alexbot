@@ -32,7 +32,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
   currentClipId: null,
   presenterMode: false,
   showSubtitles: false,
-  revealedKeys: new Set<string>(["s01-title"]),
+  revealedKeys: new Set<string>(["s00-title", "s00-name"]),
   botOnStage: false,
 
   nextStep: () => {
@@ -135,7 +135,7 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
       const newRevealed = new Set<string>();
 
       // Replay all reveals and check if BOT_ENTER was reached
-      let botOnStage = state.currentSlide > 0; // past slide 1 = bot already entered
+      let botOnStage = state.currentSlide > 1 && state.currentSlide < slides.length - 1;
       for (let i = 0; i <= targetStep; i++) {
         const s = slide.steps[i];
         if (s.revealIds) s.revealIds.forEach((k) => newRevealed.add(k));
@@ -204,8 +204,9 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
         speaker = firstStep.speaker;
       }
 
-      // Bot is on stage for any slide after the BOT_ENTER step (slide 1 step 1+)
-      const botOnStage = n > 0;
+      // Bot enters during slide index 1, exits at end of slide index 15
+      // When jumping to step 0, bot is on stage for slides 2–15
+      const botOnStage = n > 1 && n < slides.length - 1;
 
       set({
         currentSlide: n,

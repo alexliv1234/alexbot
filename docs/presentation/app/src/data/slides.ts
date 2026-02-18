@@ -3,6 +3,43 @@ import { Speaker, StepAction } from "../types";
 import { colors } from "./theme";
 
 export const slides: SlideDefinition[] = [
+  // ── Slide 0: Intro ───────────────────────────────────────────
+  {
+    number: 0,
+    title: "Who Am I?",
+    accentColor: colors.cyan,
+    primarySpeaker: Speaker.ALEX,
+    duration: "0:45",
+    presenterNotes:
+      "[ALEX] Quick intro — who I am, startup background, set the stage.",
+    steps: [
+      {
+        id: "s00-1",
+        action: StepAction.SET_SPEAKER,
+        speaker: Speaker.ALEX,
+        revealIds: ["s00-title", "s00-name"],
+        label: "Show name",
+      },
+      {
+        id: "s00-2",
+        action: StepAction.REVEAL,
+        revealIds: ["s00-experience"],
+        label: "30+ years",
+      },
+      {
+        id: "s00-3",
+        action: StepAction.REVEAL,
+        revealIds: ["s00-startups"],
+        label: "Startup exits",
+      },
+      {
+        id: "s00-4",
+        action: StepAction.REVEAL,
+        revealIds: ["s00-tagline"],
+        label: "Tagline",
+      },
+    ],
+  },
   // ── Slide 1: Title ──────────────────────────────────────────
   {
     number: 1,
@@ -834,6 +871,43 @@ export const slides: SlideDefinition[] = [
         id: "s15-14",
         action: StepAction.BOT_EXIT,
         label: "Bot walks off stage",
+      },
+    ],
+  },
+  // ── Slide 16: eOS ────────────────────────────────────────────
+  {
+    number: 16,
+    title: "What We Actually Do",
+    accentColor: colors.green,
+    primarySpeaker: Speaker.ALEX,
+    duration: "1:00",
+    presenterNotes:
+      "[ALEX] eOS pitch — platform, mission, hiring. Keep it light.",
+    steps: [
+      {
+        id: "s16-1",
+        action: StepAction.SET_SPEAKER,
+        speaker: Speaker.ALEX,
+        revealIds: ["s16-title"],
+        label: "Title",
+      },
+      {
+        id: "s16-2",
+        action: StepAction.REVEAL,
+        revealIds: ["s16-platform"],
+        label: "Platform description",
+      },
+      {
+        id: "s16-3",
+        action: StepAction.REVEAL,
+        revealIds: ["s16-mission"],
+        label: "Mission",
+      },
+      {
+        id: "s16-4",
+        action: StepAction.REVEAL,
+        revealIds: ["s16-hiring"],
+        label: "Hiring pitch",
       },
     ],
   },

@@ -1,4 +1,5 @@
 import type { ComponentType } from "react";
+import Slide00Intro from "./Slide00Intro";
 import Slide01Title from "./Slide01Title";
 import Slide02DigitalTwin from "./Slide02DigitalTwin";
 import Slide03Engineers from "./Slide03Engineers";
@@ -14,8 +15,10 @@ import Slide12Teachers from "./Slide12Teachers";
 import Slide13Architecture from "./Slide13Architecture";
 import Slide14WhatsNext from "./Slide14WhatsNext";
 import Slide15Closing from "./Slide15Closing";
+import Slide16EOS from "./Slide16EOS";
 
 export const slideComponents: ComponentType[] = [
+  Slide00Intro,
   Slide01Title,
   Slide02DigitalTwin,
   Slide03Engineers,
@@ -31,4 +34,5 @@ export const slideComponents: ComponentType[] = [
   Slide13Architecture,
   Slide14WhatsNext,
   Slide15Closing,
+  Slide16EOS,
 ];
