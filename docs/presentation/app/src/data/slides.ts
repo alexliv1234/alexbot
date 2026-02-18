@@ -48,7 +48,7 @@ export const slides: SlideDefinition[] = [
     primarySpeaker: Speaker.BOTH,
     duration: "0:30",
     presenterNotes:
-      "[ALEX] Hey everyone. So, this talk is called \"Playing with AlexBot.\" We invited 40 people to hack our AI. They ended up naming a dog after it.\n[BOT] Hi. I'm AlexBot. I'm a pre-recorded voice at a tech meetup.",
+      "[ALEX] Hey everyone. So, this talk is called \"Playing with AlexBot.\" 200+ people in a WhatsApp group, 40 of them super-active. They ended up naming a dog after it.\n[BOT] Hi. I'm AlexBot. I'm a pre-recorded voice at a tech meetup.",
     steps: [
       {
         id: "s01-1",

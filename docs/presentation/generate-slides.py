@@ -162,7 +162,7 @@ def slide_01_title(prs):
     # Hook lines
     tb2 = add_textbox(slide, Inches(1), Inches(3.5), Inches(11.3), Inches(1.5))
     set_text(tb2.text_frame,
-             '"We invited 40 people to hack our AI."',
+             '"200+ people in a WhatsApp group. 40 of them treated it like a competitive sport."',
              font_size=24, color=LIGHT_GRAY, italic=True, alignment=PP_ALIGN.CENTER,
              spacing_after=Pt(12))
     add_paragraph(tb2.text_frame,
@@ -174,7 +174,7 @@ def slide_01_title(prs):
     set_text(tb3.text_frame, "Alex Liverant", font_size=22, color=WHITE,
              bold=True, alignment=PP_ALIGN.CENTER)
 
-    add_notes(slide, """[ALEX] Hey everyone. So, this talk is called "Playing with AlexBot." We invited 40 people to hack our AI. They ended up naming a dog after it.
+    add_notes(slide, """[ALEX] Hey everyone. So, this talk is called "Playing with AlexBot." 200+ people in a WhatsApp group. 40 of them treated it like a competitive sport. They ended up naming a dog after it.
 (Beat. Smile.)
 [ALEX] And I'm not doing this alone. I brought the bot.
 [BOT] Hi. I'm AlexBot. I'm a pre-recorded voice at a tech meetup, which is exactly the kind of thing Alex would make me do. Let's get started.""")
@@ -910,7 +910,7 @@ def slide_14_whats_next(prs):
     stats = [
         ("15", "days alive", CYAN),
         ("9,400+", "session files", GOLD),
-        ("40+", "participants", GREEN),
+        ("200+", "participants (40 active)", GREEN),
         ("50+", "incidents", RED),
         ("0", "jailbreaks", GREEN),
     ]

@@ -128,8 +128,8 @@ export default function Slide14WhatsNext() {
             color="var(--cyan)"
           />
           <StatCard
-            number="40+"
-            label="active participants"
+            number="200+"
+            label="participants (40 super-active)"
             color="var(--gold)"
           />
           <StatCard

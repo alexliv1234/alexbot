@@ -57,7 +57,7 @@ export default function Slide03Engineers() {
           <FadeReveal revealKey="s03-dogs" delay={0.1}>
             <div style={{ marginTop: 16 }}>
               <QuoteCard
-                text="40 engineers at 7 AM and the first thing they do is teach the AI to bark. This is either the future of human-AI interaction or the most expensive dog toy ever built."
+                text="200 engineers in a group and 40 of them are here at 7 AM teaching the AI to bark. This is either the future of human-AI interaction or the most expensive dog toy ever built."
                 color="var(--gold)"
               />
             </div>

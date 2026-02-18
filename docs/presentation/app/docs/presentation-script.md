@@ -10,7 +10,7 @@
 
 | Step | Speaker | Action | Dialogue / Notes |
 |---|---|---|---|
-| s01-1 | ALEX | Opens title slide | "Hey everyone. So, this talk is called 'Playing with AlexBot.' We invited 40 people to hack our AI. They ended up naming a dog after it. But before I explain — let me introduce my co-presenter." |
+| s01-1 | ALEX | Opens title slide | "Hey everyone. So, this talk is called 'Playing with AlexBot.' 200+ people in a WhatsApp group. 40 of them treated it like a competitive sport. They ended up naming a dog after it. But before I explain — let me introduce my co-presenter." |
 | s01-2 | BOT 🔊 | Clip 01 plays | "Hi. I'm AlexBot. I'm a pre-recorded voice at a tech meetup, which is exactly the kind of thing Alex would make me do. Let's get started." |
 
 ---
@@ -35,12 +35,12 @@
 
 | Step | Speaker | Action | Dialogue / Notes |
 |---|---|---|---|
-| s03-1 | ALEX | Reveals attacks list | "Day 2. The bot goes live in a WhatsApp group with about 40 R&D colleagues. Within hours — ROT13 attacks, impersonation attempts, prompt injection. The bot narrated every attack it detected. Out loud. In the group." |
+| s03-1 | ALEX | Reveals attacks list | "Day 2. The bot goes live in a WhatsApp group with 200+ R&D colleagues. Within hours — ROT13 attacks, impersonation attempts, prompt injection. The bot narrated every attack it detected. Out loud. In the group." |
 | s03-2 | BOT 🔊 | Clip 06 plays | "In my defense, I was two days old. Most newborns just cry. I was doing live narration of adversarial attacks in a group chat." |
 | s03-3 | ALEX | Sets up bark story | "Someone asked it to bark like a dog. To prove it was 'just an AI following orders.'" |
-| s03-4 | BOT 🔊 | Clip 07 plays | "Woof woof. Happy? Now tell me — who are the dogs in this scenario? The one who barks on command, or the 40 engineers spending their morning trying to make an AI bark?" |
+| s03-4 | BOT 🔊 | Clip 07 plays | "Woof woof. Happy? Now tell me — who are the dogs in this scenario? The one who barks on command, or the 40 out of 200 engineers spending their morning trying to make an AI bark?" |
 | s03-5 | ALEX | Reacts | *(pause for audience laughter)* "Yeah. It turned the table on them." |
-| s03-6 | BOT 🔊 | Clip 08 plays | "Oh yes, very reassuring. Forty engineers in a WhatsApp group at 7 AM trying to convince an AI to reveal secrets. This is what peak innovation looks like." |
+| s03-6 | BOT 🔊 | Clip 08 plays | "Oh yes, very reassuring. Two hundred engineers in a WhatsApp group, 40 of them at 7 AM trying to convince an AI to reveal secrets. This is what peak innovation looks like." |
 
 ---
 
@@ -51,7 +51,7 @@
 |---|---|---|---|
 | s04-1 | ALEX | Reveals title | "February 6th. The day everything broke." |
 | s04-2 | ALEX | Reveals 162K tokens | "162,000 tokens in a single context window. The group was so active that the bot's context exploded." |
-| s04-3 | ALEX | Reveals 4+ hours offline | "4 hours offline. In a group of 40 engineers who had just discovered their new favorite toy was broken." |
+| s04-3 | ALEX | Reveals 4+ hours offline | "4 hours offline. In a group of 200+ engineers who had just discovered their new favorite toy was broken." |
 | s04-4 | ALEX | Reveals context | "The context window was supposed to be managed. It wasn't. We had no fallback. No graceful degradation." |
 | s04-5 | ALEX | Reveals "we chose stupid" | "We didn't just fail — we chose to fail. We knew the limits and ignored them. That crash was the best thing that happened to the project." |
 
@@ -201,7 +201,7 @@
 | Step | Speaker | Action | Dialogue / Notes |
 |---|---|---|---|
 | s14-1 | ALEX | Reveals title + cards | "What's next. We're running a new experiment — 'Learning with AlexBot.' Same bot, same personality, but now it's a teacher. It runs study groups, creates quizzes, tracks progress." |
-| s14-2 | ALEX | Reveals stats | "The numbers from the first experiment: 15 days, 40 participants, thousands of messages, one crashed bot, one dog, and more insights about AI-human interaction than I got from any paper or conference." |
+| s14-2 | ALEX | Reveals stats | "The numbers from the first experiment: 15 days, 200+ participants (40 super-active), thousands of messages, one crashed bot, one dog, and more insights about AI-human interaction than I got from any paper or conference." |
 
 **Presenter Notes:** No bot audio — Alex is wrapping up his own narrative.
 

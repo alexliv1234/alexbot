@@ -10,7 +10,7 @@
 
 _Slide shows: "Playing with AlexBot" + hook lines + Alex Liverant_
 
-**[ALEX]** Hey everyone. So, this talk is called "Playing with AlexBot." We invited 40 people to hack our AI. They ended up naming a dog after it.
+**[ALEX]** Hey everyone. So, this talk is called "Playing with AlexBot." 200+ people in a WhatsApp group. 40 of them treated it like a competitive sport. They ended up naming a dog after it.
 
 _Beat. Smile._
 
@@ -292,7 +292,7 @@ _Slide shows: Learning group, ongoing experiment, stats bar_
 
 **[ALEX]** We have 109 feature suggestions still pending from the playing group. The bot has its own goals document that it updates on its own. The framework — OpenClaw — is open source, MIT licensed, 196K GitHub stars. The patterns, the scoring system, the security pipeline, the identity files — you can use all of it.
 
-**[ALEX]** 15 days. 9,400 session files. 40-plus participants. 50-plus security incidents documented. Zero complete jailbreaks. And the experiment isn't over. It's ongoing.
+**[ALEX]** 15 days. 9,400 session files. 200-plus participants, 40 super-active. 50-plus security incidents documented. Zero complete jailbreaks. And the experiment isn't over. It's ongoing.
 
 ---
 

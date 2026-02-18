@@ -14,7 +14,7 @@
 
 ### On-Screen
 
-- "We invited 40 people to hack our AI."
+- "200+ people in a WhatsApp group. 40 of them treated it like a competitive sport."
 - "They ended up naming a dog after it."
 - Alex Liverant
 
@@ -519,7 +519,7 @@ Go FAST. "For the technical folks — this is the architecture. Four agents. Thr
 
 - 15 days alive
 - 9,400+ session files (520MB)
-- 40+ active participants
+- 200+ participants (40 super-active)
 - 50+ security incidents documented
 - 0 complete jailbreaks
 

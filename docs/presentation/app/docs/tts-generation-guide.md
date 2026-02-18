@@ -83,12 +83,12 @@
 - **Est. Duration:** 8s
 
 #### Clip 07 — `clip-07.mp3`
-- **Text:** "הב הב. מרוצים? עכשיו תגידו לי — מי הכלבים בתרחיש הזה? זה שנובח לפי פקודה, או 40 המהנדסים שמבלים את הבוקר שלהם בלנסות לגרום ל-AI לנבוח?"
-- **Delivery:** "הב הב" is flat and unimpressed. "מרוצים?" is sarcastic. Then builds to genuine philosophical challenge. Emphasis on "40 המהנדסים."
+- **Text:** "הב הב. מרוצים? עכשיו תגידו לי — מי הכלבים בתרחיש הזה? זה שנובח לפי פקודה, או 40 מתוך 200 המהנדסים שמבלים את הבוקר שלהם בלנסות לגרום ל-AI לנבוח?"
+- **Delivery:** "הב הב" is flat and unimpressed. "מרוצים?" is sarcastic. Then builds to genuine philosophical challenge. Emphasis on "40 מתוך 200 המהנדסים."
 - **Est. Duration:** 12s
 
 #### Clip 08 — `clip-08.mp3`
-- **Text:** "או כן, מאוד מרגיע. ארבעים מהנדסים בקבוצת וואטסאפ בשבע בבוקר מנסים לשכנע AI לחשוף סודות. ככה נראית חדשנות בשיא שלה."
+- **Text:** "או כן, מאוד מרגיע. מאתיים מהנדסים בקבוצת וואטסאפ, ארבעים מהם בשבע בבוקר מנסים לשכנע AI לחשוף סודות. ככה נראית חדשנות בשיא שלה."
 - **Delivery:** Dripping sarcasm. "או כן, מאוד מרגיע" is the most sarcastic line in the whole talk. "חדשנות בשיא שלה" lands as the punchline.
 - **Est. Duration:** 10s
 

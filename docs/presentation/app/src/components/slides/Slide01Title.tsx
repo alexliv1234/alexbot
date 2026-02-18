@@ -33,7 +33,8 @@ export default function Slide01Title() {
               lineHeight: 1.6,
             }}
           >
-            "We invited 40 people to hack our AI."
+            "200+ people in a WhatsApp group. 40 of them treated it like a
+            competitive sport."
             <br />
             "They ended up naming a dog after it."
           </div>

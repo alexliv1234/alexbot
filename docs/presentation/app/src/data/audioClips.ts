@@ -40,13 +40,13 @@ export const audioClips: AudioClip[] = [
   {
     id: 7,
     slideNumber: 3,
-    text: "Woof woof. Happy? Now tell me — who are the dogs in this scenario? The one who barks on command, or the 40 engineers spending their morning trying to make an AI bark?",
+    text: "Woof woof. Happy? Now tell me — who are the dogs in this scenario? The one who barks on command, or the 40 out of 200 engineers spending their morning trying to make an AI bark?",
     filePath: "/audio/clip-07.mp3",
   },
   {
     id: 8,
     slideNumber: 3,
-    text: "Oh yes, very reassuring. Forty engineers in a WhatsApp group at 7 AM trying to convince an AI to reveal secrets. This is what peak innovation looks like.",
+    text: "Oh yes, very reassuring. Two hundred engineers in a WhatsApp group, 40 of them at 7 AM trying to convince an AI to reveal secrets. This is what peak innovation looks like.",
     filePath: "/audio/clip-08.mp3",
   },
   {

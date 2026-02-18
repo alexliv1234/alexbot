@@ -20,23 +20,28 @@ export default function Slide00Intro() {
       </FadeReveal>
 
       <FadeReveal revealKey="s00-name">
-        <div
-          style={{
-            textAlign: "center",
-            marginBottom: 40,
-          }}
-        >
+        <div style={{ textAlign: "center", marginBottom: 40 }}>
           <div style={{ fontSize: 42, fontWeight: 800, lineHeight: 1.2 }}>
             Alex Liverant
           </div>
           <div
             style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: 6,
               fontSize: 20,
               color: "var(--text-secondary)",
               marginTop: 8,
             }}
           >
-            Co-Founder & CTO · eOS (esh group)
+            Co-Founder & CTO ·{" "}
+            <img
+              src="/images/logo-transparent.png"
+              alt="eOS"
+              style={{ height: 22, verticalAlign: "middle" }}
+            />{" "}
+            (esh group)
           </div>
         </div>
       </FadeReveal>
@@ -65,7 +70,7 @@ export default function Slide00Intro() {
           <div className="card" style={{ padding: "20px 28px" }}>
             <div style={{ fontSize: 16, color: "var(--text-secondary)" }}>
               <span style={{ color: "var(--cyan)", fontWeight: 700 }}>
-                Shopping.co
+                Shopping.com
               </span>{" "}
               (acquired) ·{" "}
               <span style={{ color: "var(--cyan)", fontWeight: 700 }}>
@@ -86,7 +91,7 @@ export default function Slide00Intro() {
               marginTop: 20,
             }}
           >
-            "Third time's the charm — or the pattern."
+            "rewriting the financial institutions operating playbook"
           </div>
         </FadeReveal>
       </div>
