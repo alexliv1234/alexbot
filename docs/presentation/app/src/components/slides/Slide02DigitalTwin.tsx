@@ -15,6 +15,7 @@ export default function Slide02DigitalTwin() {
               className="bullet-list"
               style={{ fontSize: 20, lineHeight: 1.8 }}
             >
+              <li>It all started 3 weeks ago</li>
               <li>AlexBot — personal AI assistant, lives on WhatsApp</li>
               <li>
                 Built on OpenClaw (open-source, TypeScript, 196K+ GitHub stars)
