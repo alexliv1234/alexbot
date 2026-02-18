@@ -12,7 +12,9 @@ interface PresentationState {
   showSubtitles: boolean;
   revealedKeys: Set<string>;
   botOnStage: boolean;
+  started: boolean;
 
+  startPresentation: () => void;
   nextStep: () => void;
   prevStep: () => void;
   goToSlide: (n: number) => void;
@@ -34,6 +36,9 @@ export const usePresentationStore = create<PresentationState>((set, get) => ({
   showSubtitles: false,
   revealedKeys: new Set<string>(["s00-title", "s00-name"]),
   botOnStage: false,
+  started: false,
+
+  startPresentation: () => set({ started: true }),
 
   nextStep: () => {
     const state = get();

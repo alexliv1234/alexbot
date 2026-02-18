@@ -7,6 +7,8 @@ import SpeakerIndicator from "./components/speakers/SpeakerIndicator";
 import NavigationControls from "./components/controls/NavigationControls";
 import ProgressBar from "./components/layout/ProgressBar";
 import PresenterOverlay from "./components/layout/PresenterOverlay";
+import PresentationTimer from "./components/controls/PresentationTimer";
+import StartScreen from "./components/layout/StartScreen";
 import { audioClips } from "./data/audioClips";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -18,6 +20,7 @@ export default function App() {
   const showSubtitles = usePresentationStore((s) => s.showSubtitles);
   const isPlaying = usePresentationStore((s) => s.isPlaying);
   const presenterMode = usePresentationStore((s) => s.presenterMode);
+  const started = usePresentationStore((s) => s.started);
 
   const subtitleText = currentClipId
     ? audioClips.find((c) => c.id === currentClipId)?.text
@@ -25,6 +28,7 @@ export default function App() {
 
   return (
     <>
+      {!started && <StartScreen />}
       <PresentationShell>
         <SlideContainer />
         <NavigationControls />
@@ -43,6 +47,9 @@ export default function App() {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* Presentation timer (always visible) */}
+        <PresentationTimer />
 
         {/* Presenter overlay */}
         <AnimatePresence>

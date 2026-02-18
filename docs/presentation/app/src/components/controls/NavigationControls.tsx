@@ -14,7 +14,7 @@ export default function NavigationControls() {
         ◀
       </button>
       <span className="slide-counter">
-        {currentSlide + 1}{' '}
+        {currentSlide}{' '}
         <span style={{ fontSize: '0.8em' }}>
           - {currentStep + 1}/{totalSteps}
         </span>{' '}
