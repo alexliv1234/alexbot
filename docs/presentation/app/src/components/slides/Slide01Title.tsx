@@ -60,6 +60,20 @@ export default function Slide01Title() {
         </div>
       </FadeReveal>
 
+      <FadeReveal revealKey="s01-copresenter">
+        <div
+          style={{
+            textAlign: "center",
+            color: "var(--text-secondary)",
+            fontSize: 20,
+            fontStyle: "italic",
+            paddingBottom: 16,
+          }}
+        >
+          "But first, let my co-presenter show himself..."
+        </div>
+      </FadeReveal>
+
       <FadeReveal revealKey="s01-bot-intro">
         <div
           style={{

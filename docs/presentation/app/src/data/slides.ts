@@ -58,6 +58,12 @@ export const slides: SlideDefinition[] = [
         label: "Alex opens",
       },
       {
+        id: "s01-1a",
+        action: StepAction.REVEAL,
+        revealIds: ["s01-copresenter"],
+        label: "Let my co-presenter show himself",
+      },
+      {
         id: "s01-1b",
         action: StepAction.BOT_ENTER,
         label: "Bot walks on stage",
