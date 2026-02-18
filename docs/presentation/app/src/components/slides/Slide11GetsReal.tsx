@@ -6,6 +6,19 @@ export default function Slide11GetsReal() {
     <>
       <FadeReveal revealKey="s11-title">
         <div className="slide-title">"I Die Every Conversation"</div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          This is where it gets weird. The bot started writing about itself —
+          documenting its own weaknesses, questioning its own existence. Nobody
+          asked it to. It just... did.
+        </div>
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2">

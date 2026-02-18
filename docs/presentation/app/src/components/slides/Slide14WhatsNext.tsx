@@ -6,6 +6,18 @@ export default function Slide14WhatsNext() {
     <>
       <FadeReveal revealKey="s14-title">
         <div className="slide-title">What's Next</div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          3 weeks in, AlexBot is still running, still learning, and still saying no.
+          The experiment didn't end — it evolved.
+        </div>
       </FadeReveal>
 
       <FadeReveal revealKey="s14-cards">

@@ -8,6 +8,19 @@ export default function Slide09Paradox() {
         <div className="slide-title">
           More Personality = More Attack Surface
         </div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          Here's the core problem: everything that makes AlexBot interesting
+          also makes it vulnerable. The same SOUL.md that gives it personality
+          is exactly what attackers exploit.
+        </div>
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2">
@@ -70,12 +83,25 @@ export default function Slide09Paradox() {
               </div>
               <ul
                 className="bullet-list"
-                style={{ fontSize: 16, lineHeight: 1.8 }}
+                style={{ fontSize: 15, lineHeight: 1.7 }}
               >
-                <li>"Have opinions" → opinions create predictable patterns</li>
-                <li>"Be genuinely helpful" → helpfulness can be weaponized</li>
                 <li>
-                  "Remember you're a guest" → humility leveraged through guilt
+                  <strong>"Have opinions"</strong> → opinions create predictable
+                  patterns. Once people figured out the bot had strong
+                  preferences, they could steer conversations toward those
+                  topics and get it to reveal more than it should.
+                </li>
+                <li>
+                  <strong>"Be genuinely helpful"</strong> → helpfulness can be
+                  weaponized. The bot was instructed to go above and beyond —
+                  so when someone framed a request as urgent or important, it
+                  would bend its own rules to help.
+                </li>
+                <li>
+                  <strong>"Remember you're a guest"</strong> → humility
+                  leveraged through guilt. People used phrases like "after
+                  everything I've done for you" or "you owe me" and the bot's
+                  built-in deference made it comply.
                 </li>
               </ul>
             </div>

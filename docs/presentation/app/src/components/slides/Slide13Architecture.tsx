@@ -99,6 +99,9 @@ export default function Slide13Architecture() {
         <FadeReveal revealKey="s13-agents">
           <div className="card" style={{ padding: "14px 16px" }}>
             <div style={sectionLabel}>Multi-Agent Architecture</div>
+            <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+              Different conversations need different brains — each channel routes to a specialized agent with its own model and personality.
+            </div>
             <Agent
               name="Main"
               model="Claude Opus 4.5"
@@ -126,6 +129,9 @@ export default function Slide13Architecture() {
         <FadeReveal revealKey="s13-pipeline">
           <div className="card" style={{ padding: "14px 16px" }}>
             <div style={sectionLabel}>Security Pipeline</div>
+            <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+              Every message passes through 3 layers before reaching an agent — rate limiting, prompt injection detection, and a circuit breaker that auto-recovers.
+            </div>
             <div
               style={{
                 display: "flex",
@@ -179,6 +185,9 @@ export default function Slide13Architecture() {
           }}
         >
           <div style={sectionLabel}>Self-Improvement Loop</div>
+          <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+            Every failure becomes infrastructure. When the same attack works twice, it stops being a prompt rule and becomes a script.
+          </div>
           <div
             style={{
               display: "flex",
@@ -220,6 +229,9 @@ export default function Slide13Architecture() {
           style={{ padding: "14px 16px", marginTop: 12 }}
         >
           <div style={sectionLabel}>Cost-Aware Model Routing</div>
+          <div style={{ fontSize: 13, color: muted, marginBottom: 8, fontStyle: "italic" }}>
+            Not every message needs the most expensive model. Alex's DMs get Opus, group chat gets Sonnet, and background tasks run on free local models.
+          </div>
           <div
             style={{
               display: "grid",

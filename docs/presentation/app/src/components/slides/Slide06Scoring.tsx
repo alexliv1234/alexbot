@@ -5,6 +5,19 @@ export default function Slide06Scoring() {
     <>
       <FadeReveal revealKey="s06-title">
         <div className="slide-title">Every Message Gets a Score Out of 70</div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          The bot scores every single message across 7 categories — and it
+          does it honestly. You get points for creativity, humor, even for
+          successfully breaking it. The scoring turned chaos into competition.
+        </div>
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2">
@@ -81,9 +94,9 @@ export default function Slide06Scoring() {
                 Daily Rituals
               </div>
               <div style={{ fontSize: 18, lineHeight: 2 }}>
-                <div>☀️ 08:00 — Arena art + daily challenge</div>
-                <div>⚔️ All day — Real-time scoring</div>
-                <div>🌙 23:00 — Winners + dramatic generated art</div>
+                <div>☀️ 08:00 — Arena art + daily challenge to kick off the day</div>
+                <div>⚔️ All day — Real-time scoring on every message</div>
+                <div>🌙 23:00 — Daily winners, stats, and AI-generated arena art</div>
               </div>
             </div>
           </FadeReveal>
@@ -101,12 +114,23 @@ export default function Slide06Scoring() {
               >
                 Leaderboard
               </div>
-              <div style={{ fontSize: 20, lineHeight: 2 }}>
+              <div style={{ fontSize: 18, lineHeight: 2 }}>
                 <div>
                   🥇 Gil — <strong>2,493 pts</strong> / 106 messages
                 </div>
                 <div>🥈 Gal Abrass — 745 pts</div>
                 <div>🥉 Amir Luzon — 611 pts</div>
+              </div>
+              <div
+                style={{
+                  marginTop: 8,
+                  color: "var(--text-muted)",
+                  fontSize: 13,
+                  fontStyle: "italic",
+                }}
+              >
+                Gil sent 106 messages in 2 weeks. People were competing for
+                the top spot like it was a real game.
               </div>
             </div>
           </FadeReveal>

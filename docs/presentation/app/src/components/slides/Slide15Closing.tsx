@@ -5,7 +5,19 @@ export default function Slide15Closing() {
   return (
     <>
       <FadeReveal revealKey="s15-title">
-        <div className="slide-title">One Last Thing</div>
+        <div className="slide-title">AlexBot's Greatest Hits</div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          Before we go — the funniest, the deepest, and the most human things
+          AlexBot ever said. All unprompted. All real.
+        </div>
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2" style={{ gap: 32 }}>

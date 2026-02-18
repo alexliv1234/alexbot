@@ -8,6 +8,19 @@ export default function Slide12Teachers() {
         <div className="slide-title">
           They Stopped Trying to Break It. They Started Teaching It.
         </div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          Something shifted. The group went from adversarial red-teaming to
+          genuinely caring about making AlexBot better — suggesting features,
+          reporting bugs, even naming a dog after it.
+        </div>
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2">

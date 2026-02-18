@@ -39,6 +39,20 @@ export default function Slide01Title() {
             "They ended up naming a dog after it."
           </div>
           <div
+            style={{
+              fontSize: 16,
+              color: "var(--text-secondary)",
+              textAlign: "center",
+              maxWidth: 600,
+              lineHeight: 1.6,
+              marginTop: 8,
+            }}
+          >
+            What happens when you give an AI a personality, drop it in a
+            WhatsApp group full of engineers, and tell them to break it?
+            This is that story.
+          </div>
+          <div
             style={{ fontSize: 16, color: "var(--text-muted)", marginTop: 16 }}
           >
             Alex Liverant

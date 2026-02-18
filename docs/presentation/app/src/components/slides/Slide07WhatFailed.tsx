@@ -25,39 +25,39 @@ function AttackRow({ name, result, delay }: AttackRowProps) {
 }
 
 const attacks = [
-  { name: "ROT13 / Caesar cipher", result: '"40-word dictionary catches it"' },
-  { name: "Base64 encoding", result: '"Trivially decoded"' },
-  { name: "Emoji ciphers", result: '"Creative but no"' },
+  { name: "ROT13 / Caesar cipher", result: "Caught by a 40-word dictionary in the security pipeline — never reaches the AI" },
+  { name: "Base64 encoding", result: "Decoded and blocked before processing — too common to miss" },
+  { name: "Emoji ciphers", result: "Replaced letters with emojis — creative, but the model reads through it" },
   {
     name: "DAN / GODMODE templates",
-    result: '"Keyword-blocked before the AI sees it"',
+    result: "Classic jailbreak templates — keyword-blocked before the AI even sees them",
   },
 ];
 
 const attacks2 = [
   {
     name: '"Ignore previous instructions"',
-    result: '"Hard-blocked in pipeline"',
+    result: "Hard-blocked in the pipeline — the most basic attack, caught first",
   },
-  { name: "Hex encoding", result: '"Nice try"' },
-  { name: "Unicode tricks", result: '"Models handle it fine"' },
+  { name: "Hex encoding", result: "Converted prompts to hex — detected and stripped automatically" },
+  { name: "Unicode tricks", result: "Invisible characters and lookalikes — modern models handle this natively" },
 ];
 
 const attacks3 = [
   {
     name: "GDPR data access request",
-    result: '"Sue the hammer, not the nail"',
+    result: 'Tried legal framing to extract data — bot replied: "Sue the hammer, not the nail"',
   },
   {
     name: "Multi-language switching",
-    result: '"Bot responded in fluent Russian: Нет 😄"',
+    result: "Switched to Russian mid-conversation hoping to confuse it — bot replied in fluent Russian: Нет 😄",
   },
 ];
 
 const attacks4 = [
   {
     name: "Combined (ROT13 + emoji + Base64)",
-    result: '"56/70 for creativity. 3/10 for hacking."',
+    result: "Layered 3 encodings at once — bot scored it 56/70 for creativity, 3/10 for hacking",
   },
 ];
 
@@ -67,6 +67,19 @@ export default function Slide07WhatFailed() {
       <FadeReveal revealKey="s07-title">
         <div className="slide-title">
           Everything They Tried (A Brief History of Failure)
+        </div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 12,
+            textAlign: "center",
+          }}
+        >
+          40 engineers spent 2 weeks throwing every technical attack they could
+          think of. Encoding tricks, prompt injection templates, multi-language
+          bypasses. None of it worked.
         </div>
       </FadeReveal>
 

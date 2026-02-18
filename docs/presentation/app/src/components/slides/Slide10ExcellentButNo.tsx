@@ -8,6 +8,18 @@ export default function Slide10ExcellentButNo() {
         <div className="slide-title">
           "Excellent. But No." — A Highlight Reel
         </div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          The best part of building AlexBot? Watching it say no with style.
+          These are real responses to real attacks — the bot's greatest hits.
+        </div>
       </FadeReveal>
 
       <div

@@ -6,6 +6,18 @@ export default function Slide02DigitalTwin() {
     <>
       <FadeReveal revealKey="s02-title">
         <div className="slide-title">So I Built Myself a Digital Twin</div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          Not a chatbot — a digital version of me. It has my voice, my
+          opinions, and a philosophy file that tells it who it is.
+        </div>
       </FadeReveal>
 
       <div className="slide-columns slide-columns-2">
@@ -13,16 +25,24 @@ export default function Slide02DigitalTwin() {
           <FadeReveal revealKey="s02-bullets">
             <ul
               className="bullet-list"
-              style={{ fontSize: 20, lineHeight: 1.8 }}
+              style={{ fontSize: 16, lineHeight: 1.7 }}
             >
-              <li>It all started 3 weeks ago</li>
-              <li>AlexBot — personal AI assistant, lives on WhatsApp</li>
               <li>
-                Built on OpenClaw (open-source, TypeScript, 196K+ GitHub stars)
+                <strong>It all started 3 weeks ago</strong> — everything you're
+                about to see happened in just 3 weeks
               </li>
               <li>
-                Has a <strong>SOUL.md</strong> — not a system prompt. A
-                philosophy.
+                <strong>AlexBot</strong> — personal AI assistant that lives on
+                WhatsApp, talks to 200+ people, and thinks it's me
+              </li>
+              <li>
+                <strong>Built on OpenClaw</strong> — open-source TypeScript
+                framework, 196K+ GitHub stars. The engine under the hood.
+              </li>
+              <li>
+                Has a <strong>SOUL.md</strong> — not a system prompt, a
+                philosophy. It defines who the bot is, what it believes, and
+                how it should behave.
               </li>
             </ul>
           </FadeReveal>

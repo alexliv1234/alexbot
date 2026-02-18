@@ -775,7 +775,7 @@ export const slides: SlideDefinition[] = [
   // ── Slide 15: Closing ──────────────────────────────────────
   {
     number: 15,
-    title: "One Last Thing",
+    title: "AlexBot's Greatest Hits",
     accentColor: colors.cyan,
     primarySpeaker: Speaker.BOTH,
     duration: "2:30",

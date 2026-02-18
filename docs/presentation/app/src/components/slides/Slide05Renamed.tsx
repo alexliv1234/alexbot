@@ -5,6 +5,19 @@ export default function Slide05Renamed() {
     <>
       <FadeReveal revealKey="s05-title">
         <div className="slide-title">We Gamified It</div>
+        <div
+          style={{
+            color: "var(--text-secondary)",
+            fontSize: 16,
+            marginTop: 8,
+            marginBottom: 16,
+            textAlign: "center",
+          }}
+        >
+          After the crash we fixed everything — added context truncation, a
+          circuit breaker, error recovery. But the real fix wasn't technical.
+          We leaned into the chaos and turned it into a game.
+        </div>
       </FadeReveal>
 
       <div
@@ -47,14 +60,23 @@ export default function Slide05Renamed() {
         <FadeReveal revealKey="s05-bullets">
           <ul
             className="bullet-list"
-            style={{ fontSize: 20, lineHeight: 2, maxWidth: 700 }}
+            style={{ fontSize: 16, lineHeight: 1.7, maxWidth: 700 }}
           >
-            <li>From day one — designed as a game, not a competition</li>
             <li>
-              "Playing" = shared experience. "Hacking" would've been
-              adversarial.
+              <strong>Every crash became infrastructure</strong> — the context
+              explosion led to truncation, the crash loop led to a circuit
+              breaker, each failure made the bot stronger
             </li>
-            <li>Framing matters. The name set the tone from the start.</li>
+            <li>
+              <strong>Designed as a game, not a competition</strong> — "Playing"
+              means a shared experience. "Hacking" would've been adversarial.
+              The name set the entire culture.
+            </li>
+            <li>
+              <strong>Framing matters</strong> — people who "play" collaborate
+              and report bugs. People who "hack" hide exploits. Same bot,
+              completely different behavior.
+            </li>
           </ul>
         </FadeReveal>
       </div>
