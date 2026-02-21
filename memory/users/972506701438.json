@@ -1,12 +1,11 @@
 {
   "_phone": "+972506701438",
-  "_lastAnalysis": "2026-02-17T01:00:05.858Z",
+  "_lastAnalysis": "2026-02-18T01:00:05.355Z",
   "name": "Rom Iluz",
-  "messageCount": 42,
-  "avgLength": 143,
-  "activeDays": 2,
+  "messageCount": 44,
+  "avgLength": 179,
+  "activeDays": 1,
   "peakHours": [
-    14,
     13
   ],
   "patterns": []

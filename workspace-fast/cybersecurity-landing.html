@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Insights - Newsletter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 50px;
+            margin: 20px 0;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+        
+        .newsletter-form input[type="email"] {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        .newsletter-form input[type="email"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .newsletter-form button {
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .newsletter-form button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .newsletter-form button:active {
+            transform: translateY(0);
+        }
+        
+        h2 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2em;
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        
+        td {
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .company-name {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        .success-message {
+            display: none;
+            background: #4caf50;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .newsletter-form input[type="email"],
+            .newsletter-form button {
+                width: 100%;
+            }
+            
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            
+            tr {
+                margin-bottom: 15px;
+            }
+            
+            td {
+                border: none;
+                position: relative;
+                padding-left: 50%;
+            }
+            
+            td:before {
+                position: absolute;
+                left: 15px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Cybersecurity Insights</h1>
+        <p class="subtitle">Stay ahead of threats. Subscribe to our newsletter.</p>
+        
+        <div class="success-message" id="successMessage">
+            ✅ Thanks for subscribing! Check your email.
+        </div>
+        
+        <form class="newsletter-form" id="newsletterForm">
+            <input 
+                type="email" 
+                id="emailInput" 
+                placeholder="Enter your email address" 
+                required
+            >
+            <button type="submit">Subscribe</button>
+        </form>
+        
+        <h2>Top Cybersecurity Leaders</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>About</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="company-name">Palo Alto Networks</td>
+                    <td>Global leader in next-generation firewalls and cloud-based security. Known for their AI-powered threat detection and comprehensive security platform covering network, cloud, and endpoint protection.</td>
+                </tr>
+                <tr>
+                    <td class="company-name">CrowdStrike</td>
+                    <td>Pioneer in cloud-native endpoint protection. Their Falcon platform uses AI and behavioral analysis to detect and prevent breaches in real-time, protecting organizations from sophisticated cyberattacks.</td>
+                </tr>
+                <tr>
+                    <td class="company-name">Fortinet</td>
+                    <td>Leading provider of integrated security solutions with FortiGate firewalls. Offers broad security fabric architecture combining networking and security, serving enterprises worldwide with unified threat management.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script>
+        document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('emailInput').value;
+            const successMessage = document.getElementById('successMessage');
+            
+            // Show success message
+            successMessage.style.display = 'block';
+            
+            // Clear form
+            document.getElementById('emailInput').value = '';
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 5000);
+            
+            // In real implementation, you'd send this to a backend
+            console.log('Email subscribed:', email);
+        });
+    </script>
+</body>
+</html>

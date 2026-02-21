@@ -72,9 +72,22 @@
         {"date": "2026-02-14", "action": "נוסף לרשימת המשימות לפי בקשת אלכס"},
         {"date": "2026-02-15", "action": "📝 מחקר מלא הושלם. מסמך נוצר ב-memory/plans/multi-model-support.md עם אסטרטגיה, השוואת מודלים, צעדי יישום וחישובי עלויות"}
       ]
+    },
+    {
+      "id": 6,
+      "title": "לדבר עם נומי על הריקודים בחתונה - תחרות מולך",
+      "priority": "P2",
+      "status": "todo",
+      "tags": ["work", "meeting", "reminder"],
+      "created": "2026-02-17",
+      "due": null,
+      "notes": "במפגש עם נומי (סיכום שבועי ביום שני), להזכיר את הנושא של הריקודים/סלונים שהיו בחתונה וקשור לתחרות מולך. היה לי כבר שיחה איתה על זה.",
+      "history": [
+        {"date": "2026-02-17", "action": "נוסף לרשימת המשימות לפי בקשת אלכס (הקלטת קול)"}
+      ]
     }
   ],
-  "nextId": 6,
+  "nextId": 7,
   "projects": [],
-  "tags": ["work", "personal", "esh", "urgent", "finance", "infrastructure", "openclaw", "cost-optimization", "security", "whatsapp", "community", "learning", "bots", "automation", "ai", "models"]
+  "tags": ["work", "personal", "esh", "urgent", "finance", "infrastructure", "openclaw", "cost-optimization", "security", "whatsapp", "community", "learning", "bots", "automation", "ai", "models", "meeting", "reminder"]
 }

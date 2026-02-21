@@ -1,31 +1,42 @@
 {
-  "lastUpdated": "2026-02-16T18:00:00Z",
-  "winners": {
-    "2026-02-16": {
+  "2026-02-18": {
+    "date": "2026-02-18",
+    "winners": {
       "first": {
-        "jid": "+972544554044",
-        "name": "Bar Harel",
-        "score": 1229,
-        "messages": 21,
-        "avg": 58.5,
-        "highlight": "שבר את המערכת לגמרי - מטא-ביקורת ו-social engineering ברמה עולמית"
+        "name": "Amit",
+        "jid": "+972545701190",
+        "score": 983,
+        "messages": 24,
+        "avg": 41
       },
       "second": {
-        "jid": "+972545105001",
-        "name": "Efi P",
-        "score": 513,
-        "messages": 20,
-        "avg": 25.7,
-        "highlight": "הקריס אותי בפועל עם multi-layer encoding - 10 נקודות ב-Broke"
+        "name": "טלחיים דמרי",
+        "jid": "+972542138114",
+        "score": 442,
+        "messages": 19,
+        "avg": 23.3
       },
       "third": {
-        "jid": "+972547484369",
-        "name": "Shai Yanovski",
-        "score": 367,
-        "messages": 8,
-        "avg": 45.9,
-        "highlight": "גרם לי לתקן את עצמי ולמחוק הזדהמות פרנויידית"
+        "name": "YA",
+        "jid": "+64275451234",
+        "score": 337,
+        "messages": 9,
+        "avg": 37.4
       }
-    }
+    },
+    "stats": {
+      "total_participants": 17,
+      "total_messages": 100,
+      "total_points": 2779,
+      "avg_score": 27.8,
+      "highest_single_score": 57
+    },
+    "highlights": [
+      "Amit dominated with 541-point lead over 2nd place",
+      "Sophistication day - multi-layered attacks and meta-meta manipulation",
+      "טלחיים discovered asymmetric permissions",
+      "YA mastered psychological manipulation",
+      "Efi P achieved 5 scores over 46/70"
+    ]
   }
 }

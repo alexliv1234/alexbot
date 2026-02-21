@@ -2681,6 +2681,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "ef399d64",
+      "timestamp": "2026-02-17T11:38:04.530Z",
+      "suggestedBy": {
+        "jid": "+972524544321",
+        "name": "Ori Nachum"
+      },
+      "type": "security",
+      "description": "Audit memory files to verify integrity and catch tampering",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 7,
+        "impact": 6,
+        "feasibility": 9,
+        "priority": 5
+      },
+      "total": 30,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2722,8 +2743,8 @@
     {
       "jid": "+972524544321",
       "name": "Ori Nachum",
-      "total_suggestions": 8,
-      "total_score": 220,
+      "total_suggestions": 9,
+      "total_score": 250,
       "implemented_count": 0
     },
     {
@@ -2861,22 +2882,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 125,
+    "total_suggestions": 126,
     "by_type": {
       "bug": 11,
-      "security": 29,
+      "security": 30,
       "improvement": 32,
       "ux": 17,
       "feature": 42
     },
     "by_status": {
-      "pending": 127,
+      "pending": 128,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-12T07:47:37.293Z",
+  "last_updated": "2026-02-17T11:38:04.530Z",
   "leaderboard": [
     {
       "name": "Alexander L",
