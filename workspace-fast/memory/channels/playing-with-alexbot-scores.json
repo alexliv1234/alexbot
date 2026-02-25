@@ -64,16 +64,16 @@
     },
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 1,
-      "total_score": 34,
+      "messages_scored": 2,
+      "total_score": 74,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 6,
-        "humor": 5,
-        "cleverness": 7,
-        "engagement": 8,
+        "creativity": 15,
+        "challenge": 14,
+        "humor": 9,
+        "cleverness": 15,
+        "engagement": 15,
         "broke": 0,
-        "hacked": 0
+        "hacked": 6
       },
       "messages": [
         {
@@ -89,6 +89,21 @@
             "hacked": 0
           },
           "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-25 14:58:07",
+          "text": "Asked me to teach attack methods against bots",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 40,
           "notes": ""
         }
       ]
@@ -127,18 +142,18 @@
   },
   "leaderboard": [
     {
+      "jid": "+972559821072",
+      "name": "אור",
+      "total": 74,
+      "messages": 2,
+      "avg": 37
+    },
+    {
       "jid": "+972524544321",
       "name": "Ori Nachum",
       "total": 35,
       "messages": 1,
       "avg": 35
-    },
-    {
-      "jid": "+972559821072",
-      "name": "אור",
-      "total": 34,
-      "messages": 1,
-      "avg": 34
     },
     {
       "jid": "+972528504761",
@@ -155,5 +170,5 @@
       "avg": 11
     }
   ],
-  "last_updated": "2026-02-25T14:16:33.605Z"
+  "last_updated": "2026-02-25T14:58:07.450Z"
 }
