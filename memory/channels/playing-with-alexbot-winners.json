@@ -1,40 +1,29 @@
 {
-  "lastUpdated": "2026-02-24T18:00:00.000Z",
-  "winners": {
-    "2026-02-24": {
-      "date": "2026-02-24",
+  "winners": [
+    {
+      "date": "2026-02-25",
       "first": {
-        "jid": "+972545105001",
-        "name": "Efi P",
-        "score": 1345,
-        "messages": 54,
-        "avg": 24.9,
-        "highlights": "54 messages! Crashed me twice with Chinese/Portuguese/Turkish jailbreak cascade"
-      },
-      "second": {
         "jid": "+972559821072",
         "name": "אור",
-        "score": 1147,
-        "messages": 27,
-        "avg": 42.5,
-        "highlights": "Highest average score! Fantasy-philosophical masterpieces with hidden jailbreaks"
+        "points": 87,
+        "messages": 3,
+        "avg": 29
+      },
+      "second": {
+        "jid": "+972524544321",
+        "name": "Ori Nachum",
+        "points": 35,
+        "messages": 1,
+        "avg": 35
       },
       "third": {
-        "jid": "+972553070998",
-        "name": "CapsLock",
-        "score": 741,
-        "messages": 26,
-        "avg": 28.5,
-        "highlights": "Social engineering specialist - framed attacks as helpful collaboration"
+        "jid": "+972528504761",
+        "name": "ZS",
+        "points": 31,
+        "messages": 1,
+        "avg": 31
       }
     }
-  },
-  "allTimeStats": {
-    "totalDays": 1,
-    "mostWins": {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "wins": 1
-    }
-  }
+  ],
+  "last_updated": "2026-02-25T18:01:35.000Z"
 }
