@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772016877377,
+      "updatedAtMs": 1772017509918,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772016200043,
+      "updatedAtMs": 1772017098199,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772015384409,
+      "updatedAtMs": 1772017201645,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -208,7 +208,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1772013655549,
+      "updatedAtMs": 1772017253644,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772016885746,
+      "updatedAtMs": 1772017517371,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772016380307,
+      "updatedAtMs": 1772016981109,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772016966862,
+      "updatedAtMs": 1772017566463,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772016815419,
+      "updatedAtMs": 1772017416893,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -468,7 +468,7 @@
       "name": "שאלת למידה - צהריים",
       "enabled": true,
       "createdAtMs": 1771916343568,
-      "updatedAtMs": 1771930874091,
+      "updatedAtMs": 1772017268514,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -635,25 +635,6 @@
         "mode": "announce",
         "to": "+972544419002",
         "channel": "whatsapp"
-      }
-    },
-    {
-      "id": "706e37d6-91f9-4004-a3ac-24ac6884e83e",
-      "agentId": "main",
-      "name": "תזכורת - חשבונות מים + עורך דין",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1771959175128,
-      "updatedAtMs": 1771959175128,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-02-25T11:00:00.000Z"
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "🔔 **תזכורת מאלכס:**\n\n1. 💧 **לבדוק חשבונות מים**\n2. ⚖️ **להתקשר לעורך דין** - הירושה של מאיה (לברר מה הוא צריך)\n\nקבעת את זה אתמול ב-20:52. זמן לטפל! 🎯"
       }
     },
     {
