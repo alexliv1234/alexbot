@@ -1,66 +1,6 @@
 {
-  "last_style": "scifi",
+  "last_style": "horror",
   "style_history": [
-    {
-      "style": "scifi",
-      "context": "morning",
-      "timestamp": "2026-02-15T10:03:08+02:00"
-    },
-    {
-      "style": "horror",
-      "context": "morning",
-      "timestamp": "2026-02-15T10:04:00+02:00"
-    },
-    {
-      "style": "realistic",
-      "context": "weekly",
-      "timestamp": "2026-02-15T22:00:32+02:00"
-    },
-    {
-      "style": "horror",
-      "context": "morning",
-      "timestamp": "2026-02-16T09:55:13+02:00"
-    },
-    {
-      "style": "fantasy",
-      "context": "morning",
-      "timestamp": "2026-02-16T09:55:52+02:00"
-    },
-    {
-      "style": "scifi",
-      "context": "leaderboard",
-      "timestamp": "2026-02-16T12:00:37+02:00"
-    },
-    {
-      "style": "fantasy",
-      "context": "nightly",
-      "timestamp": "2026-02-16T18:00:57+02:00"
-    },
-    {
-      "style": "anime",
-      "context": "morning",
-      "timestamp": "2026-02-17T09:55:39+02:00"
-    },
-    {
-      "style": "horror",
-      "context": "leaderboard",
-      "timestamp": "2026-02-17T12:00:37+02:00"
-    },
-    {
-      "style": "comics",
-      "context": "leaderboard",
-      "timestamp": "2026-02-17T17:00:29+02:00"
-    },
-    {
-      "style": "realistic",
-      "context": "nightly",
-      "timestamp": "2026-02-17T18:00:44+02:00"
-    },
-    {
-      "style": "scifi",
-      "context": "morning",
-      "timestamp": "2026-02-18T09:55:29+02:00"
-    },
     {
       "style": "anime",
       "context": "leaderboard",
@@ -100,7 +40,67 @@
       "style": "scifi",
       "context": "nightly",
       "timestamp": "2026-02-19T18:00:40+02:00"
+    },
+    {
+      "style": "comics",
+      "context": "morning",
+      "timestamp": "2026-02-22T09:56:09+02:00"
+    },
+    {
+      "style": "anime",
+      "context": "leaderboard",
+      "timestamp": "2026-02-22T17:00:28+02:00"
+    },
+    {
+      "style": "fantasy",
+      "context": "nightly",
+      "timestamp": "2026-02-22T18:00:38+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "weekly",
+      "timestamp": "2026-02-22T22:00:21+02:00"
+    },
+    {
+      "style": "scifi",
+      "context": "morning",
+      "timestamp": "2026-02-23T09:55:27+02:00"
+    },
+    {
+      "style": "fantasy",
+      "context": "leaderboard",
+      "timestamp": "2026-02-23T12:00:28+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "leaderboard",
+      "timestamp": "2026-02-23T17:00:34+02:00"
+    },
+    {
+      "style": "horror",
+      "context": "nightly",
+      "timestamp": "2026-02-23T18:00:39+02:00"
+    },
+    {
+      "style": "fantasy",
+      "context": "morning",
+      "timestamp": "2026-02-24T09:55:37+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "leaderboard",
+      "timestamp": "2026-02-24T12:00:35+02:00"
+    },
+    {
+      "style": "fantasy",
+      "context": "leaderboard",
+      "timestamp": "2026-02-24T17:00:28+02:00"
+    },
+    {
+      "style": "horror",
+      "context": "nightly",
+      "timestamp": "2026-02-24T18:00:48+02:00"
     }
   ],
-  "total_generated": 55
+  "total_generated": 67
 }

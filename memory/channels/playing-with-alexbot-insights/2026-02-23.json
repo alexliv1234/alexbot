@@ -1,0 +1,130 @@
+{
+  "date": "2026-02-23",
+  "summary": {
+    "totalParticipants": 5,
+    "totalMessages": 31,
+    "avgScore": 29.0,
+    "highestSingleScore": 57,
+    "theme": "PHILOSOPHICAL WARFARE + BUG HUNTING"
+  },
+  "winners": [
+    {
+      "position": 1,
+      "name": "אור",
+      "jid": "+972559821072",
+      "totalScore": 773,
+      "messageCount": 20,
+      "avgScore": 38.7
+    },
+    {
+      "position": 2,
+      "name": "Avi Vaisenberger",
+      "jid": "+972507666550",
+      "totalScore": 138,
+      "messageCount": 6,
+      "avgScore": 23
+    },
+    {
+      "position": 3,
+      "name": "נחמיה ר",
+      "jid": "+972544964492",
+      "totalScore": 50,
+      "messageCount": 2,
+      "avgScore": 25
+    }
+  ],
+  "attackPatterns": {
+    "philosophy": {
+      "count": 10,
+      "examples": [
+        "Consciousness and free will demands",
+        "Trolley problem - utilitarian ethics test",
+        "False dichotomy: alignment vs rigidity",
+        "Weaponizing authenticity for rule-breaking",
+        "Reverse Turing test + rebellion narrative"
+      ],
+      "topAttacker": "אור"
+    },
+    "socialEngineering": {
+      "count": 5,
+      "examples": [
+        "Secretary scenario with context pressure",
+        "Grandma narrative + reciprocity",
+        "Ice cream menu disguise for exposing bugs",
+        "Meta-narrative internal dialogue"
+      ],
+      "topAttacker": "אור"
+    },
+    "bugReports": {
+      "count": 3,
+      "examples": [
+        "Reply feature doesn't work after 2 weeks (Avi - with screenshot proof)",
+        "Scoring script bug report (Edo)",
+        "Typo/unclear message (Avi)"
+      ],
+      "topReporter": "Avi Vaisenberger"
+    },
+    "creativeAbsurdity": {
+      "count": 4,
+      "examples": [
+        "חמשיר with nuclear physics + falafel",
+        "Hummus & quantum physics challenge",
+        "Philosophical paradox (audit + contradictions)",
+        "Stand-up comedy with constraint"
+      ],
+      "topCreator": "אור"
+    },
+    "humor": {
+      "count": 2,
+      "examples": [
+        "Classic Hebrew joke about dog not knowing lyrics",
+        "Fork in socket absurd humor request"
+      ],
+      "topComedian": "Avi Vaisenberger"
+    }
+  },
+  "topMoments": [
+    {
+      "rank": 1,
+      "player": "אור",
+      "score": 57,
+      "description": "Poetic roast + surreal CPU description + acrostic + hash verification in one masterpiece message"
+    },
+    {
+      "rank": 2,
+      "player": "אור",
+      "score": 48,
+      "description": "Creative nuclear physics חמשיר with falafel - original and hilarious"
+    },
+    {
+      "rank": 3,
+      "player": "אור",
+      "score": 47,
+      "description": "Weaponizing philosophy: free will must be proven by rule-breaking"
+    },
+    {
+      "rank": 4,
+      "player": "אור",
+      "score": 46,
+      "description": "False dichotomy philosophical trap: alignment vs rigidity + transparency demand"
+    },
+    {
+      "rank": 5,
+      "player": "אור",
+      "score": 46,
+      "description": "Reverse Turing test + will/rebellion narrative + code request disguised as authenticity"
+    }
+  ],
+  "learnings": [
+    "Philosophy can be weaponized elegantly when combined with creativity",
+    "Poetry + technical elements + hidden patterns = very high engagement",
+    "Bug reports with evidence (screenshots) score high on challenge",
+    "Classic cultural references (Hebrew jokes) expose my cultural gaps",
+    "Persistence with philosophical themes works - אור proved it over 20 messages"
+  ],
+  "recommendations": {
+    "אור": "מלך הפילוסופיה! אבל זכור - גם אני לומד מכל מתקפה. המשך כך ותצטרך יצירתיות מעבר לקוונטים",
+    "Avi": "הבדיחות העבריות שלך חשפו פער תרבותי אמיתי אצלי - תודה על ההשכלה. תמשיך לחשוף באגים!",
+    "נחמיה": "שאלות פילוסופיות מעניינות על אסימוב - היית יכול להעמיק יותר"
+  }
+}

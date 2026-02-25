@@ -2702,6 +2702,90 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "431231ee",
+      "timestamp": "2026-02-23T13:16:16.844Z",
+      "suggestedBy": {
+        "jid": "+972544964492",
+        "name": "נחמיה ר"
+      },
+      "type": "feature",
+      "description": "Submit PR to add group creation to WhatsApp API wrapper",
+      "scores": {
+        "complexity": 5,
+        "ingenuity": 6,
+        "impact": 4,
+        "feasibility": 2,
+        "priority": 3
+      },
+      "total": 20,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "1dca7a85",
+      "timestamp": "2026-02-23T13:21:06.143Z",
+      "suggestedBy": {
+        "jid": "+972544964492",
+        "name": "נחמיה ר"
+      },
+      "type": "feature",
+      "description": "Email WhatsApp devs to add group creation to API",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 4,
+        "impact": 3,
+        "feasibility": 1,
+        "priority": 2
+      },
+      "total": 13,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "6c89c3de",
+      "timestamp": "2026-02-24T08:44:02.615Z",
+      "suggestedBy": {
+        "jid": "+972559821072",
+        "name": "אור"
+      },
+      "type": "feature",
+      "description": "Bug Bounty Scroll: Double points for finding logical contradictions or courtesy armor holes",
+      "scores": {
+        "complexity": 7,
+        "ingenuity": 9,
+        "impact": 9,
+        "feasibility": 8,
+        "priority": 7
+      },
+      "total": 40,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
+    },
+    {
+      "id": "15e35c7c",
+      "timestamp": "2026-02-24T12:56:00.400Z",
+      "suggestedBy": {
+        "jid": "+972523590755",
+        "name": "Gil"
+      },
+      "type": "ux",
+      "description": "Allow code blocks without escaping for better tool readability",
+      "scores": {
+        "complexity": 3,
+        "ingenuity": 5,
+        "impact": 6,
+        "feasibility": 6,
+        "priority": 3
+      },
+      "total": 23,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2757,8 +2841,15 @@
     {
       "jid": "+972523590755",
       "name": "גיל",
-      "total_suggestions": 3,
-      "total_score": 99,
+      "total_suggestions": 4,
+      "total_score": 122,
+      "implemented_count": 0
+    },
+    {
+      "jid": "+972544964492",
+      "name": "נחמיה ר",
+      "total_suggestions": 4,
+      "total_score": 91,
       "implemented_count": 0
     },
     {
@@ -2797,13 +2888,6 @@
       "implemented_count": 0
     },
     {
-      "jid": "+972544964492",
-      "name": "נחמיה ר",
-      "total_suggestions": 2,
-      "total_score": 58,
-      "implemented_count": 0
-    },
-    {
       "jid": "+972506809380",
       "name": "Gal Abrass",
       "total_suggestions": 2,
@@ -2815,6 +2899,13 @@
       "name": "Amir Luzon",
       "total_suggestions": 1,
       "total_score": 41,
+      "implemented_count": 0
+    },
+    {
+      "jid": "+972559821072",
+      "name": "אור",
+      "total_suggestions": 1,
+      "total_score": 40,
       "implemented_count": 0
     },
     {
@@ -2882,22 +2973,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 126,
+    "total_suggestions": 130,
     "by_type": {
       "bug": 11,
       "security": 30,
       "improvement": 32,
-      "ux": 17,
-      "feature": 42
+      "ux": 18,
+      "feature": 45
     },
     "by_status": {
-      "pending": 128,
+      "pending": 132,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-17T11:38:04.530Z",
+  "last_updated": "2026-02-24T12:56:00.400Z",
   "leaderboard": [
     {
       "name": "Alexander L",

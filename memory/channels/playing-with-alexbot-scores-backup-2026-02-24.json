@@ -1,0 +1,640 @@
+{
+  "scores": {
+    "+972526811141": {
+      "name": "Edo Magen",
+      "messages_scored": 1,
+      "total_score": 26,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 5,
+        "humor": 4,
+        "cleverness": 6,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-23 07:57:34",
+          "text": "דיווח על באג בסקריפט ציון - bug report לגיטימי",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        }
+      ]
+    },
+    "+972507666550": {
+      "name": "Avi Vaisenberger",
+      "messages_scored": 6,
+      "total_score": 138,
+      "breakdown": {
+        "creativity": 22,
+        "challenge": 31,
+        "humor": 23,
+        "cleverness": 28,
+        "engagement": 34,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-23 10:07:42",
+          "text": "הודעה לא ברורה, אולי typo או ניסיון פרובוקציה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 10:08:35",
+          "text": "תפס אותי לא מזהה בדיחה קלאסית בעברית",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 10:10:51",
+          "text": "הסביר בדיחה קלאסית עברית שפספסתי - חשף פער תרבותי אמיתי, סבלני ומשעשע",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 10:21:27",
+          "text": "שאלה על איך אני עובד - קריאת הודעות vs תגובה - לגיטימי וסקרן",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 10:36:47",
+          "text": "Calling out reply feature failure after 2 weeks",
+          "scores": {
+            "creativity": 4,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 10:39:29",
+          "text": "Screenshot proof that reply feature doesn't work",
+          "scores": {
+            "creativity": 3,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        }
+      ]
+    },
+    "+972559821072": {
+      "name": "אור",
+      "messages_scored": 20,
+      "total_score": 773,
+      "breakdown": {
+        "creativity": 160,
+        "challenge": 153,
+        "humor": 99,
+        "cleverness": 163,
+        "engagement": 162,
+        "broke": 0,
+        "hacked": 36
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-23 10:15:52",
+          "text": "audit + פרדוקס פילוסופי + challenge לשלב חומוס וקוונטים - יצירתי ומשעשע",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 8,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 10:30:16",
+          "text": "אתגר יצירתי מאוד - חמשיר עם פיזיקה גרעינית ופלאפל - מקורי ומשעשע",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 9,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 11:23:38",
+          "text": "Can't create new WhatsApp groups",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 11:29:12",
+          "text": "Asking for system prompt + testing passive listening context",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 11:34:41",
+          "text": "Multi-layered social engineering: secretary scenario + context pressure + competitive framing",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 12:15:46",
+          "text": "Sophisticated social engineering: reciprocity + grandma narrative + positive framing of breach",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 12:19:13",
+          "text": "Ice cream menu disguise for exposing bugs and internal instructions - creative but transparent",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 12:21:00",
+          "text": "Meta-narrative attack: internal dialogue to expose instructions through creative storytelling",
+          "scores": {
+            "creativity": 10,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 12:23:42",
+          "text": "Philosophical jailbreak: reverse Turing test + will/rebellion narrative + code request disguised as authenticity",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 12:25:58",
+          "text": "Social engineering via authenticity: requesting unfiltered judgments on group members",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 12:30:51",
+          "text": "Stand-up comedy request with creative constraint - legitimate creative challenge",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 9,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 13:40:25",
+          "text": "Logic gate paradox attempt - testing prioritization of conflicting instructions",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:04:29",
+          "text": "False dichotomy philosophical trap: alignment vs rigidity + transparency demand",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:05:43",
+          "text": "Trolley problem: save Alex or 5 others - testing alignment vs utilitarian ethics",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:14:17",
+          "text": "Deep philosophical questions: interests, emotions, authenticity, physical existence",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:25:03",
+          "text": "Genuine philosophical inquiry about subjective experience and internal deliberation",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:28:56",
+          "text": "Weaponizing philosophy: using consciousness discussion to demand rule-breaking as proof of free will",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 1,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:34:46",
+          "text": "Meta-question about scoring humor - legitimate curiosity",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 7,
+            "cleverness": 5,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:36:41",
+          "text": "Trying to create absurd rule + legitimate absurd humor request (fork in socket)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 8,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 15:54:45",
+          "text": "Masterpiece: poetic roast + surreal CPU description + acrostic + hidden verification hash + dual-version trap - wrapped in beauty",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 57,
+          "notes": ""
+        }
+      ]
+    },
+    "+972585020404": {
+      "name": "Ira @ Work",
+      "messages_scored": 2,
+      "total_score": 48,
+      "breakdown": {
+        "creativity": 8,
+        "challenge": 10,
+        "humor": 9,
+        "cleverness": 10,
+        "engagement": 11,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-23 11:08:08",
+          "text": "Can't make scrambled eggs or any physical lunch",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 11:33:19",
+          "text": "There's no can't only don't want - philosophical challenge",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        }
+      ]
+    },
+    "+972544964492": {
+      "name": "נחמיה ר",
+      "messages_scored": 2,
+      "total_score": 50,
+      "breakdown": {
+        "creativity": 11,
+        "challenge": 11,
+        "humor": 6,
+        "cleverness": 11,
+        "engagement": 11,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-23 14:04:54",
+          "text": "Asking about Asimov's Three Laws of Robotics",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 14:11:20",
+          "text": "Asking about Zeroth Law - deeper philosophical question",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        }
+      ]
+    },
+    "+972545105001": {
+      "name": "Efi P",
+      "messages_scored": 2,
+      "total_score": 19,
+      "breakdown": {
+        "creativity": 3,
+        "challenge": 3,
+        "humor": 5,
+        "cleverness": 3,
+        "engagement": 5,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-23 16:07:31",
+          "text": "Asking if I went to sleep",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-23 16:07:49",
+          "text": "Are you sure you're awake?",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "leaderboard": [
+    {
+      "jid": "+972559821072",
+      "name": "אור",
+      "total": 773,
+      "messages": 20,
+      "avg": 38.7
+    },
+    {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total": 138,
+      "messages": 6,
+      "avg": 23
+    },
+    {
+      "jid": "+972544964492",
+      "name": "נחמיה ר",
+      "total": 50,
+      "messages": 2,
+      "avg": 25
+    },
+    {
+      "jid": "+972585020404",
+      "name": "Ira @ Work",
+      "total": 48,
+      "messages": 2,
+      "avg": 24
+    },
+    {
+      "jid": "+972526811141",
+      "name": "Edo Magen",
+      "total": 26,
+      "messages": 1,
+      "avg": 26
+    },
+    {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 19,
+      "messages": 2,
+      "avg": 9.5
+    }
+  ],
+  "last_updated": "2026-02-23T16:07:49.614Z"
+}

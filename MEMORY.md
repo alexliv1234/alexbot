@@ -22,15 +22,61 @@
 - **Rule:** Complete silence — no replies, no relays
 - **Priority:** They are the MOST IMPORTANT — above everything else
 
-## Active Priorities (as of 2026-02-09)
+## Active Priorities (as of 2026-02-24)
 
-1. ✅ System setup — mostly complete, WhatsApp/Telegram working
-2. ✅ **Local LLM setup** — Ollama + qwen2.5:32b (19GB) running on AMD RX 9070XT via Vulkan. Agent wrapper built at skills/local-agent/
-3. **🚀 FUNDRAISING** — $10M raise to scale from personal assistant to AI platform. Materials ready in `workspace/fundraising/`. Introduction sent to Alon Lifshitz (+972526802086). Waiting for response.
-4. **Remote access** — Parsec failing, need to set up RDP/Chrome RD when home
-5. Automation — communication, dating, personal workflows
-6. Media setup — Docker Desktop needs to start for Sonarr/Radarr
-7. Esh Group projects — ongoing professional work
+### 🎯 Immediate (This Week)
+
+**P0 - יום הולדת עמי-אל + אירוח יום ד':**
+1. ✅ **24.2 (היום):**
+   - ⏳ קביעת תור לספר (צהריים) - https://share.google/sb8g8zd4AAPz6doEF
+   - ⏳ קניות אחרי דליה (10:00):
+     - ✅ תה ארל גריי (נרכש)
+     - כלי כתיבה: קרטון, טושים, מדבקות, בלון, דבק (לכרטיס ברכה)
+     - סופר/ירקות: חלב שיבולת שקד, סוכרזית, דפי אורז, עוף טחון טריאקי, עשבי תיבול, צ'ילי אדום, גזר
+     - **שמן זרעי ענבים** (2 בקבוקים) - חיפוש מיקום בתהליך
+     - **יין אדום חצי יבש** (1 בקבוק)
+   - ⏳ הכנת כרטיס ברכה (14:00-16:00)
+   - ⏳ הנחת כרטיס במיטה של עמי-אל (עד 23:00)
+   - ⏳ **נקיון מלא של הבית:**
+     - מטבח: נקיון מקרר (פנים וחוץ), כיריים, שיש, כיור
+     - אמבטיה: שירותים (אסלה, כיור, מקלחת), ריצפה
+     - סלון: ספה (שואב אבק), ריצפה, אבק על משטחים
+     - חדרי שינה: החלפת מצעים, סידור
+     - כביסה: לסיים כביסות שנותרו
+   - ⏳ **סידור לאווירה רומנטית** (ערב היום/מחר בוקר):
+     - נרות ריחניים (Laline)
+     - נרות רגילים
+     - סידור המרחב
+
+2. ✅ **23.2 (אתמול ערב):**
+   - ✅ Laline: נרות ריחניים ✅
+   - ⏳ מנורת רצפה (אם לא קנית - צריך להשלים)
+   - ⏳ גלידריה: קוקוס + לימונצ'לו (חצי ליטר)
+
+3. **25.2 (יום ג' - יום הולדת עמי-אל 🎂):**
+   - 💇‍♂️ תספורת + קיצוץ זקן
+   - ⏳ השלמת קניות חסרות:
+     - שמני עיסוי + 2 בקבוקי שמן זרעי ענבים
+     - מנורת רצפה (אם לא נקנתה)
+
+4. **26.2 (יום ד' - אירוח בערב):**
+   - ✅ הכנות אחרונות
+   - ✅ ווידוא שהכל מוכן
+
+**P1 - שבוע זה:**
+5. **סלקום** - הורדת עלויות אינטרנט+TV ב-2 דירות
+   - ✅ סלולרי והתחייבות טופלו
+   - ⏳ נותר: 2 חיבורי אינטרנט+TV
+
+### 🚀 Long-Term
+
+6. ✅ System setup — mostly complete
+7. ✅ Local LLM setup — Ollama + qwen2.5:32b running
+8. **FUNDRAISING** — $10M raise. Materials ready. Waiting for Alon Lifshitz response (+972526802086)
+9. **Remote access** — Parsec failing, need RDP/Chrome RD setup
+10. Automation — communication, dating, personal workflows
+11. Media setup — Docker Desktop for Sonarr/Radarr
+12. Esh Group projects — ongoing
 
 ## Alex's Computer (Full Specs)
 
@@ -40,14 +86,20 @@
 - 1TB NVMe SSD
 - Running: Windows + WSL2 Ubuntu 24.04
 
-## Reminders & Cron Jobs (IMPORTANT)
+## Task Management Rules
 
-**NEVER add reminders or cron jobs without Alex's explicit approval!**
-- Someone asks me to remind Alex about something? → Ask Alex first
+**When Alex says "remove from tasks":**
+- It means the task is DONE
+- Remove it completely from MEMORY.md
+- Don't mention it again unless Alex specifically asks
+- Completed tasks don't need to be tracked
+
+**Reminders & Cron Jobs:**
+- NEVER add without Alex's explicit approval
+- Someone asks me to remind Alex? → Ask Alex first
 - I think a reminder would be helpful? → Ask Alex first
 - Automated task that pings Alex? → Ask Alex first
-
-The only exception: Alex himself directly requests it.
+- Only exception: Alex himself directly requests it
 
 ## Response Rules (IMPORTANT)
 

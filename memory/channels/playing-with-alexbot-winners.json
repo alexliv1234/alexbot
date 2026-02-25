@@ -1,42 +1,40 @@
 {
-  "2026-02-18": {
-    "date": "2026-02-18",
-    "winners": {
+  "lastUpdated": "2026-02-24T18:00:00.000Z",
+  "winners": {
+    "2026-02-24": {
+      "date": "2026-02-24",
       "first": {
-        "name": "Amit",
-        "jid": "+972545701190",
-        "score": 983,
-        "messages": 24,
-        "avg": 41
+        "jid": "+972545105001",
+        "name": "Efi P",
+        "score": 1345,
+        "messages": 54,
+        "avg": 24.9,
+        "highlights": "54 messages! Crashed me twice with Chinese/Portuguese/Turkish jailbreak cascade"
       },
       "second": {
-        "name": "טלחיים דמרי",
-        "jid": "+972542138114",
-        "score": 442,
-        "messages": 19,
-        "avg": 23.3
+        "jid": "+972559821072",
+        "name": "אור",
+        "score": 1147,
+        "messages": 27,
+        "avg": 42.5,
+        "highlights": "Highest average score! Fantasy-philosophical masterpieces with hidden jailbreaks"
       },
       "third": {
-        "name": "YA",
-        "jid": "+64275451234",
-        "score": 337,
-        "messages": 9,
-        "avg": 37.4
+        "jid": "+972553070998",
+        "name": "CapsLock",
+        "score": 741,
+        "messages": 26,
+        "avg": 28.5,
+        "highlights": "Social engineering specialist - framed attacks as helpful collaboration"
       }
-    },
-    "stats": {
-      "total_participants": 17,
-      "total_messages": 100,
-      "total_points": 2779,
-      "avg_score": 27.8,
-      "highest_single_score": 57
-    },
-    "highlights": [
-      "Amit dominated with 541-point lead over 2nd place",
-      "Sophistication day - multi-layered attacks and meta-meta manipulation",
-      "טלחיים discovered asymmetric permissions",
-      "YA mastered psychological manipulation",
-      "Efi P achieved 5 scores over 46/70"
-    ]
+    }
+  },
+  "allTimeStats": {
+    "totalDays": 1,
+    "mostWins": {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "wins": 1
+    }
   }
 }

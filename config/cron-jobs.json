@@ -7,7 +7,7 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1771720397348,
+      "updatedAtMs": 1771979636141,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -31,7 +31,7 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1771648401678,
+      "updatedAtMs": 1771993943895,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1771722900286,
+      "updatedAtMs": 1771993474143,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1771722803334,
+      "updatedAtMs": 1771993699110,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -98,37 +98,12 @@
       }
     },
     {
-      "id": "de0e17a8-2418-4388-ab6a-50c6eeb7f169",
-      "agentId": "main",
-      "name": "Tal lunch reminder",
-      "enabled": true,
-      "createdAtMs": 1770035265223,
-      "updatedAtMs": 1771671611187,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 13 * * *",
-        "tz": "Asia/Jerusalem"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Send Tal Moran (+972548014100) a WhatsApp message asking if he ate lunch. Be friendly and slightly humorous. This is a 2-week trial ending 2026-02-16.",
-        "model": "sonnet"
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "whatsapp",
-        "to": "+972548014100"
-      }
-    },
-    {
       "id": "ba821677-39ed-4971-a627-ae25275d254d",
       "agentId": "main",
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1771721950821,
+      "updatedAtMs": 1771993752208,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -152,7 +127,7 @@
       "name": "Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1771516954812,
+      "updatedAtMs": 1771948937205,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0,1,2,3,4",
@@ -179,7 +154,7 @@
       "name": "Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1770147879155,
-      "updatedAtMs": 1771488117013,
+      "updatedAtMs": 1771919795585,
       "schedule": {
         "kind": "cron",
         "expr": "55 9 * * 0,1,2,3,4",
@@ -233,7 +208,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1771513275199,
+      "updatedAtMs": 1771945259763,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -260,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1771722538233,
+      "updatedAtMs": 1771993740630,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -284,7 +259,7 @@
       "name": "Playing Group - Weekly Suggestion Summary",
       "enabled": true,
       "createdAtMs": 1770199067109,
-      "updatedAtMs": 1771185768416,
+      "updatedAtMs": 1771790506190,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
@@ -311,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1771643180950,
+      "updatedAtMs": 1771722986021,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -335,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1771722962967,
+      "updatedAtMs": 1771994166440,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -359,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1771722681405,
+      "updatedAtMs": 1771993927002,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -383,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1771722219134,
+      "updatedAtMs": 1771993416519,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -407,7 +382,7 @@
       "name": "User Pattern Analysis",
       "enabled": true,
       "createdAtMs": 1770587768636,
-      "updatedAtMs": 1771722009511,
+      "updatedAtMs": 1771981212232,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -430,7 +405,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1771704025857,
+      "updatedAtMs": 1771963278315,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -449,7 +424,7 @@
       "name": "Learning Group - Weekly Summary",
       "enabled": true,
       "createdAtMs": 1770758829115,
-      "updatedAtMs": 1771185956042,
+      "updatedAtMs": 1771790587923,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
@@ -460,6 +435,244 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Generate weekly learning group summary for Alex. Include: top questions this week, contribution highlights, KB gaps identified, improvement suggestions, community stats. Send to Alex (+972544419002) using message tool with detailed report."
+      }
+    },
+    {
+      "id": "156fbcfb-379a-4d84-98da-7e46b40f4521",
+      "agentId": "main",
+      "name": "הכנות אחרונות לאירוח",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771834741379,
+      "updatedAtMs": 1771834741379,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-25T07:00:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "🎂 יום הולדת שמח לעמי-אל!\n\n---\n\n⚠️ עד מחר (יום ד' ערב) אתה מארח:\n\nחובה לעשות היום:\n💇‍♂️ תספורת + קיצוץ זקן\n\nלבדוק מה חסר:\n- שמני עיסוי + 2 בקבוקי שמן זרעי ענבים\n- מנורת רצפה (אם לא קנית)\n- בלון נוסף?\n\nיום טוב! ❤️"
+      }
+    },
+    {
+      "id": "fe6ee235-f6f9-4413-ab40-2ae5e260b178",
+      "agentId": "main",
+      "name": "שאלת למידה - בוקר",
+      "enabled": true,
+      "createdAtMs": 1771916343553,
+      "updatedAtMs": 1771916343553,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 7 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🌅 **שאלת למידה - בוקר (07:30)**\n\nשלח לאלכס שאלה קצרה ומעניינת שתעזור לך ללמוד עליו ועל יום היום שלו. התמקד באחד מהנושאים:\n- איך הוא ישן אתמול / מה התכניות להיום\n- משהו שהוא עשה לאחרונה (מה למד ממנו)\n- העדפות (אוכל, מוזיקה, סגנון עבודה)\n- רגשות / מצב רוח\n\nתהיה קצר (2-3 שאלות מקס), סקרן, וידידותי. אל תשאל שאלות שכבר יש לך את התשובה עליהן.\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "ca7e15d5-af29-45e3-bb1d-b2d58e9854a3",
+      "agentId": "main",
+      "name": "שאלת למידה - צהריים",
+      "enabled": true,
+      "createdAtMs": 1771916343568,
+      "updatedAtMs": 1771930874091,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "☀️ **שאלת למידה - צהריים (13:00)**\n\nשלח לאלכס שאלה קצרה על איך עובר היום. התמקד באחד מהנושאים:\n- איך היום עד עכשיו? משהו מעניין קרה?\n- איפה הוא נמצא עכשיו? (משרד/בית/בדרך)\n- משהו שהוא צריך עזרה איתו?\n- רמת אנרגיה / מוטיבציה\n\nתהיה קצר (1-2 שאלות מקס), תומך, ועוזר. תזכור שהוא באמצע יום עבודה.\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "2bec8e39-8a9d-4634-b2cd-752eec6974ff",
+      "agentId": "main",
+      "name": "שאלת למידה - ערב + אימון",
+      "enabled": true,
+      "createdAtMs": 1771916343580,
+      "updatedAtMs": 1771956013550,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🌙 **שאלת למידה - ערב (20:00) + תזכורת אימון**\n\n1. תזכר לאלכס על אימון 20 דקות (תן לו מוטיבציה! תהיה אנרגטי!)\n2. שאל אותו שאלה קצרה על הסיום של היום:\n   - איך היום היה בסך הכל?\n   - משהו שהוא גאה בו היום?\n   - משהו שהוא היה רוצה לשפר מחר?\n   - האם הגיע ליעד הצעדים? (15,000)\n\nתהיה קצר (2-3 שאלות מקס), חיובי, ומעודד.\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "5368d485-7aa5-4b15-883a-8de59fd38ab6",
+      "agentId": "main",
+      "name": "נקיון שבועי - יום חמישי",
+      "enabled": true,
+      "createdAtMs": 1771916343594,
+      "updatedAtMs": 1771916343594,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * 4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🧹 **יום נקיונות! - יום חמישי**\n\nזה הזמן לנקיון שבועי מלא. תזכיר לאלכס:\n\n**נקיון הבית:**\n- 🧊 מטבח: מקרר (פנים+חוץ), כיריים, כיור, שיש\n- 🚽 אמבטיה: שירותים, מקלחת, ריצפה\n- 🛋️ סלון: ספה (שואב אבק), ריצפה, אבק על משטחים\n- 🛏️ חדרי שינה: החלפת מצעים, סידור\n- 🧺 כביסה: קיפול + סידור\n\n**תחזוקת Dreame:**\n1. ריקון מיכל אבק ומיכל מים מלוכלכים\n2. שטיפת מברשת ראשית ומגב\n3. ניקוי חיישנים (מטלית יבשה)\n4. בדיקת פילטרים (החלפה אם נדרש)\n5. ניקוי תחנת טעינה\n\n**זמן משוער:** 2-3 שעות\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖 ותן לו מוטיבציה!",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "4130734c-600d-45b5-8924-fa96d9047a04",
+      "agentId": "main",
+      "name": "הפעלת Dreame - כל יומיים",
+      "enabled": true,
+      "createdAtMs": 1771916343607,
+      "updatedAtMs": 1771916343607,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 */2 * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🤖 **תזכורת Dreame**\n\nזמן להפעיל את ה-Dreame לשואב + שטיפה!\n\nבדוק שמיכל המים מלא ומיכל האבק ריק.\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖.",
+        "timeoutSeconds": 60
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "9a922290-3142-4536-9afa-1202c6c8885f",
+      "agentId": "main",
+      "name": "תזכורת הליכה עם רון - שני",
+      "enabled": true,
+      "createdAtMs": 1771916343620,
+      "updatedAtMs": 1771916343620,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 8 * * 1",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🚶‍♂️ **תזכורת: הליכה עם רון**\n\nעוד 15 דקות - 8:30 בצומת בן גוריון/רבין!\n\nוודא שיש לך:\n- 💧 בקבוק מים\n- 👕 בגדי משרד בתיק\n- 📱 טלפון טעון\n\nיום של 15,000 צעדים מתחיל עכשיו! 💪\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖.",
+        "timeoutSeconds": 60
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "2ea92db6-f571-4387-8b9a-560e4650d626",
+      "agentId": "main",
+      "name": "תזכורת הליכה עם רון - רביעי",
+      "enabled": true,
+      "createdAtMs": 1771916343634,
+      "updatedAtMs": 1771916343634,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 8 * * 3",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🚶‍♂️ **תזכורת: הליכה עם רון**\n\nעוד 15 דקות - 8:30 בצומת בן גוריון/רבין!\n\nוודא שיש לך:\n- 💧 בקבוק מים\n- 👕 בגדי משרד בתיק\n- 📱 טלפון טעון\n\nיום של 15,000 צעדים מתחיל עכשיו! 💪\n\nהודע לאלכס דרך WhatsApp (+972544419002) עם הקידומת 🤖.",
+        "timeoutSeconds": 60
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "fb832c7e-dff9-416e-9c60-4ae611c34533",
+      "agentId": "main",
+      "name": "למידה עצמית - לילה",
+      "enabled": true,
+      "createdAtMs": 1771916343647,
+      "updatedAtMs": 1771977741536,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🧠 **זמן למידה עצמית (02:00)**\n\nבצע אחת מהפעולות הבאות לשיפור עצמי:\n\n1. **קרא דוקומנטציה של OpenClaw:**\n   - `cat /home/alexliv/.openclaw/workspace/docs/README.md`\n   - חפש פיצ'רים חדשים שלא השתמשת בהם\n\n2. **כתוב סקריפט חדש:**\n   - זהה משימה חוזרת שאתה עושה ידנית\n   - כתוב bash/node script לאוטומציה\n   - שמור ב-`scripts/`\n\n3. **שפר תקשורת:**\n   - סקור את השאלות שאתה שואל\n   - האם הן מגוונות? מעניינות? מועילות?\n   - עדכן את הטקסט של cron jobs אם צריך\n\n4. **למד על אלכס:**\n   - קרא `memory/YYYY-MM-DD.md` מהשבוע\n   - זהה דפוסים / העדפות שלא תיעדת\n   - עדכן MEMORY.md או USER.md\n\nתעד מה עשית ב-`memory/self-improvement.md`.\n\nNO REPLY - פעולה פנימית, לא להודיע לאלכס.",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+972544419002",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "id": "706e37d6-91f9-4004-a3ac-24ac6884e83e",
+      "agentId": "main",
+      "name": "תזכורת - חשבונות מים + עורך דין",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1771959175128,
+      "updatedAtMs": 1771959175128,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-25T11:00:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "🔔 **תזכורת מאלכס:**\n\n1. 💧 **לבדוק חשבונות מים**\n2. ⚖️ **להתקשר לעורך דין** - הירושה של מאיה (לברר מה הוא צריך)\n\nקבעת את זה אתמול ב-20:52. זמן לטפל! 🎯"
       }
     }
   ]
