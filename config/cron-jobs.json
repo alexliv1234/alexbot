@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772002484768,
+      "updatedAtMs": 1772003084188,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772001802084,
+      "updatedAtMs": 1772002702461,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772001028277,
+      "updatedAtMs": 1772002752782,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772002491294,
+      "updatedAtMs": 1772003095359,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772001985043,
+      "updatedAtMs": 1772002583299,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772002569117,
+      "updatedAtMs": 1772003167683,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772002280409,
+      "updatedAtMs": 1772002883447,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772002419129,
+      "updatedAtMs": 1772003020440,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -435,25 +435,6 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Generate weekly learning group summary for Alex. Include: top questions this week, contribution highlights, KB gaps identified, improvement suggestions, community stats. Send to Alex (+972544419002) using message tool with detailed report."
-      }
-    },
-    {
-      "id": "156fbcfb-379a-4d84-98da-7e46b40f4521",
-      "agentId": "main",
-      "name": "הכנות אחרונות לאירוח",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1771834741379,
-      "updatedAtMs": 1771834741379,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-02-25T07:00:00.000Z"
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "🎂 יום הולדת שמח לעמי-אל!\n\n---\n\n⚠️ עד מחר (יום ד' ערב) אתה מארח:\n\nחובה לעשות היום:\n💇‍♂️ תספורת + קיצוץ זקן\n\nלבדוק מה חסר:\n- שמני עיסוי + 2 בקבוקי שמן זרעי ענבים\n- מנורת רצפה (אם לא קנית)\n- בלון נוסף?\n\nיום טוב! ❤️"
       }
     },
     {
