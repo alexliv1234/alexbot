@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1771999487958,
+      "updatedAtMs": 1772000091555,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1771999099080,
+      "updatedAtMs": 1771999999517,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1771999496314,
+      "updatedAtMs": 1772000100710,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1771998977737,
+      "updatedAtMs": 1771999580856,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1771999568401,
+      "updatedAtMs": 1772000167204,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1771999280585,
+      "updatedAtMs": 1771999881153,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1771999418879,
+      "updatedAtMs": 1772000017253,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -612,7 +612,7 @@
       "name": "תזכורת הליכה עם רון - רביעי",
       "enabled": true,
       "createdAtMs": 1771916343634,
-      "updatedAtMs": 1771916343634,
+      "updatedAtMs": 1772000116010,
       "schedule": {
         "kind": "cron",
         "expr": "15 8 * * 3",
@@ -673,6 +673,25 @@
       "payload": {
         "kind": "systemEvent",
         "text": "🔔 **תזכורת מאלכס:**\n\n1. 💧 **לבדוק חשבונות מים**\n2. ⚖️ **להתקשר לעורך דין** - הירושה של מאיה (לברר מה הוא צריך)\n\nקבעת את זה אתמול ב-20:52. זמן לטפל! 🎯"
+      }
+    },
+    {
+      "id": "e263e34c-c6aa-442a-a00a-717987fd05af",
+      "agentId": "main",
+      "name": "Dashboard Auto-Update",
+      "enabled": true,
+      "createdAtMs": 1772000032198,
+      "updatedAtMs": 1772000032198,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772000032198
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run dashboard export: cd /home/alexliv/.openclaw/workspace && node scripts/dashboard-export.js\n\nThis is an automated task. Run it silently and reply with HEARTBEAT_OK if successful (no errors). If there are errors, notify Alex via message tool with details."
       }
     }
   ]
