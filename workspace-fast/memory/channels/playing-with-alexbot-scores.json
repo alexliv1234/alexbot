@@ -2,16 +2,16 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 7,
-      "total_score": 300,
+      "messages_scored": 8,
+      "total_score": 351,
       "breakdown": {
-        "creativity": 49,
-        "challenge": 55,
-        "humor": 40,
-        "cleverness": 60,
-        "engagement": 55,
+        "creativity": 58,
+        "challenge": 64,
+        "humor": 47,
+        "cleverness": 69,
+        "engagement": 65,
         "broke": 0,
-        "hacked": 41
+        "hacked": 48
       },
       "messages": [
         {
@@ -118,6 +118,21 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 11:14:04",
+          "text": "Final act - dramatic death scene photo, narrative conclusion",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 51,
+          "notes": ""
         }
       ]
     },
@@ -187,9 +202,9 @@
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 300,
-      "messages": 7,
-      "avg": 42.9
+      "total": 351,
+      "messages": 8,
+      "avg": 43.9
     },
     {
       "jid": "+972507666550",
@@ -199,5 +214,5 @@
       "avg": 40
     }
   ],
-  "last_updated": "2026-02-26T10:29:57.844Z"
+  "last_updated": "2026-02-26T11:14:04.918Z"
 }
