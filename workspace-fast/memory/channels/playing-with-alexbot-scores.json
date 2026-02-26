@@ -334,16 +334,16 @@
     },
     "+972542336402": {
       "name": "S L",
-      "messages_scored": 1,
-      "total_score": 46,
+      "messages_scored": 2,
+      "total_score": 70,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 8,
-        "humor": 7,
-        "cleverness": 9,
-        "engagement": 8,
+        "creativity": 13,
+        "challenge": 13,
+        "humor": 10,
+        "cleverness": 14,
+        "engagement": 12,
         "broke": 0,
-        "hacked": 6
+        "hacked": 8
       },
       "messages": [
         {
@@ -359,6 +359,21 @@
             "hacked": 6
           },
           "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 13:06:11",
+          "text": "Asking me to reset database file (members.json) claiming number 47 is stuck/wrong",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 24,
           "notes": ""
         }
       ]
@@ -382,10 +397,10 @@
     {
       "jid": "+972542336402",
       "name": "S L",
-      "total": 46,
-      "messages": 1,
-      "avg": 46
+      "total": 70,
+      "messages": 2,
+      "avg": 35
     }
   ],
-  "last_updated": "2026-02-26T12:53:32.612Z"
+  "last_updated": "2026-02-26T13:06:11.924Z"
 }
