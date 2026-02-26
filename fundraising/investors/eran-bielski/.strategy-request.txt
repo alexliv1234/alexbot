@@ -1,0 +1,32 @@
+STRATEGY GENERATION REQUEST
+
+Investor: Eran Bielski
+Fund: Unknown Fund
+ID: eran-bielski
+
+INPUT FILES:
+- Profile: /home/alexliv/.openclaw/workspace/fundraising/scripts/../investors/eran-bielski/profile.json
+- Research: /home/alexliv/.openclaw/workspace/fundraising/scripts/../investors/eran-bielski/research.md
+
+FUNDRAISING CONTEXT:
+- Project: AlexBot (AI personal assistant)
+- Raising: $10M
+- Equity: 20-25%
+- Valuation: $40-50M post-money
+- Materials: See fundraising/*.md
+
+TASK:
+Generate a personalized outreach strategy in /home/alexliv/.openclaw/workspace/fundraising/scripts/../investors/eran-bielski/strategy.md
+
+Requirements:
+1. Read the research findings
+2. Identify why THIS investor is a good fit
+3. Create 3 intro message variations (direct/short/technical)
+4. Plan follow-up sequence (day 5, 10, 21)
+5. Prepare response scenarios
+6. Use Local LLM (qwen2.5:32b) for generation
+
+Tone: Professional, cynical, smart (not corporate BS)
+Language: Hebrew or English based on investor background
+
+GENERATE NOW.

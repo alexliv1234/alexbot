@@ -51,6 +51,35 @@
       "lastContact": "2026-02-09",
       "temperature": "warm",
       "status": "active"
+    },
+    {
+      "id": "eran-bielski",
+      "name": "Eran Bielski",
+      "phone": "+972525214507",
+      "email": null,
+      "fund": "Unknown Fund",
+      "type": "vc",
+      "focus": [],
+      "checkSize": "",
+      "stage": "research",
+      "priority": "medium",
+      "relationship": "",
+      "temperature": "cold",
+      "status": "active",
+      "linkedin": "",
+      "twitter": "",
+      "created": "2026-02-26T14:39:21Z",
+      "lastUpdated": "2026-02-26T14:39:21Z",
+      "lastContact": null,
+      "nextAction": "Complete research phase",
+      "timeline": [
+        {
+          "date": "2026-02-26T14:39:21Z",
+          "action": "created",
+          "details": "Investor added to pipeline",
+          "outcome": "n/a"
+        }
+      ]
     }
   ],
   "research": [

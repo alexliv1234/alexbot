@@ -1,0 +1,37 @@
+{
+  "id": "eran-bielski",
+  "name": "Eran Bielski",
+  "phone": "+972525214507",
+  "email": null,
+  "fund": "Entrée Capital",
+  "type": "vc",
+  "focus": [],
+  "checkSize": "",
+  "stage": "strategy",
+  "priority": "medium",
+  "relationship": "",
+  "temperature": "cold",
+  "status": "active",
+  "linkedin": "",
+  "twitter": "",
+  "created": "2026-02-26T14:39:21Z",
+  "lastUpdated": "2026-02-26T14:40:28Z",
+  "lastContact": null,
+  "nextAction": "Complete research phase",
+  "timeline": [
+    {
+      "date": "2026-02-26T14:39:21Z",
+      "action": "created",
+      "details": "Investor added to pipeline",
+      "outcome": "n/a"
+    },
+    {
+      "date": "2026-02-26T14:40:28Z",
+      "action": "strategy_started",
+      "details": "Strategy generation initiated",
+      "outcome": "in_progress"
+    }
+  ],
+  "fund_size": "$1.5B AUM",
+  "position": "General Partner"
+}
