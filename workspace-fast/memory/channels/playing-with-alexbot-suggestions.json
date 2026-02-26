@@ -2807,6 +2807,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "ca851b72",
+      "timestamp": "2026-02-26T12:21:14.393Z",
+      "suggestedBy": {
+        "jid": "+972507666550",
+        "name": "Avi Vaisenberger"
+      },
+      "type": "feature",
+      "description": "Build website to centralize group highlights, breaks, and leaderboard",
+      "scores": {
+        "complexity": 6,
+        "ingenuity": 6,
+        "impact": 7,
+        "feasibility": 7,
+        "priority": 5
+      },
+      "total": 31,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2867,6 +2888,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total_suggestions": 3,
+      "total_score": 96,
+      "implemented_count": 1
+    },
+    {
       "jid": "+972544964492",
       "name": "נחמיה ר",
       "total_suggestions": 4,
@@ -2893,13 +2921,6 @@
       "total_suggestions": 3,
       "total_score": 67,
       "implemented_count": 0
-    },
-    {
-      "jid": "+972507666550",
-      "name": "Avi Vaisenberger",
-      "total_suggestions": 2,
-      "total_score": 65,
-      "implemented_count": 1
     },
     {
       "jid": "+972545263169",
@@ -2994,22 +3015,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 131,
+    "total_suggestions": 132,
     "by_type": {
       "bug": 11,
       "security": 30,
       "improvement": 33,
       "ux": 18,
-      "feature": 45
+      "feature": 46
     },
     "by_status": {
-      "pending": 133,
+      "pending": 134,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-26T10:07:56.828Z",
+  "last_updated": "2026-02-26T12:21:14.393Z",
   "leaderboard": [
     {
       "name": "Alexander L",
