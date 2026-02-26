@@ -1,11 +1,6 @@
 {
-  "last_style": "scifi",
+  "last_style": "realistic",
   "style_history": [
-    {
-      "style": "anime",
-      "context": "leaderboard",
-      "timestamp": "2026-02-19T17:00:38+02:00"
-    },
     {
       "style": "scifi",
       "context": "nightly",
@@ -100,7 +95,12 @@
       "style": "scifi",
       "context": "leaderboard",
       "timestamp": "2026-02-26T12:01:12+02:00"
+    },
+    {
+      "style": "realistic",
+      "context": "leaderboard",
+      "timestamp": "2026-02-26T17:00:26+02:00"
     }
   ],
-  "total_generated": 73
+  "total_generated": 74
 }
