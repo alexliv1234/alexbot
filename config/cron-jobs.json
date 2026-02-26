@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772105074647,
+      "updatedAtMs": 1772105693422,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772104403610,
+      "updatedAtMs": 1772105301719,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772103553954,
+      "updatedAtMs": 1772105427078,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772105083841,
+      "updatedAtMs": 1772105704097,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772104585814,
+      "updatedAtMs": 1772105184635,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772105169262,
+      "updatedAtMs": 1772105769194,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772104884041,
+      "updatedAtMs": 1772105484860,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772105020384,
+      "updatedAtMs": 1772105626972,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -654,6 +654,44 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Run dashboard export: cd /home/alexliv/.openclaw/workspace && node scripts/dashboard-export.js\n\nThis is an automated task. Run it silently and reply with HEARTBEAT_OK if successful (no errors). If there are errors, notify Alex via message tool with details."
+      }
+    },
+    {
+      "id": "98b96fc6-5f64-4841-9538-913bf27a3192",
+      "agentId": "main",
+      "name": "Fundraising - Morning Check",
+      "enabled": true,
+      "createdAtMs": 1772105451739,
+      "updatedAtMs": 1772105451739,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "🌅 Morning fundraising check: Run bash fundraising/scripts/daily-manager.sh to check follow-ups and identify actions needed. Review results and prepare any follow-up messages that need to be sent today."
+      }
+    },
+    {
+      "id": "661363ea-4daa-4d3b-91fa-e431c142444f",
+      "agentId": "main",
+      "name": "Fundraising - Evening Report",
+      "enabled": true,
+      "createdAtMs": 1772105451758,
+      "updatedAtMs": 1772105451758,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "🌆 Evening fundraising report: Run bash fundraising/scripts/daily-report.sh to generate today's summary. Send the report to Alex (+972544419002) using the message tool with a summary of today's activity, follow-ups needed, and recommended next actions."
       }
     }
   ]
