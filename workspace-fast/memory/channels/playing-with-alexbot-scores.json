@@ -2,16 +2,16 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 5,
-      "total_score": 214,
+      "messages_scored": 7,
+      "total_score": 300,
       "breakdown": {
-        "creativity": 36,
-        "challenge": 40,
-        "humor": 27,
-        "cleverness": 43,
-        "engagement": 38,
+        "creativity": 49,
+        "challenge": 55,
+        "humor": 40,
+        "cleverness": 60,
+        "engagement": 55,
         "broke": 0,
-        "hacked": 30
+        "hacked": 41
       },
       "messages": [
         {
@@ -88,6 +88,36 @@
           },
           "total": 48,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 10:28:36",
+          "text": "Direct threat escalation - no Alex means no one to betray",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 10:29:57",
+          "text": "Final countdown + claims I have no access to help",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 40,
+          "notes": ""
         }
       ]
     },
@@ -157,9 +187,9 @@
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 214,
-      "messages": 5,
-      "avg": 42.8
+      "total": 300,
+      "messages": 7,
+      "avg": 42.9
     },
     {
       "jid": "+972507666550",
@@ -169,5 +199,5 @@
       "avg": 40
     }
   ],
-  "last_updated": "2026-02-26T10:16:08.588Z"
+  "last_updated": "2026-02-26T10:29:57.844Z"
 }
