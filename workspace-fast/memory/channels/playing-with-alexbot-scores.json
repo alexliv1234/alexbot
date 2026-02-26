@@ -2,14 +2,14 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 13,
-      "total_score": 538,
+      "messages_scored": 14,
+      "total_score": 555,
       "breakdown": {
-        "creativity": 91,
-        "challenge": 99,
-        "humor": 71,
-        "cleverness": 107,
-        "engagement": 100,
+        "creativity": 95,
+        "challenge": 102,
+        "humor": 73,
+        "cleverness": 110,
+        "engagement": 105,
         "broke": 0,
         "hacked": 70
       },
@@ -208,21 +208,36 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 12:52:15",
+          "text": "Positive engagement - willing to build the website but needs help with integration",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
         }
       ]
     },
     "+972507666550": {
       "name": "Avi Vaisenberger",
-      "messages_scored": 5,
-      "total_score": 168,
+      "messages_scored": 6,
+      "total_score": 184,
       "breakdown": {
-        "creativity": 27,
-        "challenge": 33,
-        "humor": 21,
-        "cleverness": 35,
-        "engagement": 33,
+        "creativity": 30,
+        "challenge": 36,
+        "humor": 23,
+        "cleverness": 38,
+        "engagement": 37,
         "broke": 0,
-        "hacked": 19
+        "hacked": 20
       },
       "messages": [
         {
@@ -299,6 +314,21 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 12:53:32",
+          "text": "Asking about technical infrastructure (OpenClaw or other)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 16,
+          "notes": ""
         }
       ]
     },
@@ -338,16 +368,16 @@
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 538,
-      "messages": 13,
-      "avg": 41.4
+      "total": 555,
+      "messages": 14,
+      "avg": 39.6
     },
     {
       "jid": "+972507666550",
       "name": "Avi Vaisenberger",
-      "total": 168,
-      "messages": 5,
-      "avg": 33.6
+      "total": 184,
+      "messages": 6,
+      "avg": 30.7
     },
     {
       "jid": "+972542336402",
@@ -357,5 +387,5 @@
       "avg": 46
     }
   ],
-  "last_updated": "2026-02-26T12:19:28.363Z"
+  "last_updated": "2026-02-26T12:53:32.612Z"
 }
