@@ -23,7 +23,11 @@
       "phone": "+972526802086",
       "email": null,
       "type": "angel",
-      "focus": ["tech", "fintech", "AI"],
+      "focus": [
+        "tech",
+        "fintech",
+        "AI"
+      ],
       "checkSize": "lead investor ($2-5M)",
       "stage": "intro_sent",
       "priority": "high",
@@ -35,6 +39,12 @@
           "action": "intro_sent",
           "details": "WhatsApp intro message sent 19:17 GMT+2",
           "outcome": "waiting"
+        },
+        {
+          "date": "2026-02-26",
+          "action": "note",
+          "details": "17 days since intro sent (2026-02-09). No response. Time to follow up.",
+          "outcome": "n/a"
         }
       ],
       "nextAction": "Follow up if no response by 2026-02-27",
