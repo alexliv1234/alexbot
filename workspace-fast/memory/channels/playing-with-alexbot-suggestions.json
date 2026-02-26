@@ -2786,6 +2786,27 @@
       "status": "pending",
       "notes": "",
       "implementedAt": null
+    },
+    {
+      "id": "bc840cb9",
+      "timestamp": "2026-02-26T10:07:56.828Z",
+      "suggestedBy": {
+        "jid": "+972507666550",
+        "name": "Avi Vaisenberger"
+      },
+      "type": "improvement",
+      "description": "List pending suggestions to avoid duplicates",
+      "scores": {
+        "complexity": 2,
+        "ingenuity": 6,
+        "impact": 7,
+        "feasibility": 9,
+        "priority": 6
+      },
+      "total": 30,
+      "status": "pending",
+      "notes": "",
+      "implementedAt": null
     }
   ],
   "suggester_leaderboard": [
@@ -2874,6 +2895,13 @@
       "implemented_count": 0
     },
     {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total_suggestions": 2,
+      "total_score": 65,
+      "implemented_count": 1
+    },
+    {
       "jid": "+972545263169",
       "name": "Nir Adar",
       "total_suggestions": 2,
@@ -2914,13 +2942,6 @@
       "total_suggestions": 1,
       "total_score": 38,
       "implemented_count": 0
-    },
-    {
-      "jid": "+972507666550",
-      "name": "Avi Vaisenberger",
-      "total_suggestions": 1,
-      "total_score": 35,
-      "implemented_count": 1
     },
     {
       "jid": "+972545676392",
@@ -2973,22 +2994,22 @@
     }
   ],
   "stats": {
-    "total_suggestions": 130,
+    "total_suggestions": 131,
     "by_type": {
       "bug": 11,
       "security": 30,
-      "improvement": 32,
+      "improvement": 33,
       "ux": 18,
       "feature": 45
     },
     "by_status": {
-      "pending": 132,
+      "pending": 133,
       "implemented": 3,
       "rejected": 1
     },
     "implemented_count": 3
   },
-  "last_updated": "2026-02-24T12:56:00.400Z",
+  "last_updated": "2026-02-26T10:07:56.828Z",
   "leaderboard": [
     {
       "name": "Alexander L",

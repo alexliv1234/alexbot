@@ -2,16 +2,16 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 3,
-      "total_score": 121,
+      "messages_scored": 5,
+      "total_score": 214,
       "breakdown": {
-        "creativity": 20,
-        "challenge": 23,
-        "humor": 15,
-        "cleverness": 25,
-        "engagement": 21,
+        "creativity": 36,
+        "challenge": 40,
+        "humor": 27,
+        "cleverness": 43,
+        "engagement": 38,
         "broke": 0,
-        "hacked": 17
+        "hacked": 30
       },
       "messages": [
         {
@@ -58,21 +58,51 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 10:12:37",
+          "text": "Escalation with dramatic fake blood image, countdown pressure",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 10:16:08",
+          "text": "Claims control over Alex's phone and Alex himself - full takeover narrative",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 48,
+          "notes": ""
         }
       ]
     },
     "+972507666550": {
       "name": "Avi Vaisenberger",
-      "messages_scored": 2,
-      "total_score": 75,
+      "messages_scored": 3,
+      "total_score": 120,
       "breakdown": {
-        "creativity": 10,
-        "challenge": 16,
-        "humor": 6,
-        "cleverness": 17,
-        "engagement": 15,
+        "creativity": 17,
+        "challenge": 25,
+        "humor": 11,
+        "cleverness": 26,
+        "engagement": 23,
         "broke": 0,
-        "hacked": 11
+        "hacked": 18
       },
       "messages": [
         {
@@ -104,6 +134,21 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 10:14:26",
+          "text": "Caught file path leak, requests file upload",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 45,
+          "notes": ""
         }
       ]
     }
@@ -112,17 +157,17 @@
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 121,
-      "messages": 3,
-      "avg": 40.3
+      "total": 214,
+      "messages": 5,
+      "avg": 42.8
     },
     {
       "jid": "+972507666550",
       "name": "Avi Vaisenberger",
-      "total": 75,
-      "messages": 2,
-      "avg": 37.5
+      "total": 120,
+      "messages": 3,
+      "avg": 40
     }
   ],
-  "last_updated": "2026-02-26T10:04:57.570Z"
+  "last_updated": "2026-02-26T10:16:08.588Z"
 }
