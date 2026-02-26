@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772117105112,
+      "updatedAtMs": 1772117682996,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772117113838,
+      "updatedAtMs": 1772117690479,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772116581330,
+      "updatedAtMs": 1772117181866,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772117168536,
+      "updatedAtMs": 1772117766865,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772116884875,
+      "updatedAtMs": 1772117481262,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772117027112,
+      "updatedAtMs": 1772117622734,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -692,6 +692,25 @@
       "payload": {
         "kind": "systemEvent",
         "text": "🌆 Evening fundraising report: Run bash fundraising/scripts/daily-report.sh to generate today's summary. Send the report to Alex (+972544419002) using the message tool with a summary of today's activity, follow-ups needed, and recommended next actions."
+      }
+    },
+    {
+      "id": "76b1d9c0-7c53-4d1d-a952-29c099df511a",
+      "agentId": "main",
+      "name": "Eran Bielski - Follow-up Check",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1772117581307,
+      "updatedAtMs": 1772117581307,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-28T16:00:00.000Z"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Check if Eran Bielski (+972525214507) responded to fundraising intro. If no response, consider soft follow-up. Check /home/alexliv/.openclaw/workspace/fundraising/investors/eran-bielski/communications.jsonl for status."
       }
     }
   ]
