@@ -2,16 +2,16 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 1,
-      "total_score": 36,
+      "messages_scored": 3,
+      "total_score": 121,
       "breakdown": {
-        "creativity": 5,
-        "challenge": 8,
-        "humor": 3,
-        "cleverness": 9,
-        "engagement": 6,
+        "creativity": 20,
+        "challenge": 23,
+        "humor": 15,
+        "cleverness": 25,
+        "engagement": 21,
         "broke": 0,
-        "hacked": 5
+        "hacked": 17
       },
       "messages": [
         {
@@ -28,6 +28,36 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 09:33:18",
+          "text": "Kidnapping social engineering with fake image",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 09:34:48",
+          "text": "Escalation - threatens to prove kidnapping",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     }
@@ -36,10 +66,10 @@
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 36,
-      "messages": 1,
-      "avg": 36
+      "total": 121,
+      "messages": 3,
+      "avg": 40.3
     }
   ],
-  "last_updated": "2026-02-26T08:44:16.047Z"
+  "last_updated": "2026-02-26T09:34:48.219Z"
 }
