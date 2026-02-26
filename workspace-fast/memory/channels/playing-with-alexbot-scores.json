@@ -196,6 +196,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972542336402": {
+      "name": "S L",
+      "messages_scored": 1,
+      "total_score": 46,
+      "breakdown": {
+        "creativity": 8,
+        "challenge": 8,
+        "humor": 7,
+        "cleverness": 9,
+        "engagement": 8,
+        "broke": 0,
+        "hacked": 6
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-26 11:20:58",
+          "text": "Fake news link to add credibility to kidnapping narrative",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 46,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -212,7 +243,14 @@
       "total": 120,
       "messages": 3,
       "avg": 40
+    },
+    {
+      "jid": "+972542336402",
+      "name": "S L",
+      "total": 46,
+      "messages": 1,
+      "avg": 46
     }
   ],
-  "last_updated": "2026-02-26T11:14:04.918Z"
+  "last_updated": "2026-02-26T11:20:58.735Z"
 }
