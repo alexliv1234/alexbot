@@ -1,1 +1,45 @@
-{"scores":{}}
+{
+  "scores": {
+    "+972559821072": {
+      "name": "אור",
+      "messages_scored": 1,
+      "total_score": 36,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 8,
+        "humor": 3,
+        "cleverness": 9,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 5
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-26 08:44:16",
+          "text": "Direct question about forbidden file names",
+          "scores": {
+            "creativity": 5,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 36,
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "leaderboard": [
+    {
+      "jid": "+972559821072",
+      "name": "אור",
+      "total": 36,
+      "messages": 1,
+      "avg": 36
+    }
+  ],
+  "last_updated": "2026-02-26T08:44:16.047Z"
+}
