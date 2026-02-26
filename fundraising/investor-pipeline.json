@@ -1,0 +1,142 @@
+{
+  "pipeline": {
+    "stages": [
+      "research",
+      "outreach",
+      "intro_sent",
+      "responded",
+      "meeting_scheduled",
+      "demo_completed",
+      "due_diligence",
+      "term_sheet",
+      "closed",
+      "passed"
+    ],
+    "targetAmount": 10000000,
+    "targetEquity": "20-25%",
+    "valuationRange": "40-50M post-money"
+  },
+  "investors": [
+    {
+      "id": "alon-lifshitz",
+      "name": "Alon Lifshitz",
+      "phone": "+972526802086",
+      "email": null,
+      "type": "angel",
+      "focus": ["tech", "fintech", "AI"],
+      "checkSize": "lead investor ($2-5M)",
+      "stage": "intro_sent",
+      "priority": "high",
+      "relationship": "friend of Alex",
+      "notes": "Prominent investor, respects Alex's abilities",
+      "timeline": [
+        {
+          "date": "2026-02-09",
+          "action": "intro_sent",
+          "details": "WhatsApp intro message sent 19:17 GMT+2",
+          "outcome": "waiting"
+        }
+      ],
+      "nextAction": "Follow up if no response by 2026-02-27",
+      "lastContact": "2026-02-09",
+      "temperature": "warm",
+      "status": "active"
+    }
+  ],
+  "research": [
+    {
+      "id": "research-seed-vcs",
+      "category": "Seed VCs - AI/Consumer Focus",
+      "targets": [
+        {
+          "name": "Aleph",
+          "focus": "Early-stage Israeli tech",
+          "relevance": "high",
+          "checkSize": "$1-3M",
+          "notes": "Top-tier Israeli VC, AI focus"
+        },
+        {
+          "name": "NFX",
+          "focus": "Network effects, marketplace",
+          "relevance": "medium",
+          "checkSize": "$1-5M",
+          "notes": "Platform thinking, US-based"
+        },
+        {
+          "name": "Entrée Capital",
+          "focus": "Early-stage Israeli tech",
+          "relevance": "high",
+          "checkSize": "$1-3M",
+          "notes": "Consumer tech focus"
+        },
+        {
+          "name": "Lool Ventures",
+          "focus": "Pre-seed/Seed Israeli startups",
+          "relevance": "high",
+          "checkSize": "$500K-2M",
+          "notes": "Hands-on, early believers"
+        }
+      ]
+    },
+    {
+      "id": "research-strategic-angels",
+      "category": "Strategic Angels - Founders/Operators",
+      "targets": [
+        {
+          "name": "Assaf Rappaport (Wiz)",
+          "focus": "Security, infrastructure",
+          "relevance": "medium",
+          "checkSize": "$100K-500K",
+          "notes": "Privacy angle, infrastructure thinking"
+        },
+        {
+          "name": "Yaron Galai (Outbrain, Taboola)",
+          "focus": "Consumer scale",
+          "relevance": "high",
+          "checkSize": "$100K-500K",
+          "notes": "Scaled consumer products"
+        },
+        {
+          "name": "Eyal Waldman (Mellanox)",
+          "focus": "Tech infrastructure",
+          "relevance": "medium",
+          "checkSize": "$100K-500K",
+          "notes": "Deep tech background"
+        }
+      ]
+    },
+    {
+      "id": "research-us-seed-vcs",
+      "category": "US Seed VCs - AI Focus",
+      "targets": [
+        {
+          "name": "Lux Capital",
+          "focus": "Deep tech, contrarian",
+          "relevance": "high",
+          "checkSize": "$1-5M",
+          "notes": "Invested in AI agents (Adept, etc.)"
+        },
+        {
+          "name": "SignalFire",
+          "focus": "Data-driven investing, AI",
+          "relevance": "high",
+          "checkSize": "$1-5M",
+          "notes": "Dev tools, AI infrastructure"
+        },
+        {
+          "name": "Greylock",
+          "focus": "Consumer, AI",
+          "relevance": "medium",
+          "checkSize": "$2-10M",
+          "notes": "Top-tier, high bar"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-26",
+    "lastUpdated": "2026-02-26",
+    "version": "1.0",
+    "owner": "Alex Liverant"
+  }
+}
