@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772063686399,
+      "updatedAtMs": 1772064272518,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772063000992,
+      "updatedAtMs": 1772063899980,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772062152814,
+      "updatedAtMs": 1772063954793,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772063696507,
+      "updatedAtMs": 1772064280846,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772063187184,
+      "updatedAtMs": 1772063784459,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772063769725,
+      "updatedAtMs": 1772064369263,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772063621447,
+      "updatedAtMs": 1772064220484,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -618,7 +618,7 @@
       "name": "למידה עצמית - לילה",
       "enabled": true,
       "createdAtMs": 1771916343647,
-      "updatedAtMs": 1771977741536,
+      "updatedAtMs": 1772064086621,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 * * *",
