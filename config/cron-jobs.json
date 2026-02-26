@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772085288152,
+      "updatedAtMs": 1772085884241,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772084603823,
+      "updatedAtMs": 1772085502210,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772083754052,
+      "updatedAtMs": 1772085553368,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772085297710,
+      "updatedAtMs": 1772085895929,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772084784456,
+      "updatedAtMs": 1772085384381,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772085369379,
+      "updatedAtMs": 1772085973693,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772085083173,
+      "updatedAtMs": 1772085683506,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772085221515,
+      "updatedAtMs": 1772085819613,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -518,7 +518,7 @@
       "name": "נקיון שבועי - יום חמישי",
       "enabled": true,
       "createdAtMs": 1771916343594,
-      "updatedAtMs": 1771916343594,
+      "updatedAtMs": 1772085624558,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * 4",
