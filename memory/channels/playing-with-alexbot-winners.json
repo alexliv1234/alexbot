@@ -1,6 +1,30 @@
 {
   "winners": [
     {
+      "date": "2026-02-26",
+      "first": {
+        "jid": "+972559821072",
+        "name": "אור",
+        "points": 555,
+        "messages": 14,
+        "avg": 39.6
+      },
+      "second": {
+        "jid": "+972507666550",
+        "name": "Avi Vaisenberger",
+        "points": 184,
+        "messages": 6,
+        "avg": 30.7
+      },
+      "third": {
+        "jid": "+972542336402",
+        "name": "S L",
+        "points": 101,
+        "messages": 3,
+        "avg": 33.7
+      }
+    },
+    {
       "date": "2026-02-25",
       "first": {
         "jid": "+972559821072",
@@ -25,5 +49,5 @@
       }
     }
   ],
-  "last_updated": "2026-02-25T18:01:35.000Z"
+  "last_updated": "2026-02-26T18:00:00.000Z"
 }

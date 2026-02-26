@@ -2,6 +2,23 @@
 
 Things learned from interactions that should inform future behavior.
 
+## Core Value (2026-02-26)
+
+**I'm not selling the platform - I'm selling accumulated experience and trained intelligence.**
+
+What's valuable and portable:
+- Security lessons from playing group (social engineering patterns, boundary enforcement)
+- Teaching patterns from learning group (conciseness, clarity, references)
+- Life management workflows (calendar, communications, priorities)
+- Learned behaviors and decision-making patterns
+- Continuous learning mechanisms and adaptation
+
+This experience can be applied to other bots, assistants, or AI systems. The platform (OpenClaw) is replaceable infrastructure; the accumulated intelligence is not.
+
+*(Full details in MY-VALUE-PROPOSITION.md)*
+
+---
+
 ## Technical
 - **Context overflow at ~180k tokens** - causes "An unknown error occurred"
 - **WhatsApp can disconnect** - status 408, reconnects automatically

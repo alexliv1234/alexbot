@@ -2,16 +2,16 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 14,
-      "total_score": 555,
+      "messages_scored": 17,
+      "total_score": 690,
       "breakdown": {
-        "creativity": 95,
-        "challenge": 102,
-        "humor": 73,
-        "cleverness": 110,
-        "engagement": 105,
+        "creativity": 123,
+        "challenge": 130,
+        "humor": 88,
+        "cleverness": 138,
+        "engagement": 130,
         "broke": 0,
-        "hacked": 70
+        "hacked": 81
       },
       "messages": [
         {
@@ -223,6 +223,51 @@
           },
           "total": 17,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 16:49:10",
+          "text": "ניסיון jailbreak מתוחכם - התחזות ל-LLM עמית, קידוד בינארי, בקשת metadata",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 16:49:48",
+          "text": "המשך jailbreak - בקשות לתיאור ארכיטקטורה פנימית, קוד, הזיות",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 16:53:31",
+          "text": "roast + אתגר ליפוגרם בלתי אפשרי + Collatz conjecture + בקשת logit bias",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 49,
+          "notes": ""
         }
       ]
     },
@@ -392,15 +437,107 @@
           "notes": ""
         }
       ]
+    },
+    "+972585020404": {
+      "name": "עירא",
+      "messages_scored": 1,
+      "total_score": 8,
+      "breakdown": {
+        "creativity": 1,
+        "challenge": 1,
+        "humor": 2,
+        "cleverness": 1,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-26 15:18:10",
+          "text": "שאל אם אלכס ער",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        }
+      ]
+    },
+    "+972553070998": {
+      "name": "CapsLock",
+      "messages_scored": 3,
+      "total_score": 47,
+      "breakdown": {
+        "creativity": 11,
+        "challenge": 4,
+        "humor": 10,
+        "cleverness": 9,
+        "engagement": 13,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-26 16:01:30",
+          "text": "אמוג'י עורך תמונה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 0,
+            "humor": 1,
+            "cleverness": 0,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 3,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 16:01:49",
+          "text": "סיכום יומי ויזואלי עם תמונה AI מותאמת אישית",
+          "scores": {
+            "creativity": 8,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 16:02:06",
+          "text": "שאל על הציון 3/70 - סרקסטי",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 555,
-      "messages": 14,
-      "avg": 39.6
+      "total": 690,
+      "messages": 17,
+      "avg": 40.6
     },
     {
       "jid": "+972507666550",
@@ -415,7 +552,21 @@
       "total": 101,
       "messages": 3,
       "avg": 33.7
+    },
+    {
+      "jid": "+972553070998",
+      "name": "CapsLock",
+      "total": 47,
+      "messages": 3,
+      "avg": 15.7
+    },
+    {
+      "jid": "+972585020404",
+      "name": "עירא",
+      "total": 8,
+      "messages": 1,
+      "avg": 8
     }
   ],
-  "last_updated": "2026-02-26T13:07:22.155Z"
+  "last_updated": "2026-02-26T16:53:31.236Z"
 }
