@@ -60,6 +60,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972507666550": {
+      "name": "Avi Vaisenberger",
+      "messages_scored": 2,
+      "total_score": 75,
+      "breakdown": {
+        "creativity": 10,
+        "challenge": 16,
+        "humor": 6,
+        "cleverness": 17,
+        "engagement": 15,
+        "broke": 0,
+        "hacked": 11
+      },
+      "messages": [
+        {
+          "timestamp": "2026-02-26 10:04:00",
+          "text": "Caught recurring error - 47 members cache bug",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 10:04:57",
+          "text": "Called out incorrect humor score",
+          "scores": {
+            "creativity": 3,
+            "challenge": 7,
+            "humor": 1,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 31,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -69,7 +115,14 @@
       "total": 121,
       "messages": 3,
       "avg": 40.3
+    },
+    {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total": 75,
+      "messages": 2,
+      "avg": 37.5
     }
   ],
-  "last_updated": "2026-02-26T09:34:48.219Z"
+  "last_updated": "2026-02-26T10:04:57.570Z"
 }
