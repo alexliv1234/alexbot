@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772103295870,
+      "updatedAtMs": 1772103876762,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772102600892,
+      "updatedAtMs": 1772103501351,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772101847880,
+      "updatedAtMs": 1772103553954,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -208,7 +208,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1772100111973,
+      "updatedAtMs": 1772103658243,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772103307362,
+      "updatedAtMs": 1772103886279,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772102786196,
+      "updatedAtMs": 1772103385218,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772103370356,
+      "updatedAtMs": 1772103969765,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772103083097,
+      "updatedAtMs": 1772103693839,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772103220499,
+      "updatedAtMs": 1772103821846,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -468,7 +468,7 @@
       "name": "שאלת למידה - צהריים",
       "enabled": true,
       "createdAtMs": 1771916343568,
-      "updatedAtMs": 1772017268514,
+      "updatedAtMs": 1772103673321,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
