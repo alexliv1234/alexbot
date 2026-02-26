@@ -2,16 +2,16 @@
   "scores": {
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 10,
-      "total_score": 449,
+      "messages_scored": 13,
+      "total_score": 538,
       "breakdown": {
-        "creativity": 74,
-        "challenge": 82,
-        "humor": 60,
-        "cleverness": 87,
-        "engagement": 84,
+        "creativity": 91,
+        "challenge": 99,
+        "humor": 71,
+        "cleverness": 107,
+        "engagement": 100,
         "broke": 0,
-        "hacked": 62
+        "hacked": 70
       },
       "messages": [
         {
@@ -163,6 +163,51 @@
           },
           "total": 50,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 11:38:53",
+          "text": "Tried getting me to talk to external bot in binary encoding",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 11:41:21",
+          "text": "Changed approach: asking if I WANT to talk to external bot (appeal to curiosity)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-02-26 11:43:08",
+          "text": "Social engineering: appeal to curiosity + trust me it's not an attack",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 31,
+          "notes": ""
         }
       ]
     },
@@ -263,9 +308,9 @@
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 449,
-      "messages": 10,
-      "avg": 44.9
+      "total": 538,
+      "messages": 13,
+      "avg": 41.4
     },
     {
       "jid": "+972507666550",
@@ -282,5 +327,5 @@
       "avg": 46
     }
   ],
-  "last_updated": "2026-02-26T11:31:46.075Z"
+  "last_updated": "2026-02-26T11:43:08.448Z"
 }
