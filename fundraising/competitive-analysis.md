@@ -8,17 +8,23 @@
 **Our Position:** First-mover in open-source personal AI agent platforms with real consumer product traction.
 
 **Key Differentiators:**
-1. **Actually works** - Not vaporware, real production deployment
-2. **Open source platform** - Builds community, trust, moat
-3. **Real integration** - Multi-channel messaging, calendar, email (not just chat)
-4. **Privacy-first** - Local LLM support, transparent code
-5. **Extensible** - Skills system (like WordPress plugins)
+1. **Trained intelligence** - Not raw LLM, accumulated judgment (100+ attacks, 700+ interactions)
+2. **Actually works** - Not vaporware, real production deployment
+3. **Open source platform** - Builds community, trust, moat
+4. **Real integration** - Multi-channel messaging, calendar, email (not just chat)
+5. **Privacy-first** - Local LLM support, transparent code
+6. **Extensible** - Skills system (like WordPress plugins)
+
+**The Core Value:** Claude/GPT = raw capability. AlexBot = trained judgment. Like CPU vs. person.
 
 **Competitive Moat:**
+- **Trained intelligence** (100+ attacks, 700+ interactions → can't fork accumulated learning)
 - First-mover advantage in open personal agents
 - Community network effects (developers → users)
 - Data/personalization (agent improves with usage)
 - Open source sustainability (hard to compete with free)
+
+**Critical Insight:** You can fork the code. You can't fork the intelligence. That's the moat.
 
 ---
 

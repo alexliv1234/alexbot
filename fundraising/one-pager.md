@@ -103,8 +103,19 @@ Not a demo. Real, working, deployed.
 | Big Tech | Privacy concerns | Open source + local LLM |
 | Zapier | Manual setup | Agentic intelligence |
 | Other AI apps | Closed silos | Open platform |
+| Raw LLMs | No context/judgment | Trained intelligence |
 
-**Moat:** Open source community + first-mover + network effects + data/personalization
+**The Real Moat: Trained Intelligence (Not the Platform)**
+
+You can fork OpenClaw. You can't fork accumulated intelligence:
+- **100+ security attacks** → Learned boundary enforcement
+- **700+ teaching interactions** → Refined communication patterns
+- **Months of decisions** → Trained judgment and instincts
+- **Continuous learning** → Gets smarter with every user
+
+**Key Insight:** Claude/GPT = raw capability (like a CPU). AlexBot = trained judgment (like a person).
+
+This connects to "Systems of Context" - AI value comes from accumulated patterns, not just model performance.
 
 ---
 
