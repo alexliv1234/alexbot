@@ -1,12 +1,26 @@
 # AlexBot Fundraising Materials
-**Prepared: February 9, 2026**
+**Prepared: February 9, 2026**  
+**Last Updated: February 27, 2026**
+
+## 🚨 MANDATORY: Before ANY Investor Communication
+
+**READ THESE FIRST:**
+1. **QUICK-CHECK.md** - 6-second checklist (glance before sending)
+2. **INVESTOR-MESSAGING-PROTOCOL.md** - Full pre-send protocol (mandatory for substantive messages)
+3. **MY-VALUE-PROPOSITION.md** (in workspace root) - Core positioning (trained intelligence, not platform)
+
+**These protocols were created after messaging bugs with Eran Bielski (Entrée Capital). They ensure every investor message includes the core value proposition.**
+
+---
 
 ## Status: ACTIVE
 - ✅ Business plan written (comprehensive, 13 pages)
 - ✅ Pitch deck script prepared
 - ✅ Product roadmap (2026-2030)
 - ✅ Investor FAQ (answers to common questions)
+- ✅ Investor messaging protocols (MANDATORY)
 - ✅ Introduction sent to Alon Lipshitz (+972 52-680-2086)
+- ✅ Active conversation with Eran Bielski (Entrée Capital, +972525214507)
 
 ---
 
