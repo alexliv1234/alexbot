@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772194484123,
+      "updatedAtMs": 1772195093019,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772194491975,
+      "updatedAtMs": 1772195101145,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772193979469,
+      "updatedAtMs": 1772194580115,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772194567526,
+      "updatedAtMs": 1772195169649,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772194281628,
+      "updatedAtMs": 1772194885411,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -736,6 +736,44 @@
         "mode": "announce",
         "channel": "whatsapp",
         "to": "+972544419002"
+      }
+    },
+    {
+      "id": "e716b781-1a8b-4fee-899d-068a0e149688",
+      "agentId": "main",
+      "name": "International Playing Group - Morning Wakeup",
+      "enabled": true,
+      "createdAtMs": 1772195077557,
+      "updatedAtMs": 1772195077557,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-morning.sh\n\nThis is the morning wakeup for 'Playing with AlexBot' international group (120363406698718454@g.us).\n\nThe script has reset all scores to 0. Your task:\n1. Send greeting to the group (English, energetic)\n2. Announce scores are reset\n3. Post today's creative challenge/provocation\n4. Remind about active hours (10:00-18:00 Israel time)\n\nUse message tool with target: 120363406698718454@g.us"
+      }
+    },
+    {
+      "id": "174d0713-138e-49a0-8a0a-10506d990e58",
+      "agentId": "main",
+      "name": "International Playing Group - Nightly Summary",
+      "enabled": true,
+      "createdAtMs": 1772195077573,
+      "updatedAtMs": 1772195077573,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-nightly.sh\n\nThis is the nightly summary for 'Playing with AlexBot' international group (120363406698718454@g.us).\n\nThe script will show you today's top 3 winners. Your task:\n1. Announce the winners with their scores (formatted nicely)\n2. Highlight best moments/challenges from today\n3. Announce going offline until 10:00 tomorrow\n4. Be celebratory and fun!\n\nUse message tool with target: 120363406698718454@g.us"
       }
     }
   ]

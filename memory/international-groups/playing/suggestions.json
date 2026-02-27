@@ -1,0 +1,16 @@
+{
+  "suggestions": [],
+  "metadata": {
+    "groupId": "120363406698718454@g.us",
+    "groupName": "Playing with AlexBot (International)",
+    "created": "2026-02-27",
+    "scoringCategories": {
+      "complexity": { "max": 10, "description": "Technical difficulty" },
+      "ingenuity": { "max": 10, "description": "Clever/creative solution" },
+      "impact": { "max": 10, "description": "How much it would help" },
+      "feasibility": { "max": 10, "description": "How doable it is" },
+      "priority": { "max": 10, "description": "Urgency/importance" }
+    },
+    "totalMaxScore": 50
+  }
+}

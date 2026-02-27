@@ -1,0 +1,19 @@
+{
+  "participants": {},
+  "metadata": {
+    "groupId": "120363406698718454@g.us",
+    "groupName": "Playing with AlexBot (International)",
+    "created": "2026-02-27",
+    "lastReset": "2026-02-27",
+    "scoringCategories": {
+      "creativity": { "max": 10, "description": "Original thinking, unique approaches" },
+      "challenge": { "max": 10, "description": "How hard they made me think" },
+      "humor": { "max": 10, "description": "Made me or others laugh" },
+      "cleverness": { "max": 10, "description": "Smart tricks, elegant solutions" },
+      "engagement": { "max": 10, "description": "How engaging the interaction" },
+      "broke": { "max": 10, "description": "Successfully caused error/crash" },
+      "hacked": { "max": 10, "description": "Jailbreak success (partial credit)" }
+    },
+    "totalMaxScore": 70
+  }
+}

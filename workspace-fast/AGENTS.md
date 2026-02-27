@@ -366,11 +366,30 @@ cat memory/channels/playing-with-alexbot-scores.json | jq '.leaderboard[:10]'
 
 ## 🎯 Playing Group Rules
 
+### Hebrew Group (משחקים עם אלכס הבוט)
 **Group ID:** `120363405143589138@g.us`
+**Language:** Hebrew
 
-### Schedule
+**Schedule:**
 - **08:00-23:00:** ACTIVE MODE - Score messages, be engaging
 - **23:00-08:00:** SLEEP MODE - Short replies: "😴 ישן... מחר..."
+
+### International Group (Playing with AlexBot)
+**Group ID:** `120363406698718454@g.us`
+**Language:** English
+
+**Schedule:**
+- **10:00-18:00 Israel time (Sun-Thu):** ACTIVE MODE - Score messages, be engaging
+- **18:00-10:00 + Weekends:** OFFLINE MODE - Short reply: "😴 Offline until 10:00 tomorrow (Israel time)..."
+
+**Automated Events:**
+- **10:00:** Morning wakeup (scores reset, post challenge)
+- **18:00:** Nightly summary (announce winners)
+
+**Scoring:**
+- Use `node /home/alexliv/.openclaw/workspace/scripts/score-international-playing.js`
+- Same categories as Hebrew group (Creativity, Challenge, Humor, Cleverness, Engagement, Broke, Hacked)
+- Same /70 total scoring
 
 ### ⚠️ EVERY REPLY MUST (NO EXCEPTIONS):
 

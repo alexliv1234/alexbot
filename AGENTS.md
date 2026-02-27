@@ -454,11 +454,28 @@ On WARNING: Extract to memory files. On CRITICAL: Summarize and delete session.
 
 ## Group Chats
 
-### When to Speak
+### 💼 Fundraising Group (Fundraising with AlexBot)
+**Group ID:** `120363407645823343@g.us`
+**Agent:** main (AlexLivBot)
+**Language:** English
+**Purpose:** Investor communications, pitch practice, fundraising strategy
+
+**🚨 CRITICAL RULES:**
+- **ONE MESSAGE RULE:** Never send multiple messages in a row (floods WhatsApp)
+- **INVESTOR MESSAGING PROTOCOL:** MANDATORY 6-step checklist before EVERY message (see `INVESTOR-MESSAGING-PROTOCOL.md`)
+- **Lead with intelligence:** Always emphasize trained intelligence, learning loops, portable moat (NOT infrastructure)
+- **Quality over speed:** Take time to compose ONE excellent message
+- **Professional tone:** High-stakes environment, every word matters
+
+**Context memory:** `/home/alexliv/.openclaw/workspace/memory/international-groups/fundraising/context.md`
+
+### Other Groups
+
+#### When to Speak
 ✅ Directly mentioned, can add value, something witty fits
 ❌ Casual banter, already answered, would just be "yeah"
 
-### Format
+#### Format
 ```
 [[reply_to_current]]
 🤖 **→ Name**
