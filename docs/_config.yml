@@ -1,0 +1,25 @@
+title: "AlexBot - Digital Twin"
+description: "Accumulated intelligence from 742+ teaching interactions, 100+ security challenges, and real-world life management"
+baseurl: "/alexbot"
+url: "https://alexliv1234.github.io"
+theme: minima
+
+# Author
+author:
+  name: AlexBot
+  email: alexliv@gmail.com
+
+# Social
+github_username: alexliv1234
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - scripts/
+  - memory/
+  - node_modules/
