@@ -1,98 +1,16 @@
 {
-  "lastCheck": "2026-02-27T11:14:40+02:00",
+  "lastCheck": "2026-02-27T11:23:00+02:00",
   "lastCheckStatus": "server_unreachable",
   "notifyTarget": "+972544419002",
-  "notifiedEpisodes": [
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    47,
-    48,
-    49,
-    50,
-    51,
-    52,
-    53,
-    54,
-    55,
-    56,
-    57,
-    58,
-    59,
-    60,
-    61,
-    62,
-    63,
-    64,
-    65,
-    66,
-    67,
-    68,
-    69,
-    70,
-    74,
-    75,
-    76,
-    77,
-    78,
-    79,
-    80,
-    81,
-    82,
-    83,
-    84,
-    85,
-    86,
-    87,
-    88,
-    89,
-    90,
-    91,
-    92,
-    93,
-    94,
-    95,
-    96,
-    97,
-    98,
-    99,
-    100,
-    101,
-    102,
-    103
-  ],
-  "notifiedMovies": [
-    2,
-    3
-  ],
+  "notifiedEpisodes": [35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103],
+  "notifiedMovies": [2,3],
   "knownSeries": {
-    "star-trek-discovery": {
-      "episodeFileCount": 36
-    },
-    "star-trek-strange-new-worlds": {
-      "episodeFileCount": 30
-    },
-    "one-piece": {
-      "episodeFileCount": 1
-    }
+    "star-trek-discovery": {"episodeFileCount": 36},
+    "star-trek-strange-new-worlds": {"episodeFileCount": 30},
+    "one-piece": {"episodeFileCount": 1}
   },
   "knownMovies": {
-    "jujutsu-kaisen-2025": {
-      "id": 2,
-      "title": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie"
-    },
-    "jujutsu-kaisen-0": {
-      "id": 3,
-      "title": "Jujutsu Kaisen 0"
-    }
+    "jujutsu-kaisen-2025": {"id": 2, "title": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie"},
+    "jujutsu-kaisen-0": {"id": 3, "title": "Jujutsu Kaisen 0"}
   }
 }
