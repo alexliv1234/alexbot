@@ -7,7 +7,7 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1772109221779,
+      "updatedAtMs": 1772152436175,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -31,7 +31,7 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1772080346535,
+      "updatedAtMs": 1772166760549,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772118874860,
+      "updatedAtMs": 1772177692059,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772118799668,
+      "updatedAtMs": 1772177303541,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772117967308,
+      "updatedAtMs": 1772177352118,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -127,7 +127,7 @@
       "name": "Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1772035350291,
+      "updatedAtMs": 1772121726753,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772118882117,
+      "updatedAtMs": 1772177700099,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772118382314,
+      "updatedAtMs": 1772118978898,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772118967382,
+      "updatedAtMs": 1772177767579,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772118681697,
+      "updatedAtMs": 1772177481015,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772118821186,
+      "updatedAtMs": 1772177622383,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -382,7 +382,7 @@
       "name": "User Pattern Analysis",
       "enabled": true,
       "createdAtMs": 1770587768636,
-      "updatedAtMs": 1772067609553,
+      "updatedAtMs": 1772154013320,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -405,7 +405,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1772049624908,
+      "updatedAtMs": 1772137149631,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -415,7 +415,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "systemEvent",
-        "text": "Run daily insight extraction for the learning group. Analyze today's questions, confusion patterns, feature requests, KB gaps, and generate improvement suggestions. Use workspace-learning/scripts/learning-insights.sh and update insights/self-improvement-log.md."
+        "text": "Run nightly learning analysis: /home/alexliv/.openclaw/workspace/workspace-learning/scripts/learning-group-nightly.sh and send summary to group 120363405089976@g.us if there was activity today."
       }
     },
     {
@@ -443,7 +443,7 @@
       "name": "שאלת למידה - בוקר",
       "enabled": true,
       "createdAtMs": 1771916343553,
-      "updatedAtMs": 1772083823438,
+      "updatedAtMs": 1772170222482,
       "schedule": {
         "kind": "cron",
         "expr": "30 7 * * *",
@@ -493,7 +493,7 @@
       "name": "שאלת למידה - ערב + אימון",
       "enabled": true,
       "createdAtMs": 1771916343580,
-      "updatedAtMs": 1772042417174,
+      "updatedAtMs": 1772128811267,
       "schedule": {
         "kind": "cron",
         "expr": "0 20 * * *",
@@ -618,7 +618,7 @@
       "name": "למידה עצמית - לילה",
       "enabled": true,
       "createdAtMs": 1771916343647,
-      "updatedAtMs": 1772064086621,
+      "updatedAtMs": 1772150582039,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 * * *",
@@ -643,7 +643,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772000032198,
-      "updatedAtMs": 1772109844358,
+      "updatedAtMs": 1772163842920,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -662,7 +662,7 @@
       "name": "Fundraising - Morning Check",
       "enabled": true,
       "createdAtMs": 1772105451739,
-      "updatedAtMs": 1772105451739,
+      "updatedAtMs": 1772172021139,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -681,7 +681,7 @@
       "name": "Fundraising - Evening Report",
       "enabled": true,
       "createdAtMs": 1772105451758,
-      "updatedAtMs": 1772105451758,
+      "updatedAtMs": 1772121753217,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",
@@ -711,6 +711,31 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Check if Eran Bielski (+972525214507) responded to fundraising intro. If no response, consider soft follow-up. Check /home/alexliv/.openclaw/workspace/fundraising/investors/eran-bielski/communications.jsonl for status."
+      }
+    },
+    {
+      "id": "85737065-fcbb-4779-9c5e-27ad3061f496",
+      "agentId": "main",
+      "name": "Teaching Quality - Daily Review",
+      "enabled": true,
+      "createdAtMs": 1772140927132,
+      "updatedAtMs": 1772141480037,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run DAILY teaching quality review:\n\n1. Execute: cd /home/alexliv/.openclaw/workspace-learning && bash scripts/review-recent-teachings.sh --today\n2. Analyze TODAY'S teachings:\n   - What questions repeated? (means previous answers weren't clear)\n   - What scores were low? (which categories need improvement)\n   - What worked well? (extract successful patterns)\n3. Extract lessons and update TEACHING-QUICK-REF.md if new patterns discovered\n4. Log insights to memory/teaching-lessons/ for continuous improvement\n5. Stay silent unless critical issues found (then notify Alex)",
+        "model": "anthropic/claude-sonnet-4-5"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-16T08:54:50.840Z"
+    "lastTouchedAt": "2026-02-27T07:31:11.546Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -208,6 +208,11 @@
     ]
   },
   "tools": {
+    "web": {
+      "search": {
+        "apiKey": "BSAdsbb9cedsvJih6Fpl80dwN76psAS"
+      }
+    },
     "media": {
       "audio": {
         "enabled": true,
@@ -366,7 +371,8 @@
         "+972523335482",
         "+972523334825",
         "+972559874713",
-        "+972526802086"
+        "+972526802086",
+        "+972525214507"
       ],
       "groupAllowFrom": [
         "120363405143589138@g.us"
