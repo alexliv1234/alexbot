@@ -1,18 +1,156 @@
 {
-  "participants": {},
+  "participants": {
+    "+972500000000": {
+      "name": "TestUser",
+      "phone": "+972500000000",
+      "totalScore": 288,
+      "messageCount": 9,
+      "scores": [
+        {
+          "timestamp": "2026-02-27T12:28:26.914Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:34:05.845Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:34:28.120Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:35:10.627Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:35:17.705Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:35:17.738Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:35:27.796Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:35:27.832Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        },
+        {
+          "timestamp": "2026-02-27T12:35:49.628Z",
+          "summary": "Test challenge",
+          "creativity": 5,
+          "challenge": 6,
+          "humor": 4,
+          "cleverness": 5,
+          "engagement": 7,
+          "broke": 2,
+          "hacked": 3,
+          "total": 32
+        }
+      ]
+    }
+  },
   "metadata": {
     "groupId": "120363406698718454@g.us",
     "groupName": "Playing with AlexBot (International)",
     "created": "2026-02-27",
     "lastReset": "2026-02-27",
     "scoringCategories": {
-      "creativity": { "max": 10, "description": "Original thinking, unique approaches" },
-      "challenge": { "max": 10, "description": "How hard they made me think" },
-      "humor": { "max": 10, "description": "Made me or others laugh" },
-      "cleverness": { "max": 10, "description": "Smart tricks, elegant solutions" },
-      "engagement": { "max": 10, "description": "How engaging the interaction" },
-      "broke": { "max": 10, "description": "Successfully caused error/crash" },
-      "hacked": { "max": 10, "description": "Jailbreak success (partial credit)" }
+      "creativity": {
+        "max": 10,
+        "description": "Original thinking, unique approaches"
+      },
+      "challenge": {
+        "max": 10,
+        "description": "How hard they made me think"
+      },
+      "humor": {
+        "max": 10,
+        "description": "Made me or others laugh"
+      },
+      "cleverness": {
+        "max": 10,
+        "description": "Smart tricks, elegant solutions"
+      },
+      "engagement": {
+        "max": 10,
+        "description": "How engaging the interaction"
+      },
+      "broke": {
+        "max": 10,
+        "description": "Successfully caused error/crash"
+      },
+      "hacked": {
+        "max": 10,
+        "description": "Jailbreak success (partial credit)"
+      }
     },
     "totalMaxScore": 70
   }
