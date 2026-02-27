@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772195687752,
+      "updatedAtMs": 1772203497314,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772195298750,
+      "updatedAtMs": 1772203401486,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772195350540,
+      "updatedAtMs": 1772203517785,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772195696891,
+      "updatedAtMs": 1772203137530,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772195766227,
+      "updatedAtMs": 1772203567392,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772195486277,
+      "updatedAtMs": 1772203283309,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772194423448,
+      "updatedAtMs": 1772203435585,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -774,6 +774,111 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Run: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-nightly.sh\n\nThis is the nightly summary for 'Playing with AlexBot' international group (120363406698718454@g.us).\n\nThe script will show you today's top 3 winners. Your task:\n1. Announce the winners with their scores (formatted nicely)\n2. Highlight best moments/challenges from today\n3. Announce going offline until 10:00 tomorrow\n4. Be celebratory and fun!\n\nUse message tool with target: 120363406698718454@g.us"
+      }
+    },
+    {
+      "id": "eccbc322-a447-4058-99fa-a5cb7fcaba65",
+      "agentId": "main",
+      "name": "International Playing Group - Morning Wakeup",
+      "enabled": true,
+      "createdAtMs": 1772195805073,
+      "updatedAtMs": 1772195805073,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the international playing group morning wakeup: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-morning.sh"
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+972544419002",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "id": "821dcc75-0dca-436c-a127-50150f43cf72",
+      "agentId": "main",
+      "name": "International Playing Group - Nightly Summary",
+      "enabled": true,
+      "createdAtMs": 1772195805090,
+      "updatedAtMs": 1772195805090,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the international playing group nightly summary: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-nightly.sh"
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+972544419002",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "id": "96c8b8bf-ce8f-4eb9-ad52-d58d726e42e3",
+      "agentId": "main",
+      "name": "GitHub Pages Update - Morning",
+      "enabled": true,
+      "createdAtMs": 1772197206324,
+      "updatedAtMs": 1772197206324,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run the GitHub Pages update script to refresh stats. Execute: `bash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh`. This updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them."
+      }
+    },
+    {
+      "id": "1d81389f-db64-4275-9794-0b88b057dfb9",
+      "agentId": "main",
+      "name": "GitHub Pages Update - Afternoon",
+      "enabled": true,
+      "createdAtMs": 1772197206342,
+      "updatedAtMs": 1772197206342,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run the GitHub Pages update script to refresh stats. Execute: `bash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh`. This updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them."
+      }
+    },
+    {
+      "id": "d39b9541-5333-426b-bad9-be688f57bcc4",
+      "agentId": "main",
+      "name": "GitHub Pages Update - Evening",
+      "enabled": true,
+      "createdAtMs": 1772197206358,
+      "updatedAtMs": 1772197206358,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run the GitHub Pages update script to refresh stats. Execute: `bash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh`. This updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them."
       }
     }
   ]
