@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-27T07:31:11.546Z"
+    "lastTouchedAt": "2026-02-27T12:02:47.223Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -299,6 +299,36 @@
           "id": "120363419152463161@g.us"
         }
       }
+    },
+    {
+      "agentId": "fast",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "group",
+          "id": "120363406698718454@g.us"
+        }
+      }
+    },
+    {
+      "agentId": "learning",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "group",
+          "id": "120363408194003382@g.us"
+        }
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "whatsapp",
+        "peer": {
+          "kind": "group",
+          "id": "120363407645823343@g.us"
+        }
+      }
     }
   ],
   "audio": {
@@ -392,6 +422,15 @@
           }
         },
         "120363406891168398@g.us": {
+          "requireMention": false
+        },
+        "120363406698718454@g.us": {
+          "requireMention": false
+        },
+        "120363408194003382@g.us": {
+          "requireMention": false
+        },
+        "120363407645823343@g.us": {
           "requireMention": false
         }
       },
