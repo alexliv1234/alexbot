@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772178890406,
+      "updatedAtMs": 1772179484134,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772178199454,
+      "updatedAtMs": 1772179100244,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772177352118,
+      "updatedAtMs": 1772179150008,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772178898914,
+      "updatedAtMs": 1772179492940,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772178379946,
+      "updatedAtMs": 1772178991862,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772178968498,
+      "updatedAtMs": 1772179567305,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772178680918,
+      "updatedAtMs": 1772179282685,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772178820528,
+      "updatedAtMs": 1772179419482,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -543,7 +543,7 @@
       "name": "הפעלת Dreame - כל יומיים",
       "enabled": true,
       "createdAtMs": 1771916343607,
-      "updatedAtMs": 1772006442106,
+      "updatedAtMs": 1772179216693,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 */2 * *",
