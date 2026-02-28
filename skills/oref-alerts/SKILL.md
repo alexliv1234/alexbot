@@ -1,131 +1,107 @@
-# Oref Alerts - Home Front Command Alert Monitor
+---
+name: oref-alerts
+description: Monitor Israeli Home Front Command alerts and send real-time rocket/missile warnings to WhatsApp groups
+---
+
+*OREF ALERTS - HOME FRONT COMMAND ALERT MONITOR*
 
 Monitor the Israeli Home Front Command (Pikud HaOref) alerts API and send real-time alerts to a WhatsApp group when rockets/missiles are detected in configured regions.
 
-## Purpose
+*PURPOSE*
 
 Provide life-saving real-time alerts to community WhatsApp groups when the Home Front Command issues warnings for their area.
 
-## How It Works
+*HOW IT WORKS*
 
-1. **Continuous Polling:** Daemon runs 24/7, checking the Oref API every 10 seconds
-2. **Region Filtering:** Only alerts for configured regions (e.g., "ראשון לציון - מערב") are sent
-3. **Deduplication:** Each alert sent once (tracked via state file)
-4. **Auto-recovery:** If API fails 3 times in a row, alerts the owner and resets
-5. **Systemd Integration:** Auto-restarts on crash, runs on boot
+* *Continuous Polling:* Daemon runs 24/7, checking the Oref API every 10 seconds
+* *Region Filtering:* Only alerts for configured regions (e.g., "ראשון לציון - מערב") are sent
+* *Deduplication:* Each alert sent once (tracked via state file)
+* *Auto-recovery:* If API fails 3 times in a row, alerts the owner and resets
+* *Systemd Integration:* Auto-restarts on crash, runs on boot
 
-## Configuration
+*CONFIGURATION*
 
-Edit `config.json`:
+Edit ```config.json```:
 
-```json
+```
 {
-  "groupJid": "120363XXXXXXXXX@g.us",  // WhatsApp group JID
-  "regions": ["ראשון לציון - מערב"],     // Target regions (exact match)
-  "checkIntervalSeconds": 10,            // How often to check API
-  "shelterTime": 90,                     // Time to reach shelter (seconds)
-  "alertOwner": "+972544419002"          // Who to alert on system failures
+  "groupJid": "120363XXXXXXXXX@g.us",
+  "regions": ["ראשון לציון - מערב"],
+  "checkIntervalSeconds": 10,
+  "shelterTime": 90,
+  "alertOwner": "+972544419002"
 }
 ```
 
-## Setup
+*SETUP*
 
-### 1. Get Group JID
+*1. Get Group JID*
 
 Add the bot (+972544419002) to the target WhatsApp group as admin, then check logs or use:
 
-```bash
-# List recent groups
+```
 grep -r "120363" ~/.openclaw/data/sessions.json
 ```
 
-Update `config.json` with the group JID.
+Update ```config.json``` with the group JID.
 
-### 2. Install Systemd Service
+*2. Install Systemd Service*
 
-```bash
-# Copy service file to systemd
+```
 sudo cp oref-alerts.service /etc/systemd/system/
-
-# Reload systemd
 sudo systemctl daemon-reload
-
-# Enable (start on boot)
 sudo systemctl enable oref-alerts
-
-# Start now
 sudo systemctl start oref-alerts
-
-# Check status
 sudo systemctl status oref-alerts
 ```
 
-### 3. Monitor Logs
+*3. Monitor Logs*
 
-```bash
-# Daemon logs (includes check status every 60s)
+```
 tail -f logs/daemon.log
-
-# Alert history
 tail -f logs/alerts.log
-
-# Systemd logs
 sudo journalctl -u oref-alerts -f
 ```
 
-## Manual Testing
+*MANUAL TESTING*
 
-### Test Alert Check (Single Run)
+*Test Alert Check (Single Run)*
 
-```bash
-# Dry run - see what would happen
+```
 bash check-alerts.sh
-
-# Check logs
 cat logs/alerts.log
 ```
 
-### Send Test Alert
+*Stop/Start Daemon*
 
-```bash
-# Temporarily modify check-alerts.sh to send a test message
-# Or manually call openclaw message send
 ```
-
-### Stop/Start Daemon
-
-```bash
-# Stop
 sudo systemctl stop oref-alerts
-
-# Start
 sudo systemctl start oref-alerts
-
-# Restart
 sudo systemctl restart oref-alerts
 ```
 
-## Files
+*FILES*
 
 ```
 oref-alerts/
-├── SKILL.md                 # This file
-├── config.json              # Configuration
-├── check-alerts.sh          # Single alert check (called by daemon)
-├── daemon.sh                # Main loop (runs continuously)
-├── oref-alerts.service      # Systemd service definition
+├── SKILL.md
+├── config.json
+├── check-alerts.sh
+├── daemon.sh
+├── oref-alerts.service
 ├── state/
-│   └── last-alert.json      # Deduplication state
+│   └── last-alert.json
 └── logs/
-    ├── daemon.log           # Daemon status + errors
-    ├── alerts.log           # Alert history
-    └── systemd.log          # Systemd stdout/stderr
+    ├── daemon.log
+    ├── alerts.log
+    └── systemd.log
 ```
 
-## Alert Format
+*ALERT FORMAT*
 
-When an alert is detected for the configured region:
+The system sends three types of messages based on alert type:
 
+**1. Actual Alert (Immediate Danger)**
 ```
 🚨 *התרעה מפיקוד העורף*
 
@@ -134,51 +110,86 @@ When an alert is detected for the configured region:
 
 ⏱️ *זמן למיגון: 90 שניות*
 
+📋 *הוראות:*
 היכנסו למרחב מוגן ושהו בו 10 דקות
+
+🤖 *מערכת בוטים - שכונת נווה ים*
 
 🕐 28/02/2026 18:45:32
 ```
 
-## Troubleshooting
+**2. Advance Warning (Preparation)**
+```
+🚨 *התרעה מפיקוד העורף*
 
-### Daemon Not Running
+*אזור:* ראשון לציון - מערב
+*סוג התרעה:* ירי רקטות וטילים בדקות הקרובות
 
-```bash
-# Check status
+⚠️ *התראה מקדימה*
+
+📋 *הוראות:*
+היו ליד המרחב המוגן
+
+🤖 *מערכת בוטים - שכונת נווה ים*
+
+🕐 28/02/2026 18:45:32
+```
+
+**3. All-Clear (Safe to Exit)**
+```
+✅ *עדכון מפיקוד העורף*
+
+*אזור:* ראשון לציון - מערב
+*סטטוס:* ניתן לצאת מהמרחב המוגן
+
+📋 *הוראות:*
+ניתן לצאת מהמרחב המוגן
+
+🤖 *מערכת בוטים - שכונת נווה ים*
+
+🕐 28/02/2026 18:45:32
+```
+
+**Detection Logic:**
+- Contains "ניתן לצאת" → All-clear (✅, no shelter time)
+- Contains "בדקות הקרובות" → Advance warning (⚠️, no shelter time)
+- Everything else → Actual alert (🚨, WITH shelter time)
+
+*TROUBLESHOOTING*
+
+*Daemon Not Running*
+
+```
 sudo systemctl status oref-alerts
-
-# View recent logs
 sudo journalctl -u oref-alerts -n 50
-
-# Restart
 sudo systemctl restart oref-alerts
 ```
 
-### No Alerts Received
+*No Alerts Received*
 
-1. Check if alerts exist: `curl -s -H "Referer: https://www.oref.org.il/" -H "X-Requested-With: XMLHttpRequest" "https://www.oref.org.il/WarningMessages/alert/alerts.json"`
-2. Check region spelling in `config.json` (must match exactly)
-3. Check logs: `tail -f logs/daemon.log`
-4. Verify group JID is correct
+* Check if alerts exist: ```curl -s -H "Referer: https://www.oref.org.il/" -H "X-Requested-With: XMLHttpRequest" "https://www.oref.org.il/WarningMessages/alert/alerts.json"```
+* Check region spelling in ```config.json``` (must match exactly)
+* Check logs: ```tail -f logs/daemon.log```
+* Verify group JID is correct
 
-### API Failures
+*API Failures*
 
 If you receive API failure alerts:
 
-1. Check internet connectivity
-2. Verify API is accessible: `curl -I https://www.oref.org.il/`
-3. Check if API changed format (unlikely but possible)
-4. Review logs: `cat logs/daemon.log`
+* Check internet connectivity
+* Verify API is accessible: ```curl -I https://www.oref.org.il/```
+* Check if API changed format (unlikely but possible)
+* Review logs: ```cat logs/daemon.log```
 
-## Security Notes
+*SECURITY NOTES*
 
-- Runs as user `alexliv` (not root)
-- Only sends to configured WhatsApp group
-- State file prevents duplicate alerts
-- API failures trigger owner notification (prevents silent failure)
-- Logs rotated automatically by systemd
+* Runs as user ```alexliv``` (not root)
+* Only sends to configured WhatsApp group
+* State file prevents duplicate alerts
+* API failures trigger owner notification (prevents silent failure)
+* Logs rotated automatically by systemd
 
-## Credits
+*CREDITS*
 
 Built for community safety by AlexBot.
 API: Home Front Command (https://www.oref.org.il/)

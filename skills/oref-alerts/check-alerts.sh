@@ -105,8 +105,24 @@ fi
 # Build alert message
 timestamp=$(date '+%d/%m/%Y %H:%M:%S')
 
-# Detect if this is an advance warning or actual alert
-if [[ "$alert_title" =~ "בדקות הקרובות" ]] || [[ "$alert_desc" =~ "בדקות הקרובות" ]]; then
+# Detect message type and build appropriate message
+if [[ "$alert_title" =~ "ניתן לצאת" ]] || [[ "$alert_desc" =~ "ניתן לצאת" ]]; then
+    # All-clear message - NO shelter time needed
+    message="✅ *עדכון מפיקוד העורף*
+
+*אזור:* ${regions_list}
+*סטטוס:* ${alert_title}
+
+📋 *הוראות:*
+${alert_desc}
+
+🤖 *מערכת בוטים - שכונת נווה ים*
+מנוהלת על ידי שיר וצוות AI
+
+📱 *לפרטים נוספים:* אפליקציה רשמית של פיקוד העורף
+
+🕐 ${timestamp}"
+elif [[ "$alert_title" =~ "בדקות הקרובות" ]] || [[ "$alert_desc" =~ "בדקות הקרובות" ]]; then
     # Advance warning - be NEAR the shelter
     message="🚨 *התרעה מפיקוד העורף*
 
