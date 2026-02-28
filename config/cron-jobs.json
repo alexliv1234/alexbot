@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772294087717,
+      "updatedAtMs": 1772294719052,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772293399243,
+      "updatedAtMs": 1772294300651,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772292551154,
+      "updatedAtMs": 1772294350118,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772294096343,
+      "updatedAtMs": 1772294725427,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772293583189,
+      "updatedAtMs": 1772294179864,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772294166968,
+      "updatedAtMs": 1772294767550,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772293882033,
+      "updatedAtMs": 1772294480080,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772294019170,
+      "updatedAtMs": 1772294622022,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -681,7 +681,7 @@
       "name": "Fundraising - Evening Report",
       "enabled": true,
       "createdAtMs": 1772105451758,
-      "updatedAtMs": 1772208030084,
+      "updatedAtMs": 1772294442686,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",
@@ -692,25 +692,6 @@
       "payload": {
         "kind": "systemEvent",
         "text": "🌆 Evening fundraising report: Run bash fundraising/scripts/daily-report.sh to generate today's summary. Send the report to Alex (+972544419002) using the message tool with a summary of today's activity, follow-ups needed, and recommended next actions."
-      }
-    },
-    {
-      "id": "76b1d9c0-7c53-4d1d-a952-29c099df511a",
-      "agentId": "main",
-      "name": "Eran Bielski - Follow-up Check",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1772117581307,
-      "updatedAtMs": 1772117581307,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-02-28T16:00:00.000Z"
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "Check if Eran Bielski (+972525214507) responded to fundraising intro. If no response, consider soft follow-up. Check /home/alexliv/.openclaw/workspace/fundraising/investors/eran-bielski/communications.jsonl for status."
       }
     },
     {
