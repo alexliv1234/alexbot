@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772308508391,
+      "updatedAtMs": 1772309084030,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772307800526,
+      "updatedAtMs": 1772308702972,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772306958297,
+      "updatedAtMs": 1772308755564,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772308514995,
+      "updatedAtMs": 1772309095752,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772307980204,
+      "updatedAtMs": 1772308582227,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772308568881,
+      "updatedAtMs": 1772309167037,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772308423951,
+      "updatedAtMs": 1772309022701,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -405,7 +405,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1772222433139,
+      "updatedAtMs": 1772308828150,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -700,7 +700,7 @@
       "name": "Teaching Quality - Daily Review",
       "enabled": true,
       "createdAtMs": 1772140927132,
-      "updatedAtMs": 1772222554414,
+      "updatedAtMs": 1772308964649,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
