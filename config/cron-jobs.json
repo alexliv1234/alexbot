@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772258068306,
+      "updatedAtMs": 1772258671147,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772257399127,
+      "updatedAtMs": 1772258299386,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772256551274,
+      "updatedAtMs": 1772258348758,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772258076713,
+      "updatedAtMs": 1772258679865,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772257578748,
+      "updatedAtMs": 1772258177890,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772258166223,
+      "updatedAtMs": 1772258765867,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772257881926,
+      "updatedAtMs": 1772258484701,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772258020542,
+      "updatedAtMs": 1772258620517,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -662,7 +662,7 @@
       "name": "Fundraising - Morning Check",
       "enabled": true,
       "createdAtMs": 1772105451739,
-      "updatedAtMs": 1772172021139,
+      "updatedAtMs": 1772258427538,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -830,7 +830,7 @@
       "name": "GitHub Pages Update - Morning",
       "enabled": true,
       "createdAtMs": 1772197206324,
-      "updatedAtMs": 1772197206324,
+      "updatedAtMs": 1772258452495,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
