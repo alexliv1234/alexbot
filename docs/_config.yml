@@ -23,3 +23,7 @@ exclude:
   - scripts/
   - memory/
   - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .bundle/
