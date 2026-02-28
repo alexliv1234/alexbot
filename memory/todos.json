@@ -166,7 +166,50 @@
       ]
     }
   ],
-  "nextId": 8,
+  {
+      "id": 8,
+      "title": "Optimize Oref Alerts - Python Wrapper to Reduce Cost 99%",
+      "priority": "P0",
+      "status": "todo",
+      "tags": [
+        "oref-alerts",
+        "cost-optimization",
+        "infrastructure",
+        "urgent"
+      ],
+      "created": "2026-03-01",
+      "due": null,
+      "notes": "**CRITICAL COST ISSUE:** Current implementation costs $5,200/month!\n\n**Problem:** Isolated session every minute = 40k tokens input each time.\n- 43,200 checks/month × $0.12 = $5,200/month ❌\n\n**Recommended Solution:** Python wrapper script\n- Polls API every minute (no LLM cost)\n- Only calls LLM for formatting alerts when needed\n- **Expected cost: $77/month** (99% reduction!) ✅\n\n**Worst-case scenario planning:**\n- Oct 7 2023: 4,113 alerts in ONE DAY (57% of first 3 weeks)\n- 40% occurred in first few hours\n- Worst month estimate: ~10,000-15,000 alerts\n- With Python wrapper: Still only ~$1,000-1,500/month\n\n**Implementation:**\n1. Write Python script with API polling loop\n2. Deduplication logic (already exists in bash)\n3. Integrate with OpenClaw messaging\n4. Replace current cron job\n5. Test with real alerts\n6. Monitor costs\n\n**Validation needed with Alex!** RBA flagged this as unsustainable.",
+      "history": [
+        {
+          "date": "2026-03-01",
+          "action": "נוסף לבקשת RBA - עלות נוכחית בלתי אפשרית ($5,200/חודש)"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Community Services Brainstorm - Services for Neighborhood Groups",
+      "priority": "P2",
+      "status": "todo",
+      "tags": [
+        "whatsapp",
+        "community",
+        "automation",
+        "brainstorming"
+      ],
+      "created": "2026-03-01",
+      "due": null,
+      "notes": "רעיונות לשירותים שהבוט יכול לספק לקבוצות קהילה ושכונה:\n\n**שירותי התראות:**\n- 🚨 התרעות פיקוד העורף (קיים)\n- 🚒 התרעות כבאות/מד\"א באזור\n- 🌧️ התרעות מזג אוויר קיצוני\n- 🚗 התרעות על גניבות/פריצות באזור\n\n**ניהול קהילה:**\n- 📅 יומן אירועים משותף\n- 🔧 ניהול תורנויות (שמירה, ניקיון)\n- 📢 הודעות רשמיות מוועד הבית\n- 📊 סקרים ו-polls\n\n**שירותי מידע:**\n- ⚡ תקלות חשמל/מים/גז באזור\n- 🚌 זמני הגעת תחבורה ציבורית\n- 🏪 מבצעים בסופרים באזור\n- 📰 חדשות מקומיות\n\n**שירותים חברתיים:**\n- 🎉 ברכות ליום הולדת\n- 🤝 שיתוף משאבים (כלי עבודה, רכב)\n- 📦 התראות על חבילות שהגיעו\n- 🆘 קריאות לעזרה דחופה\n\n**צריך לבדוק:** איזה שירותים יהיו בעלי ערך אמיתי ושווה $77/חודש או יותר.",
+      "history": [
+        {
+          "date": "2026-03-01",
+          "action": "נוסף לבקשת RBA - מציאת ערך נוסף לקהילה"
+        }
+      ]
+    }
+  ],
+  "nextId": 10,
   "projects": [],
   "tags": [
     "work",
