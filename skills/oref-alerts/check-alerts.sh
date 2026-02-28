@@ -18,7 +18,7 @@ ALERT_OWNER=$(jq -r '.alertOwner' "$CONFIG")
 
 # Initialize state file if missing
 if [[ ! -f "$STATE_FILE" ]]; then
-    echo '{"lastAlertId": null, "lastAlertTime": null}' > "$STATE_FILE"
+    echo '{"lastAlertId": null, "lastAlertTime": null, "lastContent": null, "lastContentTime": null}' > "$STATE_FILE"
 fi
 
 # Fetch alerts
@@ -64,21 +64,43 @@ if [[ ${#matched_regions[@]} -eq 0 ]]; then
     exit 0
 fi
 
+# Content-based deduplication (5 minute window)
+regions_list=$(printf '%s\n' "${matched_regions[@]}" | sort -u | paste -sd, -)
+content_hash=$(echo "${regions_list}|${alert_title}" | md5sum | cut -d' ' -f1)
+last_content=$(jq -r '.lastContent // ""' "$STATE_FILE")
+last_content_time=$(jq -r '.lastContentTime // ""' "$STATE_FILE")
+
+if [[ "$content_hash" == "$last_content" ]] && [[ -n "$last_content_time" ]]; then
+    # Check if within 5 minute window
+    last_epoch=$(date -d "$last_content_time" +%s 2>/dev/null || echo 0)
+    now_epoch=$(date +%s)
+    diff=$((now_epoch - last_epoch))
+    
+    if [[ $diff -lt 300 ]]; then
+        # Same content within 5 minutes - skip duplicate
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] DUPLICATE CONTENT SKIPPED: $alert_id (same as previous alert within 5 min)" >> "$LOG_DIR/alerts.log"
+        exit 0
+    fi
+fi
+
 # Build alert message
 timestamp=$(date '+%d/%m/%Y %H:%M:%S')
-regions_list=$(printf '%s\n' "${matched_regions[@]}" | sort -u | paste -sd, -)
 
-message="🚨 *התרעה מפיקוד העורף*
+# Detect if this is an advance warning or actual alert
+if [[ "$alert_title" =~ "בדקות הקרובות" ]] || [[ "$alert_desc" =~ "בדקות הקרובות" ]]; then
+    # Advance warning - be NEAR the shelter
+    message="🚨 *התרעה מפיקוד העורף*
 
 *אזור:* ${regions_list}
 *סוג התרעה:* ${alert_title}
 
-⏱️ *זמן למיגון: ${SHELTER_TIME} שניות*
+⚠️ *התראה מקדימה - היה ליד מרחב מוגן*
 
-📋 *הכנה מהירה:*
+📋 *הכנה:*
 • סגרו חלונות ותריסים
 • קחו טלפון + מטען
-• היכנסו למרחב מוגן
+• היו ליד המרחב המוגן (לא בפנים)
+• המתינו להתראה ממשית
 
 🔄 *חזרה לשיגרה:*
 עד שפיקוד העורף מודיע על חזרה לשיגרה
@@ -86,6 +108,28 @@ message="🚨 *התרעה מפיקוד העורף*
 📱 *מומלץ להתחבר לאפליקציה של פיקוד העורף לעדכונים בזמן אמת*
 
 🕐 ${timestamp}"
+else
+    # Actual alert - get to shelter NOW
+    message="🚨 *התרעה מפיקוד העורף*
+
+*אזור:* ${regions_list}
+*סוג התרעה:* ${alert_title}
+
+⏱️ *זמן למיגון: ${SHELTER_TIME} שניות*
+
+📋 *היכנסו עכשיו למרחב מוגן:*
+• סגרו חלונות ותריסים
+• קחו טלפון + מטען
+• היכנסו למרחב מוגן
+• השאירו דלת פתוחה קלות
+
+🔄 *חזרה לשיגרה:*
+עד שפיקוד העורף מודיע על חזרה לשיגרה
+
+📱 *מומלץ להתחבר לאפליקציה של פיקוד העורף לעדכונים בזמן אמת*
+
+🕐 ${timestamp}"
+fi
 
 # Send to WhatsApp group
 if [[ "$GROUP_JID" != "PLACEHOLDER_GROUP_JID" ]]; then
@@ -106,8 +150,11 @@ else
 fi
 
 # Update state
-jq --arg id "$alert_id" --arg time "$(date -Iseconds)" \
-   '.lastAlertId = $id | .lastAlertTime = $time' \
+jq --arg id "$alert_id" \
+   --arg time "$(date -Iseconds)" \
+   --arg content "$content_hash" \
+   --arg content_time "$(date -Iseconds)" \
+   '.lastAlertId = $id | .lastAlertTime = $time | .lastContent = $content | .lastContentTime = $content_time' \
    "$STATE_FILE" > "$STATE_FILE.tmp" && mv "$STATE_FILE.tmp" "$STATE_FILE"
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Alert processed: $alert_id" >> "$LOG_DIR/alerts.log"

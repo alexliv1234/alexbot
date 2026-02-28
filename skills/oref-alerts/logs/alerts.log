@@ -4,3 +4,27 @@ Sent to 120363425241827782@g.us (id 3EB02DA89E27FAD6A2BF0F)
 Sent to 120363425241827782@g.us (id 3EB000DDA7A26867E9D41D)
 [2026-02-28 22:31:32] ALERT SENT: 134167842820000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
 [2026-02-28 22:31:32] Alert processed: 134167842820000000
+Sent to 120363425241827782@g.us (id 3EB0A8539DF612A9FBBB0E)
+[2026-02-28 22:38:11] ALERT SENT: 134167846760000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
+[2026-02-28 22:38:11] Alert processed: 134167846760000000
+[ERROR] 2026-02-28T22:38:41+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 496, count: 493)
+[ERROR] 2026-02-28T22:38:41+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1311, count: 1309)
+[ERROR] 2026-02-28T22:38:41+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 496, count: 495)
+[ERROR] 2026-02-28T22:38:41+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1311, count: 1310)
+Sent to 120363425241827782@g.us (id 3EB0255F81374C916840BA)
+[2026-02-28 22:38:42] ALERT SENT: 134167847010000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
+[2026-02-28 22:38:42] Alert processed: 134167847010000000
+Sent to 120363425241827782@g.us (id 3EB0B99F8C784532A1350F)
+[2026-02-28 22:39:13] ALERT SENT: 134167847380000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
+[2026-02-28 22:39:13] Alert processed: 134167847380000000
+[ERROR] 2026-02-28T22:45:21+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 504, count: 503)
+Sent to 120363425241827782@g.us (id 3EB0CBA0DBA75E66C0B1A8)
+[2026-02-28 22:45:21] ALERT SENT: 134167851110000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
+[2026-02-28 22:45:21] Alert processed: 134167851110000000
+[ERROR] 2026-02-28T22:45:52+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 508, count: 505)
+[ERROR] 2026-02-28T22:45:52+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 169, count: 167)
+[ERROR] 2026-02-28T22:45:52+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 508, count: 507)
+[ERROR] 2026-02-28T22:45:52+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 169, count: 168)
+Sent to 120363425241827782@g.us (id 3EB057FA0EAD7CDCC1E230)
+[2026-02-28 22:45:52] ALERT SENT: 134167851450000000 to 120363425241827782@g.us for regions: ראשון לציון - מערב
+[2026-02-28 22:45:52] Alert processed: 134167851450000000
