@@ -18,7 +18,7 @@ ALERT_OWNER=$(jq -r '.alertOwner' "$CONFIG")
 
 # Initialize state file if missing
 if [[ ! -f "$STATE_FILE" ]]; then
-    echo '{"lastAlertId": null, "lastAlertTime": null, "lastContent": null, "lastContentTime": null}' > "$STATE_FILE"
+    echo '{"lastAlertId": null, "lastAlertTime": null, "lastContent": null, "lastContentTime": null, "lastRegions": null}' > "$STATE_FILE"
 fi
 
 # Fetch alerts
@@ -64,22 +64,41 @@ if [[ ${#matched_regions[@]} -eq 0 ]]; then
     exit 0
 fi
 
-# Content-based deduplication (5 minute window)
+# Content-based deduplication (2 minute window)
 regions_list=$(printf '%s\n' "${matched_regions[@]}" | sort -u | paste -sd, -)
 content_hash=$(echo "${regions_list}|${alert_title}" | md5sum | cut -d' ' -f1)
 last_content=$(jq -r '.lastContent // ""' "$STATE_FILE")
 last_content_time=$(jq -r '.lastContentTime // ""' "$STATE_FILE")
+last_regions=$(jq -r '.lastRegions // ""' "$STATE_FILE")
 
-if [[ "$content_hash" == "$last_content" ]] && [[ -n "$last_content_time" ]]; then
-    # Check if within 5 minute window
+if [[ -n "$last_content_time" ]]; then
+    # Check if within 2 minute window
     last_epoch=$(date -d "$last_content_time" +%s 2>/dev/null || echo 0)
     now_epoch=$(date +%s)
     diff=$((now_epoch - last_epoch))
     
-    if [[ $diff -lt 300 ]]; then
-        # Same content within 5 minutes - skip duplicate
-        echo "[$(date '+%Y-%m-%d %H:%M:%S')] DUPLICATE CONTENT SKIPPED: $alert_id (same as previous alert within 5 min)" >> "$LOG_DIR/alerts.log"
-        exit 0
+    if [[ $diff -lt 120 ]]; then
+        # Within 2 minute window - check for exact match or subset
+        if [[ "$content_hash" == "$last_content" ]]; then
+            # Exact same content - skip duplicate
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] DUPLICATE CONTENT SKIPPED: $alert_id (exact match within 2 min)" >> "$LOG_DIR/alerts.log"
+            exit 0
+        fi
+        
+        # Check if current regions are subset of previous regions (partial duplicate)
+        all_match=true
+        for region in "${matched_regions[@]}"; do
+            if [[ ! "$last_regions" =~ "$region" ]]; then
+                all_match=false
+                break
+            fi
+        done
+        
+        if [[ "$all_match" == true ]]; then
+            # Current alert is subset of previous - skip duplicate
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] DUPLICATE CONTENT SKIPPED: $alert_id (subset of previous alert within 2 min: $regions_list ⊆ $last_regions)" >> "$LOG_DIR/alerts.log"
+            exit 0
+        fi
     fi
 fi
 
@@ -154,7 +173,8 @@ jq --arg id "$alert_id" \
    --arg time "$(date -Iseconds)" \
    --arg content "$content_hash" \
    --arg content_time "$(date -Iseconds)" \
-   '.lastAlertId = $id | .lastAlertTime = $time | .lastContent = $content | .lastContentTime = $content_time' \
+   --arg regions "$regions_list" \
+   '.lastAlertId = $id | .lastAlertTime = $time | .lastContent = $content | .lastContentTime = $content_time | .lastRegions = $regions' \
    "$STATE_FILE" > "$STATE_FILE.tmp" && mv "$STATE_FILE.tmp" "$STATE_FILE"
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Alert processed: $alert_id" >> "$LOG_DIR/alerts.log"
