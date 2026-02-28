@@ -1,0 +1,16 @@
+[Unit]
+Description=Oref Home Front Command Alert Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=alexliv
+WorkingDirectory=/home/alexliv/.openclaw/workspace/skills/oref-alerts
+ExecStart=/home/alexliv/.openclaw/workspace/skills/oref-alerts/daemon.sh
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/alexliv/.openclaw/workspace/skills/oref-alerts/logs/systemd.log
+StandardError=append:/home/alexliv/.openclaw/workspace/skills/oref-alerts/logs/systemd.log
+
+[Install]
+WantedBy=multi-user.target
