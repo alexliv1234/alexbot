@@ -90,6 +90,55 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ---
 
+## 🚀 Unexplored Tools (To Learn)
+
+### browser
+- **What:** Control web browsers (Chrome, profiles)
+- **Capabilities:** Screenshot, navigate, click, type, fill forms, automation
+- **Potential uses:** 
+  - LinkedIn automation (post updates, engage with content)
+  - Research with screenshots for evidence
+  - Form filling automation
+  - Complex web interactions beyond simple fetch
+- **Status:** 🔴 Never used - waiting for real use case
+- **When to use:** Complex UI interaction, JavaScript-heavy sites, need screenshots
+
+### canvas  
+- **What:** Present/render UI and visual content on paired nodes
+- **Capabilities:** Display web pages, evaluate JavaScript, snapshot rendered output
+- **Potential uses:**
+  - Visual reports or dashboards
+  - Interactive presentations
+  - Data visualization
+  - Real-time monitoring displays
+- **Status:** 🔴 Never used - no current need
+- **When to use:** Need visual/interactive output beyond text
+
+### nodes
+- **What:** Control paired mobile devices/computers
+- **Capabilities:** 
+  - Camera (snap photos, record clips)
+  - Screen recording
+  - Location tracking
+  - Push notifications
+  - Run commands remotely
+  - Invoke custom node functions
+- **Potential uses:**
+  - Send notifications to Alex's phone
+  - Capture photos from phone camera
+  - Get current location for context
+  - Screen record phone activity
+  - Remote command execution on paired devices
+- **Status:** 🟡 Available but no nodes paired yet
+- **Next step:** Ask Alex if he wants to pair his phone
+- **When to use:** Need to interact with physical devices or send mobile notifications
+
+---
+
+**Learning Strategy:** Wait for real use cases before diving deep. Document when opportunities arise.
+
+---
+
 ## Local LLM (Ollama on Windows)
 
 **URL:** http://10.100.102.8:11434
