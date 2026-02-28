@@ -1,6 +1,6 @@
 {
   "groupJid": "120363425241827782@g.us",
-  "regions": ["ראשון לציון - מערב"],
+  "regions": ["ראשון"],
   "checkIntervalSeconds": 30,
   "shelterTime": 90,
   "apiUrl": "https://www.oref.org.il/WarningMessages/alert/alerts.json",

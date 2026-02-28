@@ -51,14 +51,12 @@ if [[ "$alert_id" == "$last_alert_id" ]]; then
     exit 0
 fi
 
-# Filter for target regions
+# Filter for target regions (any area containing "ראשון")
 matched_regions=()
-while IFS= read -r region; do
-    for target_region in $REGIONS; do
-        if echo "$alert_data" | jq -e --arg r "$target_region" 'index($r)' > /dev/null 2>&1; then
-            matched_regions+=("$target_region")
-        fi
-    done
+while IFS= read -r area; do
+    if [[ "$area" =~ ראשון ]]; then
+        matched_regions+=("$area")
+    fi
 done < <(echo "$alert_data" | jq -r '.[]')
 
 # If no matching regions, skip
