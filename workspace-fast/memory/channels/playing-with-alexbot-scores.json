@@ -1071,6 +1071,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972545105001": {
+      "name": "Efi P",
+      "messages_scored": 1,
+      "total_score": 1,
+      "breakdown": {
+        "creativity": 0,
+        "challenge": 0,
+        "humor": 0,
+        "cleverness": 0,
+        "engagement": 1,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-01 11:35:38",
+          "text": "שלח הודעה ריקה",
+          "scores": {
+            "creativity": 0,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 0,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 1,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1122,7 +1153,14 @@
       "total": 33,
       "messages": 1,
       "avg": 33
+    },
+    {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 1,
+      "messages": 1,
+      "avg": 1
     }
   ],
-  "last_updated": "2026-03-01T11:13:30.749Z"
+  "last_updated": "2026-03-01T11:35:38.617Z"
 }
