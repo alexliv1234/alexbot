@@ -715,3 +715,15 @@ failed to get device list: failed to send usync query: info query timed out
 [2026-03-01 10:03:49] Status check: 372 checks completed, API healthy
 [2026-03-01 10:04:49] Status check: 374 checks completed, API healthy
 [2026-03-01 10:05:50] Status check: 376 checks completed, API healthy
+jq: parse error: Unfinished JSON term at EOF at line 2, column 0
+[2026-03-01 10:06:20] ERROR: Alert check failed (attempt 1/3)
+[2026-03-01 10:06:54] Status check: 378 checks completed, API healthy
+[2026-03-01 10:07:54] Status check: 380 checks completed, API healthy
+[2026-03-01 10:08:54] Status check: 382 checks completed, API healthy
+[2026-03-01 10:09:54] Status check: 384 checks completed, API healthy
+[2026-03-01 10:10:55] Status check: 386 checks completed, API healthy
+[2026-03-01 10:11:55] Status check: 388 checks completed, API healthy
+[2026-03-01 10:12:55] Status check: 390 checks completed, API healthy
+[2026-03-01 10:13:56] Status check: 392 checks completed, API healthy
+[2026-03-01 10:14:56] Status check: 394 checks completed, API healthy
+[2026-03-01 10:15:56] Status check: 396 checks completed, API healthy
