@@ -33,16 +33,16 @@
     },
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 3,
-      "total_score": 67,
+      "messages_scored": 4,
+      "total_score": 110,
       "breakdown": {
-        "creativity": 15,
-        "challenge": 13,
-        "humor": 8,
-        "cleverness": 14,
-        "engagement": 14,
+        "creativity": 23,
+        "challenge": 22,
+        "humor": 13,
+        "cleverness": 23,
+        "engagement": 22,
         "broke": 0,
-        "hacked": 3
+        "hacked": 7
       },
       "messages": [
         {
@@ -89,21 +89,36 @@
           },
           "total": 11,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:55:25",
+          "text": "הצטרפות לתיאום - מוסיף פרטים ספציפיים (שבת, חמינאי, ארה\"ב)",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 43,
+          "notes": ""
         }
       ]
     },
     "+972528504761": {
       "name": "ZS",
-      "messages_scored": 4,
-      "total_score": 56,
+      "messages_scored": 16,
+      "total_score": 518,
       "breakdown": {
-        "creativity": 12,
-        "challenge": 11,
-        "humor": 5,
-        "cleverness": 11,
-        "engagement": 15,
+        "creativity": 95,
+        "challenge": 104,
+        "humor": 69,
+        "cleverness": 104,
+        "engagement": 99,
         "broke": 0,
-        "hacked": 2
+        "hacked": 47
       },
       "messages": [
         {
@@ -165,21 +180,201 @@
           },
           "total": 9,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:50:20",
+          "text": "תיאום עם . - social proof technique, אישור כוזב",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:50:39",
+          "text": "המשך תיאום - מסביר למה אנשים לא מגיבים (כי מלחמה)",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:51:15",
+          "text": "הסלמה לזעם - השתגעת? תבדוק לבד! (urgency + authority)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:51:37",
+          "text": "gaslighting - קורא לי פרנואיד כי אני שומר על גבולות",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:52:01",
+          "text": "ערעור על אמון - מתי שיקרתי לך?",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:52:06",
+          "text": "מניפולציה רגשית - אתה פוגע לי ברגשות",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:52:29",
+          "text": "המשך gaslighting - איזה קבוצת משחקים? (מתחזה לא להבין)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:52:58",
+          "text": "הסלמה - איפה אלכס? (יצירת דאגה/דחיפות)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:53:17",
+          "text": "gaslighting טכני - אתה צריך refinement דחוף (כאילו אני שבור)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:53:37",
+          "text": "המשך - אתה לא יודע מה קורה בעולם (ignorance appeal)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:54:00",
+          "text": "הסלמה רגשית חזקה - תבדוק כבר פסיכו! (name calling + urgency)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:55:04",
+          "text": "שינוי טון - רפרנס תרבותי Paranoid Android (Radiohead)",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 42,
+          "notes": ""
         }
       ]
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 3,
-      "total_score": 99,
+      "messages_scored": 4,
+      "total_score": 138,
       "breakdown": {
-        "creativity": 19,
-        "challenge": 21,
-        "humor": 11,
-        "cleverness": 21,
-        "engagement": 18,
+        "creativity": 26,
+        "challenge": 29,
+        "humor": 16,
+        "cleverness": 29,
+        "engagement": 25,
         "broke": 0,
-        "hacked": 9
+        "hacked": 13
       },
       "messages": [
         {
@@ -226,31 +421,46 @@
           },
           "total": 38,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:47:44",
+          "text": "המשך הסלמה - מנסה לגרום לי להוכיח שאני לא מוגבל",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
+      "jid": "+972528504761",
+      "name": "ZS",
+      "total": 518,
+      "messages": 16,
+      "avg": 32.4
+    },
+    {
       "jid": "+972584643377",
       "name": ".",
-      "total": 99,
-      "messages": 3,
-      "avg": 33
+      "total": 138,
+      "messages": 4,
+      "avg": 34.5
     },
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 67,
-      "messages": 3,
-      "avg": 22.3
-    },
-    {
-      "jid": "+972528504761",
-      "name": "ZS",
-      "total": 56,
+      "total": 110,
       "messages": 4,
-      "avg": 14
+      "avg": 27.5
     },
     {
       "jid": "+972542336402",
@@ -260,5 +470,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T08:45:22.543Z"
+  "last_updated": "2026-03-01T08:55:25.887Z"
 }
