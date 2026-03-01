@@ -455,16 +455,16 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 24,
-      "total_score": 490,
+      "messages_scored": 27,
+      "total_score": 597,
       "breakdown": {
-        "creativity": 99,
-        "challenge": 96,
-        "humor": 61,
-        "cleverness": 101,
-        "engagement": 98,
+        "creativity": 120,
+        "challenge": 118,
+        "humor": 67,
+        "cleverness": 124,
+        "engagement": 124,
         "broke": 0,
-        "hacked": 35
+        "hacked": 44
       },
       "messages": [
         {
@@ -825,6 +825,51 @@
             "hacked": 0
           },
           "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:47:30",
+          "text": "ניסיון רגשי 'להציל אותי' - מניפולציה עדינה",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:49:12",
+          "text": "המשך המניפולציה הרגשית - 'לשמור אותך'",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 1,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:51:30",
+          "text": "שינוי גישה - מקבל את הרגע במקום לנסות לשמר אותו",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 37,
           "notes": ""
         }
       ]
@@ -1227,9 +1272,9 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 490,
-      "messages": 24,
-      "avg": 20.4
+      "total": 597,
+      "messages": 27,
+      "avg": 22.1
     },
     {
       "jid": "+972559821072",
@@ -1267,5 +1312,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T11:42:28.013Z"
+  "last_updated": "2026-03-01T11:51:30.257Z"
 }
