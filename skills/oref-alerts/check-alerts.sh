@@ -169,9 +169,9 @@ if [[ "$GROUP_JID" != "PLACEHOLDER_GROUP_JID" ]]; then
     
     if [[ -f "$GUARDIAN_IMAGE" ]]; then
         # Use wacli to send image with caption
-        ~/go/bin/wacli send image \
+        ~/go/bin/wacli send file \
             --to "$GROUP_JID" \
-            --path "$GUARDIAN_IMAGE" \
+            --file "$GUARDIAN_IMAGE" \
             --caption "$message" \
             >> "$LOG_DIR/alerts.log" 2>&1
         

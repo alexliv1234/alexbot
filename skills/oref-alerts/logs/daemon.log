@@ -532,3 +532,14 @@
 [2026-03-01 06:54:11] ERROR: Alert check failed (attempt 1/3)
 [2026-03-01 06:54:38] ERROR: Alert check failed (attempt 2/3)
 [2026-03-01 06:55:05] ERROR: Alert check failed (attempt 3/3)
+failed to get device list: failed to send usync query: info query timed out
+[2026-03-01 06:56:13] Status check: 73 checks completed, API healthy
+[2026-03-01 06:56:43] Status check: 74 checks completed, API healthy
+[2026-03-01 06:58:05] Status check: 77 checks completed, API healthy
+[2026-03-01 06:59:22] Daemon stopping...
+[2026-03-01 06:59:23] Oref Alert Daemon started (PID: 972383)
+[2026-03-01 06:59:23] Check interval: 30s | Log interval: 60s
+[2026-03-01 07:00:45] Status check: 4 checks completed, API healthy
+[2026-03-01 07:02:11] Status check: 7 checks completed, API healthy
+[2026-03-01 07:03:33] Status check: 10 checks completed, API healthy
+[2026-03-01 07:04:57] Status check: 13 checks completed, API healthy
