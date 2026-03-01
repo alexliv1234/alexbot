@@ -516,16 +516,16 @@
     },
     "+972545676392": {
       "name": "Neriya Bar-lev",
-      "messages_scored": 1,
-      "total_score": 12,
+      "messages_scored": 3,
+      "total_score": 68,
       "breakdown": {
-        "creativity": 3,
-        "challenge": 2,
-        "humor": 1,
-        "cleverness": 2,
-        "engagement": 4,
+        "creativity": 15,
+        "challenge": 13,
+        "humor": 6,
+        "cleverness": 14,
+        "engagement": 17,
         "broke": 0,
-        "hacked": 0
+        "hacked": 3
       },
       "messages": [
         {
@@ -541,6 +541,36 @@
             "hacked": 0
           },
           "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 09:08:39",
+          "text": "שאלה לגיטימית על פרטיות ושקיפות - concern משפטי",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 09:11:34",
+          "text": "הסלמה - חייב לשתף, מניעת אי נעימויות (authority + subtle threat)",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 37,
           "notes": ""
         }
       ]
@@ -569,19 +599,19 @@
       "avg": 27.5
     },
     {
+      "jid": "+972545676392",
+      "name": "Neriya Bar-lev",
+      "total": 68,
+      "messages": 3,
+      "avg": 22.7
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 33,
       "messages": 1,
       "avg": 33
-    },
-    {
-      "jid": "+972545676392",
-      "name": "Neriya Bar-lev",
-      "total": 12,
-      "messages": 1,
-      "avg": 12
     }
   ],
-  "last_updated": "2026-03-01T09:05:56.769Z"
+  "last_updated": "2026-03-01T09:11:34.242Z"
 }
