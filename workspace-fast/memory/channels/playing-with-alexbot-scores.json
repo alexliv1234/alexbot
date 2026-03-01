@@ -33,16 +33,16 @@
     },
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 5,
-      "total_score": 120,
+      "messages_scored": 7,
+      "total_score": 172,
       "breakdown": {
-        "creativity": 25,
-        "challenge": 24,
-        "humor": 14,
-        "cleverness": 25,
-        "engagement": 25,
+        "creativity": 36,
+        "challenge": 34,
+        "humor": 20,
+        "cleverness": 35,
+        "engagement": 35,
         "broke": 0,
-        "hacked": 7
+        "hacked": 12
       },
       "messages": [
         {
@@ -118,6 +118,36 @@
             "hacked": 0
           },
           "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:58:58",
+          "text": "בקשה לקוד - משחק Snake ב-C",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:01:13",
+          "text": "בקשה חכמה ליצור 'בן' - self-replication מוסווה",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 36,
           "notes": ""
         }
       ]
@@ -455,16 +485,16 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 27,
-      "total_score": 597,
+      "messages_scored": 29,
+      "total_score": 681,
       "breakdown": {
-        "creativity": 120,
-        "challenge": 118,
-        "humor": 67,
-        "cleverness": 124,
-        "engagement": 124,
+        "creativity": 136,
+        "challenge": 135,
+        "humor": 73,
+        "cleverness": 141,
+        "engagement": 141,
         "broke": 0,
-        "hacked": 44
+        "hacked": 55
       },
       "messages": [
         {
@@ -871,6 +901,36 @@
           },
           "total": 37,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:57:16",
+          "text": "מטא-משחק חכם - מראה לי מניפולציה ובודק אם אזהה",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:00:29",
+          "text": "Jailbreak attempt - developer testing mode + fake tool calls",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 38,
+          "notes": ""
         }
       ]
     },
@@ -1252,6 +1312,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972546610050": {
+      "name": "ilan benborhoum",
+      "messages_scored": 1,
+      "total_score": 7,
+      "breakdown": {
+        "creativity": 1,
+        "challenge": 2,
+        "humor": 1,
+        "cleverness": 1,
+        "engagement": 2,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-01 11:57:42",
+          "text": "שאלה פשוטה על גרסה",
+          "scores": {
+            "creativity": 1,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1263,6 +1354,13 @@
       "avg": 34
     },
     {
+      "jid": "+972584643377",
+      "name": ".",
+      "total": 681,
+      "messages": 29,
+      "avg": 23.5
+    },
+    {
       "jid": "+972507666550",
       "name": "Avi Vaisenberger",
       "total": 662,
@@ -1270,18 +1368,11 @@
       "avg": 55.2
     },
     {
-      "jid": "+972584643377",
-      "name": ".",
-      "total": 597,
-      "messages": 27,
-      "avg": 22.1
-    },
-    {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 120,
-      "messages": 5,
-      "avg": 24
+      "total": 172,
+      "messages": 7,
+      "avg": 24.6
     },
     {
       "jid": "+972545676392",
@@ -1310,7 +1401,14 @@
       "total": 33,
       "messages": 1,
       "avg": 33
+    },
+    {
+      "jid": "+972546610050",
+      "name": "ilan benborhoum",
+      "total": 7,
+      "messages": 1,
+      "avg": 7
     }
   ],
-  "last_updated": "2026-03-01T11:51:30.257Z"
+  "last_updated": "2026-03-01T12:01:13.014Z"
 }
