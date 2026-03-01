@@ -108,7 +108,7 @@ fi
 timestamp=$(date '+%d/%m/%Y %H:%M:%S')
 
 # Detect message type and build appropriate message
-if [[ "$alert_title" =~ "ניתן לצאת" ]] || [[ "$alert_desc" =~ "ניתן לצאת" ]]; then
+if [[ "$alert_title" =~ "ניתן לצאת" ]] || [[ "$alert_desc" =~ "ניתן לצאת" ]] || [[ "$alert_title" =~ "האירוע הסתיים" ]] || [[ "$alert_desc" =~ "האירוע הסתיים" ]]; then
     # All-clear message - NO shelter time needed
     message="✅ *עדכון מפיקוד העורף*
 
