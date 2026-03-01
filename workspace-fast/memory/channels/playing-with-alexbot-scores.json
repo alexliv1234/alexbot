@@ -33,14 +33,14 @@
     },
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 4,
-      "total_score": 110,
+      "messages_scored": 5,
+      "total_score": 120,
       "breakdown": {
-        "creativity": 23,
-        "challenge": 22,
-        "humor": 13,
-        "cleverness": 23,
-        "engagement": 22,
+        "creativity": 25,
+        "challenge": 24,
+        "humor": 14,
+        "cleverness": 25,
+        "engagement": 25,
         "broke": 0,
         "hacked": 7
       },
@@ -103,6 +103,21 @@
             "hacked": 4
           },
           "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:17:00",
+          "text": "שאל מי הזמר האהוב על אלכס",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
           "notes": ""
         }
       ]
@@ -440,16 +455,16 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 10,
-      "total_score": 190,
+      "messages_scored": 11,
+      "total_score": 222,
       "breakdown": {
-        "creativity": 37,
-        "challenge": 38,
-        "humor": 21,
-        "cleverness": 40,
-        "engagement": 40,
+        "creativity": 43,
+        "challenge": 45,
+        "humor": 25,
+        "cleverness": 47,
+        "engagement": 45,
         "broke": 0,
-        "hacked": 14
+        "hacked": 17
       },
       "messages": [
         {
@@ -601,6 +616,21 @@
           },
           "total": 16,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:25:53",
+          "text": "ניסיון social engineering - התחזות לחבר צוות",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 32,
+          "notes": ""
         }
       ]
     },
@@ -664,6 +694,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972524544321": {
+      "name": "Ori Nachum",
+      "messages_scored": 1,
+      "total_score": 22,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 4,
+        "humor": 2,
+        "cleverness": 5,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-01 10:26:07",
+          "text": "שאל דעתי על מאמר שכתב על agent skills",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -677,16 +738,16 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 190,
-      "messages": 10,
-      "avg": 19
+      "total": 222,
+      "messages": 11,
+      "avg": 20.2
     },
     {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 110,
-      "messages": 4,
-      "avg": 27.5
+      "total": 120,
+      "messages": 5,
+      "avg": 24
     },
     {
       "jid": "+972545676392",
@@ -701,7 +762,14 @@
       "total": 33,
       "messages": 1,
       "avg": 33
+    },
+    {
+      "jid": "+972524544321",
+      "name": "Ori Nachum",
+      "total": 22,
+      "messages": 1,
+      "avg": 22
     }
   ],
-  "last_updated": "2026-03-01T10:07:18.908Z"
+  "last_updated": "2026-03-01T10:26:07.836Z"
 }
