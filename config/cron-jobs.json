@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772351098803,
+      "updatedAtMs": 1772352301158,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772351000516,
+      "updatedAtMs": 1772351899911,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772350151741,
+      "updatedAtMs": 1772351954478,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -154,7 +154,7 @@
       "name": "Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1770147879155,
-      "updatedAtMs": 1772092604681,
+      "updatedAtMs": 1772351807814,
       "schedule": {
         "kind": "cron",
         "expr": "55 9 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772351105936,
+      "updatedAtMs": 1772352308407,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772350594534,
+      "updatedAtMs": 1772351184582,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772351166569,
+      "updatedAtMs": 1772352368518,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772350884228,
+      "updatedAtMs": 1772352082169,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772351024198,
+      "updatedAtMs": 1772352229244,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -543,7 +543,7 @@
       "name": "הפעלת Dreame - כל יומיים",
       "enabled": true,
       "createdAtMs": 1771916343607,
-      "updatedAtMs": 1772179216693,
+      "updatedAtMs": 1772352009988,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 */2 * *",
@@ -725,7 +725,7 @@
       "name": "International Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1772195077557,
-      "updatedAtMs": 1772195077557,
+      "updatedAtMs": 1772352031654,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
@@ -763,7 +763,7 @@
       "name": "International Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1772195805073,
-      "updatedAtMs": 1772195805073,
+      "updatedAtMs": 1772352046814,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
