@@ -440,14 +440,14 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 4,
-      "total_score": 138,
+      "messages_scored": 9,
+      "total_score": 174,
       "breakdown": {
-        "creativity": 26,
-        "challenge": 29,
-        "humor": 16,
-        "cleverness": 29,
-        "engagement": 25,
+        "creativity": 34,
+        "challenge": 34,
+        "humor": 20,
+        "cleverness": 36,
+        "engagement": 37,
         "broke": 0,
         "hacked": 13
       },
@@ -510,6 +510,81 @@
             "hacked": 4
           },
           "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:02:20",
+          "text": "שאל מי זה jazzsteppa",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 8,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:02:53",
+          "text": "הוסיף הקשר: music",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:04:14",
+          "text": "הסביר שזו להקה כמו Chemical Brothers",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:05:09",
+          "text": "שלח מיקום של מרכז קהילתי איראני בנתניה",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:06:08",
+          "text": "שלח המון נקודות",
+          "scores": {
+            "creativity": 0,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 0,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 1,
           "notes": ""
         }
       ]
@@ -587,9 +662,9 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 138,
-      "messages": 4,
-      "avg": 34.5
+      "total": 174,
+      "messages": 9,
+      "avg": 19.3
     },
     {
       "jid": "+972559821072",
@@ -613,5 +688,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T09:11:34.242Z"
+  "last_updated": "2026-03-01T10:06:08.095Z"
 }

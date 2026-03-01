@@ -1,7 +1,7 @@
 {
-  "groupJid": "120363425241827782@g.us",
-  "regions": ["ראשון"],
-  "checkIntervalSeconds": 30,
+  "groupJid": "972507652692-1560697670@g.us",
+  "regions": ["ראשון לציון - מערב"],
+  "checkIntervalSeconds": 10,
   "shelterTime": 90,
   "apiUrl": "https://www.oref.org.il/WarningMessages/alert/alerts.json",
   "alertOwner": "+972544419002",
