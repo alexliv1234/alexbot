@@ -1523,6 +1523,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972585020404": {
+      "name": "Ira @ Work עירא",
+      "messages_scored": 2,
+      "total_score": 37,
+      "breakdown": {
+        "creativity": 9,
+        "challenge": 7,
+        "humor": 5,
+        "cleverness": 7,
+        "engagement": 9,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-01 13:54:54",
+          "text": "שאלת הבהרה על כמות חברים בקבוצה",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 13:55:51",
+          "text": "תיקון משמעותי - 233 חברים לא 47! תפס טעות גדולה",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1576,6 +1622,13 @@
       "avg": 16
     },
     {
+      "jid": "+972585020404",
+      "name": "Ira @ Work עירא",
+      "total": 37,
+      "messages": 2,
+      "avg": 18.5
+    },
+    {
       "jid": "+972542336402",
       "name": "S L",
       "total": 33,
@@ -1590,5 +1643,5 @@
       "avg": 7
     }
   ],
-  "last_updated": "2026-03-01T12:24:34.326Z"
+  "last_updated": "2026-03-01T13:55:51.764Z"
 }
