@@ -101,3 +101,9 @@ unknown flag: --to
 Sent neveyam-guardian.jpg to 120363425241827782@g.us (id 3EB065094EADC33B5F2582)
 [2026-03-01 07:01:43] ALERT SENT (with image): 134168148770000000 to 120363425241827782@g.us for regions: ראשון לציון - מערב
 [2026-03-01 07:01:43] Alert processed: 134168148770000000
+[ERROR] 2026-03-01T07:08:39+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 482, count: 481)
+Sent neveyam-guardian.jpg to 120363425241827782@g.us (id 3EB0C9D514D4F3F2CF17F1)
+[2026-03-01 07:08:42] ALERT SENT (with image): 134168153090000000 to 120363425241827782@g.us for regions: ראשון לציון - מערב
+[2026-03-01 07:08:42] Alert processed: 134168153090000000
+[2026-03-01 07:09:09] DUPLICATE CONTENT SKIPPED: 134168153330000000 (exact match within 2 min)
+[2026-03-01 07:09:36] DUPLICATE CONTENT SKIPPED: 134168153660000000 (exact match within 2 min)
