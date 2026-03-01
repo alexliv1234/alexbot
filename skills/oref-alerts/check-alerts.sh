@@ -164,17 +164,36 @@ fi
 
 # Send to WhatsApp group
 if [[ "$GROUP_JID" != "PLACEHOLDER_GROUP_JID" ]]; then
-    # Use wacli to send message
-    ~/go/bin/wacli send text \
-        --to "$GROUP_JID" \
-        --message "$message" \
-        >> "$LOG_DIR/alerts.log" 2>&1
+    # Send image with alert message as caption
+    GUARDIAN_IMAGE="$SKILL_DIR/assets/neveyam-guardian.jpg"
     
-    if [[ $? -eq 0 ]]; then
-        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SENT: $alert_id to $GROUP_JID for regions: $regions_list" >> "$LOG_DIR/alerts.log"
+    if [[ -f "$GUARDIAN_IMAGE" ]]; then
+        # Use wacli to send image with caption
+        ~/go/bin/wacli send image \
+            --to "$GROUP_JID" \
+            --path "$GUARDIAN_IMAGE" \
+            --caption "$message" \
+            >> "$LOG_DIR/alerts.log" 2>&1
+        
+        if [[ $? -eq 0 ]]; then
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SENT (with image): $alert_id to $GROUP_JID for regions: $regions_list" >> "$LOG_DIR/alerts.log"
+        else
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SEND FAILED: $alert_id to $GROUP_JID" >> "$LOG_DIR/alerts.log"
+            exit 1
+        fi
     else
-        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SEND FAILED: $alert_id to $GROUP_JID" >> "$LOG_DIR/alerts.log"
-        exit 1
+        # Fallback to text-only if image missing
+        ~/go/bin/wacli send text \
+            --to "$GROUP_JID" \
+            --message "$message" \
+            >> "$LOG_DIR/alerts.log" 2>&1
+        
+        if [[ $? -eq 0 ]]; then
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SENT (text-only, image missing): $alert_id to $GROUP_JID for regions: $regions_list" >> "$LOG_DIR/alerts.log"
+        else
+            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SEND FAILED: $alert_id to $GROUP_JID" >> "$LOG_DIR/alerts.log"
+            exit 1
+        fi
     fi
 else
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT DETECTED (not sent - group JID not configured): $alert_id for regions: $regions_list" >> "$LOG_DIR/alerts.log"
