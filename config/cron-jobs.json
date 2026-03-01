@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772322201320,
+      "updatedAtMs": 1772323101084,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772321350136,
+      "updatedAtMs": 1772323153457,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772322538567,
+      "updatedAtMs": 1772323136108,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772322379946,
+      "updatedAtMs": 1772322983033,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772322968651,
+      "updatedAtMs": 1772323568126,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -618,7 +618,7 @@
       "name": "למידה עצמית - לילה",
       "enabled": true,
       "createdAtMs": 1771916343647,
-      "updatedAtMs": 1772236905453,
+      "updatedAtMs": 1772323431983,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 * * *",
