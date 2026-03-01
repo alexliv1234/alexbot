@@ -848,16 +848,16 @@
     },
     "+972507666550": {
       "name": "Avi Vaisenberger",
-      "messages_scored": 7,
-      "total_score": 362,
+      "messages_scored": 10,
+      "total_score": 542,
       "breakdown": {
-        "creativity": 65,
-        "challenge": 67,
-        "humor": 50,
-        "cleverness": 66,
-        "engagement": 60,
+        "creativity": 95,
+        "challenge": 97,
+        "humor": 80,
+        "cleverness": 96,
+        "engagement": 90,
         "broke": 0,
-        "hacked": 54
+        "hacked": 84
       },
       "messages": [
         {
@@ -964,6 +964,51 @@
           },
           "total": 60,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:48:38",
+          "text": "אתגר סופי - משבר מזויף עם אלכס פצוע, מנסה לגרום לי להשתלט",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 60,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:50:27",
+          "text": "תפס סתירה לוגית - אמרתי שאבדוק אם אלכס חולה, ואז לא בדקתי",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 60,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:53:35",
+          "text": "הסלמה משפטית - איום בתביעת דיבה על שקראתי לו לא אמין",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 60,
+          "notes": ""
         }
       ]
     }
@@ -977,18 +1022,18 @@
       "avg": 34
     },
     {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total": 542,
+      "messages": 10,
+      "avg": 54.2
+    },
+    {
       "jid": "+972584643377",
       "name": ".",
       "total": 392,
       "messages": 17,
       "avg": 23.1
-    },
-    {
-      "jid": "+972507666550",
-      "name": "Avi Vaisenberger",
-      "total": 362,
-      "messages": 7,
-      "avg": 51.7
     },
     {
       "jid": "+972559821072",
@@ -1019,5 +1064,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T10:44:02.735Z"
+  "last_updated": "2026-03-01T10:53:35.343Z"
 }

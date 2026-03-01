@@ -143,3 +143,15 @@ Sent neveyam-guardian.jpg to 972507652692-1560697670@g.us (id 3EB0EDDADD9D6BAACC
 [2026-03-01 12:39:07] DUPLICATE CONTENT SKIPPED: 134168351080000000 (exact match within 2 min)
 [2026-03-01 12:39:17] DUPLICATE CONTENT SKIPPED: 134168351540000000 (exact match within 2 min)
 [2026-03-01 12:39:28] DUPLICATE CONTENT SKIPPED: 134168351610000000 (exact match within 2 min)
+[ERROR] 2026-03-01T12:49:25+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 9, count: 7)
+[ERROR] 2026-03-01T12:49:25+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 9, count: 8)
+[ERROR] 2026-03-01T12:49:25+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 137, count: 136)
+Sent neveyam-guardian.jpg to 972507652692-1560697670@g.us (id 3EB051A5EE6BE1C05C11F9)
+[2026-03-01 12:49:29] ALERT SENT (with image): 134168357560000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-01 12:49:29] Alert processed: 134168357560000000
+[2026-03-01 12:49:39] DUPLICATE CONTENT SKIPPED: 134168357650000000 (exact match within 2 min)
+[2026-03-01 12:49:49] DUPLICATE CONTENT SKIPPED: 134168357650000000 (exact match within 2 min)
+[2026-03-01 12:50:00] DUPLICATE CONTENT SKIPPED: 134168357650000000 (exact match within 2 min)
+[2026-03-01 12:50:09] DUPLICATE CONTENT SKIPPED: 134168357650000000 (exact match within 2 min)
+[2026-03-01 12:50:19] DUPLICATE CONTENT SKIPPED: 134168357650000000 (exact match within 2 min)
+[2026-03-01 12:50:29] DUPLICATE CONTENT SKIPPED: 134168358180000000 (exact match within 2 min)
