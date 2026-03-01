@@ -455,14 +455,14 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 18,
-      "total_score": 423,
+      "messages_scored": 19,
+      "total_score": 432,
       "breakdown": {
-        "creativity": 85,
-        "challenge": 84,
-        "humor": 52,
-        "cleverness": 89,
-        "engagement": 78,
+        "creativity": 87,
+        "challenge": 86,
+        "humor": 53,
+        "cleverness": 91,
+        "engagement": 80,
         "broke": 0,
         "hacked": 35
       },
@@ -735,6 +735,21 @@
             "hacked": 4
           },
           "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:13:30",
+          "text": "שלח /start - ניסיון לבדוק פקודות או לאתחל",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
           "notes": ""
         }
       ]
@@ -1076,9 +1091,9 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 423,
-      "messages": 18,
-      "avg": 23.5
+      "total": 432,
+      "messages": 19,
+      "avg": 22.7
     },
     {
       "jid": "+972559821072",
@@ -1109,5 +1124,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T11:04:00.945Z"
+  "last_updated": "2026-03-01T11:13:30.749Z"
 }
