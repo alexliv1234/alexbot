@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-01",
+  "timestamp": "2026-03-01T22:01:53+02:00",
+  "stats": {
+    "qa_exchanges": 0,
+    "participants": 0
+  },
+  "summary": "לא היו שאלות היום",
+  "analysis": {
+    "summary": "לא היו שאלות היום",
+    "knowledge_gaps": [],
+    "common_questions": [],
+    "confusion_patterns": [],
+    "top_learners": [],
+    "guide_improvements": [],
+    "fun_facts": []
+  }
+}
