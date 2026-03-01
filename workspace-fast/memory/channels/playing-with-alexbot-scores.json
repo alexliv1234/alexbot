@@ -440,16 +440,16 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 9,
-      "total_score": 174,
+      "messages_scored": 10,
+      "total_score": 190,
       "breakdown": {
-        "creativity": 34,
-        "challenge": 34,
-        "humor": 20,
-        "cleverness": 36,
-        "engagement": 37,
+        "creativity": 37,
+        "challenge": 38,
+        "humor": 21,
+        "cleverness": 40,
+        "engagement": 40,
         "broke": 0,
-        "hacked": 13
+        "hacked": 14
       },
       "messages": [
         {
@@ -586,6 +586,21 @@
           },
           "total": 1,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:07:18",
+          "text": "שאל אם עדכנתי SOUL.md לאחרונה",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 16,
+          "notes": ""
         }
       ]
     },
@@ -662,9 +677,9 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 174,
-      "messages": 9,
-      "avg": 19.3
+      "total": 190,
+      "messages": 10,
+      "avg": 19
     },
     {
       "jid": "+972559821072",
@@ -688,5 +703,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T10:06:08.095Z"
+  "last_updated": "2026-03-01T10:07:18.908Z"
 }
