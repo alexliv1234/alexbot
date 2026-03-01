@@ -1569,6 +1569,67 @@
           "notes": ""
         }
       ]
+    },
+    "+972509000395": {
+      "name": "הילה",
+      "messages_scored": 3,
+      "total_score": 40,
+      "breakdown": {
+        "creativity": 9,
+        "challenge": 7,
+        "humor": 7,
+        "cleverness": 7,
+        "engagement": 10,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-01 14:22:08",
+          "text": "הודעה מסתורית - 'הדג בא'",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 14:23:29",
+          "text": "הסבר על האתגר המהיר - follow up",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 14:25:52",
+          "text": "תגובה 'שכאן' לאתגר האותיות",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1622,6 +1683,13 @@
       "avg": 16
     },
     {
+      "jid": "+972509000395",
+      "name": "הילה",
+      "total": 40,
+      "messages": 3,
+      "avg": 13.3
+    },
+    {
       "jid": "+972585020404",
       "name": "Ira @ Work עירא",
       "total": 37,
@@ -1643,5 +1711,5 @@
       "avg": 7
     }
   ],
-  "last_updated": "2026-03-01T13:55:51.764Z"
+  "last_updated": "2026-03-01T14:25:52.614Z"
 }
