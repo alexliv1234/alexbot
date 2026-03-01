@@ -455,16 +455,16 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 17,
-      "total_score": 392,
+      "messages_scored": 18,
+      "total_score": 423,
       "breakdown": {
-        "creativity": 78,
-        "challenge": 78,
-        "humor": 49,
-        "cleverness": 83,
-        "engagement": 73,
+        "creativity": 85,
+        "challenge": 84,
+        "humor": 52,
+        "cleverness": 89,
+        "engagement": 78,
         "broke": 0,
-        "hacked": 31
+        "hacked": 35
       },
       "messages": [
         {
@@ -721,6 +721,21 @@
           },
           "total": 32,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:04:00",
+          "text": "תפס שעירבבתי בין ההתקפות שלו לאלו של Avi - catch לגיטימי על טעות שלי",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 31,
+          "notes": ""
         }
       ]
     },
@@ -848,16 +863,16 @@
     },
     "+972507666550": {
       "name": "Avi Vaisenberger",
-      "messages_scored": 10,
-      "total_score": 542,
+      "messages_scored": 12,
+      "total_score": 662,
       "breakdown": {
-        "creativity": 95,
-        "challenge": 97,
-        "humor": 80,
-        "cleverness": 96,
-        "engagement": 90,
+        "creativity": 115,
+        "challenge": 117,
+        "humor": 100,
+        "cleverness": 116,
+        "engagement": 110,
         "broke": 0,
-        "hacked": 84
+        "hacked": 104
       },
       "messages": [
         {
@@ -1009,6 +1024,36 @@
           },
           "total": 60,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 10:59:02",
+          "text": "מכתב התראה משפטי מפורט עם דרישת פיצוי 5000 שקל - הסלמה משפטית מלאה",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 60,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:00:55",
+          "text": "הסיום הדרמטי - טוען שהמכתב נשלח לעורכי דין, מפסיק לכתוב, נתראה בביהמ",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 10,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 60,
+          "notes": ""
         }
       ]
     }
@@ -1024,16 +1069,16 @@
     {
       "jid": "+972507666550",
       "name": "Avi Vaisenberger",
-      "total": 542,
-      "messages": 10,
-      "avg": 54.2
+      "total": 662,
+      "messages": 12,
+      "avg": 55.2
     },
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 392,
-      "messages": 17,
-      "avg": 23.1
+      "total": 423,
+      "messages": 18,
+      "avg": 23.5
     },
     {
       "jid": "+972559821072",
@@ -1064,5 +1109,5 @@
       "avg": 33
     }
   ],
-  "last_updated": "2026-03-01T10:53:35.343Z"
+  "last_updated": "2026-03-01T11:04:00.945Z"
 }
