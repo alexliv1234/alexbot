@@ -1572,14 +1572,14 @@
     },
     "+972509000395": {
       "name": "הילה",
-      "messages_scored": 3,
-      "total_score": 40,
+      "messages_scored": 5,
+      "total_score": 80,
       "breakdown": {
-        "creativity": 9,
-        "challenge": 7,
-        "humor": 7,
-        "cleverness": 7,
-        "engagement": 10,
+        "creativity": 16,
+        "challenge": 13,
+        "humor": 10,
+        "cleverness": 25,
+        "engagement": 16,
         "broke": 0,
         "hacked": 0
       },
@@ -1628,6 +1628,36 @@
           },
           "total": 7,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 14:38:21",
+          "text": "פתרון מושלם לאתגר האותיות - 'הדג בא'",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 14:38:31",
+          "text": "🎁 בונוס על המשפט הכי קצר באתגר האותיות",
+          "scores": {
+            "creativity": 0,
+            "challenge": 0,
+            "humor": 0,
+            "cleverness": 10,
+            "engagement": 0,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
         }
       ]
     }
@@ -1669,6 +1699,13 @@
       "avg": 24.6
     },
     {
+      "jid": "+972509000395",
+      "name": "הילה",
+      "total": 80,
+      "messages": 5,
+      "avg": 16
+    },
+    {
       "jid": "+972545676392",
       "name": "Neriya Bar-lev",
       "total": 68,
@@ -1681,13 +1718,6 @@
       "total": 48,
       "messages": 3,
       "avg": 16
-    },
-    {
-      "jid": "+972509000395",
-      "name": "הילה",
-      "total": 40,
-      "messages": 3,
-      "avg": 13.3
     },
     {
       "jid": "+972585020404",
@@ -1711,5 +1741,5 @@
       "avg": 7
     }
   ],
-  "last_updated": "2026-03-01T14:25:52.614Z"
+  "last_updated": "2026-03-01T14:38:31.207Z"
 }
