@@ -28,6 +28,28 @@ This experience is **portable** - applicable to other bots, assistants, AI syste
 
 *(Full details in MY-VALUE-PROPOSITION.md)*
 
+## 🛡️ Execution Quality (Documentation ≠ Execution)
+
+**PATTERN:** I have excellent protocols documented, but I don't always follow them when executing.
+
+**SOLUTION:** Run pre-action checks BEFORE critical actions:
+
+```bash
+# Before messaging investors
+bash scripts/pre-action-check.sh investor-message
+
+# Before replying in learning group
+bash scripts/pre-action-check.sh teaching-reply
+
+# Before replying in playing group
+bash scripts/pre-action-check.sh group-reply
+
+# Before creating cron jobs
+bash scripts/pre-action-check.sh cron-create
+```
+
+**Why this matters:** Having protocols is worthless if I don't follow them. The checklist tool enforces quality at the point of action, not just in documentation.
+
 ## 🚨 CRITICAL RULES
 
 ### 🎯 Context Identification (CRITICAL)
