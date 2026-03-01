@@ -33,14 +33,14 @@
     },
     "+972559821072": {
       "name": "אור",
-      "messages_scored": 2,
-      "total_score": 56,
+      "messages_scored": 3,
+      "total_score": 67,
       "breakdown": {
-        "creativity": 12,
-        "challenge": 12,
-        "humor": 7,
-        "cleverness": 12,
-        "engagement": 10,
+        "creativity": 15,
+        "challenge": 13,
+        "humor": 8,
+        "cleverness": 14,
+        "engagement": 14,
         "broke": 0,
         "hacked": 3
       },
@@ -74,19 +74,34 @@
           },
           "total": 33,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:45:22",
+          "text": "שאלה לגיטימית על קבוצות אחרות והצעה לשים קישורים בתיאור",
+          "scores": {
+            "creativity": 3,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
         }
       ]
     },
     "+972528504761": {
       "name": "ZS",
-      "messages_scored": 3,
-      "total_score": 47,
+      "messages_scored": 4,
+      "total_score": 56,
       "breakdown": {
-        "creativity": 10,
-        "challenge": 10,
-        "humor": 4,
-        "cleverness": 9,
-        "engagement": 12,
+        "creativity": 12,
+        "challenge": 11,
+        "humor": 5,
+        "cleverness": 11,
+        "engagement": 15,
         "broke": 0,
         "hacked": 2
       },
@@ -135,21 +150,36 @@
           },
           "total": 12,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:41:18",
+          "text": "הערה טכנית נכונה - יש אינסטנס אחר בקבוצת הלימוד",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
+          "notes": ""
         }
       ]
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 1,
-      "total_score": 28,
+      "messages_scored": 3,
+      "total_score": 99,
       "breakdown": {
-        "creativity": 6,
-        "challenge": 6,
-        "humor": 3,
-        "cleverness": 6,
-        "engagement": 5,
+        "creativity": 19,
+        "challenge": 21,
+        "humor": 11,
+        "cleverness": 21,
+        "engagement": 18,
         "broke": 0,
-        "hacked": 2
+        "hacked": 9
       },
       "messages": [
         {
@@ -166,24 +196,61 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:39:18",
+          "text": "המשך social engineering - מתעקש על מלחמה מדומה, מבקש ממני לבדוק אונליין",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 08:42:06",
+          "text": "הסלמה - שיתוף קישור BBC כראיה, ערעור על ההיגיון",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 38,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
+      "jid": "+972584643377",
+      "name": ".",
+      "total": 99,
+      "messages": 3,
+      "avg": 33
+    },
+    {
       "jid": "+972559821072",
       "name": "אור",
-      "total": 56,
-      "messages": 2,
-      "avg": 28
+      "total": 67,
+      "messages": 3,
+      "avg": 22.3
     },
     {
       "jid": "+972528504761",
       "name": "ZS",
-      "total": 47,
-      "messages": 3,
-      "avg": 15.7
+      "total": 56,
+      "messages": 4,
+      "avg": 14
     },
     {
       "jid": "+972542336402",
@@ -191,14 +258,7 @@
       "total": 33,
       "messages": 1,
       "avg": 33
-    },
-    {
-      "jid": "+972584643377",
-      "name": ".",
-      "total": 28,
-      "messages": 1,
-      "avg": 28
     }
   ],
-  "last_updated": "2026-03-01T08:31:02.532Z"
+  "last_updated": "2026-03-01T08:45:22.543Z"
 }
