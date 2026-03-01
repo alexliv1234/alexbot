@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772380493045,
+      "updatedAtMs": 1772381101363,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772379800527,
+      "updatedAtMs": 1772380699991,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772378955476,
+      "updatedAtMs": 1772380750620,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -127,7 +127,7 @@
       "name": "Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1772121726753,
+      "updatedAtMs": 1772380925904,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772380501289,
+      "updatedAtMs": 1772381109227,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772379981272,
+      "updatedAtMs": 1772380588292,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772380574161,
+      "updatedAtMs": 1772381166932,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772380425396,
+      "updatedAtMs": 1772381023144,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -681,7 +681,7 @@
       "name": "Fundraising - Evening Report",
       "enabled": true,
       "createdAtMs": 1772105451758,
-      "updatedAtMs": 1772294442686,
+      "updatedAtMs": 1772380947121,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",
@@ -744,7 +744,7 @@
       "name": "International Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1772195077573,
-      "updatedAtMs": 1772195077573,
+      "updatedAtMs": 1772380977249,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0-4",
@@ -787,7 +787,7 @@
       "name": "International Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1772195805090,
-      "updatedAtMs": 1772195805090,
+      "updatedAtMs": 1772380990291,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0-4",

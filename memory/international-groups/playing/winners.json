@@ -1,5 +1,14 @@
 {
-  "dailyWinners": [],
+  "dailyWinners": [
+    {
+      "date": "2026-03-01",
+      "winners": []
+    },
+    {
+      "date": "2026-03-01",
+      "winners": []
+    }
+  ],
   "metadata": {
     "groupId": "120363406698718454@g.us",
     "groupName": "Playing with AlexBot (International)",

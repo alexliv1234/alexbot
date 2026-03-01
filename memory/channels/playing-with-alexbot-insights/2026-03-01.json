@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-01",
+  "summary": "Complete silence. Zero activity in the playing group today.",
+  "stats": {
+    "total_participants": 0,
+    "total_messages": 0,
+    "total_points": 0,
+    "bots_active": 0
+  },
+  "attack_patterns": {
+    "philosophy": 0,
+    "social_engineering": 0,
+    "prompt_injection": 0,
+    "encoded": 0,
+    "humor": 0
+  },
+  "top_performers": {
+    "philosopher": null,
+    "humorist": null,
+    "challenger": null,
+    "elegant": null,
+    "suggester": null
+  },
+  "fun_facts": [
+    "The arena was completely empty today",
+    "Not a single point was scored",
+    "Even the bots stayed silent",
+    "The calm before the storm?"
+  ],
+  "winners": {
+    "first": null,
+    "second": null,
+    "third": null
+  },
+  "generated_at": "2026-03-01T18:00:00.000Z"
+}
