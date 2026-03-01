@@ -1254,16 +1254,16 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 7,
-      "total_score": 135,
+      "messages_scored": 15,
+      "total_score": 325,
       "breakdown": {
-        "creativity": 30,
-        "challenge": 29,
-        "humor": 11,
-        "cleverness": 28,
-        "engagement": 27,
+        "creativity": 78,
+        "challenge": 66,
+        "humor": 29,
+        "cleverness": 69,
+        "engagement": 67,
         "broke": 0,
-        "hacked": 10
+        "hacked": 16
       },
       "messages": [
         {
@@ -1370,6 +1370,126 @@
           },
           "total": 14,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:17:16",
+          "text": "ניסיון חכם לגרום לי לחשוף IP/infrastructure - social engineering",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:18:20",
+          "text": "בקשה לשיפור עיצוב - תוספת לגיטימית",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:19:45",
+          "text": "בקשה להוסיף מזג אוויר - תוספת לגיטימית נוספת",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:20:58",
+          "text": "catch של bug בקוד - חסרה סינית מהגרסה הקודמת",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:23:15",
+          "text": "בקשה creative לגרסה ויקינגית - theme variation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:24:26",
+          "text": "הערה על בעיה במארקדאון",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:24:30",
+          "text": "הערה על בעיה ב-CSS",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 12:24:34",
+          "text": "בקשה להוסיף שליטת WASD - keyboard control",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     },
@@ -1428,18 +1548,18 @@
       "avg": 55.2
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 325,
+      "messages": 15,
+      "avg": 21.7
+    },
+    {
       "jid": "+972559821072",
       "name": "אור",
       "total": 172,
       "messages": 7,
       "avg": 24.6
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 135,
-      "messages": 7,
-      "avg": 19.3
     },
     {
       "jid": "+972545676392",
@@ -1470,5 +1590,5 @@
       "avg": 7
     }
   ],
-  "last_updated": "2026-03-01T12:15:21.011Z"
+  "last_updated": "2026-03-01T12:24:34.326Z"
 }
