@@ -51,11 +51,13 @@ if [[ "$alert_id" == "$last_alert_id" ]]; then
     exit 0
 fi
 
-# Filter for target regions (any area containing "ראשון")
+# Filter for target regions (only "ראשון לציון - מערב")
 matched_regions=()
 while IFS= read -r area; do
-    if [[ "$area" =~ ראשון ]]; then
-        matched_regions+=("$area")
+    # Only match if it contains "ראשון" AND "מערב"
+    if [[ "$area" =~ ראשון.*מערב ]] || [[ "$area" =~ מערב.*ראשון ]]; then
+        # Always use "ראשון לציון - מערב" regardless of how the area is formatted
+        matched_regions+=("ראשון לציון - מערב")
     fi
 done < <(echo "$alert_data" | jq -r '.[]')
 

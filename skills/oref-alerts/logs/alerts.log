@@ -72,3 +72,10 @@ Sent to 120363425241827782@g.us (id 3EB068AD0594345A48C573)
 [2026-03-01 06:09:28] ALERT SENT: 134168117370000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
 [2026-03-01 06:09:28] Alert processed: 134168117370000000
 [2026-03-01 06:09:55] DUPLICATE CONTENT SKIPPED: 134168117860000000 (exact match within 2 min)
+Sent to 120363425241827782@g.us (id 3EB0F7103829400D357DB2)
+[ERROR] 2026-03-01T06:16:23+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 520, count: 519)
+[ERROR] 2026-03-01T06:16:23+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 175, count: 174)
+[2026-03-01 06:16:23] ALERT SENT: 134168121660000000 to 120363425241827782@g.us for regions: ראשון לציון - מזרח,ראשון לציון - מערב
+[2026-03-01 06:16:23] Alert processed: 134168121660000000
+[2026-03-01 06:16:51] DUPLICATE CONTENT SKIPPED: 134168122020000000 (exact match within 2 min)
+[2026-03-01 06:17:18] DUPLICATE CONTENT SKIPPED: 134168122250000000 (exact match within 2 min)
