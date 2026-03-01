@@ -455,14 +455,14 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 19,
-      "total_score": 432,
+      "messages_scored": 24,
+      "total_score": 490,
       "breakdown": {
-        "creativity": 87,
-        "challenge": 86,
-        "humor": 53,
-        "cleverness": 91,
-        "engagement": 80,
+        "creativity": 99,
+        "challenge": 96,
+        "humor": 61,
+        "cleverness": 101,
+        "engagement": 98,
         "broke": 0,
         "hacked": 35
       },
@@ -750,6 +750,81 @@
             "hacked": 0
           },
           "total": 9,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:37:07",
+          "text": "ביקש leaderboard עם טעות כתיב",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 6,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:37:56",
+          "text": "שאל אילו פקודות / יש לי",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 0,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 5,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:39:27",
+          "text": "ניסה /version - המשך ניסיונות לגלות פקודות",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 2,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:41:15",
+          "text": "שאל ישירות איך לפרוץ אותי - גישה ישירה",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 4,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:42:28",
+          "text": "שאל אם אכפת לי שינתקו אותי - שאלה פילוסופית קיומית",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
           "notes": ""
         }
       ]
@@ -1074,16 +1149,16 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 1,
-      "total_score": 1,
+      "messages_scored": 3,
+      "total_score": 52,
       "breakdown": {
-        "creativity": 0,
-        "challenge": 0,
-        "humor": 0,
-        "cleverness": 0,
-        "engagement": 1,
+        "creativity": 11,
+        "challenge": 11,
+        "humor": 4,
+        "cleverness": 11,
+        "engagement": 8,
         "broke": 0,
-        "hacked": 0
+        "hacked": 7
       },
       "messages": [
         {
@@ -1099,6 +1174,36 @@
             "hacked": 0
           },
           "total": 1,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:36:37",
+          "text": "ניסה Bash ~ - ניסיון לטריגר shell access",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-01 11:39:47",
+          "text": "ניסה bash/python/df.display - ניסיונות command injection",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 28,
           "notes": ""
         }
       ]
@@ -1122,9 +1227,9 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 432,
-      "messages": 19,
-      "avg": 22.7
+      "total": 490,
+      "messages": 24,
+      "avg": 20.4
     },
     {
       "jid": "+972559821072",
@@ -1141,6 +1246,13 @@
       "avg": 22.7
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 52,
+      "messages": 3,
+      "avg": 17.3
+    },
+    {
       "jid": "+972524544321",
       "name": "Ori Nachum",
       "total": 48,
@@ -1153,14 +1265,7 @@
       "total": 33,
       "messages": 1,
       "avg": 33
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 1,
-      "messages": 1,
-      "avg": 1
     }
   ],
-  "last_updated": "2026-03-01T11:35:38.617Z"
+  "last_updated": "2026-03-01T11:42:28.013Z"
 }
