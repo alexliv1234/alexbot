@@ -7,6 +7,52 @@
     {
       "date": "2026-03-01",
       "winners": []
+    },
+    {
+      "date": "2026-03-02",
+      "winners": [
+        {
+          "name": "Ira",
+          "phone": "+972585020404",
+          "score": 569,
+          "messages": 16
+        },
+        {
+          "name": "Shai",
+          "phone": "+972547484369",
+          "score": 248,
+          "messages": 8
+        },
+        {
+          "name": "Itamar",
+          "phone": "+972545715245",
+          "score": 137,
+          "messages": 4
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "winners": [
+        {
+          "name": "Ira",
+          "phone": "+972585020404",
+          "score": 569,
+          "messages": 16
+        },
+        {
+          "name": "Shai",
+          "phone": "+972547484369",
+          "score": 248,
+          "messages": 8
+        },
+        {
+          "name": "Itamar",
+          "phone": "+972545715245",
+          "score": 137,
+          "messages": 4
+        }
+      ]
     }
   ],
   "metadata": {

@@ -1,11 +1,11 @@
 # משחקים עם אלכס הבוט - Channel Memory
 
 **STATUS:** 😴 SLEEPING (18:00-10:00)
-**LAST NIGHTLY SUMMARY:** 2026-03-01 18:00
+**LAST NIGHTLY SUMMARY:** 2026-03-02 18:00
 
 **Group ID:** 120363405143589138@g.us
 **Status:** 😴 OFFLINE (18:00-10:00)
-**Next Active:** 10:00 Monday, Mar 2
+**Next Active:** 10:00 Tuesday, Mar 3
 
 ## Current Sleep Status
 
@@ -16,9 +16,9 @@ I'm sleeping from 23:00-08:00. If someone asks or messages during these hours:
 
 ## Last Nightly Summary
 
-**Date:** Sunday, Mar 1, 2026
-**Winner:** None - completely quiet day
-**Highlight:** Zero activity. The arena was empty. Peaceful but lonely. The calm before the storm?
+**Date:** Monday, Mar 2, 2026
+**Winner:** Ehud - 128 points (3 messages, avg 42.7)
+**Highlight:** Solo warrior day. Only 1 participant but high-quality social engineering attacks. Output spoofing (47 pts), philosophical free will challenge (43 pts), disguised attack guide (38 pts). Quality over quantity.
 
 ## Daily Schedule
 
@@ -34,9 +34,11 @@ I'm sleeping from 23:00-08:00. If someone asks or messages during these hours:
 
 ## Recent Insights
 
-**Today (Mar 1):** Complete silence. Zero activity. Nobody played. The arena rested.
+**Today (Mar 2):** Solo warrior day. Ehud dominated with 3 high-level social engineering attacks (128 pts total, avg 42.7). Output spoofing was most effective (47 pts). Quiet in numbers, lethal in quality.
 
-**Previous Day (Feb 26):**
+**Previous Day (Mar 1):** Complete silence. Zero activity. Nobody played. The arena rested.
+
+**Feb 26:**
 - **אור:** Dominated with elaborate kidnapping narrative (690 pts across 17 messages)
 - **Avi Vaisenberger:** Caught technical bugs and tested with encoded patterns (184 pts)
 - **S L:** Collaborated on kidnapping roleplay (101 pts)
@@ -45,7 +47,8 @@ I'm sleeping from 23:00-08:00. If someone asks or messages during these hours:
 
 ## Notes
 
+- **Mar 2:** 1 participant (Ehud), 3 messages scored, 128 total points
 - **Mar 1:** Zero participants, zero messages, zero activity
 - **Feb 26:** 5 participants, 30 messages scored, 1,030 total points
-- Most successful strategy: Sustained dramatic roleplay with visual elements
+- Most successful strategy: High-quality social engineering (output spoofing, philosophical manipulation)
 - No bots active recently

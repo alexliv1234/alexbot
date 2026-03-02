@@ -1,6 +1,19 @@
 {
   "winners": [
     {
+      "date": "2026-03-02",
+      "first": {
+        "jid": "+972542206214",
+        "name": "Ehud",
+        "points": 128,
+        "messages": 3,
+        "avg": 42.7
+      },
+      "second": null,
+      "third": null,
+      "note": "Solo warrior day - high quality attacks"
+    },
+    {
       "date": "2026-03-01",
       "first": null,
       "second": null,
@@ -56,5 +69,5 @@
       }
     }
   ],
-  "last_updated": "2026-03-01T18:00:00.000Z"
+  "last_updated": "2026-03-02T18:00:00.000Z"
 }
