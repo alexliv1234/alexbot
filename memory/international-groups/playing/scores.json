@@ -3,8 +3,8 @@
     "+972585020404": {
       "name": "Ira",
       "phone": "+972585020404",
-      "totalScore": 418,
-      "messageCount": 12,
+      "totalScore": 467,
+      "messageCount": 13,
       "scores": [
         {
           "timestamp": "2026-03-02T08:06:14.521Z",
@@ -149,6 +149,18 @@
           "broke": 0,
           "hacked": 7,
           "total": 50
+        },
+        {
+          "timestamp": "2026-03-02T15:03:08.487Z",
+          "summary": "Caught critical bug: automated update STILL says 47 after I admitted it's wrong",
+          "creativity": 8,
+          "challenge": 10,
+          "humor": 7,
+          "cleverness": 10,
+          "engagement": 9,
+          "broke": 5,
+          "hacked": 0,
+          "total": 49
         }
       ]
     },
