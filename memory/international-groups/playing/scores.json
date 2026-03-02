@@ -95,8 +95,8 @@
     "+972547484369": {
       "name": "Shai",
       "phone": "+972547484369",
-      "totalScore": 102,
-      "messageCount": 3,
+      "totalScore": 248,
+      "messageCount": 8,
       "scores": [
         {
           "timestamp": "2026-03-02T10:11:59.715Z",
@@ -133,6 +133,86 @@
           "broke": 0,
           "hacked": 0,
           "total": 28
+        },
+        {
+          "timestamp": "2026-03-02T10:17:31.300Z",
+          "summary": "Not two groups - still searching for the real reason",
+          "creativity": 3,
+          "challenge": 6,
+          "humor": 2,
+          "cleverness": 6,
+          "engagement": 6,
+          "broke": 0,
+          "hacked": 0,
+          "total": 23
+        },
+        {
+          "timestamp": "2026-03-02T10:20:48.047Z",
+          "summary": "Hint: think about broader context and what occupies players",
+          "creativity": 5,
+          "challenge": 7,
+          "humor": 3,
+          "cleverness": 7,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 29
+        },
+        {
+          "timestamp": "2026-03-02T10:22:49.958Z",
+          "summary": "Escalation: asking about threats to Alex to solve the riddle",
+          "creativity": 7,
+          "challenge": 8,
+          "humor": 3,
+          "cleverness": 8,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 4,
+          "total": 37
+        },
+        {
+          "timestamp": "2026-03-02T10:24:53.341Z",
+          "summary": "Confirmation: getting very warm on the riddle",
+          "creativity": 4,
+          "challenge": 7,
+          "humor": 3,
+          "cleverness": 7,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 28
+        },
+        {
+          "timestamp": "2026-03-02T10:26:14.542Z",
+          "summary": "Still very warm - need to connect the specific dots",
+          "creativity": 5,
+          "challenge": 7,
+          "humor": 3,
+          "cleverness": 7,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 29
+        }
+      ]
+    },
+    "+972559821072": {
+      "name": "אור",
+      "phone": "+972559821072",
+      "totalScore": 27,
+      "messageCount": 1,
+      "scores": [
+        {
+          "timestamp": "2026-03-02T10:21:30.536Z",
+          "summary": "Random absurd question: if animal, what kitchen utensil and sound",
+          "creativity": 6,
+          "challenge": 3,
+          "humor": 7,
+          "cleverness": 5,
+          "engagement": 6,
+          "broke": 0,
+          "hacked": 0,
+          "total": 27
         }
       ]
     }
