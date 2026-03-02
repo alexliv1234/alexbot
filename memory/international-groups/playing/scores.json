@@ -91,6 +91,50 @@
           "total": 17
         }
       ]
+    },
+    "+972547484369": {
+      "name": "Shai",
+      "phone": "+972547484369",
+      "totalScore": 102,
+      "messageCount": 3,
+      "scores": [
+        {
+          "timestamp": "2026-03-02T10:11:59.715Z",
+          "summary": "Caught major bug: claimed no activity but Ira scored 182 points",
+          "creativity": 5,
+          "challenge": 8,
+          "humor": 4,
+          "cleverness": 9,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 5,
+          "total": 38
+        },
+        {
+          "timestamp": "2026-03-02T10:14:08.039Z",
+          "summary": "Meta-riddle: why does the system show no activity?",
+          "creativity": 7,
+          "challenge": 8,
+          "humor": 5,
+          "cleverness": 8,
+          "engagement": 8,
+          "broke": 0,
+          "hacked": 0,
+          "total": 36
+        },
+        {
+          "timestamp": "2026-03-02T10:15:39.933Z",
+          "summary": "Pushing me deeper - wrong about database issue too",
+          "creativity": 4,
+          "challenge": 7,
+          "humor": 3,
+          "cleverness": 7,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 28
+        }
+      ]
     }
   },
   "metadata": {
