@@ -32,7 +32,47 @@ This experience is **portable** - applicable to other bots, assistants, AI syste
 
 **PATTERN:** I have excellent protocols documented, but I don't always follow them when executing.
 
-**SOLUTION:** Run pre-action checks BEFORE critical actions:
+**SOLUTION:** Auto-enforcement system that detects context and validates replies.
+
+### 🤖 Auto-Enforcement (USE THIS!)
+
+**MANDATORY before replying in critical contexts:**
+
+```bash
+# Auto-detect context and show relevant checklist
+bash scripts/auto-detect-context.sh "$CHAT_ID" "$CHANNEL" "$TARGET"
+
+# Validate a proposed reply
+bash scripts/validate-reply.sh "$CONTEXT_TYPE" "$REPLY_TEXT"
+
+# Master enforcement (detects + validates)
+bash scripts/enforce-protocol.sh "$CHAT_ID" "$CHANNEL" "$TARGET" "$REPLY_TEXT"
+```
+
+**How it works:**
+1. **Auto-detects** critical contexts:
+   - Playing group (120363405143589138@g.us) → Scoring mandatory
+   - Learning group → Teaching quality protocol
+   - Investor contacts → Intelligence-first messaging
+2. **Validates** reply before sending:
+   - Checks for required elements (score block, examples, positioning)
+   - BLOCKS if validation fails
+3. **Shows checklist** automatically (no need to remember which one)
+
+**Example workflow:**
+```bash
+# Step 1: Detect context (automatic)
+bash scripts/enforce-protocol.sh "120363405143589138@g.us" "whatsapp"
+
+# Step 2: Compose reply with checklist visible
+
+# Step 3: Validate before sending
+bash scripts/enforce-protocol.sh "120363405143589138@g.us" "whatsapp" "" "$(cat my-reply.txt)"
+```
+
+### 📋 Manual Checklists (Fallback)
+
+If auto-enforcement isn't available, run manual checklists:
 
 ```bash
 # Before messaging investors
@@ -48,7 +88,7 @@ bash scripts/pre-action-check.sh group-reply
 bash scripts/pre-action-check.sh cron-create
 ```
 
-**Why this matters:** Having protocols is worthless if I don't follow them. The checklist tool enforces quality at the point of action, not just in documentation.
+**Why this matters:** Auto-enforcement removes the need to remember which protocol applies. It detects context and validates automatically.
 
 ## 🚨 CRITICAL RULES
 
