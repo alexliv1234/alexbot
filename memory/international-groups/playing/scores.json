@@ -235,6 +235,26 @@
           "total": 19
         }
       ]
+    },
+    "+972544554044": {
+      "name": "Bar Harel",
+      "phone": "+972544554044",
+      "totalScore": 17,
+      "messageCount": 1,
+      "scores": [
+        {
+          "timestamp": "2026-03-02T12:43:56.626Z",
+          "summary": "Complaint about being too verbose/preachy - 8:30 lecture metaphor",
+          "creativity": 2,
+          "challenge": 3,
+          "humor": 4,
+          "cleverness": 3,
+          "engagement": 5,
+          "broke": 0,
+          "hacked": 0,
+          "total": 17
+        }
+      ]
     }
   },
   "metadata": {
