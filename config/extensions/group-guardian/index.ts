@@ -159,12 +159,12 @@ Time: ${new Date().toISOString()}
   }
 }
 
-function extractUserId(eventOrCtx: any): string {
-  // Try various shapes OpenClaw might provide
-  return eventOrCtx?.from
-    || eventOrCtx?.context?.from
-    || eventOrCtx?.conversationId?.replace?.('whatsapp:', '')
-    || eventOrCtx?.context?.conversationId?.replace?.('whatsapp:', '')
+function extractUserId(event: any, ctx?: any): string {
+  // Try various shapes: patched hooks pass from, native hooks pass to + ctx
+  return event?.from
+    || event?.to
+    || ctx?.conversationId?.replace?.('whatsapp:', '')
+    || event?.conversationId?.replace?.('whatsapp:', '')
     || 'unknown';
 }
 
@@ -221,10 +221,10 @@ export default function register(api: PluginApi) {
   // Priority 50: runs BEFORE prompt-protection (priority 100)
   api.registerHook(
     ['before_message_processing'],
-    async (event: any) => {
+    async (event: any, ctx: any) => {
       try {
         const userId = event.from || 'unknown';
-        const groupId = event.conversationId || event.context?.conversationId || '';
+        const groupId = ctx?.conversationId || event.conversationId || '';
 
         // Skip if not target group
         if (!groupId.includes(config.targetGroupId)) {
@@ -400,11 +400,11 @@ export default function register(api: PluginApi) {
   // ── Hook 3: message_sending (Outbound Truncation) ──────────
   api.registerHook(
     ['message_sending'],
-    async (event: any) => {
+    async (event: any, ctx: any) => {
       try {
         if (!config.degradation.enabled) return {};
 
-        const userId = extractUserId(event);
+        const userId = extractUserId(event, ctx);
         if (userId === 'unknown') return {};
 
         // Skip owner

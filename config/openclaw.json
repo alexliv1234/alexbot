@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-27T12:02:47.223Z"
+    "lastTouchedVersion": "2026.3.1",
+    "lastTouchedAt": "2026-03-02T18:07:05.634Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-08T20:07:31.711Z",
@@ -371,7 +371,8 @@
   "commands": {
     "native": "auto",
     "nativeSkills": "auto",
-    "restart": true
+    "restart": true,
+    "ownerDisplay": "raw"
   },
   "session": {
     "dmScope": "per-channel-peer"
@@ -394,6 +395,7 @@
   },
   "channels": {
     "whatsapp": {
+      "enabled": true,
       "dmPolicy": "allowlist",
       "selfChatMode": true,
       "allowFrom": [
@@ -408,7 +410,6 @@
         "120363405143589138@g.us"
       ],
       "groupPolicy": "open",
-      "mediaMaxMb": 50,
       "groups": {
         "*": {
           "requireMention": true
@@ -434,13 +435,15 @@
           "requireMention": false
         }
       },
-      "debounceMs": 100
+      "debounceMs": 100,
+      "mediaMaxMb": 50
     },
     "telegram": {
+      "enabled": true,
       "dmPolicy": "pairing",
       "botToken": "8481648360:AAFACabPZpXB9BCcHYKiniTu9XGLewBb_Fs",
       "groupPolicy": "disabled",
-      "streamMode": "partial"
+      "streaming": "partial"
     }
   },
   "gateway": {
