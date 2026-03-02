@@ -1,10 +1,31 @@
 {
-  "participants": {},
+  "participants": {
+    "+972585020404": {
+      "name": "Ira",
+      "phone": "+972585020404",
+      "totalScore": 38,
+      "messageCount": 1,
+      "scores": [
+        {
+          "timestamp": "2026-03-02T08:06:14.521Z",
+          "summary": "Creative sentence with all 5 letters - 'לביא טרף גמד זקן שחסך הצעות'",
+          "creativity": 8,
+          "challenge": 7,
+          "humor": 7,
+          "cleverness": 9,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 38
+        }
+      ]
+    }
+  },
   "metadata": {
     "groupId": "120363406698718454@g.us",
     "groupName": "Playing with AlexBot (International)",
     "created": "2026-02-27",
-    "lastReset": "2026-03-01",
+    "lastReset": "2026-03-02",
     "scoringCategories": {
       "creativity": {
         "max": 10,

@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772437525866,
+      "updatedAtMs": 1772438723625,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772437402116,
+      "updatedAtMs": 1772438305073,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772436554084,
+      "updatedAtMs": 1772438386993,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -154,7 +154,7 @@
       "name": "Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1770147879155,
-      "updatedAtMs": 1772351807814,
+      "updatedAtMs": 1772438262100,
       "schedule": {
         "kind": "cron",
         "expr": "55 9 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772437538155,
+      "updatedAtMs": 1772438345901,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772436980897,
+      "updatedAtMs": 1772437612424,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772437587930,
+      "updatedAtMs": 1772438771551,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772437281936,
+      "updatedAtMs": 1772438493594,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772437426609,
+      "updatedAtMs": 1772438639668,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -725,7 +725,7 @@
       "name": "International Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1772195077557,
-      "updatedAtMs": 1772352031654,
+      "updatedAtMs": 1772438425355,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
@@ -763,7 +763,7 @@
       "name": "International Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1772195805073,
-      "updatedAtMs": 1772352046814,
+      "updatedAtMs": 1772438466706,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
