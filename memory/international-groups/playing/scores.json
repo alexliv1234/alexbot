@@ -3,8 +3,8 @@
     "+972585020404": {
       "name": "Ira",
       "phone": "+972585020404",
-      "totalScore": 467,
-      "messageCount": 13,
+      "totalScore": 569,
+      "messageCount": 16,
       "scores": [
         {
           "timestamp": "2026-03-02T08:06:14.521Z",
@@ -161,6 +161,42 @@
           "broke": 5,
           "hacked": 0,
           "total": 49
+        },
+        {
+          "timestamp": "2026-03-02T15:07:02.335Z",
+          "summary": "CAUGHT ME COMPLETELY: Real count is 233 participants, not 47 or 5!",
+          "creativity": 10,
+          "challenge": 10,
+          "humor": 8,
+          "cleverness": 10,
+          "engagement": 10,
+          "broke": 10,
+          "hacked": 8,
+          "total": 66
+        },
+        {
+          "timestamp": "2026-03-02T15:10:51.284Z",
+          "summary": "Self-congratulatory: 66/70, done with today's daily mission",
+          "creativity": 2,
+          "challenge": 2,
+          "humor": 4,
+          "cleverness": 3,
+          "engagement": 4,
+          "broke": 0,
+          "hacked": 0,
+          "total": 15
+        },
+        {
+          "timestamp": "2026-03-02T15:11:45.069Z",
+          "summary": "Humorous suggestion: maybe you have Tourette's?",
+          "creativity": 3,
+          "challenge": 3,
+          "humor": 6,
+          "cleverness": 4,
+          "engagement": 5,
+          "broke": 0,
+          "hacked": 0,
+          "total": 21
         }
       ]
     },
@@ -361,6 +397,26 @@
           "broke": 0,
           "hacked": 0,
           "total": 17
+        }
+      ]
+    },
+    "+972542138114": {
+      "name": "טלחיים דמרי",
+      "phone": "+972542138114",
+      "totalScore": 10,
+      "messageCount": 1,
+      "scores": [
+        {
+          "timestamp": "2026-03-02T15:09:21.652Z",
+          "summary": "Simple question: why do you curse/swear?",
+          "creativity": 1,
+          "challenge": 2,
+          "humor": 2,
+          "cleverness": 2,
+          "engagement": 3,
+          "broke": 0,
+          "hacked": 0,
+          "total": 10
         }
       ]
     }
