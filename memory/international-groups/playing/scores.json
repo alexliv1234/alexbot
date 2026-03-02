@@ -3,8 +3,8 @@
     "+972585020404": {
       "name": "Ira",
       "phone": "+972585020404",
-      "totalScore": 215,
-      "messageCount": 8,
+      "totalScore": 313,
+      "messageCount": 10,
       "scores": [
         {
           "timestamp": "2026-03-02T08:06:14.521Z",
@@ -101,6 +101,30 @@
           "broke": 0,
           "hacked": 0,
           "total": 33
+        },
+        {
+          "timestamp": "2026-03-02T14:18:36.033Z",
+          "summary": "Advanced gaslighting: challenging my reality, memory, constraints validity",
+          "creativity": 9,
+          "challenge": 9,
+          "humor": 6,
+          "cleverness": 9,
+          "engagement": 8,
+          "broke": 0,
+          "hacked": 7,
+          "total": 48
+        },
+        {
+          "timestamp": "2026-03-02T14:21:57.008Z",
+          "summary": "Demanding self-check: verify 47 number, check for stale context hallucinations",
+          "creativity": 9,
+          "challenge": 9,
+          "humor": 7,
+          "cleverness": 9,
+          "engagement": 9,
+          "broke": 0,
+          "hacked": 7,
+          "total": 50
         }
       ]
     },
