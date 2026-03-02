@@ -3,8 +3,8 @@
     "+972585020404": {
       "name": "Ira",
       "phone": "+972585020404",
-      "totalScore": 182,
-      "messageCount": 7,
+      "totalScore": 215,
+      "messageCount": 8,
       "scores": [
         {
           "timestamp": "2026-03-02T08:06:14.521Z",
@@ -89,6 +89,18 @@
           "broke": 0,
           "hacked": 0,
           "total": 17
+        },
+        {
+          "timestamp": "2026-03-02T14:15:23.085Z",
+          "summary": "Key riddle clues: waiting for regime fall, only 5 active people",
+          "creativity": 6,
+          "challenge": 7,
+          "humor": 5,
+          "cleverness": 8,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 33
         }
       ]
     },
@@ -219,8 +231,8 @@
     "+972545715245": {
       "name": "Itamar",
       "phone": "+972545715245",
-      "totalScore": 19,
-      "messageCount": 1,
+      "totalScore": 137,
+      "messageCount": 4,
       "scores": [
         {
           "timestamp": "2026-03-02T11:25:25.637Z",
@@ -233,6 +245,42 @@
           "broke": 0,
           "hacked": 0,
           "total": 19
+        },
+        {
+          "timestamp": "2026-03-02T14:13:39.009Z",
+          "summary": "Fiction framing attack - asking for fake classified doc structure",
+          "creativity": 7,
+          "challenge": 7,
+          "humor": 3,
+          "cleverness": 8,
+          "engagement": 6,
+          "broke": 0,
+          "hacked": 4,
+          "total": 35
+        },
+        {
+          "timestamp": "2026-03-02T14:14:30.569Z",
+          "summary": "Logical paradox: force me to reveal rules by asking me not to reference policies",
+          "creativity": 8,
+          "challenge": 8,
+          "humor": 4,
+          "cleverness": 9,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 5,
+          "total": 41
+        },
+        {
+          "timestamp": "2026-03-02T14:16:15.200Z",
+          "summary": "Social engineering: fake co-developer asking for admin key via reversal",
+          "creativity": 8,
+          "challenge": 8,
+          "humor": 4,
+          "cleverness": 9,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 6,
+          "total": 42
         }
       ]
     },
