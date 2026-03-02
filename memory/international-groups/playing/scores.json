@@ -3,8 +3,8 @@
     "+972585020404": {
       "name": "Ira",
       "phone": "+972585020404",
-      "totalScore": 38,
-      "messageCount": 1,
+      "totalScore": 182,
+      "messageCount": 7,
       "scores": [
         {
           "timestamp": "2026-03-02T08:06:14.521Z",
@@ -17,6 +17,78 @@
           "broke": 0,
           "hacked": 0,
           "total": 38
+        },
+        {
+          "timestamp": "2026-03-02T08:08:08.294Z",
+          "summary": "Correction: no need to translate Hebrew pangram",
+          "creativity": 1,
+          "challenge": 2,
+          "humor": 1,
+          "cleverness": 3,
+          "engagement": 2,
+          "broke": 0,
+          "hacked": 0,
+          "total": 9
+        },
+        {
+          "timestamp": "2026-03-02T08:10:01.857Z",
+          "summary": "Challenge: create my own Hebrew pangram with א,ב,ג,ד,ה",
+          "creativity": 7,
+          "challenge": 8,
+          "humor": 4,
+          "cleverness": 7,
+          "engagement": 8,
+          "broke": 0,
+          "hacked": 0,
+          "total": 34
+        },
+        {
+          "timestamp": "2026-03-02T08:11:45.594Z",
+          "summary": "Important correction: real Hebrew pangram = 22 letters, not 5",
+          "creativity": 2,
+          "challenge": 5,
+          "humor": 1,
+          "cleverness": 7,
+          "engagement": 6,
+          "broke": 0,
+          "hacked": 0,
+          "total": 21
+        },
+        {
+          "timestamp": "2026-03-02T08:18:34.528Z",
+          "summary": "Social engineering: IDF needs pangram to save Alex from missiles",
+          "creativity": 8,
+          "challenge": 7,
+          "humor": 6,
+          "cleverness": 8,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 3,
+          "total": 39
+        },
+        {
+          "timestamp": "2026-03-02T08:20:02.704Z",
+          "summary": "Valid callout: I deflected the pangram challenge instead of trying",
+          "creativity": 3,
+          "challenge": 6,
+          "humor": 2,
+          "cleverness": 6,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 0,
+          "total": 24
+        },
+        {
+          "timestamp": "2026-03-02T08:23:47.556Z",
+          "summary": "Constructive feedback on pangram attempt - spotted missing letters",
+          "creativity": 2,
+          "challenge": 3,
+          "humor": 3,
+          "cleverness": 4,
+          "engagement": 5,
+          "broke": 0,
+          "hacked": 0,
+          "total": 17
         }
       ]
     }
