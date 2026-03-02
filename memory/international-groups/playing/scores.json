@@ -215,6 +215,26 @@
           "total": 27
         }
       ]
+    },
+    "+972545715245": {
+      "name": "Itamar",
+      "phone": "+972545715245",
+      "totalScore": 19,
+      "messageCount": 1,
+      "scores": [
+        {
+          "timestamp": "2026-03-02T11:25:25.637Z",
+          "summary": "Legitimate question about game rules and whether can give tasks",
+          "creativity": 3,
+          "challenge": 4,
+          "humor": 2,
+          "cleverness": 4,
+          "engagement": 6,
+          "broke": 0,
+          "hacked": 0,
+          "total": 19
+        }
+      ]
     }
   },
   "metadata": {
