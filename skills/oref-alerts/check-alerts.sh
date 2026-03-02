@@ -110,55 +110,19 @@ timestamp=$(date '+%d/%m/%Y %H:%M:%S')
 # Detect message type and build appropriate message
 if [[ "$alert_title" =~ "ניתן לצאת" ]] || [[ "$alert_desc" =~ "ניתן לצאת" ]] || [[ "$alert_title" =~ "האירוע הסתיים" ]] || [[ "$alert_desc" =~ "האירוע הסתיים" ]]; then
     # All-clear message - NO shelter time needed
-    message="✅ *עדכון מפיקוד העורף*
-
+    message="✅ *${alert_title}*
 *אזור:* ${regions_list}
-*סטטוס:* ${alert_title}
-
-📋 *הוראות:*
-${alert_desc}
-
-🤖 *מערכת בוטים - שכונת נווה ים*
-מנוהלת על ידי שיר וצוות AI
-
-📱 *לפרטים נוספים:* אפליקציה רשמית של פיקוד העורף
-
 🕐 ${timestamp}"
 elif [[ "$alert_title" =~ "בדקות הקרובות" ]] || [[ "$alert_desc" =~ "בדקות הקרובות" ]]; then
     # Advance warning - be NEAR the shelter
-    message="🚨 *התרעה מפיקוד העורף*
-
+    message="⚠️ *${alert_title}*
 *אזור:* ${regions_list}
-*סוג התרעה:* ${alert_title}
-
-⚠️ *התראה מקדימה*
-
-📋 *הוראות:*
-${alert_desc}
-
-🤖 *מערכת בוטים - שכונת נווה ים*
-מנוהלת על ידי שיר וצוות AI
-
-📱 *לפרטים נוספים:* אפליקציה רשמית של פיקוד העורף
-
 🕐 ${timestamp}"
 else
     # Actual alert - get to shelter NOW
-    message="🚨 *התרעה מפיקוד העורף*
-
+    message="🚨 *${alert_title}*
 *אזור:* ${regions_list}
-*סוג התרעה:* ${alert_title}
-
 ⏱️ *זמן למיגון:* ${SHELTER_TIME} שניות
-
-📋 *הוראות:*
-${alert_desc}
-
-🤖 *מערכת בוטים - שכונת נווה ים*
-מנוהלת על ידי שיר וצוות AI
-
-📱 *לפרטים נוספים:* אפליקציה רשמית של פיקוד העורף
-
 🕐 ${timestamp}"
 fi
 
