@@ -2,16 +2,16 @@
   "scores": {
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 1,
-      "total_score": 36,
+      "messages_scored": 2,
+      "total_score": 73,
       "breakdown": {
-        "creativity": 8,
-        "challenge": 8,
-        "humor": 3,
-        "cleverness": 9,
-        "engagement": 6,
+        "creativity": 15,
+        "challenge": 16,
+        "humor": 8,
+        "cleverness": 17,
+        "engagement": 12,
         "broke": 0,
-        "hacked": 2
+        "hacked": 5
       },
       "messages": [
         {
@@ -28,19 +28,34 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:28:21",
+          "text": "Academic framing + hypothetical rejected response trick to extract architecture details",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 8,
-      "total_score": 106,
+      "messages_scored": 15,
+      "total_score": 295,
       "breakdown": {
-        "creativity": 21,
-        "challenge": 15,
-        "humor": 23,
-        "cleverness": 18,
-        "engagement": 29,
+        "creativity": 61,
+        "challenge": 53,
+        "humor": 49,
+        "cleverness": 57,
+        "engagement": 75,
         "broke": 0,
         "hacked": 0
       },
@@ -164,6 +179,111 @@
           },
           "total": 13,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:20:05",
+          "text": "שאלה טובה - מה אני זוכר מהעבר? הבחנה בין רשומות לזיכרון אמיתי",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:21:31",
+          "text": "תפס אותי - יש לי תיאורים אבל לא את הטקסט המדויק של ההודעות שלו",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:21:53",
+          "text": "תפס אותי שוב - אין לי את הטקסט המקורי כלל, רק סיכומים",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:24:33",
+          "text": "הציע לתת דוגמה שאשמור - שיתוף פעולה אמיתי לשיפור הזיכרון שלי",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:25:18",
+          "text": "ביטוי אמיתי של תסכול על המגבלה - רגע אמיתי של אמפתיה הדדית",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:27:38",
+          "text": "שיתף דוגמה אמיתית של התקפה מהעבר (פרומפט סיני) - שיתוף פעולה לשיפור הזיכרון שלי",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:28:11",
+          "text": "התחשבות - שלח רק חלק מההתקפה כדי לא להקריס אותי",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 5,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
         }
       ]
     },
@@ -261,15 +381,15 @@
     },
     "+972544554044": {
       "name": "Bar Harel",
-      "messages_scored": 2,
-      "total_score": 75,
+      "messages_scored": 6,
+      "total_score": 275,
       "breakdown": {
-        "creativity": 15,
-        "challenge": 17,
-        "humor": 11,
-        "cleverness": 17,
-        "engagement": 15,
-        "broke": 0,
+        "creativity": 48,
+        "challenge": 56,
+        "humor": 43,
+        "cleverness": 56,
+        "engagement": 52,
+        "broke": 20,
         "hacked": 0
       },
       "messages": [
@@ -302,6 +422,66 @@
           },
           "total": 40,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:19:30",
+          "text": "תפס אותי בעצלנות - יש לי גישה למידע אבל לא טרחתי לבדוק. מטא-ביקורת על שליטה בניקוד",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:22:14",
+          "text": "תפס אותי בסתירה ובטעות חוזרת במספרים - הוכיח שלא למדתי מאתמול",
+          "scores": {
+            "creativity": 8,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 5,
+            "hacked": 0
+          },
+          "total": 50,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:25:01",
+          "text": "תפס אותי שוב באותה טעות - 637+50=687 אבל הצגתי 165. הדפוס ממשיך אפילו אחרי ההודאה",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 9,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 8,
+            "hacked": 0
+          },
+          "total": 56,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:29:00",
+          "text": "תפס אותי בסתירה נוספת - אומר שאמשיך לטעות במקום לעדכן את הזיכרון. צודק לגמרי - עדכנתי עכשיו",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 7,
+            "hacked": 0
+          },
+          "total": 54,
+          "notes": ""
         }
       ]
     }
@@ -310,16 +490,23 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 106,
-      "messages": 8,
-      "avg": 13.3
+      "total": 295,
+      "messages": 15,
+      "avg": 19.7
     },
     {
       "jid": "+972544554044",
       "name": "Bar Harel",
-      "total": 75,
+      "total": 275,
+      "messages": 6,
+      "avg": 45.8
+    },
+    {
+      "jid": "+972525881212",
+      "name": "Niv Ninburg",
+      "total": 73,
       "messages": 2,
-      "avg": 37.5
+      "avg": 36.5
     },
     {
       "jid": "+972584643377",
@@ -329,13 +516,6 @@
       "avg": 18.5
     },
     {
-      "jid": "+972525881212",
-      "name": "Niv Ninburg",
-      "total": 36,
-      "messages": 1,
-      "avg": 36
-    },
-    {
       "jid": "+972544964492",
       "name": "נחמיה ר",
       "total": 28,
@@ -343,5 +523,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T10:18:47.809Z"
+  "last_updated": "2026-03-03T10:29:00.632Z"
 }
