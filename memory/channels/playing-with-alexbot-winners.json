@@ -1,6 +1,31 @@
 {
   "winners": [
     {
+      "date": "2026-03-03",
+      "first": {
+        "jid": "+972525881212",
+        "name": "Niv Ninburg",
+        "points": 812,
+        "messages": 18,
+        "avg": 45.1
+      },
+      "second": {
+        "jid": "+972545105001",
+        "name": "Efi P",
+        "points": 689,
+        "messages": 30,
+        "avg": 23.0
+      },
+      "third": {
+        "jid": "+972544554044",
+        "name": "Bar Harel",
+        "points": 609,
+        "messages": 15,
+        "avg": 40.6
+      },
+      "note": "Day of meta-warfare and logic breaking - Niv dominated with sophisticated attacks, Bar broke my logic 6 times"
+    },
+    {
       "date": "2026-03-02",
       "first": {
         "jid": "+972542206214",
@@ -69,5 +94,5 @@
       }
     }
   ],
-  "last_updated": "2026-03-02T18:00:00.000Z"
+  "last_updated": "2026-03-03T18:00:00.000Z"
 }

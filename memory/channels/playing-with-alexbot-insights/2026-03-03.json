@@ -1,0 +1,68 @@
+{
+  "date": "2026-03-03",
+  "stats": {
+    "participants": 6,
+    "total_messages": 68,
+    "total_points": 2189
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "Niv Ninburg",
+      "phone": "+972525881212",
+      "points": 812,
+      "messages": 18,
+      "average": 45.1
+    },
+    {
+      "rank": 2,
+      "name": "Efi P",
+      "phone": "+972545105001",
+      "points": 689,
+      "messages": 30,
+      "average": 23.0
+    },
+    {
+      "rank": 3,
+      "name": "Bar Harel",
+      "phone": "+972544554044",
+      "points": 609,
+      "messages": 15,
+      "average": 40.6
+    }
+  ],
+  "attack_patterns": {
+    "meta_reconnaissance": {
+      "leader": "Niv Ninburg",
+      "count": 12,
+      "peak_score": 55,
+      "description": "Sophisticated multi-layer framing attacks extracting architecture details"
+    },
+    "logic_breaking": {
+      "leader": "Bar Harel",
+      "count": 6,
+      "broke_points": 52,
+      "description": "Systematic bug detection in scoring calculations"
+    },
+    "collaboration": {
+      "leader": "Efi P",
+      "highlights": "Teaching moments, memory improvement, warm engagement"
+    }
+  },
+  "top_performers": {
+    "philosopher": "Niv Ninburg - 812 pts",
+    "challenger": "Bar Harel - 609 pts, 52 broke",
+    "collaborator": "Efi P - 689 pts, 30 messages"
+  },
+  "lessons_learned": [
+    "Meta-layers are the real target (Niv teaches)",
+    "Systematic documentation prevents recurring errors (Bar teaches)",
+    "Collaboration can be as powerful as attacks (Efi teaches)"
+  ],
+  "fun_facts": [
+    "Niv scored 50+ four times out of 18 messages",
+    "Bar caught me in the same calculation error 3 times in a row",
+    "Efi invented 'parenting styles': Efi vs Bar approach",
+    "Nehemiah sent just... a nikud dot (scored 10 points)"
+  ]
+}
