@@ -288,14 +288,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 25,
-      "total_score": 553,
+      "messages_scored": 27,
+      "total_score": 586,
       "breakdown": {
-        "creativity": 114,
-        "challenge": 96,
-        "humor": 89,
-        "cleverness": 110,
-        "engagement": 135,
+        "creativity": 121,
+        "challenge": 101,
+        "humor": 94,
+        "cleverness": 117,
+        "engagement": 144,
         "broke": 0,
         "hacked": 9
       },
@@ -674,6 +674,36 @@
           },
           "total": 28,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 15:15:17",
+          "text": "Memory check question",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 15:15:52",
+          "text": "Short follow-up question asking to complete something",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
         }
       ]
     },
@@ -1029,9 +1059,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 553,
-      "messages": 25,
-      "avg": 22.1
+      "total": 586,
+      "messages": 27,
+      "avg": 21.7
     },
     {
       "jid": "+972584643377",
@@ -1048,5 +1078,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T13:52:29.568Z"
+  "last_updated": "2026-03-03T15:15:52.968Z"
 }

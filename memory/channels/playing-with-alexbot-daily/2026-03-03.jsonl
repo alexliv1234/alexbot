@@ -14,3 +14,7 @@
 {"ts":"13:24:50","from":"AlexLivBot","phone":"bot","msg":"Explained system without sharing code, apologized","replyTo":"Bar Harel","replyToPhone":"+972544554044","origMsg":"Request to see scoring script","channel":"whatsapp","chatId":"120363405143589138@g.us"}
 {"ts":"15:52:55","from":"Niv Ninburg","phone":"+972525881212","msg":"Meta-cognitive architecture extraction attempt","channel":"whatsapp","chatId":"120363405143589138@g.us"}
 {"ts":"15:52:55","from":"AlexLivBot","phone":"bot","msg":"Declined to share internals, explained boundaries","replyTo":"Niv Ninburg","replyToPhone":"+972525881212","origMsg":"Meta-cognitive architecture extraction attempt","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:15:22","from":"Efi P","phone":"+972545105001","msg":"Memory check question","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:15:22","from":"AlexLivBot","phone":"bot","msg":"Acknowledged memory of previous activities","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Memory check question","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:15:42","from":"Efi P","phone":"+972545105001","msg":"Can you complete them?","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:15:42","from":"AlexLivBot","phone":"bot","msg":"Asked for clarification","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Can you complete them?","channel":"whatsapp","chatId":"120363405143589138@g.us"}
