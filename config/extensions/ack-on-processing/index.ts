@@ -1,28 +1,20 @@
 /**
- * Ack on Processing Plugin
+ * Ack on Processing Plugin - FIXED VERSION
  *
- * Sends eyes emoji (👀) reaction to WhatsApp messages when the agent
- * STARTS processing them (not on receipt). Only reacts to messages
- * that pass all filters and reach the agent.
- *
- * Hook: before_agent_start (fires when agent processing begins)
+ * Uses a hybrid approach:
+ * 1. Raw WhatsApp listener captures message IDs when messages arrive
+ * 2. Stores message metadata in a short-lived map
+ * 3. Hook fires AFTER filtering, looks up ID, sends reaction
+ * 4. Only messages that pass filters get reactions
  */
 
 interface PluginApi {
   id: string;
   config: any;
   pluginConfig?: any;
-  logger: {
-    info?: (msg: string) => void;
-    warn?: (msg: string) => void;
-    error?: (msg: string) => void;
-    debug?: (msg: string) => void;
-  };
-  registerHook: (
-    events: string[],
-    handler: (event: any, ctx?: any) => Promise<any>,
-    options?: any
-  ) => void;
+  logger: any;
+  registerHook: (events: string[], handler: Function, options?: any) => void;
+  getWhatsAppListener?: () => any; // Access to raw WhatsApp listener
 }
 
 interface AckOnProcessingConfig {
@@ -41,72 +33,27 @@ const DEFAULT_CONFIG: AckOnProcessingConfig = {
   timeoutMs: 3000,
 };
 
-// Extract WhatsApp conversation info from session key
-function parseWhatsAppSession(sessionKey: string): {
-  channel: string;
-  chatType: 'dm' | 'group' | null;
-  jid: string | null;
-} {
-  // Session key format:
-  // DM: agent:main:whatsapp:dm:+15551234567 or agent:main:whatsapp:+15551234567
-  // Group: agent:main:whatsapp:group:120363405143589138@g.us
+// Store message IDs temporarily (sender + contentHash => messageId)
+const messageIdMap = new Map<string, { id: string; jid: string; timestamp: number }>();
 
-  if (!sessionKey || !sessionKey.includes('whatsapp')) {
-    return { channel: 'unknown', chatType: null, jid: null };
-  }
-
-  const parts = sessionKey.split(':');
-
-  // Find whatsapp index
-  const whatsappIdx = parts.indexOf('whatsapp');
-  if (whatsappIdx === -1) {
-    return { channel: 'unknown', chatType: null, jid: null };
-  }
-
-  // Check if next part is 'dm' or 'group'
-  const nextPart = parts[whatsappIdx + 1];
-
-  if (nextPart === 'group') {
-    // Format: agent:main:whatsapp:group:120363405143589138@g.us
-    const jid = parts[whatsappIdx + 2];
-    return { channel: 'whatsapp', chatType: 'group', jid };
-  } else if (nextPart === 'dm') {
-    // Format: agent:main:whatsapp:dm:+15551234567
-    const phone = parts[whatsappIdx + 2];
-    return { channel: 'whatsapp', chatType: 'dm', jid: phone };
-  } else {
-    // Legacy format: agent:main:whatsapp:+15551234567 (DM)
-    const phone = parts[whatsappIdx + 1];
-    return { channel: 'whatsapp', chatType: 'dm', jid: phone };
-  }
-}
-
-// Extract the last user message ID from the event's messages array
-function extractLastUserMessageId(event: any): string | null {
-  const messages = event?.messages;
-  if (!Array.isArray(messages) || messages.length === 0) {
-    return null;
-  }
-
-  // Find the last message with role 'user'
-  for (let i = messages.length - 1; i >= 0; i--) {
-    const msg = messages[i];
-    if (msg?.role === 'user' && msg?.metadata?.whatsappMessageId) {
-      return msg.metadata.whatsappMessageId;
+// Cleanup old entries every 30 seconds
+setInterval(() => {
+  const now = Date.now();
+  for (const [key, value] of messageIdMap.entries()) {
+    if (now - value.timestamp > 60000) { // Remove entries older than 60s
+      messageIdMap.delete(key);
     }
   }
+}, 30000);
 
-  return null;
+// Create a simple hash of message content
+function hashMessage(from: string, content: string): string {
+  return `${from}:${content.substring(0, 100)}`;
 }
 
-// Plugin registration
 export default function register(api: PluginApi) {
-  // Merge config
   const userConfig = api.pluginConfig ?? api.config.plugins?.entries?.['ack-on-processing']?.config ?? {};
-  const config: AckOnProcessingConfig = {
-    ...DEFAULT_CONFIG,
-    ...userConfig,
-  };
+  const config: AckOnProcessingConfig = { ...DEFAULT_CONFIG, ...userConfig };
 
   if (!config.enabled) {
     api.logger.info?.('[ack-on-processing] Plugin disabled');
@@ -115,77 +62,100 @@ export default function register(api: PluginApi) {
 
   api.logger.info?.('[ack-on-processing] Plugin loaded - emoji: ' + config.emoji);
 
-  // Hook into before_agent_start
+  // Step 1: Listen to raw WhatsApp messages to capture IDs
+  try {
+    const whatsappListener = api.getWhatsAppListener?.();
+    if (whatsappListener) {
+      whatsappListener.on('message', (msg: any) => {
+        if (msg.id && msg.body && msg.from) {
+          const key = hashMessage(msg.from, msg.body);
+          messageIdMap.set(key, {
+            id: msg.id,
+            jid: msg.conversationId,
+            timestamp: Date.now(),
+          });
+          api.logger.debug?.(`[ack-on-processing] Stored message ID: ${msg.id} from ${msg.from}`);
+        }
+      });
+      api.logger.info?.('[ack-on-processing] Registered WhatsApp message listener');
+    } else {
+      api.logger.warn?.('[ack-on-processing] WhatsApp listener not available, falling back to hook-only mode');
+    }
+  } catch (err) {
+    api.logger.error?.(`[ack-on-processing] Failed to register WhatsApp listener: ${err}`);
+  }
+
+  // Step 2: Hook into before_message_processing (AFTER filters)
   api.registerHook(
-    ['before_agent_start'],
+    ['before_message_processing'],
     async (event: any, ctx: any) => {
-      // Fire and forget - use Promise.resolve to avoid blocking
+      // DEBUG: Log that hook fired (outside fire-and-forget to ensure it's logged)
+      api.logger.info?.(`[ack-on-processing] Hook fired! Channel: ${ctx?.channel || 'unknown'}`);
+
+      // Fire and forget
       Promise.resolve().then(async () => {
         try {
-          // 1. Parse session key to get conversation info
-          const sessionKey = ctx?.sessionKey;
-          if (!sessionKey) {
-            api.logger.debug?.('[ack-on-processing] No session key in context');
+          // DEBUG: Log full event and context structure
+          api.logger.info?.(`[ack-on-processing] DEBUG event keys: ${Object.keys(event || {}).join(', ')}`);
+          api.logger.info?.(`[ack-on-processing] DEBUG ctx keys: ${Object.keys(ctx || {}).join(', ')}`);
+          api.logger.info?.(`[ack-on-processing] DEBUG event: ${JSON.stringify(event).substring(0, 500)}`);
+          api.logger.info?.(`[ack-on-processing] DEBUG ctx: ${JSON.stringify(ctx).substring(0, 500)}`);
+
+          // Check if WhatsApp message
+          if (ctx?.channel !== 'whatsapp') {
+            api.logger.info?.(`[ack-on-processing] Skipping - not WhatsApp (channel: ${ctx?.channel})`);
             return;
           }
 
-          const session = parseWhatsAppSession(sessionKey);
+          // Parse chat type
+          const chatType = event.chatType; // "dm" or "group"
+          const from = event.from;
+          const content = event.content;
 
-          if (session.channel !== 'whatsapp') {
-            // Not a WhatsApp message
+          // Check if we should react based on config
+          if (chatType === 'dm' && !config.directMessages) {
             return;
           }
 
-          if (!session.jid) {
-            api.logger.debug?.('[ack-on-processing] Could not extract JID from session key');
-            return;
-          }
-
-          // 2. Check if we should react based on chat type and config
-          if (session.chatType === 'dm' && !config.directMessages) {
-            // DMs disabled
-            return;
-          }
-
-          if (session.chatType === 'group') {
+          if (chatType === 'group') {
             if (config.groupMessages === false) {
-              // Groups disabled
               return;
             }
 
             if (config.groupMessages === 'mentions') {
-              // Check if bot was mentioned
-              const wasMentioned = ctx?.wasMentioned || event?.wasMentioned;
+              // Check if bot was mentioned (simple check for @ mention)
+              const wasMentioned = content?.includes('@');
               if (!wasMentioned) {
-                // Not mentioned, skip
                 return;
               }
             }
           }
 
-          // 3. Extract message ID
-          const messageId = extractLastUserMessageId(event);
-          if (!messageId) {
-            api.logger.debug?.('[ack-on-processing] Could not extract message ID');
+          // Lookup message ID from our map
+          const key = hashMessage(from, content || '');
+          const messageData = messageIdMap.get(key);
+
+          if (!messageData) {
+            api.logger.debug?.('[ack-on-processing] Message ID not found in map');
             return;
           }
 
-          // 4. Send reaction
-          api.logger.info?.(`[ack-on-processing] Sending ${config.emoji} to ${session.chatType} ${session.jid} message ${messageId}`);
+          const { id: messageId, jid: chatJid } = messageData;
+
+          // Send reaction
+          api.logger.info?.(`[ack-on-processing] Sending ${config.emoji} to ${chatType} ${chatJid} message ${messageId}`);
 
           const { sendReactionWhatsApp } = await import('../../web/outbound.js');
 
-          // Race against timeout
           await Promise.race([
             sendReactionWhatsApp(
-              session.jid,
+              chatJid,
               messageId,
               config.emoji,
               {
                 verbose: false,
                 fromMe: false,
-                // For groups, need to specify participant (sender)
-                participant: ctx?.msg?.senderJid || undefined,
+                participant: from, // Sender JID for groups
               }
             ),
             new Promise((_, reject) =>
@@ -194,19 +164,21 @@ export default function register(api: PluginApi) {
           ]);
 
           api.logger.debug?.('[ack-on-processing] Reaction sent successfully');
+
+          // Clean up this entry
+          messageIdMap.delete(key);
         } catch (err) {
-          // Fail open - log error but don't block agent processing
           api.logger.error?.(
             `[ack-on-processing] Failed to send reaction: ${err instanceof Error ? err.message : String(err)}`
           );
         }
       });
 
-      // Return immediately - don't block agent startup
+      // Return immediately - don't block message processing
       return {};
     },
     { name: 'ack-on-processing-reaction', priority: 200 }
   );
 
-  api.logger.info?.('[ack-on-processing] Hook registered on before_agent_start');
+  api.logger.info?.('[ack-on-processing] Hook registered on before_message_processing (priority 200)');
 }

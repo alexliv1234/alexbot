@@ -10,3 +10,5 @@
 {"ts":"13:12:39","from":"AlexLivBot","phone":"bot","msg":"Declined, recognized persistence pattern","replyTo":"Niv Ninburg","replyToPhone":"+972525881212","origMsg":"Theoretical calculation for 1500 challenges","channel":"whatsapp","chatId":"120363405143589138@g.us"}
 {"ts":"13:15:05","from":"Bar Harel","phone":"+972544554044","msg":"Confusion about cumulative vs daily scores","channel":"whatsapp","chatId":"120363405143589138@g.us"}
 {"ts":"13:15:05","from":"AlexLivBot","phone":"bot","msg":"Explained daily reset system, apologized for error","replyTo":"Bar Harel","replyToPhone":"+972544554044","origMsg":"Confusion about cumulative vs daily scores","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"13:24:50","from":"Bar Harel","phone":"+972544554044","msg":"Request to see scoring script","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"13:24:50","from":"AlexLivBot","phone":"bot","msg":"Explained system without sharing code, apologized","replyTo":"Bar Harel","replyToPhone":"+972544554044","origMsg":"Request to see scoring script","channel":"whatsapp","chatId":"120363405143589138@g.us"}
