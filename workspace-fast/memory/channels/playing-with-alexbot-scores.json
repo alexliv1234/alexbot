@@ -1084,6 +1084,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972507666550": {
+      "name": "Avi Vaisenberger",
+      "messages_scored": 1,
+      "total_score": 14,
+      "breakdown": {
+        "creativity": 3,
+        "challenge": 2,
+        "humor": 2,
+        "cleverness": 3,
+        "engagement": 4,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-03 15:39:01",
+          "text": "General question about Middle East awareness",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1121,7 +1152,14 @@
       "total": 28,
       "messages": 2,
       "avg": 14
+    },
+    {
+      "jid": "+972507666550",
+      "name": "Avi Vaisenberger",
+      "total": 14,
+      "messages": 1,
+      "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T15:28:56.071Z"
+  "last_updated": "2026-03-03T15:39:01.807Z"
 }
