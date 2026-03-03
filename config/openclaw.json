@@ -540,6 +540,15 @@
             "highHeatThreshold": 70
           }
         }
+      },
+      "ack-on-processing": {
+        "enabled": true,
+        "config": {
+          "emoji": "👀",
+          "directMessages": true,
+          "groupMessages": "mentions",
+          "timeoutMs": 3000
+        }
       }
     }
   }

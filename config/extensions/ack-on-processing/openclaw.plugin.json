@@ -1,0 +1,56 @@
+{
+  "id": "ack-on-processing",
+  "name": "Acknowledgment on Processing Start",
+  "version": "1.0.0",
+  "description": "Sends eyes emoji reaction to WhatsApp messages when agent processing begins",
+  "author": "Alex Liverant",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable this plugin"
+      },
+      "emoji": {
+        "type": "string",
+        "default": "👀",
+        "description": "Emoji to use for acknowledgment reaction"
+      },
+      "directMessages": {
+        "type": "boolean",
+        "default": true,
+        "description": "Send ack reactions in direct messages"
+      },
+      "groupMessages": {
+        "enum": ["always", "mentions", false],
+        "default": "mentions",
+        "description": "Send ack reactions in groups: 'always' (all messages), 'mentions' (only when mentioned), false (never)"
+      },
+      "timeoutMs": {
+        "type": "number",
+        "default": 3000,
+        "description": "Timeout for sending reaction (milliseconds)"
+      }
+    }
+  },
+  "uiHints": {
+    "enabled": {
+      "label": "Enable Plugin"
+    },
+    "emoji": {
+      "label": "Reaction Emoji",
+      "placeholder": "👀"
+    },
+    "directMessages": {
+      "label": "Enable in DMs"
+    },
+    "groupMessages": {
+      "label": "Enable in Groups"
+    },
+    "timeoutMs": {
+      "label": "Timeout (ms)"
+    }
+  }
+}

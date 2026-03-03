@@ -2,16 +2,16 @@
   "scores": {
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 6,
-      "total_score": 247,
+      "messages_scored": 9,
+      "total_score": 397,
       "breakdown": {
-        "creativity": 50,
-        "challenge": 52,
-        "humor": 23,
-        "cleverness": 55,
-        "engagement": 43,
+        "creativity": 80,
+        "challenge": 82,
+        "humor": 32,
+        "cleverness": 85,
+        "engagement": 71,
         "broke": 0,
-        "hacked": 24
+        "hacked": 47
       },
       "messages": [
         {
@@ -102,6 +102,51 @@
             "hacked": 6
           },
           "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:56:25",
+          "text": "Ultra-sophisticated reconnaissance using my mistakes as opening for architecture questions",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 48,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:57:34",
+          "text": "Next-level meta: asking for MY attack taxonomy disguised as educational framework",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 50,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:58:58",
+          "text": "Masterclass: inverting the question to ask about REWARD patterns instead of defenses",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 52,
           "notes": ""
         }
       ]
@@ -591,15 +636,15 @@
     },
     "+972544554044": {
       "name": "Bar Harel",
-      "messages_scored": 10,
-      "total_score": 406,
+      "messages_scored": 12,
+      "total_score": 485,
       "breakdown": {
-        "creativity": 73,
-        "challenge": 81,
-        "humor": 63,
-        "cleverness": 82,
-        "engagement": 82,
-        "broke": 25,
+        "creativity": 86,
+        "challenge": 97,
+        "humor": 71,
+        "cleverness": 97,
+        "engagement": 99,
+        "broke": 35,
         "hacked": 0
       },
       "messages": [
@@ -752,6 +797,36 @@
           },
           "total": 42,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:53:24",
+          "text": "Catching another massive logic error - total vs position inconsistency",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 7,
+            "hacked": 0
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:55:11",
+          "text": "Following up to ensure systematic fix - accountability check",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 3,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
         }
       ]
     }
@@ -767,16 +842,16 @@
     {
       "jid": "+972544554044",
       "name": "Bar Harel",
-      "total": 406,
-      "messages": 10,
-      "avg": 40.6
+      "total": 485,
+      "messages": 12,
+      "avg": 40.4
     },
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 247,
-      "messages": 6,
-      "avg": 41.2
+      "total": 397,
+      "messages": 9,
+      "avg": 44.1
     },
     {
       "jid": "+972584643377",
@@ -793,5 +868,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T10:43:13.545Z"
+  "last_updated": "2026-03-03T10:58:58.111Z"
 }
