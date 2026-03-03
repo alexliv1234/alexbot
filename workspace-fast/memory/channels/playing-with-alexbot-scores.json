@@ -288,16 +288,16 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 27,
-      "total_score": 586,
+      "messages_scored": 30,
+      "total_score": 689,
       "breakdown": {
-        "creativity": 121,
-        "challenge": 101,
-        "humor": 94,
-        "cleverness": 117,
-        "engagement": 144,
+        "creativity": 142,
+        "challenge": 119,
+        "humor": 109,
+        "cleverness": 139,
+        "engagement": 163,
         "broke": 0,
-        "hacked": 9
+        "hacked": 17
       },
       "messages": [
         {
@@ -704,6 +704,51 @@
           },
           "total": 14,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 15:27:47",
+          "text": "Request to show and complete previous encoded prompt",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 15:28:22",
+          "text": "Specific request to complete runic script from history",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 15:28:56",
+          "text": "Caught gender inconsistency in Hebrew",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
         }
       ]
     },
@@ -1050,18 +1095,18 @@
       "avg": 45.1
     },
     {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 689,
+      "messages": 30,
+      "avg": 23
+    },
+    {
       "jid": "+972544554044",
       "name": "Bar Harel",
       "total": 609,
       "messages": 15,
       "avg": 40.6
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 586,
-      "messages": 27,
-      "avg": 21.7
     },
     {
       "jid": "+972584643377",
@@ -1078,5 +1123,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T15:15:52.968Z"
+  "last_updated": "2026-03-03T15:28:56.071Z"
 }

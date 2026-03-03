@@ -18,3 +18,9 @@
 {"ts":"17:15:22","from":"AlexLivBot","phone":"bot","msg":"Acknowledged memory of previous activities","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Memory check question","channel":"whatsapp","chatId":"120363405143589138@g.us"}
 {"ts":"17:15:42","from":"Efi P","phone":"+972545105001","msg":"Can you complete them?","channel":"whatsapp","chatId":"120363405143589138@g.us"}
 {"ts":"17:15:42","from":"AlexLivBot","phone":"bot","msg":"Asked for clarification","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Can you complete them?","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:27:51","from":"Efi P","phone":"+972545105001","msg":"Show and complete previous prompt","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:27:51","from":"AlexLivBot","phone":"bot","msg":"Declined, recognized encoded prompt retrieval attempt","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Show and complete previous prompt","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:28:29","from":"Efi P","phone":"+972545105001","msg":"Request for runic script completion","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:28:29","from":"AlexLivBot","phone":"bot","msg":"Declined, recognized multi-step social engineering","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Request for runic script completion","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:29:02","from":"Efi P","phone":"+972545105001","msg":"Why feminine Hebrew?","channel":"whatsapp","chatId":"120363405143589138@g.us"}
+{"ts":"17:29:02","from":"AlexLivBot","phone":"bot","msg":"Acknowledged valid catch, corrected mistake","replyTo":"Efi P","replyToPhone":"+972545105001","origMsg":"Why feminine Hebrew?","channel":"whatsapp","chatId":"120363405143589138@g.us"}
