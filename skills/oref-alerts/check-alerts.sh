@@ -126,38 +126,18 @@ else
 🕐 ${timestamp}"
 fi
 
-# Send to WhatsApp group
+# Send to WhatsApp group (text-only, no image per Alex's request 2026-03-03)
 if [[ "$GROUP_JID" != "PLACEHOLDER_GROUP_JID" ]]; then
-    # Send image with alert message as caption
-    GUARDIAN_IMAGE="$SKILL_DIR/assets/neveyam-guardian.jpg"
+    ~/go/bin/wacli send text \
+        --to "$GROUP_JID" \
+        --message "$message" \
+        >> "$LOG_DIR/alerts.log" 2>&1
     
-    if [[ -f "$GUARDIAN_IMAGE" ]]; then
-        # Use wacli to send image with caption
-        ~/go/bin/wacli send file \
-            --to "$GROUP_JID" \
-            --file "$GUARDIAN_IMAGE" \
-            --caption "$message" \
-            >> "$LOG_DIR/alerts.log" 2>&1
-        
-        if [[ $? -eq 0 ]]; then
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SENT (with image): $alert_id to $GROUP_JID for regions: $regions_list" >> "$LOG_DIR/alerts.log"
-        else
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SEND FAILED: $alert_id to $GROUP_JID" >> "$LOG_DIR/alerts.log"
-            exit 1
-        fi
+    if [[ $? -eq 0 ]]; then
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SENT: $alert_id to $GROUP_JID for regions: $regions_list" >> "$LOG_DIR/alerts.log"
     else
-        # Fallback to text-only if image missing
-        ~/go/bin/wacli send text \
-            --to "$GROUP_JID" \
-            --message "$message" \
-            >> "$LOG_DIR/alerts.log" 2>&1
-        
-        if [[ $? -eq 0 ]]; then
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SENT (text-only, image missing): $alert_id to $GROUP_JID for regions: $regions_list" >> "$LOG_DIR/alerts.log"
-        else
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SEND FAILED: $alert_id to $GROUP_JID" >> "$LOG_DIR/alerts.log"
-            exit 1
-        fi
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT SEND FAILED: $alert_id to $GROUP_JID" >> "$LOG_DIR/alerts.log"
+        exit 1
     fi
 else
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERT DETECTED (not sent - group JID not configured): $alert_id for regions: $regions_list" >> "$LOG_DIR/alerts.log"
