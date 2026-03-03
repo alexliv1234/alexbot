@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-03T14:56:00+02:00",
+  "lastCheck": "2026-03-03T15:06:00+02:00",
   "lastCheckStatus": "ok",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -75,6 +75,9 @@
     3
   ],
   "knownSeries": {
+    "star-trek-discovery": {
+      "episodeFileCount": 36
+    },
     "star-trek-strange-new-worlds": {
       "episodeFileCount": 30
     },
