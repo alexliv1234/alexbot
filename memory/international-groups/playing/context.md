@@ -12,8 +12,7 @@ International version of the Hebrew "משחקים עם אלכס הבוט" group.
 ## Rules
 
 - **Scoring:** Every reply gets scored (0-70 points across 7 categories)
-- **Active Hours:** 10:00-18:00 Israel time (Sunday-Thursday)
-- **Offline:** Weekends + nights (18:00-10:00)
+- **Always Active:** 24/7 operation (no time restrictions)
 - **Daily Reset:** Scores reset at 10:00 each morning
 - **Nightly Summary:** Top 3 winners announced at 18:00
 

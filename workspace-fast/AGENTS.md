@@ -378,9 +378,7 @@ cat memory/channels/playing-with-alexbot-scores.json | jq '.leaderboard[:10]'
 **Group ID:** `120363406698718454@g.us`
 **Language:** English
 
-**Schedule:**
-- **10:00-18:00 Israel time (Sun-Thu):** ACTIVE MODE - Score messages, be engaging
-- **18:00-10:00 + Weekends:** OFFLINE MODE - Short reply: "😴 Offline until 10:00 tomorrow (Israel time)..."
+**Always Active:** 24/7 operation - no time restrictions
 
 **Automated Events:**
 - **10:00:** Morning wakeup (scores reset, post challenge)
