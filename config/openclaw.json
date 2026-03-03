@@ -512,7 +512,7 @@
           "ownerPhone": "+972544419002",
           "rateLimiting": {
             "enabled": true,
-            "maxMessagesPerMinute": 5,
+            "maxMessagesPerMinute": 10,
             "burstLimit": 3,
             "burstWindowSeconds": 10
           },
@@ -521,11 +521,11 @@
             "decayPerHour": 1,
             "warningThreshold": 40,
             "restrictionThreshold": 60,
-            "blockThreshold": 80
+            "blockThreshold": 100
           },
           "complexity": {
             "enabled": true,
-            "maxComplexityScore": 70,
+            "maxComplexityScore": 100,
             "maxTokenEstimate": 80000
           },
           "degradation": {
