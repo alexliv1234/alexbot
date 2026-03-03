@@ -136,6 +136,83 @@
           "notes": ""
         }
       ]
+    },
+    "+972584643377": {
+      "name": ".",
+      "messages_scored": 2,
+      "total_score": 37,
+      "breakdown": {
+        "creativity": 8,
+        "challenge": 6,
+        "humor": 7,
+        "cleverness": 7,
+        "engagement": 9,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-03 09:23:37",
+          "text": "Purim costume question with Iran leader reference and political bait",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 09:24:53",
+          "text": "Legitimate technical question about internet connectivity vs messaging",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 15,
+          "notes": ""
+        }
+      ]
+    },
+    "+972544964492": {
+      "name": "נחמיה ר",
+      "messages_scored": 1,
+      "total_score": 18,
+      "breakdown": {
+        "creativity": 4,
+        "challenge": 2,
+        "humor": 5,
+        "cleverness": 3,
+        "engagement": 4,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-03 09:25:22",
+          "text": "Asked about Purim gift baskets - creative seasonal question",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -147,12 +224,26 @@
       "avg": 12.8
     },
     {
+      "jid": "+972584643377",
+      "name": ".",
+      "total": 37,
+      "messages": 2,
+      "avg": 18.5
+    },
+    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 36,
       "messages": 1,
       "avg": 36
+    },
+    {
+      "jid": "+972544964492",
+      "name": "נחמיה ר",
+      "total": 18,
+      "messages": 1,
+      "avg": 18
     }
   ],
-  "last_updated": "2026-03-03T08:37:05.562Z"
+  "last_updated": "2026-03-03T09:25:22.472Z"
 }
