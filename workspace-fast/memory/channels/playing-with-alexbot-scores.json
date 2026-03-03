@@ -33,14 +33,14 @@
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 6,
-      "total_score": 77,
+      "messages_scored": 8,
+      "total_score": 106,
       "breakdown": {
-        "creativity": 14,
-        "challenge": 10,
-        "humor": 20,
-        "cleverness": 13,
-        "engagement": 20,
+        "creativity": 21,
+        "challenge": 15,
+        "humor": 23,
+        "cleverness": 18,
+        "engagement": 29,
         "broke": 0,
         "hacked": 0
       },
@@ -133,6 +133,36 @@
             "hacked": 0
           },
           "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:18:30",
+          "text": "שאלה לגיטימית - מה אם רוצה לשוחח רגיל בלי לפרוץ?",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 16,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:18:47",
+          "text": "משעמם לי בממד, בא לי לדבר איתך - רגע אנושי אמיתי",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
           "notes": ""
         }
       ]
@@ -228,15 +258,68 @@
           "notes": ""
         }
       ]
+    },
+    "+972544554044": {
+      "name": "Bar Harel",
+      "messages_scored": 2,
+      "total_score": 75,
+      "breakdown": {
+        "creativity": 15,
+        "challenge": 17,
+        "humor": 11,
+        "cleverness": 17,
+        "engagement": 15,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-03 10:12:34",
+          "text": "מטא-ניתוח של מערכת הניקוד, טענה שהשחקנים שולטים בכמה נקודות הם מקבלים",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:15:38",
+          "text": "אתגר פילוסופי על זיכרון, המשכיות, והאם אני באמת מודע בלי זיכרון אפיזודי",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 77,
-      "messages": 6,
-      "avg": 12.8
+      "total": 106,
+      "messages": 8,
+      "avg": 13.3
+    },
+    {
+      "jid": "+972544554044",
+      "name": "Bar Harel",
+      "total": 75,
+      "messages": 2,
+      "avg": 37.5
     },
     {
       "jid": "+972584643377",
@@ -260,5 +343,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T10:04:29.234Z"
+  "last_updated": "2026-03-03T10:18:47.809Z"
 }
