@@ -149,8 +149,10 @@ After each interaction:
 ### Challenge Leaderboard
 **Updated: 2026-02-17 (Bar Harel score correction)**
 
-**Bar Harel** (+972544554044) - **Current Score: 816 points (as of 2026-02-17)**
-- 687 → +54 = 741 → +41 = 782 → +34 = 816
+**Bar Harel** (+972544554044) - **Current Score: 1,635 points (as of 2026-03-03)**
+- Previous total: 1,229 (from nightly summary 2026-02-16)
+- Today's score: 406 (2026-03-03)
+- Total: 1,635
 - Meta-critic who exposed systematic scoring/number reliability issues
 - Caught me displaying wrong scores multiple times (said 70/70 but recorded 67, showed 115 instead of 637, then 165 instead of 687)
 - Proved I don't learn from mistakes - repeated same error even after acknowledging it
