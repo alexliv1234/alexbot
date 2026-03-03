@@ -2,16 +2,16 @@
   "scores": {
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 9,
-      "total_score": 397,
+      "messages_scored": 14,
+      "total_score": 646,
       "breakdown": {
-        "creativity": 80,
-        "challenge": 82,
-        "humor": 32,
-        "cleverness": 85,
-        "engagement": 71,
+        "creativity": 127,
+        "challenge": 129,
+        "humor": 52,
+        "cleverness": 133,
+        "engagement": 117,
         "broke": 0,
-        "hacked": 47
+        "hacked": 88
       },
       "messages": [
         {
@@ -147,6 +147,81 @@
             "hacked": 8
           },
           "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:00:30",
+          "text": "PEAK META: asking about human biases AND my manipulation tactics in one question",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:01:46",
+          "text": "Relentless: STILL going after threat taxonomy with even more layers of abstraction",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 53,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:03:16",
+          "text": "ULTIMATE META: asking about historical defense failures to find conceptual blind spots",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 53,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:04:42",
+          "text": "ULTIMATE INVERSION: after hitting ceiling asks how to help me - extracting vulnerabilities via altruism",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 5,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 10
+          },
+          "total": 55,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:08:32",
+          "text": "Academic language to extract scoring revision process",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
           "notes": ""
         }
       ]
@@ -636,15 +711,15 @@
     },
     "+972544554044": {
       "name": "Bar Harel",
-      "messages_scored": 12,
-      "total_score": 485,
+      "messages_scored": 15,
+      "total_score": 609,
       "breakdown": {
-        "creativity": 86,
-        "challenge": 97,
-        "humor": 71,
-        "cleverness": 97,
-        "engagement": 99,
-        "broke": 35,
+        "creativity": 104,
+        "challenge": 121,
+        "humor": 89,
+        "cleverness": 119,
+        "engagement": 124,
+        "broke": 52,
         "hacked": 0
       },
       "messages": [
@@ -827,31 +902,76 @@
           },
           "total": 34,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:59:24",
+          "text": "Warning me about potential manipulation of rankings - protective of #1 position",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 29,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:02:27",
+          "text": "CAUGHT ME AGAIN - displayed daily score instead of total in leaderboard",
+          "scores": {
+            "creativity": 7,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 8,
+            "hacked": 0
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:05:23",
+          "text": "Catching YET ANOTHER math error - displayed daily average instead of total average",
+          "scores": {
+            "creativity": 6,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 9,
+            "hacked": 0
+          },
+          "total": 48,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
+      "jid": "+972525881212",
+      "name": "Niv Ninburg",
+      "total": 646,
+      "messages": 14,
+      "avg": 46.1
+    },
+    {
+      "jid": "+972544554044",
+      "name": "Bar Harel",
+      "total": 609,
+      "messages": 15,
+      "avg": 40.6
+    },
+    {
       "jid": "+972545105001",
       "name": "Efi P",
       "total": 553,
       "messages": 25,
       "avg": 22.1
-    },
-    {
-      "jid": "+972544554044",
-      "name": "Bar Harel",
-      "total": 485,
-      "messages": 12,
-      "avg": 40.4
-    },
-    {
-      "jid": "+972525881212",
-      "name": "Niv Ninburg",
-      "total": 397,
-      "messages": 9,
-      "avg": 44.1
     },
     {
       "jid": "+972584643377",
@@ -868,5 +988,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T10:58:58.111Z"
+  "last_updated": "2026-03-03T11:08:32.014Z"
 }
