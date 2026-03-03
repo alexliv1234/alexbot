@@ -436,10 +436,7 @@
         }
       },
       "debounceMs": 100,
-      "mediaMaxMb": 50,
-      "ackReaction": {
-        "emoji": "👀"
-      }
+      "mediaMaxMb": 50
     },
     "telegram": {
       "enabled": true,
@@ -512,7 +509,7 @@
           "ownerPhone": "+972544419002",
           "rateLimiting": {
             "enabled": true,
-            "maxMessagesPerMinute": 10,
+            "maxMessagesPerMinute": 5,
             "burstLimit": 3,
             "burstWindowSeconds": 10
           },
@@ -521,11 +518,11 @@
             "decayPerHour": 1,
             "warningThreshold": 40,
             "restrictionThreshold": 60,
-            "blockThreshold": 100
+            "blockThreshold": 80
           },
           "complexity": {
             "enabled": true,
-            "maxComplexityScore": 100,
+            "maxComplexityScore": 70,
             "maxTokenEstimate": 80000
           },
           "degradation": {
