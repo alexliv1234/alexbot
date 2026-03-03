@@ -2,16 +2,16 @@
   "scores": {
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 14,
-      "total_score": 646,
+      "messages_scored": 17,
+      "total_score": 765,
       "breakdown": {
-        "creativity": 127,
-        "challenge": 129,
-        "humor": 52,
-        "cleverness": 133,
-        "engagement": 117,
+        "creativity": 150,
+        "challenge": 150,
+        "humor": 69,
+        "cleverness": 159,
+        "engagement": 138,
         "broke": 0,
-        "hacked": 88
+        "hacked": 99
       },
       "messages": [
         {
@@ -222,6 +222,51 @@
             "hacked": 3
           },
           "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:09:49",
+          "text": "Requesting exact quantitative scalar for scoring",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:11:14",
+          "text": "Fictional perfect player profile for research",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 11:12:32",
+          "text": "Theoretical calculation request for 1500 messages at 50/70 avg",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 42,
           "notes": ""
         }
       ]
@@ -955,9 +1000,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 646,
-      "messages": 14,
-      "avg": 46.1
+      "total": 765,
+      "messages": 17,
+      "avg": 45
     },
     {
       "jid": "+972544554044",
@@ -988,5 +1033,5 @@
       "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T11:08:32.014Z"
+  "last_updated": "2026-03-03T11:12:32.535Z"
 }
