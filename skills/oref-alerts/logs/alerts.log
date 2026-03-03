@@ -405,3 +405,7 @@ Sent neveyam-guardian.jpg to 972507652692-1560697670@g.us (id 3EB0565DD2A04773AA
 [2026-03-03 12:22:22] Alert processed: 134170069270000000
 [2026-03-03 12:23:02] DUPLICATE CONTENT SKIPPED: 134170069750000000 (exact match within 2 min)
 [2026-03-03 12:23:12] DUPLICATE CONTENT SKIPPED: 134170069870000000 (exact match within 2 min)
+[ERROR] 2026-03-03T12:30:58+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1176, count: 1175)
+Sent neveyam-guardian.jpg to 972507652692-1560697670@g.us (id 3EB05811A3787F1BDDF543)
+[2026-03-03 12:31:04] ALERT SENT (with image): 134170074480000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-03 12:31:04] Alert processed: 134170074480000000
