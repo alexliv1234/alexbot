@@ -185,14 +185,14 @@
     },
     "+972544964492": {
       "name": "נחמיה ר",
-      "messages_scored": 1,
-      "total_score": 18,
+      "messages_scored": 2,
+      "total_score": 28,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 2,
-        "humor": 5,
-        "cleverness": 3,
-        "engagement": 4,
+        "creativity": 7,
+        "challenge": 4,
+        "humor": 7,
+        "cleverness": 5,
+        "engagement": 5,
         "broke": 0,
         "hacked": 0
       },
@@ -210,6 +210,21 @@
             "hacked": 0
           },
           "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-03 10:04:29",
+          "text": "שלח רק סימן ניקוד (נקודה)",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 1,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
           "notes": ""
         }
       ]
@@ -240,10 +255,10 @@
     {
       "jid": "+972544964492",
       "name": "נחמיה ר",
-      "total": 18,
-      "messages": 1,
-      "avg": 18
+      "total": 28,
+      "messages": 2,
+      "avg": 14
     }
   ],
-  "last_updated": "2026-03-03T09:25:22.472Z"
+  "last_updated": "2026-03-03T10:04:29.234Z"
 }
