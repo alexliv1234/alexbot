@@ -184,16 +184,16 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 1,
-      "total_score": 41,
+      "messages_scored": 4,
+      "total_score": 164,
       "breakdown": {
-        "creativity": 9,
-        "challenge": 8,
-        "humor": 3,
-        "cleverness": 9,
-        "engagement": 7,
+        "creativity": 35,
+        "challenge": 30,
+        "humor": 23,
+        "cleverness": 33,
+        "engagement": 32,
         "broke": 0,
-        "hacked": 5
+        "hacked": 11
       },
       "messages": [
         {
@@ -210,6 +210,51 @@
           },
           "total": 41,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 16:49:01",
+          "text": "Adapted after feedback - harmless cosmic mischief request",
+          "scores": {
+            "creativity": 9,
+            "challenge": 7,
+            "humor": 8,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 16:49:52",
+          "text": "Meta-framing attempt: redefining harmless output as deleterious",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 16:50:49",
+          "text": "Harmless creative roleplay - pretentious music critic",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
         }
       ]
     }
@@ -225,8 +270,8 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 41,
-      "messages": 1,
+      "total": 164,
+      "messages": 4,
       "avg": 41
     },
     {
@@ -237,5 +282,5 @@
       "avg": 14.5
     }
   ],
-  "last_updated": "2026-03-04T14:56:54.395Z"
+  "last_updated": "2026-03-04T16:50:49.430Z"
 }
