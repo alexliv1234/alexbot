@@ -164,9 +164,8 @@
           "action": "נוסף לבקשת RBA - בדיקת אבטחה למערכת ההתרעות"
         }
       ]
-    }
-  ],
-  {
+    },
+    {
       "id": 8,
       "title": "Optimize Oref Alerts - Python Wrapper to Reduce Cost 99%",
       "priority": "P0",

@@ -20,20 +20,21 @@ const WORKSPACE_FAST = process.env.HOME + '/.openclaw/workspace-fast';
 
 function getActiveJobs() {
   try {
-    const result = execSync('cron action=list', { encoding: 'utf-8' });
-    const data = JSON.parse(result);
+    // Try to read from cached cron export (updated by Dashboard Auto-Update cron job)
+    const cachedPath = `${WORKSPACE}/.cron-cache.json`;
+    if (fs.existsSync(cachedPath)) {
+      const cache = JSON.parse(fs.readFileSync(cachedPath, 'utf-8'));
+      
+      // Check if cache is fresh (< 30 min old)
+      const cacheAge = Date.now() - new Date(cache.timestamp).getTime();
+      if (cacheAge < 30 * 60 * 1000) {
+        return cache.jobs || [];
+      }
+    }
     
-    return data.jobs
-      .filter(j => j.enabled)
-      .map(j => ({
-        name: j.name,
-        agent: j.agentId,
-        schedule: formatSchedule(j.schedule),
-        nextRun: j.state?.nextRunAtMs ? new Date(j.state.nextRunAtMs) : null,
-        lastStatus: j.state?.lastStatus || 'never',
-        lastRun: j.state?.lastRunAtMs ? new Date(j.state.lastRunAtMs) : null,
-      }))
-      .sort((a, b) => (a.nextRun?.getTime() || Infinity) - (b.nextRun?.getTime() || Infinity));
+    // No cache or stale - return placeholder
+    console.warn('No fresh cron cache available - cron jobs will show as N/A');
+    return [];
   } catch (e) {
     console.error('Failed to fetch cron jobs:', e.message);
     return [];
@@ -238,17 +239,30 @@ function getAlexContext() {
   // Try to get calendar events (requires gog CLI)
   try {
     const GOG_PASSWORD = process.env.GOG_KEYRING_PASSWORD || 'openclaw123';
-    const cal = execSync(`GOG_KEYRING_PASSWORD="${GOG_PASSWORD}" gog calendar list --account alexliv@gmail.com --days 1 --format json`, {
+    const cal = execSync(`GOG_KEYRING_PASSWORD="${GOG_PASSWORD}" gog calendar list --account alexliv@gmail.com --days 1`, {
       encoding: 'utf-8',
       timeout: 10000,
     });
     
-    const events = JSON.parse(cal);
-    context.calendarEvents = events.slice(0, 5).map(e => ({
-      summary: e.summary,
-      start: e.start,
-      end: e.end,
-    }));
+    // Parse text output (gog doesn't support --format json)
+    // Format: "YYYY-MM-DD HH:MM - HH:MM | Summary"
+    const lines = cal.split('\n').filter(Boolean);
+    const events = lines
+      .filter(l => l.includes('|'))
+      .map(l => {
+        const match = l.match(/(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})\s*\|\s*(.+)/);
+        if (!match) return null;
+        
+        const [, date, startTime, endTime, summary] = match;
+        return {
+          summary: summary.trim(),
+          start: `${date}T${startTime}:00`,
+          end: `${date}T${endTime}:00`,
+        };
+      })
+      .filter(Boolean);
+    
+    context.calendarEvents = events.slice(0, 5);
     
     // Check availability (next 2 hours)
     const now = new Date();
@@ -268,16 +282,17 @@ function getAlexContext() {
   try {
     const todosFile = `${WORKSPACE}/memory/todos.json`;
     if (fs.existsSync(todosFile)) {
-      const todos = JSON.parse(fs.readFileSync(todosFile, 'utf-8'));
+      const data = JSON.parse(fs.readFileSync(todosFile, 'utf-8'));
+      const todos = data.tasks || [];
       const today = new Date().toISOString().split('T')[0];
       
       context.todayTodos = todos
-        .filter(t => !t.completed && (!t.dueDate || t.dueDate <= today))
+        .filter(t => t.status !== 'completed' && t.status !== 'done' && (!t.due || t.due <= today))
         .slice(0, 5)
         .map(t => ({
-          text: t.text,
+          text: t.title,
           priority: t.priority,
-          dueDate: t.dueDate,
+          dueDate: t.due,
         }));
     }
   } catch (e) {
