@@ -8,6 +8,12 @@
 
 ## Hourly Tips Log
 
+### 2026-03-04 12:01
+- **Type:** Quick Tutorial
+- **Topic:** Cron Jobs & Automation
+- **Focus:** Basic syntax, schedule format, practical examples
+- **Keywords:** cron, automation, scheduling, crontab
+
 ### 2026-03-04 11:01
 - **Type:** Quick Tutorial
 - **Topic:** Environment Variables
@@ -19,7 +25,6 @@
 ## Topics to Cover (Rotation)
 
 ### Not Yet Covered
-- Cron jobs & automation
 - Git basics & version control
 - File operations & safety (trash vs rm)
 - Memory management in bots
@@ -41,6 +46,7 @@
 - Scoring systems & metrics
 
 ### Covered
+- ✅ Cron jobs & automation (2026-03-04 12:01)
 - ✅ Environment variables (2026-03-04 11:01)
 
 ---
