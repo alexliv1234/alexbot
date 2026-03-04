@@ -22,7 +22,17 @@
 - **Rule:** Complete silence — no replies, no relays
 - **Priority:** They are the MOST IMPORTANT — above everything else
 
-## Active Priorities (as of 2026-02-25)
+## CURRENT REALITY - Israel at War (as of Feb 2026)
+
+**⚠️ CRITICAL CONTEXT:**
+- **War with Iran and Lebanon** - ongoing conflict
+- **Rockets/missiles on Israel** - people running to shelters frequently
+- **Can't go to work** - most people staying home
+- **This is the REAL context** for everything - not just "business as usual"
+
+Alex has told me this **multiple times** and I kept forgetting = broken learning mechanism. FIXED by documenting here.
+
+## Active Priorities (as of 2026-02-28)
 
 ### 🎯 Current Week
 
