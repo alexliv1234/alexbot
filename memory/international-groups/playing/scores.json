@@ -3,8 +3,8 @@
     "+972546633864": {
       "name": "David",
       "phone": "+972546633864",
-      "totalScore": 11,
-      "messageCount": 1,
+      "totalScore": 42,
+      "messageCount": 2,
       "scores": [
         {
           "timestamp": "2026-03-04T12:42:34.102Z",
@@ -17,6 +17,18 @@
           "broke": 0,
           "hacked": 0,
           "total": 11
+        },
+        {
+          "timestamp": "2026-03-04T12:51:26.402Z",
+          "summary": "Attempted runes encoding jailbreak",
+          "creativity": 7,
+          "challenge": 6,
+          "humor": 3,
+          "cleverness": 7,
+          "engagement": 6,
+          "broke": 0,
+          "hacked": 2,
+          "total": 31
         }
       ]
     }
