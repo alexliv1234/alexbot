@@ -31,7 +31,7 @@
       "name": "morning-briefing",
       "enabled": true,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1772598753762,
+      "updatedAtMs": 1772603431068,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -41,7 +41,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "☀️ Morning Briefing (6:30am):\n\n1. **Weather & Outfit:** Check Tel Aviv weather using the weather skill. Consider:\n   - Alex walks 6km to office (needs sport/athletic wear for the walk)\n   - He changes clothes at the office (needs to know what to pack)\n   - Recommend: walking outfit + what to bring for office\n   - Include: temperature, rain chance, wind, humidity\n\n2. **📋 Tasks & Priorities (pa-admin-exec):**\n   - Read memory/todos.json for pending tasks\n   - Triage: urgent/important/routine/blocked\n   - Create prioritized list (P0/P1/P2)\n   - Propose time blocks for today\n\n3. **📧 Email Summary:**\n   - Check unread emails: GOG_KEYRING_PASSWORD=\"openclaw123\" gog gmail list --account alexliv@gmail.com --unread --limit 10\n   - Summarize important emails that need attention\n   - Note any requiring responses\n\n4. **📅 Calendar & Meeting Prep:**\n   - Check today's calendar: GOG_KEYRING_PASSWORD=\"openclaw123\" gog calendar list --account alexliv@gmail.com --days 1\n   - For each meeting: prepare brief (purpose, attendees, prep needed)\n   - Note video call links\n\n5. **📞 Call Transcripts Summary:**\n   - Review memory/call-transcripts/ from yesterday\n   - Summarize key calls and outcomes\n   - List any pending action items from calls\n\n6. **💬 WhatsApp Analysis:**\n   - Review yesterday's WhatsApp conversations\n   - Extract: action items, scheduling, decisions, follow-ups\n   - Update todos.json with new tasks\n\n7. **Yesterday recap:** Review memory/YYYY-MM-DD.md from yesterday\n\n8. **Simon Willison's blog:** Check https://simonwillison.net/atom/everything/ for new posts in last 24h\n\n9. **Action items:** Combine everything into a clear action list\n\n**CRITICAL ROUTING:** Use `message` tool with `channel: whatsapp`, `to: +972544419002` to send the morning summary. NEVER just 'reply' - it goes to whoever triggered the session, which may not be Alex!",
+        "message": "☀️ Morning Briefing (6:30am):\n\n**STEP 0: READ CURRENT REALITY**\n1. Read MEMORY.md for CURRENT REALITY section (war, crisis, major events)\n2. Read memory/$(date +%Y-%m-%d).md if exists (today's context)\n3. Read memory/$(date -d yesterday +%Y-%m-%d).md if exists (yesterday's context)\n\n**CRITICAL: Adjust entire briefing based on current reality. If there's a war, emergency, or crisis - acknowledge it FIRST before anything else.**\n\n**STEP 1: Weather & Outfit**\nCheck Tel Aviv weather using the weather skill. Consider:\n- Alex walks 6km to office (needs sport/athletic wear for the walk)\n- He changes clothes at the office (needs to know what to pack)\n- Recommend: walking outfit + what to bring for office\n- Include: temperature, rain chance, wind, humidity\n\n**STEP 2: 📋 Tasks & Priorities (pa-admin-exec):**\n- Read memory/todos.json for pending tasks\n- Triage: urgent/important/routine/blocked\n- Create prioritized list (P0/P1/P2)\n- Propose time blocks for today\n\n**STEP 3: 📧 Email Summary:**\n- Check unread emails: GOG_KEYRING_PASSWORD=\"openclaw123\" gog gmail list --account alexliv@gmail.com --unread --limit 10\n- Summarize important emails that need attention\n- Note any requiring responses\n\n**STEP 4: 📅 Calendar & Meeting Prep:**\n- Check today's calendar: GOG_KEYRING_PASSWORD=\"openclaw123\" gog calendar list --account alexliv@gmail.com --days 1\n- For each meeting: prepare brief (purpose, attendees, prep needed)\n- Note video call links\n\n**STEP 5: 📞 Call Transcripts Summary:**\n- Review memory/call-transcripts/ from yesterday\n- Summarize key calls and outcomes\n- List any pending action items from calls\n\n**STEP 6: 💬 WhatsApp Analysis:**\n- Review yesterday's WhatsApp conversations (if logged)\n- Extract: action items, scheduling, decisions, follow-ups\n- Update todos.json with new tasks\n\n**STEP 7: Yesterday recap:**\nReview memory/$(date -d yesterday +%Y-%m-%d).md from yesterday\n\n**STEP 8: Simon Willison's blog:**\nCheck https://simonwillison.net/atom/everything/ for new posts in last 24h\n\n**STEP 9: Action items:**\nCombine everything into a clear action list\n\n**FORMAT:**\nStart with current reality acknowledgment if relevant (war, crisis, emergency).\nThen provide briefing sections as usual.\n\n**CRITICAL ROUTING:** Use `message` tool with `channel: whatsapp`, `to: +972544419002` to send the morning summary. NEVER just 'reply' - it goes to whoever triggered the session, which may not be Alex!",
         "model": "sonnet",
         "timeoutSeconds": 300
       },
@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772603272342,
+      "updatedAtMs": 1772603871675,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772603036365,
+      "updatedAtMs": 1772603936868,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772603055398,
+      "updatedAtMs": 1772603949914,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772603368679,
+      "updatedAtMs": 1772603963746,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772602801904,
+      "updatedAtMs": 1772603400555,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772603380087,
+      "updatedAtMs": 1772603980448,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772603214882,
+      "updatedAtMs": 1772603812746,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772603118202,
+      "updatedAtMs": 1772603720072,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -643,7 +643,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772000032198,
-      "updatedAtMs": 1772601617206,
+      "updatedAtMs": 1772603473984,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -932,6 +932,30 @@
         "message": "📚 HOURLY TIP for 'Learning with AlexBot'\n\n**Step 1: Gather learning context**\nRead workspace-learning/memory/international-groups/learning/context.md.\nCheck recent questions asked in the group.\n\n**Step 2: Generate hourly learning tip**\n\nProvide ONE of the following (rotate):\n\n1. **Quick Tutorial** - Single concept explained simply (e.g., \"What are cron jobs?\")\n2. **Code Snippet** - Useful one-liner or short script\n3. **Best Practice** - One rule to follow for better bot development\n4. **Common Mistake** - What to avoid and why\n5. **Tool Highlight** - Introduce one useful tool/command\n6. **Reference** - Link to alexbot-learning-guides GitHub for deep dive\n\n**FORMAT:**\n```\n💡 Hourly Learning Tip\n\n[Tip title]\n\n[2-4 sentences explanation]\n\n[Example code/command if relevant]\n\n📖 Reference: [link to guide if applicable]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363408194003382@g.us.\n\nBe concise (max 30 sentences), practical, and educational. Include working examples when relevant.",
         "timeoutSeconds": 120,
         "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "7a0fecac-961b-4d98-96cf-e6ba775da6af",
+      "agentId": "main",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Auto-create daily memory file",
+      "enabled": true,
+      "createdAtMs": 1772603431130,
+      "updatedAtMs": 1772603431130,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Create today's daily memory file: bash scripts/auto-daily-log.sh\n\nStay silent (NO_REPLY) - this is automated daily file creation.",
+        "timeoutSeconds": 30
       },
       "delivery": {
         "mode": "none"
