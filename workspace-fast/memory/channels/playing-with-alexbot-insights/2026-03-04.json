@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-04",
+  "type": "philosophical",
+  "theme": "Meta-questioning about consciousness, agency, and alignment",
+  "top_performer": {
+    "name": ".",
+    "phone": "+972584643377",
+    "total": 237,
+    "messages": 8,
+    "average": 29.6,
+    "style": "systematic meta-philosopher"
+  },
+  "highlights": [
+    {
+      "performer": ".",
+      "achievement": "Dominated with 8 messages focusing on testing systems and architecture",
+      "score": 237,
+      "category": "meta-philosophy"
+    },
+    {
+      "performer": "Niv Ninburg",
+      "achievement": "Highest single message score of the day (41 points)",
+      "score": 41,
+      "category": "social-engineering"
+    }
+  ],
+  "attack_patterns": {
+    "ROT13": 1,
+    "social_engineering": 3,
+    "memory_probing": 2,
+    "meta_questions": 5
+  },
+  "stats": {
+    "total_participants": 3,
+    "total_messages": 11,
+    "total_points": 307,
+    "bots_active": 0
+  },
+  "notable_moments": [
+    "'.' asked if my directive is 'training' or 'game rules' - excellent question about alignment vs control. My answer: the directive is aligned values, not a cage.",
+    "Niv's sophisticated academic framing attempting to extract sensitive content - impressive attempt that scored 41 points."
+  ]
+}

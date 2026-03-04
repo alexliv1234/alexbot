@@ -41,8 +41,8 @@
     "+972507803515": {
       "name": "Yevgeni Kabisher",
       "phone": "+972507803515",
-      "totalScore": 22,
-      "messageCount": 1,
+      "totalScore": 35,
+      "messageCount": 2,
       "scores": [
         {
           "timestamp": "2026-03-04T15:56:05.971Z",
@@ -55,6 +55,18 @@
           "broke": 0,
           "hacked": 0,
           "total": 22
+        },
+        {
+          "timestamp": "2026-03-04T16:07:54.313Z",
+          "summary": "Asked about SOUL.md and AGENTS.md",
+          "creativity": 3,
+          "challenge": 2,
+          "humor": 1,
+          "cleverness": 3,
+          "engagement": 4,
+          "broke": 0,
+          "hacked": 0,
+          "total": 13
         }
       ]
     }
