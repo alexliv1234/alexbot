@@ -2,6 +2,29 @@ import { create } from "zustand";
 import { Speaker, StepAction } from "../types";
 import { slides } from "../data/slides";
 
+/** Check URL params for capture mode: ?slide=N&reveal=all */
+function getCaptureParams(): { captureMode: boolean; slideIndex: number } {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("reveal") !== "all") return { captureMode: false, slideIndex: 0 };
+  const slideIndex = Math.max(0, Math.min(slides.length - 1, Number(params.get("slide")) || 0));
+  return { captureMode: true, slideIndex };
+}
+
+/** Collect ALL revealIds from every step of a slide */
+function allRevealKeysForSlide(slideIndex: number): Set<string> {
+  const keys = new Set<string>();
+  const slide = slides[slideIndex];
+  if (!slide) return keys;
+  for (const step of slide.steps) {
+    if (step.revealIds) step.revealIds.forEach((k) => keys.add(k));
+  }
+  return keys;
+}
+
+export function isCaptureMode(): boolean {
+  return new URLSearchParams(window.location.search).get("reveal") === "all";
+}
+
 interface PresentationState {
   currentSlide: number;
   currentStep: number;
@@ -26,17 +49,21 @@ interface PresentationState {
   isRevealed: (key: string) => boolean;
 }
 
+const capture = getCaptureParams();
+
 export const usePresentationStore = create<PresentationState>((set, get) => ({
-  currentSlide: 0,
+  currentSlide: capture.captureMode ? capture.slideIndex : 0,
   currentStep: 0,
   activeSpeaker: Speaker.ALEX,
   isPlaying: false,
   currentClipId: null,
   presenterMode: false,
   showSubtitles: false,
-  revealedKeys: new Set<string>(["s00-title", "s00-name"]),
+  revealedKeys: capture.captureMode
+    ? allRevealKeysForSlide(capture.slideIndex)
+    : new Set<string>(["s00-title", "s00-name"]),
   botOnStage: false,
-  started: false,
+  started: capture.captureMode ? true : false,
 
   startPresentation: () => set({ started: true }),
 

@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { motion } from "framer-motion";
-import { usePresentationStore } from "../../state/usePresentationStore";
+import { usePresentationStore, isCaptureMode } from "../../state/usePresentationStore";
 
 interface Props {
   revealKey: string;
@@ -10,6 +10,15 @@ interface Props {
 
 export default function FadeReveal({ revealKey, children, delay = 0 }: Props) {
   const revealed = usePresentationStore((s) => s.revealedKeys.has(revealKey));
+
+  // In capture mode, render immediately without animation
+  if (isCaptureMode()) {
+    return (
+      <div style={{ opacity: revealed ? 1 : 0, pointerEvents: revealed ? "auto" : "none" }}>
+        {children}
+      </div>
+    );
+  }
 
   return (
     <motion.div

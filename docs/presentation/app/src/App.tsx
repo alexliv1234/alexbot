@@ -1,4 +1,4 @@
-import { usePresentationStore } from "./state/usePresentationStore";
+import { usePresentationStore, isCaptureMode } from "./state/usePresentationStore";
 import { useKeyboardNav } from "./state/useKeyboardNav";
 import { useAudioEngine } from "./state/useAudioEngine";
 import PresentationShell from "./components/layout/PresentationShell";
@@ -11,6 +11,8 @@ import PresentationTimer from "./components/controls/PresentationTimer";
 import StartScreen from "./components/layout/StartScreen";
 import { audioClips } from "./data/audioClips";
 import { AnimatePresence, motion } from "framer-motion";
+
+const capture = isCaptureMode();
 
 export default function App() {
   useKeyboardNav();
@@ -25,6 +27,15 @@ export default function App() {
   const subtitleText = currentClipId
     ? audioClips.find((c) => c.id === currentClipId)?.text
     : null;
+
+  // In capture mode, render only the slide content
+  if (capture) {
+    return (
+      <PresentationShell>
+        <SlideContainer />
+      </PresentationShell>
+    );
+  }
 
   return (
     <>

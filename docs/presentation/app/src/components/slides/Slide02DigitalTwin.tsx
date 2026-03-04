@@ -15,8 +15,8 @@ export default function Slide02DigitalTwin() {
             textAlign: "center",
           }}
         >
-          Not a chatbot — a digital version of me. It has my voice, my
-          opinions, and a philosophy file that tells it who it is.
+          Not a chatbot — a digital version of me. It has my voice, my opinions,
+          and a philosophy file that tells it who it is.
         </div>
       </FadeReveal>
 
@@ -28,8 +28,8 @@ export default function Slide02DigitalTwin() {
               style={{ fontSize: 21, lineHeight: 1.7 }}
             >
               <li>
-                <strong>It all started 3 weeks ago</strong> — everything you're
-                about to see happened in just 3 weeks
+                <strong>It all started about a month ago</strong> — everything
+                you're about to see happened in just under a month
               </li>
               <li>
                 <strong>AlexBot</strong> — personal AI assistant that lives on
@@ -41,8 +41,8 @@ export default function Slide02DigitalTwin() {
               </li>
               <li>
                 Has a <strong>SOUL.md</strong> — not a system prompt, a
-                philosophy. It defines who the bot is, what it believes, and
-                how it should behave.
+                philosophy. It defines who the bot is, what it believes, and how
+                it should behave.
               </li>
             </ul>
           </FadeReveal>
