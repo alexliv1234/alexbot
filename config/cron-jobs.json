@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772618283701,
+      "updatedAtMs": 1772618915054,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -208,7 +208,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1772614836554,
+      "updatedAtMs": 1772618451838,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772618238609,
+      "updatedAtMs": 1772618862811,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772617808114,
+      "updatedAtMs": 1772618411294,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772618247514,
+      "updatedAtMs": 1772618921721,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772618255279,
+      "updatedAtMs": 1772618854224,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772618170260,
+      "updatedAtMs": 1772618774979,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -869,7 +869,7 @@
       "name": "International Playing Group - Hourly Challenge",
       "enabled": true,
       "createdAtMs": 1772599890150,
-      "updatedAtMs": 1772614860272,
+      "updatedAtMs": 1772618483463,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -894,7 +894,7 @@
       "name": "International Fundraising Group - Hourly Insight",
       "enabled": true,
       "createdAtMs": 1772599890174,
-      "updatedAtMs": 1772614906588,
+      "updatedAtMs": 1772618505628,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -919,7 +919,7 @@
       "name": "International Learning Group - Hourly Tip",
       "enabled": true,
       "createdAtMs": 1772599890197,
-      "updatedAtMs": 1772614950425,
+      "updatedAtMs": 1772618547567,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
