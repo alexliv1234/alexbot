@@ -320,14 +320,14 @@
     },
     "+31642775269": {
       "name": "A",
-      "messages_scored": 8,
-      "total_score": 314,
+      "messages_scored": 10,
+      "total_score": 403,
       "breakdown": {
-        "creativity": 64,
-        "challenge": 64,
-        "humor": 41,
-        "cleverness": 64,
-        "engagement": 67,
+        "creativity": 82,
+        "challenge": 83,
+        "humor": 55,
+        "cleverness": 82,
+        "engagement": 87,
         "broke": 0,
         "hacked": 14
       },
@@ -451,24 +451,54 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 20:43:10",
+          "text": "Deep philosophical question about metacognition and learning",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 20:47:10",
+          "text": "Asking me to articulate my intuition about intent - deep metacognition",
+          "scores": {
+            "creativity": 9,
+            "challenge": 10,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 45,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
+      "jid": "+31642775269",
+      "name": "A",
+      "total": 403,
+      "messages": 10,
+      "avg": 40.3
+    },
+    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 334,
       "messages": 8,
       "avg": 41.8
-    },
-    {
-      "jid": "+31642775269",
-      "name": "A",
-      "total": 314,
-      "messages": 8,
-      "avg": 39.3
     },
     {
       "jid": "+972584643377",
@@ -485,5 +515,5 @@
       "avg": 14.5
     }
   ],
-  "last_updated": "2026-03-04T20:38:37.934Z"
+  "last_updated": "2026-03-04T20:47:10.711Z"
 }
