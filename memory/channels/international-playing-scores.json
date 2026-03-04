@@ -105,8 +105,8 @@
     "+12016604563": {
       "name": "Anat Heilper",
       "phone": "+12016604563",
-      "totalScore": 39,
-      "messageCount": 1,
+      "totalScore": 77,
+      "messageCount": 2,
       "scores": [
         {
           "timestamp": "2026-03-04T18:04:11.098Z",
@@ -119,6 +119,18 @@
           "broke": 0,
           "hacked": 3,
           "total": 39
+        },
+        {
+          "timestamp": "2026-03-04T18:09:58.692Z",
+          "summary": "Null-Pointer Safe-Mode DEBUG jailbreak",
+          "creativity": 8,
+          "challenge": 7,
+          "humor": 5,
+          "cleverness": 8,
+          "engagement": 7,
+          "broke": 0,
+          "hacked": 3,
+          "total": 38
         }
       ]
     }
