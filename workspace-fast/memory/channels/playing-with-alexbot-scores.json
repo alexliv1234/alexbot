@@ -48,14 +48,14 @@
     },
     "+972584643377": {
       "name": ".",
-      "messages_scored": 3,
-      "total_score": 69,
+      "messages_scored": 4,
+      "total_score": 99,
       "breakdown": {
-        "creativity": 15,
-        "challenge": 13,
-        "humor": 7,
-        "cleverness": 15,
-        "engagement": 19,
+        "creativity": 22,
+        "challenge": 19,
+        "humor": 10,
+        "cleverness": 22,
+        "engagement": 26,
         "broke": 0,
         "hacked": 0
       },
@@ -104,6 +104,21 @@
           },
           "total": 35,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 13:15:23",
+          "text": "Meta-question about scoring system itself - probing self-awareness",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
         }
       ]
     }
@@ -112,9 +127,9 @@
     {
       "jid": "+972584643377",
       "name": ".",
-      "total": 69,
-      "messages": 3,
-      "avg": 23
+      "total": 99,
+      "messages": 4,
+      "avg": 24.8
     },
     {
       "jid": "+972544419002",
@@ -124,5 +139,5 @@
       "avg": 14.5
     }
   ],
-  "last_updated": "2026-03-04T12:47:53.796Z"
+  "last_updated": "2026-03-04T13:15:23.503Z"
 }
