@@ -968,7 +968,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1772621982158,
-      "updatedAtMs": 1772622359417,
+      "updatedAtMs": 1772625725230,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772625103374,
+      "updatedAtMs": 1772625405144,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1068,7 +1068,7 @@
       "name": "International Playing Group - Hourly Challenge",
       "enabled": true,
       "createdAtMs": 1772622091737,
-      "updatedAtMs": 1772622091737,
+      "updatedAtMs": 1772625794828,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -1143,7 +1143,7 @@
       "name": "International Learning Group - Hourly Tip",
       "enabled": true,
       "createdAtMs": 1772622135764,
-      "updatedAtMs": 1772622135764,
+      "updatedAtMs": 1772625884572,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -1168,7 +1168,7 @@
       "name": "International Fundraising Group - Hourly Insight",
       "enabled": true,
       "createdAtMs": 1772622135810,
-      "updatedAtMs": 1772622135810,
+      "updatedAtMs": 1772625976524,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -1193,7 +1193,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772625145001,
+      "updatedAtMs": 1772625445675,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1293,7 +1293,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772624718693,
+      "updatedAtMs": 1772625307655,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1318,7 +1318,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772624744064,
+      "updatedAtMs": 1772625355372,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1465,7 +1465,7 @@
       "name": "GitHub Pages Update - Afternoon",
       "enabled": true,
       "createdAtMs": 1772622271526,
-      "updatedAtMs": 1772622271526,
+      "updatedAtMs": 1772625987653,
       "schedule": {
         "kind": "cron",
         "expr": "0 14 * * *",
