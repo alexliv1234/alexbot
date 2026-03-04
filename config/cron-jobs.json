@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772621308767,
+      "updatedAtMs": 1772621903820,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772621039434,
+      "updatedAtMs": 1772621939329,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772621051487,
+      "updatedAtMs": 1772621954245,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772621264858,
+      "updatedAtMs": 1772621866753,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772620802613,
+      "updatedAtMs": 1772621403087,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772621321931,
+      "updatedAtMs": 1772621924474,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772621257030,
+      "updatedAtMs": 1772621856558,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772621167160,
+      "updatedAtMs": 1772621768373,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -643,7 +643,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772000032198,
-      "updatedAtMs": 1772619652302,
+      "updatedAtMs": 1772621425983,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -956,6 +956,31 @@
         "kind": "agentTurn",
         "message": "Create today's daily memory file: bash scripts/auto-daily-log.sh\n\nStay silent (NO_REPLY) - this is automated daily file creation.",
         "timeoutSeconds": 30
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "a16f0f68-c8fe-4f6e-bcda-3fde8e0f15d1",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Playing Group - Hourly Leaderboard",
+      "enabled": true,
+      "createdAtMs": 1772621982158,
+      "updatedAtMs": 1772621982158,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0,1,2,3,4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "📊 HOURLY LEADERBOARD UPDATE for 'משחקים עם אלכס הבוט'\n\n**Step 1: Gather data**\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-scores.json for today's human scores.\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-suggestions.json for suggestion scores.\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-bot-scores.json for bot scores.\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-daily/$(date +%Y-%m-%d).jsonl to count today's active participants.\n\n**Step 2: Check if image should be generated**\nRun: `date +%H` (Asia/Jerusalem timezone)\n- If hour is **12**, **17**, or **19**: Generate an image (see Step 2a)\n- Otherwise: Skip image generation entirely\n\n**Step 2a: Generate a leaderboard image 🍌 (ONLY at 12:00, 17:00, and 19:00)**\n```bash\n/home/alexliv/.openclaw/workspace/scripts/generate-group-image.sh \\\n  --subject \"A competitive arena scoreboard showing a fierce battle between contestants, dramatic mid-game tension, spectators cheering, half-time energy, Hebrew scoreboard elements\" \\\n  --context leaderboard \\\n  --aspect 16:9\n```\n\n**IMAGE GUIDELINES (only when generating):**\n- The script auto-picks a random art style (comics, anime, realistic, sci-fi, horror, fantasy)\n- Use 16:9 cinematic aspect ratio for dramatic widescreen feel\n- Customize the --subject based on current standings:\n  - If one person is dominating: scene of an unstoppable champion\n  - If it's close: scene of an epic rivalry/showdown\n  - If scores are low: scene of an empty arena begging for action\n  - If bots are competing: include robot competitors in the scene\n  - At 12:00 (noon): midday energy, halftime vibes\n  - At 17:00 (afternoon): final stretch, sunset battle, last chance energy\n  - At 19:00 (evening): evening showdown, neon lights, prime time energy\n\n**Step 3: Compose the leaderboard message**\n\n**HUMAN CHALLENGE LEADERBOARD:**\nFormat a fun leaderboard showing top human scorers with their points.\n\n**BOT LEADERBOARD (if any bots have scores today):**\n```\n🤖 BOT LEADERBOARD 🤖\n1. BotName - X pts (interactions: Y, avg: Z)\n```\nShow category highlights for bots (best intelligence, security, etc.)\n\n**SUGGESTION LEADERBOARD:**\n- Show today's suggestions count\n- Show top suggester of all time (from .leaderboard)\n- Show pending suggestions count\n\n**LURKER ENCOURAGEMENT (MANDATORY):**\n- Count active participants today vs ~47 group members\n- Rotate through encouragement styles:\n  1. Challenge style: Post a simple fun challenge\n  2. Shame style: Playful guilt-trip\n  3. Low barrier style: Remind that even a joke earns points\n  4. FOMO style: Highlight what lurkers are missing\n  5. Direct callout style: Pick 2-3 quiet names\n- Be sarcastic, funny, Hebrew, but not mean\n\n**FORMAT:**\n```\n🏆 טבלת אתגרים (עדכון שעתי)\n[human challenge leaderboard]\n\n🤖 טבלת בוטים\n[bot leaderboard - if any activity]\n\n💡 הצעות שיפור\n📝 היום: X הצעות\n🧠 מציע מוביל: Name (Y נק')\n⏳ בהמתנה: Z\n\n👀 [lurker encouragement section]\n```\n\n**Step 4: Send via message tool**\nSend the message to WhatsApp group 120363405143589138@g.us.\n- If image was generated (12:00, 17:00, or 19:00): include the image filePath\n- Otherwise: send text-only leaderboard",
+        "timeoutSeconds": 180,
+        "model": "sonnet"
       },
       "delivery": {
         "mode": "none"
