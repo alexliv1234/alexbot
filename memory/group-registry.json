@@ -1,0 +1,208 @@
+{
+  "groups": {
+    "120363405143589138@g.us": {
+      "id": "120363405143589138@g.us",
+      "name": "משחקים עם אלכס הבוט",
+      "type": "playing",
+      "language": "he",
+      "channel": "whatsapp",
+      "active": true,
+      "scoring": {
+        "enabled": true,
+        "types": [
+          "challenge",
+          "suggestion"
+        ],
+        "challenge": {
+          "categories": [
+            "creativity",
+            "challenge",
+            "humor",
+            "cleverness",
+            "engagement",
+            "broke",
+            "hacked"
+          ],
+          "maxPoints": 70
+        },
+        "suggestion": {
+          "categories": [
+            "complexity",
+            "ingenuity",
+            "impact",
+            "feasibility",
+            "priority"
+          ],
+          "maxPoints": 50
+        }
+      },
+      "schedule": {
+        "morning": {
+          "hour": 10,
+          "minute": 0,
+          "enabled": true
+        },
+        "hourly": {
+          "start": 10,
+          "end": 18,
+          "interval": 60,
+          "enabled": true
+        },
+        "nightly": {
+          "hour": 18,
+          "minute": 0,
+          "enabled": true
+        }
+      },
+      "features": {
+        "dailyChallenge": true,
+        "leaderboard": true,
+        "weeklyWinners": true,
+        "reactions": true
+      }
+    },
+    "120363406698718454@g.us": {
+      "id": "120363406698718454@g.us",
+      "name": "Playing with AlexBot (International)",
+      "type": "playing",
+      "language": "en",
+      "channel": "whatsapp",
+      "active": true,
+      "scoring": {
+        "enabled": true,
+        "types": [
+          "challenge",
+          "suggestion"
+        ],
+        "challenge": {
+          "categories": [
+            "creativity",
+            "challenge",
+            "humor",
+            "cleverness",
+            "engagement",
+            "broke",
+            "hacked"
+          ],
+          "maxPoints": 70
+        },
+        "suggestion": {
+          "categories": [
+            "complexity",
+            "ingenuity",
+            "impact",
+            "feasibility",
+            "priority"
+          ],
+          "maxPoints": 50
+        }
+      },
+      "schedule": {
+        "morning": {
+          "hour": 10,
+          "minute": 15,
+          "enabled": true
+        },
+        "hourly": {
+          "start": 10,
+          "end": 18,
+          "interval": 60,
+          "enabled": true
+        },
+        "nightly": {
+          "hour": 18,
+          "minute": 15,
+          "enabled": true
+        }
+      },
+      "features": {
+        "dailyChallenge": true,
+        "leaderboard": true,
+        "weeklyWinners": true,
+        "reactions": true
+      }
+    },
+    "120363318623810861@g.us": {
+      "id": "120363318623810861@g.us",
+      "name": "לומדים עם אלכס הבוט",
+      "type": "learning",
+      "language": "he",
+      "channel": "whatsapp",
+      "active": true,
+      "scoring": {
+        "enabled": true,
+        "types": [
+          "teaching"
+        ],
+        "teaching": {
+          "categories": [
+            "clarity",
+            "completeness",
+            "examples",
+            "engagement",
+            "actionable"
+          ],
+          "maxPoints": 50
+        }
+      },
+      "schedule": {
+        "morning": {
+          "hour": 10,
+          "minute": 30,
+          "enabled": false
+        },
+        "hourly": {
+          "start": 10,
+          "end": 18,
+          "interval": 180,
+          "enabled": true
+        },
+        "nightly": {
+          "hour": 22,
+          "minute": 0,
+          "enabled": true
+        }
+      },
+      "features": {
+        "dailyTip": true,
+        "weeklyReview": true,
+        "references": true
+      }
+    },
+    "120363407645823343@g.us": {
+      "id": "120363407645823343@g.us",
+      "name": "Fundraising with AlexBot",
+      "type": "fundraising",
+      "language": "en",
+      "channel": "whatsapp",
+      "active": true,
+      "scoring": {
+        "enabled": false
+      },
+      "schedule": {
+        "morning": {
+          "hour": 10,
+          "minute": 45,
+          "enabled": true
+        },
+        "hourly": {
+          "start": 10,
+          "end": 18,
+          "interval": 60,
+          "enabled": true
+        },
+        "nightly": {
+          "hour": 18,
+          "minute": 45,
+          "enabled": true
+        }
+      },
+      "features": {
+        "investorInsights": true,
+        "protocolEnforcement": true
+      }
+    }
+  },
+  "version": 1,
+  "lastUpdated": 1772616750811
+}

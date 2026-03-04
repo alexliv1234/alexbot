@@ -1,0 +1,16 @@
+{
+  "scores": {
+    "+972544419002": {
+      "name": "Alex",
+      "userId": "+972544419002",
+      "total": 38,
+      "count": 1,
+      "byType": {
+        "challenge": {
+          "total": 38,
+          "count": 1
+        }
+      }
+    }
+  }
+}

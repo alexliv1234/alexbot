@@ -1,9 +1,11 @@
 #!/bin/bash
 # Morning routine for playing group - reset scores and announce new day
-# ✨ NOW WITH COORDINATOR INTEGRATION
+# ✨ WITH COORDINATOR + GROUP MANAGER INTEGRATION
 
 WORKSPACE="/home/alexliv/.openclaw/workspace"
 cd "$WORKSPACE"
+
+GROUP_ID="120363405143589138@g.us"
 
 # ═══════════════════════════════════════════════════════════════
 # COORDINATOR CHECK - Step 1: Should we proceed?
@@ -30,28 +32,26 @@ ACTION_ID=$(node scripts/coordinator.js --register-action "playing-morning" "Mor
 echo "📝 Registered action: $ACTION_ID"
 
 # ═══════════════════════════════════════════════════════════════
-# ACTUAL WORK - Step 3: Do the job
+# ACTUAL WORK - Step 3: Do the job (NOW USING GROUP MANAGER!)
 # ═══════════════════════════════════════════════════════════════
 
-DATE=$(date +%Y-%m-%d)
-BACKUP_FILE="memory/channels/playing-with-alexbot-scores-backup-${DATE}.json"
-SCORES_FILE="memory/channels/playing-with-alexbot-scores.json"
+echo "🌅 Morning reset via Group Manager"
 
-echo "🌅 Morning reset for $DATE"
+# Reset scores using group manager (auto-backs up!)
+node scripts/group-manager.js --reset-scores "$GROUP_ID"
 
-# 1. Backup yesterday's scores
-if [ -f "$SCORES_FILE" ]; then
-  cp "$SCORES_FILE" "$BACKUP_FILE"
-  echo "✅ Backup created: $BACKUP_FILE"
-fi
+# Get dynamic morning message template
+MESSAGE=$(node scripts/group-manager.js --get-template "$GROUP_ID" "morning")
 
-# 2. Reset scores to empty
-echo '{"scores":{}}' > "$SCORES_FILE"
 echo "✅ Scores reset to 0"
+echo ""
+echo "📢 Morning message generated:"
+echo "$MESSAGE"
 
 # ═══════════════════════════════════════════════════════════════
 # COORDINATOR COMPLETE - Step 4: Mark as complete
 # ═══════════════════════════════════════════════════════════════
 
 node scripts/coordinator.js --complete-action "$ACTION_ID"
+echo ""
 echo "🎯 Ready for new day! (Action completed)"
