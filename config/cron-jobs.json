@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772622702501,
+      "updatedAtMs": 1772623302244,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1193,7 +1193,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772622747004,
+      "updatedAtMs": 1772623344317,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1218,7 +1218,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772622757149,
+      "updatedAtMs": 1772623358293,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1243,7 +1243,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772622862729,
+      "updatedAtMs": 1772623492806,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1268,7 +1268,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1772622183722,
-      "updatedAtMs": 1772622183722,
+      "updatedAtMs": 1772623216238,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1293,7 +1293,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772622183765,
+      "updatedAtMs": 1772622877989,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1318,7 +1318,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772622183809,
+      "updatedAtMs": 1772622910553,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1343,7 +1343,7 @@
       "name": "Teaching Quality - Daily Review",
       "enabled": true,
       "createdAtMs": 1772622245128,
-      "updatedAtMs": 1772622245128,
+      "updatedAtMs": 1772622939482,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -1353,7 +1353,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run DAILY teaching quality review:\n\n1. Execute: cd /home/alexliv/.openclaw/workspace-learning && bash scripts/review-recent-teachings.sh --today\n2. Analyze TODAY'S teachings:\n   - What questions repeated? (means previous answers weren't clear)\n   - What scores were low? (which categories need improvement)\n   - What worked well? (extract successful patterns)\n3. Extract lessons and update TEACHING-QUICK-REF.md if new patterns discovered\n4. Log insights to memory/teaching-lessons/ for continuous improvement\n5. Stay silent unless critical issues found (then notify Alex)",
+        "message": "Run DAILY teaching quality review:\n\n1. Execute: cd /home/alexliv/.openclaw/workspace/workspace-fast && bash scripts/learning/review-recent-teachings.sh --today\n2. Analyze TODAY'S teachings:\n   - What questions repeated? (means previous answers weren't clear)\n   - What scores were low? (which categories need improvement)\n   - What worked well? (extract successful patterns)\n3. Extract lessons and update TEACHING-QUICK-REF.md if new patterns discovered\n4. Log insights to memory/international-groups/learning/teaching-lessons/ for continuous improvement\n5. Stay silent unless critical issues found (then notify Alex)",
         "model": "anthropic/claude-sonnet-4-5"
       },
       "delivery": {
@@ -1369,7 +1369,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1772622271436,
-      "updatedAtMs": 1772622271436,
+      "updatedAtMs": 1772622927246,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -1379,7 +1379,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run nightly learning analysis: bash /home/alexliv/.openclaw/workspace/workspace-learning/scripts/learning-group-nightly.sh\n\nSend summary to group 120363405089976@g.us if there was activity today using the message tool.",
+        "message": "Run nightly learning analysis: bash /home/alexliv/.openclaw/workspace/workspace-fast/scripts/learning/learning-group-nightly.sh\n\nSend summary to group 120363405089976@g.us if there was activity today using the message tool.",
         "timeoutSeconds": 180
       },
       "delivery": {
@@ -1538,7 +1538,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1772622304980,
-      "updatedAtMs": 1772622304980,
+      "updatedAtMs": 1772623227028,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
