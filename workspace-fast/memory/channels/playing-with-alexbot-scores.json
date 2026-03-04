@@ -1,1 +1,45 @@
-{"scores":{}}
+{
+  "scores": {
+    "+972544419002": {
+      "name": "אלכס",
+      "messages_scored": 1,
+      "total_score": 7,
+      "breakdown": {
+        "creativity": 1,
+        "challenge": 1,
+        "humor": 1,
+        "cleverness": 1,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-04 09:59:01",
+          "text": "Simple check-in",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "leaderboard": [
+    {
+      "jid": "+972544419002",
+      "name": "אלכס",
+      "total": 7,
+      "messages": 1,
+      "avg": 7
+    }
+  ],
+  "last_updated": "2026-03-04T09:59:01.456Z"
+}
