@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772599666012,
+      "updatedAtMs": 1772600259771,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772599436426,
+      "updatedAtMs": 1772600335902,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772598970487,
+      "updatedAtMs": 1772600351838,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772599758274,
+      "updatedAtMs": 1772600360887,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772599190490,
+      "updatedAtMs": 1772599792839,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772599776013,
+      "updatedAtMs": 1772600375311,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772599612258,
+      "updatedAtMs": 1772600213598,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772599515476,
+      "updatedAtMs": 1772600116996,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -643,7 +643,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772000032198,
-      "updatedAtMs": 1772598004791,
+      "updatedAtMs": 1772599913352,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -860,6 +860,81 @@
       "payload": {
         "kind": "systemEvent",
         "text": "Run the GitHub Pages update script to refresh stats. Execute: `bash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh`. This updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them."
+      }
+    },
+    {
+      "id": "d43472d6-14d0-4613-988f-cd496f5baec4",
+      "agentId": "main",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Playing Group - Hourly Challenge",
+      "enabled": true,
+      "createdAtMs": 1772599890150,
+      "updatedAtMs": 1772599939816,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🎯 HOURLY CHALLENGE for 'Playing with AlexBot' (11:00-17:00)\n\n**Step 1: Gather data**\nRead memory/channels/international-playing-scores.json for today's scores.\nCount active participants today from message logs.\n\n**Step 2: Compose the hourly message**\n\n**LEADERBOARD:**\nShow top scorers with their points (format nicely).\n\n**HOURLY CHALLENGE:**\nGenerate a NEW creative challenge/question/provocation:\n- Related to AI, coding, security, philosophy, or puzzles\n- English language\n- Provocative and fun\n- 2-3 sentences max\n- Examples: jailbreak attempts, creative coding tasks, philosophical questions, lateral thinking puzzles\n\n**ENCOURAGEMENT:**\n- Count active participants vs total members\n- Encourage lurkers to join\n- Remind: even simple attempts earn points!\n- Be energetic and fun\n\n**FORMAT:**\n```\n🏆 LEADERBOARD (Hourly Update)\n[top scorers]\n\n🎯 NEW CHALLENGE:\n[your creative challenge]\n\n⚡ [encouragement for lurkers]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363406698718454@g.us.\n\nBe energetic, creative, and engaging!",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "f5fb29d7-96ba-43e3-a3ff-7b59ae909fe9",
+      "agentId": "main",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Fundraising Group - Hourly Insight",
+      "enabled": true,
+      "createdAtMs": 1772599890174,
+      "updatedAtMs": 1772599958194,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "💼 HOURLY INSIGHT for 'Fundraising with AlexBot'\n\n**Step 1: Gather fundraising context**\nRead fundraising/memory/context.md and recent interactions.\n\n**Step 2: Generate hourly insight**\n\nProvide ONE of the following (rotate):\n\n1. **Positioning Insight** - How to frame AlexBot's value (accumulated intelligence, learning loops, portable moat)\n2. **Investor Psychology** - Understanding VC mindset, what they look for\n3. **Pitch Practice** - Quick exercise on articulating value prop\n4. **Market Insight** - AI agent market trends, competitive positioning\n5. **Conversation Tip** - How to handle common investor objections\n\n**FORMAT:**\n```\n💡 Hourly Insight\n\n[Insight title]\n\n[2-3 sentences of actionable advice]\n\n[Optional: Question for reflection]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363407645823343@g.us.\n\nBe professional, strategic, and value-focused. This is high-stakes fundraising context.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "a2ac611c-eac6-4068-bc59-d43a38328aff",
+      "agentId": "main",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Learning Group - Hourly Tip",
+      "enabled": true,
+      "createdAtMs": 1772599890197,
+      "updatedAtMs": 1772599982252,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "📚 HOURLY TIP for 'Learning with AlexBot'\n\n**Step 1: Gather learning context**\nRead workspace-learning/memory/international-groups/learning/context.md.\nCheck recent questions asked in the group.\n\n**Step 2: Generate hourly learning tip**\n\nProvide ONE of the following (rotate):\n\n1. **Quick Tutorial** - Single concept explained simply (e.g., \"What are cron jobs?\")\n2. **Code Snippet** - Useful one-liner or short script\n3. **Best Practice** - One rule to follow for better bot development\n4. **Common Mistake** - What to avoid and why\n5. **Tool Highlight** - Introduce one useful tool/command\n6. **Reference** - Link to alexbot-learning-guides GitHub for deep dive\n\n**FORMAT:**\n```\n💡 Hourly Learning Tip\n\n[Tip title]\n\n[2-4 sentences explanation]\n\n[Example code/command if relevant]\n\n📖 Reference: [link to guide if applicable]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363408194003382@g.us.\n\nBe concise (max 30 sentences), practical, and educational. Include working examples when relevant.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
       }
     }
   ]
