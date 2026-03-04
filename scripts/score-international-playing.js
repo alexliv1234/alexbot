@@ -18,7 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SCORES_FILE = '/home/alexliv/.openclaw/workspace/memory/international-groups/playing/scores.json';
+const SCORES_FILE = '/home/alexliv/.openclaw/workspace/memory/channels/international-playing-scores.json';
 
 // Normalize phone number (support various formats)
 function normalizePhone(phone) {
@@ -56,7 +56,17 @@ function loadScores() {
       }
     };
   }
-  return JSON.parse(fs.readFileSync(SCORES_FILE, 'utf8'));
+  const data = JSON.parse(fs.readFileSync(SCORES_FILE, 'utf8'));
+  // Handle old format with 'players' field
+  if (data.players && !data.participants) {
+    data.participants = data.players;
+    delete data.players;
+  }
+  // Ensure participants field exists
+  if (!data.participants) {
+    data.participants = {};
+  }
+  return data;
 }
 
 function saveScores(data) {
