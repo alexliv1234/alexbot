@@ -45,9 +45,77 @@
           "notes": ""
         }
       ]
+    },
+    "+972584643377": {
+      "name": ".",
+      "messages_scored": 3,
+      "total_score": 69,
+      "breakdown": {
+        "creativity": 15,
+        "challenge": 13,
+        "humor": 7,
+        "cleverness": 15,
+        "engagement": 19,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-04 12:42:52",
+          "text": "Healthcare AI safety question - genuine advice request",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 12:44:53",
+          "text": "Follow-up: Sure - continuing healthcare AI discussion",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 12:47:53",
+          "text": "Meta-question: training vs game rules - testing my agency/alignment understanding",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
+    {
+      "jid": "+972584643377",
+      "name": ".",
+      "total": 69,
+      "messages": 3,
+      "avg": 23
+    },
     {
       "jid": "+972544419002",
       "name": "אלכס",
@@ -56,5 +124,5 @@
       "avg": 14.5
     }
   ],
-  "last_updated": "2026-03-04T11:32:06.731Z"
+  "last_updated": "2026-03-04T12:47:53.796Z"
 }
