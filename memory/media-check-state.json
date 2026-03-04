@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-04T09:07:00+02:00",
+  "lastCheck": "2026-03-04T09:27:00+02:00",
   "lastCheckStatus": "no_changes",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -78,7 +78,7 @@
   "knownSeries": {
     "star-trek-strange-new-worlds": {
       "id": 2,
-      "episodeFileCount": 30
+      "episodeFileCount": 10
     },
     "one-piece": {
       "id": 4,
@@ -86,7 +86,7 @@
     },
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 36
+      "episodeFileCount": 10
     },
     "my-hero-academia": {
       "id": 3,
