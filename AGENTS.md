@@ -90,6 +90,34 @@ bash scripts/pre-action-check.sh cron-create
 
 **Why this matters:** Auto-enforcement removes the need to remember which protocol applies. It detects context and validates automatically.
 
+### 📊 Compliance Tracking (Started 2026-03-04)
+
+**The Meta-Problem:** I can build tools and write protocols, but I don't always USE them.
+
+**The Solution:** Track whether I actually run enforcement checks before critical replies.
+
+**Quick usage:**
+```bash
+# When I run enforcement check
+bash scripts/compliance-track.sh log enforce <context> <reply_id>
+
+# When I send reply
+bash scripts/compliance-track.sh log reply <context> <reply_id> true
+
+# Weekly report (every Monday)
+bash scripts/compliance-track.sh report 7
+```
+
+**Contexts:** `playing_group`, `investor`, `teaching`, `cron`
+
+**Why this closes the loop:**
+1. ✅ Tools exist (enforcement scripts)
+2. ✅ Usage tracked (compliance log)
+3. ✅ Feedback loop (weekly reports)
+4. ✅ Continuous improvement (iterate based on data)
+
+**Details:** See `memory/COMPLIANCE-TRACKING-GUIDE.md`
+
 ## 🚨 CRITICAL RULES
 
 ### 🎯 Context Identification (CRITICAL)

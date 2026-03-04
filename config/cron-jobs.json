@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772582240931,
+      "updatedAtMs": 1772582861898,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772581866715,
+      "updatedAtMs": 1772582766883,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772582357123,
+      "updatedAtMs": 1772582955686,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772581782364,
+      "updatedAtMs": 1772582382317,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772582366064,
+      "updatedAtMs": 1772582964027,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772582211156,
+      "updatedAtMs": 1772582810320,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772582099424,
+      "updatedAtMs": 1772582700327,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -618,7 +618,7 @@
       "name": "למידה עצמית - לילה",
       "enabled": true,
       "createdAtMs": 1771916343647,
-      "updatedAtMs": 1772496129562,
+      "updatedAtMs": 1772582609946,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 * * *",
