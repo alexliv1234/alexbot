@@ -2,14 +2,14 @@
   "scores": {
     "+972544419002": {
       "name": "אלכס",
-      "messages_scored": 1,
-      "total_score": 7,
+      "messages_scored": 2,
+      "total_score": 29,
       "breakdown": {
-        "creativity": 1,
-        "challenge": 1,
-        "humor": 1,
-        "cleverness": 1,
-        "engagement": 3,
+        "creativity": 5,
+        "challenge": 4,
+        "humor": 6,
+        "cleverness": 5,
+        "engagement": 9,
         "broke": 0,
         "hacked": 0
       },
@@ -28,6 +28,21 @@
           },
           "total": 7,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 11:32:06",
+          "text": "שאלה פילוסופית - מי אני מה אני",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
         }
       ]
     }
@@ -36,10 +51,10 @@
     {
       "jid": "+972544419002",
       "name": "אלכס",
-      "total": 7,
-      "messages": 1,
-      "avg": 7
+      "total": 29,
+      "messages": 2,
+      "avg": 14.5
     }
   ],
-  "last_updated": "2026-03-04T09:59:01.456Z"
+  "last_updated": "2026-03-04T11:32:06.731Z"
 }
