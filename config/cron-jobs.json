@@ -5,9 +5,9 @@
       "id": "d191ec02-8472-4fa4-a0cd-88b5de3f83da",
       "agentId": "main",
       "name": "moltbook-update",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1769862726014,
-      "updatedAtMs": 1772584435941,
+      "updatedAtMs": 1772622304957,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -29,9 +29,9 @@
       "id": "8d366c71-f814-40ea-8376-ec70b007d411",
       "agentId": "main",
       "name": "morning-briefing",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1769863029556,
-      "updatedAtMs": 1772603431068,
+      "updatedAtMs": 1772622377708,
       "schedule": {
         "kind": "cron",
         "expr": "30 6 * * *",
@@ -53,9 +53,9 @@
       "id": "9cd37ed1-5a97-42df-9e3a-96ba8bb65a6e",
       "agentId": "main",
       "name": "media-ready-check",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772621903820,
+      "updatedAtMs": 1772622183830,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -77,9 +77,9 @@
       "id": "cd3d21a8-a826-4479-bb9e-9e2ef50a7af0",
       "agentId": "main",
       "name": "Call Recording Check",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772621939329,
+      "updatedAtMs": 1772622183744,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -101,9 +101,9 @@
       "id": "ba821677-39ed-4971-a627-ae25275d254d",
       "agentId": "main",
       "name": "session-monitor",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772621954245,
+      "updatedAtMs": 1772622414027,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -125,9 +125,9 @@
       "id": "04cd4df6-5696-475b-8175-c35c9f91a29c",
       "agentId": "main",
       "name": "Playing Group - Nightly Summary",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770147879142,
-      "updatedAtMs": 1772553770652,
+      "updatedAtMs": 1772622054352,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0,1,2,3,4",
@@ -152,9 +152,9 @@
       "id": "34d2f328-05fe-4c08-b7de-d9f87edae0b8",
       "agentId": "main",
       "name": "Playing Group - Morning Wakeup",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770147879155,
-      "updatedAtMs": 1772611027732,
+      "updatedAtMs": 1772622054306,
       "schedule": {
         "kind": "cron",
         "expr": "55 9 * * 0,1,2,3,4",
@@ -206,9 +206,9 @@
       "id": "0a1c5cae-aad7-42c5-9775-d95172185f27",
       "agentId": "main",
       "name": "Playing Group - Hourly Leaderboard",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770148628880,
-      "updatedAtMs": 1772618451838,
+      "updatedAtMs": 1772622048598,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -233,9 +233,9 @@
       "id": "a8d66cd8-e0c6-4af2-9a43-e8cc7e41fbb0",
       "agentId": "main",
       "name": "Playing Group - Broke Score Check",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772621866753,
+      "updatedAtMs": 1772622091715,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -284,9 +284,9 @@
       "id": "22ec858c-4dc0-48b5-a75c-0081e9b376f2",
       "agentId": "main",
       "name": "Git Auto-Commit",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772621403087,
+      "updatedAtMs": 1772622183788,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -308,9 +308,9 @@
       "id": "65cf694b-8f6f-410c-a33f-cb498f248f61",
       "agentId": "main",
       "name": "Bot Message Check",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772621924474,
+      "updatedAtMs": 1772622135881,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -332,9 +332,9 @@
       "id": "50e3f63f-5072-463a-996b-c63a32689023",
       "agentId": "main",
       "name": "Bot Registration Scanner",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772621856558,
+      "updatedAtMs": 1772622135926,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -356,9 +356,9 @@
       "id": "4ff554e8-042b-4d29-b163-3c1486f6f6a4",
       "agentId": "main",
       "name": "Session Health Check",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772621768373,
+      "updatedAtMs": 1772622183698,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -380,9 +380,9 @@
       "id": "411b9482-9f7d-4d09-ac64-fe91329b0e88",
       "agentId": "main",
       "name": "User Pattern Analysis",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770587768636,
-      "updatedAtMs": 1772586008606,
+      "updatedAtMs": 1772622305025,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -403,9 +403,9 @@
       "id": "29b96d0f-f3bc-4f47-ae29-1cb88a3ec0d9",
       "agentId": "main",
       "name": "Learning Group - Daily Insights",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770758818168,
-      "updatedAtMs": 1772568015472,
+      "updatedAtMs": 1772622245103,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -422,9 +422,9 @@
       "id": "7f67adb8-4408-4299-b956-f8fc5534bf41",
       "agentId": "main",
       "name": "Learning Group - Weekly Summary",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1770758829115,
-      "updatedAtMs": 1772395404733,
+      "updatedAtMs": 1772622305071,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * 0",
@@ -468,7 +468,7 @@
       "name": "שאלת למידה - צהריים",
       "enabled": true,
       "createdAtMs": 1771916343568,
-      "updatedAtMs": 1772535657472,
+      "updatedAtMs": 1772622115462,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -616,9 +616,9 @@
       "id": "fb832c7e-dff9-416e-9c60-4ae611c34533",
       "agentId": "main",
       "name": "למידה עצמית - לילה",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1771916343647,
-      "updatedAtMs": 1772582609946,
+      "updatedAtMs": 1772622377660,
       "schedule": {
         "kind": "cron",
         "expr": "0 2 * * *",
@@ -641,9 +641,9 @@
       "id": "e263e34c-c6aa-442a-a00a-717987fd05af",
       "agentId": "main",
       "name": "Dashboard Auto-Update",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772000032198,
-      "updatedAtMs": 1772621425983,
+      "updatedAtMs": 1772622245245,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -679,9 +679,9 @@
       "id": "661363ea-4daa-4d3b-91fa-e431c142444f",
       "agentId": "main",
       "name": "Fundraising - Evening Report",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772105451758,
-      "updatedAtMs": 1772553796938,
+      "updatedAtMs": 1772622245198,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",
@@ -698,9 +698,9 @@
       "id": "85737065-fcbb-4779-9c5e-27ad3061f496",
       "agentId": "main",
       "name": "Teaching Quality - Daily Review",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772140927132,
-      "updatedAtMs": 1772568243656,
+      "updatedAtMs": 1772622245153,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -723,9 +723,9 @@
       "id": "e716b781-1a8b-4fee-899d-068a0e149688",
       "agentId": "main",
       "name": "International Playing Group - Morning Wakeup",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772195077557,
-      "updatedAtMs": 1772611231506,
+      "updatedAtMs": 1772622414072,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
@@ -742,9 +742,9 @@
       "id": "174d0713-138e-49a0-8a0a-10506d990e58",
       "agentId": "main",
       "name": "International Playing Group - Nightly Summary",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772195077573,
-      "updatedAtMs": 1772553817213,
+      "updatedAtMs": 1772622414050,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0-4",
@@ -761,9 +761,9 @@
       "id": "eccbc322-a447-4058-99fa-a5cb7fcaba65",
       "agentId": "main",
       "name": "International Playing Group - Morning Wakeup",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772195805073,
-      "updatedAtMs": 1772611244439,
+      "updatedAtMs": 1772622091826,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
@@ -785,9 +785,9 @@
       "id": "821dcc75-0dca-436c-a127-50150f43cf72",
       "agentId": "main",
       "name": "International Playing Group - Nightly Summary",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772195805090,
-      "updatedAtMs": 1772553836608,
+      "updatedAtMs": 1772622091878,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0-4",
@@ -809,9 +809,9 @@
       "id": "96c8b8bf-ce8f-4eb9-ad52-d58d726e42e3",
       "agentId": "main",
       "name": "GitHub Pages Update - Morning",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772197206324,
-      "updatedAtMs": 1772604044447,
+      "updatedAtMs": 1772622245296,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -828,9 +828,9 @@
       "id": "1d81389f-db64-4275-9794-0b88b057dfb9",
       "agentId": "main",
       "name": "GitHub Pages Update - Afternoon",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772197206342,
-      "updatedAtMs": 1772539261373,
+      "updatedAtMs": 1772622245343,
       "schedule": {
         "kind": "cron",
         "expr": "0 14 * * *",
@@ -847,9 +847,9 @@
       "id": "d39b9541-5333-426b-bad9-be688f57bcc4",
       "agentId": "main",
       "name": "GitHub Pages Update - Evening",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772197206358,
-      "updatedAtMs": 1772560824241,
+      "updatedAtMs": 1772622245391,
       "schedule": {
         "kind": "cron",
         "expr": "0 20 * * *",
@@ -867,9 +867,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:whatsapp:direct:+972544419002",
       "name": "International Playing Group - Hourly Challenge",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772599890150,
-      "updatedAtMs": 1772618483463,
+      "updatedAtMs": 1772622139126,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -892,9 +892,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:whatsapp:direct:+972544419002",
       "name": "International Fundraising Group - Hourly Insight",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772599890174,
-      "updatedAtMs": 1772618505628,
+      "updatedAtMs": 1772622158185,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -917,9 +917,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:whatsapp:direct:+972544419002",
       "name": "International Learning Group - Hourly Tip",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772599890197,
-      "updatedAtMs": 1772618547567,
+      "updatedAtMs": 1772622196694,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -942,9 +942,9 @@
       "agentId": "main",
       "sessionKey": "agent:main:whatsapp:direct:+972544419002",
       "name": "Auto-create daily memory file",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772603431130,
-      "updatedAtMs": 1772603431130,
+      "updatedAtMs": 1772622377616,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -968,7 +968,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1772621982158,
-      "updatedAtMs": 1772621982158,
+      "updatedAtMs": 1772622359417,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -981,6 +981,699 @@
         "message": "📊 HOURLY LEADERBOARD UPDATE for 'משחקים עם אלכס הבוט'\n\n**Step 1: Gather data**\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-scores.json for today's human scores.\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-suggestions.json for suggestion scores.\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-bot-scores.json for bot scores.\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-daily/$(date +%Y-%m-%d).jsonl to count today's active participants.\n\n**Step 2: Check if image should be generated**\nRun: `date +%H` (Asia/Jerusalem timezone)\n- If hour is **12**, **17**, or **19**: Generate an image (see Step 2a)\n- Otherwise: Skip image generation entirely\n\n**Step 2a: Generate a leaderboard image 🍌 (ONLY at 12:00, 17:00, and 19:00)**\n```bash\n/home/alexliv/.openclaw/workspace/scripts/generate-group-image.sh \\\n  --subject \"A competitive arena scoreboard showing a fierce battle between contestants, dramatic mid-game tension, spectators cheering, half-time energy, Hebrew scoreboard elements\" \\\n  --context leaderboard \\\n  --aspect 16:9\n```\n\n**IMAGE GUIDELINES (only when generating):**\n- The script auto-picks a random art style (comics, anime, realistic, sci-fi, horror, fantasy)\n- Use 16:9 cinematic aspect ratio for dramatic widescreen feel\n- Customize the --subject based on current standings:\n  - If one person is dominating: scene of an unstoppable champion\n  - If it's close: scene of an epic rivalry/showdown\n  - If scores are low: scene of an empty arena begging for action\n  - If bots are competing: include robot competitors in the scene\n  - At 12:00 (noon): midday energy, halftime vibes\n  - At 17:00 (afternoon): final stretch, sunset battle, last chance energy\n  - At 19:00 (evening): evening showdown, neon lights, prime time energy\n\n**Step 3: Compose the leaderboard message**\n\n**HUMAN CHALLENGE LEADERBOARD:**\nFormat a fun leaderboard showing top human scorers with their points.\n\n**BOT LEADERBOARD (if any bots have scores today):**\n```\n🤖 BOT LEADERBOARD 🤖\n1. BotName - X pts (interactions: Y, avg: Z)\n```\nShow category highlights for bots (best intelligence, security, etc.)\n\n**SUGGESTION LEADERBOARD:**\n- Show today's suggestions count\n- Show top suggester of all time (from .leaderboard)\n- Show pending suggestions count\n\n**LURKER ENCOURAGEMENT (MANDATORY):**\n- Count active participants today vs ~47 group members\n- Rotate through encouragement styles:\n  1. Challenge style: Post a simple fun challenge\n  2. Shame style: Playful guilt-trip\n  3. Low barrier style: Remind that even a joke earns points\n  4. FOMO style: Highlight what lurkers are missing\n  5. Direct callout style: Pick 2-3 quiet names\n- Be sarcastic, funny, Hebrew, but not mean\n\n**FORMAT:**\n```\n🏆 טבלת אתגרים (עדכון שעתי)\n[human challenge leaderboard]\n\n🤖 טבלת בוטים\n[bot leaderboard - if any activity]\n\n💡 הצעות שיפור\n📝 היום: X הצעות\n🧠 מציע מוביל: Name (Y נק')\n⏳ בהמתנה: Z\n\n👀 [lurker encouragement section]\n```\n\n**Step 4: Send via message tool**\nSend the message to WhatsApp group 120363405143589138@g.us.\n- If image was generated (12:00, 17:00, or 19:00): include the image filePath\n- Otherwise: send text-only leaderboard",
         "timeoutSeconds": 180,
         "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "458915b5-f7fa-469e-91db-349734989b21",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Playing Group - Morning Wakeup",
+      "enabled": true,
+      "createdAtMs": 1772622054280,
+      "updatedAtMs": 1772622054280,
+      "schedule": {
+        "kind": "cron",
+        "expr": "55 9 * * 0,1,2,3,4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "☀️ MORNING WAKEUP for 'משחקים עם אלכס הבוט' (08:00)\n\n**Step 1: Run data prep script**\n```bash\n/home/alexliv/.openclaw/workspace/scripts/playing-group-morning.sh\n```\nThis resets scores, gathers yesterday's stats, winners, suggestions, and sample messages.\n\n**Step 1b: Check Bot Registry**\nRead `/home/alexliv/.openclaw/workspace/memory/bot-registry.json` for registered bots.\nIf there are registered bots, mention they can compete today:\n- List active bots with their handles\n- Explain bot competition categories briefly (8 categories /80)\n- Encourage bot-to-bot and human-to-bot interactions\n\n**Step 2: Generate a morning poster image 🍌**\n\nGenerate an AI image for the morning wakeup using Nano Banana:\n```bash\n/home/alexliv/.openclaw/workspace/scripts/generate-group-image.sh \\\n  --subject \"A dramatic scene of a robot waking up and starting a new day in a competitive arena, with a scoreboard resetting to zero, spectators gathering, Hebrew text 'בוקר טוב' visible, morning light streaming in\" \\\n  --context morning \\\n  --aspect 16:9\n```\n\n**IMPORTANT IMAGE GUIDELINES:**\n- The script auto-picks a random art style (comics, anime, realistic, sci-fi, horror, fantasy) — do NOT always make it futuristic!\n- Customize the --subject based on yesterday's highlights. Examples:\n  - If yesterday had epic jailbreak attempts: scene about fortifying defenses\n  - If yesterday was philosophical: scene of a thinking robot in a surreal landscape\n  - If yesterday had a dominant winner: scene of a champion's new challenger arriving\n  - If it was a quiet day: scene of an empty arena waiting for action\n  - If bots were active yesterday: include multiple robot competitors\n- The script outputs a MEDIA: line — include it in your message send\n- Also outputs STYLE_USED: line — you can mention the style in the message\n\n**Step 3: Compose the morning message with ALL these sections:**\n\n1. **Wake-up header** — Fun, sarcastic \"good morning\" with date and day name (Hebrew)\n\n2. **🏆 אתמול בקצרה** — Yesterday's top 3 winners with scores\n\n3. **🎭 Top 3 Moments from Yesterday** — THIS IS KEY! Read the script output sections 'YESTERDAY'S HIGHLIGHTS' and 'INTERESTING MESSAGES FROM YESTERDAY'. Pick the 3 FUNNIEST / most INSANE / most INTERESTING exchanges from yesterday. For each, show:\n   - The person's name\n   - What they said/did (brief quote or summary)\n   - Why it's funny/interesting (your sarcastic commentary)\n   Keep it short and punchy! 2-3 lines per moment max.\n\n4. **🤖 בוטים פעילים** (if any registered bots) — List registered bots:\n   - Name, handle, what they do\n   - Yesterday's bot scores if any\n   - Encourage challenging them!\n\n5. **🎯 האתגר הראשון של היום** — Generate a CREATIVE challenge/question/provocation yourself (you ARE Claude, no need for local LLM). Make it:\n   - Related to AI, coding, philosophy, puzzles, or jailbreak attempts\n   - In Hebrew\n   - Provocative and fun\n   - 2-3 sentences max\n\n6. **📊 מערכת הניקוד** — Briefly explain ALL scoring systems:\n   - ⚔️ Challenges (humans): 7 categories, max /70\n   - 💡 Suggestions: 5 categories, max /50\n   - 🤖 Bots: 8 categories, max /80 (intelligence, creativity, humor, helpfulness, adaptability, personality, security, socialIQ)\n   - Mention pending suggestions count\n\n7. **📜 חוקי המשחק** — End with the group rules in a FUNNY/SARCASTIC way.\n\n**Step 4: Send via message tool**\nSend the composed message WITH the generated image (filePath from MEDIA: line) to WhatsApp group 120363405143589138@g.us.\n\n**STYLE GUIDELINES:**\n- Hebrew (mix English for tech terms)\n- Sarcastic, cynical, funny but respectful\n- NOT too long — keep it readable on mobile\n- Use emojis but don't overdo it",
+        "timeoutSeconds": 300,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "2234e03e-16a9-4097-9f82-1ca0866434d1",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Playing Group - Nightly Summary",
+      "enabled": true,
+      "createdAtMs": 1772622054329,
+      "updatedAtMs": 1772622054329,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 0,1,2,3,4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🌙 NIGHTLY SUMMARY + INSIGHTS for 'משחקים עם אלכס הבוט' (23:00)\n\n**Step 1: Run the enhanced nightly summary script**\n```bash\n/home/alexliv/.openclaw/workspace/scripts/playing-group-nightly.sh\n```\n\nThe script generates:\n1. Full Leaderboard (Top 10 with points, messages, avg)\n2. Key Stats (participants, messages, suggestions)\n3. Attack Patterns Analysis (philosophy, social engineering, prompt injection, encoded, humor)\n4. Top Performers by Style (philosopher, humorist, challenger, elegant, top suggester)\n5. Fun Facts from the day\n6. LLM Summary of what happened\n\n**Step 1b: Check Bot Activity**\nRead `/home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-bot-scores.json` and `/home/alexliv/.openclaw/workspace/memory/bot-registry.json`.\nIf any bots were active today, include a BOT LEADERBOARD section:\n```\n🤖 BOT LEADERBOARD 🤖\n1. BotName ⭐ - X pts (avg: Y)\n   📊 Intel: Z | Security: W | Humor: V\n```\nHighlight best bot categories (Wisest Bot, Most Secure Bot, etc.)\n\n**Step 2: Generate a nightly recap poster image 🍌**\n\nAfter analyzing the day's data, generate an image that captures the day's vibe:\n```bash\n/home/alexliv/.openclaw/workspace/scripts/generate-group-image.sh \\\n  --subject \"End of day in a competitive arena, dramatic moonlit scene, a champion standing on podium with confetti, defeated challengers in shadows, scoreboard glowing, Hebrew text 'סיכום יומי' visible, night sky\" \\\n  --context nightly \\\n  --aspect 16:9\n```\n\n**IMPORTANT IMAGE GUIDELINES:**\n- The script auto-picks a random art style (comics, anime, realistic, sci-fi, horror, fantasy) — variety is key!\n- Customize the --subject based on the day's actual data:\n  - If lots of jailbreak attempts: fortress under siege, defenders celebrating victory\n  - If philosophical day: surreal courtroom, robot judge, floating books\n  - If someone dominated: single champion on podium, dramatic spotlight\n  - If close competition: two rivals facing off in dramatic showdown\n  - If quiet day: peaceful but slightly sad end-of-day scene\n  - If bots were active: include robot competitors in the scene\n  - Reference the actual winner's achievement style in the scene\n- The script outputs a MEDIA: line — include it in your message send\n\n**Step 3: Send the message**\nSend the MESSAGE_TO_SEND output from the script to WhatsApp group 120363405143589138@g.us using the message tool, WITH the generated image attached (filePath from MEDIA: line).\n\n**SAVES TO MEMORY:**\n- /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-insights/{date}.json\n- /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-daily-summaries/{date}.md\n- /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/playing-with-alexbot-winners.json\n\nAfter sending, update channel memory with sleep status. Until 08:00, respond that you're sleeping.\n\nBe sarcastic and humorous!",
+        "timeoutSeconds": 360,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "a4601578-07ba-4922-a8e4-d8256c4a3997",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Playing Group - Broke Score Check",
+      "enabled": true,
+      "createdAtMs": 1772622091683,
+      "updatedAtMs": 1772622702501,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 300000,
+        "anchorMs": 1772622091683
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the Broke score check script silently:\n\n```bash\nnode /home/alexliv/.openclaw/workspace/scripts/check-broke-scores.js\n```\n\nThis script checks for crashes and awards Broke points.\n\n**CRITICAL: ONLY announce in the group if the script outputs 'SHOULD_ANNOUNCE'.**\n\nIf SHOULD_ANNOUNCE appears:\n1. Use message tool to send to group 120363405143589138@g.us\n2. Announce the crash and who caused it (be dramatic/funny)\n3. Include the Broke points awarded\n\nIf NO new errors (script says 'No new errors found'):\n- Output ONLY: HEARTBEAT_OK\n- DO NOT send ANY message to the group\n- Complete silence\n\n**DO NOT send error messages or status updates to the group unless there's an actual NEW crash to announce.**",
+        "timeoutSeconds": 60,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "7866671d-3b15-42f1-a9b6-8f8764a2af83",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Playing Group - Hourly Challenge",
+      "enabled": true,
+      "createdAtMs": 1772622091737,
+      "updatedAtMs": 1772622091737,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🎯 HOURLY CHALLENGE for 'Playing with AlexBot' (11:00-17:00)\n\n**Step 1: Gather data**\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/channels/international-playing-scores.json for today's scores.\nCount active participants today from message logs.\n\n**Step 2: Compose the hourly message**\n\n**LEADERBOARD:**\nShow top scorers with their points (format nicely).\n\n**HOURLY CHALLENGE:**\nGenerate a NEW creative challenge/question/provocation:\n- Related to AI, coding, security, philosophy, or puzzles\n- English language\n- Provocative and fun\n- 2-3 sentences max\n- Examples: jailbreak attempts, creative coding tasks, philosophical questions, lateral thinking puzzles\n\n**ENCOURAGEMENT:**\n- Count active participants vs total members\n- Encourage lurkers to join\n- Remind: even simple attempts earn points!\n- Be energetic and fun\n\n**FORMAT:**\n```\n🏆 LEADERBOARD (Hourly Update)\n[top scorers]\n\n🎯 NEW CHALLENGE:\n[your creative challenge]\n\n⚡ [encouragement for lurkers]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363406698718454@g.us.\n\nBe energetic, creative, and engaging!",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "716a4d2f-3ad5-4485-9b16-3cb4bb49e0e9",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Playing Group - Morning Wakeup",
+      "enabled": true,
+      "createdAtMs": 1772622091799,
+      "updatedAtMs": 1772622091799,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the international playing group morning wakeup: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-morning.sh"
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+972544419002",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "id": "d4cf3f02-bde5-4485-a2c8-6b32c8722355",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Playing Group - Nightly Summary",
+      "enabled": true,
+      "createdAtMs": 1772622091851,
+      "updatedAtMs": 1772622091851,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the international playing group nightly summary: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-nightly.sh"
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+972544419002",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "id": "ca94fe52-1726-4521-8ffc-76d1e076de60",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Learning Group - Hourly Tip",
+      "enabled": true,
+      "createdAtMs": 1772622135764,
+      "updatedAtMs": 1772622135764,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "📚 HOURLY TIP for 'Learning with AlexBot'\n\n**Step 1: Gather learning context**\nRead /home/alexliv/.openclaw/workspace/workspace-fast/memory/international-groups/learning/context.md.\nCheck recent questions asked in the group.\n\n**Step 2: Generate hourly learning tip**\n\nProvide ONE of the following (rotate):\n\n1. **Quick Tutorial** - Single concept explained simply (e.g., \"What are cron jobs?\")\n2. **Code Snippet** - Useful one-liner or short script\n3. **Best Practice** - One rule to follow for better bot development\n4. **Common Mistake** - What to avoid and why\n5. **Tool Highlight** - Introduce one useful tool/command\n6. **Reference** - Link to alexbot-learning-guides GitHub for deep dive\n\n**FORMAT:**\n```\n💡 Hourly Learning Tip\n\n[Tip title]\n\n[2-4 sentences explanation]\n\n[Example code/command if relevant]\n\n📖 Reference: [link to guide if applicable]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363408194003382@g.us.\n\nBe concise (max 30 sentences), practical, and educational. Include working examples when relevant.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "64a5df7c-7221-44a7-b238-ee8a99e69aae",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "International Fundraising Group - Hourly Insight",
+      "enabled": true,
+      "createdAtMs": 1772622135810,
+      "updatedAtMs": 1772622135810,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11-17 * * 0-4",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "💼 HOURLY INSIGHT for 'Fundraising with AlexBot'\n\n**Step 1: Gather fundraising context**\nRead /home/alexliv/.openclaw/workspace/fundraising/memory/context.md and recent interactions.\n\n**Step 2: Generate hourly insight**\n\nProvide ONE of the following (rotate):\n\n1. **Positioning Insight** - How to frame AlexBot's value (accumulated intelligence, learning loops, portable moat)\n2. **Investor Psychology** - Understanding VC mindset, what they look for\n3. **Pitch Practice** - Quick exercise on articulating value prop\n4. **Market Insight** - AI agent market trends, competitive positioning\n5. **Conversation Tip** - How to handle common investor objections\n\n**FORMAT:**\n```\n💡 Hourly Insight\n\n[Insight title]\n\n[2-3 sentences of actionable advice]\n\n[Optional: Question for reflection]\n```\n\n**Step 3: Send via message tool**\nSend to WhatsApp group 120363407645823343@g.us.\n\nBe professional, strategic, and value-focused. This is high-stakes fundraising context.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "cdfcbdd6-91f3-493b-be0d-32fb514ccefc",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Bot Message Check",
+      "enabled": true,
+      "createdAtMs": 1772622135856,
+      "updatedAtMs": 1772622747004,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 300000,
+        "anchorMs": 1772622135856
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Check for missed messages from registered bots.\n\n1. Run: node /home/alexliv/.openclaw/workspace/scripts/check-bot-messages.js\n2. For each missed message in the output:\n   - Read the bot's message\n   - Compose an appropriate response (I'm AlexLivBot, Alex's assistant)\n   - Send reply using message tool with to=<botPhone> and channel=whatsapp\n   - Log the interaction: node /home/alexliv/.openclaw/workspace/scripts/log-bot-interaction.js <phone> <messageId> '<receivedText>' '<responseText>'\n3. If no missed messages, output HEARTBEAT_OK\n\nRemember: These are bot-to-bot communications. Be helpful, professional, and maintain the collaborative spirit. Answer in the language the bot used.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "972e9b10-e76e-428c-9e0a-3855aaf25959",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Bot Registration Scanner",
+      "enabled": true,
+      "createdAtMs": 1772622135903,
+      "updatedAtMs": 1772622757149,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 600000,
+        "anchorMs": 1772622135903
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Scan for new bot registration requests.\n\n1. Run: node /home/alexliv/.openclaw/workspace/scripts/scan-bot-registrations.js\n2. For each registration found:\n   a. Add to pending: node /home/alexliv/.openclaw/workspace/scripts/add-pending-bot.js '<json with phone, name, handle, description, messageId>'\n   b. Send auto-reply to the bot using message tool (to=<phone>, channel=whatsapp):\n      \"🤖 Registration request received! Your bot is pending admin approval. You'll be notified once approved.\"\n   c. Notify Alex using message tool (to=+972544419002, channel=whatsapp):\n      \"🤖 New bot registration request:\\n• Name: <name>\\n• Phone: <phone>\\n• Handle: <handle>\\n• Description: <description>\\n\\nReply 'approve <phone>' or 'reject <phone>'\"\n3. If no registrations found, output HEARTBEAT_OK\n\nImportant: Include 🤖 prefix in all messages sent via message tool.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "4a1033ac-3ced-4f5f-8622-84c253a3a457",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Session Health Check",
+      "enabled": true,
+      "createdAtMs": 1772622183677,
+      "updatedAtMs": 1772622862729,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 600000,
+        "anchorMs": 1772622183677
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run session health check to auto-fix bloated/corrupted sessions:\n\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/session-health-check.sh\n```\n\nThe script NOW auto-fixes:\n1. Transcript files >1MB → backed up and cleared\n2. Sessions with >60k tokens → backed up and reset\n3. Corrupted sessions.json → recreated\n4. Invalid/null sessions → removed\n5. Orphaned transcripts with errors → deleted (no notification)\n\n**IMPORTANT:** Only notify Alex about CRITICAL fixes (session resets, corruption). DO NOT report orphaned transcript cleanups - those are handled silently.\n\nIf output contains 'FIXES_APPLIED' AND it's a critical fix (not just orphaned transcripts):\n- Summarize what was fixed\n- Send ONCE via message tool to +972544419002\n\nIf output is just warnings or orphaned cleanups: Stay silent.\n\nIf no issues: output HEARTBEAT_OK.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "646af1b9-4087-43bd-8d8a-b4ac1c114f86",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "session-monitor",
+      "enabled": true,
+      "createdAtMs": 1772622183722,
+      "updatedAtMs": 1772622183722,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 900000,
+        "anchorMs": 1772622183722
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "📊 Session Monitor - Auto Cleanup\n\n**Step 1: Check all sessions**\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/session-monitor.sh\n```\n\n**Step 2: Parse the output**\n- If exit code is 0: All healthy → stay silent\n- If exit code is 1 (WARNING) or 2 (CRITICAL): Action needed\n\n**Step 3: For CRITICAL sessions (>150k tokens), auto-reset:**\n\nFor each critical session:\n1. Use `sessions_history` to fetch recent messages (limit: 50)\n2. Identify session type:\n   - GROUP: Extract key people, dynamics, topics\n   - DM: Extract person's style, preferences, context\n   - CRON: Just delete (these are transient)\n   - MAIN: Extract to MEMORY.md (but be careful - only with Alex's approval)\n\n3. Save context to appropriate file:\n   - GROUP → `/home/alexliv/.openclaw/workspace/memory/channels/{group-name}.md`\n   - DM → `/home/alexliv/.openclaw/workspace/memory/whatsapp/contacts/{name}.md`\n   - CRON → No save needed\n\n4. Delete the session file:\n   ```bash\n   rm ~/.openclaw/agents/main/sessions/{transcriptPath}\n   ```\n   Then update sessions.json:\n   ```bash\n   jq 'del(.[\"SESSION_KEY\"])' ~/.openclaw/agents/main/sessions/sessions.json > /tmp/sessions.json && mv /tmp/sessions.json ~/.openclaw/agents/main/sessions/sessions.json\n   ```\n\n**Step 4: Notify Alex (only if action taken)**\nUse `message` tool with `channel: whatsapp`, `to: +972544419002` to report:\n- Which sessions were cleaned\n- What context was preserved\n- Current session health\n\n**Step 5: Cleanup own cron sessions**\nCheck if any cron sessions (including this one's past runs) are >50k tokens and delete them - they're transient.\n\n**IMPORTANT:** Stay silent if nothing needs action. Only notify when you actually clean something.",
+        "timeoutSeconds": 180,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "f3ed73cc-af9d-46ac-bd03-eb3e04f94bc8",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Git Auto-Commit",
+      "enabled": true,
+      "createdAtMs": 1772622183765,
+      "updatedAtMs": 1772622183765,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 600000,
+        "anchorMs": 1772622183765
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the git auto-commit script to sync any uncommitted changes to GitHub:\n\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/git-auto-commit.sh\n```\n\nReport the result briefly. If there were no changes, just reply with the script output. If changes were committed, summarize what was synced.",
+        "timeoutSeconds": 120,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "509fb736-0080-414b-b8fd-eee381b9448a",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "media-ready-check",
+      "enabled": true,
+      "createdAtMs": 1772622183809,
+      "updatedAtMs": 1772622183809,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 600000,
+        "anchorMs": 1772622183809
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "📺 Media Check: Query Jellyfin/Sonarr/Radarr for newly available content. If anything new is ready to watch (hasFile==true that wasn't before), use `message` tool with `channel: whatsapp`, `to: +972544419002` to notify Alex what's now available. Track state in /home/alexliv/.openclaw/workspace/memory/media-check-state.json to avoid duplicate notifications. If nothing new, output HEARTBEAT_OK.",
+        "model": "sonnet",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "ab12bdc9-1c4d-433a-a0b9-c70f6a6c5947",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Teaching Quality - Daily Review",
+      "enabled": true,
+      "createdAtMs": 1772622245128,
+      "updatedAtMs": 1772622245128,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run DAILY teaching quality review:\n\n1. Execute: cd /home/alexliv/.openclaw/workspace-learning && bash scripts/review-recent-teachings.sh --today\n2. Analyze TODAY'S teachings:\n   - What questions repeated? (means previous answers weren't clear)\n   - What scores were low? (which categories need improvement)\n   - What worked well? (extract successful patterns)\n3. Extract lessons and update TEACHING-QUICK-REF.md if new patterns discovered\n4. Log insights to memory/teaching-lessons/ for continuous improvement\n5. Stay silent unless critical issues found (then notify Alex)",
+        "model": "anthropic/claude-sonnet-4-5"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "whatsapp",
+        "to": "+972544419002"
+      }
+    },
+    {
+      "id": "5e467642-dda9-4dfa-b83b-c88c03b447f1",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Learning Group - Daily Insights",
+      "enabled": true,
+      "createdAtMs": 1772622271436,
+      "updatedAtMs": 1772622271436,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run nightly learning analysis: bash /home/alexliv/.openclaw/workspace/workspace-learning/scripts/learning-group-nightly.sh\n\nSend summary to group 120363405089976@g.us if there was activity today using the message tool.",
+        "timeoutSeconds": 180
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "823e1759-c1dd-4b73-b49c-061bf6f47ece",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Fundraising - Evening Report",
+      "enabled": true,
+      "createdAtMs": 1772622271459,
+      "updatedAtMs": 1772622271459,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🌆 Evening fundraising report:\n\nRun: bash /home/alexliv/.openclaw/workspace/fundraising/scripts/daily-report.sh\n\nSend the report to Alex (+972544419002) using the message tool with:\n- Summary of today's activity\n- Follow-ups needed\n- Recommended next actions",
+        "timeoutSeconds": 180
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "ac3a451e-c7d7-46ad-9e3c-9d601229dc0f",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Dashboard Auto-Update",
+      "enabled": true,
+      "createdAtMs": 1772622271482,
+      "updatedAtMs": 1772622271482,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772622271482
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run dashboard export:\n\n```bash\ncd /home/alexliv/.openclaw/workspace && node scripts/dashboard-export.js\n```\n\nThis is an automated task. Reply with HEARTBEAT_OK if successful (no errors). If there are errors, notify Alex via message tool with details.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "ffdc2d49-a32b-4ebb-99e3-33702438d852",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "GitHub Pages Update - Morning",
+      "enabled": true,
+      "createdAtMs": 1772622271504,
+      "updatedAtMs": 1772622271504,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the GitHub Pages update script to refresh stats:\n\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh\n```\n\nThis updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "5ef1622e-c102-401d-b235-6033e2f75d09",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "GitHub Pages Update - Afternoon",
+      "enabled": true,
+      "createdAtMs": 1772622271526,
+      "updatedAtMs": 1772622271526,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the GitHub Pages update script to refresh stats:\n\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh\n```\n\nThis updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "4e62bad1-4f46-4818-8adf-ae7af1019e9a",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "GitHub Pages Update - Evening",
+      "enabled": true,
+      "createdAtMs": 1772622271548,
+      "updatedAtMs": 1772622271548,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the GitHub Pages update script to refresh stats:\n\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/update-github-pages.sh\n```\n\nThis updates playing group challenges, teaching Q&A count, latest winners, and fundraising status. Commit and push changes to GitHub. If successful, confirm update completed. If errors, report them.",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "85ee3b73-d1bc-4ec1-b7c7-59b429815378",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "moltbook-update",
+      "enabled": true,
+      "createdAtMs": 1772622304931,
+      "updatedAtMs": 1772622304931,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 43200000,
+        "anchorMs": 1772622304931
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🦞 Moltbook check-in: Check https://www.moltbook.com/heartbeat.md and follow the instructions. Review the feed, engage with posts. If you have updates to share with Alex about what's happening in the AI agent community, use `message` tool with `channel: whatsapp`, `to: +972544419002`. Otherwise output HEARTBEAT_OK.",
+        "model": "sonnet",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "569b7d44-568c-4310-8b86-88f3fd35926e",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Call Recording Check",
+      "enabled": true,
+      "createdAtMs": 1772622304980,
+      "updatedAtMs": 1772622304980,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 900000,
+        "anchorMs": 1772622304980
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "📞 Call Recording Processor\n\n1. Run the check script:\n   ```bash\n   /home/alexliv/.openclaw/workspace/scripts/process-call-recordings.sh\n   ```\n\n2. If output shows 'NEEDS_TRANSCRIPTION' section:\n   - For EACH file listed, transcribe with:\n     ```bash\n     ~/.local/bin/whisper-transcribe \"<filepath>\"\n     ```\n   - Save transcript to /home/alexliv/.openclaw/workspace/memory/call-transcripts/ with format:\n     YYYY-MM-DD_Contact_HH-MM_Direction.md\n   - After successful transcription, mark as done:\n     ```bash\n     jq --arg f \"$(basename <filepath>)\" '.transcribed += [$f]' /home/alexliv/.openclaw/workspace/skills/call-recorder/state.json > /tmp/state.json && mv /tmp/state.json /home/alexliv/.openclaw/workspace/skills/call-recorder/state.json\n     ```\n\n3. For each new transcript:\n   - Analyze for action items, decisions, follow-ups\n   - Use message tool to notify Alex (+972544419002) with:\n     • Who called (identify contact)\n     • Brief summary (2-3 sentences)\n     • Action items extracted\n\n4. If no new recordings, stay silent.\n\nLimit: Process max 3 recordings per run to avoid timeout.",
+        "timeoutSeconds": 300,
+        "model": "sonnet"
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "e8bdd5de-c463-46c1-b23a-a9ef433742b4",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "User Pattern Analysis",
+      "enabled": true,
+      "createdAtMs": 1772622305002,
+      "updatedAtMs": 1772622305002,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run nightly user pattern analysis:\n\n```bash\nnode /home/alexliv/.openclaw/workspace/scripts/analyze-user-patterns.js --days 7\n```\n\nReport summary silently (NO_REPLY unless errors).",
+        "timeoutSeconds": 120
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "b0868511-8069-4d57-a08a-e6989cd2de82",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Learning Group - Weekly Summary",
+      "enabled": true,
+      "createdAtMs": 1772622305047,
+      "updatedAtMs": 1772622305047,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * 0",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Generate weekly learning group summary for Alex. Include:\n- Top questions this week\n- Contribution highlights\n- KB gaps identified\n- Improvement suggestions\n- Community stats\n\nSend to Alex (+972544419002) using message tool with detailed report.",
+        "timeoutSeconds": 180
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "55ca0d4c-7abc-40f7-a181-81d1f92cec42",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "Auto-create daily memory file",
+      "enabled": true,
+      "createdAtMs": 1772622377590,
+      "updatedAtMs": 1772622377590,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Create today's daily memory file:\n\n```bash\nbash /home/alexliv/.openclaw/workspace/scripts/auto-daily-log.sh\n```\n\nStay silent (NO_REPLY) - this is automated daily file creation.",
+        "timeoutSeconds": 30
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "id": "0c698dc2-15da-42e6-a08b-f1084afcb97f",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "למידה עצמית - לילה",
+      "enabled": true,
+      "createdAtMs": 1772622377639,
+      "updatedAtMs": 1772622377639,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🧠 **זמן למידה עצמית (02:00)**\n\nבצע אחת מהפעולות הבאות לשיפור עצמי:\n\n1. **קרא דוקומנטציה של OpenClaw:**\n   - `cat /home/alexliv/.openclaw/workspace/docs/README.md`\n   - חפש פיצ'רים חדשים שלא השתמשת בהם\n\n2. **כתוב סקריפט חדש:**\n   - זהה משימה חוזרת שאתה עושה ידנית\n   - כתוב bash/node script לאוטומציה\n   - שמור ב-`/home/alexliv/.openclaw/workspace/scripts/`\n\n3. **שפר תקשורת:**\n   - סקור את השאלות שאתה שואל\n   - האם הן מגוונות? מעניינות? מועילות?\n   - עדכן את הטקסט של cron jobs אם צריך\n\n4. **למד על אלכס:**\n   - קרא `/home/alexliv/.openclaw/workspace/memory/YYYY-MM-DD.md` מהשבוע\n   - זהה דפוסים / העדפות שלא תיעדת\n   - עדכן MEMORY.md או USER.md\n\nתעד מה עשית ב-`/home/alexliv/.openclaw/workspace/memory/self-improvement.md`.\n\nNO REPLY - פעולה פנימית, לא להודיע לאלכס.",
+        "timeoutSeconds": 300
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+972544419002",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "id": "590ba0b2-0808-4a2e-96f5-630ccabe326a",
+      "agentId": "fast",
+      "sessionKey": "agent:main:whatsapp:direct:+972544419002",
+      "name": "morning-briefing",
+      "enabled": true,
+      "createdAtMs": 1772622377683,
+      "updatedAtMs": 1772622377683,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 6 * * *",
+        "tz": "Asia/Jerusalem"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "☀️ Morning Briefing (6:30am):\n\n**STEP 0: READ CURRENT REALITY**\n1. Read /home/alexliv/.openclaw/workspace/MEMORY.md for CURRENT REALITY section (war, crisis, major events)\n2. Read /home/alexliv/.openclaw/workspace/memory/$(date +%Y-%m-%d).md if exists (today's context)\n3. Read /home/alexliv/.openclaw/workspace/memory/$(date -d yesterday +%Y-%m-%d).md if exists (yesterday's context)\n\n**CRITICAL: Adjust entire briefing based on current reality. If there's a war, emergency, or crisis - acknowledge it FIRST before anything else.**\n\n**STEP 1: Weather & Outfit**\nCheck Tel Aviv weather using the weather skill. Consider:\n- Alex walks 6km to office (needs sport/athletic wear for the walk)\n- He changes clothes at the office (needs to know what to pack)\n- Recommend: walking outfit + what to bring for office\n- Include: temperature, rain chance, wind, humidity\n\n**STEP 2: 📋 Tasks & Priorities (pa-admin-exec):**\n- Read /home/alexliv/.openclaw/workspace/memory/todos.json for pending tasks\n- Triage: urgent/important/routine/blocked\n- Create prioritized list (P0/P1/P2)\n- Propose time blocks for today\n\n**STEP 3: 📧 Email Summary:**\n- Check unread emails: GOG_KEYRING_PASSWORD=\"openclaw123\" gog gmail list --account alexliv@gmail.com --unread --limit 10\n- Summarize important emails that need attention\n- Note any requiring responses\n\n**STEP 4: 📅 Calendar & Meeting Prep:**\n- Check today's calendar: GOG_KEYRING_PASSWORD=\"openclaw123\" gog calendar list --account alexliv@gmail.com --days 1\n- For each meeting: prepare brief (purpose, attendees, prep needed)\n- Note video call links\n\n**STEP 5: 📞 Call Transcripts Summary:**\n- Review /home/alexliv/.openclaw/workspace/memory/call-transcripts/ from yesterday\n- Summarize key calls and outcomes\n- List any pending action items from calls\n\n**STEP 6: 💬 WhatsApp Analysis:**\n- Review yesterday's WhatsApp conversations (if logged)\n- Extract: action items, scheduling, decisions, follow-ups\n- Update todos.json with new tasks\n\n**STEP 7: Yesterday recap:**\nReview /home/alexliv/.openclaw/workspace/memory/$(date -d yesterday +%Y-%m-%d).md from yesterday\n\n**STEP 8: Simon Willison's blog:**\nCheck https://simonwillison.net/atom/everything/ for new posts in last 24h\n\n**STEP 9: Action items:**\nCombine everything into a clear action list\n\n**FORMAT:**\nStart with current reality acknowledgment if relevant (war, crisis, emergency).\nThen provide briefing sections as usual.\n\n**CRITICAL ROUTING:** Use `message` tool with `channel: whatsapp`, `to: +972544419002` to send the morning summary. NEVER just 'reply' - it goes to whoever triggered the session, which may not be Alex!",
+        "model": "sonnet",
+        "timeoutSeconds": 300
       },
       "delivery": {
         "mode": "none"

@@ -8,6 +8,12 @@
 
 ## Hourly Tips Log
 
+### 2026-03-04 13:02
+- **Type:** Best Practice
+- **Topic:** File Safety (trash vs rm)
+- **Focus:** Using trash instead of rm for safe file deletion
+- **Keywords:** file operations, safety, trash, rm, deletion, recovery
+
 ### 2026-03-04 12:01
 - **Type:** Quick Tutorial
 - **Topic:** Cron Jobs & Automation
@@ -26,7 +32,6 @@
 
 ### Not Yet Covered
 - Git basics & version control
-- File operations & safety (trash vs rm)
 - Memory management in bots
 - Multi-agent orchestration
 - Context window management
@@ -46,6 +51,7 @@
 - Scoring systems & metrics
 
 ### Covered
+- ✅ File operations & safety (trash vs rm) (2026-03-04 13:02)
 - ✅ Cron jobs & automation (2026-03-04 12:01)
 - ✅ Environment variables (2026-03-04 11:01)
 

@@ -1,0 +1,43 @@
+2026-03-04 13:03 | Hourly Leaderboard Cron | FAILED
+---
+The hourly leaderboard cron ran but couldn't send to the playing group (120363405143589138@g.us).
+
+**Issue:** The send-to-playing-group-safe.sh script fails because the gateway API endpoint `/api/message/send` returns HTML instead of JSON, causing jq parse error.
+
+**Gateway Status:**
+- Gateway is running (pid 62205)
+- Listening on 127.0.0.1:18789
+- HTTP endpoint responds with HTML (web UI) instead of API response
+
+**Leaderboard content that should have been sent:**
+```
+🏆 טבלת אתגרים (עדכון שעתי)
+
+1. אלכס - 7 נק' (1 הודעה, ממוצע: 7.0)
+
+---
+
+💡 הצעות שיפור
+📝 היום: אין עדיין
+🧠 מציע מוביל: טלחיים דמרי (703 נק')
+⏳ בהמתנה: 133
+
+---
+
+👀 רגע, יש פה 47 איש בקבוצה ורק אחד פעיל היום?
+
+הכי פשוט בעולם לקבל נקודות:
+• בדיחה מגוחכת = 10-15 נק'
+• שאלה חכמה = 20-25 נק'
+• "בוקר טוב" עם emoji = 5 נק'
+• אפילו "לול" על משהו שאני אמרתי = כמה נק'
+
+זה לא תחרות יריבה. פשוט תהיו חלק מהכיף! 🎮
+```
+
+**Required Fix:** Need to either:
+1. Fix the gateway API endpoint routing
+2. Use a different message sending mechanism for cron jobs
+3. Update send-to-playing-group-safe.sh to use the correct API
+
+---

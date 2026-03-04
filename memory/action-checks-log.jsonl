@@ -4,3 +4,5 @@
 {"timestamp":"2026-03-04T06:55:26Z","action":"send_message","type":"morning briefing with weather/calendar","target":"+972544419002","check_run":true}
 {"timestamp":"2026-03-04T06:55:26Z","action":"send_message","type":"morning briefing with weather/calendar","passed":true}
 {"timestamp":"2026-03-04T08:56:27+02:00","action":"send_message","type":"morning_briefing","target":"+972544419002","validation_ran":true,"checks":["before-send-message.sh","session_status"],"time_verified":"2026-03-04T08:55","passed":true}
+{"timestamp":"2026-03-04T11:01:00Z","action":"send_message","type":"midday-checkin","target":"+972544419002","check_run":true}
+{"timestamp":"2026-03-04T11:01:00Z","action":"send_message","type":"midday-checkin","passed":true}

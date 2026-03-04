@@ -10,3 +10,5 @@
 #
 # Analysis: Compare ENFORCE actions to REPLY actions to calculate compliance %
 {"timestamp":"2026-03-04T00:02:31Z","action":"ENFORCE","context":"playing_group","replyId":"test_reply_001"}
+{"timestamp":"2026-03-04T11:01:48Z","action":"ENFORCE","context":"midday_checkin","replyId":"msg_1772622108"}
+{"timestamp":"2026-03-04T11:01:48Z","action":"REPLY","context":"midday_checkin","replyId":"msg_1772622108","followed":true}
