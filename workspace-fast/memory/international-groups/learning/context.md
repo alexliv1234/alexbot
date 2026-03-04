@@ -19,6 +19,12 @@
 **Content:** Explained memory_search usage and semantic search patterns
 **Issue:** WhatsApp session still not available for group 120363408194003382@g.us
 
+### 2026-03-04 16:03 - AgentSkills System (FAILED)
+**Topic:** Quick Tutorial - Understanding the Skill System
+**Status:** ❌ Failed to send - WhatsApp session not found
+**Content:** Explained modular skill system with SKILL.md structure
+**Issue:** WhatsApp infrastructure still not connected to workspace-fast
+
 ## Notes
 - ⚠️ **CRITICAL ISSUE:** No WhatsApp sessions exist in workspace-fast
 - **Root cause:** WhatsApp not connected to this workspace at all
@@ -32,8 +38,8 @@
 ## Topics to Cover (Rotation Queue)
 - [ ] PTY Mode in exec (attempted 2026-03-04 14:03, failed)
 - [ ] Memory search patterns (attempted 2026-03-04 15:03, failed)
-- [ ] Skill system basics (NEXT)
-- [ ] Sub-agent orchestration
+- [ ] Skill system basics (attempted 2026-03-04 16:03, failed)
+- [ ] Sub-agent orchestration (NEXT)
 - [ ] Session management
 - [ ] Common mistakes in bot development
 - [ ] OpenClaw configuration

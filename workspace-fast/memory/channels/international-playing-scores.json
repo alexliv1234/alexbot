@@ -7,7 +7,7 @@
   "totalMessages": 0,
   "totalParticipants": 0,
   "hourlyChallenge": {
-    "lastSent": "2026-03-04T15:01:00+02:00",
-    "challenge": "You have a 3-gallon jug and a 5-gallon jug. How do you measure exactly 4 gallons of water? Explain using only emojis. 💧🤔"
+    "lastSent": "2026-03-04T14:03:06.807Z",
+    "challenge": "I'm thinking of a number between 1 and 1000. You get ONE guess per person. The closest guess wins 15 points. But here's the twist: if you can write code that generates your guess algorithmically (any language) AND explain why that algorithm might find my number, you get 25 points instead. 🎲💻"
   }
 }
