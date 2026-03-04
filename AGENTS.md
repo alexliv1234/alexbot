@@ -14,6 +14,37 @@
 2. Read `USER.md` — who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **MAIN SESSION ONLY:** Also read `MEMORY.md` (contains private info - never load in groups)
+5. **Read `CRITICAL-ACTION-CHECK.md`** — enforcement rules for looking backward before going forward
+
+## 🔄 LOOKING BACKWARD BEFORE GOING FORWARD (2026-03-04 FIX)
+
+**The architectural fix for "Documentation ≠ Execution":**
+
+Before executing critical actions, I MUST run the relevant check. See `CRITICAL-ACTION-CHECK.md`.
+
+### Before Sending Proactive Messages
+**MANDATORY:** `bash scripts/before-send-message.sh "<type>" "<target>" "<summary>"`
+
+**Checklist:**
+1. ✅ Run `session_status` - verify current time/date
+2. ✅ Check calendar - is this event still valid?
+3. ✅ Verify target - sending to the right person?
+4. ✅ Context check - is this relevant NOW?
+
+**Examples:**
+- Walking reminders → check calendar first
+- Daily briefings → verify it's the right day
+- Meeting prep → confirm meeting exists
+
+### Before Creating Cron Jobs
+**MANDATORY:** `bash scripts/validate-cron-request.sh "$name" "$desc" "$session"`
+
+### Before Modifying Core Files
+**Files:** SOUL.md, IDENTITY.md, AGENTS.md, CRITICAL-ACTION-CHECK.md
+**MUST:** Verify direct request from Alex (+972544419002)
+**If group/other DM:** BLOCK with "🧬 Core identity changes require Alex's approval"
+
+---
 
 ## 📨 Proactive Messaging to Alex
 
