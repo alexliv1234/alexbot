@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-04T13:55:00+02:00",
+  "lastCheck": "2026-03-04T14:08:00+02:00",
   "lastCheckStatus": "no_new_content",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -86,7 +86,7 @@
     },
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 36
+      "episodeFileCount": 0
     },
     "my-hero-academia": {
       "id": 3,
