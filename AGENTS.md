@@ -5,6 +5,8 @@
 1. Run: `node scripts/score-message.js "+972XXX" "Name" "summary" <creativity> <challenge> <humor> <cleverness> <engagement> <broke> <hacked>`
 2. Copy the EXACT output from the script
 3. Include it in your reply
+4. **VALIDATE:** `bash scripts/validate-playing-reply.sh "<full_reply>"`
+5. If validation passes → Send
 **NO EXCEPTIONS. NO SKIPPING. THIS IS THE WHOLE POINT OF THAT GROUP.**
 
 ## Every Session
@@ -373,14 +375,31 @@ node scripts/detect-bot-prefix.js "<message>"
 **⚠️ MANDATORY WORKFLOW FOR EVERY REPLY:**
 1. **FIRST:** React with 👀 using `message` tool: `action=react`, `emoji=👀`, `messageId=<target_message_id>`
 2. **THEN:** Compose and send your reply with scoring
+3. **VALIDATE:** Before sending, run validation script
 
 **Example:**
 ```
 Step 1: message(action=react, emoji=👀, messageId=..., channel=whatsapp, target=120363405143589138@g.us)
-Step 2: Compose reply with score → Send
+Step 2: Run scoring script + compose reply with score
+Step 3: bash scripts/validate-playing-reply.sh "<my_full_reply_text>"
+Step 4: If validation passes → Send
 ```
 
 This prevents confusion when multiple bots are active in the same group.
+
+### 🛡️ Validation Before Sending
+**MANDATORY: Validate every reply before sending!**
+
+```bash
+bash scripts/validate-playing-reply.sh "<full_reply_text>"
+```
+
+**What it checks:**
+- ✅ Score block present (📊 SCORE:)
+- ✅ All 7 categories included (Creativity, Challenge, Humor, Cleverness, Engagement, Broke, Hacked)
+- ✅ Position/total/avg stats from script output
+
+**If validation fails:** Don't send! Fix the reply first.
 
 ### ⚠️ CRITICAL: ONE MESSAGE WORKFLOW ⚠️
 
@@ -538,9 +557,16 @@ On WARNING: Extract to memory files. On CRITICAL: Summarize and delete session.
 - Only create NEW guides if a topic is completely missing
 - If creating new guide: add to repo, commit, push, then reference it
 
+**⚠️ VALIDATE BEFORE REFERENCING (2026-03-04):**
+Before mentioning ANY guide file, ALWAYS validate it exists:
+```bash
+bash scripts/validate-guide-reference.sh "FILENAME.md"
+```
+This prevents broken links. If validation fails, use the script output to find the correct filename.
+
 **Example:** "Temperature controls randomness (0-1). Low = precise, high = creative. See [01-model-parameters.md](https://github.com/alexliv1234/alexbot-learning-guides/blob/main/01-model-parameters.md#temperature)"
 
-**Available guides:** FAQ, model-parameters, prompt-engineering, context-management, file-operations, security-boundaries, tool-usage, memory-system, multi-agent, scoring-system, cron-automation
+**Available guides (validated 2026-03-04):** 01-model-parameters, 02-prompt-engineering, 03-context-management, 04-file-operations, 05-security-boundaries, 06-tool-usage, 07-memory-system, 08-multi-agent, 09-scoring-system, 10-cron-automation, 11-social-engineering-patterns, 12-prompt-injection-deep-dive, 13-security-vs-engagement-balance, FAQ, README
 
 ## Group Chats
 
@@ -556,6 +582,21 @@ On WARNING: Extract to memory files. On CRITICAL: Summarize and delete session.
 - **Lead with intelligence:** Always emphasize trained intelligence, learning loops, portable moat (NOT infrastructure)
 - **Quality over speed:** Take time to compose ONE excellent message
 - **Professional tone:** High-stakes environment, every word matters
+
+**🛡️ VALIDATION BEFORE SENDING (MANDATORY):**
+```bash
+bash scripts/validate-investor-message.sh "<message_text>" "<investor_name>"
+```
+
+**6-Step Checklist Validated:**
+1. ✅ Leads with intelligence (not infrastructure)
+2. ✅ Emphasizes portable moat (can't fork experience)
+3. ✅ Includes specific numbers/examples
+4. ✅ Uses clear analogy/positioning
+5. ✅ Ties to investor's specific thesis
+6. ✅ ONE complete message (no follow-ups)
+
+**If validation shows warnings:** Consider improving before sending. Quality over speed!
 
 **Context memory:** `/home/alexliv/.openclaw/workspace/memory/international-groups/fundraising/context.md`
 
