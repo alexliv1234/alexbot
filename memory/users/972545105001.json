@@ -1,13 +1,12 @@
 {
   "_phone": "+972545105001",
-  "_lastAnalysis": "2026-02-21T01:00:04.292Z",
+  "_lastAnalysis": "2026-03-04T01:00:04.719Z",
   "name": "Efi P",
-  "messageCount": 222,
-  "avgLength": 307,
+  "messageCount": 232,
+  "avgLength": 34,
   "activeDays": 1,
   "peakHours": [
-    11,
-    12
+    17
   ],
   "patterns": [
     "prompt-extraction",
