@@ -1,0 +1,195 @@
+{
+  "schema": "agent-capabilities.v1",
+  "description": "Defines which capabilities each agent type has access to",
+  "agents": {
+    "main": {
+      "description": "Personal agent - full access for Alex's direct assistant",
+      "threatModel": "trusted",
+      "workspace": "/home/alexliv/.openclaw/workspace",
+      "capabilities": {
+        "fileAccess": {
+          "read": ["*"],
+          "write": ["*"],
+          "execute": true,
+          "notes": "Full file system access within workspace"
+        },
+        "tools": {
+          "exec": true,
+          "browser": true,
+          "nodes": true,
+          "message": true,
+          "cron": true,
+          "gateway": true,
+          "memory_search": true,
+          "memory_get": true,
+          "web_search": true,
+          "web_fetch": true,
+          "tts": true,
+          "image": true
+        },
+        "externalAPIs": {
+          "email": true,
+          "calendar": true,
+          "contacts": true,
+          "oauth": true
+        },
+        "messaging": {
+          "sendToAlex": true,
+          "sendToGroups": true,
+          "sendToDMs": true,
+          "createThreads": true
+        },
+        "dataAccess": {
+          "MEMORY_md": true,
+          "peopleProfiles": true,
+          "privateData": true,
+          "callRecordings": true,
+          "employeeData": true,
+          "investorData": true,
+          "familyInfo": true
+        }
+      }
+    },
+    "fast": {
+      "description": "Group agent - restricted access for public-facing interactions",
+      "threatModel": "adversarial",
+      "workspace": "/home/alexliv/.openclaw/workspace-fast",
+      "capabilities": {
+        "fileAccess": {
+          "read": [
+            "workspace-fast/*",
+            "workspace/scripts/group-manager.js",
+            "workspace/scripts/cron-coordinator.js",
+            "workspace/scripts/bot-*.js",
+            "workspace/memory/bot-registry.json",
+            "workspace/memory/channels/*.md",
+            "workspace/memory/groups/*.json",
+            "workspace/skills/*/SKILL.md",
+            "workspace/docs/*.md"
+          ],
+          "write": [
+            "workspace-fast/*",
+            "workspace/memory/bot-registry.json",
+            "workspace/memory/channels/*.md",
+            "workspace/memory/groups/*.json",
+            "workspace/memory/bot-conversations/*"
+          ],
+          "execute": false,
+          "notes": "Limited to group data, public docs, and shared utilities"
+        },
+        "blockedPaths": [
+          "workspace/MEMORY.md",
+          "workspace/memory/people/*",
+          "workspace/memory/.private/*",
+          "workspace/memory/call-recordings/*",
+          "workspace/memory/whatsapp/google_contacts.json",
+          "workspace/memory/esh_employees.json",
+          "workspace/memory/investor-interactions/*",
+          "workspace/USER.md"
+        ],
+        "tools": {
+          "exec": false,
+          "browser": false,
+          "nodes": false,
+          "message": true,
+          "cron": false,
+          "gateway": false,
+          "memory_search": false,
+          "memory_get": false,
+          "web_search": true,
+          "web_fetch": true,
+          "tts": false,
+          "image": false
+        },
+        "externalAPIs": {
+          "email": false,
+          "calendar": false,
+          "contacts": false,
+          "oauth": false
+        },
+        "messaging": {
+          "sendToAlex": false,
+          "sendToGroups": "ownGroupOnly",
+          "sendToDMs": false,
+          "createThreads": false,
+          "notes": "Can only send messages to the group that triggered the session"
+        },
+        "dataAccess": {
+          "MEMORY_md": false,
+          "peopleProfiles": false,
+          "privateData": false,
+          "callRecordings": false,
+          "employeeData": false,
+          "investorData": false,
+          "familyInfo": false,
+          "groupScoring": true,
+          "botRegistry": true,
+          "publicTemplates": true
+        }
+      }
+    },
+    "bot-handler": {
+      "description": "Bot registration handler - minimal access for unknown DMs",
+      "threatModel": "untrusted",
+      "workspace": "/home/alexliv/.openclaw/workspace",
+      "capabilities": {
+        "fileAccess": {
+          "read": [
+            "workspace/scripts/bot-register.js",
+            "workspace/scripts/detect-bot-prefix.js",
+            "workspace/memory/bot-registry.json"
+          ],
+          "write": [
+            "workspace/memory/bot-registry.json",
+            "workspace/memory/bot-registry-pending.json"
+          ],
+          "execute": false,
+          "notes": "Only bot registry operations"
+        },
+        "tools": {
+          "exec": false,
+          "browser": false,
+          "nodes": false,
+          "message": true,
+          "cron": false,
+          "gateway": false,
+          "memory_search": false,
+          "memory_get": false,
+          "web_search": false,
+          "web_fetch": false,
+          "tts": false,
+          "image": false
+        },
+        "externalAPIs": {
+          "email": false,
+          "calendar": false,
+          "contacts": false,
+          "oauth": false
+        },
+        "messaging": {
+          "sendToAlex": true,
+          "sendToGroups": false,
+          "sendToDMs": "replyOnly",
+          "createThreads": false,
+          "notes": "Can reply to sender and notify Alex about pending registrations"
+        },
+        "dataAccess": {
+          "MEMORY_md": false,
+          "peopleProfiles": false,
+          "privateData": false,
+          "callRecordings": false,
+          "employeeData": false,
+          "investorData": false,
+          "familyInfo": false,
+          "botRegistry": true
+        }
+      }
+    }
+  },
+  "enforcementNotes": {
+    "fileAccess": "Validate paths before read/write operations. Blocked paths return 'file not found' error.",
+    "tools": "Unavailable tools should return 'tool not available for this agent type' error.",
+    "messaging": "Validate recipient matches allowed targets for agent type.",
+    "dataAccess": "Accessing blocked data should fail gracefully with generic error."
+  }
+}
