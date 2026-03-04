@@ -1,0 +1,21 @@
+{
+  "activeActions": [],
+  "recentActions": [
+    {
+      "id": "playing-morning-1772616457488",
+      "type": "playing-morning",
+      "details": "Morning wakeup",
+      "startedAt": 1772616457488,
+      "priority": 60,
+      "completedAt": 1772616457513
+    }
+  ],
+  "scheduledSlots": {},
+  "lastCalendarCheck": 0,
+  "alexContext": {
+    "available": true,
+    "location": "unknown",
+    "activeConversations": [],
+    "lastSeen": 1772616457488
+  }
+}
