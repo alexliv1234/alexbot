@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772627197875,
+      "updatedAtMs": 1772627798365,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1193,7 +1193,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772627204966,
+      "updatedAtMs": 1772627808230,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1218,7 +1218,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772627219580,
+      "updatedAtMs": 1772627817374,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1243,7 +1243,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772627246183,
+      "updatedAtMs": 1772627847294,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1268,7 +1268,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1772622183722,
-      "updatedAtMs": 1772627005507,
+      "updatedAtMs": 1772627908694,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1293,7 +1293,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772626720322,
+      "updatedAtMs": 1772627316908,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1318,7 +1318,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772626831450,
+      "updatedAtMs": 1772627400853,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
