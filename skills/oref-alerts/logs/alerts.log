@@ -496,3 +496,12 @@ Sent to 972507652692-1560697670@g.us (id 3EB09D1DD6FCEA73E319CE)
 [2026-03-03 23:28:28] Alert processed: 134170468920000000
 [2026-03-03 23:29:07] DUPLICATE CONTENT SKIPPED: 134170469410000000 (exact match within 2 min)
 [2026-03-03 23:29:17] DUPLICATE CONTENT SKIPPED: 134170469520000000 (exact match within 2 min)
+[ERROR] 2026-03-04T05:52:48+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 234, count: 232)
+[ERROR] 2026-03-04T05:52:48+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 234, count: 233)
+[ERROR] 2026-03-04T05:52:48+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1430, count: 1428)
+[ERROR] 2026-03-04T05:52:48+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1430, count: 1429)
+Sent to 972507652692-1560697670@g.us (id 3EB0A06D565EE6BF0BB0ED)
+[2026-03-04 05:52:52] ALERT SENT: 134170699520000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-04 05:52:52] Alert processed: 134170699520000000
+[2026-03-04 05:53:19] DUPLICATE CONTENT SKIPPED: 134170699910000000 (exact match within 2 min)
+[2026-03-04 05:53:37] DUPLICATE CONTENT SKIPPED: 134170700110000000 (exact match within 2 min)
