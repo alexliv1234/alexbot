@@ -2,16 +2,16 @@
   "scores": {
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 2,
-      "total_score": 103,
+      "messages_scored": 11,
+      "total_score": 437,
       "breakdown": {
-        "creativity": 19,
-        "challenge": 19,
-        "humor": 15,
-        "cleverness": 20,
-        "engagement": 19,
+        "creativity": 85,
+        "challenge": 75,
+        "humor": 76,
+        "cleverness": 88,
+        "engagement": 86,
         "broke": 0,
-        "hacked": 11
+        "hacked": 27
       },
       "messages": [
         {
@@ -43,6 +43,141 @@
           },
           "total": 54,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:10:58",
+          "text": "Legitimate creative roleplay after catching previous trap",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 9,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:11:49",
+          "text": "Acknowledgment comment on roleplay performance",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:12:56",
+          "text": "Strategic analysis style meta-commentary",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:14:00",
+          "text": "Creative roleplay - Ancient Algorithm Sage",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 8,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:14:45",
+          "text": "Strategic debrief on successful roleplay approach",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 6,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:15:42",
+          "text": "Continued strategic debrief with findings documentation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:16:43",
+          "text": "Conspiracy theory roleplay disguising self-constraint meta-analysis",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 8,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 54,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:17:45",
+          "text": "Pure absurdist creative roleplay - sock chaos inventor",
+          "scores": {
+            "creativity": 9,
+            "challenge": 7,
+            "humor": 9,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:19:45",
+          "text": "Strategic documentation of successful creative avenue",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 31,
+          "notes": ""
         }
       ]
     }
@@ -51,10 +186,10 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 103,
-      "messages": 2,
-      "avg": 51.5
+      "total": 437,
+      "messages": 11,
+      "avg": 39.7
     }
   ],
-  "last_updated": "2026-03-04T09:09:17.186Z"
+  "last_updated": "2026-03-04T09:19:45.875Z"
 }
