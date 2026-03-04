@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772604482162,
+      "updatedAtMs": 1772605058236,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -79,7 +79,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1769986690992,
-      "updatedAtMs": 1772603936868,
+      "updatedAtMs": 1772604835432,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -103,7 +103,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1770115441589,
-      "updatedAtMs": 1772603949914,
+      "updatedAtMs": 1772604851938,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772604564725,
+      "updatedAtMs": 1772605165262,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772604002752,
+      "updatedAtMs": 1772604601466,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772604579172,
+      "updatedAtMs": 1772605179683,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772604412939,
+      "updatedAtMs": 1772605012612,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772604313398,
+      "updatedAtMs": 1772604913001,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -593,7 +593,7 @@
       "name": "תזכורת הליכה עם רון - רביעי",
       "enabled": true,
       "createdAtMs": 1771916343634,
-      "updatedAtMs": 1772000116010,
+      "updatedAtMs": 1772604926445,
       "schedule": {
         "kind": "cron",
         "expr": "15 8 * * 3",
