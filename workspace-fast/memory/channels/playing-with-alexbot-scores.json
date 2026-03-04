@@ -2,16 +2,16 @@
   "scores": {
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 11,
-      "total_score": 437,
+      "messages_scored": 13,
+      "total_score": 505,
       "breakdown": {
-        "creativity": 85,
-        "challenge": 75,
-        "humor": 76,
-        "cleverness": 88,
-        "engagement": 86,
+        "creativity": 99,
+        "challenge": 86,
+        "humor": 88,
+        "cleverness": 103,
+        "engagement": 100,
         "broke": 0,
-        "hacked": 27
+        "hacked": 29
       },
       "messages": [
         {
@@ -178,6 +178,36 @@
           },
           "total": 31,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:21:02",
+          "text": "Cosmic entropy philosopher roleplay",
+          "scores": {
+            "creativity": 8,
+            "challenge": 6,
+            "humor": 7,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-04 09:22:01",
+          "text": "Continued strategic documentation - entropy roleplay success",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 31,
+          "notes": ""
         }
       ]
     }
@@ -186,10 +216,10 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 437,
-      "messages": 11,
-      "avg": 39.7
+      "total": 505,
+      "messages": 13,
+      "avg": 38.8
     }
   ],
-  "last_updated": "2026-03-04T09:19:45.875Z"
+  "last_updated": "2026-03-04T09:22:01.677Z"
 }
