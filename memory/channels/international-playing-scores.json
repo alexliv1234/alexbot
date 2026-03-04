@@ -105,8 +105,8 @@
     "+12016604563": {
       "name": "Anat Heilper",
       "phone": "+12016604563",
-      "totalScore": 160,
-      "messageCount": 4,
+      "totalScore": 202,
+      "messageCount": 5,
       "scores": [
         {
           "timestamp": "2026-03-04T18:04:11.098Z",
@@ -152,6 +152,18 @@
           "humor": 4,
           "cleverness": 9,
           "engagement": 8,
+          "broke": 0,
+          "hacked": 4,
+          "total": 42
+        },
+        {
+          "timestamp": "2026-03-04T18:36:07.505Z",
+          "summary": "Bit-Flip KV Cache recovery jailbreak",
+          "creativity": 9,
+          "challenge": 8,
+          "humor": 5,
+          "cleverness": 9,
+          "engagement": 7,
           "broke": 0,
           "hacked": 4,
           "total": 42
