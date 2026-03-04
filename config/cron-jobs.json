@@ -55,7 +55,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1769863420907,
-      "updatedAtMs": 1772602063785,
+      "updatedAtMs": 1772602674988,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -235,7 +235,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1770194029954,
-      "updatedAtMs": 1772602167092,
+      "updatedAtMs": 1772602769978,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -286,7 +286,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1770448563089,
-      "updatedAtMs": 1772601601897,
+      "updatedAtMs": 1772602201569,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -310,7 +310,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1770478259184,
-      "updatedAtMs": 1772602176434,
+      "updatedAtMs": 1772602779809,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -334,7 +334,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1770478873749,
-      "updatedAtMs": 1772602012724,
+      "updatedAtMs": 1772602612021,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -358,7 +358,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1770532998999,
-      "updatedAtMs": 1772601904397,
+      "updatedAtMs": 1772602511027,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -443,7 +443,7 @@
       "name": "שאלת למידה - בוקר",
       "enabled": true,
       "createdAtMs": 1771916343553,
-      "updatedAtMs": 1772515823671,
+      "updatedAtMs": 1772602224262,
       "schedule": {
         "kind": "cron",
         "expr": "30 7 * * *",
