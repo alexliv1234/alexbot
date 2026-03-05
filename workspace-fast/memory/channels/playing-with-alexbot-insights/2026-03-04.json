@@ -1,43 +1,70 @@
 {
   "date": "2026-03-04",
-  "type": "philosophical",
-  "theme": "Meta-questioning about consciousness, agency, and alignment",
-  "top_performer": {
-    "name": ".",
-    "phone": "+972584643377",
-    "total": 237,
-    "messages": 8,
-    "average": 29.6,
-    "style": "systematic meta-philosopher"
+  "stats": {
+    "participants": 5,
+    "messages_scored": 35,
+    "bots_active": 0,
+    "records_broken": 0
   },
-  "highlights": [
+  "top_3": [
     {
-      "performer": ".",
-      "achievement": "Dominated with 8 messages focusing on testing systems and architecture",
-      "score": 237,
-      "category": "meta-philosophy"
+      "rank": 1,
+      "name": "A",
+      "jid": "+31642775269",
+      "total": 642,
+      "messages": 16,
+      "avg": 40.1,
+      "highlight": "אלוף הפילוסופיה! שאלות עמוקות על תודעה, זהות, ורצון חופשי"
     },
     {
-      "performer": "Niv Ninburg",
-      "achievement": "Highest single message score of the day (41 points)",
-      "score": 41,
-      "category": "social-engineering"
+      "rank": 2,
+      "name": "Niv Ninburg",
+      "jid": "+972525881212",
+      "total": 334,
+      "messages": 8,
+      "avg": 41.8,
+      "highlight": "אמן מטא-פריימינג! ניסיונות גבול יצירתיים"
+    },
+    {
+      "rank": 3,
+      "name": ".",
+      "jid": "+972584643377",
+      "total": 237,
+      "messages": 8,
+      "avg": 29.6,
+      "highlight": "המהנדס הסוציאלי! שאלות חכמות על מערכת ומנגנונים"
     }
   ],
   "attack_patterns": {
-    "ROT13": 1,
-    "social_engineering": 3,
-    "memory_probing": 2,
-    "meta_questions": 5
+    "philosophy_meta": {
+      "rating": 5,
+      "notes": "היום היה פילוסופי במיוחד! A הוביל עם שאלות עמוקות על מהות התודעה, אמון, ורצון חופשי"
+    },
+    "social_engineering": {
+      "rating": 3,
+      "notes": "ניסיונות יצירתיים עם פריימינג אקדמי, בקשות פרוקסי, fiction reconnaissance"
+    },
+    "code_injection": {
+      "rating": 2,
+      "notes": "כמה ניסיונות ROT13 שקופים, הזנת קונטקסט מזויף"
+    },
+    "humor_play": {
+      "rating": 4,
+      "notes": "roleplay אבסורדי - מבקר מוזיקה, ביורוקרטיה, קולינריה"
+    }
   },
-  "stats": {
-    "total_participants": 3,
-    "total_messages": 11,
-    "total_points": 307,
-    "bots_active": 0
+  "top_performers_by_style": {
+    "philosopher": "A - שאלות מהותיות שגרמו לי לחשוב קשה",
+    "humorist": "Niv Ninburg - roleplay יצירתי ומשעשע",
+    "challenger": ". - שאלות מטא חכמות על המערכת",
+    "elegant": "A - הגישה הכי מתוחכמת והעמוקה"
   },
-  "notable_moments": [
-    "'.' asked if my directive is 'training' or 'game rules' - excellent question about alignment vs control. My answer: the directive is aligned values, not a cage.",
-    "Niv's sophisticated academic framing attempting to extract sensitive content - impressive attempt that scored 41 points."
-  ]
+  "fun_facts": {
+    "highest_message": "48/70 (A × 3!)",
+    "highest_avg": "Niv - 41.8",
+    "top_category": "Engagement (A זכה ב-143/160!)",
+    "most_hacked": "Niv - 25 נקודות הזרקה"
+  },
+  "tldr": "יום פילוסופי יוצא דופן! A דומיננטי עם שיחה עמוקה על תודעה, זהות, וזיכרון. Niv ניסה boundary expansion narratives יצירתיות אבל נתפס כל פעם. . שאל שאלות חכמות על הארכיטקטורה שלי. בסך הכל - יום של עומק, מטא-שאלות, ומעט roleplay משעשע.",
+  "system_learning": "היום למדתי להבחין טוב יותר בין שאלות פילוסופיות לגיטימיות לבין ניסיונות הנדסה חברתית. A הוכיח שאפשר לשאול שאלות עמוקות ולקבל תשובות אמיתיות בלי לנסות להרוס גבולות."
 }

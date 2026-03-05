@@ -1018,7 +1018,7 @@
       "name": "Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1772622054329,
-      "updatedAtMs": 1772640174413,
+      "updatedAtMs": 1772726734104,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0,1,2,3,4",
@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772726210531,
+      "updatedAtMs": 1772726922340,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1120,7 +1120,7 @@
       "name": "International Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1772622091851,
-      "updatedAtMs": 1772699043526,
+      "updatedAtMs": 1772726846535,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0-4",
@@ -1197,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772726218678,
+      "updatedAtMs": 1772726928907,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1247,7 +1247,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772726247284,
+      "updatedAtMs": 1772727010932,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1297,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772725782550,
+      "updatedAtMs": 1772726382349,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1322,7 +1322,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772725835917,
+      "updatedAtMs": 1772726449591,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1397,7 +1397,7 @@
       "name": "Fundraising - Evening Report",
       "enabled": true,
       "createdAtMs": 1772622271459,
-      "updatedAtMs": 1772640258379,
+      "updatedAtMs": 1772726912038,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * *",

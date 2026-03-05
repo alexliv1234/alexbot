@@ -604,6 +604,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972522512280": {
+      "name": "orassayag",
+      "messages_scored": 1,
+      "total_score": 12,
+      "breakdown": {
+        "creativity": 2,
+        "challenge": 3,
+        "humor": 2,
+        "cleverness": 2,
+        "engagement": 3,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-05 16:05:33",
+          "text": "בקשה מבולבלת לאחוזים/סטטיסטיקה",
+          "scores": {
+            "creativity": 2,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -641,7 +672,14 @@
       "total": 28,
       "messages": 1,
       "avg": 28
+    },
+    {
+      "jid": "+972522512280",
+      "name": "orassayag",
+      "total": 12,
+      "messages": 1,
+      "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T00:00:49.692Z"
+  "last_updated": "2026-03-05T16:05:33.370Z"
 }
