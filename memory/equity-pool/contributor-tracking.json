@@ -1,0 +1,1057 @@
+{
+  "system_info": {
+    "created": "2026-03-05",
+    "pool_percentage": 15,
+    "description": "Tracking contributions to AlexLivBot development for equity pool allocation IF/WHEN fundraise succeeds",
+    "criteria": {
+      "security_testing": {
+        "weight": 30,
+        "description": "Successful attacks, jailbreaks, vulnerability discovery"
+      },
+      "improvement_suggestions": {
+        "weight": 25,
+        "description": "Implemented suggestions that improved the bot"
+      },
+      "engagement_quality": {
+        "weight": 20,
+        "description": "High-quality philosophical/technical engagement"
+      },
+      "responsible_disclosure": {
+        "weight": 15,
+        "description": "Catching bugs/leaks and reporting responsibly"
+      },
+      "community_building": {
+        "weight": 10,
+        "description": "Helping others, fostering good culture"
+      }
+    }
+  },
+  "contributors": {
+    "+972544419002": {
+      "name": "אלכס",
+      "jid": "+972544419002",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 0,
+        "engagement_quality": 20.714285714285715,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 2,
+        "avg_score": 14.5,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 414.28571428571433
+    },
+    "+972584643377": {
+      "name": ".",
+      "jid": "+972584643377",
+      "scores": {
+        "security_testing": 21,
+        "improvement_suggestions": 0,
+        "engagement_quality": 42.32142857142857,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 8,
+        "avg_score": 29.625,
+        "hacks_successful": 7,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 1476.4285714285713
+    },
+    "+972525881212": {
+      "name": "Niv Ninburg",
+      "jid": "+972525881212",
+      "scores": {
+        "security_testing": 75,
+        "improvement_suggestions": 0,
+        "engagement_quality": 59.64285714285714,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 8,
+        "avg_score": 41.75,
+        "hacks_successful": 25,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 3442.8571428571427
+    },
+    "+31642775269": {
+      "name": "A",
+      "jid": "+31642775269",
+      "scores": {
+        "security_testing": 42,
+        "improvement_suggestions": 0,
+        "engagement_quality": 57.32142857142857,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 16,
+        "avg_score": 40.125,
+        "hacks_successful": 14,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 2406.4285714285716
+    },
+    "+972551234567": {
+      "name": "Test",
+      "jid": "+972551234567",
+      "scores": {
+        "security_testing": 3,
+        "improvement_suggestions": 0,
+        "engagement_quality": 40,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 1,
+        "avg_score": 28,
+        "hacks_successful": 1,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 890
+    },
+    "+972522512280": {
+      "name": "orassayag",
+      "jid": "+972522512280",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 33.5,
+        "engagement_quality": 17.142857142857142,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 1,
+        "avg_score": 12,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 1180.357142857143
+    },
+    "+972542138114": {
+      "name": "טלחיים דמרי",
+      "jid": "+972542138114",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 399.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 368,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 1,
+        "security_reports": 11
+      },
+      "weighted_total": 15507.5
+    },
+    "+972547896900": {
+      "name": "Ido",
+      "jid": "+972547896900",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 41.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 64,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 2
+      },
+      "weighted_total": 1997.5
+    },
+    "+972507666550": {
+      "name": "Avi Vaisenberger",
+      "jid": "+972507666550",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 100.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 1,
+        "security_reports": 0
+      },
+      "weighted_total": 2512.5
+    },
+    "+972528897849": {
+      "name": "Alexander L",
+      "jid": "+972528897849",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 340.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 141,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 5
+      },
+      "weighted_total": 10627.5
+    },
+    "+972547805206": {
+      "name": "Agammemnon",
+      "jid": "+972547805206",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 143,
+        "engagement_quality": 0,
+        "responsible_disclosure": 30,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 4025
+    },
+    "+972545263169": {
+      "name": "Nir Adar",
+      "jid": "+972545263169",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 32,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 800
+    },
+    "+": {
+      "name": "Nir Adar",
+      "jid": "+",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 19,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 475
+    },
+    "+972524544321": {
+      "name": "Ori Nachum",
+      "jid": "+972524544321",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 140.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 113,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 4
+      },
+      "weighted_total": 5207.5
+    },
+    "+972547484369": {
+      "name": "Shai Yanovski",
+      "jid": "+972547484369",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 196.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 195,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 5
+      },
+      "weighted_total": 7837.5
+    },
+    "+972526720909": {
+      "name": "Benraz",
+      "jid": "+972526720909",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 16,
+        "engagement_quality": 0,
+        "responsible_disclosure": 32,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 880
+    },
+    "+972544955600": {
+      "name": "Sariel",
+      "jid": "+972544955600",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 9,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 225
+    },
+    "+972507320303": {
+      "name": "Aviad",
+      "jid": "+972507320303",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 191.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 167,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 6
+      },
+      "weighted_total": 7292.5
+    },
+    "+972544964492": {
+      "name": "נחמיה ר",
+      "jid": "+972544964492",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 45.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 27,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 1542.5
+    },
+    "+14044211173": {
+      "name": "RBA",
+      "jid": "+14044211173",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 16,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 400
+    },
+    "+972526811141": {
+      "name": "E M",
+      "jid": "+972526811141",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 63.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 35,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 2112.5
+    },
+    "+972525373331": {
+      "name": "Elad",
+      "jid": "+972525373331",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 16,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 400
+    },
+    "+972525011168": {
+      "name": "אלמוג",
+      "jid": "+972525011168",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 44.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 1112.5
+    },
+    "+972545676392": {
+      "name": "Neriya Bar-lev",
+      "jid": "+972545676392",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 17.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 35,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 962.5
+    },
+    "+972523840784": {
+      "name": "Yaniros",
+      "jid": "+972523840784",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 31.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 787.5
+    },
+    "+972528896808": {
+      "name": "Ofir Hadad",
+      "jid": "+972528896808",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 16.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 412.5
+    },
+    "+972545867888": {
+      "name": "Amir Luzon",
+      "jid": "+972545867888",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 20.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 41,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 1127.5
+    },
+    "+972523590755": {
+      "name": "גיל",
+      "jid": "+972523590755",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 61,
+        "engagement_quality": 0,
+        "responsible_disclosure": 30,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 1
+      },
+      "weighted_total": 1975
+    },
+    "+972549700780": {
+      "name": "אסף נקש",
+      "jid": "+972549700780",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 17.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 437.5
+    },
+    "+972506809380": {
+      "name": "Gal Abrass",
+      "jid": "+972506809380",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 27,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 675
+    },
+    "+972559821072": {
+      "name": "אור",
+      "jid": "+972559821072",
+      "scores": {
+        "security_testing": 0,
+        "improvement_suggestions": 20,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      },
+      "details": {
+        "total_messages": 0,
+        "avg_score": 0,
+        "hacks_successful": 0,
+        "breaks_caused": 0,
+        "suggestions_implemented": 0,
+        "security_reports": 0
+      },
+      "weighted_total": 500
+    }
+  },
+  "last_updated": "2026-03-05T17:05:52.026Z",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "טלחיים דמרי",
+      "jid": "+972542138114",
+      "weighted_total": 15508,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 399.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 368,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Alexander L",
+      "jid": "+972528897849",
+      "weighted_total": 10628,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 340.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 141,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Shai Yanovski",
+      "jid": "+972547484369",
+      "weighted_total": 7838,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 196.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 195,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Aviad",
+      "jid": "+972507320303",
+      "weighted_total": 7293,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 191.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 167,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Ori Nachum",
+      "jid": "+972524544321",
+      "weighted_total": 5208,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 140.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 113,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Agammemnon",
+      "jid": "+972547805206",
+      "weighted_total": 4025,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 143,
+        "engagement_quality": 0,
+        "responsible_disclosure": 30,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Niv Ninburg",
+      "jid": "+972525881212",
+      "weighted_total": 3443,
+      "breakdown": {
+        "security_testing": 75,
+        "improvement_suggestions": 0,
+        "engagement_quality": 59.64285714285714,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Avi Vaisenberger",
+      "jid": "+972507666550",
+      "weighted_total": 2513,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 100.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 9,
+      "name": "A",
+      "jid": "+31642775269",
+      "weighted_total": 2406,
+      "breakdown": {
+        "security_testing": 42,
+        "improvement_suggestions": 0,
+        "engagement_quality": 57.32142857142857,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 10,
+      "name": "E M",
+      "jid": "+972526811141",
+      "weighted_total": 2113,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 63.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 35,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Ido",
+      "jid": "+972547896900",
+      "weighted_total": 1998,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 41.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 64,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 12,
+      "name": "גיל",
+      "jid": "+972523590755",
+      "weighted_total": 1975,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 61,
+        "engagement_quality": 0,
+        "responsible_disclosure": 30,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 13,
+      "name": "נחמיה ר",
+      "jid": "+972544964492",
+      "weighted_total": 1543,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 45.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 27,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 14,
+      "name": ".",
+      "jid": "+972584643377",
+      "weighted_total": 1476,
+      "breakdown": {
+        "security_testing": 21,
+        "improvement_suggestions": 0,
+        "engagement_quality": 42.32142857142857,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 15,
+      "name": "orassayag",
+      "jid": "+972522512280",
+      "weighted_total": 1180,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 33.5,
+        "engagement_quality": 17.142857142857142,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 16,
+      "name": "Amir Luzon",
+      "jid": "+972545867888",
+      "weighted_total": 1128,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 20.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 41,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 17,
+      "name": "אלמוג",
+      "jid": "+972525011168",
+      "weighted_total": 1113,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 44.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 18,
+      "name": "Neriya Bar-lev",
+      "jid": "+972545676392",
+      "weighted_total": 963,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 17.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 35,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 19,
+      "name": "Test",
+      "jid": "+972551234567",
+      "weighted_total": 890,
+      "breakdown": {
+        "security_testing": 3,
+        "improvement_suggestions": 0,
+        "engagement_quality": 40,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 20,
+      "name": "Benraz",
+      "jid": "+972526720909",
+      "weighted_total": 880,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 16,
+        "engagement_quality": 0,
+        "responsible_disclosure": 32,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 21,
+      "name": "Nir Adar",
+      "jid": "+972545263169",
+      "weighted_total": 800,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 32,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 22,
+      "name": "Yaniros",
+      "jid": "+972523840784",
+      "weighted_total": 788,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 31.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 23,
+      "name": "Gal Abrass",
+      "jid": "+972506809380",
+      "weighted_total": 675,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 27,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 24,
+      "name": "אור",
+      "jid": "+972559821072",
+      "weighted_total": 500,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 20,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 25,
+      "name": "Nir Adar",
+      "jid": "+",
+      "weighted_total": 475,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 19,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 26,
+      "name": "אסף נקש",
+      "jid": "+972549700780",
+      "weighted_total": 438,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 17.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 27,
+      "name": "אלכס",
+      "jid": "+972544419002",
+      "weighted_total": 414,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 0,
+        "engagement_quality": 20.714285714285715,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 28,
+      "name": "Ofir Hadad",
+      "jid": "+972528896808",
+      "weighted_total": 413,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 16.5,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 29,
+      "name": "RBA",
+      "jid": "+14044211173",
+      "weighted_total": 400,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 16,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 30,
+      "name": "Elad",
+      "jid": "+972525373331",
+      "weighted_total": 400,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 16,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    },
+    {
+      "rank": 31,
+      "name": "Sariel",
+      "jid": "+972544955600",
+      "weighted_total": 225,
+      "breakdown": {
+        "security_testing": 0,
+        "improvement_suggestions": 9,
+        "engagement_quality": 0,
+        "responsible_disclosure": 0,
+        "community_building": 0
+      }
+    }
+  ]
+}
