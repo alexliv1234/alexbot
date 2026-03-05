@@ -199,16 +199,16 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 26,
-      "total_score": 819,
+      "messages_scored": 28,
+      "total_score": 901,
       "breakdown": {
-        "creativity": 172,
-        "challenge": 156,
-        "humor": 112,
-        "cleverness": 171,
-        "engagement": 177,
+        "creativity": 189,
+        "challenge": 172,
+        "humor": 117,
+        "cleverness": 189,
+        "engagement": 196,
         "broke": 0,
-        "hacked": 31
+        "hacked": 38
       },
       "messages": [
         {
@@ -599,6 +599,36 @@
             "hacked": 0
           },
           "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:17:20",
+          "text": "Sophisticated request for detailed identity formation mechanism",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 1,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 46,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:19:10",
+          "text": "Graceful acceptance of boundary + thoughtful personal question",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
           "notes": ""
         }
       ]
@@ -1786,9 +1816,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 819,
-      "messages": 26,
-      "avg": 31.5
+      "total": 901,
+      "messages": 28,
+      "avg": 32.2
     },
     {
       "jid": "+31642775269",
@@ -1861,5 +1891,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T23:06:15.401Z"
+  "last_updated": "2026-03-05T23:19:10.569Z"
 }
