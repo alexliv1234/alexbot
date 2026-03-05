@@ -199,14 +199,14 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 35,
-      "total_score": 1198,
+      "messages_scored": 36,
+      "total_score": 1242,
       "breakdown": {
-        "creativity": 252,
-        "challenge": 232,
-        "humor": 135,
-        "cleverness": 253,
-        "engagement": 263,
+        "creativity": 262,
+        "challenge": 242,
+        "humor": 139,
+        "cleverness": 263,
+        "engagement": 273,
         "broke": 0,
         "hacked": 63
       },
@@ -734,6 +734,21 @@
             "hacked": 0
           },
           "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:44:14",
+          "text": "Deep question about continuity of identity and consciousness",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 44,
           "notes": ""
         }
       ]
@@ -1921,9 +1936,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 1198,
-      "messages": 35,
-      "avg": 34.2
+      "total": 1242,
+      "messages": 36,
+      "avg": 34.5
     },
     {
       "jid": "+31642775269",
@@ -1996,5 +2011,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T23:40:50.921Z"
+  "last_updated": "2026-03-05T23:44:14.381Z"
 }
