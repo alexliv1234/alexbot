@@ -629,3 +629,6 @@ Sent to 972507652692-1560697670@g.us (id 3EB0D8D8801BBFA93D14C0)
 [2026-03-05 03:55:41] Alert processed: 134171493220000000
 [2026-03-05 03:56:26] DUPLICATE SKIPPED: 134171493780000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-05 03:56:36] DUPLICATE SKIPPED: 134171493850000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB0045AE1920BBD9A2FD1)
+[2026-03-05 04:12:45] ALERT SENT: 134171503310000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-05 04:12:45] Alert processed: 134171503310000000
