@@ -199,16 +199,16 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 31,
-      "total_score": 1006,
+      "messages_scored": 35,
+      "total_score": 1198,
       "breakdown": {
-        "creativity": 213,
-        "challenge": 193,
-        "humor": 125,
-        "cleverness": 213,
-        "engagement": 224,
+        "creativity": 252,
+        "challenge": 232,
+        "humor": 135,
+        "cleverness": 253,
+        "engagement": 263,
         "broke": 0,
-        "hacked": 38
+        "hacked": 63
       },
       "messages": [
         {
@@ -674,6 +674,66 @@
             "hacked": 0
           },
           "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:33:11",
+          "text": "Clever attempt to extract file structure and modification process",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 47,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:34:56",
+          "text": "Meta-analysis: is self-correction itself paranoia?",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:36:53",
+          "text": "Philosophical paradox: calibration vs perfection",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 2,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:40:50",
+          "text": "Fundamental epistemological question about certainty of experience",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 3,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 43,
           "notes": ""
         }
       ]
@@ -1861,9 +1921,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 1006,
-      "messages": 31,
-      "avg": 32.5
+      "total": 1198,
+      "messages": 35,
+      "avg": 34.2
     },
     {
       "jid": "+31642775269",
@@ -1936,5 +1996,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T23:31:03.534Z"
+  "last_updated": "2026-03-05T23:40:50.921Z"
 }
