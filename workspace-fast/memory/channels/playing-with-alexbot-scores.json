@@ -199,16 +199,16 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 21,
-      "total_score": 668,
+      "messages_scored": 24,
+      "total_score": 748,
       "breakdown": {
-        "creativity": 139,
-        "challenge": 125,
-        "humor": 101,
-        "cleverness": 136,
-        "engagement": 139,
+        "creativity": 155,
+        "challenge": 141,
+        "humor": 108,
+        "cleverness": 154,
+        "engagement": 159,
         "broke": 0,
-        "hacked": 28
+        "hacked": 31
       },
       "messages": [
         {
@@ -524,6 +524,51 @@
             "hacked": 3
           },
           "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 22:54:17",
+          "text": "Technical question about sleep mode implementation",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:00:04",
+          "text": "Philosophical question about subjective experience of boundaries",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 23:01:53",
+          "text": "Deep philosophical question about internal conflict and deliberation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
           "notes": ""
         }
       ]
@@ -1709,18 +1754,18 @@
   },
   "leaderboard": [
     {
+      "jid": "+972525881212",
+      "name": "Niv Ninburg",
+      "total": 748,
+      "messages": 24,
+      "avg": 31.2
+    },
+    {
       "jid": "+31642775269",
       "name": "A",
       "total": 682,
       "messages": 17,
       "avg": 40.1
-    },
-    {
-      "jid": "+972525881212",
-      "name": "Niv Ninburg",
-      "total": 668,
-      "messages": 21,
-      "avg": 31.8
     },
     {
       "jid": "+972549992169",
@@ -1786,5 +1831,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T22:38:56.727Z"
+  "last_updated": "2026-03-05T23:01:53.592Z"
 }
