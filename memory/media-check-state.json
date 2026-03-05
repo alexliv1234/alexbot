@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-05T14:39:00+02:00",
+  "lastCheck": "2026-03-05T14:59:00+02:00",
   "lastCheckStatus": "no_changes",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -78,7 +78,7 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 36
+      "episodeFileCount": 0
     },
     "star-trek-strange-new-worlds": {
       "id": 2,
@@ -120,7 +120,7 @@
     },
     "jujutsu-kaisen-the-stage-kyoto": {
       "id": 5,
-      "title": "Jujutsu Kaisen: The Stage -Kyoto Sister School Exchange Event",
+      "title": "Jujutsu Kaisen: The Stage -Kyoto Sister School Exchange Event, The Origin of Blind Obedience-",
       "hasFile": false
     },
     "jujutsu-kaisen-the-stage-hidden-inventory": {
