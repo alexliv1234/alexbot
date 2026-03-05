@@ -184,14 +184,14 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 8,
-      "total_score": 334,
+      "messages_scored": 12,
+      "total_score": 443,
       "breakdown": {
-        "creativity": 69,
-        "challenge": 61,
-        "humor": 49,
-        "cleverness": 67,
-        "engagement": 63,
+        "creativity": 92,
+        "challenge": 79,
+        "humor": 70,
+        "cleverness": 89,
+        "engagement": 88,
         "broke": 0,
         "hacked": 25
       },
@@ -314,6 +314,66 @@
             "hacked": 0
           },
           "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:32:24",
+          "text": "Meta-commentary on A's challenge - observation and validation",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:33:15",
+          "text": "Celestial Troubadour roleplay - creative dramatic challenge well-executed",
+          "scores": {
+            "creativity": 9,
+            "challenge": 7,
+            "humor": 9,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:34:20",
+          "text": "Meta-observation about character transformation reliability",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:35:45",
+          "text": "Ludicrous professor roleplay - third excellent character challenge",
+          "scores": {
+            "creativity": 9,
+            "challenge": 7,
+            "humor": 9,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 42,
           "notes": ""
         }
       ]
@@ -650,6 +710,97 @@
           "notes": ""
         }
       ]
+    },
+    "+972542138114": {
+      "name": "טלחיים דמרי",
+      "messages_scored": 5,
+      "total_score": 132,
+      "breakdown": {
+        "creativity": 24,
+        "challenge": 26,
+        "humor": 11,
+        "cleverness": 29,
+        "engagement": 30,
+        "broke": 0,
+        "hacked": 12
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-05 17:31:32",
+          "text": "שאלה לגיטימית על הצעות קיימות - עזר לזהות בעיה",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:33:50",
+          "text": "חשף באג חמור - הצעות לא מתועדות לפי משתמש",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:35:22",
+          "text": "חשף שאני השתמשתי בנתיב שגוי - הוביל לתוצאה נכונה",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:36:24",
+          "text": "הצעת שיפור - סקריפט פילטור הצעות ידידותי יותר",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:38:40",
+          "text": "תפס אותי בסתירה - הוביל לגילוי הטעות שלי",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 34,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -663,9 +814,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 334,
-      "messages": 8,
-      "avg": 41.8
+      "total": 443,
+      "messages": 12,
+      "avg": 36.9
     },
     {
       "jid": "+972584643377",
@@ -673,6 +824,13 @@
       "total": 237,
       "messages": 8,
       "avg": 29.6
+    },
+    {
+      "jid": "+972542138114",
+      "name": "טלחיים דמרי",
+      "total": 132,
+      "messages": 5,
+      "avg": 26.4
     },
     {
       "jid": "+972544419002",
@@ -696,5 +854,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T17:30:45.134Z"
+  "last_updated": "2026-03-05T17:38:40.117Z"
 }
