@@ -16,6 +16,14 @@
       "startedAt": 1772616838373,
       "priority": 60,
       "completedAt": 1772616838436
+    },
+    {
+      "id": "playing-morning-1772697308824",
+      "type": "playing-morning",
+      "details": "Morning wakeup",
+      "startedAt": 1772697308824,
+      "priority": 60,
+      "completedAt": 1772697308887
     }
   ],
   "scheduledSlots": {},
