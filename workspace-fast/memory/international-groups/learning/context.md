@@ -39,6 +39,14 @@
 **Issue:** WhatsApp session 120363408194003382@g.us does not exist
 **Error:** "No session found: 120363408194003382@g.us"
 
+### 2026-03-05 12:03 - Handling Tool Failures (FAILED)
+**Topic:** Best Practice - Graceful Failure Handling
+**Status:** ❌ Failed to send - No session found
+**Content:** How to handle tool call failures with detect/adapt/inform/document pattern
+**Issue:** WhatsApp session 120363408194003382@g.us does not exist
+**Error:** "No session found: 120363408194003382@g.us"
+**Note:** Ironically, a tip about handling failures that itself failed to deliver
+
 ## Notes
 - ⚠️ **CRITICAL ISSUE:** Cron jobs can't send to WhatsApp groups
 - **Root causes:**
