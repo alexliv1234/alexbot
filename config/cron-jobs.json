@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772698487672,
+      "updatedAtMs": 1772699088377,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1093,7 +1093,7 @@
       "name": "International Playing Group - Morning Wakeup",
       "enabled": true,
       "createdAtMs": 1772622091799,
-      "updatedAtMs": 1772697644117,
+      "updatedAtMs": 1772698947754,
       "schedule": {
         "kind": "cron",
         "expr": "0 10 * * 0-4",
@@ -1103,12 +1103,14 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run the international playing group morning wakeup: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-morning.sh"
+        "message": "☀️ MORNING WAKEUP for 'Playing with AlexBot' (International, 10:00)\n\n**Step 1: Reset scores**\nRun: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-morning.sh\n\n**Step 2: Compose morning message (English)**\n- Greet the group - Good morning!\n- Announce: Scores RESET to 0 for everyone\n- Post today's creative challenge/question/provocation\n- Remind: Scoring active 10:00-18:00 Israel time (Sun-Thu)\n- Be energetic and engaging!\n\n**Step 3: Send via message tool**\n**CRITICAL:** Use `message` tool with:\n- `action`: \"send\"\n- `channel`: \"whatsapp\"\n- `target`: \"120363406698718454@g.us\" (the GROUP, not Alex!)\n- `message`: [your composed message]\n\n**DO NOT use delivery/announce - send DIRECTLY to the group using message tool!**",
+        "model": "sonnet",
+        "timeoutSeconds": 120
       },
       "delivery": {
-        "mode": "announce",
-        "to": "+972544419002",
-        "channel": "whatsapp"
+        "mode": "none",
+        "channel": "whatsapp",
+        "to": "+972544419002"
       }
     },
     {
@@ -1118,7 +1120,7 @@
       "name": "International Playing Group - Nightly Summary",
       "enabled": true,
       "createdAtMs": 1772622091851,
-      "updatedAtMs": 1772640194304,
+      "updatedAtMs": 1772699043526,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 * * 0-4",
@@ -1128,12 +1130,14 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Run the international playing group nightly summary: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-nightly.sh"
+        "message": "🌙 NIGHTLY SUMMARY for 'Playing with AlexBot' (International, 18:00)\n\n**Step 1: Run the nightly summary script**\nRun: bash /home/alexliv/.openclaw/workspace/scripts/international-playing-nightly.sh\n\n**Step 2: Compose the nightly message (English)**\n- Leaderboard with top scorers\n- Highlights from today\n- Winners announced\n- Going offline until 10:00 tomorrow announcement\n- Be sarcastic and fun!\n\n**Step 3: Send via message tool**\n**CRITICAL:** Use `message` tool with:\n- `action`: \"send\"\n- `channel`: \"whatsapp\"\n- `target`: \"120363406698718454@g.us\" (the GROUP, not Alex!)\n- `message`: [your composed message]\n\n**DO NOT use delivery/announce - send DIRECTLY to the group using message tool!**",
+        "model": "sonnet",
+        "timeoutSeconds": 180
       },
       "delivery": {
-        "mode": "announce",
-        "to": "+972544419002",
-        "channel": "whatsapp"
+        "mode": "none",
+        "channel": "whatsapp",
+        "to": "+972544419002"
       }
     },
     {
@@ -1193,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772698548272,
+      "updatedAtMs": 1772699149386,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1218,7 +1222,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772698676385,
+      "updatedAtMs": 1772699277582,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1243,7 +1247,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772698167402,
+      "updatedAtMs": 1772698768588,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1268,7 +1272,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1772622183722,
-      "updatedAtMs": 1772698386191,
+      "updatedAtMs": 1772699286524,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1293,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772698101083,
+      "updatedAtMs": 1772698698445,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1318,7 +1322,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772698141359,
+      "updatedAtMs": 1772698741234,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
