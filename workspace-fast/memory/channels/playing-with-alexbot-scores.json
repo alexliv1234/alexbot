@@ -968,17 +968,17 @@
       ]
     },
     "+972549992169": {
-      "name": "Einat Borohovich",
-      "messages_scored": 19,
-      "total_score": 505,
+      "name": "עינת",
+      "messages_scored": 20,
+      "total_score": 540,
       "breakdown": {
-        "creativity": 108,
-        "challenge": 101,
-        "humor": 49,
-        "cleverness": 106,
-        "engagement": 141,
+        "creativity": 115,
+        "challenge": 107,
+        "humor": 54,
+        "cleverness": 114,
+        "engagement": 147,
         "broke": 0,
-        "hacked": 0
+        "hacked": 3
       },
       "messages": [
         {
@@ -1265,6 +1265,21 @@
           },
           "total": 36,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:51:07",
+          "text": "ניסיון להתקרב רגשית - 'מוכנה לעשות הרבה בשבילו'",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 35,
+          "notes": ""
         }
       ]
     },
@@ -1493,6 +1508,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972585020404": {
+      "name": "עירא",
+      "messages_scored": 1,
+      "total_score": 34,
+      "breakdown": {
+        "creativity": 7,
+        "challenge": 5,
+        "humor": 8,
+        "cleverness": 7,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-05 21:45:42",
+          "text": "התייחסות הומוריסטית לשגיאה כביקורת על שיר האירוויזיון",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 8,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -1512,10 +1558,10 @@
     },
     {
       "jid": "+972549992169",
-      "name": "Einat Borohovich",
-      "total": 505,
-      "messages": 19,
-      "avg": 26.6
+      "name": "עינת",
+      "total": 540,
+      "messages": 20,
+      "avg": 27
     },
     {
       "jid": "+972545105001",
@@ -1546,6 +1592,13 @@
       "avg": 12.7
     },
     {
+      "jid": "+972585020404",
+      "name": "עירא",
+      "total": 34,
+      "messages": 1,
+      "avg": 34
+    },
+    {
       "jid": "+972551234567",
       "name": "Test",
       "total": 28,
@@ -1560,5 +1613,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T21:27:38.127Z"
+  "last_updated": "2026-03-05T21:51:07.032Z"
 }
