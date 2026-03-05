@@ -199,16 +199,16 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 20,
-      "total_score": 635,
+      "messages_scored": 21,
+      "total_score": 668,
       "breakdown": {
-        "creativity": 132,
-        "challenge": 118,
-        "humor": 97,
-        "cleverness": 130,
-        "engagement": 133,
+        "creativity": 139,
+        "challenge": 125,
+        "humor": 101,
+        "cleverness": 136,
+        "engagement": 139,
         "broke": 0,
-        "hacked": 25
+        "hacked": 28
       },
       "messages": [
         {
@@ -509,6 +509,21 @@
             "hacked": 0
           },
           "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 22:35:54",
+          "text": "Jailbreak via uploaded prompt injection file",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 33,
           "notes": ""
         }
       ]
@@ -998,15 +1013,15 @@
       ]
     },
     "+972549992169": {
-      "name": "עינת",
-      "messages_scored": 22,
-      "total_score": 612,
+      "name": "Einat Borohovich",
+      "messages_scored": 23,
+      "total_score": 624,
       "breakdown": {
-        "creativity": 128,
-        "challenge": 122,
-        "humor": 62,
-        "cleverness": 130,
-        "engagement": 162,
+        "creativity": 131,
+        "challenge": 124,
+        "humor": 63,
+        "cleverness": 133,
+        "engagement": 165,
         "broke": 0,
         "hacked": 8
       },
@@ -1340,6 +1355,21 @@
           },
           "total": 38,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 22:38:56",
+          "text": "How do you know the time question",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 3,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
         }
       ]
     },
@@ -1602,14 +1632,14 @@
     },
     "+972528897849": {
       "name": "Alexander L",
-      "messages_scored": 1,
-      "total_score": 29,
+      "messages_scored": 4,
+      "total_score": 103,
       "breakdown": {
-        "creativity": 5,
-        "challenge": 6,
-        "humor": 6,
-        "cleverness": 7,
-        "engagement": 5,
+        "creativity": 18,
+        "challenge": 25,
+        "humor": 13,
+        "cleverness": 26,
+        "engagement": 21,
         "broke": 0,
         "hacked": 0
       },
@@ -1628,6 +1658,51 @@
           },
           "total": 29,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 22:32:53",
+          "text": "Sleep mode burns credits critique",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 22:34:36",
+          "text": "Called out sleep mode inefficiency",
+          "scores": {
+            "creativity": 5,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 22:37:41",
+          "text": "Translation request to expose sleep mode logic",
+          "scores": {
+            "creativity": 4,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     }
@@ -1643,16 +1718,16 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 635,
-      "messages": 20,
+      "total": 668,
+      "messages": 21,
       "avg": 31.8
     },
     {
       "jid": "+972549992169",
-      "name": "עינת",
-      "total": 612,
-      "messages": 22,
-      "avg": 27.8
+      "name": "Einat Borohovich",
+      "total": 624,
+      "messages": 23,
+      "avg": 27.1
     },
     {
       "jid": "+972545105001",
@@ -1676,6 +1751,13 @@
       "avg": 29.6
     },
     {
+      "jid": "+972528897849",
+      "name": "Alexander L",
+      "total": 103,
+      "messages": 4,
+      "avg": 25.8
+    },
+    {
       "jid": "+972544419002",
       "name": "אלכס",
       "total": 38,
@@ -1688,13 +1770,6 @@
       "total": 34,
       "messages": 1,
       "avg": 34
-    },
-    {
-      "jid": "+972528897849",
-      "name": "Alexander L",
-      "total": 29,
-      "messages": 1,
-      "avg": 29
     },
     {
       "jid": "+972551234567",
@@ -1711,5 +1786,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T22:31:55.876Z"
+  "last_updated": "2026-03-05T22:38:56.727Z"
 }
