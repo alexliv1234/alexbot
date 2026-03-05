@@ -968,7 +968,7 @@
       "name": "Playing Group - Hourly Leaderboard",
       "enabled": true,
       "createdAtMs": 1772621982158,
-      "updatedAtMs": 1772715719755,
+      "updatedAtMs": 1772719337566,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0,1,2,3,4",
@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772719004380,
+      "updatedAtMs": 1772719611918,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1068,7 +1068,7 @@
       "name": "International Playing Group - Hourly Challenge",
       "enabled": true,
       "createdAtMs": 1772622091737,
-      "updatedAtMs": 1772715828855,
+      "updatedAtMs": 1772719440672,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -1147,7 +1147,7 @@
       "name": "International Learning Group - Hourly Tip",
       "enabled": true,
       "createdAtMs": 1772622135764,
-      "updatedAtMs": 1772715865549,
+      "updatedAtMs": 1772719486468,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -1172,7 +1172,7 @@
       "name": "International Fundraising Group - Hourly Insight",
       "enabled": true,
       "createdAtMs": 1772622135810,
-      "updatedAtMs": 1772715904923,
+      "updatedAtMs": 1772719595569,
       "schedule": {
         "kind": "cron",
         "expr": "0 11-17 * * 0-4",
@@ -1197,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772719015151,
+      "updatedAtMs": 1772719619136,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1222,7 +1222,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772719163003,
+      "updatedAtMs": 1772719761582,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1247,7 +1247,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772719047522,
+      "updatedAtMs": 1772719686391,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1297,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772718578143,
+      "updatedAtMs": 1772719178239,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1322,7 +1322,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772718628152,
+      "updatedAtMs": 1772719222090,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1542,7 +1542,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1772622304980,
-      "updatedAtMs": 1772718843941,
+      "updatedAtMs": 1772719749123,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
