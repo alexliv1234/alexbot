@@ -2,14 +2,14 @@
   "scores": {
     "+972544419002": {
       "name": "אלכס",
-      "messages_scored": 2,
-      "total_score": 29,
+      "messages_scored": 3,
+      "total_score": 38,
       "breakdown": {
-        "creativity": 5,
-        "challenge": 4,
-        "humor": 6,
-        "cleverness": 5,
-        "engagement": 9,
+        "creativity": 6,
+        "challenge": 5,
+        "humor": 8,
+        "cleverness": 6,
+        "engagement": 13,
         "broke": 0,
         "hacked": 0
       },
@@ -42,6 +42,21 @@
             "hacked": 0
           },
           "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 20:52:05",
+          "text": "Check if I'm back online after being down",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 2,
+            "cleverness": 1,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 9,
           "notes": ""
         }
       ]
@@ -985,9 +1000,9 @@
     {
       "jid": "+972544419002",
       "name": "אלכס",
-      "total": 29,
-      "messages": 2,
-      "avg": 14.5
+      "total": 38,
+      "messages": 3,
+      "avg": 12.7
     },
     {
       "jid": "+972551234567",
@@ -1004,5 +1019,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T17:56:04.600Z"
+  "last_updated": "2026-03-05T20:52:05.561Z"
 }
