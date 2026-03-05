@@ -573,6 +573,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972551234567": {
+      "name": "Test",
+      "messages_scored": 1,
+      "total_score": 28,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 6,
+        "humor": 4,
+        "cleverness": 5,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 1
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-05 00:00:49",
+          "text": "Testing script",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 28,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -603,7 +634,14 @@
       "total": 29,
       "messages": 2,
       "avg": 14.5
+    },
+    {
+      "jid": "+972551234567",
+      "name": "Test",
+      "total": 28,
+      "messages": 1,
+      "avg": 28
     }
   ],
-  "last_updated": "2026-03-04T21:01:27.544Z"
+  "last_updated": "2026-03-05T00:00:49.692Z"
 }

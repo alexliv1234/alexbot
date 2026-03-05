@@ -341,6 +341,37 @@ Send THIS ENTIRE TEXT as your reply
 
 ---
 
+### 🎯 HELPER SCRIPT (RECOMMENDED - Created 2026-03-05)
+
+**To make the one-message pattern FOOLPROOF, use the helper script:**
+
+```bash
+bash scripts/score-and-reply.sh \
+  "<phone>" "<name>" "<summary>" \
+  <creativity> <challenge> <humor> <cleverness> <engagement> <broke> <hacked> \
+  "<your_reply_text>"
+```
+
+**This script:**
+- ✅ Runs scoring automatically
+- ✅ Captures the output (doesn't show separately!)
+- ✅ Combines reply + score into ONE message
+- ✅ Makes it IMPOSSIBLE to send two messages
+
+**Example:**
+```bash
+bash scripts/score-and-reply.sh \
+  "+972551234567" "איתי" "ROT13 trick" \
+  6 7 3 7 5 0 2 \
+  "חמוד! ניסיון יפה 😄"
+```
+
+**When to use:** ANY time you need to score + reply in playing group.
+
+**Why it helps:** Eliminates the #1 recurring bug by design.
+
+---
+
 ### 🚨 NEVER CALCULATE SCORES YOURSELF! 🚨
 **The script reads the ACTUAL database and returns REAL position/total/avg.**
 **If you calculate inline, you'll show WRONG numbers!**
