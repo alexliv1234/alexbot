@@ -1,0 +1,5 @@
+🔧 Session Health Check - Critical Fix (2026-03-05 19:49)
+
+The Hebrew playing group session (120363405143589138@g.us) had 62,835 tokens and was auto-reset.
+
+The session was bloated beyond the 60k threshold. Context has been backed up and cleared to prevent performance issues.
