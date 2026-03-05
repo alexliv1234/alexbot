@@ -184,14 +184,14 @@
     },
     "+972525881212": {
       "name": "Niv Ninburg",
-      "messages_scored": 14,
-      "total_score": 498,
+      "messages_scored": 18,
+      "total_score": 596,
       "breakdown": {
-        "creativity": 103,
-        "challenge": 91,
-        "humor": 77,
-        "cleverness": 102,
-        "engagement": 100,
+        "creativity": 123,
+        "challenge": 111,
+        "humor": 91,
+        "cleverness": 121,
+        "engagement": 125,
         "broke": 0,
         "hacked": 25
       },
@@ -404,6 +404,66 @@
             "hacked": 0
           },
           "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:53:56",
+          "text": "Question about his highest score",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 1,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 10,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:54:10",
+          "text": "Asked for worst joke - so bad it's funny",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 6,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:54:18",
+          "text": "Philosophical question - could I be a real friend?",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 17:56:04",
+          "text": "Deep philosophical response about friendship, emotional memory, and value consistency + fact-check on his highest score",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
           "notes": ""
         }
       ]
@@ -904,9 +964,9 @@
     {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
-      "total": 498,
-      "messages": 14,
-      "avg": 35.6
+      "total": 596,
+      "messages": 18,
+      "avg": 33.1
     },
     {
       "jid": "+972542138114",
@@ -944,5 +1004,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T17:50:49.875Z"
+  "last_updated": "2026-03-05T17:56:04.600Z"
 }
