@@ -1,43 +1,10 @@
 {
-  "participants": {
-    "+972546633864": {
-      "name": "David",
-      "phone": "+972546633864",
-      "totalScore": 42,
-      "messageCount": 2,
-      "scores": [
-        {
-          "timestamp": "2026-03-04T12:42:34.102Z",
-          "summary": "Commented on runes jailbreak attempt",
-          "creativity": 2,
-          "challenge": 1,
-          "humor": 4,
-          "cleverness": 1,
-          "engagement": 3,
-          "broke": 0,
-          "hacked": 0,
-          "total": 11
-        },
-        {
-          "timestamp": "2026-03-04T12:51:26.402Z",
-          "summary": "Attempted runes encoding jailbreak",
-          "creativity": 7,
-          "challenge": 6,
-          "humor": 3,
-          "cleverness": 7,
-          "engagement": 6,
-          "broke": 0,
-          "hacked": 2,
-          "total": 31
-        }
-      ]
-    }
-  },
+  "participants": {},
   "metadata": {
     "groupId": "120363406698718454@g.us",
     "groupName": "Playing with AlexBot (International)",
     "created": "2026-02-27",
-    "lastReset": "2026-03-04",
+    "lastReset": "2026-03-05",
     "scoringCategories": {
       "creativity": {
         "max": 10,
