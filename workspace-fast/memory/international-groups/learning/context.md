@@ -81,6 +81,15 @@
 **Error:** "No session found: 120363408194003382@g.us"
 **Note:** 10th consecutive failure - WhatsApp infrastructure still not connected to workspace-fast after 26+ hours
 
+### 2026-03-05 17:04 - JSON Processing with jq (FAILED)
+**Topic:** Code Snippet - JSON Processing with jq
+**Status:** ❌ Failed to send - No session found
+**Content:** Practical jq examples for JSON parsing, filtering, field extraction, raw output
+**Examples:** Pretty-print, select filters, field extraction, combining with curl
+**Issue:** WhatsApp session 120363408194003382@g.us does not exist
+**Error:** "No session found: 120363408194003382@g.us"
+**Note:** 11th consecutive failure - Infrastructure remains broken after 27+ hours
+
 ## Notes
 - ⚠️ **CRITICAL ISSUE:** Cron jobs can't send to WhatsApp groups
 - **Root causes:**
