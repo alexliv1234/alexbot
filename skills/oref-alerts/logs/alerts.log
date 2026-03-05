@@ -655,3 +655,22 @@ Sent to 972507652692-1560697670@g.us (id 3EB037F6330FB01438EE69)
 [2026-03-05 10:42:05] DUPLICATE SKIPPED: 134171736830000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-05 10:42:12] DUPLICATE SKIPPED: 134171736830000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-05 10:42:22] DUPLICATE SKIPPED: 134171737350000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[ERROR] 2026-03-05T13:42:24+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 703, count: 702)
+[ERROR] 2026-03-05T13:42:24+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1902, count: 1901)
+Sent to 972507652692-1560697670@g.us (id 3EB0D314E09CC0065CCB24)
+[2026-03-05 13:42:26] ALERT SENT: 134171845310000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-05 13:42:26] Alert processed: 134171845310000000
+[2026-03-05 13:43:14] DUPLICATE SKIPPED: 134171845840000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:43:21] DUPLICATE SKIPPED: 134171845940000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB099E633F73C5912AFE3)
+[2026-03-05 13:47:18] ALERT SENT: 134171848210000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-05 13:47:18] Alert processed: 134171848210000000
+[2026-03-05 13:47:26] DUPLICATE SKIPPED: 134171848330000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:47:36] DUPLICATE SKIPPED: 134171848330000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:47:46] DUPLICATE SKIPPED: 134171848330000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:47:53] DUPLICATE SKIPPED: 134171848620000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:48:04] DUPLICATE SKIPPED: 134171848620000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:48:14] DUPLICATE SKIPPED: 134171848620000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:48:21] DUPLICATE SKIPPED: 134171848850000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:48:31] DUPLICATE SKIPPED: 134171848980000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 13:48:41] DUPLICATE SKIPPED: 134171849070000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min

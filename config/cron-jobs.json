@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772710585043,
+      "updatedAtMs": 1772711189224,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1197,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772710601098,
+      "updatedAtMs": 1772711203014,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1222,7 +1222,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772710758405,
+      "updatedAtMs": 1772711358793,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1247,7 +1247,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772710624903,
+      "updatedAtMs": 1772711225607,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1272,7 +1272,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1772622183722,
-      "updatedAtMs": 1772710098972,
+      "updatedAtMs": 1772710994234,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1297,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772710177620,
+      "updatedAtMs": 1772710780554,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1322,7 +1322,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772710205043,
+      "updatedAtMs": 1772710814157,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1421,7 +1421,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772622271482,
-      "updatedAtMs": 1772709068243,
+      "updatedAtMs": 1772710869797,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
