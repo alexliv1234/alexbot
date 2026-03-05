@@ -1,11 +1,12 @@
 {
   "_phone": "+972525881212",
-  "_lastAnalysis": "2026-03-04T01:00:04.719Z",
+  "_lastAnalysis": "2026-03-05T01:00:28.814Z",
   "name": "Niv Ninburg",
-  "messageCount": 10,
-  "avgLength": 41,
-  "activeDays": 1,
+  "messageCount": 46,
+  "avgLength": 42,
+  "activeDays": 2,
   "peakHours": [
+    11,
     13,
     15
   ],
