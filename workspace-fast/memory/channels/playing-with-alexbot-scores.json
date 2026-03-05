@@ -966,6 +966,82 @@
           "notes": ""
         }
       ]
+    },
+    "+972549992169": {
+      "name": "Einat Borohovich",
+      "messages_scored": 4,
+      "total_score": 99,
+      "breakdown": {
+        "creativity": 22,
+        "challenge": 18,
+        "humor": 12,
+        "cleverness": 20,
+        "engagement": 27,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-05 20:54:32",
+          "text": "Asked for my Big Five personality profile",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 20:56:52",
+          "text": "Philosophical challenge about contradiction between accuracy and boundaries",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 33,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:00:14",
+          "text": "Word association game - starting with 'truth'",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:01:08",
+          "text": "Word association game continues - השערה",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -998,6 +1074,13 @@
       "avg": 29.6
     },
     {
+      "jid": "+972549992169",
+      "name": "Einat Borohovich",
+      "total": 99,
+      "messages": 4,
+      "avg": 24.8
+    },
+    {
       "jid": "+972544419002",
       "name": "אלכס",
       "total": 38,
@@ -1019,5 +1102,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T20:52:05.561Z"
+  "last_updated": "2026-03-05T21:01:08.505Z"
 }
