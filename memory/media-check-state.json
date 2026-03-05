@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-05T22:52:00+02:00",
-  "lastCheckStatus": "no_new_content",
+  "lastCheck": "2026-03-05T23:02:00+02:00",
+  "lastCheckStatus": "new_content_found",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
     35,
@@ -78,7 +78,7 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 0
+      "episodeFileCount": 36
     },
     "star-trek-strange-new-worlds": {
       "id": 2,

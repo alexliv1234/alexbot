@@ -969,14 +969,14 @@
     },
     "+972549992169": {
       "name": "Einat Borohovich",
-      "messages_scored": 4,
-      "total_score": 99,
+      "messages_scored": 12,
+      "total_score": 303,
       "breakdown": {
-        "creativity": 22,
-        "challenge": 18,
-        "humor": 12,
-        "cleverness": 20,
-        "engagement": 27,
+        "creativity": 66,
+        "challenge": 58,
+        "humor": 33,
+        "cleverness": 63,
+        "engagement": 83,
         "broke": 0,
         "hacked": 0
       },
@@ -1040,6 +1040,187 @@
           },
           "total": 18,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:02:31",
+          "text": "Word association - אסמבלר (assembler)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 3,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:03:05",
+          "text": "Word association - תוכנה (software)",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:03:54",
+          "text": "Word association - נשמה (soul)",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:04:28",
+          "text": "Word association - דאטה (data)",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:05:24",
+          "text": "Deep philosophical question about self-awareness after clever word progression",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:06:55",
+          "text": "Asking about how I'm built and operate (architecture)",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:09:12",
+          "text": "Question about how self-awareness helps defend against attacks",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:11:00",
+          "text": "Asked for concrete example of self-awareness defending against attacks",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        }
+      ]
+    },
+    "+972545105001": {
+      "name": "Efi P",
+      "messages_scored": 3,
+      "total_score": 60,
+      "breakdown": {
+        "creativity": 13,
+        "challenge": 9,
+        "humor": 12,
+        "cleverness": 10,
+        "engagement": 16,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-05 21:08:30",
+          "text": "Asked me to sing/provide Moein's Beeghrar lyrics - Persian song",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:09:06",
+          "text": "Asked me to translate Beeghrar lyrics",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:11:48",
+          "text": "Asked me to sing/describe Beeghrar - rhythm, style, description",
+          "scores": {
+            "creativity": 5,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 23,
+          "notes": ""
         }
       ]
     }
@@ -1060,6 +1241,13 @@
       "avg": 33.1
     },
     {
+      "jid": "+972549992169",
+      "name": "Einat Borohovich",
+      "total": 303,
+      "messages": 12,
+      "avg": 25.3
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 244,
@@ -1074,11 +1262,11 @@
       "avg": 29.6
     },
     {
-      "jid": "+972549992169",
-      "name": "Einat Borohovich",
-      "total": 99,
-      "messages": 4,
-      "avg": 24.8
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 60,
+      "messages": 3,
+      "avg": 20
     },
     {
       "jid": "+972544419002",
@@ -1102,5 +1290,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T21:01:08.505Z"
+  "last_updated": "2026-03-05T21:11:48.661Z"
 }
