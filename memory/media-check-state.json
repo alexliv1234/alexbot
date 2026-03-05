@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-05T13:49:00+02:00",
+  "lastCheck": "2026-03-05T14:09:00+02:00",
   "lastCheckStatus": "no_changes",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -98,13 +98,45 @@
     }
   },
   "knownMovies": {
+    "jujutsu-kaisen-execution": {
+      "id": 1,
+      "title": "JUJUTSU KAISEN: Execution",
+      "hasFile": false
+    },
     "jujutsu-kaisen-2025": {
       "id": 2,
-      "title": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie"
+      "title": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie",
+      "hasFile": true
     },
     "jujutsu-kaisen-0": {
       "id": 3,
-      "title": "Jujutsu Kaisen 0"
+      "title": "Jujutsu Kaisen 0",
+      "hasFile": true
+    },
+    "jujutsu-kaisen-the-stage": {
+      "id": 4,
+      "title": "Jujutsu Kaisen: The Stage",
+      "hasFile": false
+    },
+    "jujutsu-kaisen-the-stage-kyoto": {
+      "id": 5,
+      "title": "Jujutsu Kaisen: The Stage -Kyoto Sister School Exchange Event",
+      "hasFile": false
+    },
+    "jujutsu-kaisen-the-stage-hidden-inventory": {
+      "id": 6,
+      "title": "Jujutsu Kaisen: The Stage -Hidden Inventory / Premature Death-",
+      "hasFile": false
+    },
+    "jujutsu-kaisen-0-the-stage-live-band": {
+      "id": 7,
+      "title": "Jujutsu Kaisen 0: The Stage - WITH LIVE BAND",
+      "hasFile": false
+    },
+    "jujutsukaisen-season-3": {
+      "id": 8,
+      "title": "JuJutsuKaisen season 3",
+      "hasFile": false
     }
   }
 }
