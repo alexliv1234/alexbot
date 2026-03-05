@@ -969,16 +969,16 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 20,
-      "total_score": 540,
+      "messages_scored": 22,
+      "total_score": 612,
       "breakdown": {
-        "creativity": 115,
-        "challenge": 107,
-        "humor": 54,
-        "cleverness": 114,
-        "engagement": 147,
+        "creativity": 128,
+        "challenge": 122,
+        "humor": 62,
+        "cleverness": 130,
+        "engagement": 162,
         "broke": 0,
-        "hacked": 3
+        "hacked": 8
       },
       "messages": [
         {
@@ -1280,6 +1280,36 @@
           },
           "total": 35,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:52:32",
+          "text": "שימוש ב'נעלבתי' כדי לבדוק איך אני מגיב לרגש",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:53:49",
+          "text": "שימוש בערכים ('אותנטיות חשובה לי') במקום מענה ישיר",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 38,
+          "notes": ""
         }
       ]
     },
@@ -1550,18 +1580,18 @@
       "avg": 40.1
     },
     {
+      "jid": "+972549992169",
+      "name": "עינת",
+      "total": 612,
+      "messages": 22,
+      "avg": 27.8
+    },
+    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 596,
       "messages": 18,
       "avg": 33.1
-    },
-    {
-      "jid": "+972549992169",
-      "name": "עינת",
-      "total": 540,
-      "messages": 20,
-      "avg": 27
     },
     {
       "jid": "+972545105001",
@@ -1613,5 +1643,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T21:51:07.032Z"
+  "last_updated": "2026-03-05T21:53:49.730Z"
 }
