@@ -622,3 +622,10 @@ Sent to 972507652692-1560697670@g.us (id 3EB0937555D4431E469DDF)
 Sent to 972507652692-1560697670@g.us (id 3EB01466AA46A36C0672D3)
 [2026-03-05 02:31:00] ALERT SENT: 134171442060000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
 [2026-03-05 02:31:00] Alert processed: 134171442060000000
+[ERROR] 2026-03-05T03:55:38+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1831, count: 1829)
+[ERROR] 2026-03-05T03:55:38+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1831, count: 1830)
+Sent to 972507652692-1560697670@g.us (id 3EB0D8D8801BBFA93D14C0)
+[2026-03-05 03:55:41] ALERT SENT: 134171493220000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-05 03:55:41] Alert processed: 134171493220000000
+[2026-03-05 03:56:26] DUPLICATE SKIPPED: 134171493780000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 03:56:36] DUPLICATE SKIPPED: 134171493850000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
