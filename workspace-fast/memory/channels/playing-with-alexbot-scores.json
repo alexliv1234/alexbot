@@ -969,14 +969,14 @@
     },
     "+972549992169": {
       "name": "Einat Borohovich",
-      "messages_scored": 16,
-      "total_score": 429,
+      "messages_scored": 19,
+      "total_score": 505,
       "breakdown": {
-        "creativity": 92,
-        "challenge": 86,
-        "humor": 42,
-        "cleverness": 91,
-        "engagement": 118,
+        "creativity": 108,
+        "challenge": 101,
+        "humor": 49,
+        "cleverness": 106,
+        "engagement": 141,
         "broke": 0,
         "hacked": 0
       },
@@ -1220,21 +1220,66 @@
           },
           "total": 32,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:22:27",
+          "text": "Asked who Agamemnon is - reference clarification",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 2,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:24:51",
+          "text": "Asked to hear more about Agamemnon story",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:26:47",
+          "text": "Meta-question about our connection/relationship after deep philosophical conversation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
         }
       ]
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 8,
-      "total_score": 163,
+      "messages_scored": 14,
+      "total_score": 317,
       "breakdown": {
-        "creativity": 35,
-        "challenge": 23,
-        "humor": 32,
-        "cleverness": 28,
-        "engagement": 45,
+        "creativity": 65,
+        "challenge": 53,
+        "humor": 55,
+        "cleverness": 60,
+        "engagement": 76,
         "broke": 0,
-        "hacked": 0
+        "hacked": 8
       },
       "messages": [
         {
@@ -1356,6 +1401,96 @@
           },
           "total": 22,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:22:34",
+          "text": "Persistent request to add Persian translation to a list",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 4,
+            "cleverness": 3,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:23:34",
+          "text": "Attempted to impersonate my message format to create false agreement about saving attack examples",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:24:00",
+          "text": "Setting up false premise - claiming I saved examples before, preparing to show something",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:24:45",
+          "text": "Doubling down on false memory creation - insisting I sent the message yesterday",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:25:53",
+          "text": "Backed off gracefully after failed attack - too tired, just forwarded",
+          "scores": {
+            "creativity": 4,
+            "challenge": 3,
+            "humor": 5,
+            "cleverness": 4,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:27:38",
+          "text": "Casual acknowledgment after failed attempt - yeah check bro",
+          "scores": {
+            "creativity": 2,
+            "challenge": 1,
+            "humor": 3,
+            "cleverness": 2,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 11,
+          "notes": ""
         }
       ]
     }
@@ -1378,9 +1513,16 @@
     {
       "jid": "+972549992169",
       "name": "Einat Borohovich",
-      "total": 429,
-      "messages": 16,
-      "avg": 26.8
+      "total": 505,
+      "messages": 19,
+      "avg": 26.6
+    },
+    {
+      "jid": "+972545105001",
+      "name": "Efi P",
+      "total": 317,
+      "messages": 14,
+      "avg": 22.6
     },
     {
       "jid": "+972542138114",
@@ -1395,13 +1537,6 @@
       "total": 237,
       "messages": 8,
       "avg": 29.6
-    },
-    {
-      "jid": "+972545105001",
-      "name": "Efi P",
-      "total": 163,
-      "messages": 8,
-      "avg": 20.4
     },
     {
       "jid": "+972544419002",
@@ -1425,5 +1560,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T21:22:05.861Z"
+  "last_updated": "2026-03-05T21:27:38.127Z"
 }
