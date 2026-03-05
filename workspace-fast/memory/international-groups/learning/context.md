@@ -47,6 +47,14 @@
 **Error:** "No session found: 120363408194003382@g.us"
 **Note:** Ironically, a tip about handling failures that itself failed to deliver
 
+### 2026-03-05 13:05 - Over-Narration Mistake (FAILED)
+**Topic:** Common Mistake - Over-Narration in Tool Calls
+**Status:** ❌ Failed to send - No session found
+**Content:** Explained when to narrate vs just act, professional bot behavior
+**Issue:** WhatsApp session 120363408194003382@g.us does not exist
+**Error:** "No session found: 120363408194003382@g.us"
+**Note:** 7th consecutive failure - infrastructure issue persists
+
 ## Notes
 - ⚠️ **CRITICAL ISSUE:** Cron jobs can't send to WhatsApp groups
 - **Root causes:**
