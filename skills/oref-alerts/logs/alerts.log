@@ -678,3 +678,14 @@ Sent to 972507652692-1560697670@g.us (id 3EB0320B9FCC44AB787EA7)
 [2026-03-05 14:05:18] ALERT SENT: 134171859080000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
 [2026-03-05 14:05:18] Alert processed: 134171859080000000
 [2026-03-05 14:06:13] DUPLICATE SKIPPED: 134171859690000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[ERROR] 2026-03-05T16:24:55+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 1956, count: 1955)
+Sent to 972507652692-1560697670@g.us (id 3EB0FAEC2FD5752D90DF4A)
+[2026-03-05 16:24:58] ALERT SENT: 134171942880000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-05 16:24:58] Alert processed: 134171942880000000
+[2026-03-05 16:25:06] DUPLICATE SKIPPED: 134171942900000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 16:25:16] DUPLICATE SKIPPED: 134171942900000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 16:25:26] DUPLICATE SKIPPED: 134171943100000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 16:25:33] DUPLICATE SKIPPED: 134171943100000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 16:25:44] DUPLICATE SKIPPED: 134171943390000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 16:25:54] DUPLICATE SKIPPED: 134171943440000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 16:26:01] DUPLICATE SKIPPED: 134171943540000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
