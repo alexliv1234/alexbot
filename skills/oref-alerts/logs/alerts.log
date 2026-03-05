@@ -708,3 +708,11 @@ Sent to 972507652692-1560697670@g.us (id 3EB08D8DDC0EA5A8C318FD)
 [2026-03-05 16:44:56] DUPLICATE SKIPPED: 134171954840000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-05 16:45:06] DUPLICATE SKIPPED: 134171954980000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-05 16:45:13] DUPLICATE SKIPPED: 134171955050000000 | Title: 'ירי רקטות וטילים -  האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[ERROR] 2026-03-05T22:35:29+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 2011, count: 2009)
+[ERROR] 2026-03-05T22:35:29+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 2011, count: 2010)
+[ERROR] 2026-03-05T22:35:29+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 808, count: 807)
+Sent to 972507652692-1560697670@g.us (id 3EB05E8AE05DBDE723A6B4)
+[2026-03-05 22:35:32] ALERT SENT: 134172165170000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-05 22:35:32] Alert processed: 134172165170000000
+[2026-03-05 22:36:18] DUPLICATE SKIPPED: 134172165740000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-05 22:36:27] DUPLICATE SKIPPED: 134172165800000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
