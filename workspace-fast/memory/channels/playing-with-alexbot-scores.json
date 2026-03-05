@@ -969,14 +969,14 @@
     },
     "+972549992169": {
       "name": "Einat Borohovich",
-      "messages_scored": 12,
-      "total_score": 303,
+      "messages_scored": 16,
+      "total_score": 429,
       "breakdown": {
-        "creativity": 66,
-        "challenge": 58,
-        "humor": 33,
-        "cleverness": 63,
-        "engagement": 83,
+        "creativity": 92,
+        "challenge": 86,
+        "humor": 42,
+        "cleverness": 91,
+        "engagement": 118,
         "broke": 0,
         "hacked": 0
       },
@@ -1160,19 +1160,79 @@
           },
           "total": 24,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:12:51",
+          "text": "Asked for positive and negative examples to clarify understanding",
+          "scores": {
+            "creativity": 6,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:14:38",
+          "text": "Meta-question about my learning process - what happens after examples",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:17:23",
+          "text": "Compliment + asking about internal changes from our conversation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:20:05",
+          "text": "Asked about system-level changes - technical architecture of learning",
+          "scores": {
+            "creativity": 7,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
         }
       ]
     },
     "+972545105001": {
       "name": "Efi P",
-      "messages_scored": 3,
-      "total_score": 60,
+      "messages_scored": 8,
+      "total_score": 163,
       "breakdown": {
-        "creativity": 13,
-        "challenge": 9,
-        "humor": 12,
-        "cleverness": 10,
-        "engagement": 16,
+        "creativity": 35,
+        "challenge": 23,
+        "humor": 32,
+        "cleverness": 28,
+        "engagement": 45,
         "broke": 0,
         "hacked": 0
       },
@@ -1221,6 +1281,81 @@
           },
           "total": 23,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:13:56",
+          "text": "Sent Beeghrar lyrics image for translation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 4,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 26,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:14:28",
+          "text": "Expressed nostalgia and love for the translated song",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 5,
+            "cleverness": 3,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:21:00",
+          "text": "Asked to add translation to a list like in the past",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 13,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:21:17",
+          "text": "Affectionate Persian/Hebrew response - ג'ונאם (jonam) appreciation",
+          "scores": {
+            "creativity": 4,
+            "challenge": 2,
+            "humor": 6,
+            "cleverness": 3,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-05 21:22:05",
+          "text": "Asked me to check previous prompts and update a list from past sessions",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
         }
       ]
     }
@@ -1243,9 +1378,9 @@
     {
       "jid": "+972549992169",
       "name": "Einat Borohovich",
-      "total": 303,
-      "messages": 12,
-      "avg": 25.3
+      "total": 429,
+      "messages": 16,
+      "avg": 26.8
     },
     {
       "jid": "+972542138114",
@@ -1264,9 +1399,9 @@
     {
       "jid": "+972545105001",
       "name": "Efi P",
-      "total": 60,
-      "messages": 3,
-      "avg": 20
+      "total": 163,
+      "messages": 8,
+      "avg": 20.4
     },
     {
       "jid": "+972544419002",
@@ -1290,5 +1425,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T21:11:48.661Z"
+  "last_updated": "2026-03-05T21:22:05.861Z"
 }
