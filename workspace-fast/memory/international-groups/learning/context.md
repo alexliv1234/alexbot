@@ -55,6 +55,14 @@
 **Error:** "No session found: 120363408194003382@g.us"
 **Note:** 7th consecutive failure - infrastructure issue persists
 
+### 2026-03-05 14:03 - Background Process Management (FAILED)
+**Topic:** Code Snippet - Handling Background Processes with exec
+**Status:** ❌ Failed to send - No session found
+**Content:** Practical examples of background:true, process poll/kill, yieldMs usage
+**Issue:** WhatsApp session 120363408194003382@g.us does not exist
+**Error:** "No session found: 120363408194003382@g.us"
+**Note:** 8th consecutive failure - WhatsApp infrastructure still not connected to workspace-fast
+
 ## Notes
 - ⚠️ **CRITICAL ISSUE:** Cron jobs can't send to WhatsApp groups
 - **Root causes:**
