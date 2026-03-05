@@ -32,6 +32,13 @@
 **Issue:** `tools.sessions.visibility=tree` - cron can't send cross-session messages
 **Error:** "Session send visibility is restricted to the current session tree"
 
+### 2026-03-05 11:04 - Smart File Search (FAILED)
+**Topic:** Code Snippet - Using ripgrep with context
+**Status:** ❌ Failed to send - No session found
+**Content:** Practical ripgrep commands with context flags and file type filters
+**Issue:** WhatsApp session 120363408194003382@g.us does not exist
+**Error:** "No session found: 120363408194003382@g.us"
+
 ## Notes
 - ⚠️ **CRITICAL ISSUE:** Cron jobs can't send to WhatsApp groups
 - **Root causes:**
