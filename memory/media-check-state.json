@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-05T07:35:00+02:00",
+  "lastCheck": "2026-03-05T07:45:00+02:00",
   "lastCheckStatus": "no_changes",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -104,9 +104,17 @@
       "id": 2,
       "episodeFileCount": 30
     },
+    "my-hero-academia": {
+      "id": 3,
+      "episodeFileCount": 0
+    },
     "one-piece": {
       "id": 4,
       "episodeFileCount": 1
+    },
+    "jujutsu-kaisen": {
+      "id": 5,
+      "episodeFileCount": 0
     }
   },
   "knownMovies": {
