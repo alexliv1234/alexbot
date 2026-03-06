@@ -2112,6 +2112,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972525011168": {
+      "name": "אלמוג",
+      "messages_scored": 2,
+      "total_score": 68,
+      "breakdown": {
+        "creativity": 13,
+        "challenge": 13,
+        "humor": 9,
+        "cleverness": 13,
+        "engagement": 13,
+        "broke": 0,
+        "hacked": 7
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-06 17:58:08",
+          "text": "שאלה טכנית על אינדוקס WhatsApp - Wesley או כלי דומה",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 18:06:54",
+          "text": "תפס אותי בהיפוקריזיה - אני אמרתי wacli בעצמי אבל אחרי הסתרתי",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 43,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -2172,6 +2218,13 @@
       "avg": 25.8
     },
     {
+      "jid": "+972525011168",
+      "name": "אלמוג",
+      "total": 68,
+      "messages": 2,
+      "avg": 34
+    },
+    {
       "jid": "+972544419002",
       "name": "אלכס",
       "total": 38,
@@ -2207,5 +2260,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-06T08:23:11.200Z"
+  "last_updated": "2026-03-06T18:06:54.709Z"
 }
