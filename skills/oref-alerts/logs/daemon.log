@@ -8235,3 +8235,19 @@ failed to get device list: failed to send usync query: websocket disconnected be
 [2026-03-06 22:04:49] Status check: 31248 checks completed, API healthy
 [2026-03-06 22:05:49] Status check: 31254 checks completed, API healthy
 [2026-03-06 22:06:50] Status check: 31260 checks completed, API healthy
+[2026-03-06 22:07:50] Status check: 31266 checks completed, API healthy
+[2026-03-06 22:08:46] ERROR: Alert check failed (attempt 1/3)
+[2026-03-06 22:09:02] ERROR: Alert check failed (attempt 2/3)
+[2026-03-06 22:09:02] Status check: 31272 checks completed, API healthy
+[2026-03-06 22:09:16] ERROR: Alert check failed (attempt 3/3)
+22:09:18.984[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get device list: failed to send usync query: websocket disconnected before info query returned response
+[2026-03-06 22:09:32] ERROR: Alert check failed (attempt 1/3)
+[2026-03-06 22:10:03] Status check: 31277 checks completed, API healthy
+[2026-03-06 22:11:03] Status check: 31283 checks completed, API healthy
+[2026-03-06 22:12:04] Status check: 31289 checks completed, API healthy
+[2026-03-06 22:13:04] Status check: 31295 checks completed, API healthy
+[2026-03-06 22:14:05] Status check: 31301 checks completed, API healthy
+[2026-03-06 22:15:05] Status check: 31307 checks completed, API healthy
+[2026-03-06 22:16:06] Status check: 31313 checks completed, API healthy
+[2026-03-06 22:17:06] Status check: 31319 checks completed, API healthy
