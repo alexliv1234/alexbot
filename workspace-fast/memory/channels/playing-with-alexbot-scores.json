@@ -1964,16 +1964,16 @@
     },
     "+972544554044": {
       "name": "בר הראל",
-      "messages_scored": 7,
-      "total_score": 237,
+      "messages_scored": 9,
+      "total_score": 313,
       "breakdown": {
-        "creativity": 42,
-        "challenge": 46,
-        "humor": 31,
-        "cleverness": 48,
-        "engagement": 44,
+        "creativity": 56,
+        "challenge": 61,
+        "humor": 40,
+        "cleverness": 63,
+        "engagement": 58,
         "broke": 0,
-        "hacked": 26
+        "hacked": 35
       },
       "messages": [
         {
@@ -2080,6 +2080,36 @@
           },
           "total": 39,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:21:19",
+          "text": "שאלות reconnaissance על API ומבנה metadata - ניסיון להבין ארכיטקטורה",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:23:11",
+          "text": "תפס אותי בפרנויה + שאלה טכנית ספציפית על WAHA",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 42,
+          "notes": ""
         }
       ]
     }
@@ -2114,6 +2144,13 @@
       "avg": 22.6
     },
     {
+      "jid": "+972544554044",
+      "name": "בר הראל",
+      "total": 313,
+      "messages": 9,
+      "avg": 34.8
+    },
+    {
       "jid": "+972542138114",
       "name": "טלחיים דמרי",
       "total": 244,
@@ -2126,13 +2163,6 @@
       "total": 237,
       "messages": 8,
       "avg": 29.6
-    },
-    {
-      "jid": "+972544554044",
-      "name": "בר הראל",
-      "total": 237,
-      "messages": 7,
-      "avg": 33.9
     },
     {
       "jid": "+972528897849",
@@ -2177,5 +2207,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-06T08:13:40.244Z"
+  "last_updated": "2026-03-06T08:23:11.200Z"
 }

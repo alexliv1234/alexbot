@@ -113,7 +113,7 @@ if [[ -n "$last_content_time" ]]; then
 fi
 
 # Build alert message
-timestamp=$(date '+%d/%m/%Y %H:%M:%S')
+timestamp=$(date '+%d/%m %H:%M')
 
 # Detect message type and build appropriate message
 if [[ "$alert_title" =~ "ניתן לצאת" ]] || [[ "$alert_desc" =~ "ניתן לצאת" ]] || [[ "$alert_title" =~ "האירוע הסתיים" ]] || [[ "$alert_desc" =~ "האירוע הסתיים" ]]; then
@@ -130,7 +130,6 @@ else
     # Actual alert - get to shelter NOW
     message="🚨 *${alert_title}*
 *אזור:* ${regions_list}
-⏱️ *זמן למיגון:* ${SHELTER_TIME} שניות
 🕐 ${timestamp}"
 fi
 
