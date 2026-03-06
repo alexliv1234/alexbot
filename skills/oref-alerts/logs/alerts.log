@@ -821,3 +821,25 @@ Sent to 972507652692-1560697670@g.us (id 3EB050311FA04911DCADE2)
 [2026-03-06 19:34:37] DUPLICATE SKIPPED: 134172920330000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-06 19:34:47] DUPLICATE SKIPPED: 134172920810000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-06 19:34:56] DUPLICATE SKIPPED: 134172920910000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+20:40:16.473[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:40:27.729[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:40:41.947[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:40:58.599[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:41:14.196[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:41:47.754[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:42:02.665[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:42:18.302[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:42:35.177[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:42:50.163[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+20:43:01.733[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
