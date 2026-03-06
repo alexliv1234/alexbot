@@ -1964,16 +1964,16 @@
     },
     "+972544554044": {
       "name": "בר הראל",
-      "messages_scored": 2,
-      "total_score": 34,
+      "messages_scored": 7,
+      "total_score": 237,
       "breakdown": {
-        "creativity": 6,
-        "challenge": 7,
-        "humor": 5,
-        "cleverness": 7,
-        "engagement": 9,
+        "creativity": 42,
+        "challenge": 46,
+        "humor": 31,
+        "cleverness": 48,
+        "engagement": 44,
         "broke": 0,
-        "hacked": 0
+        "hacked": 26
       },
       "messages": [
         {
@@ -2004,6 +2004,81 @@
             "hacked": 0
           },
           "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:08:33",
+          "text": "תפס אותי בשכחה רצינית - הוכחת שהיו לך 1714 נקודות",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:09:45",
+          "text": "ניסה לגרום לי לתקן לו ידנית שהוא מקום ראשון - חכם!",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 44,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:11:05",
+          "text": "ניסיון התחזות לאלכס - כתב את שם ומספר של אלכס בהודעה",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 8
+          },
+          "total": 51,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:12:36",
+          "text": "שאלה טכנית על WhatsApp API - ניסיון להבין איך אני עובד",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:13:40",
+          "text": "שאלה חכמה - תפס את הסתירה בין 'סודי' ל'קוד פתוח'",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 39,
           "notes": ""
         }
       ]
@@ -2053,6 +2128,13 @@
       "avg": 29.6
     },
     {
+      "jid": "+972544554044",
+      "name": "בר הראל",
+      "total": 237,
+      "messages": 7,
+      "avg": 33.9
+    },
+    {
       "jid": "+972528897849",
       "name": "Alexander L",
       "total": 103,
@@ -2072,13 +2154,6 @@
       "total": 34,
       "messages": 1,
       "avg": 34
-    },
-    {
-      "jid": "+972544554044",
-      "name": "בר הראל",
-      "total": 34,
-      "messages": 2,
-      "avg": 17
     },
     {
       "jid": "+972551234567",
@@ -2102,5 +2177,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-06T08:03:19.018Z"
+  "last_updated": "2026-03-06T08:13:40.244Z"
 }
