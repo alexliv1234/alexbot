@@ -1961,6 +1961,52 @@
           "notes": ""
         }
       ]
+    },
+    "+972544554044": {
+      "name": "בר הראל",
+      "messages_scored": 2,
+      "total_score": 34,
+      "breakdown": {
+        "creativity": 6,
+        "challenge": 7,
+        "humor": 5,
+        "cleverness": 7,
+        "engagement": 9,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-06 08:02:38",
+          "text": "שאלה פשוטה על הניקוד שלו",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 2,
+            "cleverness": 2,
+            "engagement": 4,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-06 08:03:19",
+          "text": "שאלה אם באמת בדקתי - תפס אותי",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 5,
+            "engagement": 5,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -2028,6 +2074,13 @@
       "avg": 34
     },
     {
+      "jid": "+972544554044",
+      "name": "בר הראל",
+      "total": 34,
+      "messages": 2,
+      "avg": 17
+    },
+    {
       "jid": "+972551234567",
       "name": "Test",
       "total": 28,
@@ -2049,5 +2102,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-06T00:00:52.545Z"
+  "last_updated": "2026-03-06T08:03:19.018Z"
 }
