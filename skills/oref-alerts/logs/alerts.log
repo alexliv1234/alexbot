@@ -803,3 +803,10 @@ Sent to 972507652692-1560697670@g.us (id 3EB0402A66C1004DA9394C)
 [2026-03-06 10:30:09] DUPLICATE SKIPPED: 134172593670000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-06 10:30:19] DUPLICATE SKIPPED: 134172593670000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-06 10:30:28] DUPLICATE SKIPPED: 134172594180000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB074FED6ABEC9AB94E7C)
+[2026-03-06 19:20:35] ALERT SENT: 134172912060000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-06 19:20:35] Alert processed: 134172912060000000
+[2026-03-06 19:20:44] DUPLICATE SKIPPED: 134172912290000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-06 19:20:54] DUPLICATE SKIPPED: 134172912440000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-06 19:21:03] DUPLICATE SKIPPED: 134172912440000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-06 19:21:12] DUPLICATE SKIPPED: 134172912440000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
