@@ -8,3 +8,5 @@
 {"timestamp":"2026-03-04T11:01:00Z","action":"send_message","type":"midday-checkin","passed":true}
 {"timestamp":"2026-03-05T11:00:28Z","action":"send_message","type":"check-in","target":"+972544419002","check_run":true}
 {"timestamp":"2026-03-05T11:00:28Z","action":"send_message","type":"check-in","passed":true}
+{"timestamp":"2026-03-06T05:30:17Z","action":"send_message","type":"learning-question","target":"+972544419002","check_run":true}
+{"timestamp":"2026-03-06T05:30:17Z","action":"send_message","type":"learning-question","passed":true}
