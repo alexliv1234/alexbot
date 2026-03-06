@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-06T11:46:00+02:00",
+  "lastCheck": "2026-03-06T11:56:00+02:00",
   "lastCheckStatus": "no_new_content",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -14,24 +14,28 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 36,
+      "episodeFileCount": null,
       "status": "deleted"
     },
     "star-trek-strange-new-worlds": {
       "id": 2,
-      "episodeFileCount": 30
+      "episodeFileCount": 30,
+      "status": "continuing"
     },
     "my-hero-academia": {
       "id": 3,
-      "episodeFileCount": 0
+      "episodeFileCount": 0,
+      "status": "ended"
     },
     "one-piece": {
       "id": 4,
-      "episodeFileCount": 1
+      "episodeFileCount": 1,
+      "status": "continuing"
     },
     "jujutsu-kaisen": {
       "id": 5,
-      "episodeFileCount": 0
+      "episodeFileCount": 0,
+      "status": "continuing"
     }
   },
   "knownMovies": {
