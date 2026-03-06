@@ -8388,3 +8388,19 @@ failed to get device list: failed to send usync query: websocket disconnected be
 [2026-03-07 00:24:53] Status check: 32081 checks completed, API healthy
 [2026-03-07 00:25:53] Status check: 32087 checks completed, API healthy
 [2026-03-07 00:26:53] Status check: 32093 checks completed, API healthy
+[2026-03-07 00:27:54] Status check: 32099 checks completed, API healthy
+[2026-03-07 00:28:54] Status check: 32105 checks completed, API healthy
+[2026-03-07 00:29:54] Status check: 32111 checks completed, API healthy
+[2026-03-07 00:30:54] Status check: 32117 checks completed, API healthy
+[2026-03-07 00:31:55] Status check: 32123 checks completed, API healthy
+[2026-03-07 00:32:30] ERROR: Alert check failed (attempt 1/3)
+[2026-03-07 00:32:44] ERROR: Alert check failed (attempt 2/3)
+[2026-03-07 00:33:02] ERROR: Alert check failed (attempt 3/3)
+not authenticated; run `wacli auth`
+[2026-03-07 00:33:12] ERROR: Alert check failed (attempt 1/3)
+[2026-03-07 00:33:12] Status check: 32129 checks completed, API healthy
+[2026-03-07 00:33:22] ERROR: Alert check failed (attempt 2/3)
+[2026-03-07 00:34:13] Status check: 32135 checks completed, API healthy
+[2026-03-07 00:35:13] Status check: 32141 checks completed, API healthy
+[2026-03-07 00:36:13] Status check: 32147 checks completed, API healthy
+[2026-03-07 00:37:13] Status check: 32153 checks completed, API healthy
