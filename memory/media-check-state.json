@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-06T14:26:00+02:00",
+  "lastCheck": "2026-03-06T14:36:00+02:00",
   "lastCheckStatus": "no_changes",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -14,7 +14,7 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 36,
+      "episodeFileCount": 0,
       "status": "deleted",
       "lastNotified": "2026-03-06T13:26:00+02:00"
     },
