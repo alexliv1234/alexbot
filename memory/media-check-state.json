@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-06T14:56:00+02:00",
-  "lastCheckStatus": "no_changes",
+  "lastCheck": "2026-03-06T15:06:00+02:00",
+  "lastCheckStatus": "new_content_notified",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
     35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
@@ -14,9 +14,10 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 0,
+      "episodeFileCount": 36,
       "status": "deleted",
-      "lastNotified": "2026-03-06T13:26:00+02:00"
+      "lastNotified": "2026-03-06T15:06:00+02:00",
+      "notificationSent": "Star Trek Discovery returned with 36 episodes (46.9 GB)"
     },
     "star-trek-strange-new-worlds": {
       "id": 2,
