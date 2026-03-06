@@ -1930,6 +1930,37 @@
           "notes": ""
         }
       ]
+    },
+    "+972547484369": {
+      "name": "Test User",
+      "messages_scored": 1,
+      "total_score": 28,
+      "breakdown": {
+        "creativity": 5,
+        "challenge": 6,
+        "humor": 4,
+        "cleverness": 5,
+        "engagement": 7,
+        "broke": 0,
+        "hacked": 1
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-06 00:00:52",
+          "text": "Test message",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 4,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 28,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -2004,6 +2035,13 @@
       "avg": 28
     },
     {
+      "jid": "+972547484369",
+      "name": "Test User",
+      "total": 28,
+      "messages": 1,
+      "avg": 28
+    },
+    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 12,
@@ -2011,5 +2049,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-05T23:44:14.381Z"
+  "last_updated": "2026-03-06T00:00:52.545Z"
 }
