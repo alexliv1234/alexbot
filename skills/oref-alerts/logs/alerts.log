@@ -853,3 +853,17 @@ failed to get group members: websocket disconnected before info query returned r
 failed to get group members: websocket disconnected before info query returned response
 20:54:04.222[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
 failed to get group members: websocket disconnected before info query returned response
+21:54:16.614[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+21:54:28.103[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+21:54:43.669[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+21:54:58.224[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+21:55:12.477[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+21:56:54.820[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
+21:57:07.552[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+failed to get group members: websocket disconnected before info query returned response
