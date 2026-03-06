@@ -8404,3 +8404,26 @@ not authenticated; run `wacli auth`
 [2026-03-07 00:35:13] Status check: 32141 checks completed, API healthy
 [2026-03-07 00:36:13] Status check: 32147 checks completed, API healthy
 [2026-03-07 00:37:13] Status check: 32153 checks completed, API healthy
+[2026-03-07 00:38:04] ERROR: Alert check failed (attempt 1/3)
+[2026-03-07 00:38:14] ERROR: Alert check failed (attempt 2/3)
+[2026-03-07 00:38:14] Status check: 32159 checks completed, API healthy
+[2026-03-07 00:38:24] ERROR: Alert check failed (attempt 3/3)
+not authenticated; run `wacli auth`
+[2026-03-07 00:38:34] ERROR: Alert check failed (attempt 1/3)
+[2026-03-07 00:38:44] ERROR: Alert check failed (attempt 2/3)
+[2026-03-07 00:38:54] ERROR: Alert check failed (attempt 3/3)
+not authenticated; run `wacli auth`
+[2026-03-07 00:39:04] ERROR: Alert check failed (attempt 1/3)
+[2026-03-07 00:39:14] ERROR: Alert check failed (attempt 2/3)
+[2026-03-07 00:39:14] Status check: 32165 checks completed, API healthy
+[2026-03-07 00:39:24] ERROR: Alert check failed (attempt 3/3)
+not authenticated; run `wacli auth`
+[2026-03-07 00:39:34] ERROR: Alert check failed (attempt 1/3)
+[2026-03-07 00:40:15] Status check: 32171 checks completed, API healthy
+[2026-03-07 00:41:15] Status check: 32177 checks completed, API healthy
+[2026-03-07 00:42:15] Status check: 32183 checks completed, API healthy
+[2026-03-07 00:43:15] Status check: 32189 checks completed, API healthy
+[2026-03-07 00:44:16] Status check: 32195 checks completed, API healthy
+[2026-03-07 00:45:16] Status check: 32201 checks completed, API healthy
+[2026-03-07 00:46:16] Status check: 32207 checks completed, API healthy
+[2026-03-07 00:47:16] Status check: 32213 checks completed, API healthy
