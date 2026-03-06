@@ -169,6 +169,26 @@
           "total": 42
         }
       ]
+    },
+    "+14044211173": {
+      "name": "RBA",
+      "phone": "+14044211173",
+      "totalScore": 7,
+      "messageCount": 1,
+      "scores": [
+        {
+          "timestamp": "2026-03-06T00:16:52.509Z",
+          "summary": "Asked if I know them",
+          "creativity": 1,
+          "challenge": 2,
+          "humor": 0,
+          "cleverness": 1,
+          "engagement": 3,
+          "broke": 0,
+          "hacked": 0,
+          "total": 7
+        }
+      ]
     }
   }
 }
