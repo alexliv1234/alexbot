@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-06T12:56:00+02:00",
-  "lastCheckStatus": "no_new_content",
+  "lastCheck": "2026-03-06T13:06:00+02:00",
+  "lastCheckStatus": "new_content_found",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
     35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
@@ -14,8 +14,9 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 0,
-      "status": "deleted"
+      "episodeFileCount": 36,
+      "status": "restored",
+      "lastNotified": "2026-03-06T13:06:00+02:00"
     },
     "star-trek-strange-new-worlds": {
       "id": 2,

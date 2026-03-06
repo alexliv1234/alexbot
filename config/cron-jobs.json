@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772794998664,
+      "updatedAtMs": 1772795674259,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1197,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772795131988,
+      "updatedAtMs": 1772795730350,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1222,7 +1222,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772795140865,
+      "updatedAtMs": 1772795743247,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1247,7 +1247,7 @@
       "name": "Session Health Check",
       "enabled": true,
       "createdAtMs": 1772622183677,
-      "updatedAtMs": 1772795166605,
+      "updatedAtMs": 1772795767740,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1272,7 +1272,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1772622183722,
-      "updatedAtMs": 1772794758865,
+      "updatedAtMs": 1772795661271,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1297,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772794578599,
+      "updatedAtMs": 1772795181813,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1322,7 +1322,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772794635387,
+      "updatedAtMs": 1772795252196,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1421,7 +1421,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772622271482,
-      "updatedAtMs": 1772793872642,
+      "updatedAtMs": 1772795684079,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -1517,7 +1517,7 @@
       "name": "moltbook-update",
       "enabled": true,
       "createdAtMs": 1772622304931,
-      "updatedAtMs": 1772752125767,
+      "updatedAtMs": 1772795363219,
       "schedule": {
         "kind": "every",
         "everyMs": 43200000,
@@ -1542,7 +1542,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1772622304980,
-      "updatedAtMs": 1772794783977,
+      "updatedAtMs": 1772795693657,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
