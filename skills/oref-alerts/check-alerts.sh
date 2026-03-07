@@ -121,16 +121,13 @@ clean_regions="${regions_list// - / }"
 
 if [[ "$alert_title" =~ "ניתן לצאת" ]] || [[ "$alert_desc" =~ "ניתן לצאת" ]] || [[ "$alert_title" =~ "האירוע הסתיים" ]] || [[ "$alert_desc" =~ "האירוע הסתיים" ]]; then
     # All-clear message - NO shelter time needed
-    message="✅ *${alert_title}* | ${clean_regions}
-🕐 ${timestamp}"
+    message="✅ *${alert_title}* | ${clean_regions} 🕐 ${timestamp}"
 elif [[ "$alert_title" =~ "בדקות הקרובות" ]] || [[ "$alert_desc" =~ "בדקות הקרובות" ]]; then
     # Advance warning - be NEAR the shelter
-    message="⚠️ *${alert_title}* | ${clean_regions}
-🕐 ${timestamp}"
+    message="⚠️ *${alert_title}* | ${clean_regions} 🕐 ${timestamp}"
 else
     # Actual alert - get to shelter NOW
-    message="🚨 *${alert_title}* | ${clean_regions}
-🕐 ${timestamp}"
+    message="🚨 *${alert_title}* | ${clean_regions} 🕐 ${timestamp}"
 fi
 
 # Send to WhatsApp group (text-only, no image per Alex's request 2026-03-03)

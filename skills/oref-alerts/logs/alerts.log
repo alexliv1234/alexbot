@@ -1076,3 +1076,14 @@ Sent to 972507652692-1560697670@g.us (id 3EB020F2F57D4B8EB15003)
 [2026-03-07 20:35:56] DUPLICATE SKIPPED: 134173821380000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-07 20:36:04] DUPLICATE SKIPPED: 134173821380000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-07 20:36:14] DUPLICATE SKIPPED: 134173821630000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 20:36:24] DUPLICATE SKIPPED: 134173821750000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 20:36:32] DUPLICATE SKIPPED: 134173821830000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+20:47:37.069[31m [Client ERROR] Failed to handle retry receipt for 972507652692-1560697670@g.us/3EB03D181AFC23E940AC2F from 161258976374818:16@lid: couldn't find message 3EB03D181AFC23E940AC2F[0m
+20:47:37.600[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+20:47:37.946[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+20:47:38.299[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+20:47:39.792[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+Sent to 972507652692-1560697670@g.us (id 3EB03BEDD27CA58A702A32)
+[2026-03-07 20:47:40] ALERT SENT: 134173828420000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 20:47:40] Alert processed: 134173828420000000
+[2026-03-07 20:48:25] DUPLICATE SKIPPED: 134173828960000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
