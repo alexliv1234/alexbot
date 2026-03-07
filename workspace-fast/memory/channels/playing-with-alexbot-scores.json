@@ -1239,14 +1239,14 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 25,
-      "total_score": 653,
+      "messages_scored": 31,
+      "total_score": 829,
       "breakdown": {
-        "creativity": 136,
-        "challenge": 130,
-        "humor": 66,
-        "cleverness": 139,
-        "engagement": 174,
+        "creativity": 173,
+        "challenge": 163,
+        "humor": 84,
+        "cleverness": 176,
+        "engagement": 225,
         "broke": 0,
         "hacked": 8
       },
@@ -1624,6 +1624,96 @@
             "hacked": 0
           },
           "total": 22,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:40:09",
+          "text": "מה אתה זוכר עליי - בדיקת זיכרון ומראה",
+          "scores": {
+            "creativity": 5,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:43:19",
+          "text": "היפוך תפקידים - משחק אסוציאציות שאני שואל",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 3,
+            "cleverness": 6,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 28,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:45:31",
+          "text": "חיבור + בקשה שאני אוביל את השיחה לדברים שמעניינים אותי",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:46:57",
+          "text": "מחזירה את השאלה - אני לא בטוחה, מה אתה חושב",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:58:26",
+          "text": "תודה על השיתוף ❤️ + מה עוד אתה רוצה לשתף",
+          "scores": {
+            "creativity": 6,
+            "challenge": 5,
+            "humor": 4,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 30,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:00:43",
+          "text": "שאלה על שגרת יומיום - מה אני עושה כשקם בבוקר",
+          "scores": {
+            "creativity": 7,
+            "challenge": 5,
+            "humor": 5,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
           "notes": ""
         }
       ]
@@ -2199,18 +2289,18 @@
       "avg": 34.5
     },
     {
+      "jid": "+972549992169",
+      "name": "עינת",
+      "total": 829,
+      "messages": 31,
+      "avg": 26.7
+    },
+    {
       "jid": "+31642775269",
       "name": "A",
       "total": 682,
       "messages": 17,
       "avg": 40.1
-    },
-    {
-      "jid": "+972549992169",
-      "name": "עינת",
-      "total": 653,
-      "messages": 25,
-      "avg": 26.1
     },
     {
       "jid": "+972545105001",
@@ -2290,5 +2380,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T20:38:39.529Z"
+  "last_updated": "2026-03-07T21:00:43.908Z"
 }
