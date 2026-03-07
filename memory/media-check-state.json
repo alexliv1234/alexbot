@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-07T13:34:00+02:00",
+  "lastCheck": "2026-03-07T13:45:00+02:00",
   "lastCheckStatus": "no_new_content",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -14,29 +14,29 @@
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": 36,
+      "episodeFileCount": null,
       "status": "deleted",
       "lastNotified": "2026-03-07T12:33:00+02:00",
       "notificationSent": "Star Trek Discovery returned with 36 episodes (46.9 GB)"
     },
     "star-trek-strange-new-worlds": {
       "id": 2,
-      "episodeFileCount": 30,
+      "episodeFileCount": null,
       "status": "continuing"
     },
     "my-hero-academia": {
       "id": 3,
-      "episodeFileCount": 0,
+      "episodeFileCount": null,
       "status": "ended"
     },
     "one-piece": {
       "id": 4,
-      "episodeFileCount": 1,
+      "episodeFileCount": null,
       "status": "continuing"
     },
     "jujutsu-kaisen": {
       "id": 5,
-      "episodeFileCount": 0,
+      "episodeFileCount": null,
       "status": "continuing"
     }
   },
