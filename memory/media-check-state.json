@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-07T13:45:00+02:00",
+  "lastCheck": "2026-03-07T13:58:00+02:00",
   "lastCheckStatus": "no_new_content",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -7,36 +7,35 @@
     51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66,
     67, 68, 69, 70, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85,
     86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
-    101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113,
-    114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 297
+    101, 102, 103, 297
   ],
   "notifiedMovies": [2, 3],
   "knownSeries": {
     "star-trek-discovery": {
       "id": 1,
-      "episodeFileCount": null,
+      "episodeFileCount": 36,
       "status": "deleted",
       "lastNotified": "2026-03-07T12:33:00+02:00",
       "notificationSent": "Star Trek Discovery returned with 36 episodes (46.9 GB)"
     },
     "star-trek-strange-new-worlds": {
       "id": 2,
-      "episodeFileCount": null,
+      "episodeFileCount": 30,
       "status": "continuing"
     },
     "my-hero-academia": {
       "id": 3,
-      "episodeFileCount": null,
+      "episodeFileCount": 0,
       "status": "ended"
     },
     "one-piece": {
       "id": 4,
-      "episodeFileCount": null,
+      "episodeFileCount": 1,
       "status": "continuing"
     },
     "jujutsu-kaisen": {
       "id": 5,
-      "episodeFileCount": null,
+      "episodeFileCount": 0,
       "status": "continuing"
     }
   },
