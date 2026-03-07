@@ -12,3 +12,5 @@
 {"timestamp":"2026-03-06T05:30:17Z","action":"send_message","type":"learning-question","passed":true}
 {"timestamp":"2026-03-07T05:30:17Z","action":"send_message","type":"learning-question","target":"+972544419002","check_run":true}
 {"timestamp":"2026-03-07T05:30:17Z","action":"send_message","type":"learning-question","passed":true}
+{"timestamp":"2026-03-07T11:01:07Z","action":"send_message","type":"learning_question","target":"+972544419002","check_run":true}
+{"timestamp":"2026-03-07T11:01:07Z","action":"send_message","type":"learning_question","passed":true}
