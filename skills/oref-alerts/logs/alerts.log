@@ -1087,3 +1087,16 @@ Sent to 972507652692-1560697670@g.us (id 3EB03BEDD27CA58A702A32)
 [2026-03-07 20:47:40] ALERT SENT: 134173828420000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
 [2026-03-07 20:47:40] Alert processed: 134173828420000000
 [2026-03-07 20:48:25] DUPLICATE SKIPPED: 134173828960000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+21:46:26.418[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:46:26.881[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:46:27.080[31m [Client ERROR] Failed to handle retry receipt for 972507652692-1560697670@g.us/3EB0645A1CA19E323664BE from 161258976374818:16@lid: couldn't find message 3EB0645A1CA19E323664BE[0m
+21:46:27.133[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:46:27.601[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:46:27.873[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:46:28.363[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:46:29.442[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+Sent to 972507652692-1560697670@g.us (id 3EB050BD452E7BF3B8F2E2)
+[2026-03-07 21:46:29] ALERT SENT: 134173863730000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 21:46:29] Alert processed: 134173863730000000
+[2026-03-07 21:47:15] DUPLICATE SKIPPED: 134173864310000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:47:25] DUPLICATE SKIPPED: 134173864360000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
