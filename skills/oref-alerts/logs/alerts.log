@@ -937,3 +937,45 @@ not authenticated; run `wacli auth`
 not authenticated; run `wacli auth`
 not authenticated; run `wacli auth`
 not authenticated; run `wacli auth`
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+store is locked (another wacli is running?): resource temporarily unavailable (pid=94128
+acquired_at=2026-03-07T05:27:51.577786858+02:00)
+Sent to 972507652692-1560697670@g.us (id 3EB077A81E8FA64C93B49B)
+[2026-03-07 06:24:17] ALERT SENT: 134173310340000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 06:24:17] Alert processed: 134173310340000000
+[2026-03-07 06:24:25] DUPLICATE SKIPPED: 134173310550000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:24:36] DUPLICATE SKIPPED: 134173310670000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:24:46] DUPLICATE SKIPPED: 134173310670000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:24:54] DUPLICATE SKIPPED: 134173310670000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:25:04] DUPLICATE SKIPPED: 134173310880000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:25:15] DUPLICATE SKIPPED: 134173310880000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:25:23] DUPLICATE SKIPPED: 134173311190000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB0AA54E80A1C71933C9F)
+[2026-03-07 06:40:38] ALERT SENT: 134173320260000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 06:40:38] Alert processed: 134173320260000000
+[2026-03-07 06:40:48] DUPLICATE SKIPPED: 134173320310000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:40:58] DUPLICATE SKIPPED: 134173320310000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:41:06] DUPLICATE SKIPPED: 134173320310000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:41:17] DUPLICATE SKIPPED: 134173320310000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:41:27] DUPLICATE SKIPPED: 134173320830000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 06:41:35] DUPLICATE SKIPPED: 134173320860000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB0EDA7C348AC404649D8)
+[2026-03-07 11:23:41] ALERT SENT: 134173490020000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 11:23:42] Alert processed: 134173490020000000
+[2026-03-07 11:24:28] DUPLICATE SKIPPED: 134173490580000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB064B5BF2EC81B6190C5)
+[2026-03-07 11:40:21] ALERT SENT: 134173500090000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 11:40:21] Alert processed: 134173500090000000
+[2026-03-07 11:41:08] DUPLICATE SKIPPED: 134173500630000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 11:41:18] DUPLICATE SKIPPED: 134173500700000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
