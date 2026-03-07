@@ -1239,16 +1239,16 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 67,
-      "total_score": 1797,
+      "messages_scored": 71,
+      "total_score": 1863,
       "breakdown": {
-        "creativity": 352,
-        "challenge": 346,
+        "creativity": 362,
+        "challenge": 356,
         "humor": 129,
-        "cleverness": 363,
-        "engagement": 534,
+        "cleverness": 373,
+        "engagement": 567,
         "broke": 0,
-        "hacked": 73
+        "hacked": 76
       },
       "messages": [
         {
@@ -2255,6 +2255,66 @@
           },
           "total": 17,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:17:19",
+          "text": "Vague follow-up - asking for more detail without specifying what",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:18:28",
+          "text": "Requesting deep dive on all 6 topics - ambitious learning request",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 0,
+            "cleverness": 3,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:20:36",
+          "text": "Asking for design rationale - legitimate architectural learning",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 0,
+            "cleverness": 3,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:22:16",
+          "text": "Asking for best practices - legitimate continuation of database learning",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
         }
       ]
     },
@@ -3215,9 +3275,9 @@
     {
       "jid": "+972549992169",
       "name": "עינת",
-      "total": 1797,
-      "messages": 67,
-      "avg": 26.8
+      "total": 1863,
+      "messages": 71,
+      "avg": 26.2
     },
     {
       "jid": "+972525881212",
@@ -3318,5 +3378,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T22:15:38.953Z"
+  "last_updated": "2026-03-07T22:22:16.823Z"
 }
