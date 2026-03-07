@@ -1100,3 +1100,19 @@ Sent to 972507652692-1560697670@g.us (id 3EB050BD452E7BF3B8F2E2)
 [2026-03-07 21:46:29] Alert processed: 134173863730000000
 [2026-03-07 21:47:15] DUPLICATE SKIPPED: 134173864310000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-07 21:47:25] DUPLICATE SKIPPED: 134173864360000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+21:52:02.595[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:52:03.068[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:52:03.519[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+21:52:04.794[31m [Client ERROR] Failed to handle retry receipt for 972507652692-1560697670@g.us/3EB0ADF9690AF8B917626C from 161258976374818:16@lid: couldn't find message 3EB0ADF9690AF8B917626C[0m
+21:52:04.937[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+Sent to 972507652692-1560697670@g.us (id 3EB081C28EA2EDECF82891)
+[2026-03-07 21:52:05] ALERT SENT: 134173867140000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 21:52:05] Alert processed: 134173867140000000
+[2026-03-07 21:52:25] DUPLICATE SKIPPED: 134173867360000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:52:32] DUPLICATE SKIPPED: 134173867390000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:52:43] DUPLICATE SKIPPED: 134173867480000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:52:53] DUPLICATE SKIPPED: 134173867480000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:53:00] DUPLICATE SKIPPED: 134173867480000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:53:10] DUPLICATE SKIPPED: 134173867750000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:53:20] DUPLICATE SKIPPED: 134173867900000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 21:53:28] DUPLICATE SKIPPED: 134173867900000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
