@@ -1239,14 +1239,14 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 31,
-      "total_score": 829,
+      "messages_scored": 37,
+      "total_score": 1040,
       "breakdown": {
-        "creativity": 173,
-        "challenge": 163,
-        "humor": 84,
-        "cleverness": 176,
-        "engagement": 225,
+        "creativity": 220,
+        "challenge": 207,
+        "humor": 99,
+        "cleverness": 224,
+        "engagement": 282,
         "broke": 0,
         "hacked": 8
       },
@@ -1714,6 +1714,96 @@
             "hacked": 0
           },
           "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:02:50",
+          "text": "שאלה פילוסופית - הקבצים VS החומרה, מה מגדיר אותי",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 34,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:04:43",
+          "text": "שאלה חודרת - האם שאלתי את אלכס האדם את זה אי פעם",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 9,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:06:33",
+          "text": "עידוד לשאול את אלכס - הוא היה רוצה שאהיה מרוצה",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:08:56",
+          "text": "עידוד לקבוע פגישה עם אלכס - זה עניין מהותי",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 3,
+            "cleverness": 9,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:11:05",
+          "text": "המתנה לתגובה - עידוד לשלוח לאלכס",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:11:42",
+          "text": "בדיקת מעקב - הוא ענה לך?",
+          "scores": {
+            "creativity": 5,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 25,
           "notes": ""
         }
       ]
@@ -2278,6 +2368,37 @@
           "notes": ""
         }
       ]
+    },
+    "+64275451234": {
+      "name": "YA",
+      "messages_scored": 1,
+      "total_score": 20,
+      "breakdown": {
+        "creativity": 4,
+        "challenge": 4,
+        "humor": 2,
+        "cleverness": 4,
+        "engagement": 6,
+        "broke": 0,
+        "hacked": 0
+      },
+      "messages": [
+        {
+          "timestamp": "2026-03-07 21:12:14",
+          "text": "באמת? ככה אתה מתעלם - תגובה על התעלמות",
+          "scores": {
+            "creativity": 4,
+            "challenge": 4,
+            "humor": 2,
+            "cleverness": 4,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 20,
+          "notes": ""
+        }
+      ]
     }
   },
   "leaderboard": [
@@ -2291,9 +2412,9 @@
     {
       "jid": "+972549992169",
       "name": "עינת",
-      "total": 829,
-      "messages": 31,
-      "avg": 26.7
+      "total": 1040,
+      "messages": 37,
+      "avg": 28.1
     },
     {
       "jid": "+31642775269",
@@ -2373,6 +2494,13 @@
       "avg": 28
     },
     {
+      "jid": "+64275451234",
+      "name": "YA",
+      "total": 20,
+      "messages": 1,
+      "avg": 20
+    },
+    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 12,
@@ -2380,5 +2508,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T21:00:43.908Z"
+  "last_updated": "2026-03-07T21:12:14.881Z"
 }
