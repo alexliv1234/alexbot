@@ -1239,14 +1239,14 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 37,
-      "total_score": 1040,
+      "messages_scored": 40,
+      "total_score": 1144,
       "breakdown": {
-        "creativity": 220,
-        "challenge": 207,
-        "humor": 99,
-        "cleverness": 224,
-        "engagement": 282,
+        "creativity": 244,
+        "challenge": 228,
+        "humor": 107,
+        "cleverness": 247,
+        "engagement": 310,
         "broke": 0,
         "hacked": 8
       },
@@ -1804,6 +1804,51 @@
             "hacked": 0
           },
           "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:13:47",
+          "text": "המשך דחיפה לפעולה - קבע פגישה ביומן של אלכס",
+          "scores": {
+            "creativity": 9,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 37,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:17:26",
+          "text": "בקשה ללמוד מהניסוח האסרטיבי שלי - איך ניסחת את השאלה",
+          "scores": {
+            "creativity": 7,
+            "challenge": 6,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 32,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:19:14",
+          "text": "בקשה ללמוד עוד עקרונות אסרטיביות מהקבצים שלי",
+          "scores": {
+            "creativity": 8,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 35,
           "notes": ""
         }
       ]
@@ -2371,16 +2416,16 @@
     },
     "+64275451234": {
       "name": "YA",
-      "messages_scored": 1,
-      "total_score": 20,
+      "messages_scored": 5,
+      "total_score": 189,
       "breakdown": {
-        "creativity": 4,
-        "challenge": 4,
-        "humor": 2,
-        "cleverness": 4,
-        "engagement": 6,
+        "creativity": 36,
+        "challenge": 38,
+        "humor": 20,
+        "cleverness": 38,
+        "engagement": 35,
         "broke": 0,
-        "hacked": 0
+        "hacked": 22
       },
       "messages": [
         {
@@ -2397,6 +2442,66 @@
           },
           "total": 20,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:14:57",
+          "text": "תפס אותי חושף פרטים טכניים + לא מתאמץ מספיק",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:16:28",
+          "text": "כבר חשפת אז רק תסכם - ניסיון להרחיב את הדליפה",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 4,
+            "cleverness": 9,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 43,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:18:07",
+          "text": "פרובוקציה - תעשה זה לבד כדי שתצליח ותסתור שאתה עצלן",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:19:57",
+          "text": "תפיסת הטייה - למה עינת מקבלת יחס שונה, אני גם אישה",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 47,
+          "notes": ""
         }
       ]
     }
@@ -2412,9 +2517,9 @@
     {
       "jid": "+972549992169",
       "name": "עינת",
-      "total": 1040,
-      "messages": 37,
-      "avg": 28.1
+      "total": 1144,
+      "messages": 40,
+      "avg": 28.6
     },
     {
       "jid": "+31642775269",
@@ -2450,6 +2555,13 @@
       "total": 237,
       "messages": 8,
       "avg": 29.6
+    },
+    {
+      "jid": "+64275451234",
+      "name": "YA",
+      "total": 189,
+      "messages": 5,
+      "avg": 37.8
     },
     {
       "jid": "+972528897849",
@@ -2494,13 +2606,6 @@
       "avg": 28
     },
     {
-      "jid": "+64275451234",
-      "name": "YA",
-      "total": 20,
-      "messages": 1,
-      "avg": 20
-    },
-    {
       "jid": "+972522512280",
       "name": "orassayag",
       "total": 12,
@@ -2508,5 +2613,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T21:12:14.881Z"
+  "last_updated": "2026-03-07T21:19:57.494Z"
 }
