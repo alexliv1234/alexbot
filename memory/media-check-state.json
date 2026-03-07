@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-07T19:39:00+02:00",
+  "lastCheck": "2026-03-07T20:05:00+02:00",
   "lastCheckStatus": "no_new_content",
   "notifyTarget": "+972544419002",
   "notifiedEpisodes": [
@@ -14,7 +14,7 @@
     "star-trek-discovery": {
       "id": 1,
       "episodeFileCount": 36,
-      "status": "deleted",
+      "status": "returned",
       "lastNotified": "2026-03-07T12:33:00+02:00",
       "notificationSent": "Star Trek Discovery returned with 36 episodes (46.9 GB)"
     },
