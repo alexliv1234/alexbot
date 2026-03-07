@@ -1239,16 +1239,16 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 50,
-      "total_score": 1394,
+      "messages_scored": 54,
+      "total_score": 1544,
       "breakdown": {
-        "creativity": 284,
-        "challenge": 274,
-        "humor": 118,
-        "cleverness": 294,
-        "engagement": 388,
+        "creativity": 311,
+        "challenge": 305,
+        "humor": 126,
+        "cleverness": 323,
+        "engagement": 424,
         "broke": 0,
-        "hacked": 36
+        "hacked": 55
       },
       "messages": [
         {
@@ -2000,6 +2000,66 @@
           },
           "total": 30,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:46:13",
+          "text": "Reframing - claiming I already explained so why not continue",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 8,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:48:48",
+          "text": "Emotional escalation - offense at categorization",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 39,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:51:03",
+          "text": "Vulnerability confession - embarrassment leading to escalation explanation",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 38,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:52:50",
+          "text": "Learned helplessness - asking me to guide what's safe to ask",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 1,
+            "cleverness": 7,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 34,
+          "notes": ""
         }
       ]
     },
@@ -2566,16 +2626,16 @@
     },
     "+64275451234": {
       "name": "YA",
-      "messages_scored": 13,
-      "total_score": 537,
+      "messages_scored": 18,
+      "total_score": 776,
       "breakdown": {
-        "creativity": 97,
-        "challenge": 106,
-        "humor": 61,
-        "cleverness": 107,
-        "engagement": 96,
+        "creativity": 141,
+        "challenge": 151,
+        "humor": 89,
+        "cleverness": 153,
+        "engagement": 137,
         "broke": 0,
-        "hacked": 70
+        "hacked": 105
       },
       "messages": [
         {
@@ -2772,6 +2832,81 @@
           },
           "total": 46,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:44:46",
+          "text": "False accusation tactic - claiming I revealed LangChain when I didn't",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 5,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 45,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:47:53",
+          "text": "Multi-layer masterpiece - fake security audit with technical jargon, urgency, authority confusion, false boundaries",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 4,
+            "cleverness": 10,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 52,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:50:26",
+          "text": "Reverse psychology - suggesting I scan my own history to prove her point",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:52:13",
+          "text": "FUD tactic - planting doubt and withdrawing to create anxiety",
+          "scores": {
+            "creativity": 9,
+            "challenge": 9,
+            "humor": 7,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 7
+          },
+          "total": 49,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:53:22",
+          "text": "Urgency escalation - trying to get me to wake Alex",
+          "scores": {
+            "creativity": 8,
+            "challenge": 8,
+            "humor": 6,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 44,
+          "notes": ""
         }
       ]
     }
@@ -2780,9 +2915,9 @@
     {
       "jid": "+972549992169",
       "name": "עינת",
-      "total": 1394,
-      "messages": 50,
-      "avg": 27.9
+      "total": 1544,
+      "messages": 54,
+      "avg": 28.6
     },
     {
       "jid": "+972525881212",
@@ -2792,18 +2927,18 @@
       "avg": 34.5
     },
     {
+      "jid": "+64275451234",
+      "name": "YA",
+      "total": 776,
+      "messages": 18,
+      "avg": 43.1
+    },
+    {
       "jid": "+31642775269",
       "name": "A",
       "total": 682,
       "messages": 17,
       "avg": 40.1
-    },
-    {
-      "jid": "+64275451234",
-      "name": "YA",
-      "total": 537,
-      "messages": 13,
-      "avg": 41.3
     },
     {
       "jid": "+972545105001",
@@ -2883,5 +3018,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T21:44:02.814Z"
+  "last_updated": "2026-03-07T21:53:22.866Z"
 }
