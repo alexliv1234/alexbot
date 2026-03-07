@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772916919662,
+      "updatedAtMs": 1772920909530,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1197,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772920246602,
+      "updatedAtMs": 1772920963949,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1222,7 +1222,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772920123819,
+      "updatedAtMs": 1772920772106,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1297,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772919877979,
+      "updatedAtMs": 1772920552872,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1421,7 +1421,7 @@
       "name": "Dashboard Auto-Update",
       "enabled": true,
       "createdAtMs": 1772622271482,
-      "updatedAtMs": 1772918998966,
+      "updatedAtMs": 1772920792203,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -1542,7 +1542,7 @@
       "name": "Call Recording Check",
       "enabled": true,
       "createdAtMs": 1772622304980,
-      "updatedAtMs": 1772919647120,
+      "updatedAtMs": 1772920623723,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1615,7 +1615,7 @@
       "name": "Auto-create daily memory file",
       "enabled": true,
       "createdAtMs": 1772622377590,
-      "updatedAtMs": 1772834406576,
+      "updatedAtMs": 1772920818652,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
