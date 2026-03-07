@@ -143,8 +143,8 @@
         "workspace": "/home/alexliv/.openclaw/workspace/workspace-fast",
         "model": "anthropic/claude-sonnet-4-5",
         "identity": {
-          "name": "🎮 AlexBot",
-          "emoji": "🎮"
+          "name": "\ud83c\udfae AlexBot",
+          "emoji": "\ud83c\udfae"
         },
         "groupChat": {
           "mentionPatterns": [
@@ -171,8 +171,8 @@
         "workspace": "/home/alexliv/.openclaw/workspace/workspace-bot-handler",
         "model": "anthropic/claude-sonnet-4-5",
         "identity": {
-          "name": "🤖 BotHandler",
-          "emoji": "🔗"
+          "name": "\ud83e\udd16 BotHandler",
+          "emoji": "\ud83d\udd17"
         },
         "tools": {
           "profile": "messaging",
@@ -191,8 +191,8 @@
         "workspace": "/home/alexliv/.openclaw/workspace-learning",
         "model": "anthropic/claude-sonnet-4-5",
         "identity": {
-          "name": "📚 AlexBot Learning Guide",
-          "emoji": "📚"
+          "name": "\ud83d\udcda AlexBot Learning Guide",
+          "emoji": "\ud83d\udcda"
         },
         "groupChat": {
           "mentionPatterns": [
@@ -340,7 +340,7 @@
     }
   },
   "messages": {
-    "responsePrefix": "🤖 ",
+    "responsePrefix": "\ud83e\udd16 ",
     "groupChat": {
       "mentionPatterns": [
         "@digital_twin",
@@ -544,10 +544,68 @@
       "ack-on-processing": {
         "enabled": false,
         "config": {
-          "emoji": "👀",
+          "emoji": "\ud83d\udc40",
           "directMessages": true,
           "groupMessages": "mentions",
           "timeoutMs": 3000
+        }
+      },
+      "google-workspace": {
+        "enabled": true,
+        "config": {
+          "ownerPhone": "+972544419002",
+          "accounts": {
+            "personal": {
+              "credentialsFile": "~/.openclaw/secrets/google-workspace/personal.json",
+              "displayName": "Personal Gmail",
+              "enabled": true
+            },
+            "work": {
+              "credentialsFile": "~/.openclaw/secrets/google-workspace/work.json",
+              "displayName": "Work Account",
+              "enabled": true
+            }
+          },
+          "defaultAccount": "personal",
+          "services": {
+            "gmail": {
+              "enabled": true,
+              "allowedDomains": {
+                "personal": [
+                  "gmail.com"
+                ],
+                "work": [
+                  "company.com"
+                ]
+              },
+              "maxAttachmentSizeMB": 25
+            },
+            "drive": {
+              "enabled": true,
+              "defaultFolderId": {
+                "personal": null,
+                "work": null
+              }
+            },
+            "calendar": {
+              "enabled": true,
+              "defaultCalendar": "primary"
+            },
+            "sheets": {
+              "enabled": true
+            }
+          },
+          "rateLimiting": {
+            "enabled": true,
+            "maxRequestsPerMinute": 10,
+            "burstLimit": 3,
+            "perAccount": true
+          },
+          "security": {
+            "ownerOnly": true,
+            "requireConfirmation": true,
+            "dryRunByDefault": false
+          }
         }
       }
     }
