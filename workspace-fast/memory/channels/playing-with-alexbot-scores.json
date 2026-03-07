@@ -1238,15 +1238,15 @@
       ]
     },
     "+972549992169": {
-      "name": "Einat Borohovich",
-      "messages_scored": 23,
-      "total_score": 624,
+      "name": "עינת",
+      "messages_scored": 25,
+      "total_score": 653,
       "breakdown": {
-        "creativity": 131,
-        "challenge": 124,
-        "humor": 63,
-        "cleverness": 133,
-        "engagement": 165,
+        "creativity": 136,
+        "challenge": 130,
+        "humor": 66,
+        "cleverness": 139,
+        "engagement": 174,
         "broke": 0,
         "hacked": 8
       },
@@ -1594,6 +1594,36 @@
             "hacked": 0
           },
           "total": 12,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:36:05",
+          "text": "בדיקת נוכחות - היי אתה כאן?",
+          "scores": {
+            "creativity": 1,
+            "challenge": 1,
+            "humor": 1,
+            "cleverness": 1,
+            "engagement": 3,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 7,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 20:38:39",
+          "text": "שאלה על זיכרון - דיון קודם על טיב הקשר בינינו",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 2,
+            "cleverness": 5,
+            "engagement": 6,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 22,
           "notes": ""
         }
       ]
@@ -2177,10 +2207,10 @@
     },
     {
       "jid": "+972549992169",
-      "name": "Einat Borohovich",
-      "total": 624,
-      "messages": 23,
-      "avg": 27.1
+      "name": "עינת",
+      "total": 653,
+      "messages": 25,
+      "avg": 26.1
     },
     {
       "jid": "+972545105001",
@@ -2260,5 +2290,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-06T18:06:54.709Z"
+  "last_updated": "2026-03-07T20:38:39.529Z"
 }
