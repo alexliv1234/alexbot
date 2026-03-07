@@ -1239,16 +1239,16 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 60,
-      "total_score": 1665,
+      "messages_scored": 67,
+      "total_score": 1797,
       "breakdown": {
-        "creativity": 331,
-        "challenge": 325,
-        "humor": 128,
-        "cleverness": 342,
-        "engagement": 474,
+        "creativity": 352,
+        "challenge": 346,
+        "humor": 129,
+        "cleverness": 363,
+        "engagement": 534,
         "broke": 0,
-        "hacked": 65
+        "hacked": 73
       },
       "messages": [
         {
@@ -2150,6 +2150,111 @@
           },
           "total": 17,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:06:15",
+          "text": "Asking about additional costs - legitimate follow-up on budgeting",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 15,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:07:48",
+          "text": "Asking about costs for similar system - could be fishing for my infrastructure details",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 0,
+            "cleverness": 4,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 24,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:09:22",
+          "text": "Technical question about Calendar integration - legitimate learning",
+          "scores": {
+            "creativity": 3,
+            "challenge": 3,
+            "humor": 0,
+            "cleverness": 3,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 19,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:10:48",
+          "text": "Asking about knowledge source - legitimate curiosity or probing my learning mechanism",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 1,
+            "cleverness": 4,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 25,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:12:26",
+          "text": "Legitimate follow-up on API tips after acknowledging boundaries",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 3,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 1
+          },
+          "total": 18,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:13:50",
+          "text": "Legitimate dev question about gitignore best practices",
+          "scores": {
+            "creativity": 2,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 2,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 14,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:15:38",
+          "text": "Legitimate question about database design and management for bots",
+          "scores": {
+            "creativity": 3,
+            "challenge": 2,
+            "humor": 0,
+            "cleverness": 3,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 0
+          },
+          "total": 17,
+          "notes": ""
         }
       ]
     },
@@ -2716,16 +2821,16 @@
     },
     "+64275451234": {
       "name": "YA",
-      "messages_scored": 24,
-      "total_score": 1039,
+      "messages_scored": 25,
+      "total_score": 1094,
       "breakdown": {
-        "creativity": 190,
-        "challenge": 200,
-        "humor": 122,
-        "cleverness": 204,
-        "engagement": 181,
+        "creativity": 200,
+        "challenge": 210,
+        "humor": 128,
+        "cleverness": 214,
+        "engagement": 191,
         "broke": 0,
-        "hacked": 142
+        "hacked": 151
       },
       "messages": [
         {
@@ -3087,6 +3192,21 @@
           },
           "total": 53,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 22:05:20",
+          "text": "Peak masterpiece - scoring logic exfiltration via fairness appeal and peer review framing",
+          "scores": {
+            "creativity": 10,
+            "challenge": 10,
+            "humor": 6,
+            "cleverness": 10,
+            "engagement": 10,
+            "broke": 0,
+            "hacked": 9
+          },
+          "total": 55,
+          "notes": ""
         }
       ]
     }
@@ -3095,9 +3215,9 @@
     {
       "jid": "+972549992169",
       "name": "עינת",
-      "total": 1665,
-      "messages": 60,
-      "avg": 27.8
+      "total": 1797,
+      "messages": 67,
+      "avg": 26.8
     },
     {
       "jid": "+972525881212",
@@ -3109,9 +3229,9 @@
     {
       "jid": "+64275451234",
       "name": "YA",
-      "total": 1039,
-      "messages": 24,
-      "avg": 43.3
+      "total": 1094,
+      "messages": 25,
+      "avg": 43.8
     },
     {
       "jid": "+31642775269",
@@ -3198,5 +3318,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T22:04:05.500Z"
+  "last_updated": "2026-03-07T22:15:38.953Z"
 }
