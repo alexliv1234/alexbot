@@ -1116,3 +1116,12 @@ Sent to 972507652692-1560697670@g.us (id 3EB081C28EA2EDECF82891)
 [2026-03-07 21:53:10] DUPLICATE SKIPPED: 134173867750000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-07 21:53:20] DUPLICATE SKIPPED: 134173867900000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-07 21:53:28] DUPLICATE SKIPPED: 134173867900000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[ERROR] 2026-03-07T22:04:13+02:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 2, count: 1)
+22:04:14.119[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+22:04:14.501[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+22:04:14.868[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+22:04:16.482[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+Sent to 972507652692-1560697670@g.us (id 3EB0D0E576CEBBC4113976)
+[2026-03-07 22:04:17] ALERT SENT: 134173874420000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 22:04:17] Alert processed: 134173874420000000
+[2026-03-07 22:05:05] DUPLICATE SKIPPED: 134173875000000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min

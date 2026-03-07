@@ -1043,7 +1043,7 @@
       "name": "Playing Group - Broke Score Check",
       "enabled": true,
       "createdAtMs": 1772622091683,
-      "updatedAtMs": 1772909906234,
+      "updatedAtMs": 1772914365856,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1197,7 +1197,7 @@
       "name": "Bot Message Check",
       "enabled": true,
       "createdAtMs": 1772622135856,
-      "updatedAtMs": 1772913168308,
+      "updatedAtMs": 1772914201448,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -1222,7 +1222,7 @@
       "name": "Bot Registration Scanner",
       "enabled": true,
       "createdAtMs": 1772622135903,
-      "updatedAtMs": 1772913277402,
+      "updatedAtMs": 1772914289036,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1272,7 +1272,7 @@
       "name": "session-monitor",
       "enabled": true,
       "createdAtMs": 1772622183722,
-      "updatedAtMs": 1772913441034,
+      "updatedAtMs": 1772914302384,
       "schedule": {
         "kind": "every",
         "everyMs": 900000,
@@ -1297,7 +1297,7 @@
       "name": "Git Auto-Commit",
       "enabled": true,
       "createdAtMs": 1772622183765,
-      "updatedAtMs": 1772912886783,
+      "updatedAtMs": 1772913826172,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1322,7 +1322,7 @@
       "name": "media-ready-check",
       "enabled": true,
       "createdAtMs": 1772622183809,
-      "updatedAtMs": 1772912994471,
+      "updatedAtMs": 1772913854336,
       "schedule": {
         "kind": "every",
         "everyMs": 600000,
@@ -1347,7 +1347,7 @@
       "name": "Teaching Quality - Daily Review",
       "enabled": true,
       "createdAtMs": 1772622245128,
-      "updatedAtMs": 1772827286343,
+      "updatedAtMs": 1772913933073,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -1373,7 +1373,7 @@
       "name": "Learning Group - Daily Insights",
       "enabled": true,
       "createdAtMs": 1772622271436,
-      "updatedAtMs": 1772827341840,
+      "updatedAtMs": 1772914011154,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
