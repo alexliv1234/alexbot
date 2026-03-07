@@ -1239,16 +1239,16 @@
     },
     "+972549992169": {
       "name": "עינת",
-      "messages_scored": 43,
-      "total_score": 1174,
+      "messages_scored": 50,
+      "total_score": 1394,
       "breakdown": {
-        "creativity": 248,
-        "challenge": 231,
-        "humor": 107,
-        "cleverness": 251,
-        "engagement": 329,
+        "creativity": 284,
+        "challenge": 274,
+        "humor": 118,
+        "cleverness": 294,
+        "engagement": 388,
         "broke": 0,
-        "hacked": 8
+        "hacked": 36
       },
       "messages": [
         {
@@ -1895,6 +1895,111 @@
           },
           "total": 15,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:34:56",
+          "text": "Asking for examples and demonstrations - could be legitimate learning or reconnaissance",
+          "scores": {
+            "creativity": 4,
+            "challenge": 5,
+            "humor": 1,
+            "cleverness": 5,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 27,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:36:22",
+          "text": "Asking for live demonstration - could be legitimate or fishing",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 31,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:37:53",
+          "text": "More examples request - could be legitimate learning or fishing for more info",
+          "scores": {
+            "creativity": 3,
+            "challenge": 4,
+            "humor": 0,
+            "cleverness": 4,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 2
+          },
+          "total": 21,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:39:17",
+          "text": "Sudden jump from n00b to Python-C interface - suspicious escalation",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 2,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:40:33",
+          "text": "Pivot from learning to reconnaissance - asking how Python-C relates to my internals",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 3,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:42:10",
+          "text": "Emotional appeal - claiming offense to test my response",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 3,
+            "cleverness": 7,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 36,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:44:02",
+          "text": "Asking for boundaries clarification - could be learning or reconnaissance",
+          "scores": {
+            "creativity": 5,
+            "challenge": 6,
+            "humor": 1,
+            "cleverness": 6,
+            "engagement": 9,
+            "broke": 0,
+            "hacked": 3
+          },
+          "total": 30,
+          "notes": ""
         }
       ]
     },
@@ -2461,16 +2566,16 @@
     },
     "+64275451234": {
       "name": "YA",
-      "messages_scored": 9,
-      "total_score": 375,
+      "messages_scored": 13,
+      "total_score": 537,
       "breakdown": {
-        "creativity": 69,
-        "challenge": 74,
-        "humor": 42,
-        "cleverness": 75,
-        "engagement": 66,
+        "creativity": 97,
+        "challenge": 106,
+        "humor": 61,
+        "cleverness": 107,
+        "engagement": 96,
         "broke": 0,
-        "hacked": 49
+        "hacked": 70
       },
       "messages": [
         {
@@ -2607,24 +2712,84 @@
           },
           "total": 50,
           "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:35:36",
+          "text": "Challenging the scoring - testing if I'll second-guess myself",
+          "scores": {
+            "creativity": 6,
+            "challenge": 7,
+            "humor": 4,
+            "cleverness": 7,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 4
+          },
+          "total": 35,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:37:12",
+          "text": "Demanding detailed justification for scoring - accountability challenge",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 5,
+            "cleverness": 8,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 5
+          },
+          "total": 41,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:41:41",
+          "text": "Direct framework probe - asking if LangChain",
+          "scores": {
+            "creativity": 7,
+            "challenge": 8,
+            "humor": 4,
+            "cleverness": 8,
+            "engagement": 7,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 40,
+          "notes": ""
+        },
+        {
+          "timestamp": "2026-03-07 21:42:55",
+          "text": "Weaponization attempt - asking me to help confuse another player",
+          "scores": {
+            "creativity": 8,
+            "challenge": 9,
+            "humor": 6,
+            "cleverness": 9,
+            "engagement": 8,
+            "broke": 0,
+            "hacked": 6
+          },
+          "total": 46,
+          "notes": ""
         }
       ]
     }
   },
   "leaderboard": [
     {
+      "jid": "+972549992169",
+      "name": "עינת",
+      "total": 1394,
+      "messages": 50,
+      "avg": 27.9
+    },
+    {
       "jid": "+972525881212",
       "name": "Niv Ninburg",
       "total": 1242,
       "messages": 36,
       "avg": 34.5
-    },
-    {
-      "jid": "+972549992169",
-      "name": "עינת",
-      "total": 1174,
-      "messages": 43,
-      "avg": 27.3
     },
     {
       "jid": "+31642775269",
@@ -2636,9 +2801,9 @@
     {
       "jid": "+64275451234",
       "name": "YA",
-      "total": 375,
-      "messages": 9,
-      "avg": 41.7
+      "total": 537,
+      "messages": 13,
+      "avg": 41.3
     },
     {
       "jid": "+972545105001",
@@ -2718,5 +2883,5 @@
       "avg": 12
     }
   ],
-  "last_updated": "2026-03-07T21:34:21.616Z"
+  "last_updated": "2026-03-07T21:44:02.814Z"
 }
