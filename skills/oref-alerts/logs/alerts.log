@@ -979,3 +979,34 @@ Sent to 972507652692-1560697670@g.us (id 3EB064B5BF2EC81B6190C5)
 [2026-03-07 11:40:21] Alert processed: 134173500090000000
 [2026-03-07 11:41:08] DUPLICATE SKIPPED: 134173500630000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
 [2026-03-07 11:41:18] DUPLICATE SKIPPED: 134173500700000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+Sent to 972507652692-1560697670@g.us (id 3EB03D181AFC23E940AC2F)
+[2026-03-07 14:50:03] ALERT SENT: 134173613880000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 14:50:03] Alert processed: 134173613880000000
+[2026-03-07 14:50:58] DUPLICATE SKIPPED: 134173614500000000 | Title: 'בדקות הקרובות צפויות להתקבל התרעות באזורך' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+14:57:02.351[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+14:57:02.885[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+14:57:03.295[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+14:57:03.820[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+14:57:05.298[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+Sent to 972507652692-1560697670@g.us (id 3EB0645A1CA19E323664BE)
+[2026-03-07 14:57:05] ALERT SENT: 134173618100000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 14:57:05] Alert processed: 134173618100000000
+[2026-03-07 14:57:13] DUPLICATE SKIPPED: 134173618120000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:57:23] DUPLICATE SKIPPED: 134173618120000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:57:33] DUPLICATE SKIPPED: 134173618420000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:57:41] DUPLICATE SKIPPED: 134173618530000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:57:51] DUPLICATE SKIPPED: 134173618530000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:58:01] DUPLICATE SKIPPED: 134173618530000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:58:08] DUPLICATE SKIPPED: 134173618800000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:58:19] DUPLICATE SKIPPED: 134173618940000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+[2026-03-07 14:58:28] DUPLICATE SKIPPED: 134173618940000000 | Title: 'ירי רקטות וטילים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
+15:11:15.053[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+15:11:15.316[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+15:11:15.550[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+15:11:15.810[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+15:11:16.039[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+15:11:17.477[31m [Client ERROR] Failed to sync app state after notification: failed to decode app state critical_unblock_low patches: failed to verify patch v1531: mismatching LTHash[0m
+Sent to 972507652692-1560697670@g.us (id 3EB0ADF9690AF8B917626C)
+[2026-03-07 15:11:17] ALERT SENT: 134173626690000000 to 972507652692-1560697670@g.us for regions: ראשון לציון - מערב
+[2026-03-07 15:11:17] Alert processed: 134173626690000000
+[2026-03-07 15:12:13] DUPLICATE SKIPPED: 134173627270000000 | Title: 'האירוע הסתיים' | Regions: ראשון לציון - מערב | Reason: exact match within 2 min
